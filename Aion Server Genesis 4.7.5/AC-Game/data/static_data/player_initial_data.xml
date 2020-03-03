@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player_initial_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="player_initial_data.xsd">
+    <asmodian_spawn_location map_id="120010000" heading="60" x="1685.5403" y="1400.5144" z="195.48616"/>
+    <elyos_spawn_location map_id="110010000" heading="119" x="1313.3353" y="1512.2223" z="568.26025"/>
+    <player_data class="WARRIOR">
+        <items>
+            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="162002002" count="100"/> <!-- Sérum de récupération -->
+            <item id="164002116" count="100"/> <!-- Parchemin de course -->
+            <item id="164002117" count="100"/> <!-- Parchemin de courage -->
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+        </items>
+    </player_data>
+    <player_data class="MAGE">
+        <items>
+            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="162002002" count="100"/> <!-- Sérum de récupération -->
+            <item id="164002116" count="100"/> <!-- Parchemin de course -->
+            <item id="164002117" count="100"/> <!-- Parchemin de courage -->
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+        </items>
+    </player_data>
+    <player_data class="PRIEST">
+        <items>
+            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="162002002" count="100"/> <!-- Sérum de récupération -->
+            <item id="164002116" count="100"/> <!-- Parchemin de course -->
+            <item id="164002117" count="100"/> <!-- Parchemin de courage -->
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+        </items>
+    </player_data>
+    <player_data class="SCOUT">
+        <items>
+            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="162002002" count="100"/> <!-- Sérum de récupération -->
+            <item id="164002116" count="100"/> <!-- Parchemin de course -->
+            <item id="164002117" count="100"/> <!-- Parchemin de courage -->
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+        </items>
+    </player_data>
+    <player_data class="ENGINEER">
+        <items>
+            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="162002002" count="100"/> <!-- Sérum de récupération -->
+            <item id="164002116" count="100"/> <!-- Parchemin de course -->
+            <item id="164002117" count="100"/> <!-- Parchemin de courage -->
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->			
+        </items>
+    </player_data>
+    <player_data class="ARTIST">
+        <items>
+            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="162002002" count="100"/> <!-- Sérum de récupération -->
+            <item id="164002116" count="100"/> <!-- Parchemin de course -->
+            <item id="164002117" count="100"/> <!-- Parchemin de courage -->
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->			
+        </items>
+    </player_data>
+</player_initial_data>
