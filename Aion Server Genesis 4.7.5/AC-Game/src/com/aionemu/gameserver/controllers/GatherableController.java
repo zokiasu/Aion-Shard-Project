@@ -301,12 +301,21 @@ public class GatherableController extends VisibleObjectController<Gatherable> {
         }
     }
 
+    private boolean isHaramel(Gatherable owner) {
+        if(owner.getInstanceId() == 300200000) {
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public void onDespawn() {
         Gatherable owner = getOwner();
-        if (!getOwner().isInInstance()) {
+
+        if (!getOwner().isInInstance() || isHaramel(owner)) {
             RespawnService.scheduleRespawnTask(owner);
         }
+        
         World.getInstance().despawn(owner);
     }
 
