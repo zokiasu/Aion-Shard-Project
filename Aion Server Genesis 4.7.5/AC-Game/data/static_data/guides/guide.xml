@@ -3581,8 +3581,8 @@
         </message>
         <select>I feel the power already!</select>
 		<!-- Noble Ophidan Weapon -->
-        <survey itemId="101801005" count="2"/> <!-- Gun -->
-        <survey itemId="101900969" count="2"/> <!-- Cannon -->
+        <survey itemId="101801007" count="2"/> <!-- Gun -->
+        <survey itemId="101900971" count="2"/> <!-- Cannon -->
         <!-- Officer Armor -->
         <survey itemId="110301559" count="1"/> <!-- Torse -->
         <survey itemId="113301525" count="1"/> <!-- Jambière -->
@@ -3894,8 +3894,8 @@
         </message>
         <select>I feel the power already!</select>
 		<!-- Noble Ophidan Weapon -->
-        <survey itemId="101801005" count="2"/> <!-- Gun -->
-        <survey itemId="101900969" count="2"/> <!-- Cannon -->
+        <survey itemId="101801007" count="2"/> <!-- Gun -->
+        <survey itemId="101900971" count="2"/> <!-- Cannon -->
         <!-- Officer Armor -->
         <survey itemId="110301559" count="1"/> <!-- Torse -->
         <survey itemId="113301525" count="1"/> <!-- Jambière -->
