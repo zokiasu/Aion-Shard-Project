@@ -230,7 +230,7 @@ public class Set extends AdminCommand {
     private void setClass(Player player, PlayerClass oldClass, byte value) {
         PlayerClass playerClass = PlayerClass.getPlayerClassById(value);
         int level = player.getLevel();
-        if (level < 1) {
+        if (level < 9) {
             PacketSendUtility.sendMessage(player, "You can only switch class after reach level 9");
             return;
         }

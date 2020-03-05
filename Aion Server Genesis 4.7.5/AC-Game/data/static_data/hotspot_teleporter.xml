@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<hotspot_teleport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                  xsi:noNamespaceSchemaLocation="hotspot_teleporter.xsd">
+<hotspot_teleport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hotspot_teleporter.xsd">
     <hotspot_template id="13" name="HOTSPOT_LF1_01" mapId="210010000" posX="807.000000" posY="1242.000000"
                       posZ="119.000000" heading="0" race="ELYOS" kinah="44" kinah_dis="0.044000" level="0"/>
     <hotspot_template id="14" name="HOTSPOT_LF1_02" mapId="210010000" posX="560.000000" posY="1382.000000"

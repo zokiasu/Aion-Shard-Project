@@ -263,7 +263,7 @@ public class GatherableController extends VisibleObjectController<Gatherable> {
         state = GatherState.IDLE;
         gatherCount++;
         if (gatherCount == getOwner().getObjectTemplate().getHarvestCount()) {
-            onDespawn();
+            //onDespawn();
         }
     }
 
@@ -310,12 +310,9 @@ public class GatherableController extends VisibleObjectController<Gatherable> {
 
     @Override
     public void onDespawn() {
-        Gatherable owner = getOwner();
 
-        if (!getOwner().isInInstance() || isHaramel(owner)) {
-            RespawnService.scheduleRespawnTask(owner);
-        }
-        
+        Gatherable owner = getOwner();
+        RespawnService.scheduleRespawnTask(owner);
         World.getInstance().despawn(owner);
     }
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<warehouse_expander xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:noNamespaceSchemaLocation="warehouse_expander.xsd">
+<warehouse_expander xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="warehouse_expander.xsd">
     <warehouse_npc id="203199">
         <expand level="1" price="1200"/>
         <expand level="2" price="24000"/>
@@ -9,8 +8,11 @@
         <expand level="5" price="363000"/>
     </warehouse_npc>
     <warehouse_npc id="203221">
+        <expand level="1" price="1200"/>
         <expand level="2" price="24000"/>
         <expand level="3" price="72600"/>
+        <expand level="4" price="181500"/>
+        <expand level="5" price="363000"/>
     </warehouse_npc>
     <warehouse_npc id="203687">
         <expand level="1" price="1200"/>

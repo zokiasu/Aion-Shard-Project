@@ -1441,21 +1441,23 @@
 			<telelocation loc_id="327" price="18175" pricePvp="18175" type="REGULAR"/>
 		</locations>
 	</teleporter_template>
-	<teleporter_template npc_ids="804472 804473" teleportId="966">
+	<teleporter_template npc_ids="0" teleportId="966">
 		<locations>
 			<telelocation loc_id="330" price="10000" pricePvp="10000" type="REGULAR"/>
 		</locations>
 	</teleporter_template>
-	<teleporter_template npc_ids="804474 804475" teleportId="967">
+	<teleporter_template npc_ids="0" teleportId="967">
 		<locations>
 			<telelocation loc_id="331" price="10000" pricePvp="10000" type="REGULAR"/>
 		</locations>
 	</teleporter_template>
-	<teleporter_template npc_ids="0" teleportId="968">
+    <!-- Spawn Asmo Kaldor -->
+	<teleporter_template npc_ids="804566" teleportId="968">
 		<locations>
 			<telelocation loc_id="328" price="10000" pricePvp="10000" type="REGULAR"/>
 		</locations>
 	</teleporter_template>
+    <!-- Spawn Elyos Kaldor -->
 	<teleporter_template npc_ids="0" teleportId="969">
 		<locations>
 			<telelocation loc_id="329" price="10000" pricePvp="10000" type="REGULAR"/>

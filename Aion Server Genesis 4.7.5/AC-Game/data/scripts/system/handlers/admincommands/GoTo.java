@@ -651,7 +651,7 @@ public class GoTo extends AdminCommand {
         } else if (destination.equalsIgnoreCase("76")) {
             goTo(player, 600050000, 1680, 1098, 181);
         } else if (destination.equalsIgnoreCase("77")) {
-            goTo(player, 600050000, 1565, 2263, 174);
+            goTo(player, 600050000, 1871, 2264, 174);
         } else if (destination.equalsIgnoreCase("78")) {
             goTo(player, 600050000, 1898, 1189, 259);
         } else if (destination.equalsIgnoreCase("79")) {

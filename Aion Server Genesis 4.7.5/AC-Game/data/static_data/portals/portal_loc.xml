@@ -188,7 +188,7 @@
     <portal_loc world_id="300460000" loc_id="3004601" x="702.11993" y="500.80948" z="939.60675" h="60"/>
     <!-- Haramel -->
     <portal_loc world_id="300200000" loc_id="3002000" x="172" y="20" z="144.22548" h="60"/>
-    <portal_loc world_id="300200000" loc_id="3002001" x="220" y="213" z="126.68472" h="60"/>
+    <portal_loc world_id="300200000" loc_id="3002001" x="224" y="338" z="142" h="90"/>
     <!-- Chantra Dredgion -->
     <portal_loc world_id="300210000" loc_id="3002100" x="392.62808" y="711.1573" z="401.7698"/>
     <portal_loc world_id="300210000" loc_id="3002101" x="578.1164" y="711.2476" z="401.7698"/>
