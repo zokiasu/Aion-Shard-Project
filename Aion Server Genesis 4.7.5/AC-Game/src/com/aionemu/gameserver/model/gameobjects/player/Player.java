@@ -332,6 +332,8 @@ public class Player extends Creature {
     private int winCount = 0;
     private int arenaRound = 0;
 
+    private int lastMapId = 0;
+
     /**
      * Used for JUnit tests
      */
@@ -380,6 +382,13 @@ public class Player extends Creature {
         PlayerActions.unsetPlayerMode(this, mode);
     }
 
+    public void setLastMapId(int lastMap){
+        lastMapId = lastMap;
+    }
+
+    public int getLastMapId(){
+        return lastMapId;
+    }
     @Override
     public PlayerMoveController getMoveController() {
         return (PlayerMoveController) super.getMoveController();

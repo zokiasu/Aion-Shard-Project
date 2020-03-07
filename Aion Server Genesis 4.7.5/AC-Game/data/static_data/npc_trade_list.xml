@@ -7199,12 +7199,12 @@
 		<tradelist id="5161"/>
 		<tradelist id="5162"/>
 	</tradelist_template>
-	<tradelist_template npc_id="804671" sell_price_rate="700" buy_price_rate="200">
+	<tradelist_template npc_id="804671">
 		<tradelist id="5170"/>
 		<tradelist id="5171"/>
 		<tradelist id="5172"/>
 	</tradelist_template>
-	<tradelist_template npc_id="804672" sell_price_rate="700" buy_price_rate="200">
+	<tradelist_template npc_id="804672">
 		<tradelist id="5166"/>
 		<tradelist id="5167"/>
 		<tradelist id="5168"/>

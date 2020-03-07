@@ -43,7 +43,7 @@ public class AbbeyReturnZoneAI2 extends NpcAI2 {
 		long AbbeyStoneAsmo = player.getInventory().getItemCountByItemId(164000336);
 		switch (dialogId) {
 			case 10000: //209676, 209677
-				if (AbbeyStoneEly >= 1 || AbbeyStoneAsmo >= 1) {
+				if (AbbeyStoneEly >= 0 || AbbeyStoneAsmo >= 0) {
 					TeleportAbbey(player);
 				} else {
 					PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402673));

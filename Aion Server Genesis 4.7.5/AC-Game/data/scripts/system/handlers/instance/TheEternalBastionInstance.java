@@ -76,6 +76,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     private Future<?> stage1;
     private Future<?> stage2;
     private int rank;
+    private int skillId;
 
     protected EternalBastionPlayerReward getPlayerReward(Player player) {
         Integer object = player.getObjectId();
@@ -95,8 +96,12 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     @Override
     public void onEnterInstance(final Player player) {
+        skillId = 8698;
         if (!containPlayer(player.getObjectId())) {
             addPlayerToReward(player);
+        }
+        if(player.getLastMapId() == 600060000) {
+            SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
         }
         if (instanceTimer == null) {
             startTime = System.currentTimeMillis();
@@ -104,6 +109,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 @Override
                 public void run() {
                     openDoor(311);
+                    SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
                     if (spawnRace == null) {
                         spawnRace = player.getRace();
                         instanceReward.addPoints(20000);
@@ -119,7 +125,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 }
             }, 150000L);
             instanceTimer = ThreadPoolManager.getInstance().schedule(new Runnable() {
-
                 @Override
                 public void run() {
                     stopInstance(player);
@@ -1051,6 +1056,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     @Override
     public void onLeaveInstance(Player player) {
+        player.getEffectController().removeEffect(skillId);
         removeEffects(player);
     }
 
@@ -1182,8 +1188,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         }
     }
 
-
-
     protected void openDoor(int doorId) {
         StaticDoor door = doors.get(doorId);
         if (door != null) {
@@ -1191,13 +1195,11 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         }
     }
 
-
     @Override
     public boolean onDie(Player player, Creature lastAttacker) {
         DeathService.sendDie(player, lastAttacker);
         return true;
     }
-
 
     @Override
     public boolean onReviveEvent(Player player) {

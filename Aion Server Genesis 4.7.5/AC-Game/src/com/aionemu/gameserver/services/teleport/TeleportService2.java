@@ -29,6 +29,7 @@
  */
 package com.aionemu.gameserver.services.teleport;
 
+import com.aionemu.gameserver.skillengine.SkillEngine;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -114,8 +115,10 @@ public class TeleportService2 {
      * @param locId
      * @param player
      */
+
     public static void teleport(HotspotTeleportTemplate template, int teleportGoal, Player player, int kinah, int level) {
         Race race = player.getRace();
+        player.setLastMapId(player.getWorldId());
         if (template.getLocId() != teleportGoal)
             log.warn("[HOTSPOT] packet loc id dont equals server loc id! Packet id=" + teleportGoal + " Server id=" + template.getLocId());
 
@@ -127,7 +130,7 @@ public class TeleportService2 {
         if (!checkKinahForTransportation(template, player, kinah, false)) {
             return;
         }
-
+        
         int instanceId = 1;
         int mapId = template.getMapId();
         if (player.getWorldId() == mapId) {
@@ -294,12 +297,11 @@ public class TeleportService2 {
         return true;
     }
 
-    private static void sendLoc(final Player player, final int mapId, final int instanceId, final float x, final float y, final float z,
-                                final byte h, final TeleportAnimation animation) {
+    private static void sendLoc(final Player player, final int mapId, final int instanceId, final float x, final float y, final float z, final byte h, final TeleportAnimation animation) {
         boolean isInstance = DataManager.WORLD_MAPS_DATA.getTemplate(mapId).isInstance();
 
         int delay = TELEPORT_DEFAULT_DELAY;
-
+        player.setLastMapId(player.getWorldId());
         if (animation.equals(TeleportAnimation.BEAM_ANIMATION)) {
             player.setPortAnimation(2);
             delay = BEAM_DEFAULT_DELAY;
@@ -337,12 +339,11 @@ public class TeleportService2 {
      * @param teleGoal
      * @param id 
      */
-    private static void sendLoc(final Player player, final int mapId, final int instanceId, final float x, final float y, final float z,
-            					final byte h, final int teleGoal, int id) {
+    private static void sendLoc(final Player player, final int mapId, final int instanceId, final float x, final float y, final float z, final byte h, final int teleGoal, int id) {
 
         int delay = CustomConfig.HOTSPOT_TELEPORT_DELAY;//10 Seconds = 10000 Milliseconds
         final int cooldown = CustomConfig.HOTSPOT_TELEPORT_COOLDOWN_DELAY;//10 Minutes = 600 Seconds
-
+        player.setLastMapId(player.getWorldId());
         final ItemUseObserver observer = new ItemUseObserver() {
             @Override
             public void abort() {
@@ -400,6 +401,7 @@ public class TeleportService2 {
         } else if (player.getLifeStats().isAlreadyDead()) {
             teleportDeadTo(player, pos.getMapId(), 1, pos.getX(), pos.getY(), pos.getZ(), pos.getHeading());
         } else {
+            player.setLastMapId(player.getWorldId());
             teleportTo(player, pos.getMapId(), pos.getX(), pos.getY(), pos.getZ(), pos.getHeading());
         }
     }
@@ -456,8 +458,7 @@ public class TeleportService2 {
      * @param animation
      * @return
      */
-    public static boolean teleportTo(final Player player, final int worldId, final int instanceId, final float x, final float y,
-                                     final float z, final byte heading, TeleportAnimation animation) {
+    public static boolean teleportTo(final Player player, final int worldId, final int instanceId, final float x, final float y, final float z, final byte heading, TeleportAnimation animation) {
         if (player.getLifeStats().isAlreadyDead()) {
             return false;
         } else if (DuelService.getInstance().isDueling(player.getObjectId())) {
@@ -467,6 +468,7 @@ public class TeleportService2 {
             player.unsetPlayerMode(PlayerMode.RIDE);
             changePosition(player, worldId, instanceId, x, y, z, heading, animation);
         } else {
+            player.setLastMapId(player.getWorldId());
             sendLoc(player, worldId, instanceId, x, y, z, heading, animation);
         }
         return true;
@@ -480,8 +482,7 @@ public class TeleportService2 {
      * @param z
      * @param heading
      */
-    private static void changePosition(Player player, int worldId, int instanceId, float x, float y, float z, byte heading,
-                                       TeleportAnimation animation) {
+    private static void changePosition(Player player, int worldId, int instanceId, float x, float y, float z, byte heading, TeleportAnimation animation) {
         if (player.hasStore()) {
             PrivateStoreService.closePrivateStore(player);
         }
@@ -644,7 +645,7 @@ public class TeleportService2 {
         if (worldTemplate.isInstance()) {
             newInstance = InstanceService.getNextAvailableInstance(searchResult.getWorldId());
         }
-
+        player.setLastMapId(player.getWorldId());
         if (newInstance != null) {
             InstanceService.registerPlayerWithInstance(newInstance, player);
             teleportTo(player, searchResult.getWorldId(), newInstance.getInstanceId(), spot.getX(), spot.getY(), spot.getZ());

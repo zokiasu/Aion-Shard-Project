@@ -14176,120 +14176,136 @@
             <item id="186000066" name="Lesser Ancient Icon"/>
         </items>
     </decomposable>
+    <!-- Sac Manastone 60/70 G/W-->
     <decomposable item_id="188051756" decomposable_name="Manastone Bundle">
-        <items chance="2.7">
-            <item id="167000230" name="Manastone: Attack +1"/>
+        <items chance="5.0">
+            <item id="167000358" name="Manastone: Attack 3"/>
         </items>
-        <items chance="4.1">
-            <item id="167000294" name="Manastone: Attack +2"/>
+        <items chance="5.0">
+            <item id="167000543" name="Manastone: HP 70"/>
         </items>
-        <items chance="3.6">
-            <item id="167000358" name="Manastone: Attack +3"/>
+        <items chance="5.0">
+            <item id="167000544" name="Manastone: MP 70"/>
         </items>
-        <items chance="3.7">
-            <item id="167000454" name="Manastone: Attack +4"/>
+        <items chance="5.0">
+            <item id="167000545" name="Manastone: Accuracy 22"/>
         </items>
-        <items chance="1.8">
-            <item id="167000518" name="Manastone: Attack +5"/>
+        <items chance="5.0">
+            <item id="167000546" name="Manastone: Evasion 14"/>
         </items>
-        <items chance="2.7">
-            <item id="167000482" name="Manastone: HP +75"/>
+        <items chance="5.0">
+            <item id="167000547" name="Manastone: Magic Boost 22"/>
         </items>
-        <items chance="2.9">
-            <item id="167000514" name="Manastone: HP +85"/>
+        <items chance="5.0">
+            <item id="167000548" name="Manastone: Parry 22"/>
         </items>
-        <items chance="1.4">
-            <item id="167000551" name="Manastone: HP +95"/>
+        <items chance="5.0">
+            <item id="167000549" name="Manastone: Block 22"/>
         </items>
-        <items chance="3.5">
-            <item id="167000483" name="Manastone: MP +75"/>
+        <items chance="5.0">
+            <item id="167000550" name="Manastone: Crit Strike 14"/>
         </items>
-        <items chance="3.3">
-            <item id="167000515" name="Manastone: MP +85"/>
+        <items chance="5.0">
+            <item id="167000758" name="Manastone: HP 80"/>
         </items>
-        <items chance="1.5">
-            <item id="167000552" name="Manastone: MP +95"/>
+        <items chance="5.0">
+            <item id="167000759" name="Manastone: MP 80"/>
         </items>
-        <items chance="4.1">
-            <item id="167000484" name="Manastone: Accuracy +23"/>
+        <items chance="5.0">
+            <item id="167000760" name="Manastone: Accuracy 24"/>
         </items>
-        <items chance="3.2">
-            <item id="167000516" name="Manastone: Accuracy +25"/>
+        <items chance="5.0">
+            <item id="167000761" name="Manastone: Evasion 16"/>
         </items>
-        <items chance="1.5">
-            <item id="167000553" name="Manastone: Accuracy +27"/>
+        <items chance="5.0">
+            <item id="167000762" name="Manastone: Magic Boost 24"/>
         </items>
-        <items chance="2.9">
-            <item id="167000485" name="Manastone: Evasion +13"/>
+        <items chance="5.0">
+            <item id="167000763" name="Manastone: Parry 24"/>
         </items>
-        <items chance="3.2">
-            <item id="167000517" name="Manastone: Evasion +15"/>
+        <items chance="5.0">
+            <item id="167000764" name="Manastone: Block 24"/>
+        </items>
+        <items chance="5.0">
+            <item id="167000765" name="Manastone: Crit Strike 16"/>
         </items>
         <items chance="3.0">
-            <item id="167000554" name="Manastone: Evasion +17"/>
+            <item id="167000518" name="Manastone: Attack 5"/>
         </items>
-        <items chance="2.5">
-            <item id="167000487" name="Manastone: Magic Boost +23"/>
+        <items chance="3.0">
+            <item id="167000551" name="Manastone: HP 95"/>
         </items>
-        <items chance="3.5">
-            <item id="167000519" name="Manastone: Magic Boost +25"/>
+        <items chance="3.0">
+            <item id="167000552" name="Manastone: MP 95"/>
         </items>
-        <items chance="1.5">
-            <item id="167000555" name="Manastone: Magic Boost +27"/>
+        <items chance="3.0">
+            <item id="167000553" name="Manastone: Accuracy 27"/>
         </items>
-        <items chance="2.5">
-            <item id="167000488" name="Manastone: Parry +23"/>
+        <items chance="3.0">
+            <item id="167000554" name="Manastone: Evasion 17"/>
         </items>
-        <items chance="3.8">
-            <item id="167000520" name="Manastone: Parry +25"/>
+        <items chance="3.0">
+            <item id="167000555" name="Manastone: Magic Boost 27"/>
         </items>
-        <items chance="1.3">
-            <item id="167000556" name="Manastone: Parry +27"/>
+        <items chance="3.0">
+            <item id="167000556" name="Manastone: Parry 27"/>
         </items>
-        <items chance="2.5">
-            <item id="167000489" name="Manastone: Block +23"/>
+        <items chance="3.0">
+            <item id="167000557" name="Manastone: Block 27"/>
         </items>
-        <items chance="3.4">
-            <item id="167000521" name="Manastone: Block +25"/>
+        <items chance="3.0">
+            <item id="167000558" name="Manastone: Crit Strike 17"/>
         </items>
-        <items chance="1.9">
-            <item id="167000557" name="Manastone: Block +27"/>
+        <items chance="3.0">
+            <item id="167000559" name="Manastone: Maximum Flight Time 7"/>
         </items>
-        <items chance="3.5">
-            <item id="167000491" name="Manastone: Crit Strike +13"/>
+        <items chance="3.0">
+            <item id="167000560" name="Manastone: Magical Accuracy 14"/>
         </items>
-        <items chance="2.8">
-            <item id="167000522" name="Manastone: Crit Strike +15"/>
+        <items chance="3.0">
+            <item id="167000561" name="Manastone: Resist Magic 14"/>
         </items>
-        <items chance="1.6">
-            <item id="167000558" name="Manastone: Crit Strike +17"/>
+        <items chance="3.0">
+            <item id="167000563" name="Manastone: Healing Boost 3"/>
         </items>
-        <items chance="2.6">
-            <item id="167000539" name="Manastone: Magical Accuracy +10"/>
+        <items chance="3.0">
+            <item id="167000564" name="Manastone: HP 100"/>
         </items>
-        <items chance="3.5">
-            <item id="167000541" name="Manastone: Magical Accuracy +12"/>
+        <items chance="3.0">
+            <item id="167000565" name="Manastone: MP 105"/>
         </items>
-        <items chance="1.3">
-            <item id="167000560" name="Manastone: Magical Accuracy +14"/>
+        <items chance="3.0">
+            <item id="167000566" name="Manastone: Maximum Flight Time 7"/>
         </items>
-        <items chance="2.6">
-            <item id="167000540" name="Manastone: Resist Magic +10"/>
+        <items chance="3.0">
+            <item id="167000567" name="Manastone: Accuracy 29"/>
         </items>
-        <items chance="2.8">
-            <item id="167000542" name="Manastone: Resist Magic +12"/>
+        <items chance="3.0">
+            <item id="167000568" name="Manastone: Evasion 19"/>
         </items>
-        <items chance="1.0">
-            <item id="167000561" name="Manastone: Resist Magic +14"/>
+        <items chance="3.0">
+            <item id="167000569" name="Manastone: Parry 29"/>
         </items>
-        <items chance="2.4">
-            <item id="167000497" name="Manastone: Maximum Flight Time +5"/>
+        <items chance="3.0">
+            <item id="167000570" name="Manastone: Block 29"/>
         </items>
-        <items chance="2.2">
-            <item id="167000523" name="Manastone: Maximum Flight Time +6"/>
+        <items chance="3.0">
+            <item id="167000571" name="Manastone: Crit Strike 19"/>
         </items>
-        <items chance="1.5">
-            <item id="167000559" name="Manastone: Maximum Flight Time +7"/>
+        <items chance="3.0">
+            <item id="167000572" name="Manastone: Crit Spell 5"/>
+        </items>
+        <items chance="3.0">
+            <item id="167000573" name="Manastone: Spell Resist 5"/>
+        </items>
+        <items chance="3.0">
+            <item id="167000574" name="Manastone: Resist Magic 16"/>
+        </items>
+        <items chance="3.0">
+            <item id="167000575" name="Manastone: Magical Accuracy 16"/>
+        </items>
+        <items chance="3.0">
+            <item id="167000576" name="Manastone: Magic Boost 28"/>
         </items>
     </decomposable>
     <decomposable item_id="188051757" decomposable_name="Surprise Guestbloom Bundle">
@@ -18055,10 +18071,7 @@
     <decomposable item_id="188052197" decomposable_name="[Event] Wyvern Form Candy Box"/>
     <decomposable item_id="188052198" decomposable_name="[Event] Medal Bundle"/>
     <decomposable item_id="188052199" decomposable_name="Special Manastone Box I">
-        <items chance="90.0">
-            <random_item type="MANASTONE_RARE_GRADE_60"/>
-        </items>
-        <items chance="10.0">
+        <items>
             <random_item type="MANASTONE_LEGEND_GRADE_60"/>
         </items>
     </decomposable>
