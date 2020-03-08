@@ -189,15 +189,11 @@
         </spawn>
 		<!-- Kyra -->
 		<spawn npc_id="802215" respawn_time="295">
-			<spot x="509.18036" y="401.7601" z="126.78955" h="63"/>
+            <spot x="498.57867" y="397.5689" z="126.78955" h="0"/>
 		</spawn>
 		<!-- Agaron -->
 		<spawn npc_id="804184" respawn_time="295">
             <spot x="508.7014" y="390.67282" z="126.78955" h="60"/>
-        </spawn>
-		<!-- Athea -->
-        <spawn npc_id="804185" respawn_time="295">
-            <spot x="498.57867" y="397.5689" z="126.78955" h="0"/>
         </spawn>
 		<!-- Chthonios -->
         <spawn npc_id="804186" respawn_time="295">

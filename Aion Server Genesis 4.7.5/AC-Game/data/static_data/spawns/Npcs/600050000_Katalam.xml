@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="600050000">
+        <!-- Elyos Katalam to Marchutan Priory Teleporter -->
+        <spawn npc_id="209676" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="443.73166" y="2641.85" z="146.0" h="105" entity_id="0"/>
+        </spawn>
+        <!-- Asmo Katalam to Marchutan Priory Teleporter -->
+        <spawn npc_id="209677" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="370.2381" y="376.75256" z="281.80835" h="42" entity_id="0"/>
+        </spawn>
         <!-- Elyos Katalam to Kaldor Teleporter -->
         <spawn npc_id="802454" respawn_time="295" difficult_id="0" custom="true">
             <spot x="1348.6854" y="2975.2473" z="215.42696" h="90" entity_id="0"/>

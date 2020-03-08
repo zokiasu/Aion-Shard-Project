@@ -191,17 +191,13 @@
 		<spawn npc_id="804194" respawn_time="295">
 			<spot x="402.76712" y="255.66905" z="93.112526" h="90"/>
 		</spawn>
-		<!-- Bilskirnir -->
-		<spawn npc_id="804195" respawn_time="295">
-			<spot x="402.75424" y="245.32727" z="93.112526" h="30"/>
-		</spawn>
 		<!-- Carreto -->
 		<spawn npc_id="804196" respawn_time="295">
 			<spot x="406.99948" y="245.42786" z="93.112526" h="30"/>
 		</spawn>
 		<!-- Jacksen -->
         <spawn npc_id="804675" respawn_time="295">
-            <spot x="411.11465" y="245.38351" z="93.112526" h="30"/>
+            <spot x="402.75424" y="245.32727" z="93.112526" h="30"/>
         </spawn>
 		<!-- Baiern -->
         <spawn npc_id="804676" respawn_time="295">

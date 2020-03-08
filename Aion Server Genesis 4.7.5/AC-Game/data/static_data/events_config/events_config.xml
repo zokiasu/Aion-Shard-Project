@@ -2,7 +2,7 @@
 <events_config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="events_config.xsd">
     <active>Atreian City Festival;Event Empyrean Crucible;Daeva Day Inventory;Shugo Emperor's Vault;Daeva Day Event;Daeva Day New Inventory;Daeva Day New;October Fest;Brax Cafe Inventory;Brax Cafe;Fluffy Snow Crystal Inventory;Fluffy Snow Event;Pumpkin Cookie Inventory;Pumpkin Cookie Event;Pink Petal Inventory;Pink Petal Event;The Fortune Fayre;Doppelgangers;Ascension Energy;Spring Event;Spring Event Inventory;Crab Fest;Celebrate Solorius;New Year Event;Trick or treat! The witch and the king;Daru Days;Ardent heat;Ascension Energy Inventory;Ardent heat Inventory;Valentine's Day;Valentine's Day Inventory;Love is in the Air;World Blessers;Transform and battle as a Guardian General;This Belong In A Museum Inventory;This Belong In A Museum;Battle Of Siel;Shugo Kingdom Adventure;Return To The Shugo Tomb;Code Red: Atreia;Blood Mark Drops;Rapturous Golden Feather Inventory;Rapturous Golden Feather Event;Mega Kinah Event;Thecla Royan Event;Guardian General Showdown;GGS Event 1;GGS Event 2;GGS Event 3;GGS Event 4;GGS Event 5;GGS Event 6;GGS Event 6;GGS Event 7;GGS Event 8;Captain Harlock Inventory;Captain Harlock Event;Dafarunerk Inventory;Dafarunerk Event;Summer Block Party Inventory;Summer Block Party Event;Legendary Raid Spawn;Rukibuki Circus Troup;Snowy Freezy;Novice Event Inventory;Novice Event Inventory1;Novice Event;Welcome to Atreia Inventory;Welcome to Atreia;Divine Bonfire Inventory;Divine Bonfire;Durable Daevanion;Verification of Symphony;Verification of Symphony inventory;Symphony of Legend - The Fourth Movement;Symphony of Legend - The Third Movement;Symphony of Legend - The Second Movement;Symphony of Legend - The First Movement;Verification of Symphony drop;I Love Shiny and Glittering Things inventory;I Love Shiny and Glittering Things inventory 1;I Love Shiny and Glittering Things inventory 2;I Love Shiny and Glittering Things;Alchemist's Gift drop;Alchemist's Gift</active>
     <events>
-        <event name="Atreian City Festival" start="2015-02-06T00:00:00+00:00" end="2023-02-13T00:00:00+00:00">
+        <event name="Atreian City Festival" start="2015-02-06T00:00:00+00:00" end="2015-02-13T00:00:00+00:00">
             <quests>
                 <maintainable>80162;80163;80164;80165;80166;80167;80168;80169</maintainable>
             </quests>
@@ -3170,7 +3170,7 @@
         </event>
         <event name="Blood Mark Drops" start="2015-01-01T00:00:00+00:00" end="2050-12-31T00:00:00+00:00">
             <event_drops>
-                <event_drop item_id="186000236" count="1" chance="2" minDiff="-29" maxDiff="20"/>
+                <event_drop item_id="186000236" count="1" chance="100" minDiff="-29" maxDiff="20"/>
             </event_drops>
         </event>
         <event name="Guardian General Showdown" start="2015-09-04T00:00:00+00:00" end="2015-09-19T00:00:00+00:00">
