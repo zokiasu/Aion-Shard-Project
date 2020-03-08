@@ -306,7 +306,7 @@ public class EnchantService {
         }
 
         // For test purpose. To use by administrator
-        if (player.getAccessLevel() > 2) {
+        if (player.getAccessLevel() > 3) {
             PacketSendUtility.sendMessage(player, (result ? "Success" : "Fail") + " Rnd:" + random + " Luck:" + success);
         }
 

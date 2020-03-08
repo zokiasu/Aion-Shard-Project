@@ -5747,13 +5747,15 @@
 	<tradelist_template npc_id="802208" npc_type="ABYSS">
 		<tradelist id="2139"/>
 	</tradelist_template>
-	<!-- Vendeur Pierre Divine Elyos -->
-	<tradelist_template npc_id="802215" buy_price_rate="3000" sell_price_rate="3000" npc_type="ABYSS">
-		<tradelist id="5128"/>
+	<!-- Vendeur R1 Extend Elyos -->
+	<tradelist_template npc_id="802215" npc_type="ABYSS">
+		<tradelist id="2407"/>
+		<tradelist id="2408"/>
 	</tradelist_template>
-	<!-- Vendeur Pierre Divine Asmo -->
-	<tradelist_template npc_id="802217" buy_price_rate="3000" sell_price_rate="3000" npc_type="ABYSS">
-		<tradelist id="5131"/>
+	<!-- Vendeur R1 Extend Asmo -->
+	<tradelist_template npc_id="802217" npc_type="ABYSS">
+		<tradelist id="2409"/>
+		<tradelist id="2410"/>
 	</tradelist_template>
     <tradelist_template npc_id="802214" npc_type="ABYSS">
         <tradelist id="2342"/>
@@ -7218,7 +7220,7 @@
 		<tradelist id="2415"/>
 	</tradelist_template>
 	<!-- Vendeur R1 Mythique Elyos -->
-	<tradelist_template npc_id="804674"  buy_price_rate="500" sell_price_rate="500" npc_type="ABYSS">
+	<tradelist_template npc_id="804674" npc_type="ABYSS">
 		<tradelist id="2421"/>
 		<tradelist id="2422"/>
 		<tradelist id="2423"/>
@@ -7232,7 +7234,7 @@
 		<tradelist id="2420"/>
 	</tradelist_template>
 	<!-- Vendeur R1 Mythique Asmo -->
-	<tradelist_template npc_id="804676" buy_price_rate="500" sell_price_rate="500" npc_type="ABYSS">
+	<tradelist_template npc_id="804676" npc_type="ABYSS">
 		<tradelist id="2425"/>
 		<tradelist id="2426"/>
 		<tradelist id="2427"/>

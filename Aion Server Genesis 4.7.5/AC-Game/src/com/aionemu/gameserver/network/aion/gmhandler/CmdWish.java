@@ -72,7 +72,12 @@ public class CmdWish extends AbstractGMHandler {
 
         for(ItemTemplate tt : item.valueCollection()){
             if(tt.getNamedesc().equalsIgnoreCase(itemName)){
-                ItemService.addItem(t, tt.getTemplateId(), itemcount);
+                long count = ItemService.addItem(t, tt.getTemplateId(), itemcount);
+                if (count == 0) {
+                    PacketSendUtility.sendMessage(admin, "You successfully gave " + itemcount + "x " + tt.getTemplateId() + " : [item:" + tt.getTemplateId() + "] to " + t.getName() + ".");
+                } else {
+                    PacketSendUtility.sendMessage(admin, "Item couldn't be added");
+                }
             }
         }
 

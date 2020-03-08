@@ -20560,86 +20560,6 @@
 			<item id="169405255" name="Water Eternity" count="1"/>
 		</items>
 	</decomposable>
-    <decomposable item_id="188052599" decomposable_name="Defender's Supply Box">
-		 <items>
-            <item id="167020079" name="Ancient Manastone: Attack +8" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167020074" name="Ancient Manastone: Crit Strike +24" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167020081" name="Ancient Manastone: Magic Boost +35" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167020080" name="Ancient Manastone: Magical Accuracy +22" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167020078" name="Ancient Manastone: Resist Magic +20" rnd_min="1" rnd_max="3"/>
-        </items>
-		 <items>
-            <item id="167000749" name="Manastone: Attack +5 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000684" name="Manastone: Attack +5 / Accuracy +13" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000682" name="Manastone: Attack +5 / HP +47" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167000750" name="Manastone: Attack +5 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000690" name="Manastone: Crit Strike +17 / Attack +2" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000688" name="Manastone: Crit Strike +17 / HP +47" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000696" name="Manastone: Crit Strike +17 / Magical Accuracy +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000695" name="Manastone: Crit Strike +17 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000850" name="Manastone: HP +95 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000847" name="Manastone: HP +95 / Evasion +13" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167000852" name="Manastone: HP +95 / Magical Accuracy +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000851" name="Manastone: HP +95 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000697" name="Manastone: Magic Boost +27 / HP +47" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167000704" name="Manastone: Magic Boost +27 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000705" name="Manastone: Magic Boost +27 / Magical Accuracy +7" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000703" name="Manastone: Magic Boost +27 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167000877" name="Manastone: Magical Accuracy +14 / Attack +2" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167000713" name="Manastone: Magical Accuracy +14 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000708" name="Manastone: Magical Accuracy +14 / Magic Boost +13" rnd_min="1" rnd_max="3"/>
-        </items>
-        <items>
-            <item id="167000714" name="Manastone: Magical Accuracy +14 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
-        </items>
-		<items>
-            <item id="167000706" name="Manastone: Magical Accuracy +14 / HP +47" rnd_min="1" rnd_max="3"/>
-        </items>
-	</decomposable>
     <decomposable item_id="188052600" decomposable_name="Beritran Supply Box">
 		<items>
             <item id="167000749" name="Manastone: Attack +5 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
@@ -20828,7 +20748,6 @@
     </decomposable>
     <decomposable item_id="188052605" decomposable_name="Victor's Reward Box"/>
     <decomposable item_id="188052606" decomposable_name="Consolation Prize Box"/>
-    <decomposable item_id="188052607" decomposable_name="Major Relic Box"/>
     <decomposable item_id="188052608" decomposable_name="Greater Relic Box"/>
     <decomposable item_id="188052609" decomposable_name="Standard Relic Box"/>
     <decomposable item_id="188052610" decomposable_name="Lesser Relic Box"/>
@@ -20959,7 +20878,6 @@
             <item id="186000241" name="Pradeth Crest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188052614" decomposable_name="Defender's Augment Bundle"/>
     <decomposable item_id="188052615" decomposable_name="Old Ring Box"/>
     <decomposable item_id="188052616" decomposable_name="Durga's Fragmented Ceramium Bundle">
         <items>
@@ -23230,11 +23148,6 @@
             <item id="114500772" count="1" name="Mani's Brogans"/>
         </items>
     </decomposable>
-    <decomposable item_id="188052832" decomposable_name="Pashid's Claw Bundle">
-	    <items>
-			<item id="182213518" name="Pashid's Claw" count="1"/>
-		</items>
-	</decomposable>
     <decomposable item_id="188052956" decomposable_name="[Event] Pirate's Tool Bundle">
         <items chance="50.0">
             <item id="160010326" name="Captain Harlock Form Candy" count="1" race="ASMODIANS"/>
@@ -26922,6 +26835,124 @@
         </items>
         <items>
             <item id="166050094" name="Triumphal Idian: Support" count="1"/>
+        </items>
+    </decomposable>
+    <!-- Loot Bastion -->
+    <decomposable item_id="188052832" decomposable_name="Pashid's Claw Bundle">
+        <items>
+            <item id="182213518" name="Pashid's Claw" count="1"  race="ELYOS"/>
+            <item id="182213526" name="Pashid's Horn" count="1"  race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188052599" decomposable_name="Defender's Supply Box">
+        <items>
+            <item id="167020079" name="Ancient Manastone: Attack +8" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167020074" name="Ancient Manastone: Crit Strike +24" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167020081" name="Ancient Manastone: Magic Boost +35" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167020080" name="Ancient Manastone: Magical Accuracy +22" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167020078" name="Ancient Manastone: Resist Magic +20" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000749" name="Manastone: Attack +5 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000684" name="Manastone: Attack +5 / Accuracy +13" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000682" name="Manastone: Attack +5 / HP +47" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000750" name="Manastone: Attack +5 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000690" name="Manastone: Crit Strike +17 / Attack +2" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000688" name="Manastone: Crit Strike +17 / HP +47" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000696" name="Manastone: Crit Strike +17 / Magical Accuracy +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000695" name="Manastone: Crit Strike +17 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000850" name="Manastone: HP +95 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000847" name="Manastone: HP +95 / Evasion +13" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000852" name="Manastone: HP +95 / Magical Accuracy +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000851" name="Manastone: HP +95 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000697" name="Manastone: Magic Boost +27 / HP +47" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000704" name="Manastone: Magic Boost +27 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000705" name="Manastone: Magic Boost +27 / Magical Accuracy +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000703" name="Manastone: Magic Boost +27 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000877" name="Manastone: Magical Accuracy +14 / Attack +2" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000713" name="Manastone: Magical Accuracy +14 / Crit Strike +8" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000708" name="Manastone: Magical Accuracy +14 / Magic Boost +13" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000714" name="Manastone: Magical Accuracy +14 / Resist Magic +7" rnd_min="1" rnd_max="3"/>
+        </items>
+        <items>
+            <item id="167000706" name="Manastone: Magical Accuracy +14 / HP +47" rnd_min="1" rnd_max="3"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188052614" decomposable_name="Defender's Augment Bundle">
+        <items>
+            <item id="168310018" name="Major Blessed Augment: Level 2" count="1"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188052607" decomposable_name="Major Relic Box">
+        <items>
+            <item id="186000063" name="Major Ancient Icon" count="1"/>
+            <item id="186000064" name="Greater Ancient Icon" count="1"/>
+            <item id="186000065" name="Ancient Icon" count="1"/>
+            <item id="186000066" name="Lesser Ancient Icon" count="1"/>
+        </items>
+        <items>
+            <item id="186000059" name="Major Ancient Seal" count="1"/>
+            <item id="186000060" name="Greater Ancient Seal" count="1"/>
+            <item id="186000061" name="Ancient Seal" count="1"/>
+            <item id="186000062" name="Lesser Ancient Seal" count="1"/>
+        </items>
+        <items>
+            <item id="186000055" name="Major Ancient Goblet" count="1"/>
+            <item id="186000056" name="Greater Ancient Goblet" count="1"/>
+            <item id="186000057" name="Ancient Goblet" count="1"/>
+            <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
+        </items>
+        <items>
+            <item id="186000051" name="Major Ancient Crown" count="1"/>
+            <item id="186000052" name="Greater Ancient Crown" count="1"/>
+            <item id="186000053" name="Ancient Crown" count="1"/>
+            <item id="186000054" name="Lesser Ancient Crown" count="1"/>
         </items>
     </decomposable>
 </decomposable_items>

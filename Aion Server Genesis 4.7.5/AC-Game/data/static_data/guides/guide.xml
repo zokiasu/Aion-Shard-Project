@@ -3760,17 +3760,18 @@
         <survey itemId="167000491" count="1"/> <!-- Crit Strike 13 -->
         <survey itemId="167000484" count="1"/> <!-- Accuracy 23 -->
     </guide>
-	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="6">
+	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="7">
         <message><![CDATA[<BR><BR>
 			Congratulations!
 			<br><br>]]>
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
-        <survey itemId="182400001" count="3000000"/> <!-- Kinah -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
     </guide>	
 
@@ -4073,17 +4074,18 @@
         <survey itemId="167000491" count="1"/> <!-- Crit Strike 13 -->
         <survey itemId="167000484" count="1"/> <!-- Accuracy 23 -->
     </guide>
-	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="6">
+	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="7">
         <message><![CDATA[<BR><BR>
 			Congratulations!
 			<br><br>]]>
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
-        <survey itemId="182400001" count="3000000"/> <!-- Kinah -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
     </guide>
 </guides>

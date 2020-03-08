@@ -19,7 +19,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="SvnConfiguration">
@@ -36,6 +36,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1220" y="298" key="FileChooserDialogImpl" timestamp="1583683922105">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583683922105" />
     <state x="808" y="186" key="SettingsEditor" timestamp="1583585113628">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -48,10 +52,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="720" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583521923506" />
-    <state x="799" y="272" width="1000" height="651" key="find.popup" timestamp="1583612424646">
+    <state x="785" y="110" width="1090" height="898" key="find.popup" timestamp="1583683005207">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="799" y="272" width="1000" height="651" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583612424646" />
+    <state x="785" y="110" width="1090" height="898" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583683005207" />
     <state x="1092" y="254" key="run.anything.popup" timestamp="1583584173188">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
