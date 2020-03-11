@@ -121,19 +121,19 @@ public class VocolithAI2 extends NpcAI2 {
                     switch (Rnd.get(1, 4)) {
                         case 1:
                             announceLevinshorBoss();
-                            spawn(287276, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Lava Arm Cruego.
+                            spawn(287276, 1663.2128f, 613.0621f, 227.10474f, (byte) 17); //Lava Arm Cruego.
                             break;
                         case 2:
                             announceLevinshorBoss();
-                            spawn(287277, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Cruel Lamia.
+                            spawn(287277, 1663.2128f, 613.0621f, 227.10474f, (byte) 17); //Cruel Lamia.
                             break;
                         case 3:
                             announceLevinshorBoss();
-                            spawn(235219, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Destoyer Feld.
+                            spawn(235219, 1663.2128f, 613.0621f, 227.10474f, (byte) 17); //Destoyer Feld.
                             break;
                         case 4:
                             announceLevinshorBoss();
-                            spawn(235220, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Ruthless Tyranicca.
+                            spawn(235220, 1663.2128f, 613.0621f, 227.10474f, (byte) 17); //Ruthless Tyranicca.
                             break;
                     }
                     break;
@@ -142,45 +142,24 @@ public class VocolithAI2 extends NpcAI2 {
                     switch (Rnd.get(1, 4)) {
                         case 1:
                             announceLevinshorBoss();
-                            spawn(287276, 1663.793f, 612.8768f, 227.10474f, (byte) 17); //Lava Arm Cruego.
+                            spawn(287276, 1492.0374f, 312.64172f, 253.56389f, (byte) 17); //Lava Arm Cruego.
                             break;
                         case 2:
                             announceLevinshorBoss();
-                            spawn(287277, 1663.793f, 612.8768f, 227.10474f, (byte) 17); //Cruel Lamia.
+                            spawn(287277, 1492.0374f, 312.64172f, 253.56389f, (byte) 17); //Cruel Lamia.
                             break;
                         case 3:
                             announceLevinshorBoss();
-                            spawn(235219, 1663.793f, 612.8768f, 227.10474f, (byte) 17); //Destoyer Feld.
+                            spawn(235219, 1492.0374f, 312.64172f, 253.56389f, (byte) 17); //Destoyer Feld.
                             break;
                         case 4:
                             announceLevinshorBoss();
-                            spawn(235220, 1663.793f, 612.8768f, 227.10474f, (byte) 17); //Ruthless Tyranicca.
+                            spawn(235220, 1492.0374f, 312.64172f, 253.56389f, (byte) 17); //Ruthless Tyranicca.
                             break;
                     }
                     break;
                 //Vocolith [Cut Warden]
                 case 804581:
-                    switch (Rnd.get(1, 4)) {
-                        case 1:
-                            announceLevinshorBoss();
-                            spawn(287276, 1491.7947f, 313.15384f, 253.56389f, (byte) 17); //Lava Arm Cruego.
-                            break;
-                        case 2:
-                            announceLevinshorBoss();
-                            spawn(287277, 1491.7947f, 313.15384f, 253.56389f, (byte) 17); //Cruel Lamia.
-                            break;
-                        case 3:
-                            announceLevinshorBoss();
-                            spawn(235219, 1491.7947f, 313.15384f, 253.56389f, (byte) 17); //Destoyer Feld.
-                            break;
-                        case 4:
-                            announceLevinshorBoss();
-                            spawn(235220, 1491.7947f, 313.15384f, 253.56389f, (byte) 17); //Ruthless Tyranicca.
-                            break;
-                    }
-                    break;
-                //Vocolith [West Warden]
-                case 804582:
                     switch (Rnd.get(1, 4)) {
                         case 1:
                             announceLevinshorBoss();
@@ -200,8 +179,8 @@ public class VocolithAI2 extends NpcAI2 {
                             break;
                     }
                     break;
-                //Vocolith [East Warden]
-                case 804583:
+                //Vocolith [West Warden]
+                case 804582:
                     switch (Rnd.get(1, 4)) {
                         case 1:
                             announceLevinshorBoss();
@@ -218,6 +197,27 @@ public class VocolithAI2 extends NpcAI2 {
                         case 4:
                             announceLevinshorBoss();
                             spawn(235220, 894.8337f, 838.7992f, 313.66245f, (byte) 17); //Ruthless Tyranicca.
+                            break;
+                    }
+                    break;
+                //Vocolith [East Warden]
+                case 804583:
+                    switch (Rnd.get(1, 4)) {
+                        case 1:
+                            announceLevinshorBoss();
+                            spawn(287276, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Lava Arm Cruego.
+                            break;
+                        case 2:
+                            announceLevinshorBoss();
+                            spawn(287277, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Cruel Lamia.
+                            break;
+                        case 3:
+                            announceLevinshorBoss();
+                            spawn(235219, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Destoyer Feld.
+                            break;
+                        case 4:
+                            announceLevinshorBoss();
+                            spawn(235220, 1106.4177f, 1231.3401f, 308.5724f, (byte) 17); //Ruthless Tyranicca.
                             break;
                     }
                     break;

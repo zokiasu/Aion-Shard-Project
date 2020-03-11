@@ -52,9 +52,9 @@ public class _23738ZilnsRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(802347).addOnTalkEvent(questId);
-		qe.registerOnEnterZone(ZoneName.get("DRAGON_LORDS_SHRINE_600100000"), questId);
-		qe.registerOnKillInWorld(600100000, questId);
+		//qe.registerQuestNpc(802347).addOnTalkEvent(questId);
+		//qe.registerOnEnterZone(ZoneName.get("DRAGON_LORDS_SHRINE_600100000"), questId);
+		//qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override

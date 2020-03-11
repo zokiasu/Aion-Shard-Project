@@ -187,21 +187,13 @@
         <spawn npc_id="798714" respawn_time="295">
             <spot x="506.39938" y="412.35037" z="126.78961" h="90"/>
         </spawn>
-        <!-- Kyra -->
-        <spawn npc_id="802215" respawn_time="295">
-            <spot x="498.57867" y="397.5689" z="126.78955" h="0"/>
-        </spawn>
         <!-- Agaron -->
         <spawn npc_id="804184" respawn_time="295">
-            <spot x="508.7014" y="390.67282" z="126.78955" h="60"/>
-        </spawn>
-        <!-- Chthonios -->
-        <spawn npc_id="804186" respawn_time="295">
-            <spot x="508.82236" y="397.70856" z="126.78955" h="60"/>
+            <spot x="508.78262" y="397.61972" z="126.78955" h="60"/>
         </spawn>
         <!-- Allea -->
         <spawn npc_id="804673" respawn_time="295">
-            <spot x="498.38675" y="390.63138" z="126.78955" h="0"/>
+            <spot x="498.57867" y="397.5689" z="126.78955" h="0"/>
         </spawn>
         <!-- Hypsitos -->
         <spawn npc_id="804674" respawn_time="295">

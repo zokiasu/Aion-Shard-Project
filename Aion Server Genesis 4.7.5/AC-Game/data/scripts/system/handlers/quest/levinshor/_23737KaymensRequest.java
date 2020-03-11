@@ -52,9 +52,9 @@ public class _23737KaymensRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(802346).addOnTalkEvent(questId);
-		qe.registerOnEnterZone(ZoneName.get("EAST_PICKET_600100000"), questId);
-		qe.registerOnKillInWorld(600100000, questId);
+		//qe.registerQuestNpc(802346).addOnTalkEvent(questId);
+		//qe.registerOnEnterZone(ZoneName.get("EAST_PICKET_600100000"), questId);
+		//qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override

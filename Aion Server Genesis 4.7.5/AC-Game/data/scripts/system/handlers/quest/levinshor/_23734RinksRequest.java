@@ -52,9 +52,9 @@ public class _23734RinksRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(802343).addOnTalkEvent(questId);
-		qe.registerOnEnterZone(ZoneName.get("SOUTH_OUTPOST_600100000"), questId);
-		qe.registerOnKillInWorld(600100000, questId);
+		//qe.registerQuestNpc(802343).addOnTalkEvent(questId);
+		//qe.registerOnEnterZone(ZoneName.get("SOUTH_OUTPOST_600100000"), questId);
+		//qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override

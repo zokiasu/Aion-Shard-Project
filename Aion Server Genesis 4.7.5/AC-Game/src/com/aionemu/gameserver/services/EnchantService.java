@@ -742,7 +742,7 @@ public class EnchantService {
                     modifiers.add(new StatEnchantFunction(item, StatEnum.DAMAGE_REDUCE, 0));
                     modifiers.add(new StatEnchantFunction(item, StatEnum.BLOCK, 0));
                 }
-				if (item.getItemTemplate().isAccessory() && item.getItemTemplate().getCategory() != ItemCategory.PLUME) {
+				/*if (item.getItemTemplate().isAccessory() && item.getItemTemplate().getCategory() != ItemCategory.PLUME) {
 				    switch (item.getItemTemplate().getCategory()) {
                         case HELMET:
                         case EARRINGS:
@@ -755,7 +755,7 @@ public class EnchantService {
 					default:
 						break;
                     }
-				}
+				}*/
                 if (item.getItemTemplate().getCategory() == ItemCategory.PLUME) {
                     int id = item.getItemTemplate().getAuthorizeName();
                     switch (id) {

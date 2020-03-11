@@ -4548,10 +4548,6 @@
         <spawn npc_id="799295" respawn_time="295">
             <spot x="2515.79" y="2135.31" z="464.844" h="67"/>
         </spawn>
-        <!-- Padmarashka's Cave Entrance -->
-        <spawn npc_id="730486" respawn_time="295">
-            <spot x="2972.322" y="1212.870" z="242.125" static_id="1235"/>
-        </spawn>
         <!-- Paketan Slipfingers -->
         <spawn npc_id="217016" respawn_time="295">
             <spot x="1405.47" y="2733" z="296.921"/>

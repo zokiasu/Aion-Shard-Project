@@ -138,7 +138,7 @@ public class TransidiumAnnexInstance extends GeneralInstanceHandler
 							@Override
 							public void visit(Player player) {
 								//[Arcadian Fortress]
-								TeleportService2.teleportTo(player, 400020000, 1023.73315f, 1023.5483f, 1530.4855f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
+								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
 							}
 						});
 						onInstanceDestroy();
@@ -161,7 +161,7 @@ public class TransidiumAnnexInstance extends GeneralInstanceHandler
 							@Override
 							public void visit(Player player) {
 								//[Umbral Fortress]
-								TeleportService2.teleportTo(player, 400040000, 1023.73315f, 1023.5483f, 1530.4855f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
+								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
 							}
 						});
 						onInstanceDestroy();
@@ -184,7 +184,7 @@ public class TransidiumAnnexInstance extends GeneralInstanceHandler
 							@Override
 							public void visit(Player player) {
 								//[Eternum Fortress]
-								TeleportService2.teleportTo(player, 400050000, 1023.73315f, 1023.5483f, 1530.4855f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
+								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
 							}
 						});
 						onInstanceDestroy();
@@ -207,7 +207,7 @@ public class TransidiumAnnexInstance extends GeneralInstanceHandler
 							@Override
 							public void visit(Player player) {
 								//[Skyclash Fortress]
-								TeleportService2.teleportTo(player, 400060000, 1023.73315f, 1023.5483f, 1530.4855f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
+								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
 							}
 						});
 						onInstanceDestroy();

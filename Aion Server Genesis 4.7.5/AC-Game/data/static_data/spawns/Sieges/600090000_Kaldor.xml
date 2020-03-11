@@ -1013,7 +1013,7 @@
                     </spawn>
                 </siege_mod>
                 <siege_mod mod="SIEGE">
-                    <!-- Старший лорд-заступник 43 легиона -->
+                    <!-- Boss -->
                     <spawn npc_id="251835">
                         <spot x="787.04987" y="281.46426" z="143.27939" h="27"/>
                     </spawn>
@@ -1072,10 +1072,10 @@
                         <spot x="1080.10" y="730.13" z="182.99" walker_id="ldf5_fortress_npcpath7011_mist_on_dr4"/>
                     </spawn>
                     <!--
-                  <spawn npc_id="252059">
+                    <spawn npc_id="252059">
                       <spot x="812.16" y="334.44" z="152.57" walker_id="ldf5_fortress_npcpath7011_mist_on_guard3"/>
                       <spot x="761.52" y="333.12" z="152.57" walker_id="ldf5_fortress_npcpath7011_mist_on_guard5"/>
-                  </spawn> -->
+                    </spawn> -->
                     <!-- Мощная гаубица атаки 43-го легиона -->
                     <spawn npc_id="272834">
                         <spot x="670.1999" y="285.1302" z="152.23602" h="29"/>

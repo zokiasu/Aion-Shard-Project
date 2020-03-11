@@ -52,9 +52,9 @@ public class _23735KestumsRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(802344).addOnTalkEvent(questId);
-		qe.registerOnEnterZone(ZoneName.get("WEST_OUTPOST_600100000"), questId);
-		qe.registerOnKillInWorld(600100000, questId);
+		//qe.registerQuestNpc(802344).addOnTalkEvent(questId);
+		//qe.registerOnEnterZone(ZoneName.get("WEST_OUTPOST_600100000"), questId);
+		//qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override

@@ -9,16 +9,6 @@
         <spawn npc_id="209677" respawn_time="295" difficult_id="0" custom="true">
             <spot x="370.2381" y="376.75256" z="281.80835" h="42" entity_id="0"/>
         </spawn>
-        <!-- Elyos Katalam to Kaldor Teleporter -->
-        <spawn npc_id="802454" respawn_time="295" difficult_id="0" custom="true">
-            <spot x="1348.6854" y="2975.2473" z="215.42696" h="90" entity_id="0"/>
-            <spot x="406.76602" y="2706.9539" z="142.14284" h="48" entity_id="0"/>
-        </spawn>
-        <!-- Asmo Katalam to Kaldor Teleporter -->
-        <spawn npc_id="802453" respawn_time="295" difficult_id="0" custom="true">
-            <spot x="1358.5818" y="351.84933" z="186.8618" h="31" entity_id="0"/>
-            <spot x="357.61893" y="393.76706" z="281.80835" h="102" entity_id="0"/>
-        </spawn>
         <!-- Abandoned Basket -->
         <spawn npc_id="701745" respawn_time="295">
             <spot x="1244.7169" y="329.33398" z="178.98752" static_id="1038"/>
@@ -3099,8 +3089,7 @@
         <spawn npc_id="800602" respawn_time="295">
             <spot x="334.01498" y="392.85803" z="274.22433" h="67"/>
         </spawn>
-        <!-- Kenais -->
-        <spawn npc_id="801455" respawn_time="295">
+        <spawn npc_id="804184" respawn_time="295">
             <spot x="340.9134" y="2773.391" z="140.57265" h="10"/>
         </spawn>
         <!-- Kerub Digger -->
@@ -3134,9 +3123,11 @@
             <spot x="2424.7336" y="2869.0847" z="227.86638" h="93"/>
             <spot x="2431.04" y="2865.6619" z="231.17645" h="73"/>
         </spawn>
-        <!-- Kiyar -->
-        <spawn npc_id="801387" respawn_time="295">
+        <spawn npc_id="804194" respawn_time="295">
             <spot x="400.74164" y="456.6651" z="280.0233" h="83"/>
+        </spawn>
+        <spawn npc_id="804675" respawn_time="295">
+            <spot x="404.937" y="454.4247" z="280.0233" h="66"/>
         </spawn>
         <!-- Kilros -->
         <spawn npc_id="801025" respawn_time="295">
@@ -4266,10 +4257,10 @@
             <spot x="167.34412" y="1107.0455" z="209.26663" h="10"/>
             <spot x="170.06403" y="1100.3767" z="209.57391" h="10"/>
         </spawn>
-        <!-- Orangus -->
-        <spawn npc_id="801453" respawn_time="295">
+        <!-- Orangus
+        <spawn npc_id="804763" respawn_time="295">
             <spot x="343.1133" y="2780.6016" z="140.57265" h="100"/>
-        </spawn>
+        </spawn> -->
         <spawn npc_id="701754" respawn_time="295">
             <spot x="2529.5093" y="2532.1169" z="276.5792" static_id="635"/>
             <spot x="2588.5649" y="2632.8413" z="263.5656" static_id="828"/>
@@ -6949,10 +6940,6 @@
             <spot x="1393.0421" y="1288.5599" z="120.69054" h="57"/>
             <spot x="1423.3297" y="1273.6119" z="111.17351" h="27"/>
         </spawn>
-        <!-- Tiav -->
-        <spawn npc_id="801389" respawn_time="295">
-            <spot x="403.79355" y="449.41736" z="280.0233" h="53"/>
-        </spawn>
         <!-- Tired Mukuki Laborer -->
         <spawn npc_id="233036" respawn_time="295">
             <spot x="2313.2637" y="246.53032" z="219.24396" h="83"/>
@@ -7517,17 +7504,9 @@
 			<spot h="41" x="1288.63" y="2136.85" z="65.24" />
 			<spot h="41" x="1299.49" y="2019.89" z="75.35" />
 		</spawn>
-	   <!-- Verintos -->	
-		<spawn respawn_time="295" npc_id="802057">
-			<spot h="66" x="404.937" y="454.4247" z="280.0233"/>
-		</spawn>
 	   <!-- Nesfir -->
 		<spawn respawn_time="295" npc_id="832737">
 			<spot h="76" x="365.61" y="352.52" z="273.625"/>
-		</spawn>
-	    <!-- Heraenia -->	
-		<spawn respawn_time="295" npc_id="802056">
-			<spot h="23" x="343.75345" y="2769.7837" z="140.57266"/>
 		</spawn>
 	    <!-- Castarus -->	
 		<spawn respawn_time="295" npc_id="206345">
@@ -7552,14 +7531,14 @@
         <spawn npc_id="801815" respawn_time="295">
             <spot x="2429.3977" y="2281.0823" z="165.12584" static_id="1354"/>
         </spawn>
-        <!-- Poprunerk (Asmo Teleporter to Kaldor) -->
+        <!-- Poprunerk (Asmo Teleporter to Kaldor)
         <spawn npc_id="802453" respawn_time="295">
                 <spot x="1358.5818" y="351.84933" z="186.8618" h="31"/>
-        </spawn>
-        <!-- Tarunerk (Elyos Teleporter to Kaldor) -->
+        </spawn> -->
+        <!-- Tarunerk (Elyos Teleporter to Kaldor)
         <spawn npc_id="802454" respawn_time="295">
                 <spot x="1348.6854" y="2975.2473" z="215.42696" h="90"/>
-        </spawn>
+        </spawn> -->
 		<!-- Dirinerk -->
 		<spawn npc_id="804488" respawn_time="295">
 			<spot x="251.17543" y="499.48126" z="259.03723" h="50"/>

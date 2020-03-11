@@ -1099,6 +1099,14 @@
         <portal_path loc_id="6001010"/>
     </portal_use>
 
+    <!-- Transidium Annex Teleporter -->
+    <portal_use npc_id="297273">
+        <portal_path loc_id="4000300" player_count="100" instance="true" race="ASMODIANS"/>
+    </portal_use>
+    <portal_use npc_id="297274">
+        <portal_path loc_id="4000302" player_count="100" instance="true" race="ELYOS"/>
+    </portal_use>
+
     <!-- KATALAM TELEPORTER -->
     <!-- Asmo Katalam to Kaldor Teleporter -->
     <portal_use npc_id="802453">

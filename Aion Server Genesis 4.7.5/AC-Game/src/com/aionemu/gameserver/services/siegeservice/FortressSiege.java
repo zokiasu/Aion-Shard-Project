@@ -194,6 +194,7 @@ public class FortressSiege extends Siege<FortressLocation> {
 			BaseService.getInstance().capture(114, Race.NPC);
 			BaseService.getInstance().capture(115, Race.NPC);
 		}
+
     }
 
     protected SiegeAbyssRace getPlayerReward(Integer object) {
@@ -260,6 +261,7 @@ public class FortressSiege extends Siege<FortressLocation> {
 			BaseService.getInstance().capture(114, Race.NPC);
 			BaseService.getInstance().capture(115, Race.NPC);
 		}
+
     }
 		
 

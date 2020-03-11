@@ -245,12 +245,15 @@
                 </spawn>
             </simple_race>
             <simple_race race="ASMODIANS">
+                <!-- Logo Garni -->
                 <spawn npc_id="832150">
                     <spot x="1258.118530" y="1437.250366" z="283.164307"/>
                 </spawn>
+                <!-- Aramilda -->
                 <spawn npc_id="802588">
                     <spot x="1269.725" y="1426.393" z="274.79794" h="31"/>
                 </spawn>
+                <!-- Holdor -->
                 <spawn npc_id="802651">
                     <spot x="1261.136" y="1451.399" z="274.93365" h="97"/>
                 </spawn>
@@ -525,9 +528,9 @@
                 <spawn npc_id="802616">
                     <spot x="1433.6777" y="819.80646" z="258.125" h="45"/>
                 </spawn>
-                <spawn npc_id="804564" handler="PORTAL">
+                <!--<spawn npc_id="802454">
                     <spot x="1395.6858" y="853.3888" z="259.54037" h="118"/>
-                </spawn>
+                </spawn>-->
                 <spawn npc_id="235154" handler="BOSS">
                     <spot x="1401.6089" y="852.7" z="259.6871"/>
                 </spawn>
@@ -602,9 +605,9 @@
                 <spawn npc_id="802638">
                     <spot x="1433.6777" y="819.80646" z="258.125" h="45"/>
                 </spawn>
-                <spawn npc_id="804567" handler="PORTAL">
+                <!--<spawn npc_id="802453">
                     <spot x="1395.6858" y="853.3888" z="259.54037" h="118"/>
-                </spawn>
+                </spawn>-->
                 <spawn npc_id="235167" handler="BOSS">
                     <spot x="1401.6089" y="852.7" z="259.6871"/>
                 </spawn>
@@ -1801,9 +1804,9 @@
                 <spawn npc_id="802329">
                     <spot x="508.1868" y="1156.55" z="276.5" h="61"/>
                 </spawn>
-                <spawn npc_id="804565" handler="PORTAL">
+                <!--<spawn npc_id="802454">
                     <spot x="524.9058" y="1171.766" z="277.49347" h="59"/>
-                </spawn>
+                </spawn>-->
                 <spawn npc_id="235148" handler="BOSS">
                     <spot x="519.3247" y="1172.088" z="277.49347" h="61"/>
                 </spawn>
@@ -1878,9 +1881,9 @@
                 <spawn npc_id="802348">
                     <spot x="508.1868" y="1156.55" z="276.5" h="61"/>
                 </spawn>
-                <spawn npc_id="804568" handler="PORTAL">
+                <!--<spawn npc_id="802453">
                     <spot x="524.9058" y="1171.766" z="277.49347" h="59"/>
-                </spawn>
+                </spawn>-->
                 <spawn npc_id="235161" handler="BOSS">
                     <spot x="519.3247" y="1172.088" z="277.49347" h="61"/>
                 </spawn>
@@ -2000,9 +2003,9 @@
                 <spawn npc_id="802637">
                     <spot x="936.0244" y="1075.149" z="334.24686" h="97"/>
                 </spawn>
-                <spawn npc_id="804563" handler="PORTAL">
+                <!--<spawn npc_id="802454">
                     <spot x="957.6475" y="1034.671" z="334.99393" h="50"/>
-                </spawn>
+                </spawn>-->
                 <spawn npc_id="731457" handler="PORTAL">
                     <spot x="943.09155" y="1034.9174" z="334.29272" static_id="959"/>
                 </spawn>
@@ -2103,9 +2106,9 @@
                 <spawn npc_id="802659">
                     <spot x="936.0244" y="1075.149" z="334.24686" h="97"/>
                 </spawn>
-                <spawn npc_id="804566" handler="PORTAL">
+                <!--<spawn npc_id="802453">
                     <spot x="957.6475" y="1034.671" z="334.99393" h="50"/>
-                </spawn>
+                </spawn>-->
                 <spawn npc_id="731460" handler="PORTAL">
                     <spot x="943.09155" y="1034.9174" z="334.29272" static_id="959"/>
                 </spawn>

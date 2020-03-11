@@ -62,7 +62,7 @@ public class AuthorizeAction
   
   public boolean canAct(Player player, Item parentItem, Item targetItem)
   {
-    if (!targetItem.getItemTemplate().isAccessory()) {
+    if (!targetItem.getItemTemplate().isPlume()) {
       return false;
     }
     if (targetItem.getItemTemplate().getAuthorize() == 0) {

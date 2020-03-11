@@ -183,17 +183,9 @@
         <spawn npc_id="798716" respawn_time="295">
             <spot x="390.91113" y="252.74022" z="93.129425" h="119"/>
         </spawn>
-        <!-- Ildar -->
-        <spawn npc_id="802217" respawn_time="295">
-            <spot x="398.70294" y="255.47528" z="93.112526" h="90"/>
-        </spawn>
         <!-- Ruz -->
         <spawn npc_id="804194" respawn_time="295">
             <spot x="402.76712" y="255.66905" z="93.112526" h="90"/>
-        </spawn>
-        <!-- Carreto -->
-        <spawn npc_id="804196" respawn_time="295">
-            <spot x="406.99948" y="245.42786" z="93.112526" h="30"/>
         </spawn>
         <!-- Jacksen -->
         <spawn npc_id="804675" respawn_time="295">
@@ -201,7 +193,7 @@
         </spawn>
         <!-- Baiern -->
         <spawn npc_id="804676" respawn_time="295">
-            <spot x="406.8667" y="255.60442" z="93.112526" h="90"/>
+            <spot x="398.70294" y="255.47528" z="93.112526" h="90"/>
         </spawn>
     </spawn_map>
 </spawns>

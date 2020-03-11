@@ -152,6 +152,7 @@
             <drop item_id="152010317" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
     </npc_drop>
+
     <npc_drop npc_id="230223">
         <drop_group name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
@@ -304,6 +305,7 @@
             <drop item_id="152010317" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
     </npc_drop>
+
     <npc_drop npc_id="230226">
         <drop_group name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
