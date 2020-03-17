@@ -110,8 +110,7 @@
             <spot x="184.69525" y="349.2807" z="397.07086" h="36"/>
         </spawn>
 		<!-- Aion 4.8 -->
-		<!-- Raynerk
-		<The Shugo Emperor's Safe Keeper> -->
+		<!-- Raynerk The Shugo Emperor's Safe Keeper> -->
 		<spawn npc_id="833461">
 			<spot x="163.73883" y="384.6162" z="395.0653" h="118"/>
             <spot x="172.0503" y="229.18364" z="395.0" h="63"/>
@@ -124,7 +123,6 @@
             <spot x="171.60538" y="231.05965" z="395.0" h="67"/>
             <spot x="172.07166" y="541.71967" z="395.1209" h="70"/>
         </spawn>
-		
 		<!-- Intruder Skirmisher
 		<180 Points> -->
 		<spawn npc_id="235629">

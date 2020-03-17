@@ -433,4 +433,23 @@
             <drop item_id="188052607" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
+
+    <npc_drop npc_id="230753">
+        <drop_group name="DEFENDER_SUPPLY_BOX">
+            <drop item_id="188052599" chance="5.0" min_amount="1" max_amount="1"/>
+        </drop_group>
+        <drop_group name="MOBILE_TURRET_KEY">
+            <drop item_id="185000137" chance="100.0" min_amount="1" max_amount="1"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="230757">
+        <drop_group name="DEFENDER_SUPPLY_BOX">
+            <drop item_id="188052599" chance="5.0" min_amount="1" max_amount="1"/>
+        </drop_group>
+        <drop_group name="MOBILE_TURRET_KEY">
+            <drop item_id="185000137" chance="100.0" min_amount="1" max_amount="1"/>
+        </drop_group>
+    </npc_drop>
+
+
 </npc_drops>

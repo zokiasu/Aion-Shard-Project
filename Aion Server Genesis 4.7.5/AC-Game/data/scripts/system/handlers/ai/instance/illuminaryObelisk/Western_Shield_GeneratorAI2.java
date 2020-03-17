@@ -72,7 +72,7 @@ public class Western_Shield_GeneratorAI2 extends NpcAI2 {
 
     @Override
     public boolean onDialogSelect(final Player player, int dialogId, int questId, int extendedRewardIndex) {
-		if (dialogId == 10000 && player.getInventory().decreaseByItemId(164000289, 3)) {
+		if (dialogId == 10000 && player.getInventory().decreaseByItemId(164000289, 1)) {
 			if (wave1) {
 				restrict = true;
 				PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402195));
@@ -144,81 +144,78 @@ public class Western_Shield_GeneratorAI2 extends NpcAI2 {
      */
 	
 	private void startWaveWesternShieldGenerator1() {
-								sp(233722, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
-								sp(233723, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
-								sp(233882, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
-															
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-							@Override
-							public void run() {
-								sp(233731, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
-								sp(233732, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
-								sp(233733, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
-							}
-						}, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-							@Override
-							public void run() {
-								spawn(702221, 255.38777f, 212.00926f, 321.37292f, (byte) 90);
-							}
-						}, 30000);
+		sp(283809, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
+		sp(283811, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
+		sp(283809, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+				@Override
+				public void run() {
+					sp(283811, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
+					sp(283810, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
+					sp(283811, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
+				}
+			}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+				@Override
+				public void run() {
+					spawn(702221, 255.38777f, 212.00926f, 321.37292f, (byte) 90);
+				}
+			}, 30000);
     }
 	 
     private void startWaveWesternShieldGenerator2() {
-							sp(233728, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
-							sp(233729, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
-							sp(233730, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
-											
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233737, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
-							sp(233738, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
-							sp(233739, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							 spawn(702222, 255.38777f, 212.00926f, 321.37292f, (byte) 90);
-						}
-                    }, 30000);
-					
-       
+		sp(283812, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
+		sp(283811, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
+		sp(283812, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283814, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
+				sp(283815, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
+				sp(283814, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				 spawn(702222, 255.38777f, 212.00926f, 321.37292f, (byte) 90);
+			}
+		}, 30000);
     }
 
     private void startWaveWesternShieldGenerator3() {
-							sp(233734, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 6000, "WesternShieldGenerator1");
-							sp(233735, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 6000, "WesternShieldGenerator2");
-							sp(233736, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 6000, "WesternShieldGenerator3");
-							sp(233728, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 23000, "WesternShieldGenerator1");
-							sp(233729, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 23000, "WesternShieldGenerator2");
-							sp(233730, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 23000, "WesternShieldGenerator3");
-							
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233731, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 6000, "WesternShieldGenerator1");
-							sp(233732, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 6000, "WesternShieldGenerator2");
-							sp(233739, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 6000, "WesternShieldGenerator3");
-							sp(233727, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 23000, "WesternShieldGenerator1");
-							sp(233726, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 23000, "WesternShieldGenerator2");
-							sp(233725, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 23000, "WesternShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							spawn(702223, 255.38777f, 212.00926f, 321.37292f, (byte) 90);
-						}
-                    }, 30000);
-        
+		sp(283815, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 6000, "WesternShieldGenerator1");
+		sp(283817, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 6000, "WesternShieldGenerator2");
+		sp(283812, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 6000, "WesternShieldGenerator3");
+		sp(283809, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 23000, "WesternShieldGenerator1");
+		sp(283809, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 23000, "WesternShieldGenerator2");
+		sp(283810, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 23000, "WesternShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283815, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 6000, "WesternShieldGenerator1");
+				sp(283817, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 6000, "WesternShieldGenerator2");
+				sp(283812, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 6000, "WesternShieldGenerator3");
+				sp(283809, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 23000, "WesternShieldGenerator1");
+				sp(283809, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 23000, "WesternShieldGenerator2");
+				sp(283810, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 23000, "WesternShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				spawn(702223, 255.38777f, 212.00926f, 321.37292f, (byte) 90);
+			}
+		}, 30000);
     }
 
-   protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {
+    protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
             public void run() {

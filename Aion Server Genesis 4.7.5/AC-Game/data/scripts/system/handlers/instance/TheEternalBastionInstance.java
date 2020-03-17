@@ -1,22 +1,23 @@
-/*
- * This file is part of Neon-Eleanor project
- *
- * This is proprietary software. See the EULA file distributed with
- * this project for additional information regarding copyright ownership.
- *
- * Copyright (c) 2011-2015, Neon-Eleanor Team. All rights reserved.
- */
 package instance;
 
+import java.util.*;
+import java.util.concurrent.Future;
+import java.util.concurrent.atomic.AtomicInteger;
+
 import com.aionemu.commons.utils.Rnd;
+import com.aionemu.commons.network.util.ThreadPoolManager;
+
 import com.aionemu.gameserver.ai2.AIState;
 import com.aionemu.gameserver.ai2.AbstractAI;
+import com.aionemu.gameserver.controllers.effect.*;
 import com.aionemu.gameserver.controllers.effect.PlayerEffectController;
-import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.instance.handlers.*;
+import com.aionemu.gameserver.model.*;
 import com.aionemu.gameserver.model.DescriptionId;
+import com.aionemu.gameserver.model.drop.*;
 import com.aionemu.gameserver.model.EmotionType;
 import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.*;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.StaticDoor;
@@ -25,6 +26,7 @@ import com.aionemu.gameserver.model.instance.InstanceScoreType;
 import com.aionemu.gameserver.model.instance.StageList;
 import com.aionemu.gameserver.model.instance.instancereward.EternalBastionReward;
 import com.aionemu.gameserver.model.instance.playerreward.EternalBastionPlayerReward;
+import com.aionemu.gameserver.network.aion.serverpackets.*;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
@@ -35,16 +37,12 @@ import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.services.player.PlayerReviveService;
 import com.aionemu.gameserver.services.teleport.TeleportService2;
 import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.*;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Tasks;
-import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.zone.*;
 import com.aionemu.gameserver.world.WorldMapInstance;
 import com.aionemu.gameserver.world.knownlist.Visitor;
-
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Future;
-import java.util.concurrent.atomic.AtomicInteger;
 
 
 @InstanceID(300540000)
@@ -77,6 +75,46 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     private Future<?> stage2;
     private int rank;
     private int skillId;
+
+    @Override
+    public void onDropRegistered(Npc npc) {
+        Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
+        int npcId = npc.getNpcId();
+        Integer object = getInstance().getSoloPlayerObj();
+        if (npcId == 831328) {
+            switch (npc.getSpawn().getStaticId()){
+                case 313:
+                case 314:
+                case 315:
+                case 316:
+                case 317:
+                case 318:
+                case 319:
+                case 320:
+                case 321:
+                case 322:
+                    dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006995, 8));
+                    break;
+
+                case 331:
+                    dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000136, 24));
+                    break;
+                case 330:
+                    dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006995, 48));
+                    break;
+
+                case 323:
+                case 324:
+                case 325:
+                case 335:
+                case 338:
+                case 340:
+                    dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006996, 3));
+                    dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006997, 2));
+                    break;
+            }
+        }
+    }
 
     protected EternalBastionPlayerReward getPlayerReward(Player player) {
         Integer object = player.getObjectId();
@@ -132,15 +170,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             }, 1950000L);
         }
         sendPacket(0);
-    }
-
-    @Override
-    public void onDropRegistered(Npc npc) {
-        int npcId = npc.getNpcId();
-        Integer object = getInstance().getSoloPlayerObj();
-        if (npcId == 831328 && npc.getSpawn().getStaticId() == 330) {
-            DropRegistrationService.getInstance().regDropItem(npc.getObjectId(), object, npcId, 185000136, 24);
-        }
     }
 
     @Override
@@ -231,19 +260,19 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 break;
             case START_STAGE_1_PHASE_6:
                 stage1 = ThreadPoolManager.getInstance().scheduleAtFixedRate( new Runnable() {
-                @Override
-                public void run() {
-                    spawnWalk(231113, 608.53816f, 398.5974f, 226.0108f, (byte) 111, 1000, "30054000001");
-                    spawnWalk(231110, 607.84991f, 397.9318f, 226.0604f, (byte) 96, 1100, "30054000002");
-                    spawnWalk(231110, 606.19899f, 396.60455f, 226.0078f, (byte) 110, 1200, "30054000003");
-                    spawnWalk(231113, 594.53816f, 266.5974f, 227.0108f, (byte) 111, 1300, "30054000004");
-                    spawnWalk(231112, 595.84991f, 267.9318f, 227.0604f, (byte) 96, 1400, "30054000005");
-                    spawnWalk(231112, 593.19899f, 265.60455f, 227.0078f, (byte) 110, 1500, "30054000006");
-                    spawnWalk(231113, 609.53816f, 399.5974f, 226.0108f, (byte) 111, 1600, "30054000001");
-                    spawnWalk(231110, 610.84991f, 400.9318f, 226.0604f, (byte) 96, 1700, "30054000002");
-                    spawnWalk(231110, 611.19899f, 401.60455f, 226.0078f, (byte) 110, 1800, "30054000003");
-                }
-            }, 120000L, 120000L);
+                    @Override
+                    public void run() {
+                        spawnWalk(231113, 608.53816f, 398.5974f, 226.0108f, (byte) 111, 1000, "30054000001");
+                        spawnWalk(231110, 607.84991f, 397.9318f, 226.0604f, (byte) 96, 1100, "30054000002");
+                        spawnWalk(231110, 606.19899f, 396.60455f, 226.0078f, (byte) 110, 1200, "30054000003");
+                        spawnWalk(231113, 594.53816f, 266.5974f, 227.0108f, (byte) 111, 1300, "30054000004");
+                        spawnWalk(231112, 595.84991f, 267.9318f, 227.0604f, (byte) 96, 1400, "30054000005");
+                        spawnWalk(231112, 593.19899f, 265.60455f, 227.0078f, (byte) 110, 1500, "30054000006");
+                        spawnWalk(231113, 609.53816f, 399.5974f, 226.0108f, (byte) 111, 1600, "30054000001");
+                        spawnWalk(231110, 610.84991f, 400.9318f, 226.0604f, (byte) 96, 1700, "30054000002");
+                        spawnWalk(231110, 611.19899f, 401.60455f, 226.0078f, (byte) 110, 1800, "30054000003");
+                    }
+                }, 120000L, 120000L);
 
                 break;
             case START_STAGE_2_PHASE_1:
@@ -313,19 +342,19 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 break;
             case START_STAGE_2_PHASE_6:
                 stage2 = ThreadPoolManager.getInstance().scheduleAtFixedRate( new Runnable() {
-                @Override
-                public void run() {
-                    spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
-                    spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
-                    spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
-                    spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000010");
-                    spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
-                    spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000012");
-                    spawnWalk(231113, 642.53816f, 473.5974f, 226.9108f, (byte) 111, 1600, "30054000007");
-                    spawnWalk(231110, 641.84991f, 472.9318f, 226.9108f, (byte) 96, 1700, "30054000008");
-                    spawnWalk(231110, 640.19899f, 471.60455f, 226.9108f, (byte) 110, 1800, "30054000009");
-                }
-            }, 120000L, 120000L);
+                    @Override
+                    public void run() {
+                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
+                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
+                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
+                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000010");
+                        spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
+                        spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000012");
+                        spawnWalk(231113, 642.53816f, 473.5974f, 226.9108f, (byte) 111, 1600, "30054000007");
+                        spawnWalk(231110, 641.84991f, 472.9318f, 226.9108f, (byte) 96, 1700, "30054000008");
+                        spawnWalk(231110, 640.19899f, 471.60455f, 226.9108f, (byte) 110, 1800, "30054000009");
+                    }
+                }, 120000L, 120000L);
                 break;
             case START_SPAWN_DEAD_GATE:
                 AttackTowerGate = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
@@ -880,54 +909,54 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void startAssault() {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                sendMsg(1401815); // MSG Main Wave 01
-                spawn(231140, 741.09f, 302.52f, 233.75f, (byte) 99); // Pashid Assault Pod.
-                spawn(231141, 735.23f, 298.94f, 233.75f, (byte) 110); // Pashid Assault Drill.
-            }
-        }
+                                                     @Override
+                                                     public void run() {
+                                                         sendMsg(1401815); // MSG Main Wave 01
+                                                         spawn(231140, 741.09f, 302.52f, 233.75f, (byte) 99); // Pashid Assault Pod.
+                                                         spawn(231141, 735.23f, 298.94f, 233.75f, (byte) 110); // Pashid Assault Drill.
+                                                     }
+                                                 }
 
                 , 5000L);
     }
 
     private void attackGate(final Npc gate, final Npc npc) {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                if (!isDestroyed) {
-                    npc.setTarget(gate);
-                    ((AbstractAI) npc.getAi2()).setStateIfNot(AIState.WALKING);
-                    npc.setState(1);
-                    npc.getMoveController().moveToTargetObject();
-                    PacketSendUtility.broadcastPacket(npc, new SM_EMOTION(npc, EmotionType.START_EMOTE2, 0, npc.getObjectId()));
-                }
-            }
-        }
+                                                     @Override
+                                                     public void run() {
+                                                         if (!isDestroyed) {
+                                                             npc.setTarget(gate);
+                                                             ((AbstractAI) npc.getAi2()).setStateIfNot(AIState.WALKING);
+                                                             npc.setState(1);
+                                                             npc.getMoveController().moveToTargetObject();
+                                                             PacketSendUtility.broadcastPacket(npc, new SM_EMOTION(npc, EmotionType.START_EMOTE2, 0, npc.getObjectId()));
+                                                         }
+                                                     }
+                                                 }
                 , 4000L);
     }
 
     private void startAssaultBombTimer() {
         AssaultBomb = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
-            @Override
-            public void run() {
-                sendMsg(1401825);
-                attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 424.36f, 232.9f, (byte) 77));
-                attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 425.36f, 232.9f, (byte) 77));
-                attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 426.36f, 232.9f, (byte) 77));
-                attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 423.36f, 232.9f, (byte) 77));
-            }
-        }
+                                                                              @Override
+                                                                              public void run() {
+                                                                                  sendMsg(1401825);
+                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 424.36f, 232.9f, (byte) 77));
+                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 425.36f, 232.9f, (byte) 77));
+                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 426.36f, 232.9f, (byte) 77));
+                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 423.36f, 232.9f, (byte) 77));
+                                                                              }
+                                                                          }
                 , 600000L, 60000L);
     }
 
     private void StartSpawnRam() {
         AssaultRam = ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                attackGate(getNpc(831333), (Npc) spawn(231150, 798.76f, 426.68f, 231.77f, (byte) 77));
-            }
-        }
+                                                                  @Override
+                                                                  public void run() {
+                                                                      attackGate(getNpc(831333), (Npc) spawn(231150, 798.76f, 426.68f, 231.77f, (byte) 77));
+                                                                  }
+                                                              }
                 , 900000L);
     }
 
@@ -960,29 +989,29 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void startRndAssaultPod() {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                int rnd = Rnd.get(1, 4);
-                switch (rnd) {
-                    case 1:
-                        spawn(231156, 622.80f, 298.20f, 238.96f, (byte) 27); // Pashid Assault Pod.
-                        spawn(231163, 725.40f, 367.19f, 230.96f, (byte) 0); // Pashid Assault Drill.
-                        break;
-                    case 2:
-                        spawn(231157, 778.01f, 388.72f, 243.94f, (byte) 55); // Pashid Assault Pod.
-                        spawn(231164, 663.94f, 285.56f, 225.70f, (byte) 21); // Pashid Assault Drill.
-                        break;
-                    case 3:
-                        spawn(231158, 781.17f, 322.80f, 253.69f, (byte) 56); // Pashid Assault Pod.
-                        spawn(231165, 763.63f, 354.47f, 231.69f, (byte) 23); // Pashid Assault Drill.
-                        break;
-                    case 4:
-                        spawn(231159, 698.70f, 306.36f, 249.69f, (byte) 3); // Pashid Assault Pod.
-                        spawn(231166, 653.85f, 266.61f, 225.69f, (byte) 118); // Pashid Assault Drill.
-                        break;
-                }
-            }
-        }
+                                                     @Override
+                                                     public void run() {
+                                                         int rnd = Rnd.get(1, 4);
+                                                         switch (rnd) {
+                                                             case 1:
+                                                                 spawn(231156, 622.80f, 298.20f, 238.96f, (byte) 27); // Pashid Assault Pod.
+                                                                 spawn(231163, 725.40f, 367.19f, 230.96f, (byte) 0); // Pashid Assault Drill.
+                                                                 break;
+                                                             case 2:
+                                                                 spawn(231157, 778.01f, 388.72f, 243.94f, (byte) 55); // Pashid Assault Pod.
+                                                                 spawn(231164, 663.94f, 285.56f, 225.70f, (byte) 21); // Pashid Assault Drill.
+                                                                 break;
+                                                             case 3:
+                                                                 spawn(231158, 781.17f, 322.80f, 253.69f, (byte) 56); // Pashid Assault Pod.
+                                                                 spawn(231165, 763.63f, 354.47f, 231.69f, (byte) 23); // Pashid Assault Drill.
+                                                                 break;
+                                                             case 4:
+                                                                 spawn(231159, 698.70f, 306.36f, 249.69f, (byte) 3); // Pashid Assault Pod.
+                                                                 spawn(231166, 653.85f, 266.61f, 225.69f, (byte) 118); // Pashid Assault Drill.
+                                                                 break;
+                                                         }
+                                                     }
+                                                 }
 
                 , 300000L);
     }

@@ -1537,6 +1537,9 @@
         <keyitem id="1" itemid="0" quantity="1"/>
     </chest>
     <!-- Eternal Bastion -->
+    <chest npcid="831328">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
     <chest npcid="701913">
         <keyitem id="1" itemid="0" quantity="1"/>
     </chest>

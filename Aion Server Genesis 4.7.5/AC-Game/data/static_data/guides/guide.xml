@@ -3487,9 +3487,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_cleric" level="65" race="ASMODIANS" classType="CLERIC" rewardCount="14">
         <message>
@@ -3515,8 +3515,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_chanter" level="65" race="ASMODIANS" classType="CHANTER" rewardCount="14">
         <message>
@@ -3541,9 +3541,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_glad" level="65" race="ASMODIANS" classType="GLADIATOR" rewardCount="14">
         <message>
@@ -3568,9 +3568,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
     <guide title="adventurers_guide65_asmo_gunner" level="65" race="ASMODIANS" classType="GUNNER" rewardCount="14">
         <message>
@@ -3596,8 +3596,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_bard" level="65" race="ASMODIANS" classType="BARD" rewardCount="13">
         <message>
@@ -3622,8 +3622,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_ranger" level="65" race="ASMODIANS" classType="RANGER" rewardCount="14">
         <message>
@@ -3648,9 +3648,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_rider" level="65" race="ASMODIANS" classType="RIDER" rewardCount="14">
         <message>
@@ -3676,8 +3676,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_sorc" level="65" race="ASMODIANS" classType="SORCERER" rewardCount="13">
         <message>
@@ -3702,8 +3702,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_sm" level="65" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="13">
         <message>
@@ -3728,8 +3728,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_templar" level="65" race="ASMODIANS" classType="TEMPLAR" rewardCount="16">
         <message>
@@ -3756,18 +3756,19 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
-	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="7">
+	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="8">
         <message><![CDATA[<BR><BR>
-			Congratulations!
+			Please equip your equipment before accepting the following items.
 			<br><br>]]>
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
         <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
@@ -3801,9 +3802,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
 	<guide title="adventurers_guide65_ely_cleric" level="65" race="ELYOS" classType="CLERIC" rewardCount="14">
         <message>
@@ -3829,8 +3830,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_ely_chanter" level="65" race="ELYOS" classType="CHANTER" rewardCount="14">
         <message>
@@ -3855,9 +3856,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
 	<guide title="adventurers_guide65_ely_glad" level="65" race="ELYOS" classType="GLADIATOR" rewardCount="14">
         <message>
@@ -3882,9 +3883,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
     <guide title="adventurers_guide65_ely_gunner" level="65" race="ELYOS" classType="GUNNER" rewardCount="14">
         <message>
@@ -3910,8 +3911,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_ely_bard" level="65" race="ELYOS" classType="BARD" rewardCount="13">
         <message>
@@ -3936,8 +3937,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_ely_ranger" level="65" race="ELYOS" classType="RANGER" rewardCount="14">
         <message>
@@ -3962,9 +3963,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
 	<guide title="adventurers_guide65_ely_rider" level="65" race="ELYOS" classType="RIDER" rewardCount="14">
         <message>
@@ -3990,8 +3991,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_ely_sorc" level="65" race="ELYOS" classType="SORCERER" rewardCount="13">
         <message>
@@ -4016,8 +4017,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_ely_sm" level="65" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="13">
         <message>
@@ -4042,8 +4043,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="50"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="50"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
+        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
     </guide>
 	<guide title="adventurers_guide65_ely_templar" level="65" race="ELYOS" classType="TEMPLAR" rewardCount="16">
         <message>
@@ -4070,11 +4071,11 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="50"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="50"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="50"/> <!-- Accuracy 23 -->
+        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
+        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
+        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
-	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="7">
+	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Congratulations!
 			<br><br>]]>
@@ -4082,6 +4083,7 @@
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
         <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->

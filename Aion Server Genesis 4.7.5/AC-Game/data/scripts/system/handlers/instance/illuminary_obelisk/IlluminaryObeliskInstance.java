@@ -102,30 +102,11 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
         doors = instance.getDoors();
     }
 
-    /**
-     * Reward:
-     * After a successful capture of the boss you will get a small chance of obtaining mythical wings, and a variety of items.
-     * Boxes are for all the members and the wings only for one person in the group.
-     */
     public void onDropRegistered(Npc npc) {
         Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
         int npcId = npc.getNpcId();
         int index = dropItems.size() + 1;
         switch (npcId) {
-            case 233740: //Test Weapon Dynatoum.
-                for (Player player : instance.getPlayersInside()) {
-                    if (player.isOnline()) {
-                        dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188053083, 1)); //Tempering Solution Chest.
-					} switch (Rnd.get(1, 2)) {
-				        case 1:
-				            dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 188052830, 1)); //Dynatoum's Brazen Weapon Box.
-				        break;
-					    case 2:
-				            dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 188052831, 1)); //Dynatoum's Brazen Armor Box.
-				        break;
-                    }
-                }
-                break;
             /**
              * Collect Items:
              * Each "Shield Generator" unit needs 3 ide items, 12 items in total, you can find them all around the instance.
@@ -151,15 +132,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     sendMsg(1402193);
                     openFirstDoors();
                 }
-            }, 60000);
-        }
-        switch (player.getRace()) {
-            case ELYOS:
-                sendMovie(player, 894);
-                break;
-            case ASMODIANS:
-                sendMovie(player, 895);
-                break;
+            }, 1000);
         }
     }
 
@@ -195,215 +168,185 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
         switch (npc.getObjectTemplate().getTemplateId()) {
             case 702010: //Eastern Shield Generator.
                 despawnNpc(npc);
-				deleteNpc(233720);
-				deleteNpc(233721);
-				deleteNpc(233728);
-                deleteNpc(233729);
-                deleteNpc(233730);
-                deleteNpc(233732);
-                deleteNpc(233733);
-                deleteNpc(233734);
-                deleteNpc(233735);
-                deleteNpc(233736);
-                deleteNpc(233737);
-                deleteNpc(233738);
-				deleteNpc(233739);
-				deleteNpc(702014);
-				deleteNpc(702218);
-				deleteNpc(702219);
-				deleteNpc(702220);
-				isEnd = true;
-				SP1Task.cancel(true);
-				instance.doOnAllPlayers(new Visitor<Player>() {
+
+                deleteNpc(283809);
+                deleteNpc(283810);
+                deleteNpc(283811);
+                deleteNpc(283812);
+                deleteNpc(283814);
+                deleteNpc(283815);
+                deleteNpc(283817);
+
+                deleteNpc(702014);
+                deleteNpc(702218);
+                deleteNpc(702219);
+                deleteNpc(702220);
+                isEnd = true;
+                SP1Task.cancel(true);
+                instance.doOnAllPlayers(new Visitor<Player>() {
                     @Override
                     public void visit(Player player) {
                         PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402139));
-					}
+                    }
                 });
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
                         spawn(702010, 255.47392f, 293.56177f, 321.18497f, (byte) 89); //Eastern Shield Generator.
-						isEnd = false;
+                        isEnd = false;
                     }
                 }, 10000);
                 break;
             case 702011: //Western Shield Generator.
                 despawnNpc(npc);
-				deleteNpc(233722);
-				deleteNpc(233723);
-				deleteNpc(233728);
-                deleteNpc(233729);
-                deleteNpc(233730);
-                deleteNpc(233732);
-                deleteNpc(233733);
-                deleteNpc(233734);
-                deleteNpc(233735);
-                deleteNpc(233736);
-                deleteNpc(233737);
-                deleteNpc(233738);
-				deleteNpc(233739);
-				deleteNpc(702015);
-				deleteNpc(702221);
-				deleteNpc(702222);
-				deleteNpc(702223);
-				SP2Task.cancel(true);
-				isEnd = true;
+
+                deleteNpc(283809);
+                deleteNpc(283810);
+                deleteNpc(283811);
+                deleteNpc(283812);
+                deleteNpc(283814);
+                deleteNpc(283815);
+                deleteNpc(283816);
+                deleteNpc(283817);
+
+                deleteNpc(702015);
+                deleteNpc(702221);
+                deleteNpc(702222);
+                deleteNpc(702223);
+                SP2Task.cancel(true);
+                isEnd = true;
                 instance.doOnAllPlayers(new Visitor<Player>() {
                     @Override
                     public void visit(Player player) {
                         PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402140));
-					}
+                    }
                 });
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
                         spawn(702011, 255.55742f, 216.03549f, 321.21344f, (byte) 30); //Western Shield Generator.
-						isEnd = false;
+                        isEnd = false;
                     }
                 }, 10000);
                 break;
             case 702012: //Southern Shield Generator.
                 despawnNpc(npc);
-				deleteNpc(233724);
-                deleteNpc(233725);
-                deleteNpc(233728);
-                deleteNpc(233729);
-                deleteNpc(233730);
-                deleteNpc(233732);
-                deleteNpc(233733);
-                deleteNpc(233734);
-                deleteNpc(233735);
-                deleteNpc(233736);
-                deleteNpc(233737);
-                deleteNpc(233738);
-				deleteNpc(233739);
-				deleteNpc(702016);
-				deleteNpc(702224);
-				deleteNpc(702225);
-				deleteNpc(702226);
-				SP3Task.cancel(true);
-				isEnd = true;
+
+                deleteNpc(283809);
+                deleteNpc(283810);
+                deleteNpc(283811);
+                deleteNpc(283812);
+                deleteNpc(283814);
+                deleteNpc(283815);
+                deleteNpc(283816);
+                deleteNpc(283817);
+
+                deleteNpc(702016);
+                deleteNpc(702224);
+                deleteNpc(702225);
+                deleteNpc(702226);
+                SP3Task.cancel(true);
+                isEnd = true;
                 instance.doOnAllPlayers(new Visitor<Player>() {
                     @Override
                     public void visit(Player player) {
                         PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402141));
-					}
+                    }
                 });
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
                         spawn(702012, 294.20718f, 254.60352f, 295.7729f, (byte) 60); //Southern Shield Generator.
-						isEnd = false;
+                        isEnd = false;
                     }
                 }, 10000);
                 break;
             case 702013: //Northern Shield Generator.
                 despawnNpc(npc);
-				deleteNpc(233726);
-                deleteNpc(233727);
-                deleteNpc(233728);
-                deleteNpc(233729);
-                deleteNpc(233730);
-                deleteNpc(233732);
-                deleteNpc(233733);
-                deleteNpc(233734);
-                deleteNpc(233735);
-                deleteNpc(233736);
-                deleteNpc(233737);
-                deleteNpc(233738);
-				deleteNpc(233739);
-				deleteNpc(702016);
-				deleteNpc(702227);
-				deleteNpc(702228);
-				deleteNpc(702229);
-				SP4Task.cancel(true);
-				isEnd = true;
+
+                deleteNpc(283809);
+                deleteNpc(283810);
+                deleteNpc(283811);
+                deleteNpc(283812);
+                deleteNpc(283814);
+                deleteNpc(283815);
+                deleteNpc(283816);
+                deleteNpc(283817);
+
+                deleteNpc(702016);
+                deleteNpc(702227);
+                deleteNpc(702228);
+                deleteNpc(702229);
+                SP4Task.cancel(true);
+                isEnd = true;
                 instance.doOnAllPlayers(new Visitor<Player>() {
                     @Override
                     public void visit(Player player) {
                         PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402142));
-					}
+                    }
                 });
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
                         spawn(702013, 216.97739f, 254.4616f, 295.77353f, (byte) 0); //Northern Shield Generator.
-						isEnd = false;
+                        isEnd = false;
                     }
                 }, 10000);
                 break;
             /****************************
              * Eastern Shield Generator *
              ****************************/
-            case 233720:
-            case 233721:
-			case 233881:
+            case 283809:
+            case 283811:
                 despawnNpc(npc);
-				if (getNpcs(233720).isEmpty() && getNpcs(233721).isEmpty() && getNpcs(233881).isEmpty()) {
-						spawncheckE();
-                    }
+                if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
+                    spawncheckE();
+                }
                 break;
-           	case 233728:
-			case 233729:
-			case 233730:
-			case 233731:
-			case 233732:
-			case 233733:
-			case 233734:
-			case 233735:
-			case 233736:
-			case 233737:
-			case 233738:
-			case 233739:
-            	despawnNpc(npc);
+            case 283812:
+            case 283814:
+            case 283815:
+                despawnNpc(npc);
                 break;
             /****************************
              * Western Shield Generator *
              ****************************/
-            case 233722:
-            case 233723:
-			case 233882:
+            case 283817:
                 despawnNpc(npc);
-                if (getNpcs(233722).isEmpty() && getNpcs(233723).isEmpty() && getNpcs(233882).isEmpty()) {
-						spawncheckW();
-                    }
+                if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
+                    spawncheckW();
+                }
                 break;
-            
+
             /*****************************
              * Southern Shield Generator *
              *****************************/
-            case 233724:
-			case 233725:
-			case 233883:
-				despawnNpc(npc);
-               if (getNpcs(233724).isEmpty() && getNpcs(233725).isEmpty() && getNpcs(233883).isEmpty()) {
-						spawncheckS();
-                    }
+            case 283816:
+                despawnNpc(npc);
+                if (getNpcs(283816).isEmpty() && getNpcs(283811).isEmpty()) {
+                    spawncheckS();
+                }
                 break;
-           
+
             /*****************************
              * Northern Shield Generator *
              *****************************/
-            case 233726:
-            case 233727:
-			case 233857:
-               despawnNpc(npc);
-                if (getNpcs(233726).isEmpty() && getNpcs(233727).isEmpty() && getNpcs(233857).isEmpty()) {
-						spawncheckN();
-                    }
+            case 283810:
+                despawnNpc(npc);
+                if (getNpcs(283811).isEmpty() && getNpcs(283810).isEmpty()) {
+                    spawncheckN();
+                }
                 break;
-            
+
             /**
              * Final Boss.
              */
             case 233740: //Test Weapon Dynatoum.
                 TWDTask.cancel(true);
-				TWD1Task.cancel(true);
-				TWD2Task.cancel(true);
-				PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(0, 0));
+                TWD1Task.cancel(true);
+                TWD2Task.cancel(true);
+                PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(0, 0));
                 sendMsg("[Congratulation]: you finish <ILLUMINARY OBELISK>");
-                spawn(702018, 258.888f, 251.14882f, 455.12198f, (byte) 105); //Supply Box.
                 spawn(730905, 255.5597f, 254.49713f, 455.12012f, (byte) 104); //Illuminary Obelisk Exit.
                 break;
         }
@@ -430,7 +373,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 								}
 							}, 60000); //1 Minutes.
 							
-							TWD2Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+				TWD2Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
 								@Override
 								public void run() {
 									instance.doOnAllPlayers(new Visitor<Player>() {
@@ -450,7 +393,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 						}
 					}
 				});
-							TWDTask = ThreadPoolManager.getInstance().schedule(new Runnable() {
+				TWDTask = ThreadPoolManager.getInstance().schedule(new Runnable() {
 								@Override
 								public void run() {
 									instance.doOnAllPlayers(new Visitor<Player>() {
@@ -463,7 +406,6 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 									onInstanceDestroy();
 								}
 							}, 360000); //6 Minutes.
-						
 			}
 		} else {
 			if (zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_A_301230000") || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_B_301230000") || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_C_301230000")
@@ -495,10 +437,10 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      * Eastern Shield Generator Periodic Spawn *
      * **************************
      */
-	 private void startWaveEasternShieldGenerator1() {
-        sp(233720, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
-		sp(233721, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
-		sp(233881, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+	private void startWaveEasternShieldGenerator1() {
+        sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+		sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+		sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
     }
 	
 	/**
@@ -506,10 +448,10 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      * Western Shield Generator Periodic Spawn *
      * **************************
      */
-	 private void startWaveWesternShieldGenerator1() {
-        sp(233722, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
-		sp(233723, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
-		sp(233882, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
+	private void startWaveWesternShieldGenerator1() {
+        sp(283809, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
+		sp(283809, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
+		sp(283809, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
 	}
 	
 	/**
@@ -517,10 +459,10 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      * Southern Shield Generator Periodic Spawn *
      * **************************
      */
-	 private void startWaveSouthernShieldGenerator1() {
-		sp(233724, 337.93338f, 257.88702f, 292.43845f, (byte) 60, 1000, "SouthernShieldGenerator1");
-		sp(233725, 338.05304f, 254.6424f, 292.3325f, (byte) 60, 1000, "SouthernShieldGenerator2");
-		sp(233883, 338.13315f, 251.34738f, 292.48932f, (byte) 59, 1000, "SouthernShieldGenerator3");
+	private void startWaveSouthernShieldGenerator1() {
+		sp(283809, 337.93338f, 257.88702f, 292.43845f, (byte) 60, 1000, "SouthernShieldGenerator1");
+		sp(283809, 338.05304f, 254.6424f, 292.3325f, (byte) 60, 1000, "SouthernShieldGenerator2");
+		sp(283809, 338.13315f, 251.34738f, 292.48932f, (byte) 59, 1000, "SouthernShieldGenerator3");
 	}
 	
 	/**
@@ -528,67 +470,66 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      * Northern Shield Generator Periodic Spawn *
      * **************************
      */
-	 
-	 private void startWaveNorthernShieldGenerator1() {
-		sp(233726, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
-		sp(233727, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
-		sp(233857, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
-	}	
+	private void startWaveNorthernShieldGenerator1() {
+		sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+		sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+		sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+	}
 	
 	/**
      * Starting periodic enemy spawn until all generator is fully charged East.
      */
 	public void spawncheckE() {
-				if (!isEnd) {
-						SP1Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-							@Override
-							public void run() {
-								startWaveEasternShieldGenerator1();
-							}
-						}, 30000 * 3); //spawn every 1 and a half minutes.
-					} 
+        if (!isEnd) {
+                SP1Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+                    @Override
+                    public void run() {
+                        startWaveEasternShieldGenerator1();
+                    }
+                }, 30000 * 3); //spawn every 1 and a half minutes.
+            }
 	}
 	
 	/**
      * Starting periodic enemy spawn until all generator is fully charged Western.
      */
 	public void spawncheckW() {
-				if (!isEnd) {
-						SP2Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-							@Override
-							public void run() {
-								startWaveWesternShieldGenerator1();
-							}
-						}, 30000 * 3); //spawn every 1 and a half minutes.
-					} 
+        if (!isEnd) {
+                SP2Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+                    @Override
+                    public void run() {
+                        startWaveWesternShieldGenerator1();
+                    }
+                }, 30000 * 3); //spawn every 1 and a half minutes.
+            }
 	}
 	
 	/**
      * Starting periodic enemy spawn until all generator is fully charged South.
      */
 	public void spawncheckS() {
-				if (!isEnd) {
-						SP3Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-							@Override
-							public void run() {
-								startWaveSouthernShieldGenerator1();
-							}
-						}, 30000 * 3); //spawn every 1 and a half minutes.
-					} 
+        if (!isEnd) {
+                SP3Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+                    @Override
+                    public void run() {
+                        startWaveSouthernShieldGenerator1();
+                    }
+                }, 30000 * 3); //spawn every 1 and a half minutes.
+            }
     }
 	
 	/**
      * Starting periodic enemy spawn until all generator is fully charged North.
      */
 	public void spawncheckN() {
-				if (!isEnd) {
-						SP4Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-							@Override
-							public void run() {
-								startWaveNorthernShieldGenerator1();
-							}
-						}, 30000 * 3); //spawn every 1 and a half minutes.
-					} 
+        if (!isEnd) {
+                SP4Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+                    @Override
+                    public void run() {
+                        startWaveNorthernShieldGenerator1();
+                    }
+                }, 30000 * 3); //spawn every 1 and a half minutes.
+            }
     }
 	
 	/**
@@ -607,55 +548,56 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 	}
 		
 	public void countdownmsg() {
-							CNT1Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-										sendMsg(1402130);
-									}
-							}, 60000 * 5); //25 Minutes.
-							
-							CNT2Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-									sendMsg(1402131);
-								}
-							}, 60000 * 10); //20 Minutes.
-							
-							CNT3Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-									sendMsg(1402132);
-								}
-							}, 60000 * 15); //15 Minutes.
-							
-							CNT4Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-									sendMsg(1402133);
-								}
-							}, 60000 * 20); //10 Minutes.
-							
-							CNT5Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-									sendMsg(1402134);
-								}
-							}, 60000 * 25); //5 Minutes.
-							
-							CNT6Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-									sendMsg(1402235);
-								}
-							}, 60000 * 29); //4 Minutes.
-							
-							CNT7Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
-								@Override
-								public void run() {
-									sendMsg(1402236);
-								}
-							}, 60000 * 30); //5 Minutes.
-					}
+        CNT1Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                    sendMsg(1402130);
+                }
+        }, 60000 * 5); //25 Minutes.
+
+        CNT2Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                sendMsg(1402131);
+            }
+        }, 60000 * 10); //20 Minutes.
+
+        CNT3Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                sendMsg(1402132);
+            }
+        }, 60000 * 15); //15 Minutes.
+
+        CNT4Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                sendMsg(1402133);
+            }
+        }, 60000 * 20); //10 Minutes.
+
+        CNT5Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                sendMsg(1402134);
+            }
+        }, 60000 * 25); //5 Minutes.
+
+        CNT6Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                sendMsg(1402235);
+            }
+        }, 60000 * 29); //4 Minutes.
+
+        CNT7Task = ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                sendMsg(1402236);
+            }
+        }, 60000 * 30); //5 Minutes.
+    }
+
 	private void removeEffects(Player player) {
         PlayerEffectController effectController = player.getEffectController();
         effectController.removeEffect(0);

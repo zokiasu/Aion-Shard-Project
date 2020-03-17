@@ -72,7 +72,7 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
 
     @Override
     public boolean onDialogSelect(final Player player, int dialogId, int questId, int extendedRewardIndex) {
-		if (dialogId == 10000 && player.getInventory().decreaseByItemId(164000289, 3)) {
+		if (dialogId == 10000 && player.getInventory().decreaseByItemId(164000289, 1)) {
 			if (wave1) {
 				restrict = true;
 				PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402197));
@@ -84,7 +84,6 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
 							wave1 = false;
 							wave2 = true;
 							restrict = false;
-							
 						}
                     }, 8000);
 				
@@ -144,82 +143,79 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
      * **************************
      */
 	 
-	 private void startWaveNorthernShieldGenerator1() {
-						sp(233726, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
-						sp(233727, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
-						sp(233857, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
-												
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233729, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
-							sp(233734, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
-							sp(233738, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							spawn(702227, 212.96484f, 254.4526f, 295.90784f, (byte) 60);
-						}
-                    }, 30000);
+	private void startWaveNorthernShieldGenerator1() {
+		sp(283811, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+		sp(283810, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+		sp(283811, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+				sp(283810, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+				sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				spawn(702227, 212.96484f, 254.4526f, 295.90784f, (byte) 60);
+			}
+		}, 30000);
     }
 	 
     private void startWaveNorthernShieldGenerator2() {
-							sp(233736, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
-							sp(233737, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
-							sp(233730, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
-    				
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233728, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
-							sp(233731, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
-							sp(233732, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							 spawn(702228, 212.96484f, 254.4526f, 295.90784f, (byte) 60);
-						}
-                    }, 30000);
-					
-       
+		sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+		sp(283814, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+		sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283812, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+				sp(283817, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+				sp(283812, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				 spawn(702228, 212.96484f, 254.4526f, 295.90784f, (byte) 60);
+			}
+		}, 30000);
     }
 
     private void startWaveNorthernShieldGenerator3() {
-							sp(233736, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 6000, "NorthernShieldGenerator1");
-							sp(233737, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 6000, "NorthernShieldGenerator2");
-							sp(233730, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 6000, "NorthernShieldGenerator3");
-							sp(233729, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 23000, "NorthernShieldGenerator1");
-							sp(233734, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 23000, "NorthernShieldGenerator2");
-							sp(233738, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 23000, "NorthernShieldGenerator3");
-    				
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233728, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 6000, "NorthernShieldGenerator1");
-							sp(233731, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 6000, "NorthernShieldGenerator2");
-							sp(233732, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 6000, "NorthernShieldGenerator3");
-							sp(233739, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 23000, "NorthernShieldGenerator1");
-							sp(233735, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 23000, "NorthernShieldGenerator2");
-							sp(233733, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 23000, "NorthernShieldGenerator3");
-    				}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							spawn(702229, 212.96484f, 254.4526f, 295.90784f, (byte) 60);
-						}
-                    }, 30000);
-        
+		sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 6000, "NorthernShieldGenerator1");
+		sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 6000, "NorthernShieldGenerator2");
+		sp(283814, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 6000, "NorthernShieldGenerator3");
+		sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 23000, "NorthernShieldGenerator1");
+		sp(283817, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 23000, "NorthernShieldGenerator2");
+		sp(283812, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 23000, "NorthernShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 6000, "NorthernShieldGenerator1");
+				sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 6000, "NorthernShieldGenerator2");
+				sp(283814, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 6000, "NorthernShieldGenerator3");
+				sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 23000, "NorthernShieldGenerator1");
+				sp(283817, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 23000, "NorthernShieldGenerator2");
+				sp(283812, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 23000, "NorthernShieldGenerator3");
+		}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				spawn(702229, 212.96484f, 254.4526f, 295.90784f, (byte) 60);
+			}
+		}, 30000);
     }
 	
-   protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {
+    protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
             public void run() {

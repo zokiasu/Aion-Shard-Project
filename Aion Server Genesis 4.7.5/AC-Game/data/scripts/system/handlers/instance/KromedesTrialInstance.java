@@ -67,7 +67,7 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 			return;
 		}
 		skillId = player.getRace() == Race.ASMODIANS ? 19270 : 19220;
-		sendMovie(player, 453);
+		//sendMovie(player, 453);
 	}
 
 	@Override
@@ -97,14 +97,14 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 		Storage storage = player.getInventory();
 		switch (movieId) {
 			case 453:
-				SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
+				//SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
 				break;
 			case 454:
-				Npc npc1 = getNpc(730308);
+				/*Npc npc1 = getNpc(730308);
 				if (npc1 != null && MathUtil.isIn3dRange(player, npc1, 20)) {
 					storage.decreaseByItemId(185000109, storage.getItemCountByItemId(185000109));
 					TeleportService2.teleportTo(player, mapId, 687.56116f, 681.68225f, 200.28648f, (byte) 30);
-				}
+				}*/
 				break;
 		}
 	}

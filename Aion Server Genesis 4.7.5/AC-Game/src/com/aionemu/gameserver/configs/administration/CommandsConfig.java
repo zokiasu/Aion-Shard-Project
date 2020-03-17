@@ -325,6 +325,8 @@ public class CommandsConfig {
     public static int UNSTUCK;
     @Property(key = "1v1", defaultValue = "0")
     public static int ONEVONE;
+    @Property(key = "skinclear", defaultValue = "0")
+    public static int SKINCLEAR;
     // Chat Command
     @Property(key = "asmo", defaultValue = "1")
     public static int ASMO;

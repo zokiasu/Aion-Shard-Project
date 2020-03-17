@@ -133,7 +133,7 @@ public class CustomConfig {
     /**
      * Basic Quest limit size
      */
-    @Property(key = "gameserver.basic.cubesize.limit", defaultValue = "9")
+    @Property(key = "gameserver.basic.cubesize.limit", defaultValue = "12")
     public static int BASIC_CUBE_SIZE_LIMIT;
     /**
      * Npc Cube Expands limit size

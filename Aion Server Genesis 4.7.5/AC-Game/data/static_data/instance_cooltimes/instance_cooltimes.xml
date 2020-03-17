@@ -540,7 +540,7 @@
     <!-- Haramel -->
     <instance_cooltime race="PC_ALL" worldId="300200000" id="46">
         <type>DAILY</type>
-        <ent_cool_time>900</ent_cool_time>
+        <ent_cool_time>10</ent_cool_time>
         <indun_type>NORMAL</indun_type>
         <max_member_light>1</max_member_light>
         <max_member_dark>1</max_member_dark>

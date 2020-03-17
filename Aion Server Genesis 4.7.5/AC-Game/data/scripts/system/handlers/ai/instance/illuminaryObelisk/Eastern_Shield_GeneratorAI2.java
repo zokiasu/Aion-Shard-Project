@@ -73,7 +73,7 @@ public class Eastern_Shield_GeneratorAI2 extends ActionItemNpcAI2 {
 
     @Override
     public boolean onDialogSelect(final Player player, int dialogId, int questId, int extendedRewardIndex) {
-		if (dialogId == 10000 && player.getInventory().decreaseByItemId(164000289, 3)) {
+		if (dialogId == 10000 && player.getInventory().decreaseByItemId(164000289, 1)) {
 			if (wave1) {
 				restrict = true;
 				PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402194));
@@ -144,79 +144,76 @@ public class Eastern_Shield_GeneratorAI2 extends ActionItemNpcAI2 {
      * **************************
      */
 	 
-	 private void startWaveEasternShieldGenerator1() {
-						sp(233720, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
-						sp(233721, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
-						sp(233881, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
-												
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233728, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
-							sp(233729, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
-							sp(233730, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							spawn(702218, 255.56438f, 297.59488f, 321.39154f, (byte) 29);
-						}
-                    }, 30000);
+	private void startWaveEasternShieldGenerator1() {
+		sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+		sp(283811, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+		sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283811, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
+				sp(283810, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
+				sp(283811, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				spawn(702218, 255.56438f, 297.59488f, 321.39154f, (byte) 29);
+			}
+		}, 30000);
     }
 	 
     private void startWaveEasternShieldGenerator2() {
-							sp(233731, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
-							sp(233732, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
-							sp(233733, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
-																	
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233734, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
-							sp(233735, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
-							sp(233736, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							 spawn(702219, 255.56438f, 297.59488f, 321.39154f, (byte) 29);
-						}
-                    }, 30000);
-					
-       
+		sp(283812, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+		sp(283811, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+		sp(283812, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283814, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
+				sp(283815, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
+				sp(283814, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				 spawn(702219, 255.56438f, 297.59488f, 321.39154f, (byte) 29);
+			}
+		}, 30000);
     }
 
     private void startWaveEasternShieldGenerator3() {
-							sp(233737, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
-							sp(233738, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
-							sp(233728, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
-							sp(233735, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
-							sp(233734, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
-							sp(233733, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
-											
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							sp(233729, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
-							sp(233730, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
-							sp(233731, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
-							sp(233732, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
-							sp(233739, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
-							sp(233735, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
-						}
-                    }, 15000);
-					
-					ThreadPoolManager.getInstance().schedule(new Runnable() {
-                        @Override
-                        public void run() {
-							spawn(702220, 255.56438f, 297.59488f, 321.39154f, (byte) 29);
-						}
-                    }, 30000);
-        
+		sp(283815, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
+		sp(283817, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
+		sp(283812, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+		sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
+		sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
+		sp(283810, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283815, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
+				sp(283817, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
+				sp(283812, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+				sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
+				sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
+				sp(283810, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
+			}
+		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				spawn(702220, 255.56438f, 297.59488f, 321.39154f, (byte) 29);
+			}
+		}, 30000);
     }
 	
     protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {

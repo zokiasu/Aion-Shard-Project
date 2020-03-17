@@ -117,7 +117,8 @@ public class ArmsfusionService {
         int priceMod = PricesService.getGlobalPricesModifier() * 2;
         int level = firstItem.getItemTemplate().getLevel();
 
-        int price = (int) (priceMod * priceRate * taxRate * rarity * level * level);
+        //int price = (int) (priceMod * priceRate * taxRate * rarity * level * level);
+        int price = 499999;
         log.debug("Rarete: " + rarity + " Prix Ratio: " + priceRate + " Tax: " + taxRate + " Mod: " + priceMod
                 + " NiveauDeLArme: " + level);
         log.debug("Prix: " + price);
