@@ -1,17 +1,13 @@
-package admincommands;
+/*package admincommands;
 
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
-/**
- * @author Tago
- */
 public class PowerUp extends AdminCommand {
 
     public PowerUp() {
         super("powerup");
     }
-/*
     @Override
     public void execute(Player admin, String... params) {
         // TODO rewrite
@@ -118,5 +114,5 @@ public class PowerUp extends AdminCommand {
     @Override
     public void onFail(Player player, String message) {
         // TODO Auto-generated method stub
-    }*/
-}
+    }
+}*/

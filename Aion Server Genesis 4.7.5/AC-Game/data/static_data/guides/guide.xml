@@ -1870,17 +1870,6 @@
         <select>Click here to close window</select>
         <survey itemId="162002009" count="100"/>
         <survey itemId="162002010" count="100"/>
-    </guide>    
-    <guide title="adventurers_guide63_asmo" level="99" race="ASMODIANS" rewardCount="1">
-        <message><![CDATA[<BR><BR>
-			Congratulations!
-			<br><br>]]>
-        </message>
-        <reward_info>Select an item</reward_info>
-        <select>Click here to close window</select>
-        <survey itemId="164002011" count="10"/>
-        <survey itemId="164002114" count="10"/>
-        <survey itemId="164002115" count="10"/>
     </guide>
     <!-- Elyos -->
     <guide title="adventurers_guide3_ely" level="99" race="ELYOS" rewardCount="1">
@@ -3449,17 +3438,6 @@
         <survey itemId="162002009" count="100"/>
         <survey itemId="162002010" count="100"/>
     </guide>
-	<guide title="adventurers_guide63_ely" level="99" race="ELYOS" rewardCount="1">
-        <message><![CDATA[<BR><BR>
-			Congratulations!
-			<br><br>]]>
-        </message>
-        <reward_info>Select an item</reward_info>
-        <select>Click here to close window</select>
-        <survey itemId="164002011" count="10"/>
-        <survey itemId="164002114" count="10"/>
-        <survey itemId="164002115" count="10"/>
-    </guide>
 
     <!-- Stuff de départ Asmo -->
     <guide title="adventurers_guide65_asmo_sin" level="65" race="ASMODIANS" classType="ASSASSIN" rewardCount="15">
@@ -3760,13 +3738,15 @@
         <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
         <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
-	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="8">
+	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="9">
         <message><![CDATA[<BR><BR>
-			Please equip your equipment before accepting the following items.
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
 			<br><br>]]>
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="169630000" count="1"/> <!-- Expand Cube Ticket -->
         <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
         <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
@@ -3774,7 +3754,22 @@
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
-    </guide>	
+    </guide>
+    <guide title="adventurers_guide63_asmo" level="99" race="ASMODIANS" rewardCount="6">
+        <message><![CDATA[<BR><BR>
+			A little help with your cube! Have Fun !<br>
+			Please expand your cube before accepting these items.
+			<br><br>]]>
+        </message>
+        <reward_info>Select an item</reward_info>
+        <select>Click here to close window</select>
+        <survey itemId="182207052" count="10"/> <!-- Drake Crystal -->
+        <survey itemId="182207053" count="7"/> <!-- Lucid Earth Crystal -->
+        <survey itemId="182207054" count="3"/> <!-- Tender Inner Shell -->
+        <survey itemId="152000312" count="5"/> <!-- Big Moonstone Ore -->
+        <survey itemId="182205674" count="7"/> <!-- Kalgolem Life Stone -->
+        <survey itemId="182205675" count="3"/> <!-- Caltrops Life Stone -->
+    </guide>
 
     <!-- Stuff de départ Elyos -->
 	<guide title="adventurers_guide65_ely_sin" level="65" race="ELYOS" classType="ASSASSIN" rewardCount="15">
@@ -4075,13 +4070,15 @@
         <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
         <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
     </guide>
-	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="8">
+	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="9">
         <message><![CDATA[<BR><BR>
-			Congratulations!
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
 			<br><br>]]>
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="169630000" count="1"/> <!-- Expand Cube Ticket -->
         <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
         <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
@@ -4089,5 +4086,15 @@
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+    <guide title="adventurers_guide63_ely" level="99" race="ELYOS" rewardCount="1">
+        <message><![CDATA[<BR><BR>
+			A little help with your cube! Have Fun !<br>
+			Please expand your cube before accepting these items.
+			<br><br>]]>
+        </message>
+        <reward_info>Select an item</reward_info>
+        <select>Click here to close window</select>
+        <survey itemId="182201729" count="1"/> <!-- Jaiorunerk's Diary -->
     </guide>
 </guides>

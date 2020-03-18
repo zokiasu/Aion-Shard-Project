@@ -56,7 +56,7 @@ public class CubeExpandService {
 
     private static final Logger log = LoggerFactory.getLogger(CubeExpandService.class);
     private static final int MIN_EXPAND = 0;
-    private static final int MAX_EXPAND = CustomConfig.BASIC_CUBE_SIZE_LIMIT;
+    private static final int MAX_EXPAND = 12;
 
     /**
      * Shows Question window and expands on positive response

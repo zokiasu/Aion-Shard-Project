@@ -138,7 +138,7 @@ public class CustomConfig {
     /**
      * Npc Cube Expands limit size
      */
-    @Property(key = "gameserver.npcexpands.limit", defaultValue = "5")
+    @Property(key = "gameserver.npcexpands.limit", defaultValue = "12")
     public static int NPC_CUBE_EXPANDS_SIZE_LIMIT;
     /**
      * Enable instances
