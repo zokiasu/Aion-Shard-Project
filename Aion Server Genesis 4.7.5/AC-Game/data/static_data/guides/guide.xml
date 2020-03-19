@@ -3465,9 +3465,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_cleric" level="65" race="ASMODIANS" classType="CLERIC" rewardCount="14">
         <message>
@@ -3493,8 +3493,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_chanter" level="65" race="ASMODIANS" classType="CHANTER" rewardCount="14">
         <message>
@@ -3519,9 +3519,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_glad" level="65" race="ASMODIANS" classType="GLADIATOR" rewardCount="14">
         <message>
@@ -3546,9 +3546,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
     <guide title="adventurers_guide65_asmo_gunner" level="65" race="ASMODIANS" classType="GUNNER" rewardCount="14">
         <message>
@@ -3574,8 +3574,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_bard" level="65" race="ASMODIANS" classType="BARD" rewardCount="13">
         <message>
@@ -3600,8 +3600,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_ranger" level="65" race="ASMODIANS" classType="RANGER" rewardCount="14">
         <message>
@@ -3626,9 +3626,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_rider" level="65" race="ASMODIANS" classType="RIDER" rewardCount="14">
         <message>
@@ -3654,8 +3654,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_sorc" level="65" race="ASMODIANS" classType="SORCERER" rewardCount="13">
         <message>
@@ -3680,8 +3680,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_sm" level="65" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="13">
         <message>
@@ -3706,8 +3706,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_asmo_templar" level="65" race="ASMODIANS" classType="TEMPLAR" rewardCount="16">
         <message>
@@ -3734,9 +3734,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="9">
         <message><![CDATA[<BR><BR>
@@ -3797,9 +3797,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_ely_cleric" level="65" race="ELYOS" classType="CLERIC" rewardCount="14">
         <message>
@@ -3825,8 +3825,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_ely_chanter" level="65" race="ELYOS" classType="CHANTER" rewardCount="14">
         <message>
@@ -3851,9 +3851,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_ely_glad" level="65" race="ELYOS" classType="GLADIATOR" rewardCount="14">
         <message>
@@ -3878,9 +3878,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
     <guide title="adventurers_guide65_ely_gunner" level="65" race="ELYOS" classType="GUNNER" rewardCount="14">
         <message>
@@ -3906,8 +3906,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_ely_bard" level="65" race="ELYOS" classType="BARD" rewardCount="13">
         <message>
@@ -3932,8 +3932,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_ely_ranger" level="65" race="ELYOS" classType="RANGER" rewardCount="14">
         <message>
@@ -3958,9 +3958,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_ely_rider" level="65" race="ELYOS" classType="RIDER" rewardCount="14">
         <message>
@@ -3986,8 +3986,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_ely_sorc" level="65" race="ELYOS" classType="SORCERER" rewardCount="13">
         <message>
@@ -4012,8 +4012,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_ely_sm" level="65" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="13">
         <message>
@@ -4038,8 +4038,8 @@
         <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000487" count="100"/> <!-- Magic Boost 23 -->
-        <survey itemId="167000539" count="100"/> <!-- Magical Accuracy 10 -->
+        <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
+        <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
 	<guide title="adventurers_guide65_ely_templar" level="65" race="ELYOS" classType="TEMPLAR" rewardCount="16">
         <message>
@@ -4066,9 +4066,9 @@
         <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
         <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
-        <survey itemId="167000454" count="100"/> <!-- Attack 4 -->
-        <survey itemId="167000491" count="100"/> <!-- Crit Strike 13 -->
-        <survey itemId="167000484" count="100"/> <!-- Accuracy 23 -->
+        <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
+        <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
+        <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
 	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="9">
         <message><![CDATA[<BR><BR>
