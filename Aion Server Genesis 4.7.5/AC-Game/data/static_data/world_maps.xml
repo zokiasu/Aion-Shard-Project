@@ -332,8 +332,7 @@
     <map id="600010000" name="Silentera Canyon" death_level="0" water_level="16" world_type="BALAUREA" world_size="1536"
          flags="RIDE FLY_RIDE PVP DUEL_SAME_RACE"/>
     <map id="600020000" name="Sarpan" twin_count="2" beginner_twin_count="2" death_level="0" water_level="16"
-         world_type="BALAUREA" world_size="3072"
-         flags="BIND RECALL GLIDE RIDE FLY_RIDE DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+         world_type="BALAUREA" world_size="3072" flags="BIND RECALL GLIDE RIDE FLY_RIDE DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="600030000" name="Tiamaranta" death_level="0" water_level="16" world_type="BALAUREA" world_size="3072"
          flags="BIND RECALL GLIDE RIDE FLY_RIDE DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="600040000" name="Tiamaranta's Eye" death_level="0" water_level="16" world_type="BALAUREA" world_size="1536"

@@ -3170,7 +3170,7 @@
         </event>
         <event name="Blood Mark Drops" start="2015-01-01T00:00:00+00:00" end="2050-12-31T00:00:00+00:00">
             <event_drops>
-                <event_drop item_id="186000236" count="1" chance="100" minDiff="-29" maxDiff="20"/>
+                <event_drop item_id="186000236" count="1" chance="5" minDiff="-29" maxDiff="20"/>
             </event_drops>
         </event>
         <event name="Guardian General Showdown" start="2015-09-04T00:00:00+00:00" end="2015-09-19T00:00:00+00:00">

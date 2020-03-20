@@ -81,6 +81,13 @@
                 <spawn npc_id="232542" respawn_time="180">
                     <spot x="360.5817" y="804.8558" z="214.7655" h="70"/>
                 </spawn>
+                <!-- Occupation Scout Envoy -->
+                <spawn npc_id="233213" respawn_time="180">
+                    <spot x="310.20142" y="777.4769" z="211.60997" h="75"/>
+                    <spot x="310.9674" y="799.4344" z="209.47697" h="63"/>
+                    <spot x="327.16528" y="815.43646" z="214.85725" h="67"/>
+                    <spot x="332.74307" y="786.9046" z="212.45538" h="90"/>
+                </spawn>
                 <!-- End Sub Base Asmodian Spawns -->
             </simple_race>
             <simple_race race="ASMODIANS">
@@ -393,7 +400,7 @@
 
                 <!-- Sub Camp Elyos Base Spawns -->
                 <!-- Spiralroot Pioneers Combatant -->
-                <spawn npc_id="232665" respawn_time="180">
+                <spawn npc_id="232482" respawn_time="180">
                     <spot x="100.0275" y="2076.6719" z="199.375"/>
                     <spot x="107.77772" y="2080.443" z="199.2777"/>
                     <spot x="100.0275" y="2076.6719" z="199.375" walker_id="B52A3819450C4957AB86499A07D4A10E"/>
@@ -401,11 +408,11 @@
                     <spot x="120.98116" y="2069.4023" z="199.48706"/>
                 </spawn>
                 <!-- Spiralroot Pioneers Sentry -->
-                <spawn npc_id="232666" respawn_time="180">
+                <spawn npc_id="232483" respawn_time="180">
                     <spot x="103.96162" y="2070.2344" z="199.375" h="15"/>
                 </spawn>
                 <!-- Spiralroot Pioneers Supervisor -->
-                <spawn npc_id="232667" respawn_time="180">
+                <spawn npc_id="232484" respawn_time="180">
                     <spot x="117.35558" y="2086.8823" z="198.24583" h="7"/>
                 </spawn>
                 <!-- Spiralroot Scout Envoy -->
@@ -455,32 +462,6 @@
                 <spawn npc_id="232392" respawn_time="180">
                     <spot x="131.13609" y="2185.3213" z="184.96442" h="90"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Base Spawns -->
-                <!-- Spiralroot Pioneers Combatant -->
-                <spawn npc_id="232665" respawn_time="180">
-                    <spot x="100.0275" y="2076.6719" z="199.375"/>
-                    <spot x="107.77772" y="2080.443" z="199.2777"/>
-                    <spot x="100.0275" y="2076.6719" z="199.375" walker_id="B52A3819450C4957AB86499A07D4A10E"/>
-                    <spot x="112.57596" y="2074.2969" z="199.089" h="7"/>
-                    <spot x="120.98116" y="2069.4023" z="199.48706"/>
-                </spawn>
-                <!-- Spiralroot Pioneers Sentry -->
-                <spawn npc_id="232666" respawn_time="180">
-                    <spot x="103.96162" y="2070.2344" z="199.375" h="15"/>
-                </spawn>
-                <!-- Spiralroot Pioneers Supervisor -->
-                <spawn npc_id="232667" respawn_time="180">
-                    <spot x="117.35558" y="2086.8823" z="198.24583" h="7"/>
-                </spawn>
-                <!-- Spiralroot Scout Envoy -->
-                <spawn npc_id="233195" respawn_time="180">
-                    <spot x="119.48136" y="2045.8839" z="202.59984" h="105"/>
-                    <spot x="129.18507" y="2073.3103" z="198.15361"/>
-                    <spot x="129.37373" y="2097.1792" z="196.10527" h="5"/>
-                    <spot x="142.62987" y="2112.1824" z="191.35287" h="10"/>
-                </spawn>
-                <!-- End Sub Elyos Camp Base Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="73"> <!-- Beritran Foothold -->
@@ -674,7 +655,7 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Foothold Pioneers Combatant -->
-                <spawn npc_id="232668" respawn_time="180">
+                <spawn npc_id="232485" respawn_time="180">
                     <spot x="1011.0626" y="510.69418" z="198.3645" h="90"/>
                     <spot x="1011.1494" y="498.11725" z="195.84383" h="90"/>
                     <spot x="1022.4934" y="523.7677" z="196.25" h="90"/>
@@ -684,12 +665,12 @@
                     <spot x="1036.8915" y="503.31747" z="197.9704" h="75"/>
                 </spawn>
                 <!-- Foothold Pioneers Sentry -->
-                <spawn npc_id="232669" respawn_time="180">
+                <spawn npc_id="232486" respawn_time="180">
                     <spot x="1022.1872" y="499.2202" z="196.84967" h="105"/>
                     <spot x="1037.2382" y="518.9691" z="196.8183" h="90"/>
                 </spawn>
                 <!-- Foothold Pioneers Supervisor -->
-                <spawn npc_id="232670" respawn_time="180">
+                <spawn npc_id="232487" respawn_time="180">
                     <spot x="1017.8306" y="518.7763" z="196.25" h="90"/>
                     <spot x="1030.3247" y="525.18726" z="196.25" h="90"/>
                 </spawn>
@@ -746,36 +727,6 @@
                 <spawn npc_id="232398" respawn_time="180">
                     <spot x="1060.8727" y="411.84952" z="175.54984" h="77"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Foothold Pioneers Combatant -->
-                <spawn npc_id="232668" respawn_time="180">
-                    <spot x="1011.0626" y="510.69418" z="198.3645" h="90"/>
-                    <spot x="1011.1494" y="498.11725" z="195.84383" h="90"/>
-                    <spot x="1022.4934" y="523.7677" z="196.25" h="90"/>
-                    <spot x="1023.922" y="500.4382" z="196.95311" h="105"/>
-                    <spot x="1028.3223" y="513.0648" z="196.41528" h="75"/>
-                    <spot x="1028.6794" y="524.68475" z="196.25" h="90"/>
-                    <spot x="1036.8915" y="503.31747" z="197.9704" h="75"/>
-                </spawn>
-                <!-- Foothold Pioneers Sentry -->
-                <spawn npc_id="232669" respawn_time="180">
-                    <spot x="1022.1872" y="499.2202" z="196.84967" h="105"/>
-                    <spot x="1037.2382" y="518.9691" z="196.8183" h="90"/>
-                </spawn>
-                <!-- Foothold Pioneers Supervisor -->
-                <spawn npc_id="232670" respawn_time="180">
-                    <spot x="1017.8306" y="518.7763" z="196.25" h="90"/>
-                    <spot x="1030.3247" y="525.18726" z="196.25" h="90"/>
-                </spawn>
-                <!-- Foothold Scout Envoy -->
-                <spawn npc_id="233196" respawn_time="180">
-                    <spot x="978.9975" y="460.7683" z="185.11067" h="97"/>
-                    <spot x="994.7721" y="471.37625" z="186.4208" h="97"/>
-                    <spot x="1000.5892" y="433.50415" z="178.40703" h="110"/>
-                    <spot x="1002.9541" y="484.89734" z="192.90103" h="75"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="74"> <!-- Primeval Ruins -->
@@ -966,7 +917,7 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Ruins Pioneers Combatant -->
-                <spawn npc_id="232671" respawn_time="180">
+                <spawn npc_id="232488" respawn_time="180">
                     <spot x="976.01434" y="2571.2605" z="182.92122" h="30"/>
                     <spot x="982.35614" y="2545.5938" z="183.125" h="20"/>
                     <spot x="983.44183" y="2564.92" z="182.92216" h="20"/>
@@ -975,12 +926,12 @@
                     <spot x="1000.6558" y="2557.49" z="183.65688" h="7"/>
                 </spawn>
                 <!-- Ruins Pioneers Sentry -->
-                <spawn npc_id="232672" respawn_time="180">
+                <spawn npc_id="232489" respawn_time="180">
                     <spot x="971.3205" y="2563.199" z="183.125" h="20"/>
                     <spot x="991.63055" y="2558.409" z="183.09944"/>
                 </spawn>
                 <!-- Ruins Pioneers Supervisor -->
-                <spawn npc_id="232673" respawn_time="180">
+                <spawn npc_id="232490" respawn_time="180">
                     <spot x="976.24023" y="2555.3665" z="183.15503" h="7"/>
                     <spot x="987.5947" y="2544.7031" z="183.125" h="13"/>
                 </spawn>
@@ -1040,35 +991,6 @@
                 <spawn npc_id="232403" respawn_time="180">
                     <spot x="925.69165" y="2718.0361" z="171.15002" h="110"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Ruins Pioneers Combatant -->
-                <spawn npc_id="232671" respawn_time="180">
-                    <spot x="976.01434" y="2571.2605" z="182.92122" h="30"/>
-                    <spot x="982.35614" y="2545.5938" z="183.125" h="20"/>
-                    <spot x="983.44183" y="2564.92" z="182.92216" h="20"/>
-                    <spot x="983.51764" y="2554.5156" z="182.93945" h="15"/>
-                    <spot x="997.4275" y="2546.7322" z="183.20424" h="7"/>
-                    <spot x="1000.6558" y="2557.49" z="183.65688" h="7"/>
-                </spawn>
-                <!-- Ruins Pioneers Sentry -->
-                <spawn npc_id="232672" respawn_time="180">
-                    <spot x="971.3205" y="2563.199" z="183.125" h="20"/>
-                    <spot x="991.63055" y="2558.409" z="183.09944"/>
-                </spawn>
-                <!-- Ruins Pioneers Supervisor -->
-                <spawn npc_id="232673" respawn_time="180">
-                    <spot x="976.24023" y="2555.3665" z="183.15503" h="7"/>
-                    <spot x="987.5947" y="2544.7031" z="183.125" h="13"/>
-                </spawn>
-                <!-- Ruins Scout Envoy -->
-                <spawn npc_id="233197" respawn_time="180">
-                    <spot x="960.8939" y="2607.8894" z="182.92804" h="13"/>
-                    <spot x="969.8623" y="2590.4854" z="181.37048" h="7"/>
-                    <spot x="1007.8064" y="2542.255" z="187.53325" h="27"/>
-                    <spot x="1023.2356" y="2549.4426" z="185.88934" h="45"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="75"> <!-- Broken Cliff Camp -->
@@ -1265,7 +1187,7 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Cliffside Pioneers Combatant -->
-                <spawn npc_id="232674" respawn_time="180">
+                <spawn npc_id="232491" respawn_time="180">
                     <spot x="1492.2437" y="1381.0753" z="122.05099" h="75"/>
                     <spot x="1492.8361" y="1417.7233" z="122.04631" h="27"/>
                     <spot x="1507.2916" y="1401.5226" z="123.97495" h="30"/>
@@ -1273,11 +1195,11 @@
                     <spot x="1512.2249" y="1416.7275" z="124.34375" h="30"/>
                 </spawn>
                 <!-- Cliffside Pioneers Sentry -->
-                <spawn npc_id="232675" respawn_time="180">
+                <spawn npc_id="232492" respawn_time="180">
                     <spot x="1500.9385" y="1406.4891" z="123.99735" h="30"/>
                 </spawn>
                 <!-- Cliffside Pioneers Supervisor -->
-                <spawn npc_id="232676" respawn_time="180">
+                <spawn npc_id="232493" respawn_time="180">
                     <spot x="1487.8317" y="1397.2452" z="122.32369" h="60"/>
                 </spawn>
                 <!-- Cliffside Scout Envoy -->
@@ -1327,32 +1249,6 @@
                 <spawn npc_id="232407" respawn_time="180">
                     <spot x="1592.9082" y="1488.7172" z="130.33554" h="30"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Cliffside Pioneers Combatant -->
-                <spawn npc_id="232674" respawn_time="180">
-                    <spot x="1492.2437" y="1381.0753" z="122.05099" h="75"/>
-                    <spot x="1492.8361" y="1417.7233" z="122.04631" h="27"/>
-                    <spot x="1507.2916" y="1401.5226" z="123.97495" h="30"/>
-                    <spot x="1507.4395" y="1412.8556" z="123.98923" h="30"/>
-                    <spot x="1512.2249" y="1416.7275" z="124.34375" h="30"/>
-                </spawn>
-                <!-- Cliffside Pioneers Sentry -->
-                <spawn npc_id="232675" respawn_time="180">
-                    <spot x="1500.9385" y="1406.4891" z="123.99735" h="30"/>
-                </spawn>
-                <!-- Cliffside Pioneers Supervisor -->
-                <spawn npc_id="232676" respawn_time="180">
-                    <spot x="1487.8317" y="1397.2452" z="122.32369" h="60"/>
-                </spawn>
-                <!-- Cliffside Scout Envoy -->
-                <spawn npc_id="233198" respawn_time="180">
-                    <spot x="1490.5988" y="1456.3948" z="124.09644" h="45"/>
-                    <spot x="1515.1735" y="1458.2754" z="129.83798"/>
-                    <spot x="1517.3986" y="1432.7528" z="126.0246" h="27"/>
-                    <spot x="1534.8199" y="1465.3623" z="132.43623" h="117"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="76"> <!-- Irigani Keep -->
@@ -1556,7 +1452,7 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Irigani Pioneers Veteran Combatant -->
-                <spawn npc_id="232677" respawn_time="180">
+                <spawn npc_id="232494" respawn_time="180">
                     <spot x="1556.8933" y="889.0984" z="147.04353" h="107"/>
                     <spot x="1565.6057" y="896.47394" z="146.0" h="105"/>
                     <spot x="1565.9304" y="923.08295" z="146.375" h="105"/>
@@ -1566,15 +1462,15 @@
                     <spot x="1594.2" y="827.2239" z="143.08899" h="45"/>
                 </spawn>
                 <!-- Irigani Pioneers Veteran Sentry -->
-                <spawn npc_id="232678" respawn_time="180">
+                <spawn npc_id="232495" respawn_time="180">
                     <spot x="1561.8403" y="910.6345" z="146.05962" h="90"/>
                 </spawn>
                 <!-- Irigani Pioneers Veteran Supervisor -->
-                <spawn npc_id="232679" respawn_time="180">
+                <spawn npc_id="232496" respawn_time="180">
                     <spot x="1564.479" y="920.86163" z="146.34506" h="105"/>
                 </spawn>
                 <!-- Irigani Pioneers Veteran Gunslinger -->
-                <spawn npc_id="232680" respawn_time="180">
+                <spawn npc_id="232497" respawn_time="180">
                     <spot x="1552.8518" y="898.2531" z="147.91168" h="105"/>
                     <spot x="1577.729" y="925.4977" z="146.375" h="90"/>
                     <spot x="1581.863" y="899.11395" z="146.48288" h="105"/>
@@ -1631,40 +1527,6 @@
                     <spot x="1650.1927" y="1094.0737" z="184.05042"/>
                     <spot x="1684.7863" y="1055.7657" z="181.46416" h="80"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Irigani Pioneers Veteran Combatant -->
-                <spawn npc_id="232677" respawn_time="180">
-                    <spot x="1556.8933" y="889.0984" z="147.04353" h="107"/>
-                    <spot x="1565.6057" y="896.47394" z="146.0" h="105"/>
-                    <spot x="1565.9304" y="923.08295" z="146.375" h="105"/>
-                    <spot x="1570.3304" y="909.0043" z="145.60434" h="90"/>
-                    <spot x="1571.5945" y="932.9834" z="146.375" h="80"/>
-                    <spot x="1575.9421" y="910.54236" z="145.74638" h="93"/>
-                    <spot x="1594.2" y="827.2239" z="143.08899" h="45"/>
-                </spawn>
-                <!-- Irigani Pioneers Veteran Sentry -->
-                <spawn npc_id="232678" respawn_time="180">
-                    <spot x="1561.8403" y="910.6345" z="146.05962" h="90"/>
-                </spawn>
-                <!-- Irigani Pioneers Veteran Supervisor -->
-                <spawn npc_id="232679" respawn_time="180">
-                    <spot x="1564.479" y="920.86163" z="146.34506" h="105"/>
-                </spawn>
-                <!-- Irigani Pioneers Veteran Gunslinger -->
-                <spawn npc_id="232680" respawn_time="180">
-                    <spot x="1552.8518" y="898.2531" z="147.91168" h="105"/>
-                    <spot x="1577.729" y="925.4977" z="146.375" h="90"/>
-                    <spot x="1581.863" y="899.11395" z="146.48288" h="105"/>
-                </spawn>
-                <!-- Irigani Scout Envoy -->
-                <spawn npc_id="233199" respawn_time="180">
-                    <spot x="1568.4376" y="872.0524" z="147.67316" h="90"/>
-                    <spot x="1579.3811" y="849.5033" z="146.18109" h="63"/>
-                    <spot x="1596.2998" y="915.98035" z="163.43767" h="70"/>
-                    <spot x="1607.0345" y="878.56586" z="152.74405" h="67"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="77"> <!-- Crumbling Redoubt -->
@@ -1840,7 +1702,7 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Redoubt Pioneers Veteran Combatant -->
-                <spawn npc_id="232681" respawn_time="180">
+                <spawn npc_id="232498" respawn_time="180">
                     <spot x="1695.5802" y="2380.3704" z="171.50308" h="105"/>
                     <spot x="1702.1525" y="2394.2856" z="171.78691" h="93"/>
                     <spot x="1705.852" y="2375.1304" z="171.625" h="105"/>
@@ -1850,15 +1712,15 @@
                     <spot x="1723.4515" y="2373.4058" z="169.49142" h="105"/>
                 </spawn>
                 <!-- Redoubt Pioneers Veteran Sentry -->
-                <spawn npc_id="232682" respawn_time="180">
+                <spawn npc_id="232499" respawn_time="180">
                     <spot x="1713.6613" y="2390.045" z="172.23163"/>
                 </spawn>
                 <!-- Redoubt Pioneers Supervisor -->
-                <spawn npc_id="232683" respawn_time="180">
+                <spawn npc_id="232500" respawn_time="180">
                     <spot x="1698.3912" y="2388.0713" z="171.375" h="105"/>
                 </spawn>
                 <!-- Redoubt Pioneers Veteran Gunslinger -->
-                <spawn npc_id="232684" respawn_time="180">
+                <spawn npc_id="232501" respawn_time="180">
                     <spot x="1712.1635" y="2365.4348" z="170.09848"/>
                     <spot x="1726.0591" y="2386.2244" z="172.0524" h="113"/>
                     <spot x="1727.6771" y="2388.8901" z="172.69353" h="105"/>
@@ -1915,40 +1777,6 @@
                     <spot x="1574.6846" y="2236.951" z="176.56091" h="27"/>
                     <spot x="1547.8876" y="2253.2483" z="178.73657"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Redoubt Pioneers Veteran Combatant -->
-                <spawn npc_id="232681" respawn_time="180">
-                    <spot x="1695.5802" y="2380.3704" z="171.50308" h="105"/>
-                    <spot x="1702.1525" y="2394.2856" z="171.78691" h="93"/>
-                    <spot x="1705.852" y="2375.1304" z="171.625" h="105"/>
-                    <spot x="1710.9192" y="2363.715" z="169.76413" h="105"/>
-                    <spot x="1711.0145" y="2378.411" z="171.68658" h="105"/>
-                    <spot x="1714.3983" y="2392.7917" z="172.44937"/>
-                    <spot x="1723.4515" y="2373.4058" z="169.49142" h="105"/>
-                </spawn>
-                <!-- Redoubt Pioneers Veteran Sentry -->
-                <spawn npc_id="232682" respawn_time="180">
-                    <spot x="1713.6613" y="2390.045" z="172.23163"/>
-                </spawn>
-                <!-- Redoubt Pioneers Supervisor -->
-                <spawn npc_id="232683" respawn_time="180">
-                    <spot x="1698.3912" y="2388.0713" z="171.375" h="105"/>
-                </spawn>
-                <!-- Redoubt Pioneers Veteran Gunslinger -->
-                <spawn npc_id="232684" respawn_time="180">
-                    <spot x="1712.1635" y="2365.4348" z="170.09848"/>
-                    <spot x="1726.0591" y="2386.2244" z="172.0524" h="113"/>
-                    <spot x="1727.6771" y="2388.8901" z="172.69353" h="105"/>
-                </spawn>
-                <!-- Redoubt Scout Envoy -->
-                <spawn npc_id="233200" respawn_time="180">
-                    <spot x="1693.5403" y="2344.9387" z="166.23347" h="87"/>
-                    <spot x="1709.4995" y="2349.7688" z="166.8461" h="90"/>
-                    <spot x="1736.4655" y="2366.4756" z="167.46353" h="80"/>
-                    <spot x="1750.0577" y="2393.066" z="171.10954" h="90"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="78"> <!-- Windswept Camp -->
@@ -2103,18 +1931,18 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Windswept Pioneers Combatant -->
-                <spawn npc_id="232685" respawn_time="180">
+                <spawn npc_id="232502" respawn_time="180">
                     <spot x="1773.554" y="1300.0575" z="230.35071" h="30"/>
                     <spot x="1779.4597" y="1291.3112" z="231.25" h="15"/>
                     <spot x="1783.9137" y="1287.1433" z="231.25" h="15"/>
                     <spot x="1793.271" y="1302.5981" z="230.46262" h="15"/>
                 </spawn>
                 <!-- Windswept Pioneers Sentry -->
-                <spawn npc_id="232686" respawn_time="180">
+                <spawn npc_id="232503" respawn_time="180">
                     <spot x="1792.0803" y="1291.0574" z="231.25502" h="10"/>
                 </spawn>
                 <!-- Windswept Pioneers Supervisor -->
-                <spawn npc_id="232687" respawn_time="180">
+                <spawn npc_id="232504" respawn_time="180">
                     <spot x="1783.9985" y="1299.3798" z="230.95253" h="27"/>
                 </spawn>
                 <!-- Windswept Scout Envoy -->
@@ -2159,31 +1987,6 @@
                 <spawn npc_id="232422" respawn_time="180">
                     <spot x="1894.63" y="1203.0724" z="259.98633" h="43"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Windswept Pioneers Combatant -->
-                <spawn npc_id="232685" respawn_time="180">
-                    <spot x="1773.554" y="1300.0575" z="230.35071" h="30"/>
-                    <spot x="1779.4597" y="1291.3112" z="231.25" h="15"/>
-                    <spot x="1783.9137" y="1287.1433" z="231.25" h="15"/>
-                    <spot x="1793.271" y="1302.5981" z="230.46262" h="15"/>
-                </spawn>
-                <!-- Windswept Pioneers Sentry -->
-                <spawn npc_id="232686" respawn_time="180">
-                    <spot x="1792.0803" y="1291.0574" z="231.25502" h="10"/>
-                </spawn>
-                <!-- Windswept Pioneers Supervisor -->
-                <spawn npc_id="232687" respawn_time="180">
-                    <spot x="1783.9985" y="1299.3798" z="230.95253" h="27"/>
-                </spawn>
-                <!-- Windswept Scout Envoy -->
-                <spawn npc_id="233201" respawn_time="180">
-                    <spot x="1767.3033" y="1323.6007" z="232.56116" h="7"/>
-                    <spot x="1774.2489" y="1333.2773" z="230.9704" h="15"/>
-                    <spot x="1786.3871" y="1317.8416" z="230.8651" h="15"/>
-                    <spot x="1807.3104" y="1303.518" z="233.60344" h="27"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
         <base_spawn id="79"> <!-- Sillus Pass Watchpost -->
@@ -2346,18 +2149,18 @@
 
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Pass Pioneers Combatant -->
-                <spawn npc_id="232688" respawn_time="180">
+                <spawn npc_id="232505" respawn_time="180">
                     <spot x="2481.2375" y="1955.4767" z="311.45255" h="60"/>
                     <spot x="2488.274" y="1937.1406" z="310.875" h="75"/>
                     <spot x="2495.681" y="1948.202" z="310.875" h="60"/>
                     <spot x="2497.0605" y="1937.6244" z="310.875" h="72"/>
                 </spawn>
                 <!-- Pass Pioneers Sentry -->
-                <spawn npc_id="232689" respawn_time="180">
+                <spawn npc_id="232506" respawn_time="180">
                     <spot x="2483.782" y="1946.5554" z="310.8886" h="90"/>
                 </spawn>
                 <!-- Pass Pioneers Supervisor -->
-                <spawn npc_id="232690" respawn_time="180">
+                <spawn npc_id="232507" respawn_time="180">
                     <spot x="2489.5505" y="1956.1956" z="310.8872" h="53"/>
                 </spawn>
                 <!-- Pass Scout Envoy -->
@@ -2403,31 +2206,6 @@
                 <spawn npc_id="232428" respawn_time="180">
                     <spot x="2468.9841" y="1848.2046" z="326.88547" h="45"/>
                 </spawn>
-
-                <!-- Sub Camp Elyos Spawns -->
-                <!-- Pass Pioneers Combatant -->
-                <spawn npc_id="232688" respawn_time="180">
-                    <spot x="2481.2375" y="1955.4767" z="311.45255" h="60"/>
-                    <spot x="2488.274" y="1937.1406" z="310.875" h="75"/>
-                    <spot x="2495.681" y="1948.202" z="310.875" h="60"/>
-                    <spot x="2497.0605" y="1937.6244" z="310.875" h="72"/>
-                </spawn>
-                <!-- Pass Pioneers Sentry -->
-                <spawn npc_id="232689" respawn_time="180">
-                    <spot x="2483.782" y="1946.5554" z="310.8886" h="90"/>
-                </spawn>
-                <!-- Pass Pioneers Supervisor -->
-                <spawn npc_id="232690" respawn_time="180">
-                    <spot x="2489.5505" y="1956.1956" z="310.8872" h="53"/>
-                </spawn>
-                <!-- Pass Scout Envoy -->
-                <spawn npc_id="233202" respawn_time="180">
-                    <spot x="2470.7634" y="1971.5789" z="316.32068" h="105"/>
-                    <spot x="2475.4377" y="1930.5703" z="310.83984" h="60"/>
-                    <spot x="2492.2773" y="1910.6364" z="315.88068" h="105"/>
-                    <spot x="2502.2822" y="1976.9579" z="318.9367" h="50"/>
-                </spawn>
-                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
         </base_spawn>
     </spawn_map>
