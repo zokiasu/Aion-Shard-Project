@@ -5132,6 +5132,10 @@
         <spawn npc_id="730224" respawn_time="295">
             <spot x="1700.34" y="186.64" z="531.244" static_id="164"/>
         </spawn>
+        <!-- Padmarashka's Cave Entrance -->
+        <spawn npc_id="730485" respawn_time="295">
+            <spot x="136.981" y="2006.66" z="434.292" h="93" static_id="1315"/>
+        </spawn>
         <!-- Parchment Map -->
         <spawn npc_id="700605" respawn_time="295">
             <spot x="1518.82" y="1313.11" z="398.168" static_id="246"/>

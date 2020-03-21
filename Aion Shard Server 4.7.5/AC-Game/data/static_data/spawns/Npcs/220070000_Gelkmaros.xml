@@ -391,7 +391,7 @@
         </spawn>
         <!-- Baletti -->
         <spawn npc_id="205298" respawn_time="295">
-            <spot x="1772.04" y="2881.84" z="548.52515" h="100" walker_index="5"/>
+            <spot x="1772.04" y="2881.84" z="548.52515" h="100" walker_id="30AE9FAADF71BF5E93BFB6EAFB9342C7C43A9959" walker_index="5"/>
         </spawn>
         <!-- Balotelli -->
         <spawn npc_id="799210" respawn_time="295">
@@ -2174,7 +2174,7 @@
         </spawn>
         <!-- Goldentail Dorion -->
         <spawn npc_id="799731" respawn_time="295">
-            <spot x="1772.04" y="2881.84" z="548.52515" h="97" walker_index="3"/>
+            <spot x="1772.04" y="2881.84" z="548.52515" h="97" walker_id="30AE9FAADF71BF5E93BFB6EAFB9342C7C43A9959" walker_index="3"/>
         </spawn>
         <!-- Grauzer -->
         <spawn npc_id="799299" respawn_time="295">
@@ -4547,6 +4547,10 @@
         <!-- Ortiz -->
         <spawn npc_id="799295" respawn_time="295">
             <spot x="2515.79" y="2135.31" z="464.844" h="67"/>
+        </spawn>
+        <!-- Padmarashka's Cave Entrance -->
+        <spawn npc_id="730486" respawn_time="295">
+            <spot x="2972.322" y="1212.870" z="242.125" static_id="1235"/>
         </spawn>
         <!-- Paketan Slipfingers -->
         <spawn npc_id="217016" respawn_time="295">
@@ -7510,7 +7514,7 @@
         </spawn>
         <!-- Wild Kitter -->
         <spawn npc_id="799736" respawn_time="295">
-            <spot x="1772.04" y="2881.84" z="548.52515" h="100"/>
+            <spot x="1772.04" y="2881.84" z="548.52515" h="100" walker_id="30AE9FAADF71BF5E93BFB6EAFB9342C7C43A9959"/>
         </spawn>
         <!-- Wildgrove Murmur -->
         <spawn npc_id="215893" respawn_time="105">
