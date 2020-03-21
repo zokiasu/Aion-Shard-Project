@@ -52,9 +52,9 @@ public class _23731RehelnsRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		//qe.registerQuestNpc(802340).addOnTalkEvent(questId);
-		//qe.registerOnEnterZone(ZoneName.get("EAST_OUTPOST_600100000"), questId);
-		//qe.registerOnKillInWorld(600100000, questId);
+		qe.registerQuestNpc(802340).addOnTalkEvent(questId);
+		qe.registerOnEnterZone(ZoneName.get("EAST_OUTPOST_600100000"), questId);
+		qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override

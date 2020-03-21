@@ -52,9 +52,9 @@ public class _23732ShrisRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		//qe.registerQuestNpc(802341).addOnTalkEvent(questId);
-		//qe.registerOnEnterZone(ZoneName.get("EAST_RELAY_600100000"), questId);
-		//qe.registerOnKillInWorld(600100000, questId);
+		qe.registerQuestNpc(802341).addOnTalkEvent(questId);
+		qe.registerOnEnterZone(ZoneName.get("EAST_RELAY_600100000"), questId);
+		qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override

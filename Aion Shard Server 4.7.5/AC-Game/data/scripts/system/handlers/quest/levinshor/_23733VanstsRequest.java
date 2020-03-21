@@ -52,9 +52,9 @@ public class _23733VanstsRequest extends QuestHandler {
 
 	@Override
 	public void register() {
-		//qe.registerQuestNpc(802342).addOnTalkEvent(questId);
-		//qe.registerOnEnterZone(ZoneName.get("WEST_PICKET_600100000"), questId);
-		//qe.registerOnKillInWorld(600100000, questId);
+		qe.registerQuestNpc(802342).addOnTalkEvent(questId);
+		qe.registerOnEnterZone(ZoneName.get("WEST_PICKET_600100000"), questId);
+		qe.registerOnKillInWorld(600100000, questId);
 	}
 	
 	@Override
