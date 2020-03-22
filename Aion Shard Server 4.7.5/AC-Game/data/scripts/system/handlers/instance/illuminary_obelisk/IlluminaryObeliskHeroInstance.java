@@ -1,32 +1,3 @@
-/**
- * This file is part of Aion-Lightning <aion-lightning.org>.
- *
- *  Aion-Lightning is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  Aion-Lightning is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details. *
- *
- *  You should have received a copy of the GNU General Public License
- *  along with Aion-Lightning.
- *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, ragarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
- */
 package instance.illuminary_obelisk;
 
 import com.aionemu.commons.network.util.ThreadPoolManager;
@@ -100,6 +71,25 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
         doors = instance.getDoors();
     }
 
+    public void onDropRegistered(Npc npc) {
+        Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
+        int npcId = npc.getNpcId();
+        int index = dropItems.size() + 1;
+        switch (npcId) {
+            /**
+             * Collect Items:
+             * Each "Shield Generator" unit needs 3 ide items, 12 items in total, you can find them all around the instance.
+             * Bombs to use the cannons appear in chests around the instance in a different place every time, collect them too.
+             */
+            case 730884: //Flourishing Idium.
+                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 164000289, 1));
+                break;
+            case 730885: //Danuar Cannonballs.
+                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 164000290, 3));
+                break;
+        }
+    }
+
     @Override
     public void onEnterInstance(final Player player) {
         super.onInstanceCreate(instance);
@@ -146,14 +136,14 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
         Player player = npc.getAggroList().getMostPlayerDamage();
         switch (npc.getObjectTemplate().getTemplateId()) {
             case 702010: //Eastern Shield Generator.
-                despawnNpc(npc);
-
                 deleteNpc(283809);
                 deleteNpc(283810);
                 deleteNpc(283811);
                 deleteNpc(283812);
+                deleteNpc(283813);
                 deleteNpc(283814);
                 deleteNpc(283815);
+                deleteNpc(283816);
                 deleteNpc(283817);
 
                 deleteNpc(702014);
@@ -174,15 +164,14 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                         spawn(702010, 255.47392f, 293.56177f, 321.18497f, (byte) 89); //Eastern Shield Generator.
                         isEnd = false;
                     }
-                }, 10000);
+                }, 5000);
                 break;
             case 702011: //Western Shield Generator.
-                despawnNpc(npc);
-
                 deleteNpc(283809);
                 deleteNpc(283810);
                 deleteNpc(283811);
                 deleteNpc(283812);
+                deleteNpc(283813);
                 deleteNpc(283814);
                 deleteNpc(283815);
                 deleteNpc(283816);
@@ -209,12 +198,11 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 }, 10000);
                 break;
             case 702012: //Southern Shield Generator.
-                despawnNpc(npc);
-
                 deleteNpc(283809);
                 deleteNpc(283810);
                 deleteNpc(283811);
                 deleteNpc(283812);
+                deleteNpc(283813);
                 deleteNpc(283814);
                 deleteNpc(283815);
                 deleteNpc(283816);
@@ -241,12 +229,11 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 }, 10000);
                 break;
             case 702013: //Northern Shield Generator.
-                despawnNpc(npc);
-
                 deleteNpc(283809);
                 deleteNpc(283810);
                 deleteNpc(283811);
                 deleteNpc(283812);
+                deleteNpc(283813);
                 deleteNpc(283814);
                 deleteNpc(283815);
                 deleteNpc(283816);

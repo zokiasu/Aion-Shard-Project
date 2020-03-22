@@ -704,6 +704,8 @@ public class GoTo extends AdminCommand {
             goTo(player, 301220000, 449, 449, 270);
         } else if (destination.equalsIgnoreCase("Illuminary") || destination.equalsIgnoreCase("Illuminary obelisk")) {
             goTo(player, 301230000, 321, 323, 405);
+        } else if (destination.equalsIgnoreCase("Illuminary Hero") || destination.equalsIgnoreCase("Illuminary obelisk hero")) {
+            goTo(player, 301370000, 321, 323, 405);
         } /**
          * 4.7
          */

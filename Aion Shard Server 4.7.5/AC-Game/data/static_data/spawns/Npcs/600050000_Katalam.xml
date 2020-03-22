@@ -7490,10 +7490,10 @@
         <spawn npc_id="231219" respawn_time="295">
             <spot x="2428.1611" y="146.98042" z="216.44366" h="30"/>
         </spawn>
-		<!-- Rune Magic Stone -->		
+		<!-- Rune Magic Stone
 		<spawn npc_id="730835" respawn_time="295">
 			<spot x="828.28" y="2553.80" z="221.20" />
-		</spawn>		
+		</spawn>  -->
 		<!-- Disciplined Tayga (Mob?) -->		
 		<spawn npc_id="230208" respawn_time="295">
 			<spot x="614.14" y="1979.25" z="89.95"  />

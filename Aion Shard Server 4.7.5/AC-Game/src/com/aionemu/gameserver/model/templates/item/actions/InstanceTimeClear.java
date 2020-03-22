@@ -41,6 +41,7 @@ public class InstanceTimeClear extends AbstractItemAction {
 
 	@Override
 	public void act(final Player player, final Item parentItem, Item targetItem) {
+		
 	}
 
 	public void act(final Player player, final Item parentItem, final int SelectedSyncId) {

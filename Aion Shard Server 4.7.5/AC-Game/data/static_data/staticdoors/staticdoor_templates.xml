@@ -6100,291 +6100,297 @@
             <box x1="295.2122" y1="296.872162" z1="403.929718" x2="322.3219" y2="323.108521" z2="435.267181"/>
         </staticdoor>
     </world>
+    <!-- Illuminary Obelisk Hero -->
+    <world world="301370000">
+        <staticdoor doorid="129" x="308.674164" y="309.953644" z="405.291473" mesh="idldf5_under03_door.cga">
+            <box x1="295.2122" y1="296.872162" z1="403.929718" x2="322.3219" y2="323.108521" z2="435.267181"/>
+        </staticdoor>
+    </world>
     <!-- Legion Kysis Barracks -->
     <world world="301240000">
-        <staticdoor doorid="1" x="554.296265" y="195.14357" z="179.386887" mesh="ab_up3_naga.cga">
+        <staticdoor keyid="185000062" doorid="1" x="554.296265" y="195.14357" z="179.386887" mesh="ab_up3_naga.cga">
             <box x1="552.674866" y1="191.870087" z1="179.345" x2="555.9176" y2="198.417053" z2="190.707565"/>
         </staticdoor>
-        <staticdoor doorid="2" x="501.4325" y="194.115387" z="179.232651" mesh="ab_up3_lizard.cga">
+        <staticdoor keyid="185000061" doorid="2" x="501.4325" y="194.115387" z="179.232651" mesh="ab_up3_lizard.cga">
             <box x1="499.54187" y1="190.974533" z1="179.132767" x2="503.32312" y2="197.256241" z2="190.495331"/>
         </staticdoor>
-        <staticdoor doorid="14" x="577.8909" y="845.233765" z="199.341644" mesh="ab_up3_door_04a.cga">
-            <box x1="576.1888" y1="845.130432" z1="199.3228" x2="579.5907" y2="845.3377" z2="204.435959"/>
-        </staticdoor>
-        <staticdoor doorid="11" x="541.91925" y="881.670349" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="539.5992" y1="880.7267" z1="199.4101" x2="544.2393" y2="882.6141" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="15" x="528.615662" y="883.9597" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="526.1906" y1="883.8381" z1="199.4101" x2="531.040649" y2="884.0813" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="17" x="515.252747" y="881.5756" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="512.9324" y1="880.632751" z1="199.4101" x2="517.573059" y2="882.518555" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="18" x="503.5706" y="874.971558" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="501.634766" y1="873.320251" z1="199.4101" x2="505.5064" y2="876.622864" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="19" x="495.0369" y="864.6957" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="493.7191" y1="862.535156" z1="199.4101" x2="496.3547" y2="866.8562" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="20" x="490.29245" y="852.1168" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="489.7516" y1="849.707642" z1="199.4101" x2="490.8333" y2="854.52594" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="3" x="525.508362" y="241.174011" z="179.16214" mesh="ab_up3_drakan.cga">
+        <staticdoor keyid="185000063" doorid="3" x="525.508362" y="241.174011" z="179.16214" mesh="ab_up3_drakan.cga">
             <box x1="521.9584" y1="241.025955" z1="179.062256" x2="529.0584" y2="241.322067" z2="190.42482"/>
         </staticdoor>
-        <staticdoor doorid="28" x="490.274017" y="838.503845" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000065" doorid="14" x="577.8909" y="845.233765" z="199.341644" mesh="ab_up3_door_04a.cga">
+            <box x1="576.1888" y1="845.130432" z1="199.3228" x2="579.5907" y2="845.3377" z2="204.435959"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="11" x="541.91925" y="881.670349" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="539.5992" y1="880.7267" z1="199.4101" x2="544.2393" y2="882.6141" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="15" x="528.615662" y="883.9597" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="526.1906" y1="883.8381" z1="199.4101" x2="531.040649" y2="884.0813" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="17" x="515.252747" y="881.5756" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="512.9324" y1="880.632751" z1="199.4101" x2="517.573059" y2="882.518555" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="18" x="503.5706" y="874.971558" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="501.634766" y1="873.320251" z1="199.4101" x2="505.5064" y2="876.622864" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="19" x="495.0369" y="864.6957" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="493.7191" y1="862.535156" z1="199.4101" x2="496.3547" y2="866.8562" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="20" x="490.29245" y="852.1168" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="489.7516" y1="849.707642" z1="199.4101" x2="490.8333" y2="854.52594" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="28" x="490.274017" y="838.503845" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.733948" y1="836.0946" z1="199.4101" x2="490.814056" y2="840.913147" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="74" x="494.889862" y="825.8789" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="74" x="494.889862" y="825.8789" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.537384" y1="823.7377" z1="199.4101" x2="496.242371" y2="828.0202" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="76" x="553.536743" y="874.795" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="76" x="553.536743" y="874.795" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="551.60144" y1="873.143066" z1="199.4101" x2="555.472046" y2="876.4469" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="79" x="562.1176" y="864.5233" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="79" x="562.1176" y="864.5233" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="560.8005" y1="862.3624" z1="199.4101" x2="563.4347" y2="866.6842" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="80" x="566.672058" y="851.998535" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="80" x="566.672058" y="851.998535" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="566.132" y1="849.5893" z1="199.4101" x2="567.2121" y2="854.407837" z2="207.167862"/>
         </staticdoor>
     </world>
     <!-- Legion Miren Barracks -->
     <world world="301250000">
-        <staticdoor doorid="1" x="554.1375" y="194.803131" z="179.283783" mesh="ab_up3_naga.cga">
+        <staticdoor keyid="185000067" doorid="1" x="554.1375" y="194.803131" z="179.283783" mesh="ab_up3_naga.cga">
             <box x1="552.5161" y1="191.529648" z1="179.2419" x2="555.75885" y2="198.076614" z2="190.604462"/>
         </staticdoor>
-        <staticdoor doorid="9" x="501.409546" y="194.155121" z="179.232651" mesh="ab_up3_lizard.cga">
+        <staticdoor keyid="185000066" doorid="9" x="501.409546" y="194.155121" z="179.232651" mesh="ab_up3_lizard.cga">
             <box x1="499.518921" y1="191.014267" z1="179.132767" x2="503.300171" y2="197.295975" z2="190.495331"/>
         </staticdoor>
-        <staticdoor doorid="14" x="577.4918" y="845.1633" z="199.341644" mesh="ab_up3_door_04a.cga">
+        <staticdoor keyid="185000070" doorid="14" x="577.4918" y="845.1633" z="199.341644" mesh="ab_up3_door_04a.cga">
             <box x1="575.7897" y1="845.06" z1="199.3228" x2="579.1916" y2="845.2673" z2="204.435959"/>
         </staticdoor>
-        <staticdoor doorid="2" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="2" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="539.184753" y1="880.4161" z1="199.4101" x2="543.8249" y2="882.303467" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="3" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="3" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="525.7763" y1="883.600464" z1="199.4101" x2="530.626343" y2="883.8437" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="5" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="5" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="512.6342" y1="880.4922" z1="199.4101" x2="517.2749" y2="882.378" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="6" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="6" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="501.2724" y1="873.069458" z1="199.4101" x2="505.144043" y2="876.3721" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="17" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="17" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.2361" y1="862.4103" z1="199.4101" x2="495.871735" y2="866.7313" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="18" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="18" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.429443" y1="849.423" z1="199.4101" x2="490.511169" y2="854.2413" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="10" x="525.1815" y="241.1727" z="179.224426" mesh="ab_up3_drakan.cga">
+        <staticdoor keyid="185000068" doorid="10" x="525.1815" y="241.1727" z="179.224426" mesh="ab_up3_drakan.cga">
             <box x1="521.631531" y1="241.024643" z1="179.124542" x2="528.731567" y2="241.320755" z2="190.4871"/>
         </staticdoor>
-        <staticdoor doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.352051" y1="835.8996" z1="199.4101" x2="490.432159" y2="840.71814" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.177765" y1="823.5009" z1="199.4101" x2="495.882751" y2="827.783447" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="551.1837" y1="873.008057" z1="199.4101" x2="555.0543" y2="876.3119" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="560.417664" y1="862.143" z1="199.4101" x2="563.0519" y2="866.4648" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="565.7424" y1="849.2315" z1="199.4101" x2="566.822449" y2="854.050049" z2="207.167862"/>
         </staticdoor>
     </world>
     <!-- Legion Krotan Barracks -->
     <world world="301260000">
-        <staticdoor doorid="1" x="554.001038" y="194.813461" z="179.321579" mesh="ab_up3_naga.cga">
+        <staticdoor keyid="185000057" doorid="1" x="554.001038" y="194.813461" z="179.321579" mesh="ab_up3_naga.cga">
             <box x1="552.324768" y1="191.564545" z1="179.2797" x2="555.6773" y2="198.062378" z2="190.642258"/>
         </staticdoor>
-        <staticdoor doorid="2" x="501.3952" y="194.081161" z="179.249237" mesh="ab_up3_lizard.cga">
+        <staticdoor keyid="185000056" doorid="2" x="501.3952" y="194.081161" z="179.249237" mesh="ab_up3_lizard.cga">
             <box x1="499.5383" y1="190.921967" z1="179.149353" x2="503.252136" y2="197.240341" z2="190.511917"/>
         </staticdoor>
-        <staticdoor doorid="14" x="577.4918" y="845.1633" z="199.398575" mesh="ab_up3_door_04a.cga">
-            <box x1="575.7897" y1="845.06" z1="199.37973" x2="579.1916" y2="845.2673" z2="204.492889"/>
-        </staticdoor>
-        <staticdoor doorid="11" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="539.184753" y1="880.4161" z1="199.4101" x2="543.8249" y2="882.303467" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="15" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="525.7763" y1="883.600464" z1="199.4101" x2="530.626343" y2="883.8437" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="17" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="512.6342" y1="880.4922" z1="199.4101" x2="517.2749" y2="882.378" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="18" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="501.2724" y1="873.069458" z1="199.4101" x2="505.144043" y2="876.3721" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="19" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="493.2361" y1="862.4103" z1="199.4101" x2="495.871735" y2="866.7313" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="20" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="489.429443" y1="849.423" z1="199.4101" x2="490.511169" y2="854.2413" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="3" x="525.201" y="241.208557" z="179.16214" mesh="ab_up3_drakan.cga">
+        <staticdoor keyid="185000058" doorid="3" x="525.201" y="241.208557" z="179.16214" mesh="ab_up3_drakan.cga">
             <box x1="521.6515" y1="241.074753" z1="179.062256" x2="528.7505" y2="241.342361" z2="190.42482"/>
         </staticdoor>
-        <staticdoor doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000060" doorid="14" x="577.4918" y="845.1633" z="199.398575" mesh="ab_up3_door_04a.cga">
+            <box x1="575.7897" y1="845.06" z1="199.37973" x2="579.1916" y2="845.2673" z2="204.492889"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="11" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="539.184753" y1="880.4161" z1="199.4101" x2="543.8249" y2="882.303467" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="15" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="525.7763" y1="883.600464" z1="199.4101" x2="530.626343" y2="883.8437" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="17" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="512.6342" y1="880.4922" z1="199.4101" x2="517.2749" y2="882.378" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="18" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="501.2724" y1="873.069458" z1="199.4101" x2="505.144043" y2="876.3721" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="19" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="493.2361" y1="862.4103" z1="199.4101" x2="495.871735" y2="866.7313" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="20" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="489.429443" y1="849.423" z1="199.4101" x2="490.511169" y2="854.2413" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.352051" y1="835.8996" z1="199.4101" x2="490.432159" y2="840.71814" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.177765" y1="823.5009" z1="199.4101" x2="495.882751" y2="827.783447" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="551.1837" y1="873.008057" z1="199.4101" x2="555.0543" y2="876.3119" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="560.417664" y1="862.143" z1="199.4101" x2="563.0519" y2="866.4648" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="565.7424" y1="849.2315" z1="199.4101" x2="566.822449" y2="854.050049" z2="207.167862"/>
         </staticdoor>
     </world>
     <!-- Kysis Barracks -->
     <world world="301280000">
-        <staticdoor doorid="1" x="554.296265" y="195.14357" z="179.386887" mesh="ab_up3_naga.cga">
+        <staticdoor keyid="185000062" doorid="1" x="554.296265" y="195.14357" z="179.386887" mesh="ab_up3_naga.cga">
             <box x1="552.674866" y1="191.870087" z1="179.345" x2="555.9176" y2="198.417053" z2="190.707565"/>
         </staticdoor>
-        <staticdoor doorid="2" x="501.4325" y="194.115387" z="179.232651" mesh="ab_up3_lizard.cga">
+        <staticdoor keyid="185000061" doorid="2" x="501.4325" y="194.115387" z="179.232651" mesh="ab_up3_lizard.cga">
             <box x1="499.54187" y1="190.974533" z1="179.132767" x2="503.32312" y2="197.256241" z2="190.495331"/>
         </staticdoor>
-        <staticdoor doorid="14" x="577.8909" y="845.233765" z="199.341644" mesh="ab_up3_door_04a.cga">
-            <box x1="576.1888" y1="845.130432" z1="199.3228" x2="579.5907" y2="845.3377" z2="204.435959"/>
-        </staticdoor>
-        <staticdoor doorid="11" x="541.91925" y="881.670349" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="539.5992" y1="880.7267" z1="199.4101" x2="544.2393" y2="882.6141" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="15" x="528.615662" y="883.9597" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="526.1906" y1="883.8381" z1="199.4101" x2="531.040649" y2="884.0813" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="17" x="515.252747" y="881.5756" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="512.9324" y1="880.632751" z1="199.4101" x2="517.573059" y2="882.518555" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="18" x="503.5706" y="874.971558" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="501.634766" y1="873.320251" z1="199.4101" x2="505.5064" y2="876.622864" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="19" x="495.0369" y="864.6957" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="493.7191" y1="862.535156" z1="199.4101" x2="496.3547" y2="866.8562" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="20" x="490.29245" y="852.1168" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="489.7516" y1="849.707642" z1="199.4101" x2="490.8333" y2="854.52594" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="3" x="525.508362" y="241.174011" z="179.16214" mesh="ab_up3_drakan.cga">
+        <staticdoor keyid="185000063" doorid="3" x="525.508362" y="241.174011" z="179.16214" mesh="ab_up3_drakan.cga">
             <box x1="521.9584" y1="241.025955" z1="179.062256" x2="529.0584" y2="241.322067" z2="190.42482"/>
         </staticdoor>
-        <staticdoor doorid="28" x="490.274017" y="838.503845" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000065" doorid="14" x="577.8909" y="845.233765" z="199.341644" mesh="ab_up3_door_04a.cga">
+            <box x1="576.1888" y1="845.130432" z1="199.3228" x2="579.5907" y2="845.3377" z2="204.435959"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="11" x="541.91925" y="881.670349" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="539.5992" y1="880.7267" z1="199.4101" x2="544.2393" y2="882.6141" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="15" x="528.615662" y="883.9597" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="526.1906" y1="883.8381" z1="199.4101" x2="531.040649" y2="884.0813" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="17" x="515.252747" y="881.5756" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="512.9324" y1="880.632751" z1="199.4101" x2="517.573059" y2="882.518555" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="18" x="503.5706" y="874.971558" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="501.634766" y1="873.320251" z1="199.4101" x2="505.5064" y2="876.622864" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="19" x="495.0369" y="864.6957" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="493.7191" y1="862.535156" z1="199.4101" x2="496.3547" y2="866.8562" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="20" x="490.29245" y="852.1168" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="489.7516" y1="849.707642" z1="199.4101" x2="490.8333" y2="854.52594" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000064" doorid="28" x="490.274017" y="838.503845" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.733948" y1="836.0946" z1="199.4101" x2="490.814056" y2="840.913147" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="74" x="494.889862" y="825.8789" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="74" x="494.889862" y="825.8789" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.537384" y1="823.7377" z1="199.4101" x2="496.242371" y2="828.0202" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="76" x="553.536743" y="874.795" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="76" x="553.536743" y="874.795" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="551.60144" y1="873.143066" z1="199.4101" x2="555.472046" y2="876.4469" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="79" x="562.1176" y="864.5233" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="79" x="562.1176" y="864.5233" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="560.8005" y1="862.3624" z1="199.4101" x2="563.4347" y2="866.6842" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="80" x="566.672058" y="851.998535" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000064" doorid="80" x="566.672058" y="851.998535" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="566.132" y1="849.5893" z1="199.4101" x2="567.2121" y2="854.407837" z2="207.167862"/>
         </staticdoor>
     </world>
     <!-- Miren Barracks -->
     <world world="301290000">
-        <staticdoor doorid="1" x="554.1375" y="194.803131" z="179.283783" mesh="ab_up3_naga.cga">
+        <staticdoor keyid="185000067" doorid="1" x="554.1375" y="194.803131" z="179.283783" mesh="ab_up3_naga.cga">
             <box x1="552.5161" y1="191.529648" z1="179.2419" x2="555.75885" y2="198.076614" z2="190.604462"/>
         </staticdoor>
-        <staticdoor doorid="9" x="501.409546" y="194.155121" z="179.232651" mesh="ab_up3_lizard.cga">
+        <staticdoor keyid="185000066" doorid="9" x="501.409546" y="194.155121" z="179.232651" mesh="ab_up3_lizard.cga">
             <box x1="499.518921" y1="191.014267" z1="179.132767" x2="503.300171" y2="197.295975" z2="190.495331"/>
         </staticdoor>
-        <staticdoor doorid="14" x="577.4918" y="845.1633" z="199.341644" mesh="ab_up3_door_04a.cga">
+        <staticdoor keyid="185000070" doorid="14" x="577.4918" y="845.1633" z="199.341644" mesh="ab_up3_door_04a.cga">
             <box x1="575.7897" y1="845.06" z1="199.3228" x2="579.1916" y2="845.2673" z2="204.435959"/>
         </staticdoor>
-        <staticdoor doorid="2" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="2" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="539.184753" y1="880.4161" z1="199.4101" x2="543.8249" y2="882.303467" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="3" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="3" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="525.7763" y1="883.600464" z1="199.4101" x2="530.626343" y2="883.8437" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="5" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="5" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="512.6342" y1="880.4922" z1="199.4101" x2="517.2749" y2="882.378" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="6" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="6" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="501.2724" y1="873.069458" z1="199.4101" x2="505.144043" y2="876.3721" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="17" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="17" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.2361" y1="862.4103" z1="199.4101" x2="495.871735" y2="866.7313" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="18" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="18" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.429443" y1="849.423" z1="199.4101" x2="490.511169" y2="854.2413" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="10" x="525.1815" y="241.1727" z="179.224426" mesh="ab_up3_drakan.cga">
+        <staticdoor keyid="185000068" doorid="10" x="525.1815" y="241.1727" z="179.224426" mesh="ab_up3_drakan.cga">
             <box x1="521.631531" y1="241.024643" z1="179.124542" x2="528.731567" y2="241.320755" z2="190.4871"/>
         </staticdoor>
-        <staticdoor doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.352051" y1="835.8996" z1="199.4101" x2="490.432159" y2="840.71814" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.177765" y1="823.5009" z1="199.4101" x2="495.882751" y2="827.783447" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="551.1837" y1="873.008057" z1="199.4101" x2="555.0543" y2="876.3119" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="560.417664" y1="862.143" z1="199.4101" x2="563.0519" y2="866.4648" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000069" doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="565.7424" y1="849.2315" z1="199.4101" x2="566.822449" y2="854.050049" z2="207.167862"/>
         </staticdoor>
     </world>
     <!-- Krotan Barracks -->
     <world world="301300000">
-        <staticdoor doorid="1" x="554.001038" y="194.813461" z="179.321579" mesh="ab_up3_naga.cga">
+        <staticdoor keyid="185000057" doorid="1" x="554.001038" y="194.813461" z="179.321579" mesh="ab_up3_naga.cga">
             <box x1="552.324768" y1="191.564545" z1="179.2797" x2="555.6773" y2="198.062378" z2="190.642258"/>
         </staticdoor>
-        <staticdoor doorid="2" x="501.3952" y="194.081161" z="179.249237" mesh="ab_up3_lizard.cga">
+        <staticdoor keyid="185000056" doorid="2" x="501.3952" y="194.081161" z="179.249237" mesh="ab_up3_lizard.cga">
             <box x1="499.5383" y1="190.921967" z1="179.149353" x2="503.252136" y2="197.240341" z2="190.511917"/>
         </staticdoor>
-        <staticdoor doorid="14" x="577.4918" y="845.1633" z="199.398575" mesh="ab_up3_door_04a.cga">
-            <box x1="575.7897" y1="845.06" z1="199.37973" x2="579.1916" y2="845.2673" z2="204.492889"/>
-        </staticdoor>
-        <staticdoor doorid="11" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="539.184753" y1="880.4161" z1="199.4101" x2="543.8249" y2="882.303467" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="15" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="525.7763" y1="883.600464" z1="199.4101" x2="530.626343" y2="883.8437" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="17" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="512.6342" y1="880.4922" z1="199.4101" x2="517.2749" y2="882.378" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="18" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="501.2724" y1="873.069458" z1="199.4101" x2="505.144043" y2="876.3721" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="19" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="493.2361" y1="862.4103" z1="199.4101" x2="495.871735" y2="866.7313" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="20" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
-            <box x1="489.429443" y1="849.423" z1="199.4101" x2="490.511169" y2="854.2413" z2="207.167862"/>
-        </staticdoor>
-        <staticdoor doorid="3" x="525.201" y="241.208557" z="179.16214" mesh="ab_up3_drakan.cga">
+        <staticdoor keyid="185000058" doorid="3" x="525.201" y="241.208557" z="179.16214" mesh="ab_up3_drakan.cga">
             <box x1="521.6515" y1="241.074753" z1="179.062256" x2="528.7505" y2="241.342361" z2="190.42482"/>
         </staticdoor>
-        <staticdoor doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000060" doorid="14" x="577.4918" y="845.1633" z="199.398575" mesh="ab_up3_door_04a.cga">
+            <box x1="575.7897" y1="845.06" z1="199.37973" x2="579.1916" y2="845.2673" z2="204.492889"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="11" x="541.5048" y="881.359741" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="539.184753" y1="880.4161" z1="199.4101" x2="543.8249" y2="882.303467" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="15" x="528.201355" y="883.7221" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="525.7763" y1="883.600464" z1="199.4101" x2="530.626343" y2="883.8437" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="17" x="514.9546" y="881.435059" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="512.6342" y1="880.4922" z1="199.4101" x2="517.2749" y2="882.378" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="18" x="503.208221" y="874.720764" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="501.2724" y1="873.069458" z1="199.4101" x2="505.144043" y2="876.3721" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="19" x="494.553925" y="864.5708" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="493.2361" y1="862.4103" z1="199.4101" x2="495.871735" y2="866.7313" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="20" x="489.9703" y="851.832153" z="199.611069" mesh="ab_up3_door_glass.cga">
+            <box x1="489.429443" y1="849.423" z1="199.4101" x2="490.511169" y2="854.2413" z2="207.167862"/>
+        </staticdoor>
+        <staticdoor keyid="185000059" doorid="28" x="489.89212" y="838.308838" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="489.352051" y1="835.8996" z1="199.4101" x2="490.432159" y2="840.71814" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="74" x="494.530243" y="825.642151" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="493.177765" y1="823.5009" z1="199.4101" x2="495.882751" y2="827.783447" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="76" x="553.119" y="874.66" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="551.1837" y1="873.008057" z1="199.4101" x2="555.0543" y2="876.3119" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="79" x="561.7348" y="864.3039" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="560.417664" y1="862.143" z1="199.4101" x2="563.0519" y2="866.4648" z2="207.167862"/>
         </staticdoor>
-        <staticdoor doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
+        <staticdoor keyid="185000059" doorid="80" x="566.2824" y="851.640747" z="199.611069" mesh="ab_up3_door_glass.cga">
             <box x1="565.7424" y1="849.2315" z1="199.4101" x2="566.822449" y2="854.050049" z2="207.167862"/>
         </staticdoor>
     </world>

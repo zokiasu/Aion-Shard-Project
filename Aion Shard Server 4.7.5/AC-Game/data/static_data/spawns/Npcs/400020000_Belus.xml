@@ -5,7 +5,7 @@
  -->
 <spawns>
 	<spawn_map map_id="400020000">
-		<!-- Teleport District -->
+		<!-- Teleport District
 		<spawn npc_id="833268" respawn_time="295">
             <spot h="0" z="1484.5094" y="1501.5968" x="811.67847"/>
             <spot h="26" z="1484.5095" y="1261.5797" x="542.1974"/>
@@ -21,7 +21,7 @@
         <spawn npc_id="833271" respawn_time="295">
             <spot h="91" z="1484.5092" y="812.0502" x="546.14136"/>
             <spot h="118" z="1484.5095" y="542.034" x="786.5802"/>
-        </spawn>
+        </spawn> -->
 		
 		<!-- Resurrect Machine Purple (Object Normal lvl:3) -->
 		<spawn npc_id="277460" respawn_time="295">

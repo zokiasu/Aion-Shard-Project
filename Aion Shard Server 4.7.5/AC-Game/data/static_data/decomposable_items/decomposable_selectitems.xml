@@ -1172,4 +1172,48 @@
 			<item id="114501343" count="1"/>           
         </items>    
     </decomposable_selectitem>
+	<!-- Manastone Box -->
+    <decomposable_selectitem item_id="188051424">
+		<items player_class="ALL">
+			<item id="167000715" count="1"/>
+			<item id="167000716" count="1"/>
+			<item id="167000717" count="1"/>
+			<item id="167000718" count="1"/>
+			<item id="167000719" count="1"/>
+			<item id="167000720" count="1"/>
+			<item id="167000721" count="1"/>
+			<item id="167000722" count="1"/>
+			<item id="167000723" count="1"/>
+			<item id="167000724" count="1"/>
+			<item id="167000725" count="1"/>
+			<item id="167000726" count="1"/>
+			<item id="167000727" count="1"/>
+			<item id="167000728" count="1"/>
+			<item id="167000729" count="1"/>
+			<item id="167000730" count="1"/>
+			<item id="167000731" count="1"/>
+			<item id="167000732" count="1"/>
+			<item id="167000733" count="1"/>
+			<item id="167000734" count="1"/>
+			<item id="167000735" count="1"/>
+			<item id="167000736" count="1"/>
+			<item id="167000737" count="1"/>
+			<item id="167000738" count="1"/>
+			<item id="167000739" count="1"/>
+			<item id="167000740" count="1"/>
+			<item id="167000741" count="1"/>
+			<item id="167000742" count="1"/>
+			<item id="167000743" count="1"/>
+			<item id="167000744" count="1"/>
+			<item id="167000749" count="1"/>
+			<item id="167000750" count="1"/>
+			<item id="167000751" count="1"/>
+			<item id="167000752" count="1"/>
+			<item id="167000753" count="1"/>
+			<item id="167000754" count="1"/>
+			<item id="167000755" count="1"/>
+			<item id="167000756" count="1"/>
+			<item id="167000757" count="1"/>
+        </items>
+    </decomposable_selectitem>
 </decomposable_selectitems>

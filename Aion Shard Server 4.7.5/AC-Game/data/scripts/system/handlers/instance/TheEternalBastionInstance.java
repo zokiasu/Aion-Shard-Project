@@ -113,6 +113,8 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006997, 2));
                     break;
             }
+        } else if (npcId == 230753 || npcId == 230757) {
+            dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000137, 1));
         }
     }
 
