@@ -1672,6 +1672,10 @@
     <chest npcid="802183">
         <keyitem id="1" itemid="185000193" quantity="1"/>
     </chest>
+    <!-- Infernal Danuar Reliquary -->
+    <chest npcid="802184">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
     <!-- Infinity Shard Opportunity Bundle -->
     <chest npcid="802184">
         <keyitem id="1" itemid="185000194" quantity="1"/>

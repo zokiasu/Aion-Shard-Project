@@ -198,9 +198,9 @@ public class MailService {
                     return;
                 }
 
-                if (senderItem.getPackCount() <= senderItem.getItemTemplate().getPackCount() && !senderItem.isPacked()) {
+                /*if (senderItem.getPackCount() <= senderItem.getItemTemplate().getPackCount() && !senderItem.isPacked()) {
                     return;
-                }
+                }*/
             }
 
             // reuse item in case of full decrease of count

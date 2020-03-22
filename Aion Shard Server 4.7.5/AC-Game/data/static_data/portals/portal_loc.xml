@@ -777,6 +777,8 @@
     <portal_loc world_id="301050000" loc_id="3010503" x="384.5766" y="529.6599" z="1072.1212" h="89"/>
     <!-- Danuar Reliquary -->
     <portal_loc world_id="301110000" loc_id="3011100" x="256.45197" y="257.91986" z="241.78688" h="91"/>
+    <!-- Infernal Danuar Reliquary -->
+    <portal_loc world_id="301360000" loc_id="3013600" x="256.45197" y="257.91986" z="241.78688" h="91"/>
     <!-- Sauro Supply Base -->
     <portal_loc world_id="301130000" loc_id="3011300" x="641.5419" y="176.81075" z="195.65363" h="28"/>
     <!-- Sauro Supply Base Start -->
