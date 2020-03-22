@@ -238,10 +238,6 @@
 				<spawn npc_id="804566">
 				    <spot x="957.46" y="1034.81" z="335.76" h="50"/>
 				</spawn>
-				<!-- Infinity Shard 4.7 (Object Normal lvl:3) -->
-				<spawn npc_id="804624">
-				    <spot x="1074.8859" y="984.0899" z="337.875" h="75"/>
-				</spawn>
 				<!-- Teleporter (Object Normal lvl:3) -->
 				<spawn npc_id="731460">
 				    <spot x="943.5169" y="1034.7505" z="335.0467" h="45" static_id="959"/>
