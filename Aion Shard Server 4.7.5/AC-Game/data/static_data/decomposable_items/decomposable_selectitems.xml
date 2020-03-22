@@ -1216,4 +1216,17 @@
 			<item id="167000757" count="1"/>
 		</items>
 	</decomposable_selectitem>
+	<!-- Bonbon panda -->
+	<decomposable_selectitem item_id="188052726">
+		<items race="ASMODIANS">
+			<item id="160010290" count="1"/>
+			<item id="160010292" count="1"/>
+			<item id="160010294" count="1"/>
+		</items>
+		<items race="ELYOS">
+			<item id="160010289" count="1"/>
+			<item id="160010291" count="1"/>
+			<item id="160010293" count="1"/>
+		</items>
+	</decomposable_selectitem>
 </decomposable_selectitems>

@@ -25942,21 +25942,6 @@
                 <item id="141000001" count="1500"/>
             </items>
         </decomposable>
-        <!-- Bonbon panda -->
-        <decomposable item_id="188052726" decomposable_name="[Event] Ailu Form Candy Box">
-            <items> <!-- Physique -->
-                <item id="160010289" name="[Event] Dignified Ailu Form Candy" count="1" race="ELYOS"/>
-                <item id="160010290" name="[Event] Dignified Ailu Form Candy" count="1" race="ASMODIANS"/>
-            </items>
-            <items> <!-- Magic -->
-                <item id="160010291" name="[Event] Wise Ailu Form Candy" count="1" race="ELYOS"/>
-                <item id="160010292" name="[Event] Wise Ailu Form Candy" count="1" race="ASMODIANS"/>
-            </items>
-            <items> <!-- Magic Vit Akt-->
-                <item id="160010293" name="[Event] Nimble Ailu Form Candy" count="1" race="ELYOS"/>
-                <item id="160010294" name="[Event] Nimble Ailu Form Candy" count="1" race="ASMODIANS"/>
-            </items>
-        </decomposable>
         <!-- Arme antre de tiamat -->
         <decomposable item_id="188052084" decomposable_name="Dragon Lord Tiamat Treasure Chest">
             <items chance="75.0">
