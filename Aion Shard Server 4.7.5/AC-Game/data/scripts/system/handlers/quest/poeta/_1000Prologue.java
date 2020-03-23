@@ -57,7 +57,7 @@ public class _1000Prologue extends QuestHandler {
     }
 
     @Override
-    /*public boolean onEnterWorldEvent(QuestEnv env) {
+    public boolean onEnterWorldEvent(QuestEnv env) {
         Player player = env.getPlayer();
         if (player.getCommonData().getRace() != Race.ELYOS) {
             return false;
@@ -69,11 +69,13 @@ public class _1000Prologue extends QuestHandler {
         }
         qs = player.getQuestStateList().getQuestState(questId);
         if (qs.getStatus() == QuestStatus.START) {
-            PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(1, 1));
+            //PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(1, 1));
+            qs.setStatus(QuestStatus.REWARD);
+            QuestService.finishQuest(env);
             return true;
         }
         return false;
-    }*/
+    }
 
     @Override
     public boolean onMovieEndEvent(QuestEnv env, int movieId) {
