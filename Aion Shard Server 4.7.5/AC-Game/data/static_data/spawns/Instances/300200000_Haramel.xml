@@ -7,6 +7,7 @@
         <!-- Tower Lift -->
         <spawn npc_id="730321">
             <spot x="223.86407" y="158.06898" z="137.05888" h="89"/>
+            <spot x="183.27452" y="20.36723" z="144.22375" h="61"/>
         </spawn>
         <!-- Treasure Box -->
         <spawn npc_id="216925">

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="600050000">
+        <!-- Haramel Entrance -->
+        <spawn npc_id="730055" respawn_time="5">
+            <spot h="46" x="394.38315" y="327.31998" z="273.8325"/>
+            <spot h="69" x="418.7927" y="2618.9033" z="140.88191"/>
+        </spawn>
         <!-- Elyos Katalam to Marchutan Priory Teleporter -->
         <spawn npc_id="209676" respawn_time="295" difficult_id="0" custom="true">
             <spot x="443.73166" y="2641.85" z="146.0" h="105" entity_id="0"/>

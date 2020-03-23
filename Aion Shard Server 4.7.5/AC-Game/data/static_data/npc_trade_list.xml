@@ -8522,7 +8522,7 @@
 	<tradelist_template npc_id="832826">
 		<tradelist id="2384"/>
 	</tradelist_template>
-	<tradelist_template npc_id="832827">
+	<tradelist_template npc_id="832827" sell_price_rate="37000" buy_price_rate="200">
 		<tradelist id="2385"/>
 	</tradelist_template>
 	<tradelist_template npc_id="832828">

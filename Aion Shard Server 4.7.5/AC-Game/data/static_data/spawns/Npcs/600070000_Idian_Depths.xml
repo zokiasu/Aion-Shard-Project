@@ -167,10 +167,10 @@
         <spawn npc_id="230997" respawn_time="295">
             <spot x="486.24564" y="987.90466" z="557.54962" h="106"/>
         </spawn>
-        <!-- Badurunerk -->
+        <!-- Badurunerk
         <spawn npc_id="801305" respawn_time="295">
             <spot x="683.52063" y="868.79651" z="517.1955"/>
-        </spawn>
+        </spawn> -->
         <!-- Blackened Grave -->
         <spawn npc_id="231002" respawn_time="10800">
             <spot x="386.84775" y="892.8634" z="560.00964" h="61"/>

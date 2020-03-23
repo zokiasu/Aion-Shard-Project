@@ -196,8 +196,8 @@
     <!-- HARAMEL -->
     <!-- Haramel to Haramel -->
     <portal_use npc_id="700852">
-        <portal_path loc_id="2100301" race="ELYOS"/>
-        <portal_path loc_id="2200301" race="ASMODIANS"/>
+        <portal_path loc_id="1100100" race="ELYOS"/>
+        <portal_path loc_id="1200100" race="ASMODIANS"/>
     </portal_use>
     <!-- Haramel Exit -->
     <portal_use npc_id="730320">
@@ -1068,8 +1068,8 @@
     </portal_use>
     <!-- Sauro Supply Base Exit -->
     <portal_use npc_id="801967">
-        <portal_path loc_id="6000608" race="ASMODIANS"/>
-        <portal_path loc_id="6000607" race="ELYOS"/>
+        <portal_path loc_id="1200100" race="ASMODIANS"/>
+        <portal_path loc_id="1100100" race="ELYOS"/>
     </portal_use>
     <!-- SAURO SUPPLY BASE TELEPORTER END -->
 
