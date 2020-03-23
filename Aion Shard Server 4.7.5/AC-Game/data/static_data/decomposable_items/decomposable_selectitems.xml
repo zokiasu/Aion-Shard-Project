@@ -887,28 +887,18 @@
 	</decomposable_selectitem>
 	<!-- Empyrean Plume Chest -->
 	<decomposable_selectitem item_id="188053295">
-		<items race="ELYOS">
+		<items>
 			<item id="187100015" count="1"/>
 			<item id="187100016" count="1"/>
-		</items>
-	</decomposable_selectitem>
-	<!-- Empyrean Plume Chest -->
-	<decomposable_selectitem item_id="188053295">
-		<items race="ASMODIANS">
 			<item id="187100017" count="1"/>
 			<item id="187100018" count="1"/>
 		</items>
 	</decomposable_selectitem>
 	<!-- [Event] Empyrean Plume Chest -->
 	<decomposable_selectitem item_id="188053321">
-		<items race="ELYOS">
+		<items>
 			<item id="187100015" count="1"/>
 			<item id="187100016" count="1"/>
-		</items>
-	</decomposable_selectitem>
-	<!-- [Event] Empyrean Plume Chest -->
-	<decomposable_selectitem item_id="188053321">
-		<items race="ASMODIANS">
 			<item id="187100017" count="1"/>
 			<item id="187100018" count="1"/>
 		</items>
@@ -1218,14 +1208,10 @@
 	</decomposable_selectitem>
 	<!-- Bonbon panda -->
 	<decomposable_selectitem item_id="188052726">
-		<items race="ASMODIANS">
+		<items>
 			<item id="160010290" count="1"/>
 			<item id="160010292" count="1"/>
 			<item id="160010294" count="1"/>
-		</items>
-	</decomposable_selectitem>
-	<decomposable_selectitem item_id="188052726">
-		<items race="ELYOS">
 			<item id="160010289" count="1"/>
 			<item id="160010291" count="1"/>
 			<item id="160010293" count="1"/>

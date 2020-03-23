@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
     <spawn_map map_id="600100000">
+        <!-- Haramel Asmo -->
+        <spawn npc_id="730319" respawn_time="5">
+            <spot h="43" x="1822.1383" y="1758.5159" z="303.72406"/>
+        </spawn>
+        <!-- Haramel Elyos -->
+        <spawn npc_id="730318" respawn_time="5">
+            <spot h="113" x="76.080414" y="116.994705" z="347.4422"/>
+        </spawn>
         <!-- The Eternal Bastion Asmo -->
         <spawn npc_id="730870" respawn_time="5">
             <spot h="107" x="859.028" y="1161.7183" z="338.18225"/>
