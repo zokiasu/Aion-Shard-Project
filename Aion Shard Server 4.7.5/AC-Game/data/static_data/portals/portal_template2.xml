@@ -204,17 +204,9 @@
         <portal_path loc_id="2100301" race="ELYOS"/>
         <portal_path loc_id="2200301" race="ASMODIANS"/>
     </portal_use>
-    <!-- Haramel Entrance Asmo-->
-    <portal_use npc_id="730319">
-        <portal_path loc_id="3002000" race="ASMODIANS" instance="true">
-            <portal_req min_level="16"/>
-        </portal_path>
-    </portal_use>
-    <!-- Haramel Entrance Elyos-->
-    <portal_use npc_id="730318">
-        <portal_path loc_id="3002000" race="ELYOS" instance="true">
-            <portal_req min_level="16"/>
-        </portal_path>
+    <!-- Haramel Entrance -->
+    <portal_use npc_id="730055">
+        <portal_path loc_id="3002000" player_count="1" instance="true"/>
     </portal_use>
     <!-- END HARAMEL -->
 
@@ -1505,12 +1497,6 @@
     <portal_use npc_id="730049">
         <portal_path loc_id="2200202"> <!-- race="ASMODIANS" -->
             <portal_req min_level="35"/>
-        </portal_path>
-    </portal_use>
-    <!-- Hoarfrost to Bakarma Barack -->
-    <portal_use npc_id="730055">
-        <portal_path loc_id="2200402" race="ASMODIANS">
-            <portal_req min_level="41"/>
         </portal_path>
     </portal_use>
     <!-- Statue Of Mau Hero [The Hand Behind The IceClaw] Asmodians Exit-->
