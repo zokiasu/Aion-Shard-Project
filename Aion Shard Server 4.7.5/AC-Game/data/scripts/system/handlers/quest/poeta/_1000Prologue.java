@@ -57,7 +57,7 @@ public class _1000Prologue extends QuestHandler {
     }
 
     @Override
-    public boolean onEnterWorldEvent(QuestEnv env) {
+    /*public boolean onEnterWorldEvent(QuestEnv env) {
         Player player = env.getPlayer();
         if (player.getCommonData().getRace() != Race.ELYOS) {
             return false;
@@ -73,7 +73,7 @@ public class _1000Prologue extends QuestHandler {
             return true;
         }
         return false;
-    }
+    }*/
 
     @Override
     public boolean onMovieEndEvent(QuestEnv env, int movieId) {
