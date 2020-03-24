@@ -7,8 +7,12 @@
         </drop_group>
         <drop_group name="CHEST">
             <drop item_id="188053093" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group name="CHEST">
             <drop item_id="188052823" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
-            <drop item_id="188052824" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group name="CHEST">
+            <drop item_id="188053094" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="WINGS">
             <drop item_id="187000143" chance="0.01" min_amount="1" max_amount="1"/>
@@ -34,8 +38,12 @@
         </drop_group>
         <drop_group name="CHEST">
             <drop item_id="188053093" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group name="CHEST">
             <drop item_id="188052823" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
-            <drop item_id="188052824" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group name="CHEST">
+            <drop item_id="188053094" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="TEMPERING_SOLUTION">
             <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1"/>
@@ -44,7 +52,6 @@
             <drop item_id="188052827" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="WINGS">
-            <drop item_id="187000143" chance="0.5" min_amount="1" max_amount="1"/>
             <drop item_id="187000129" chance="1.0" min_amount="1" max_amount="1"/>
             <drop item_id="187000130" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>

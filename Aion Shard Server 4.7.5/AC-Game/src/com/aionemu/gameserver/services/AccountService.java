@@ -115,7 +115,7 @@ public class AccountService {
         while (it.hasNext()) {
             PlayerAccountData pad = it.next();
             Race race = pad.getPlayerCommonData().getRace();
-            long deletionTime = (long) pad.getDeletionTimeInSeconds() * (long) 1000;
+            long deletionTime = (long) pad.getDeletionTimeInSeconds() * (long) 10000;
             if (deletionTime != 0 && deletionTime <= System.currentTimeMillis()) {
                 it.remove();
                 account.decrementCountOf(race);

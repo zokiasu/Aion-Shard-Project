@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-	<!--
-		Reworked.....: GiGatR00n
-		v4.7.5.x (‎15/‎3/‎2015)
-	-->
-
     <decomposable_items>
         <decomposable item_id="152000103" decomposable_name="Greater Gold Ore">
             <items>
@@ -12854,7 +12849,7 @@
         </decomposable>
         <decomposable item_id="188051610" decomposable_name="Fine Kahrun's Box">
             <items>
-                <item id="186000143" name="Kahrun's Symbol" count="6"/>
+                <item id="186000143" name="Kahrun's Symbol" count="100"/>
             </items>
         </decomposable>
         <decomposable item_id="188051611" decomposable_name="Superb Kahrun's Box">
@@ -26787,6 +26782,96 @@
                 <item id="188052760" name="Modor's Mythic Armor Box" player_class="RIDER"/>
             </items>
         </decomposable>
+        <decomposable item_id="188053091" decomposable_name="Modor's Curiosity Box">
+            <items chance="50.0">
+                <item id="125004081" player_class="ASSASSIN"/>
+                <item id="125004081" player_class="RANGER"/>
+                <item id="125004083" player_class="SORCERER"/>
+                <item id="125004083" player_class="SPIRIT_MASTER"/>
+                <item id="125004076" player_class="TEMPLAR"/>
+                <item id="125004084" player_class="BARD"/>
+                <item id="125004082" player_class="GUNNER"/>
+                <item id="125004077" player_class="GLADIATOR"/>
+                <item id="125004079" player_class="CLERIC"/>
+                <item id="125004078" player_class="CHANTER"/>
+                <item id="125004080" player_class="RIDER"/>
+            </items>
+            <items chance="25.0">
+                <item id="188054380" name="Pallasite Ingredient Box"/>
+            </items>
+            <items chance="25.0">
+                <item id="188053099" name="Pure Modor's Equipment Crux Box"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188054380" decomposable_name="Pallasite Ingredient Box">
+            <items>
+                <item id="169405339" name="Pallasite Crystal" rnd_min="1" rnd_max="10"/>
+            </items>
+            <items>
+                <item id="169405338" name="Pallasite Ore" rnd_min="1" rnd_max="10"/>
+            </items>
+            <items>
+                <item id="169405340" name="Pallasite Powder" rnd_min="1" rnd_max="10"/>
+            </items>
+            <items>
+                <item id="169405341" name="Pallasite Refined Water" rnd_min="1" rnd_max="10"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053099" decomposable_name="Pure Modor's Equipment Crux Box">
+            <items chance="50.0">
+                <item id="169405314" count="1"/> <!-- Chest -->
+                <item id="169405315" count="1"/> <!-- Leg -->
+                <item id="169405316" count="1"/> <!-- Hand -->
+                <item id="169405317" count="1"/> <!-- Foot -->
+                <item id="169405318" count="1"/> <!-- Shoulder -->
+            </items>
+            <items chance="50.0">
+                <item id="169405297" player_class="GLADIATOR"/> <!-- Sword -->
+                <item id="169405298" player_class="GLADIATOR"/> <!-- Warhammer -->
+                <item id="169405299" player_class="GLADIATOR"/> <!-- Greatsword -->
+                <item id="169405300" player_class="GLADIATOR"/> <!-- Shield -->
+                <item id="169405301" player_class="GLADIATOR"/> <!-- Dagger -->
+                <item id="169405302" player_class="GLADIATOR"/> <!-- Polearm -->
+                <item id="169405303" player_class="GLADIATOR"/> <!-- Bow -->
+
+                <item id="169405297" player_class="TEMPLAR"/> <!-- Sword -->
+                <item id="169405299" player_class="TEMPLAR"/> <!-- Greatsword -->
+                <item id="169405300" player_class="TEMPLAR"/> <!-- Shield -->
+                <item id="169405298" player_class="TEMPLAR"/> <!-- Warhammer -->
+
+                <item id="169405297" player_class="ASSASSIN"/> <!-- Sword -->
+                <item id="169405301" player_class="ASSASSIN"/> <!-- Dagger -->
+                <item id="169405303" player_class="ASSASSIN"/> <!-- Bow -->
+
+                <item id="169405297" player_class="RANGER"/> <!-- Sword -->
+                <item id="169405301" player_class="RANGER"/> <!-- Dagger -->
+                <item id="169405303" player_class="RANGER"/> <!-- Bow -->
+
+                <item id="169405308" player_class="SORCERER"/> <!-- Orb -->
+                <item id="169405309" player_class="SORCERER"/> <!-- Spellbook -->
+
+                <item id="169405308" player_class="SPIRIT_MASTER"/> <!-- Orb -->
+                <item id="169405309" player_class="SPIRIT_MASTER"/> <!-- Spellbook -->
+
+                <item id="169405304" player_class="CLERIC"/> <!-- Mace -->
+                <item id="169405307" player_class="CLERIC"/> <!-- Scale Shield -->
+                <item id="169405306" player_class="CLERIC"/> <!-- Cane -->
+
+                <item id="169405298" player_class="CHANTER"/> <!-- Warhammer -->
+                <item id="169405304" player_class="CHANTER"/> <!-- Mace -->
+                <item id="169405300" player_class="CHANTER"/> <!-- Shield -->
+                <item id="169405307" player_class="CHANTER"/> <!-- Scale Shield -->
+                <item id="169405305" player_class="CHANTER"/> <!-- Staff -->
+
+                <item id="169405310" player_class="GUNNER"/> <!-- Pistol -->
+                <item id="169405311" player_class="GUNNER"/> <!-- Aethercannon -->
+
+                <item id="169405312" player_class="BARD"/> <!-- Harp -->
+
+                <item id="169405310" player_class="RIDER"/> <!-- Pistol -->
+                <item id="169405313" player_class="RIDER"/> <!-- Cipher-Blade -->
+            </items>
+        </decomposable>
         <!-- Loot Bastion -->
         <decomposable item_id="188052832" decomposable_name="Pashid's Claw Bundle">
             <items>
@@ -27093,7 +27178,7 @@
                 <item id="188057223" name="Illuminary Obelisk Idian Pouch" count="1"/>
             </items>
         </decomposable>
-        <decomposable item_id="188057223" decomposable_name="Illuminary Obelisk Idian Pouch">
+        <decomposable item_id="188052825" decomposable_name="Illuminary Obelisk Idian Pouch">
             <items>
                 <item id="166050194" name="Legendary Warrior Idian: Magical Attack" count="1"/>
             </items>
@@ -27115,7 +27200,7 @@
                 <item id="168310016" name="Major Deep Conditioning: Level 2" count="1"/>
             </items>
         </decomposable>
-        <decomposable item_id="188057223" decomposable_name="Dynatoum's Curiosity Box">
+        <decomposable item_id="188053093" decomposable_name="Dynatoum's Curiosity Box">
             <items chance="5.0">
                 <item id="188053100" name="Pure Dynatoum's Equipment Crux Box" count="1"/>
             </items>

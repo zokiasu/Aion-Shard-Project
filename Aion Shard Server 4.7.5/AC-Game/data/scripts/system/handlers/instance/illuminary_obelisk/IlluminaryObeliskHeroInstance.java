@@ -307,7 +307,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
             /**
              * Final Boss.
              */
-            case 233740: //Test Weapon Dynatoum.
+            case 234686: //Remodeled Dynatoum.
                 TWDTask.cancel(true);
                 TWD1Task.cancel(true);
                 TWD2Task.cancel(true);

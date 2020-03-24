@@ -70,6 +70,9 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						shout1();
 						skill3();
 						break;
+					case 70:
+						skill3();
+						break;
 					case 60:
 						shout_spawn();
 						spawn_support();
@@ -84,26 +87,35 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 					case 49:
 						skill4();
 					  break;
+					case 45:
+						skill5();
+						spawn_support();
+					  break;
 					case 40:
 						shout2();
 						skill1();
+						skill_mass_active();
+					  break;
+					case 39:
+						skill_mass_destroy();
+						skill6();
 					  break;
 					case 30:
 						shout_spawn();
 						spawn_support2();
 						skill2();
 					  break;
-          case 10:
-          	shout_spawn();
-          	spawn_support3();
-          	skill3();
-					  break;
-          case 5:
-          	shout_died();
-					  break;
-				}
-				percents.remove(percent);
-				break;
+				  case 10:
+					shout_spawn();
+					spawn_support3();
+					skill3();
+							  break;
+				  case 5:
+					shout_died();
+							  break;
+						}
+						percents.remove(percent);
+						break;
 			}
 		}
 	}
@@ -133,6 +145,20 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
 			SkillEngine.getInstance().getSkill(getOwner(), 21172, 65, target).useNoAnimationSkill();
+		}
+	}
+
+	private void skill5() {
+		VisibleObject target = getTarget();
+		if (target != null && target instanceof Player) {
+			SkillEngine.getInstance().getSkill(getOwner(), 3246, 65, target).useNoAnimationSkill();
+		}
+	}
+
+	private void skill6() {
+		VisibleObject target = getTarget();
+		if (target != null && target instanceof Player) {
+			SkillEngine.getInstance().getSkill(getOwner(), 2319, 65, target).useNoAnimationSkill();
 		}
 	}
 	private void skill_mass_active() {

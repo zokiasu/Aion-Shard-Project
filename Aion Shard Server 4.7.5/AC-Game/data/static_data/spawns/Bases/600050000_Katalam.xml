@@ -67,22 +67,22 @@
 				<!-- End Base Spawns -->
 				<!-- Sub Base Asmodian Spawns -->
 				<!-- Warrior of the 71st Search Party -->
-				<spawn npc_id="232540" respawn_time="180">
+				<spawn npc_id="232540" respawn_time="120">
 					<spot x="343.0786" y="802.8053" z="211.92532" h="66" walker_id="600050000_71_SUB_WARRIOR"/>
 					<spot x="341.57086" y="805.5557" z="212.2917" h="66"/>
 					<spot x="349.01355" y="809.7841" z="212.375" h="75"/>
 					<spot x="354.48248" y="795.07996" z="213.48651" h="115"/>
 				</spawn>
 				<!-- Searcher of the 71st Search Party -->
-				<spawn npc_id="232541" respawn_time="180">
+				<spawn npc_id="232541" respawn_time="120">
 					<spot x="346.04062" y="798.0702" z="212.49814" h="83"/>
 				</spawn>
 				<!-- Soldier of the 71st Search Party -->
-				<spawn npc_id="232542" respawn_time="180">
+				<spawn npc_id="232542" respawn_time="120">
 					<spot x="360.58167" y="804.8558" z="214.76555" h="70"/>
 				</spawn>
 				<!-- Messenger of the 71st Search Party -->
-				<spawn npc_id="233213" respawn_time="180">
+				<spawn npc_id="233213" respawn_time="120">
 					<spot x="310.20142" y="777.4769" z="211.60068" h="75"/>
 					<spot x="310.9674" y="799.4344" z="209.45872" h="63"/>
 					<spot x="327.16528" y="815.43646" z="214.45247" h="66"/>
@@ -977,8 +977,8 @@
 					<spot x="1561.7084" y="1487.1411" z="129.2682"/>
 				</spawn>
 				<!-- Egnatia - <Guardian Detachment Captain> -->
-				<spawn npc_id="801234" respawn_time="180">
-                    <spot x="1561.4651" y="1477.4169" z="129.41144" h="15"/>
+				<spawn npc_id="801234" respawn_time="120">
+					<spot x="1562.1577" y="1478.3761" z="129.3515" h="16"/>
                 </spawn>
 				<!-- Fidekas Soul Healer -->
 				<spawn npc_id="800688" respawn_time="180">
@@ -1015,9 +1015,10 @@
 				<!-- Teleport Device -->
 				<spawn npc_id="730655" respawn_time="180">
 					<spot x="1584.7114" y="1487.7985" z="132.7523" h="45" static_id="788"/>
-				</spawn>				
+				</spawn>
+				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Cliffside Recon Combatant -->
-				<spawn npc_id="232552" respawn_time="180">
+				<spawn npc_id="232552" respawn_time="120">
 					<spot x="1492.2437" y="1381.0753" z="122.05099" h="75"/>
 					<spot x="1492.8361" y="1417.7233" z="122.04631" h="27"/>
 					<spot x="1507.2916" y="1401.5226" z="123.97495" h="30"/>
@@ -1025,11 +1026,11 @@
 					<spot x="1512.2249" y="1416.7275" z="124.34375" h="30"/>
 				</spawn>
 				<!-- Cliffside Recon Sentry -->
-				<spawn npc_id="232553" respawn_time="180">
+				<spawn npc_id="232553" respawn_time="120">
 					<spot x="1500.9385" y="1406.4891" z="123.99735" h="30"/>
 				</spawn>
 				<!-- Cliffside Recon Supervisor -->
-				<spawn npc_id="232554" respawn_time="180">
+				<spawn npc_id="232554" respawn_time="120">
 					<spot x="1487.8317" y="1397.2452" z="122.32369" h="60"/>
 				</spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
@@ -1076,8 +1077,8 @@
 					<spot x="1561.7084" y="1487.1411" z="129.2682"/>
 				</spawn>
 				<!-- Eyja - <Archon Battlegroup Captain> -->
-				<spawn npc_id="801243" respawn_time="180">
-                    <spot x="1573.1879" y="1493.3367" z="129.53278" h="40"/>
+				<spawn npc_id="801243" respawn_time="120">
+                    <spot x="1562.1577" y="1478.3761" z="129.3515" h="16"/>
                 </spawn>
 				<!-- Shedia Soul Healer -->
 				<spawn npc_id="800693" respawn_time="180">
@@ -1117,7 +1118,7 @@
 				</spawn>
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Cliffside Pioneers Combatant -->
-				<spawn npc_id="232491" respawn_time="180">
+				<spawn npc_id="232491" respawn_time="120">
 					<spot x="1492.2437" y="1381.0753" z="122.05099" h="75"/>
 					<spot x="1492.8361" y="1417.7233" z="122.04631" h="27"/>
 					<spot x="1507.2916" y="1401.5226" z="123.97495" h="30"/>
@@ -1125,11 +1126,11 @@
 					<spot x="1512.2249" y="1416.7275" z="124.34375" h="30"/>
 				</spawn>
 				<!-- Cliffside Pioneers Sentry -->
-				<spawn npc_id="232492" respawn_time="180">
+				<spawn npc_id="232492" respawn_time="120">
 					<spot x="1500.9385" y="1406.4891" z="123.99735" h="30"/>
 				</spawn>
 				<!-- Cliffside Pioneers Supervisor -->
-				<spawn npc_id="232493" respawn_time="180">
+				<spawn npc_id="232493" respawn_time="120">
 					<spot x="1487.8317" y="1397.2452" z="122.32369" h="60"/>
 				</spawn>
 				<!-- End Sub Camp Elyos Spawns -->			

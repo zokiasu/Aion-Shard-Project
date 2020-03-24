@@ -1262,13 +1262,13 @@
         <friend>PC GUARD GENERAL</friend>
     </tribe>
     <tribe name="LDF5_V_KILLER_D" base="GUARD_DARK">
-        <aggro>LDF5_V_CHIEF_L LDF5_V_CHIEF_DR</aggro>
+        <aggro>LDF5_V_CHIEF_L LDF5_V_CHIEF_DR PC GUARD PC_DRAGON GUARD_DRAGON GENERAL_DRAGON</aggro>
     </tribe>
     <tribe name="LDF5_V_KILLER_DR" base="GUARD_DRAGON">
         <aggro>LDF5_V_CHIEF_L LDF5_V_CHIEF_D</aggro>
     </tribe>
     <tribe name="LDF5_V_KILLER_L" base="GUARD">
-        <aggro>LDF5_V_CHIEF_D LDF5_V_CHIEF_DR</aggro>
+        <aggro>LDF5_V_CHIEF_D LDF5_V_CHIEF_DR PC_DARK GUARD_DARK PC_DRAGON GUARD_DRAGON GENERAL_DRAGON</aggro>
     </tribe>
     <tribe name="LDF5_WORKER" base="MONSTER">
         <hostile>PC PC_DARK</hostile>

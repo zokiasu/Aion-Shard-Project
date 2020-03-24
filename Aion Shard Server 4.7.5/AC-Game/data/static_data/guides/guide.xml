@@ -350,171 +350,6 @@
         <survey itemId="164000073" count="25"/>
         <survey itemId="164000076" count="25"/>
     </guide>
-    <guide title="adventurers_guide25_asmo_sin" level="99" race="ASMODIANS" classType="ASSASSIN" rewardCount="7">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-        <survey itemId="100000223" count="1"/>
-		<survey itemId="100200288" count="1"/>
-        <survey itemId="110300384" count="1"/>
-        <survey itemId="113300372" count="1"/>
-        <survey itemId="112300328" count="1"/>
-        <survey itemId="111300355" count="1"/>
-        <survey itemId="114300387" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_cleric" level="99" race="ASMODIANS" classType="CLERIC" rewardCount="7">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-        <survey itemId="100100137" count="1"/>
-		<survey itemId="115000395" count="1"/>
-        <survey itemId="110500415" count="1"/>
-        <survey itemId="113500397" count="1"/>
-        <survey itemId="112500369" count="1"/>
-        <survey itemId="111500398" count="1"/>
-        <survey itemId="114500405" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_chanter" level="99" race="ASMODIANS" classType="CHANTER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-        <survey itemId="101500148" count="1"/>
-        <survey itemId="110500415" count="1"/>
-        <survey itemId="113500397" count="1"/>
-        <survey itemId="112500369" count="1"/>
-        <survey itemId="111500398" count="1"/>
-        <survey itemId="114500405" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_glad" level="99" race="ASMODIANS" classType="GLADIATOR" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Authority of the Ground (Weapon).. Departed Soul's Gear -->
-        <survey itemId="100900143" count="1"/>
-        <survey itemId="110600455" count="1"/>
-        <survey itemId="113600423" count="1"/>
-        <survey itemId="112600410" count="1"/>
-        <survey itemId="111600429" count="1"/>
-        <survey itemId="114600416" count="1"/>
-    </guide>
-    <guide title="adventurers_guide25_asmo_gunner" level="99" race="ASMODIANS" classType="GUNNER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Poignant Pistols (Weapon).. Departed Soul's Gear -->
-        <survey itemId="101800265" count="2"/>
-        <survey itemId="110300431" count="1"/>
-        <survey itemId="113300416" count="1"/>
-        <survey itemId="112300366" count="1"/>
-        <survey itemId="111300403" count="1"/>
-        <survey itemId="114300430" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_bard" level="99" race="ASMODIANS" classType="BARD" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Viol (Weapon).. Departed Soul's Gear -->
-        <survey itemId="102000278" count="1"/>
-        <survey itemId="110100469" count="1"/>
-        <survey itemId="113100400" count="1"/>
-        <survey itemId="112100366" count="1"/>
-        <survey itemId="111100401" count="1"/>
-        <survey itemId="114100417" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_amso_ranger" level="99" race="ASMODIANS" classType="RANGER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Infinity Messenger (Weapon).. Leather Gear -->
-        <survey itemId="101700158" count="1"/>
-        <survey itemId="110300384" count="1"/>
-        <survey itemId="113300372" count="1"/>
-        <survey itemId="112300328" count="1"/>
-        <survey itemId="111300355" count="1"/>
-        <survey itemId="114300387" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_rider" level="99" race="ASMODIANS" classType="RIDER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Courageous Cipher-Blade (Weapon).. Magic Boost Chain Gear -->
-        <survey itemId="102100249" count="1"/>
-        <survey itemId="110500415" count="1"/>
-        <survey itemId="113500397" count="1"/>
-        <survey itemId="112500369" count="1"/>
-        <survey itemId="111500398" count="1"/>
-        <survey itemId="114500405" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_sorc" level="99" race="ASMODIANS" classType="SORCERER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Universal Truth Orb (Weapon).. Magic Boost Cloth Gear -->
-        <survey itemId="100500146" count="1"/>
-        <survey itemId="110100426" count="1"/>
-        <survey itemId="113100358" count="1"/>
-        <survey itemId="112100326" count="1"/>
-        <survey itemId="111100356" count="1"/>
-        <survey itemId="114100378" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_amso_sm" level="99" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Forbidden Truth (Weapon).. Magic Boost Cloth Gear -->
-        <survey itemId="100600210" count="1"/>
-        <survey itemId="110100426" count="1"/>
-        <survey itemId="113100358" count="1"/>
-        <survey itemId="112100326" count="1"/>
-        <survey itemId="111100356" count="1"/>
-        <survey itemId="114100378" count="1"/>
-    </guide>
-	<guide title="adventurers_guide25_asmo_templar" level="99" race="ASMODIANS" classType="TEMPLAR" rewardCount="7">
-	  <message>
-            <![CDATA[<BR><BR>
-                   On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Oh, shiny gear!</select>
-		<!-- Courageous Symbol (Weapon).. Descendant Plate Gear -->
-        <survey itemId="100000223" count="1"/>
-		<survey itemId="115000434" count="1"/>
-        <survey itemId="110600412" count="1"/>
-        <survey itemId="113600381" count="1"/>
-        <survey itemId="112600370" count="1"/>
-        <survey itemId="111600388" count="1"/>
-        <survey itemId="114600378" count="1"/>
-    </guide>
     <guide title="adventurers_guide26_asmo" level="99" race="ASMODIANS" rewardCount="1">
         <message>
             <![CDATA[<BR><BR>
@@ -1871,6 +1706,38 @@
         <survey itemId="162002009" count="100"/>
         <survey itemId="162002010" count="100"/>
     </guide>
+	<guide title="adventurers_guide65_asmo" level="66" race="ASMODIANS" rewardCount="9">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="169630000" count="1"/> <!-- Expand Cube Ticket -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+    <guide title="adventurers_guide63_asmo" level="99" race="ASMODIANS" rewardCount="6">
+        <message><![CDATA[<BR><BR>
+			A little help with your cube! Have Fun !<br>
+			Please expand your cube before accepting these items.
+			<br><br>]]>
+        </message>
+        <reward_info>Select an item</reward_info>
+        <select>Click here to close window</select>
+        <survey itemId="182207052" count="10"/> <!-- Drake Crystal -->
+        <survey itemId="182207053" count="7"/> <!-- Lucid Earth Crystal -->
+        <survey itemId="182207054" count="3"/> <!-- Tender Inner Shell -->
+        <survey itemId="152000312" count="5"/> <!-- Big Moonstone Ore -->
+        <survey itemId="182205674" count="7"/> <!-- Kalgolem Life Stone -->
+        <survey itemId="182205675" count="3"/> <!-- Caltrops Life Stone -->
+    </guide>
     <!-- Elyos -->
     <guide title="adventurers_guide3_ely" level="99" race="ELYOS" rewardCount="1">
         <message>
@@ -2867,264 +2734,6 @@
         <survey itemId="169620010" count="1"/>
         <survey itemId="186000076" count="3"/>
 	</guide>
-	<guide title="adventurers_guide50_ely_sin" level="99" race="ELYOS" classType="ASSASSIN" rewardCount="1">
-		<message>
-			<![CDATA[<BR><BR>
-			
-			You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them!<br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-			<br><br>]]>
-		
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Assassin Set / Noble Wise Dragon King Weapons -->
-        <survey itemId="100000602" count="1"/>
-		<survey itemId="100200573" count="1"/>
-        <survey itemId="110300917" count="1"/>
-        <survey itemId="113300893" count="1"/>
-        <survey itemId="112300817" count="1"/>
-        <survey itemId="111300867" count="1"/>
-        <survey itemId="114300926" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_cleric" level="99" race="ELYOS" classType="CLERIC" rewardCount="7">
-        <message>
-            <![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them!<br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Cleric Set / Noble Wise Dragon King Weapon -->
-        <survey itemId="100100466" count="1"/>
-		<survey itemId="115001141" count="1"/>
-        <survey itemId="110500885" count="1"/>
-        <survey itemId="113500859" count="1"/>
-        <survey itemId="112500808" count="1"/>
-        <survey itemId="111500857" count="1"/>
-        <survey itemId="114500869" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_chanter" level="99" race="ELYOS" classType="CHANTER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-             You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Chanter Set / Noble Wise Dragon King Weapons -->
-        <survey itemId="101500465" count="1"/>
-        <survey itemId="110500886" count="1"/>
-        <survey itemId="113500860" count="1"/>
-        <survey itemId="112500809" count="1"/>
-        <survey itemId="111500858" count="1"/>
-        <survey itemId="114500870" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_glad" level="99" race="ELYOS" classType="GLADIATOR" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Gladiator Set / Noble White Dragon King's Weapon -->
-        <survey itemId="100900459" count="1"/>
-        <survey itemId="110600869" count="1"/>
-        <survey itemId="113600834" count="1"/>
-        <survey itemId="112600819" count="1"/>
-        <survey itemId="111600845" count="1"/>
-        <survey itemId="114600828" count="1"/>
-    </guide>
-    <guide title="adventurers_guide50_ely_gunner" level="99" race="ELYOS" classType="GUNNER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Gunslinger Magic Set / Noble White Dragon King's Weapon -->
-        <survey itemId="101800051" count="2"/>
-        <survey itemId="110301588" count="1"/>
-        <survey itemId="113301554" count="1"/>
-        <survey itemId="112301467" count="1"/>
-        <survey itemId="111301526" count="1"/>
-        <survey itemId="114301592" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_bard" level="99" race="ELYOS" classType="BARD" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Songweaver's Set / Noble White Dragon King's Weapon -->
-        <survey itemId="102000050" count="1"/>
-        <survey itemId="110101543" count="1"/>
-        <survey itemId="113101405" count="1"/>
-        <survey itemId="112101343" count="1"/>
-        <survey itemId="111101389" count="1"/>
-        <survey itemId="114101436" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_ranger" level="99" race="ELYOS" classType="RANGER" rewardCount="6">
-        <message>
-            <![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Ranger's Set / Noble White Dragon King Weapon -->
-        <survey itemId="101700478" count="1"/>
-        <survey itemId="110300918" count="1"/>
-        <survey itemId="113300894" count="1"/>
-        <survey itemId="112300818" count="1"/>
-        <survey itemId="111300868" count="1"/>
-        <survey itemId="114300927" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_rider" level="99" race="ELYOS" classType="RIDER" rewardCount="6">
-        <message>
-		<![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Aethertech's Set / Noble White Dragon King's Weapon -->
-        <survey itemId="102100051" count="1"/>
-        <survey itemId="110551010" count="1"/>
-        <survey itemId="113501586" count="1"/>
-        <survey itemId="112501510" count="1"/>
-        <survey itemId="111501568" count="1"/>
-        <survey itemId="114501595" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_sorc" level="99" race="ELYOS" classType="SORCERER" rewardCount="6">
-        <message>
-		<![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Sorcerer's Set / Noble White Dragon King's Weapon -->
-        <survey itemId="100500463" count="1"/>
-        <survey itemId="110100972" count="1"/>
-        <survey itemId="113100876" count="1"/>
-        <survey itemId="112100823" count="1"/>
-        <survey itemId="111100866" count="1"/>
-        <survey itemId="114100901" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_sm" level="99" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="6">
-        <message>
-		<![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Spiritmaster's Set / Noble White Dragon King's Weapon -->
-        <survey itemId="100600496" count="1"/>
-        <survey itemId="110100973" count="1"/>
-        <survey itemId="113100877" count="1"/>
-        <survey itemId="112100824" count="1"/>
-        <survey itemId="111100867" count="1"/>
-        <survey itemId="114100902" count="1"/>
-    </guide>
-	<guide title="adventurers_guide50_ely_templar" level="99" race="ELYOS" classType="TEMPLAR" rewardCount="7">
-        <message>
-		<![CDATA[<BR><BR>
-            You have made it! You have ascended to the original high
-			ranking of the Elyos order. You have, no doubt, mastered
-			the lands of Elysea and the Abyss, but this is far from
-			the end.
-			<br><br>
-			Balaurea awaits you, drenched in wonder and pure evil.
-			Please take these rewards as a token of congratulations
-			thus far on your journey, but you will need them! <br><br>
-			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
-                    <br><br>]]>
-        </message>
-        <select>Should I be scared?</select>
-		<!-- Anuhart Templar's Set / Noble White Dragon King's Weapon / Tinkerer Shield -->
-        <survey itemId="100000602" count="1"/>
-		<survey itemId="115001137" count="1"/>
-        <survey itemId="110600870" count="1"/>
-        <survey itemId="113600835" count="1"/>
-        <survey itemId="112600820" count="1"/>
-        <survey itemId="111600846" count="1"/>
-        <survey itemId="114600829" count="1"/>
-    </guide>
 	<guide title="adventurers_guide52_ely" level="99" race="ELYOS" rewardCount="1">
 		<message>
 			<![CDATA[<BR><BR>
@@ -3438,6 +3047,33 @@
         <survey itemId="162002009" count="100"/>
         <survey itemId="162002010" count="100"/>
     </guide>
+	<guide title="adventurers_guide65_ely" level="66" race="ELYOS" rewardCount="9">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="169630000" count="1"/> <!-- Expand Cube Ticket -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+    <guide title="adventurers_guide63_ely" level="99" race="ELYOS" rewardCount="1">
+        <message><![CDATA[<BR><BR>
+			A little help with your cube! Have Fun !<br>
+			Please expand your cube before accepting these items.
+			<br><br>]]>
+        </message>
+        <reward_info>Select an item</reward_info>
+        <select>Click here to close window</select>
+        <survey itemId="182201729" count="1"/> <!-- Jaiorunerk's Diary -->
+    </guide>
 
     <!-- Stuff de départ Asmo -->
     <guide title="adventurers_guide65_asmo_sin" level="65" race="ASMODIANS" classType="ASSASSIN" rewardCount="15">
@@ -3738,7 +3374,8 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_asmo" level="65" race="ASMODIANS" rewardCount="9">
+
+    <guide title="adventurers_guide25_asmo_sin" level="65" race="ASMODIANS" classType="ASSASSIN" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3746,7 +3383,6 @@
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
-        <survey itemId="169630000" count="1"/> <!-- Expand Cube Ticket -->
         <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
         <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
@@ -3755,20 +3391,165 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
     </guide>
-    <guide title="adventurers_guide63_asmo" level="99" race="ASMODIANS" rewardCount="6">
+	<guide title="adventurers_guide25_asmo_cleric" level="65" race="ASMODIANS" classType="CLERIC" rewardCount="8">
         <message><![CDATA[<BR><BR>
-			A little help with your cube! Have Fun !<br>
-			Please expand your cube before accepting these items.
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
 			<br><br>]]>
         </message>
-        <reward_info>Select an item</reward_info>
         <select>Click here to close window</select>
-        <survey itemId="182207052" count="10"/> <!-- Drake Crystal -->
-        <survey itemId="182207053" count="7"/> <!-- Lucid Earth Crystal -->
-        <survey itemId="182207054" count="3"/> <!-- Tender Inner Shell -->
-        <survey itemId="152000312" count="5"/> <!-- Big Moonstone Ore -->
-        <survey itemId="182205674" count="7"/> <!-- Kalgolem Life Stone -->
-        <survey itemId="182205675" count="3"/> <!-- Caltrops Life Stone -->
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_asmo_chanter" level="65" race="ASMODIANS" classType="CHANTER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_asmo_glad" level="65" race="ASMODIANS" classType="GLADIATOR" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+    <guide title="adventurers_guide25_asmo_gunner" level="65" race="ASMODIANS" classType="GUNNER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_asmo_bard" level="65" race="ASMODIANS" classType="BARD" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_amso_ranger" level="65" race="ASMODIANS" classType="RANGER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_asmo_rider" level="65" race="ASMODIANS" classType="RIDER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_asmo_sorc" level="65" race="ASMODIANS" classType="SORCERER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_amso_sm" level="65" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide25_asmo_templar" level="65" race="ASMODIANS" classType="TEMPLAR" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
     </guide>
 
     <!-- Stuff de départ Elyos -->
@@ -4070,7 +3851,8 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_ely" level="65" race="ELYOS" rewardCount="9">
+
+	<guide title="adventurers_guide50_ely_sin" level="65" race="ELYOS" classType="ASSASSIN" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -4078,7 +3860,6 @@
         </message>
         <select>Click here to close window</select>
         <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
-        <survey itemId="169630000" count="1"/> <!-- Expand Cube Ticket -->
         <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
         <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
         <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
@@ -4087,14 +3868,164 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
     </guide>
-    <guide title="adventurers_guide63_ely" level="99" race="ELYOS" rewardCount="1">
+	<guide title="adventurers_guide50_ely_cleric" level="65" race="ELYOS" classType="CLERIC" rewardCount="8">
         <message><![CDATA[<BR><BR>
-			A little help with your cube! Have Fun !<br>
-			Please expand your cube before accepting these items.
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
 			<br><br>]]>
         </message>
-        <reward_info>Select an item</reward_info>
         <select>Click here to close window</select>
-        <survey itemId="182201729" count="1"/> <!-- Jaiorunerk's Diary -->
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_chanter" level="65" race="ELYOS" classType="CHANTER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_glad" level="65" race="ELYOS" classType="GLADIATOR" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+    <guide title="adventurers_guide50_ely_gunner" level="65" race="ELYOS" classType="GUNNER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_bard" level="65" race="ELYOS" classType="BARD" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_ranger" level="65" race="ELYOS" classType="RANGER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_rider" level="65" race="ELYOS" classType="RIDER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_sorc" level="65" race="ELYOS" classType="SORCERER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_sm" level="65" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+    </guide>
+	<guide title="adventurers_guide50_ely_templar" level="65" race="ELYOS" classType="TEMPLAR" rewardCount="8">
+        <message><![CDATA[<BR><BR>
+			Please equip your equipment before accepting the following items.<br>
+			Use the cube extension only after purchasing the other slots from the pnj please.
+			<br><br>]]>
+        </message>
+        <select>Click here to close window</select>
+        <survey itemId="187000018" count="1"/> <!-- Storm Wings -->
+        <survey itemId="164002223" count="1"/> <!-- Administrator's Boon (7 day) -->
+        <survey itemId="168310017" count="1"/> <!-- Major Deep Conditioning: Level 2 -->
+        <survey itemId="188500004" count="1"/> <!-- [Motion Card] Hovering Set (7 day) -->
+        <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
+        <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
+        <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
+        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
     </guide>
 </guides>

@@ -170,6 +170,7 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 				for (Player player: instance.getPlayersInside()) {
 					if (player.isOnline()) {
 						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188052388, 1)); //Modor's Equipment Box.
+						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188053099, 1)); //Modor's Equipment Box.
 					}
 				}
 				break;
