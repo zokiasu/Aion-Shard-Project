@@ -83,6 +83,7 @@ public class SystemMailService {
      * @param letterType
      * @return
      */
+
     public boolean sendMail(String sender, String recipientName, String title, String message, int attachedItemObjId,
                             long attachedItemCount, long attachedKinahCount, LetterType letterType) {
 
@@ -198,6 +199,7 @@ public class SystemMailService {
             recipientCommonData.setMailboxLetters(recipientCommonData.getMailboxLetters() + 1);
             DAOManager.getDAO(MailDAO.class).updateOfflineMailCounter(recipientCommonData);
         }
+
         if (LoggingConfig.LOG_SYSMAIL) {
             log.info("[SYSMAILSERVICE] > [SenderName: " + sender + "] [RecipientName: " + recipientName + "] RETURN ITEM ID:" + itemId
                     + " ITEM COUNT " + attachedItemCount + " KINAH COUNT " + attachedKinahCount + " MESSAGE SUCCESSFULLY SENDED ");

@@ -674,7 +674,7 @@ public class ArenaMasterService{
         }
     }
  
-    private void resetSkills(Player player1){
+    public void resetSkills(Player player1){
         List<Integer> delayIds = new ArrayList<Integer>();
         if (player1.getSkillCoolDowns() != null) {
             long currentTime = System.currentTimeMillis();

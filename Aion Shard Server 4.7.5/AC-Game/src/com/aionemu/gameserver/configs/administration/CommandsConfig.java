@@ -188,6 +188,8 @@ public class CommandsConfig {
     public static int RENAME;
     @Property(key = "res", defaultValue = "1")
     public static int RES;
+    @Property(key = "rechargertp", defaultValue = "3")
+    public static int RECHARGERTP;
     @Property(key = "revoke", defaultValue = "6")
     public static int REVOKE;
     @Property(key = "removecd", defaultValue = "4")
@@ -325,8 +327,8 @@ public class CommandsConfig {
     public static int UNSTUCK;
     @Property(key = "1v1", defaultValue = "0")
     public static int ONEVONE;
-    @Property(key = "skinclear", defaultValue = "0")
-    public static int SKINCLEAR;
+    @Property(key = "skin", defaultValue = "0")
+    public static int SKIN;
     // Chat Command
     @Property(key = "asmo", defaultValue = "1")
     public static int ASMO;
