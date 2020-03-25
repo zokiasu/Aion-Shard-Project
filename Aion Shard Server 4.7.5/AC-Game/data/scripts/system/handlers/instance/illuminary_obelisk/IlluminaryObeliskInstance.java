@@ -66,6 +66,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
     private Map<Integer, StaticDoor> doors;
     protected boolean isInstanceDestroyed = false;
     private List<Integer> movies = new ArrayList<Integer>();
+    private int skillId;
 
     @Override
     public void onInstanceCreate(WorldMapInstance instance) {
@@ -95,6 +96,10 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
     @Override
     public void onEnterInstance(final Player player) {
         super.onInstanceCreate(instance);
+        skillId = 8698;
+        if(player.getLastMapId() == 600100000) {
+            SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
+        }
         if (instanceTimer == null) {
             startTime = System.currentTimeMillis();
             instanceTimer = ThreadPoolManager.getInstance().schedule(new Runnable() {
@@ -712,6 +717,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 
     @Override
     public void onLeaveInstance(Player player) {
+        player.getEffectController().removeEffect(skillId);
         removeItems(player);
         removeEffects(player);
         stopInstanceTask();

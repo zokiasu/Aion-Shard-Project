@@ -69,7 +69,17 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
 	private boolean isDone2;
 	private boolean isDone3;
 	private boolean isDone4;
-	
+    private int skillId;
+
+
+    @Override
+    public void onEnterInstance(Player player) {
+        super.onInstanceCreate(instance);
+        skillId = 8698;
+        if(player.getLastMapId() == 600100000) {
+            SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
+        }
+    }
 
     @Override
     public void onInstanceCreate(WorldMapInstance instance) {
@@ -410,5 +420,10 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
 
         PacketSendUtility.sendPacket(player, new SM_DIE(player.haveSelfRezEffect(), player.haveSelfRezItem(), 0, 8));
         return true;
+    }
+
+    @Override
+    public void onLeaveInstance(Player player) {
+        player.getEffectController().removeEffect(skillId);
     }
 }

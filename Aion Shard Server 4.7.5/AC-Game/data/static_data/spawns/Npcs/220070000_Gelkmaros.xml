@@ -3121,7 +3121,7 @@
             <spot x="997.89" y="812.71" z="341.83188" h="118" walker_id="E42ECC209858E8D34153FF8B1D46E41A7AC712D4"/>
             <spot x="1027.3" y="925.568" z="342.305"/>
         </spawn>
-        <!-- Mitrakand Drakie -->
+        <!-- Mitrakand Drakie
         <spawn npc_id="216040" respawn_time="295">
             <spot x="696.179" y="852.281" z="318.305"/>
             <spot x="792.537" y="833.711" z="348.305"/>
@@ -3143,7 +3143,7 @@
             <spot x="998.077" y="1002.61" z="335.305"/>
             <spot x="1023.11" y="958.485" z="348.305"/>
             <spot x="1024.69" y="844.428" z="344.305"/>
-        </spawn>
+        </spawn> -->
         <!-- Mitrakand Gallowglass -->
         <spawn npc_id="216817" respawn_time="295">
             <spot x="809.661" y="580.87" z="357.837"/>

@@ -41,6 +41,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_QUEST_ACTION;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.services.CubeExpandService;
 
 /**
  * @author ATracer, sweetkr
@@ -60,42 +61,54 @@ public class ClassChangeService {
                 if (playerRace == Race.ELYOS) {
                     switch (playerClass) {
                         case WARRIOR:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 2375, 1006));
                             break;
                         case SCOUT:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 2716, 1006));
                             break;
                         case MAGE:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3057, 1006));
                             break;
                         case PRIEST:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3398, 1006));
                             break;
                         case ENGINEER:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3739, 1006)); // 4.5
                             break;
                         case ARTIST:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 4080, 1006));
                             break;
                     }
                 } else if (playerRace == Race.ASMODIANS) {
                     switch (playerClass) {
                         case WARRIOR:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3057, 2008));
                             break;
                         case SCOUT:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3398, 2008));
                             break;
                         case MAGE:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3739, 2008));
                             break;
                         case PRIEST:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 4080, 2008));
                             break;
                         case ENGINEER:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3612, 2008)); // 4.5
                             break;
                         case ARTIST:
+                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3910, 2008));
                             break;
                     }

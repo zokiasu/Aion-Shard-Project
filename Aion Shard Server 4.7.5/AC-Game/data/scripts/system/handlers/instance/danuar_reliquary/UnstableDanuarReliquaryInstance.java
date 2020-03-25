@@ -11,6 +11,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_DIE;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 import java.util.Map;
 
 @InstanceID(301330000)
@@ -20,16 +21,21 @@ public class UnstableDanuarReliquaryInstance extends GeneralInstanceHandler
 	private Map<Integer, StaticDoor> doors;
 	private int guardGraendalKilled;
 	private int IllusionGraendalKilled;
+	private int skillId;
+
 	@Override
 	public void onEnterInstance(Player player) {
 		super.onInstanceCreate(instance);
+		skillId = 8698;
+		if(player.getLastMapId() == 600100000) {
+			SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
+		}
 		player.getEffectController().removeEffect(218611);
 		player.getEffectController().removeEffect(218610);
-
     }
 		
 	@Override
-  public void onDie(Npc npc) {
+	public void onDie(Npc npc) {
 	
 		switch (npc.getNpcId()) {
   		
@@ -120,5 +126,10 @@ public class UnstableDanuarReliquaryInstance extends GeneralInstanceHandler
 
 		PacketSendUtility.sendPacket(player, new SM_DIE(player.haveSelfRezEffect(), player.haveSelfRezItem(), 0, 8));
 		return true;
+	}
+
+	@Override
+	public void onLeaveInstance(Player player) {
+		player.getEffectController().removeEffect(skillId);
 	}
 }

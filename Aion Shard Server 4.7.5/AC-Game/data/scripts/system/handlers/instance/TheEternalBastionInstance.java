@@ -140,7 +140,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         if (!containPlayer(player.getObjectId())) {
             addPlayerToReward(player);
         }
-        if(player.getLastMapId() == 600060000) {
+        if(player.getLastMapId() == 600100000) {
             SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
         }
         if (instanceTimer == null) {
@@ -149,7 +149,9 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 @Override
                 public void run() {
                     openDoor(311);
-                    SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
+                    if(player.getLastMapId() == 600060000) {
+                        SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
+                    }
                     if (spawnRace == null) {
                         spawnRace = player.getRace();
                         instanceReward.addPoints(20000);
