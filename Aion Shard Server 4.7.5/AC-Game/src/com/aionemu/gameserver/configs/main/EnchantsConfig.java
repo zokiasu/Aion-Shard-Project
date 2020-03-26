@@ -54,12 +54,12 @@ public class EnchantsConfig {
     /**
      * ManaStone Rates
      */
-    @Property(key = "gameserver.base.manastone", defaultValue = "50")
+    @Property(key = "gameserver.base.manastone", defaultValue = "25")
     public static float MANA_STONE;
-    @Property(key = "gameserver.base.enchant", defaultValue = "60")
+    @Property(key = "gameserver.base.enchant", defaultValue = "30")
     public static float ENCHANT_STONE;
     @Property(key = "gameserver.manastone.clean", defaultValue = "false")
     public static boolean CLEAN_STONE;
-    @Property(key = "gameserver.manastone.enchant_cast_delay", defaultValue = "5000")
+    @Property(key = "gameserver.manastone.enchant_cast_delay", defaultValue = "2000")
     public static int ENCHANT_CAST_DELAY;    
 }

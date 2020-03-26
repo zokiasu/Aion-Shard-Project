@@ -1143,7 +1143,7 @@
             <spot x="925.36" y="949.86" z="143.79808" h="7" walker_id="24BB989F4C5DECD215CE153DF87C58D2782FBE59"/>
         </spawn>
         <!-- Grimhilde -->
-        <spawn npc_id="830084" respawn_time="295">
+        <spawn npc_id="804688" respawn_time="295">
             <spot x="1074.018" y="1532.106" z="97.875" h="63"/>
         </spawn>
         <!-- Gumi -->

@@ -367,8 +367,8 @@
                     <spawn npc_id="730585" respawn_time="295">
                         <spot x="2926.988" y="255.631" z="304.354" h="58"/>
                     </spawn>
-                    <!-- Mustan -->
-                    <spawn npc_id="800046" respawn_time="295">
+
+                    <spawn npc_id="800048" respawn_time="295">
                         <spot x="2865.788" y="262.228" z="304.354" h="58"/>
                     </spawn>
                 </siege_mod>
@@ -675,8 +675,8 @@
                         <spot x="512.613" y="2886.346" z="324.570" h="91"/>
                         <spot x="533.593" y="2906.747" z="324.570" h="116"/>
                     </spawn>
-                    <!-- Lumiden -->
-                    <spawn npc_id="800047" respawn_time="295">
+                    <!-- Rurus -->
+                    <spawn npc_id="800048" respawn_time="295">
                         <spot x="500.438" y="2920.112" z="324.570" h="105"/>
                     </spawn>
                     <!-- Asmodian Defense Priest -->
@@ -996,8 +996,8 @@
                         <spot x="2776.638" y="2738.234" z="359.684" h="80"/>
                         <spot x="2840.461" y="2706.191" z="359.684" h="80"/>
                     </spawn>
-                    <!-- Lineta -->
-                    <spawn npc_id="800049" respawn_time="295">
+
+                    <spawn npc_id="800048" respawn_time="295">
                         <spot x="2807.264" y="2719.773" z="359.718" h="81"/>
                     </spawn>
                     <!-- Asmodian Defense Priest -->

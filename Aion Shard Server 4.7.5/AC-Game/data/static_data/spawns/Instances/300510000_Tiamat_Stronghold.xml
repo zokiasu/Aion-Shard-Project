@@ -54,13 +54,13 @@
         <!-- Worker Soul -->
         <spawn npc_id="219379">
             <spot x="1074.21" y="842.28" z="495.0493" walker_id="C744E810CE6BC052439FAEE215B723507E4EF9B1"/>
-            <spot x="1074.3159" y="668.15717" z="443"/>
-            <spot x="1076.7484" y="771.12439" z="497.39438" h="31"/>
+            <spot x="1074.3159" y="668.15717" z="440.99802"/>
+            <spot x="1076.7484" y="771.12439" z="495.0496" h="31"/>
             <spot x="1084.6" y="641.61" z="440.98566" walker_id="1AFA5BCD1B8914D3E9542F4CF3A1679DA5CB1879"/>
             <spot x="1091.46" y="662.28" z="440.99817" walker_id="020DE240E0C127E516939DE8521376EF394813FC"/>
             <spot x="1094.94" y="783.13" z="495.04932" walker_id="95AAF1E677D89C94858FE1EFD8A7C60C37EFA88E"
                   walker_index="1"/>
-            <spot x="1095.6788" y="771.12439" z="497.39438" h="31"/>
+            <spot x="1095.6788" y="771.12439" z="495.0496" h="31"/>
         </spawn>
         <!-- Cloaker -->
         <spawn npc_id="219380">
@@ -465,7 +465,7 @@
         </spawn>
         <!-- Adjutant Anuhart -->
         <spawn npc_id="219357">
-            <spot x="761.49231" y="1068.5074" z="504.52634"/>
+            <spot x="761.49231" y="1068.5074" z="500.1688"/>
         </spawn>
         <!-- Brigade General Laksyaka -->
         <spawn npc_id="219356">
@@ -473,7 +473,7 @@
         </spawn>
         <!-- Brigade General Tahabata -->
         <spawn npc_id="219358">
-            <spot x="679.86603" y="1069.0646" z="504.54871"/>
+            <spot x="679.86603" y="1069.0646" z="497.75186"/>
         </spawn>
         <!-- Laksyaka Colonel -->
         <spawn npc_id="219363">

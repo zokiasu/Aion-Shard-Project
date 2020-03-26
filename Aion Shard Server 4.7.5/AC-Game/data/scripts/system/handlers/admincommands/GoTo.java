@@ -335,7 +335,7 @@ public class GoTo extends AdminCommand {
         } else if (destination.equalsIgnoreCase("Beshmundir") || destination.equalsIgnoreCase("BT") || destination.equalsIgnoreCase("Beshmundir Temple")) {
             goTo(player, 300170000, 1477, 237, 243);
         } // Padmaraska Cave
-        else if (destination.equalsIgnoreCase("Padmaraska Cave")) {
+        else if (destination.equalsIgnoreCase("Padmaraska Cave") || destination.equalsIgnoreCase("padma")) {
             goTo(player, 320150000, 385, 506, 66);
         } /**
          * Quest Instance Maps
