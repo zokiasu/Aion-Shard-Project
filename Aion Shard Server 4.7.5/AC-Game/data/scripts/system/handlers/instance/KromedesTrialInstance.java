@@ -63,6 +63,7 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 
 	@Override
 	public void onEnterInstance(Player player) {
+		openAllDoors();
 		/*if (movies.contains(453)) {
 			return;
 		}
@@ -114,6 +115,15 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 				}
 			}
 		}*/
+	}
+
+	protected void openAllDoors() {
+		openDoor(2);
+		openDoor(81);
+		openDoor(259);
+		openDoor(325);
+		openDoor(326);
+		openDoor(360);
 	}
 
 	/*@Override

@@ -95,7 +95,6 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 
     @Override
     public void onEnterInstance(final Player player) {
-        super.onInstanceCreate(instance);
         skillId = 8698;
         if(player.getLastMapId() == 600100000) {
             SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
