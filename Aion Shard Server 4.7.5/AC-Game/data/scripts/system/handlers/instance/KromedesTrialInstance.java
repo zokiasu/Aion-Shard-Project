@@ -47,6 +47,7 @@ import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.WorldMap;
 import com.aionemu.gameserver.world.zone.ZoneInstance;
 import com.aionemu.gameserver.world.zone.ZoneName;
+import com.aionemu.gameserver.model.gameobjects.StaticDoor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +61,13 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 	private int skillId;
 	private List<Integer> movies = new ArrayList<Integer>();
 	private boolean isSpawned = false;
+	private Map<Integer, StaticDoor> doors;
+
+	@Override
+	public void onInstanceCreate(WorldMapInstance instance) {
+		super.onInstanceCreate(instance);
+		doors = instance.getDoors();
+	}
 
 	@Override
 	public void onEnterInstance(Player player) {
@@ -124,6 +132,13 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 		openDoor(325);
 		openDoor(326);
 		openDoor(360);
+	}
+
+	protected void openDoor(int doorId) {
+		StaticDoor door = doors.get(doorId);
+		if (door != null) {
+			door.setOpen(true);
+		}
 	}
 
 	/*@Override
