@@ -70,9 +70,9 @@ public class Rechargertp extends AdminCommand {
                 isOpened = false;
             }
         } else if(params[0].equals("on")){
-            float x = 503.57892;
-            float y = 204.84465;
-            float z = 67.27632;
+            float x = 503.57892f;
+            float y = 204.84465f;
+            float z = 67.27632f;
             byte heading = 2;
             int worldId = 320150000;
             if(!isOpened){
