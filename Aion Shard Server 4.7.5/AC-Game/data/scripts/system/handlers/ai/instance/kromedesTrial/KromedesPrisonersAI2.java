@@ -42,7 +42,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 @AIName("krprisoners")
 public class KromedesPrisonersAI2 extends NpcAI2 {
 
-    @Override
+    /*@Override
     public boolean onDialogSelect(final Player player, int dialogId, int questId, int extendedRewardIndex) {
         if (dialogId == 10000) {
             AI2Actions.deleteOwner(this);
@@ -55,5 +55,5 @@ public class KromedesPrisonersAI2 extends NpcAI2 {
     @Override
     protected void handleDialogStart(Player player) {
         PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(getObjectId(), 1011));
-    }
+    }*/
 }

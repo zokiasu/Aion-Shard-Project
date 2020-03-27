@@ -63,56 +63,39 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 
 	@Override
 	public void onEnterInstance(Player player) {
-		if (movies.contains(453)) {
+		/*if (movies.contains(453)) {
 			return;
 		}
 		skillId = player.getRace() == Race.ASMODIANS ? 19270 : 19220;
-		//sendMovie(player, 453);
+		//sendMovie(player, 453);*/
 	}
 
 	@Override
     public void onLeaveInstance(Player player) {
-      player.getEffectController().removeEffect(skillId);
-      removeItems(player);
+      /*player.getEffectController().removeEffect(skillId);
+      removeItems(player);*/
     }
    
     private void removeItems(Player player) {
-    Storage storage = player.getInventory();
-    storage.decreaseByItemId(185000109, 1);
-    storage.decreaseByItemId(185000098, 1);
-    storage.decreaseByItemId(185000099, 1);
-    storage.decreaseByItemId(185000100, 1);
-    storage.decreaseByItemId(185000101, 1);
-    storage.decreaseByItemId(185000102, 1);
+		/*Storage storage = player.getInventory();
+		storage.decreaseByItemId(185000109, 1);
+		storage.decreaseByItemId(185000098, 1);
+		storage.decreaseByItemId(185000099, 1);
+		storage.decreaseByItemId(185000100, 1);
+		storage.decreaseByItemId(185000101, 1);
+		storage.decreaseByItemId(185000102, 1);*/
     }
 
 	@Override
 	public void onPlayerLogOut(Player player) {
-		player.setTransformed(false);
-		PacketSendUtility.broadcastPacketAndReceive(player, new SM_TRANSFORM(player, false));
-	}
-
-	@Override
-	public void onPlayMovieEnd(Player player, int movieId) {
-		Storage storage = player.getInventory();
-		switch (movieId) {
-			case 453:
-				//SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
-				break;
-			case 454:
-				/*Npc npc1 = getNpc(730308);
-				if (npc1 != null && MathUtil.isIn3dRange(player, npc1, 20)) {
-					storage.decreaseByItemId(185000109, storage.getItemCountByItemId(185000109));
-					TeleportService2.teleportTo(player, mapId, 687.56116f, 681.68225f, 200.28648f, (byte) 30);
-				}*/
-				break;
-		}
+		/*player.setTransformed(false);
+		PacketSendUtility.broadcastPacketAndReceive(player, new SM_TRANSFORM(player, false));*/
 	}
 
 	@Override
 	public void onEnterZone(Player player, ZoneInstance zone) {
-		if (zone.getAreaTemplate().getZoneName() == ZoneName.get("MANOR_ENTRANCE_300230000")) {
-			sendMovie(player, 462);
+		/*if (zone.getAreaTemplate().getZoneName() == ZoneName.get("MANOR_ENTRANCE_300230000")) {
+			//sendMovie(player, 462);
 		} else if (zone.getAreaTemplate().getZoneName() == ZoneName.get("KALIGA_TREASURY_300230000")) {
             {
 				if (!isSpawned) {
@@ -130,26 +113,10 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 					}
 				}
 			}
-		}
+		}*/
 	}
 
-	private boolean isDead(Npc npc) {
-		return (npc == null || npc.getLifeStats().isAlreadyDead());
-	}
-
-	private void sendMovie(Player player, int movie) {
-		if (!movies.contains(movie)) {
-			movies.add(movie);
-			PacketSendUtility.sendPacket(player, new SM_PLAY_MOVIE(0, movie));
-		}
-	}
-
-	@Override
-	public void onInstanceDestroy() {
-		movies.clear();
-	}
-
-	@Override
+	/*@Override
 	public boolean onDie(final Player player, Creature lastAttacker) {
 		PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, player.equals(lastAttacker) ? 0 : lastAttacker.getObjectId()), true);
 		PacketSendUtility.sendPacket(player, new SM_DIE(player.haveSelfRezEffect(), player.haveSelfRezItem(), 0, 8));
@@ -172,5 +139,5 @@ public class KromedesTrialInstance extends GeneralInstanceHandler {
 		SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
 		player.unsetResPosState();
 		return true;
-	}
+	}*/
 }

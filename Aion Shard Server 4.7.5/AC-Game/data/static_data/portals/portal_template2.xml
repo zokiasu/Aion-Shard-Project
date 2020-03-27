@@ -1179,7 +1179,7 @@
     </portal_use>
     <!-- 74. Camp Asmodians To Idian Depths (Asmodians Base Camp) -->
     <portal_use npc_id="801794">
-        <portal_path loc_id="6000707" siege_id="5011" race="ASMODIANS"/>
+        <portal_path loc_id="6000707" race="ASMODIANS"/>
     </portal_use>
     <!-- 75. Camp Elyos To Idian Depths (Elyos Base Camp) -->
     <portal_use npc_id="801795">

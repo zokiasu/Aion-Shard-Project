@@ -43,7 +43,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 @AIName("krbuff")
 public class KromedesBuffAI2 extends ActionItemNpcAI2 {
 
-    @Override
+    /*@Override
     protected void handleUseItemFinish(Player player) {
         switch (getNpcId()) {
             case 730336:
@@ -65,5 +65,5 @@ public class KromedesBuffAI2 extends ActionItemNpcAI2 {
                 PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1400658));
                 break;
         }
-    }
+    }*/
 }

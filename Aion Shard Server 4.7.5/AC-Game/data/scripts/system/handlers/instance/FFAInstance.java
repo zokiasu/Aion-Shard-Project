@@ -88,7 +88,6 @@ public class FFAInstance extends GeneralInstanceHandler {
 
     //@Override
    // public void onInstanceCreate(WorldMapInstance instance){
-
     //    if(instance.getNpcs() != null){
     //        for (Npc npc : this.instance.getNpcs()) {
     //            npc.getController().onDelete();

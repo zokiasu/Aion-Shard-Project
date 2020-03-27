@@ -43,7 +43,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 @AIName("krcorpse")
 public class KromedesCorpseAI2 extends NpcAI2 {
 
-    @Override
+    /*@Override
     public boolean onDialogSelect(final Player player, int dialogId, int questId, int extendedRewardIndex) {
         if (dialogId == 1012) {
             if (player.getInventory().getItemCountByItemId(164000141) < 1) {
@@ -61,5 +61,5 @@ public class KromedesCorpseAI2 extends NpcAI2 {
     @Override
     protected void handleDialogStart(Player player) {
         PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(getObjectId(), 1011));
-    }
+    }*/
 }

@@ -388,8 +388,10 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 }, 360000); //6 Minutes.
             }
         } else {
-            if (zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_A_301230000") || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_B_301230000") || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_C_301230000")
-                    || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_D_301230000")) {
+            if (zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_A_301230000")
+            || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_B_301230000")
+            || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_C_301230000")
+            || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_D_301230000")) {
                 if (!isStop1) {
                     chargecheck();
                     sendMsg(1402129); //30 msg.
@@ -524,7 +526,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     CHKTask.cancel(true);
                 }
             }
-        }, 20000, 20000);
+        }, 15000, 15000);
     }
 
     public void countdownmsg() {

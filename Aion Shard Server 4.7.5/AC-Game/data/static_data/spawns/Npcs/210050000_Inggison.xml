@@ -4726,10 +4726,10 @@
         <spawn npc_id="296488" respawn_time="295">
             <spot x="557.632" y="733.041" z="479.19" h="18"/>
         </spawn>
-        <!-- Lothas -->
+        <!-- Lothas
         <spawn npc_id="799022" respawn_time="295">
             <spot x="2895.89" y="352.692" z="299.683" h="40"/>
-        </spawn>
+        </spawn> -->
         <!-- Lower Udas Temple Entrance -->
         <spawn npc_id="730279" respawn_time="295">
             <spot x="343.78" y="1349.81" z="262.265" h="48" static_id="443"/>
@@ -5132,10 +5132,10 @@
         <spawn npc_id="730224" respawn_time="295">
             <spot x="1700.34" y="186.64" z="531.244" static_id="164"/>
         </spawn>
-        <!-- Padmarashka's Cave Entrance -->
+        <!-- Padmarashka's Cave Entrance
         <spawn npc_id="730485" respawn_time="295">
             <spot x="136.981" y="2006.66" z="434.292" h="93" static_id="1315"/>
-        </spawn>
+        </spawn> -->
         <!-- Parchment Map -->
         <spawn npc_id="700605" respawn_time="295">
             <spot x="1518.82" y="1313.11" z="398.168" static_id="246"/>

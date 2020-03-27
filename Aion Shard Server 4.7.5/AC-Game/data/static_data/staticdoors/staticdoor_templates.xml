@@ -416,7 +416,7 @@
             <box x1="696.20105" y1="401.145264" z1="462.251526" x2="699.0775" y2="409.688477" z2="472.637421"/>
         </staticdoor>
     </world>
-    <world world="300230000">
+    <!--<world world="300230000">
         <staticdoor keyid="185000098" doorid="2" x="387.2498" y="205.220963" z="145.985352"
                     mesh="id_cromede_san_door_01a.cga" state="0x2">
             <box x1="380.589233" y1="198.90744" z1="145.97316" x2="393.898376" y2="211.882034" z2="162.5763"/>
@@ -438,7 +438,7 @@
         <staticdoor doorid="360" x="671.2874" y="606.637268" z="201.79837" mesh="idcromede_low_door.cga" state="0x6">
             <box x1="670.998047" y1="604.1887" z1="201.74118" x2="671.596558" y2="608.9905" z2="208.8849"/>
         </staticdoor>
-    </world>
+    </world>-->
     <world world="300240000">
         <staticdoor keyid="1" doorid="2" x="286.414246" y="846.1364" z="907.5599" mesh="surkana_control_door_01.cga"
                     state="0x4">

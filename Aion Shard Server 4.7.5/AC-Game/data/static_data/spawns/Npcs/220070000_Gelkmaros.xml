@@ -4548,10 +4548,10 @@
         <spawn npc_id="799295" respawn_time="295">
             <spot x="2515.79" y="2135.31" z="464.844" h="67"/>
         </spawn>
-        <!-- Padmarashka's Cave Entrance -->
+        <!-- Padmarashka's Cave Entrance
         <spawn npc_id="730486" respawn_time="295">
             <spot x="2972.322" y="1212.870" z="242.125" static_id="1235"/>
-        </spawn>
+        </spawn> -->
         <!-- Paketan Slipfingers -->
         <spawn npc_id="217016" respawn_time="295">
             <spot x="1405.47" y="2733" z="296.921"/>
@@ -6349,10 +6349,10 @@
         <spawn npc_id="799950" respawn_time="295">
             <spot x="1858.24" y="2928.65" z="548.526" h="76"/>
         </spawn>
-        <!-- Taloc's Guardian -->
+        <!-- Taloc's Guardian
         <spawn npc_id="799325" respawn_time="295">
             <spot x="981.114" y="2565.74" z="241.704" h="114"/>
-        </spawn>
+        </spawn> -->
         <!-- Tamed Manticore -->
         <spawn npc_id="216048" respawn_time="295">
             <spot x="2653.67" y="1760.93" z="340.20874" h="107" walker_id="60CC12AEBAB81945E2D1425D9249AB275C515A45"/>
