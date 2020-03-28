@@ -1,34 +1,3 @@
-/**
- * This file is part of Aion-Lightning <aion-lightning.org>.
- *
- *  Aion-Lightning is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  Aion-Lightning is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details. *
- *
- *  You should have received a copy of the GNU General Public License
- *  along with Aion-Lightning.
- *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
- */
-
-
 package instance;
 
 import com.aionemu.commons.utils.Rnd;
@@ -59,6 +28,20 @@ import com.aionemu.gameserver.world.knownlist.Visitor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.*;
+import com.aionemu.gameserver.services.player.PlayerReviveService;
+import com.aionemu.gameserver.utils.MathUtil;
+import com.aionemu.gameserver.world.WorldMap;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.zone.ZoneInstance;
+import com.aionemu.gameserver.world.zone.ZoneName;
+import com.aionemu.gameserver.model.gameobjects.StaticDoor;
+
+import java.util.*;
+
 
 /**
  * @author kill3r
@@ -67,6 +50,7 @@ import org.slf4j.LoggerFactory;
 public class FFAInstance extends GeneralInstanceHandler {
 
     private static final Logger log = LoggerFactory.getLogger("FFA_LOG");
+    private Map<Integer, StaticDoor> doors;
 
     static Point3D[] positions = new Point3D[]{
             new Point3D(EventSystem.FFA_SPAWNPOINT_1X, EventSystem.FFA_SPAWNPOINT_1Y,EventSystem.FFA_SPAWNPOINT_1Z),
@@ -94,16 +78,38 @@ public class FFAInstance extends GeneralInstanceHandler {
     //        }
      //   }
     //}
+    @Override
+    public void onInstanceCreate(WorldMapInstance instance) {
+        super.onInstanceCreate(instance);
+        doors = instance.getDoors();
+    }
 
 // CHECK IF DOUBLE INSTANCE CREATE WHEN DONE ON SUPER.ONSTANCE - DOne
     @Override
     public void onEnterInstance(Player player){
+        openAllDoors();
         PacketSendUtility.sendSys2Message(player, EventSystem.FFA_ANNOUNCER_NAME, EventSystem.FFA_WELCOME_MSG);
         player.setInFFA(true);
         player.getKnownList().doUpdate();
         player.setSpecialKills(0);
         player.setKSLevel(0);
         instance.register(player.getObjectId());
+    }
+
+    protected void openAllDoors() {
+        openDoor(2);
+        openDoor(81);
+        openDoor(259);
+        openDoor(325);
+        openDoor(326);
+        openDoor(360);
+    }
+
+    protected void openDoor(int doorId) {
+        StaticDoor door = doors.get(doorId);
+        if (door != null) {
+            door.setOpen(true);
+        }
     }
 
     @Override
