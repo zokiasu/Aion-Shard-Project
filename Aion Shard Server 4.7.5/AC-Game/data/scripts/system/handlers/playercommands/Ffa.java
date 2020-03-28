@@ -31,6 +31,7 @@ public class Ffa extends PlayerCommand {
     }
 
     private WorldMapInstance instance = null;
+    public boolean FFAGate = false;
     protected Map<Integer, WorldPosition> previousLocations = new HashMap<Integer, WorldPosition>();
     private final int worldId = EventSystem.EVENTSYSTEM_FFAMAP;
     static Point3D[] positions = new Point3D[]{
@@ -58,7 +59,6 @@ public class Ffa extends PlayerCommand {
             //return;
         //}
 
-        boolean FFAGate = true;
         if (params[0].equals("close")){
             if (player.getAccessLevel() >= 3){
                 FFAGate = false;
