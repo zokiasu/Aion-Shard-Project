@@ -42,11 +42,10 @@ import com.aionemu.gameserver.model.gameobjects.StaticDoor;
 
 import java.util.*;
 
-
 /**
  * @author kill3r
  */
-@InstanceID(300230000)
+@InstanceID(310100000)
 public class FFAInstance extends GeneralInstanceHandler {
 
     private static final Logger log = LoggerFactory.getLogger("FFA_LOG");
@@ -87,7 +86,7 @@ public class FFAInstance extends GeneralInstanceHandler {
 // CHECK IF DOUBLE INSTANCE CREATE WHEN DONE ON SUPER.ONSTANCE - DOne
     @Override
     public void onEnterInstance(Player player){
-        openAllDoors();
+        //openAllDoors();
         PacketSendUtility.sendSys2Message(player, EventSystem.FFA_ANNOUNCER_NAME, EventSystem.FFA_WELCOME_MSG);
         player.setInFFA(true);
         player.getKnownList().doUpdate();

@@ -95,6 +95,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
 
     @Override
     public void onEnterInstance(final Player player) {
+        super.onInstanceCreate(instance);
         skillId = 8698;
         if(player.getLastMapId() == 600100000) {
             SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
@@ -165,7 +166,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     deleteNpc(702218);
                     deleteNpc(702219);
                     deleteNpc(702220);
-                    spawn(702010, 255.47392f, 293.56177f, 321.18497f, (byte) 89); //Eastern Shield Generator.
+                    isEnd = true;
                     SP1Task.cancel(true);
                     instance.doOnAllPlayers(new Visitor<Player>() {
                         @Override
@@ -173,6 +174,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402139));
                         }
                     });
+                    spawn(702010, 255.47392f, 293.56177f, 321.18497f, (byte) 89); //Eastern Shield Generator.
                     break;
                 case 702011: //Western Shield Generator.
                     despawnNpc(npc);
@@ -197,14 +199,15 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     deleteNpc(702221);
                     deleteNpc(702222);
                     deleteNpc(702223);
-                    spawn(702011, 255.55742f, 216.03549f, 321.21344f, (byte) 30); //Western Shield Generator.
                     SP2Task.cancel(true);
+                    isEnd = true;
                     instance.doOnAllPlayers(new Visitor<Player>() {
                         @Override
                         public void visit(Player player) {
                             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402140));
                         }
                     });
+                    spawn(702011, 255.55742f, 216.03549f, 321.21344f, (byte) 30); //Western Shield Generator.
                     break;
                 case 702012: //Southern Shield Generator.
                     despawnNpc(npc);
@@ -229,14 +232,15 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     deleteNpc(702224);
                     deleteNpc(702225);
                     deleteNpc(702226);
-                    spawn(702012, 294.20718f, 254.60352f, 295.7729f, (byte) 60); //Southern Shield Generator.
                     SP3Task.cancel(true);
+                    isEnd = true;
                     instance.doOnAllPlayers(new Visitor<Player>() {
                         @Override
                         public void visit(Player player) {
                             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402141));
                         }
                     });
+                    spawn(702012, 294.20718f, 254.60352f, 295.7729f, (byte) 60); //Southern Shield Generator.
                     break;
                 case 702013: //Northern Shield Generator.
                     despawnNpc(npc);
@@ -261,14 +265,15 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     deleteNpc(702227);
                     deleteNpc(702228);
                     deleteNpc(702229);
-                    spawn(702013, 216.97739f, 254.4616f, 295.77353f, (byte) 0); //Northern Shield Generator.
                     SP4Task.cancel(true);
+                    isEnd = true;
                     instance.doOnAllPlayers(new Visitor<Player>() {
                         @Override
                         public void visit(Player player) {
                             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1402142));
                         }
                     });
+                    spawn(702013, 216.97739f, 254.4616f, 295.77353f, (byte) 0); //Northern Shield Generator.
                     break;
                 /****************************
                  * Eastern Shield Generator *
@@ -713,7 +718,6 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
     public void onPlayerLogOut(Player player) {
         removeItems(player);
         removeEffects(player);
-        TeleportService2.teleportTo(player, 600060000, 1050, 1842, 366);
     }
 
     @Override

@@ -47,12 +47,12 @@ public class BetrayerIcaronixAI2 extends AggressiveNpcAI2 {
 
     @Override
     protected void handleAttack(Creature creature) {
-        super.handleAttack(creature);
-        checkPercentage(getLifeStats().getHpPercentage());
+        //super.handleAttack(creature);
+        //checkPercentage(getLifeStats().getHpPercentage());
     }
 
     private void checkPercentage(int hpPercentage) {
-        if (hpPercentage <= 50) {
+        /*if (hpPercentage <= 50) {
             if (isStartEvent.compareAndSet(false, true)) {
                 scheduleSpawnIcaronixTheBetrayer(
                         this.getPosition().getX(),
@@ -61,18 +61,18 @@ public class BetrayerIcaronixAI2 extends AggressiveNpcAI2 {
                         this.getPosition().getHeading());
                 AI2Actions.deleteOwner(this);
             }
-        }
+        }*/
     }
 
     /**
      * @param h
      */
     private void scheduleSpawnIcaronixTheBetrayer(final float x, final float y, final float z, final byte h) {
-        ThreadPoolManager.getInstance().schedule(new Runnable() {
+        /*ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
             public void run() {
                 spawn(214599, x, y, z, (byte) h);
             }
-        }, 5000);
+        }, 5000);*/
     }
 }
