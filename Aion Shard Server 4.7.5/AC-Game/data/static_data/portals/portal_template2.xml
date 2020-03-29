@@ -206,7 +206,7 @@
     </portal_use>
     <!-- Haramel Entrance -->
     <portal_use npc_id="730055">
-        <portal_path loc_id="3002000" player_count="6" instance="true">
+        <portal_path loc_id="3002000" instance="true">
             <portal_req min_level="53"/>
         </portal_path>
     </portal_use>
