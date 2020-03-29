@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="110010000">
+        <spawn npc_id="800573" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1889.8284" y="1524.4735" z="590.1345" h="60"/>
+        </spawn>
+        <spawn npc_id="730059" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1367.4545" y="1512.0695" z="569.097" h="60"/>
+            <spot x="1464.736" y="1428.8611" z="572.87195" h="7"/>
+        </spawn>
         <!-- A History of Legions -->
         <spawn npc_id="730100" respawn_time="295">
             <spot h="0" x="2042.4144" y="1475.5546" z="581.1387" static_id="984"/>

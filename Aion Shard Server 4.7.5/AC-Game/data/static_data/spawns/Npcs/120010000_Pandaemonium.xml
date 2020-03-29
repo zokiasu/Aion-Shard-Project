@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="120010000">
+        <spawn npc_id="800575" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1227.6733" y="1493.3698" z="213.96336" h="72"/>
+        </spawn>
+        <spawn npc_id="730062" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1600.5027" y="1385.0312" z="193.12859" h="119"/>
+            <spot x="1316.7833" y="1430.6805" z="209.09084" h="82"/>
+        </spawn>
         <!-- Aerolink to Gelkmaros -->
         <spawn npc_id="730219" respawn_time="295">
             <spot h="3" x="943.9577" y="1123.047" z="206.8476" static_id="334"/>
