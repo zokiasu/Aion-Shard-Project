@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops>
+    <npc_drop npc_id="832794">
+        <drop_group use_category="true" name="OMEGA_ENCHANT_STONE" race="PC_ALL">
+            <drop item_id="166020000" chance="0.001" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop item_id="166030005" chance="0.05" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group use_category="true" name="SUPPLEMENTS" race="PC_ALL">
+            <drop item_id="166100011" chance="1.0" min_amount="5" max_amount="100" no_reduce="false" eachmember="false"/>
+            <drop item_id="166100010" chance="5.0" min_amount="5" max_amount="100" no_reduce="false" eachmember="false"/>
+            <drop item_id="166100009" chance="10.0" min_amount="5" max_amount="100" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group use_category="true" name="ENCHANT_STONE" race="PC_ALL">
+            <drop item_id="166000195" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="166000194" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="166000193" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group use_category="true" name="ENCHANT_STONE" race="PC_ALL">
+            <drop item_id="166000195" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="166000194" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="166000193" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group use_category="true" name="ENCHANT_STONE" race="PC_ALL">
+            <drop item_id="166000195" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="166000194" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="166000193" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+    </npc_drop>
     <!-- Remodeled Dynatoum -->
     <npc_drop npc_id="234686">
         <drop_group name="PLUME">

@@ -6946,10 +6946,10 @@
         <spawn npc_id="801703" respawn_time="295">
             <spot x="982.8116" y="2782.8518" z="298.1520" h="110" static_id="2766"/>
         </spawn>
-		<!-- Adenerk -->
+		<!-- Adenerk
 		<spawn npc_id="832739" respawn_time="295">
             <spot x="2437.1565" y="1610.9716" z="109.933586" h="0"/>
-        </spawn>
+        </spawn> -->
 		<!-- Danaria Base Balaur Sub Spawns -->
 		<!-- Desolation Vanguard Combatant -->
 		<spawn npc_id="232752" respawn_time="180">

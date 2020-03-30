@@ -1,32 +1,3 @@
-/**
- * This file is part of Aion-Lightning <aion-lightning.org>.
- *
- *  Aion-Lightning is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  Aion-Lightning is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details. *
- *
- *  You should have received a copy of the GNU General Public License
- *  along with Aion-Lightning.
- *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
- */
 package instance.abyss;
 
 import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
@@ -40,10 +11,27 @@ import com.aionemu.gameserver.model.gameobjects.Npc;
 public class KysisBarracksInstance extends GeneralInstanceHandler {
 
     private boolean rewarded = false;
+    private int numberBossDie = 0;
 
     @Override
     public void onDie(Npc npc) {
         switch (npc.getNpcId()) {
+            case 233666:
+            case 233667:
+            case 233668:
+            case 233669:
+            case 233644:
+            case 233710:
+            case 233642:
+            case 233687:
+            case 233655:
+            case 233656:
+            case 233674:
+                numberBossDie++;
+                if(numberBossDie >= 4){
+                    spawn(233676, 526, 845, 199.7f, (byte) 27);
+                }
+                break;
             case 233676: // Kysis Duke lvl.65
             case 233675: // weakened boss lvl.65
                 spawnChests(npc);
@@ -54,6 +42,7 @@ public class KysisBarracksInstance extends GeneralInstanceHandler {
                     spawn(233675, boss.getX(), boss.getY(), boss.getZ(), boss.getHeading());
                     boss.getController().onDelete();
                 }
+                break;
         }
     }
 

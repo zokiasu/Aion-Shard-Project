@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <!-- Kysis Battle Fortress By Everlight -->
-    <spawn_map map_id="301240000">
+    <spawn_map map_id="301280000">
+        <!-- Baranath Tribunus -->
+        <spawn npc_id="233710">
+            <spot x="431.7668" y="598.3521" z="191.24243" h="73"/>
+            <spot x="658.30005" y="580.21216" z="191.21361" h="61"/>
+        </spawn>
+        <!-- Baranath Sniper Captain -->
+        <spawn npc_id="233687">
+            <spot x="389.00693" y="261.14938" z="191.84178" h="2"/>
+            <spot x="614.82367" y="260.1648" z="191.82498" h="119"/>
+        </spawn>
+
         <!-- Ranx Dark Blade -->
         <spawn npc_id="233812">
             <spot x="615.312" y="456.498" z="197.691" h="36"/>
@@ -344,10 +355,6 @@
         <!-- Heavy Stone Door -->
         <spawn npc_id="700484">
             <spot x="527.651" y="105.021" z="175.889" h="73" static_id="4"/>
-        </spawn>
-        <!-- Awakened Kysis Duke -->
-        <spawn npc_id="233676">
-            <spot x="526.456" y="845.34" z="199.452" h="27"/>
         </spawn>
         <!-- Ebonlord Nukuam -->
         <spawn npc_id="233674">

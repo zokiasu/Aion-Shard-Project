@@ -2,7 +2,11 @@
 <portal_templates2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="portal_template2.xsd">
     <!-- ***************** PORTAL USE ***************** -->
     <!-- ************ INSTANCES ************ -->
-
+    <!-- KKM Exit -->
+    <portal_use npc_id="700484">
+        <portal_path loc_id="4000101" race="ASMODIANS"/>
+        <portal_path loc_id="4000100" race="ELYOS"/>
+    </portal_use>
     <!-- DREDGION -->
     <!-- Dredgion Captains Cabin Teleport Elyos -->
     <portal_use npc_id="730357">

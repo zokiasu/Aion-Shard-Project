@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="120010000">
+        <spawn npc_id="730055" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1638.035" y="1409.1443" z="193.12688" h="90"/>
+        </spawn>
         <spawn npc_id="800575" respawn_time="295" difficult_id="0" custom="true">
             <spot x="1227.6733" y="1493.3698" z="213.96336" h="72"/>
         </spawn>
@@ -725,10 +728,10 @@
         <spawn npc_id="204232" respawn_time="295">
             <spot h="3" x="1172.0908" y="1178.0562" z="207.97896"/>
         </spawn>
-        <!-- Heimdall -->
+        <!-- Heimdall
         <spawn npc_id="204182" respawn_time="295">
             <spot h="0" x="1614.0" y="1398.0" z="193.12692"/>
-        </spawn>
+        </spawn> -->
         <!-- Heltinjola -->
         <spawn npc_id="204181" respawn_time="295">
             <spot h="26" x="1537.9642" y="1406.3765" z="201.68452"/>
@@ -1133,10 +1136,10 @@
         <spawn npc_id="204145" respawn_time="295">
             <spot h="97" x="888.627" y="1437.2789" z="212.7719" walker_id="12001000055"/>
         </spawn>
-        <!-- Ninis -->
+        <!-- Ninis
         <spawn npc_id="798385" respawn_time="295">
             <spot h="90" x="1637.7717" y="1406.8552" z="193.12688"/>
-        </spawn>
+        </spawn> -->
         <!-- Niseria -->
         <spawn npc_id="204200" respawn_time="295">
             <spot h="60" x="1132.9551" y="1299.8741" z="231.78075"/>

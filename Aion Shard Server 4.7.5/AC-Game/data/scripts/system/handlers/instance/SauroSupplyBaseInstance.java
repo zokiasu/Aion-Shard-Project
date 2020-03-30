@@ -122,12 +122,10 @@ public class SauroSupplyBaseInstance extends GeneralInstanceHandler {
 
             case 230857: // Guard Leader Achradim , 1 key boss
                 spawn(801967, 689.85376f, 903.41785f, 411.45676f, (byte) 105);
-                scheduleExit();
                 break;
             case 230858: // Brigadian General Sheba , 2 key boss
                 spawn(801967, 886.4798f, 876.16693f, 411.45676f, (byte) 15); // exit portal
                 spawn(702659, 897.20306f, 886.9926f, 411.57693f, (byte) 15); // Noble Abbey Box
-                scheduleExit();
                 break;
         }
     }

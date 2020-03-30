@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
 	<spawn_map map_id="301310000">
-	
-	<!--
-		Author.....: GiGatR00n v4.7.5.x
-		v4.7.5.x (‎15/‎3/‎2015)
-	-->	
-	
+
+		<!--
+            Author.....: GiGatR00n v4.7.5.x
+            v4.7.5.x (‎15/‎3/‎2015)
+        -->
+
 		<!--Repelling Flame Cannon -->
 		<!--<spawn npc_id="855010" respawn_time="295">
 			<spot x="234.4599" y="194.21619" z="79.589996" h="119"/>
 			<spot x="294.62436" y="324.11783" z="79.790443" h="119"/>
-		</spawn>-->	
+		</spawn>-->
 		<!--Unstable Ide Energy -->
 		<!--<spawn npc_id="855008" respawn_time="295">
 			<spot x="239.78659" y="233.32512" z="94.41362" h="0"/>
@@ -43,7 +43,7 @@
 		<spawn npc_id="234188" respawn_time="180">
 			<spot h="75" x="212.7252" y="205.77171" z="79.8842" walker_id="D2146763485"/>
 			<spot h="76" x="313.8899" y="311.33994" z="79.86218" walker_id="D2146756655"/>
-		</spawn>		
+		</spawn>
 		<!--Sheban Intelligence Unit Hunter -->
 		<spawn npc_id="234187" respawn_time="180">
 			<spot x="222.82352" y="207.73462" z="83.259178" h="0" walker_id="D2146763492"/>
@@ -57,7 +57,7 @@
 		<!--Salade (Asmo Quest Qiver) -->
 		<spawn npc_id="802384" respawn_time="180">
 			<spot x="254.92552" y="179.36908" z="79.77095" h="90"/>
-		</spawn>		
+		</spawn>
 		<!--Talle (Elyos Quest Giver) -->
 		<spawn npc_id="802383" respawn_time="180">
 			<spot x="274.57217" y="338.79578" z="79.783966" h="30"/>
@@ -98,13 +98,13 @@
 		<!--<spawn npc_id="234753" respawn_time="295">
 			<spot x="256.33893" y="259.0221" z="85.81963" h="75"/>
 			<spot x="278.2619" y="273.78964" z="92.942535" h="15"/>
-		</spawn>-->		
+		</spawn>-->
 		<!--Sheban Elite Stalwart -->
 		<!--<spawn npc_id="234751" respawn_time="295">
 			<spot x="273.76373" y="258.95422" z="85.81963" h="15"/>
 			<spot x="250.63719" y="244.0336" z="92.942505" h="75"/>
 		</spawn>-->
-		 <!--Sheban Elite Medic -->
+		<!--Sheban Elite Medic -->
 		<!--<spawn npc_id="234754" respawn_time="295">
 			<spot x="264.97153" y="249.82945" z="85.81963" h="105"/>
 		</spawn>-->

@@ -2,23 +2,23 @@
 <siege_schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="siege_schedule.xsd">
     <!-- Siel's Western (Reshanta Lower) -->
     <fortress id="1131">
-        <siegeTime>0 0 18 ? * SUN</siegeTime>
+        <siegeTime>0 0 18 ? * SAT</siegeTime>
     </fortress>
     <!-- Siel's Eastearn (Reshanta Lower) -->
     <fortress id="1132">
-        <siegeTime>0 0 18 ? * SUN</siegeTime>
+        <siegeTime>0 0 18 ? * SAT</siegeTime>
     </fortress>
     <!-- Sulfur (Reshanta Lower) -->
     <fortress id="1141">
-        <siegeTime>0 0 18 ? * SUN</siegeTime>
+        <siegeTime>0 0 18 ? * SAT</siegeTime>
     </fortress>
     <!-- Roah (Reshanta Upper) -->
     <fortress id="1211">
-        <siegeTime>0 0 18 ? * SUN</siegeTime>
+        <siegeTime>0 0 18 ? * SAT</siegeTime>
     </fortress>
     <!-- Asteria (Reshanta Upper) -->
     <fortress id="1251">
-        <siegeTime>0 0 18 ? * SUN</siegeTime>
+        <siegeTime>0 0 18 ? * SAT</siegeTime>
     </fortress>
 
     <!-- Divine Fortress (Reshanta Core) -->

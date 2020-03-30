@@ -55,7 +55,7 @@ public class BenoidAI2 extends AggressiveNpcAI2 {
 			@Override
 			public void visit(Player player) {
 				if (MathUtil.isIn3dRange(player, getOwner(), 15)) {
-					AbyssPointsService.addGp(player, 500);
+					AbyssPointsService.addGp(player, 100);
 				}
 			}
 		});

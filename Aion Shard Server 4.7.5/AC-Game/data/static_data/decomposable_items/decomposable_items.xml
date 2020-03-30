@@ -12530,12 +12530,12 @@
         </decomposable>
         <decomposable item_id="188051590" decomposable_name="Greater Kahrun's Box">
             <items>
-                <item id="186000143" name="Kahrun's Symbol" count="5"/>
+                <item id="186000143" name="Kahrun's Symbol" count="100"/>
             </items>
         </decomposable>
         <decomposable item_id="188051591" decomposable_name="Major Kahrun's Box">
             <items>
-                <item id="186000143" name="Kahrun's Symbol" count="7"/>
+                <item id="186000143" name="Kahrun's Symbol" count="100"/>
             </items>
         </decomposable>
         <decomposable item_id="188051592" decomposable_name="Lesser Contribution Bundle">
@@ -27485,5 +27485,958 @@
             <items>
                 <item id="114601472" count="1"/>
             </items>
+        </decomposable>
+        <decomposable item_id="188053181" decomposable_name="Level 1 Grand Invasion Reward Box">
+            <!--DEBUT ARMES-->
+                <items>
+                    <item id="100001692"/>
+                </items>
+                <items>
+                    <item id="100001693"/>
+                </items>
+                <items>
+                    <item id="100101291"/>
+                </items>
+                <items>
+                    <item id="100101292"/>
+                </items>
+                <items>
+                    <item id="100201463"/>
+                </items>
+                <items>
+                    <item id="100201464"/>
+                </items>
+                <items>
+                    <item id="100501277"/>
+                </items>
+                <items>
+                    <item id="100501278"/>
+                </items>
+                <items>
+                    <item id="100601387"/>
+                </items>
+                <items>
+                    <item id="100601388"/>
+                </items>
+                <items>
+                    <item id="100901318"/>
+                </items>
+                <items>
+                    <item id="100901319"/>
+                </items>
+                <items>
+                    <item id="101301223"/>
+                </items>
+                <items>
+                    <item id="101301224"/>
+                </items>
+                <items>
+                    <item id="101501314"/>
+                </items>
+                <items>
+                    <item id="101501315"/>
+                </items>
+                <items>
+                    <item id="101701328"/>
+                </items>
+                <items>
+                    <item id="101701329"/>
+                </items>
+                <items>
+                    <item id="101801178"/>
+                </items>
+                <items>
+                    <item id="101801179"/>
+                </items>
+                <items>
+                    <item id="101901089"/>
+                </items>
+                <items>
+                    <item id="101901090"/>
+                </items>
+                <items>
+                    <item id="102001206"/>
+                </items>
+                <items>
+                    <item id="102001207"/>
+                </items>
+                <items>
+                    <item id="102101012"/>
+                </items>
+                <items>
+                    <item id="102101013"/>
+                </items>
+            <!--FIN ARMES-->
+            <!--DEBUT ARMURE-->
+                <items>
+                    <item id="110101783"/>
+                </items>
+                <items>
+                    <item id="110101784"/>
+                </items>
+                <items>
+                    <item id="110301768"/>
+                </items>
+                <items>
+                    <item id="110301769"/>
+                </items>
+                <items>
+                    <item id="110551102"/>
+                </items>
+                <items>
+                    <item id="110551103"/>
+                </items>
+                <items>
+                    <item id="110601571"/>
+                </items>
+                <items>
+                    <item id="110601572"/>
+                </items>
+                <items>
+                    <item id="111101603"/>
+                </items>
+                <items>
+                    <item id="111101604"/>
+                </items>
+                <items>
+                    <item id="111301706"/>
+                </items>
+                <items>
+                    <item id="111301707"/>
+                </items>
+                <items>
+                    <item id="111501661"/>
+                </items>
+                <items>
+                    <item id="111501662"/>
+                </items>
+                <items>
+                    <item id="111601534"/>
+                </items>
+                <items>
+                    <item id="111601535"/>
+                </items>
+                <items>
+                    <item id="112101553"/>
+                </items>
+                <items>
+                    <item id="112101554"/>
+                </items>
+                <items>
+                    <item id="112301645"/>
+                </items>
+                <items>
+                    <item id="112301646"/>
+                </items>
+                <items>
+                    <item id="112501600"/>
+                </items>
+                <items>
+                    <item id="112501601"/>
+                </items>
+                <items>
+                    <item id="112601516"/>
+                </items>
+                <items>
+                    <item id="112601517"/>
+                </items>
+                <items>
+                    <item id="113101615"/>
+                </items>
+                <items>
+                    <item id="113101616"/>
+                </items>
+                <items>
+                    <item id="113301737"/>
+                </items>
+                <items>
+                    <item id="113301738"/>
+                </items>
+                <items>
+                    <item id="113501679"/>
+                </items>
+                <items>
+                    <item id="113501680"/>
+                </items>
+                <items>
+                    <item id="113601517"/>
+                </items>
+                <items>
+                    <item id="113601518"/>
+                </items>
+                <items>
+                    <item id="114101649"/>
+                </items>
+                <items>
+                    <item id="114101650"/>
+                </items>
+                <items>
+                    <item id="114301774"/>
+                </items>
+                <items>
+                    <item id="114301775"/>
+                </items>
+                <items>
+                    <item id="114501689"/>
+                </items>
+                <items>
+                    <item id="114501690"/>
+                </items>
+                <items>
+                    <item id="114601524"/>
+                </items>
+                <items>
+                    <item id="114601525"/>
+                </items>
+                <items>
+                    <item id="115001708"/>
+                </items>
+                <items>
+                    <item id="115001709"/>
+                </items>
+                <items>
+                    <item id="125004013"/>
+                </items>
+                <items>
+                    <item id="125004014"/>
+                </items>
+                <items>
+                    <item id="125004015"/>
+                </items>
+                <items>
+                    <item id="125004016"/>
+                </items>
+                <items>
+                    <item id="125004017"/>
+                </items>
+                <items>
+                    <item id="125004018"/>
+                </items>
+                <items>
+                    <item id="125004019"/>
+                </items>
+                <items>
+                    <item id="125004020"/>
+                </items>
+            <!--FIN ARMURE-->
+            <!--DEBUT MANASTONE VERTE-->
+                <items>
+                    <item id="167000518"/>
+                </items>
+                <items>
+                    <item id="167000559"/>
+                </items>
+                <items>
+                    <item id="167000563"/>
+                </items>
+                <items>
+                    <item id="167000766"/>
+                </items>
+                <items>
+                    <item id="167000767"/>
+                </items>
+                <items>
+                    <item id="167000768"/>
+                </items>
+                <items>
+                    <item id="167000769"/>
+                </items>
+                <items>
+                    <item id="167000770"/>
+                </items>
+                <items>
+                    <item id="167000771"/>
+                </items>
+                <items>
+                    <item id="167000772"/>
+                </items>
+                <items>
+                    <item id="167000773"/>
+                </items>
+                <items>
+                    <item id="167000775"/>
+                </items>
+                <items>
+                    <item id="167000776"/>
+                </items>
+                <items>
+                    <item id="167000777"/>
+                </items>
+            <!--FIN MANASTONE VERTE-->
+            <!--DEBUT MANASTONE BLEU-->
+                <items>
+                    <item id="167000682"/>
+                </items>
+                <items>
+                    <item id="167000683"/>
+                </items>
+                <items>
+                    <item id="167000684"/>
+                </items>
+                <items>
+                    <item id="167000685"/>
+                </items>
+                <items>
+                    <item id="167000686"/>
+                </items>
+                <items>
+                    <item id="167000687"/>
+                </items>
+                <items>
+                    <item id="167000688"/>
+                </items>
+                <items>
+                    <item id="167000689"/>
+                </items>
+                <items>
+                    <item id="167000690"/>
+                </items>
+                <items>
+                    <item id="167000691"/>
+                </items>
+                <items>
+                    <item id="167000692"/>
+                </items>
+                <items>
+                    <item id="167000693"/>
+                </items>
+                <items>
+                    <item id="167000694"/>
+                </items>
+                <items>
+                    <item id="167000695"/>
+                </items>
+                <items>
+                    <item id="167000696"/>
+                </items>
+                <items>
+                    <item id="167000697"/>
+                </items>
+                <items>
+                    <item id="167000698"/>
+                </items>
+                <items>
+                    <item id="167000699"/>
+                </items>
+                <items>
+                    <item id="167000700"/>
+                </items>
+                <items>
+                    <item id="167000701"/>
+                </items>
+                <items>
+                    <item id="167000702"/>
+                </items>
+                <items>
+                    <item id="167000703"/>
+                </items>
+                <items>
+                    <item id="167000704"/>
+                </items>
+                <items>
+                    <item id="167000705"/>
+                </items>
+                <items>
+                    <item id="167000706"/>
+                </items>
+                <items>
+                    <item id="167000707"/>
+                </items>
+                <items>
+                    <item id="167000708"/>
+                </items>
+                <items>
+                    <item id="167000709"/>
+                </items>
+                <items>
+                    <item id="167000710"/>
+                </items>
+                <items>
+                    <item id="167000711"/>
+                </items>
+                <items>
+                    <item id="167000712"/>
+                </items>
+                <items>
+                    <item id="167000713"/>
+                </items>
+                <items>
+                    <item id="167000714"/>
+                </items>
+                <items>
+                    <item id="167000749"/>
+                </items>
+                <items>
+                    <item id="167000750"/>
+                </items>
+                <items>
+                    <item id="167000751"/>
+                </items>
+            <!--FIN MANASTONE BLEU-->
+            <!--DEBUT ANCIENNE MANASTONE ETERNEL-->
+                <items>
+                    <item id="167020072"/>
+                </items>
+                <items>
+                    <item id="167020073"/>
+                </items>
+                <items>
+                    <item id="167020074"/>
+                </items>
+                <items>
+                    <item id="167020075"/>
+                </items>
+                <items>
+                    <item id="167020076"/>
+                </items>
+                <items>
+                    <item id="167020077"/>
+                </items>
+                <items>
+                    <item id="167020078"/>
+                </items>
+                <items>
+                    <item id="167020079"/>
+                </items>
+                <items>
+                    <item id="167020080"/>
+                </items>
+                <items>
+                    <item id="167020081"/>
+                </items>
+                <items>
+                    <item id="167020082"/>
+                </items>
+                <items>
+                    <item id="167020083"/>
+                </items>
+            <!--FIN ANCIENNE MANASTONE ETERNEL-->
+            <!--DEBUT AUTRE-->
+                <items>
+                    <item id="188053628"/>
+                </items>
+            <!--FIN AUTRE-->
+        </decomposable>
+        <decomposable item_id="188053180" decomposable_name="Level 2 Grand Invasion Reward Box">
+            <!--DEBUT ARMES-->
+                <items>
+                    <item id="100001692"/>
+                </items>
+                <items>
+                    <item id="100001693"/>
+                </items>
+                <items>
+                    <item id="100101291"/>
+                </items>
+                <items>
+                    <item id="100101292"/>
+                </items>
+                <items>
+                    <item id="100201463"/>
+                </items>
+                <items>
+                    <item id="100201464"/>
+                </items>
+                <items>
+                    <item id="100501277"/>
+                </items>
+                <items>
+                    <item id="100501278"/>
+                </items>
+                <items>
+                    <item id="100601387"/>
+                </items>
+                <items>
+                    <item id="100601388"/>
+                </items>
+                <items>
+                    <item id="100901318"/>
+                </items>
+                <items>
+                    <item id="100901319"/>
+                </items>
+                <items>
+                    <item id="101301223"/>
+                </items>
+                <items>
+                    <item id="101301224"/>
+                </items>
+                <items>
+                    <item id="101501314"/>
+                </items>
+                <items>
+                    <item id="101501315"/>
+                </items>
+                <items>
+                    <item id="101701328"/>
+                </items>
+                <items>
+                    <item id="101701329"/>
+                </items>
+                <items>
+                    <item id="101801178"/>
+                </items>
+                <items>
+                    <item id="101801179"/>
+                </items>
+                <items>
+                    <item id="101901089"/>
+                </items>
+                <items>
+                    <item id="101901090"/>
+                </items>
+                <items>
+                    <item id="102001206"/>
+                </items>
+                <items>
+                    <item id="102001207"/>
+                </items>
+                <items>
+                    <item id="102101012"/>
+                </items>
+                <items>
+                    <item id="102101013"/>
+                </items>
+            <!--FIN ARMES-->
+            <!--DEBUT ARMURE-->
+                <items>
+                    <item id="110101783"/>
+                </items>
+                <items>
+                    <item id="110101784"/>
+                </items>
+                <items>
+                    <item id="110301768"/>
+                </items>
+                <items>
+                    <item id="110301769"/>
+                </items>
+                <items>
+                    <item id="110551102"/>
+                </items>
+                <items>
+                    <item id="110551103"/>
+                </items>
+                <items>
+                    <item id="110601571"/>
+                </items>
+                <items>
+                    <item id="110601572"/>
+                </items>
+                <items>
+                    <item id="111101603"/>
+                </items>
+                <items>
+                    <item id="111101604"/>
+                </items>
+                <items>
+                    <item id="111301706"/>
+                </items>
+                <items>
+                    <item id="111301707"/>
+                </items>
+                <items>
+                    <item id="111501661"/>
+                </items>
+                <items>
+                    <item id="111501662"/>
+                </items>
+                <items>
+                    <item id="111601534"/>
+                </items>
+                <items>
+                    <item id="111601535"/>
+                </items>
+                <items>
+                    <item id="112101553"/>
+                </items>
+                <items>
+                    <item id="112101554"/>
+                </items>
+                <items>
+                    <item id="112301645"/>
+                </items>
+                <items>
+                    <item id="112301646"/>
+                </items>
+                <items>
+                    <item id="112501600"/>
+                </items>
+                <items>
+                    <item id="112501601"/>
+                </items>
+                <items>
+                    <item id="112601516"/>
+                </items>
+                <items>
+                    <item id="112601517"/>
+                </items>
+                <items>
+                    <item id="113101615"/>
+                </items>
+                <items>
+                    <item id="113101616"/>
+                </items>
+                <items>
+                    <item id="113301737"/>
+                </items>
+                <items>
+                    <item id="113301738"/>
+                </items>
+                <items>
+                    <item id="113501679"/>
+                </items>
+                <items>
+                    <item id="113501680"/>
+                </items>
+                <items>
+                    <item id="113601517"/>
+                </items>
+                <items>
+                    <item id="113601518"/>
+                </items>
+                <items>
+                    <item id="114101649"/>
+                </items>
+                <items>
+                    <item id="114101650"/>
+                </items>
+                <items>
+                    <item id="114301774"/>
+                </items>
+                <items>
+                    <item id="114301775"/>
+                </items>
+                <items>
+                    <item id="114501689"/>
+                </items>
+                <items>
+                    <item id="114501690"/>
+                </items>
+                <items>
+                    <item id="114601524"/>
+                </items>
+                <items>
+                    <item id="114601525"/>
+                </items>
+                <items>
+                    <item id="115001708"/>
+                </items>
+                <items>
+                    <item id="115001709"/>
+                </items>
+                <items>
+                    <item id="125004013"/>
+                </items>
+                <items>
+                    <item id="125004014"/>
+                </items>
+                <items>
+                    <item id="125004015"/>
+                </items>
+                <items>
+                    <item id="125004016"/>
+                </items>
+                <items>
+                    <item id="125004017"/>
+                </items>
+                <items>
+                    <item id="125004018"/>
+                </items>
+                <items>
+                    <item id="125004019"/>
+                </items>
+                <items>
+                    <item id="125004020"/>
+                </items>
+            <!--FIN ARMURE-->
+            <!--DEBUT MANASTONE VERTE-->
+                <items>
+                    <item id="167000518"/>
+                </items>
+                <items>
+                    <item id="167000559"/>
+                </items>
+                <items>
+                    <item id="167000563"/>
+                </items>
+                <items>
+                    <item id="167000766"/>
+                </items>
+                <items>
+                    <item id="167000767"/>
+                </items>
+                <items>
+                    <item id="167000768"/>
+                </items>
+                <items>
+                    <item id="167000769"/>
+                </items>
+                <items>
+                    <item id="167000770"/>
+                </items>
+                <items>
+                    <item id="167000771"/>
+                </items>
+                <items>
+                    <item id="167000772"/>
+                </items>
+                <items>
+                    <item id="167000773"/>
+                </items>
+                <items>
+                    <item id="167000775"/>
+                </items>
+                <items>
+                    <item id="167000776"/>
+                </items>
+                <items>
+                    <item id="167000777"/>
+                </items>
+            <!--FIN MANASTONE VERTE-->
+            <!--DEBUT AUTRE-->
+                <items>
+                    <item id="188053628"/>
+                </items>
+            <!--FIN AUTRE-->
+        </decomposable>
+        <decomposable item_id="188053179" decomposable_name="Level 3 Grand Invasion Reward Box">
+            <!--DEBUT ARMES-->
+                <items>
+                    <item id="100001692"/>
+                </items>
+                <items>
+                    <item id="100001693"/>
+                </items>
+                <items>
+                    <item id="100101291"/>
+                </items>
+                <items>
+                    <item id="100101292"/>
+                </items>
+                <items>
+                    <item id="100201463"/>
+                </items>
+                <items>
+                    <item id="100201464"/>
+                </items>
+                <items>
+                    <item id="100501277"/>
+                </items>
+                <items>
+                    <item id="100501278"/>
+                </items>
+                <items>
+                    <item id="100601387"/>
+                </items>
+                <items>
+                    <item id="100601388"/>
+                </items>
+                <items>
+                    <item id="100901318"/>
+                </items>
+                <items>
+                    <item id="100901319"/>
+                </items>
+                <items>
+                    <item id="101301223"/>
+                </items>
+                <items>
+                    <item id="101301224"/>
+                </items>
+                <items>
+                    <item id="101501314"/>
+                </items>
+                <items>
+                    <item id="101501315"/>
+                </items>
+                <items>
+                    <item id="101701328"/>
+                </items>
+                <items>
+                    <item id="101701329"/>
+                </items>
+                <items>
+                    <item id="101801178"/>
+                </items>
+                <items>
+                    <item id="101801179"/>
+                </items>
+                <items>
+                    <item id="101901089"/>
+                </items>
+                <items>
+                    <item id="101901090"/>
+                </items>
+                <items>
+                    <item id="102001206"/>
+                </items>
+                <items>
+                    <item id="102001207"/>
+                </items>
+                <items>
+                    <item id="102101012"/>
+                </items>
+                <items>
+                    <item id="102101013"/>
+                </items>
+            <!--FIN ARMES-->
+            <!--DEBUT ARMURE-->
+                <items>
+                    <item id="110101783"/>
+                </items>
+                <items>
+                    <item id="110101784"/>
+                </items>
+                <items>
+                    <item id="110301768"/>
+                </items>
+                <items>
+                    <item id="110301769"/>
+                </items>
+                <items>
+                    <item id="110551102"/>
+                </items>
+                <items>
+                    <item id="110551103"/>
+                </items>
+                <items>
+                    <item id="110601571"/>
+                </items>
+                <items>
+                    <item id="110601572"/>
+                </items>
+                <items>
+                    <item id="111101603"/>
+                </items>
+                <items>
+                    <item id="111101604"/>
+                </items>
+                <items>
+                    <item id="111301706"/>
+                </items>
+                <items>
+                    <item id="111301707"/>
+                </items>
+                <items>
+                    <item id="111501661"/>
+                </items>
+                <items>
+                    <item id="111501662"/>
+                </items>
+                <items>
+                    <item id="111601534"/>
+                </items>
+                <items>
+                    <item id="111601535"/>
+                </items>
+                <items>
+                    <item id="112101553"/>
+                </items>
+                <items>
+                    <item id="112101554"/>
+                </items>
+                <items>
+                    <item id="112301645"/>
+                </items>
+                <items>
+                    <item id="112301646"/>
+                </items>
+                <items>
+                    <item id="112501600"/>
+                </items>
+                <items>
+                    <item id="112501601"/>
+                </items>
+                <items>
+                    <item id="112601516"/>
+                </items>
+                <items>
+                    <item id="112601517"/>
+                </items>
+                <items>
+                    <item id="113101615"/>
+                </items>
+                <items>
+                    <item id="113101616"/>
+                </items>
+                <items>
+                    <item id="113301737"/>
+                </items>
+                <items>
+                    <item id="113301738"/>
+                </items>
+                <items>
+                    <item id="113501679"/>
+                </items>
+                <items>
+                    <item id="113501680"/>
+                </items>
+                <items>
+                    <item id="113601517"/>
+                </items>
+                <items>
+                    <item id="113601518"/>
+                </items>
+                <items>
+                    <item id="114101649"/>
+                </items>
+                <items>
+                    <item id="114101650"/>
+                </items>
+                <items>
+                    <item id="114301774"/>
+                </items>
+                <items>
+                    <item id="114301775"/>
+                </items>
+                <items>
+                    <item id="114501689"/>
+                </items>
+                <items>
+                    <item id="114501690"/>
+                </items>
+                <items>
+                    <item id="114601524"/>
+                </items>
+                <items>
+                    <item id="114601525"/>
+                </items>
+                <items>
+                    <item id="115001708"/>
+                </items>
+                <items>
+                    <item id="115001709"/>
+                </items>
+                <items>
+                    <item id="125004013"/>
+                </items>
+                <items>
+                    <item id="125004014"/>
+                </items>
+                <items>
+                    <item id="125004015"/>
+                </items>
+                <items>
+                    <item id="125004016"/>
+                </items>
+                <items>
+                    <item id="125004017"/>
+                </items>
+                <items>
+                    <item id="125004018"/>
+                </items>
+                <items>
+                    <item id="125004019"/>
+                </items>
+                <items>
+                    <item id="125004020"/>
+                </items>
+            <!--FIN ARMURE-->
+            <!--DEBUT AUTRE-->
+                <items>
+                    <item id="188053628"/>
+                </items>
+            <!--FIN AUTRE-->
         </decomposable>
     </decomposable_items>

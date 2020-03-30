@@ -11,10 +11,22 @@ import com.aionemu.gameserver.model.gameobjects.Npc;
 public class MirenBarracksInstance extends GeneralInstanceHandler {
 
     private boolean rewarded = false;
+    private int numberBossDie = 0;
 
     @Override
     public void onDie(Npc npc) {
         switch (npc.getNpcId()) {
+            case 233710:
+            case 233698:
+            case 233687:
+            case 233709:
+            case 233711:
+            case 233717:
+                numberBossDie++;
+                if(numberBossDie >= 4){
+                    spawn(233719, 526, 845, 199.7f, (byte) 5);
+                }
+                break;
             case 233719: // Miren Duke lvl.65
             case 233718: // weakened boss lvl.65
                 spawnChests(npc);
@@ -25,6 +37,7 @@ public class MirenBarracksInstance extends GeneralInstanceHandler {
                     spawn(233718, boss.getX(), boss.getY(), boss.getZ(), boss.getHeading());
                     boss.getController().onDelete();
                 }
+                break;
         }
     }
 

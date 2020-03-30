@@ -7516,10 +7516,10 @@
 		<spawn respawn_time="295" npc_id="802057">
 			<spot h="66" x="404.937" y="454.4247" z="280.0233"/>
 		</spawn>
-	   <!-- Nesfir -->
+	   <!-- Nesfir
 		<spawn respawn_time="295" npc_id="832737">
 			<spot h="76" x="365.61" y="352.52" z="273.625"/>
-		</spawn>
+		</spawn> -->
 	    <!-- Heraenia -->	
 		<spawn respawn_time="295" npc_id="802056">
 			<spot h="23" x="343.75345" y="2769.7837" z="140.57266"/>

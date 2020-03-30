@@ -2,10 +2,23 @@
 <spawns>
     <!-- Miren Battle Fortress By Everlight -->
     <spawn_map map_id="301290000">
-        <!-- Awakened Miren Prince -->
-        <spawn npc_id="233719">
-            <spot x="526.456" y="845.34" z="199.394" h="5"/>
+        <!-- Baranath Tribunus -->
+        <spawn npc_id="233710">
+            <spot x="617.3933" y="581.1902" z="191.16934" h="117"/>
+            <spot x="433.4064" y="581.5421" z="191.15689" h="59"/>
         </spawn>
+        <!-- ??? -->
+        <spawn npc_id="233698">
+            <spot x="615.33136" y="458.75165" z="197.69052" h="103"/>
+            <spot x="390.89746" y="458.69678" z="197.70888" h="104"/>
+        </spawn>
+        <!-- Baranath Sniper Captain -->
+        <spawn npc_id="233687">
+            <spot x="611.48865" y="260.50183" z="191.80687" h="2"/>
+            <spot x="390.51318" y="278.09683" z="191.788" h="105"/>
+            <spot x="503.90347" y="434.87253" z="180.96553" h="118"/>
+        </spawn>
+
         <!-- Ebonlord Vershinak -->
         <spawn npc_id="233717">
             <spot x="527.545" y="729.912" z="192.515" h="52"/>

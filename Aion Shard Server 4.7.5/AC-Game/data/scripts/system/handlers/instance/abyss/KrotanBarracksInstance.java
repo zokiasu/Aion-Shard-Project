@@ -40,10 +40,23 @@ import com.aionemu.gameserver.model.gameobjects.Npc;
 public class KrotanBarracksInstance extends GeneralInstanceHandler {
 
     private boolean rewarded = false;
+    private int numberBossDie = 0;
 
     @Override
     public void onDie(Npc npc) {
         switch (npc.getNpcId()) {
+            case 233612:
+            case 233613:
+            case 233698:
+            case 233631:
+            case 233623:
+            case 233625:
+            case 233687:
+                numberBossDie++;
+                if(numberBossDie >= 4){
+                    spawn(233633, 526, 845, 199.7f, (byte) 28);
+                }
+                break;
             case 233633: // Krotan Duke lvl.65
             case 233632: // weakened boss lvl.65
                 spawnChests(npc);
@@ -54,6 +67,7 @@ public class KrotanBarracksInstance extends GeneralInstanceHandler {
                     spawn(233632, boss.getX(), boss.getY(), boss.getZ(), boss.getHeading());
                     boss.getController().onDelete();
                 }
+                break;
         }
     }
 
