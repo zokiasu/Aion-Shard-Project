@@ -1531,6 +1531,7 @@
 	<xs:simpleType name="skillSubType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="NONE"/>
+			<xs:enumeration value="NONE2"/>
 			<xs:enumeration value="ATTACK"/>
 			<xs:enumeration value="CHANT"/>
 			<xs:enumeration value="HEAL"/>

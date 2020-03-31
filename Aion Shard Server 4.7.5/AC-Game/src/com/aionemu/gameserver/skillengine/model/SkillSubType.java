@@ -40,6 +40,7 @@ import javax.xml.bind.annotation.XmlType;
 public enum SkillSubType {
 
     NONE,
+    NONE2,
     ATTACK,
     CHANT,
     HEAL,

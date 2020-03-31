@@ -3627,10 +3627,10 @@
         <spawn npc_id="254569" respawn_time="3600">
             <spot x="2757" y="1436" z="2825.43"/>
         </spawn>
-        <!-- Portal -->
+        <!-- Portal
         <spawn npc_id="700414" respawn_time="295">
             <spot x="883.362" y="3078.53" z="1645.21" static_id="68"/>
-        </spawn>
+        </spawn> -->
         <!-- Portal Statue -->
         <spawn npc_id="700413" respawn_time="295">
             <spot x="2884.74" y="742.906" z="1503.23" static_id="38"/>

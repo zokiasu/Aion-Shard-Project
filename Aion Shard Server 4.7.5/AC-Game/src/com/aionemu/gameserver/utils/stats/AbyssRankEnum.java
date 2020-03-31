@@ -1,32 +1,3 @@
-/**
- * This file is part of Aion-Lightning <aion-lightning.org>.
- *
- *  Aion-Lightning is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  Aion-Lightning is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details. *
- *
- *  You should have received a copy of the GNU General Public License
- *  along with Aion-Lightning.
- *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
- */
 package com.aionemu.gameserver.utils.stats;
 
 import javax.xml.bind.annotation.XmlEnum;
@@ -56,15 +27,15 @@ public enum AbyssRankEnum {
     GRADE2_SOLDIER(8, 1038, 259, 105600, 0, 0, 0, 1802445),
     GRADE1_SOLDIER(9, 1245, 311, 150800, 0, 0, 0, 1802447),
     //Glory Points
-    STAR1_OFFICER(10, 1868, 467, 1244, 1000, 7, 98, 1802449),
-    STAR2_OFFICER(11, 2241, 560, 1368, 700, 14, 189, 1802451),
-    STAR3_OFFICER(12, 2577, 644, 1915, 500, 28, 385, 1802453),
-    STAR4_OFFICER(13, 2964, 741, 3064, 300, 49, 686, 1802455),
-    STAR5_OFFICER(14, 4446, 1511, 5210, 100, 107, 1491, 1802457),
-    GENERAL(15, 4890, 1662, 8335, 30, 119, 1659, 1802459),
-    GREAT_GENERAL(16, 5378, 1828, 10002, 10, 122, 1708, 1802461),
-    COMMANDER(17, 5916, 2011, 11503, 3, 254, 127, 1802463),
-    SUPREME_COMMANDER(18, 7099, 2413, 12437, 1, 147, 2058, 1802465);
+    STAR1_OFFICER(10, 1868, 467, 1244, 1000, 40, 300, 1802449),
+    STAR2_OFFICER(11, 2241, 560, 1368, 700, 60, 400, 1802451),
+    STAR3_OFFICER(12, 2577, 644, 1915, 500, 80, 500, 1802453),
+    STAR4_OFFICER(13, 2964, 741, 3064, 300, 100, 600, 1802455),
+    STAR5_OFFICER(14, 4446, 1511, 5210, 100, 150, 1200, 1802457),
+    GENERAL(15, 4890, 1662, 8335, 30, 170, 1400, 1802459),
+    GREAT_GENERAL(16, 5378, 1828, 10002, 10, 180, 1600, 1802461),
+    COMMANDER(17, 5916, 2011, 11503, 3, 190, 1800, 1802463),
+    SUPREME_COMMANDER(18, 7099, 2413, 12437, 1, 200, 2000, 1802465);
 
     private int id;
     private int pointsGained;
