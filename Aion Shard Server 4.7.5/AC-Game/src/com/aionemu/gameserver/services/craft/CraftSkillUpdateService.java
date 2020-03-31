@@ -113,7 +113,7 @@ public class CraftSkillUpdateService {
         cost.put(99, 17000);
         cost.put(199, 115000);
         cost.put(299, 460000);
-        cost.put(399, 0);
+        cost.put(399, 1000000);
         cost.put(449, 6004900);
         cost.put(499, 12000000);
 
@@ -217,7 +217,7 @@ public class CraftSkillUpdateService {
         }
 
         // You must do quest before being able to buy master update (499 to 500)
-        if (skillLvl == 499
+        /*if (skillLvl == 499
                 && ((skillId == 40001 && (!player.isCompleteQuest(29039) || !player.isCompleteQuest(19039)))
                 || (skillId == 40002 && (!player.isCompleteQuest(29009) || !player.isCompleteQuest(19009)))
                 || (skillId == 40003 && (!player.isCompleteQuest(29015) || !player.isCompleteQuest(19015)))
@@ -227,7 +227,7 @@ public class CraftSkillUpdateService {
                 .isCompleteQuest(29058) || !player.isCompleteQuest(19058))))) {
             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1400286));
             return;
-        }
+        }*/
 
         // There is no Master upgrade for Aether and Essence tapping yet.
         if (skillLvl == 499 && (skillId == 30002 || skillId == 30003)) {
@@ -241,7 +241,7 @@ public class CraftSkillUpdateService {
         RequestResponseHandler responseHandler = new RequestResponseHandler(npc) {
             @Override
             public void acceptRequest(Creature requester, Player responder) {
-                if (price < kinah && responder.getInventory().tryDecreaseKinah(price)) {
+                if (price <= kinah && responder.getInventory().tryDecreaseKinah(price)) {
                     PlayerSkillList skillList = responder.getSkillList();
                     skillList.addSkill(responder, skillId, skillLevel + 1);
                     responder.getRecipeList().autoLearnRecipe(responder, skillId, skillLevel + 1);
