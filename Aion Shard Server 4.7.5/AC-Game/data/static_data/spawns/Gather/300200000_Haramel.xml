@@ -78,23 +78,11 @@
         <spawn npc_id="400602" respawn_time="1">
             <spot x="175.24905" y="17.338175" z="144.22441" h="108"/>
         </spawn>
-        <spawn npc_id="403501" respawn_time="1">
-            <spot x="167.18126" y="16.409016" z="144.2278" h="90"/>
-        </spawn>
-        <spawn npc_id="403002" respawn_time="1">
+        <spawn npc_id="400202" respawn_time="1">
             <spot x="163.7853" y="16.58253" z="144.22975" h="90"/>
         </spawn>
         <spawn npc_id="400901" respawn_time="1">
             <spot x="161.22885" y="16.793098" z="144.2312" h="90"/>
-        </spawn>
-        <spawn npc_id="403001" respawn_time="1">
-            <spot x="160.00775" y="16.760477" z="144.23193" h="90"/>
-        </spawn>
-        <spawn npc_id="403000" respawn_time="1">
-            <spot x="158.5837" y="16.733763" z="144.23277" h="89"/>
-        </spawn>
-        <spawn npc_id="403500" respawn_time="1">
-            <spot x="156.3034" y="16.695223" z="144.23413" h="90"/>
         </spawn>
         <spawn npc_id="400801" respawn_time="1">
             <spot x="153.06473" y="16.5088" z="144.23749" h="89"/>
@@ -108,11 +96,8 @@
         <spawn npc_id="400752" respawn_time="1">
             <spot x="171.22598" y="24.755386" z="144.22577" h="29"/>
         </spawn>
-        <spawn npc_id="400201" respawn_time="1">
-            <spot x="168.43845" y="24.660877" z="144.54971" h="30"/>
-        </spawn>
         <spawn npc_id="400001" respawn_time="1">
-            <spot x="166.18394" y="25.965422" z="144.99393" h="30"/>
+            <spot x="168.63283" y="24.329134" z="144.46126" h="57"/>
         </spawn>
         <spawn npc_id="400051" respawn_time="1">
             <spot x="165.95909" y="25.943829" z="144.96167" h="30"/>
@@ -132,16 +117,16 @@
         <spawn npc_id="400101" respawn_time="0">
             <spot x="143.15582" y="21.31562" z="144.24539" h="0"/>
         </spawn>
-        <spawn npc_id="403503" respawn_time="1">
+        <spawn npc_id="400653" respawn_time="1">
             <spot x="143.16417" y="22.857655" z="144.2455" h="0"/>
         </spawn>
-        <spawn npc_id="403003" respawn_time="1">
+        <spawn npc_id="400604" respawn_time="1">
             <spot x="145.28345" y="26.850908" z="144.24338" h="60"/>
         </spawn>
-        <spawn npc_id="403504" respawn_time="1">
+        <spawn npc_id="400852" respawn_time="1">
             <spot x="145.38078" y="32.054672" z="144.242" h="59"/>
         </spawn>
-        <spawn npc_id="403004" respawn_time="1">
+        <spawn npc_id="400802" respawn_time="1">
             <spot x="145.71649" y="35.148823" z="144.24031" h="59"/>
         </spawn>
         <spawn npc_id="400604" respawn_time="1">
@@ -322,7 +307,7 @@
             <spot x="137.58034" y="91.45216" z="143.84808" h="30"/>
         </spawn>
         <spawn npc_id="401106" respawn_time="1">
-            <spot x="135.91551" y="91.41138" z="143.82895" h="30"/>
+            <spot x="133.91551" y="91.41138" z="143.82895" h="30"/>
         </spawn>
         <spawn npc_id="400455" respawn_time="1">
             <spot x="134.45268" y="88.329865" z="144.02321" h="61"/>
@@ -380,7 +365,6 @@
         </spawn>
         <spawn npc_id="400858" respawn_time="1">
             <spot x="134.65134" y="71.6763" z="143.98857" h="60"/>
-            <spot x="136.56421" y="71.49345" z="144.05423" h="91"/>
         </spawn>
         <spawn npc_id="400310" respawn_time="1">
             <spot x="136.56421" y="71.49345" z="144.05423" h="91"/>
@@ -440,7 +424,7 @@
             <spot x="145.77779" y="132.17972" z="144.24586" h="30"/>
         </spawn>
         <spawn npc_id="400010" respawn_time="1">
-            <spot x="146.08209" y="136.70557" z="144.24586" h="58"/>
+            <spot x="146.08209" y="134.70557" z="144.24586" h="58"/>
         </spawn>
         <spawn npc_id="400312" respawn_time="1">
             <spot x="146.08209" y="136.70557" z="144.24586" h="58"/>
