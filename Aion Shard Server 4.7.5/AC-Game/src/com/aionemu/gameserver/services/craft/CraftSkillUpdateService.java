@@ -205,10 +205,10 @@ public class CraftSkillUpdateService {
         }
 
         // Prevents player from buying expert craft upgrade (399 to 400)
-        if (skillLvl == 399) {
+        /*if (skillLvl == 399) {
             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1300834));
             return;
-        }
+        }*/
 
         // There is no upgrade payment for Essence and Aether tapping at 449, skip.
         if (skillLvl == 449 && (skillId == 30002 || skillId == 30003)) {
