@@ -19,7 +19,7 @@
  * Credits goes to all Open Source Core Developer Groups listed below
  * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
  * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * Everybody knows that this Emulator Core was developed by Aion Lightning
  * @-Aion-Unique-
  * @-Aion-Lightning
  * @Aion-Engine
@@ -45,6 +45,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_WINDSTREAM;
 import com.aionemu.gameserver.questEngine.QuestEngine;
 import com.aionemu.gameserver.questEngine.model.QuestEnv;
 import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.controllers.FlyController;
 
 public class CM_WINDSTREAM extends AionClientPacket {
 
@@ -74,6 +75,7 @@ public class CM_WINDSTREAM extends AionClientPacket {
     @Override
     protected void runImpl() {
         Player player = getConnection().getActivePlayer();
+        log.error("State is " + state + " was found!");
         switch (state) {
             case 0:
             case 4:
@@ -86,19 +88,40 @@ public class CM_WINDSTREAM extends AionClientPacket {
                 } else if (state == 8) { // end boost
                     PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.WINDSTREAM_END_BOOST, 0, 0), true);
                 }
+
                 PacketSendUtility.sendPacket(player, new SM_WINDSTREAM(state, 1));
+
+                if(player.isInState(CreatureState.FLYING)){
+                    log.error("State is " + state + " was found!");
+                    player.getFlyController().endFly(true);
+                    player.setState(CreatureState.GLIDING);
+                    player.getLifeStats().triggerFpReduce();
+                } /*else if(player.isInState(CreatureState.GLIDING)){
+                    player.unsetState(CreatureState.GLIDING);
+                }*/
                 break;
             case 1:
                 if (!player.isInState(CreatureState.GLIDING) || player.isInPlayerMode(PlayerMode.WINDSTREAM)) {
                     return;
                 }
+
+                if(player.isInState(CreatureState.FLYING)){
+                    player.getFlyController().endFly(true);
+                    player.setState(CreatureState.GLIDING);
+                    player.getLifeStats().triggerFpReduce();
+                    player.getGameStats().updateStatsAndSpeedVisually();
+                }
+
                 player.setPlayerMode(PlayerMode.WINDSTREAM, new WindstreamPath(teleportId, distance));
                 player.unsetState(CreatureState.ACTIVE);
                 player.unsetState(CreatureState.GLIDING);
-                player.setState(CreatureState.FLYING);
                 PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.WINDSTREAM, teleportId, distance), true);
                 player.getLifeStats().triggerFpRestore();
                 QuestEngine.getInstance().onEnterWindStream(new QuestEnv(null, player, 0, 0), teleportId);
+
+                /*player.getFlyController().endFly(true);
+                player.unsetState(CreatureState.ACTIVE);
+                player.getGameStats().updateStatsAndSpeedVisually();*/
                 break;
             case 2:
             case 3:
@@ -115,6 +138,9 @@ public class CM_WINDSTREAM extends AionClientPacket {
                 player.getGameStats().updateStatsAndSpeedVisually();
                 PacketSendUtility.sendPacket(player, new SM_WINDSTREAM(state, 1));
                 player.unsetPlayerMode(PlayerMode.WINDSTREAM);
+                //player.getGameStats().updateStatsAndSpeedVisually();
+                //player.getGameStats().updateStatsAndSpeedVisually();
+
                 break;
             default:
                 log.error("Unknown Windstream state #" + state + " was found!");
