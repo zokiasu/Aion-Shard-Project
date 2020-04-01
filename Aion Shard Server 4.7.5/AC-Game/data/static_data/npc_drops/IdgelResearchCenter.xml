@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_drops>
+
+    <!-- Sheban Research Supervisor -->
+    <npc_drop npc_id="233266">
+        <drop_group name="" use_category="false" race="PC_ALL">
+            <drop item_id="185000171" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Research Center Key -->
+        </drop_group>
+    </npc_drop>
+    <!-- Suspicious Pot -->
+    <npc_drop npc_id="230105">
+        <drop_group name="" use_category="false" race="PC_ALL">
+            <drop item_id="185000171" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Research Center Key -->
+        </drop_group>
+    </npc_drop>
+</npc_drops>

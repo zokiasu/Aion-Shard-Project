@@ -230,7 +230,7 @@ public class VoidCubeSoloInstance extends GeneralInstanceHandler {
                 AbyssPointsService.addAp(player, (int) rewardAp); // Abyss Points.
                 if (instanceReward.getPoints() >= 5700) {
                     instanceReward.setSillus((int) rewardSillus);
-                    ItemService.addItem(player, 186000239, (int) rewardSillus); // Sillus Crest.
+                    ItemService.addItem(player, 186000240, (int) rewardSillus); // Silona Crest.
                     instanceReward.setCeramium((int) rewardCeramium);
                     ItemService.addItem(player, 186000242, (int) rewardCeramium); // Ceramium Medal.
                 }

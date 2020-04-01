@@ -7,14 +7,14 @@
                     <spawn npc_id="700079" respawn_time="295">
                         <spot x="1417.733765" y="692.670349" z="123.661591"/>
                     </spawn>
-                    <!-- Void Cube Asmodians Entrance (Solo) -->
+                    <!-- Void Cube Asmodians Entrance (Solo)
                     <spawn npc_id="730728" respawn_time="295">
                         <spot x="1433.3629" y="672.8546" z="122.29828" h="30"/>
-                    </spawn>
-                    <!-- Void Cube Asmodians Entrance (Legion) -->
+                    </spawn> -->
+                    <!-- Void Cube Asmodians Entrance (Legion)
                     <spawn npc_id="730853" respawn_time="295">
                         <spot x="1430.0004" y="673.51624" z="122.29828" h="30"/>
-                    </spawn>
+                    </spawn> -->
                     <spawn npc_id="800571" respawn_time="295">
                         <spot x="1494.174" y="775.4955" z="93.054924" h="78"/>
                     </spawn>
@@ -632,14 +632,14 @@
                     <spawn npc_id="700000" respawn_time="295">
                         <spot x="1417.733765" y="692.670349" z="123.661591"/>
                     </spawn>
-                    <!-- Void Cube 4.3 Elyos Entrance (Solo) -->
+                    <!-- Void Cube 4.3 Elyos Entrance (Solo)
                     <spawn npc_id="730727" respawn_time="295">
                         <spot x="1433.3629" y="672.8546" z="122.29828" h="30"/>
-                    </spawn>
-                    <!-- Void Cube 4.3 Elyos Entrance (Legion) -->
+                    </spawn> -->
+                    <!-- Void Cube 4.3 Elyos Entrance (Legion)
                     <spawn npc_id="730852" respawn_time="295">
                         <spot x="1430.0004" y="673.51624" z="122.29828" h="30"/>
-                    </spawn>
+                    </spawn> -->
                     <spawn npc_id="800569" respawn_time="295">
                         <spot x="1494.2092" y="775.4969" z="93.054924" h="78"/>
                     </spawn>

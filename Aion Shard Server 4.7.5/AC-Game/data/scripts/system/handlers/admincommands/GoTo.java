@@ -562,7 +562,7 @@ public class GoTo extends AdminCommand {
         }/**
          * 4.0 fortress
          */
-        else if (destination.equalsIgnoreCase("Silus") || destination.equalsIgnoreCase("5011")) {
+        else if (destination.equalsIgnoreCase("Sillus") || destination.equalsIgnoreCase("5011")) {
             goTo(player, 600050000, 2019, 1752, 308);
         } else if (destination.equalsIgnoreCase("Bassen") || destination.equalsIgnoreCase("6011")) {
             goTo(player, 600060000, 1472, 740, 67);

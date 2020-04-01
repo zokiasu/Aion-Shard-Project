@@ -50,8 +50,8 @@ public class UnstableDayshadeAI2 extends AggressiveNpcAI2 {
         super.handleAttack(creature);
         if (isHome.compareAndSet(true, false)) {
             AI2Actions.dieSilently(this, creature);
-            spawn(219940, 455.5502f, 702.09485f, 433.13727f, (byte) 108); // ebonsoul
-            spawn(219939, 447.1937f, 683.72217f, 433.1805f, (byte) 108); // rukril
+            spawn(281898, 455.5502f, 702.09485f, 433.13727f, (byte) 108); // ebonsoul
+            spawn(281897, 447.1937f, 683.72217f, 433.1805f, (byte) 108); // rukril
             AI2Actions.deleteOwner(UnstableDayshadeAI2.this);
         }
     }

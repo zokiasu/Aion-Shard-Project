@@ -1242,10 +1242,10 @@
         <spawn npc_id="798459" respawn_time="295">
             <spot h="0" x="1600.8942" y="1380.1758" z="193.12837"/>
         </spawn>
-        <!-- Raninerk -->
+        <!-- Raninerk Steel Rake
         <spawn npc_id="798379" respawn_time="295">
             <spot h="93" x="949.60156" y="1156.7753" z="195.88034"/>
-        </spawn>
+        </spawn> -->
         <!-- Rebert -->
         <spawn npc_id="204131" respawn_time="295">
             <spot h="75" x="1030.701" y="1460.2714" z="213.48361" walker_id="12001000047"/>
@@ -1306,10 +1306,10 @@
         <spawn npc_id="800450" respawn_time="295">
             <spot h="60" x="1151.4924" y="1382.369" z="210.02248"/>
         </spawn>
-        <!-- Sarurinrinerk -->
+        <!-- Sarurinrinerk Steel Rake
         <spawn npc_id="798463" respawn_time="295">
             <spot h="93" x="953.8491" y="1157.7992" z="195.88034"/>
-        </spawn>
+        </spawn> -->
         <!-- Sehamm -->
         <spawn npc_id="204195" respawn_time="295">
             <spot h="90" x="1210.8018" y="1390.7766" z="208.125" walker_id="12001000042"/>

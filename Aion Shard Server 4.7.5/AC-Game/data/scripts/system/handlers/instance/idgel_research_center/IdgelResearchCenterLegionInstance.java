@@ -19,7 +19,7 @@
  * Credits goes to all Open Source Core Developer Groups listed below
  * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
  * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * Everybody knows that this Emulator Core was developed by Aion Lightning
  * @-Aion-Unique-
  * @-Aion-Lightning
  * @Aion-Engine
@@ -96,41 +96,55 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
         switch (npcId) {
             case 230119: // Reian Victim.
                 points = 20;
-                sendMsg(1401924); // Reian Victim Die.
                 despawnNpc(npc);
-                if (getNpcs(230119).isEmpty()) { // Reian Victim.
-                    sendMsg(1401925); // All Reian Victim Die.
-                }
                 break;
-            case 284025: // Encrusted Sparkle.
-                points = 100;
+            case 230117: // Encrusted Sparkle.
+                points = 80;
+                despawnNpc(npc);
                 break;
-            case 284018: // Unmaker.
-            case 284028: // Sheban Drakan Bladesman.
-                points = 200;
-                break;
-            case 284020: // Purifying Sweetsteppe.
+            case 230110: // Unmaker.
                 points = 350;
+                despawnNpc(npc);
                 break;
-            case 284014: // Flame Beast.
-            case 284015: // Marabata The Furious.
-            case 284021: // Weaponized Ragnarok.
+            case 230120: // Sheban Drakan Bladesman.
+                points = 200;
+                despawnNpc(npc);
+                break;
+            case 230112: // Purifying Sweetsteppe.
+                points = 350;
+                despawnNpc(npc);
+                break;
+            case 230106: // Flame Beast.
+                points = 500;
+                despawnNpc(npc);
+                break;
+            case 230107: // Marabata The Furious.
+                points = 350;
+                despawnNpc(npc);
+                break;
+            case 230113: // Weaponized Ragnarok.
             case 230114: // Reforged RA-45C.
             case 230115: // Evolved Scar.
-            case 284024: // Chieftain Sukka.
+            case 230116: // Chieftain Sukka.
                 points = 400;
+                despawnNpc(npc);
                 break;
-            case 284016: // Lighning Engine.
+            case 230108: // Lighning Engine.
+                points = 500;
+                despawnNpc(npc);
                 stopInstance(player);
                 break;
-            case 284019: // Darkcaller Macunbello.
+            case 230111: // Darkcaller Macunbello.
                 points = 500;
+                despawnNpc(npc);
                 break;
-            case 284029: // Retributive Effigy.
+            case 230121: // Retributive Effigy.
                 points = 600;
+                despawnNpc(npc);
                 break;
             case 233266: // Sheban Research Supervisor.
                 points = 1000;
+                despawnNpc(npc);
                 break;
         }
         if (instanceReward.getInstanceScoreType().isStartProgress()) {
@@ -213,7 +227,7 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 stopInstance(player);
                 spawn(730730, 571.1385f, 444.94006f, 102.65536f, (byte) 30); // Idgel Research Center Exit
             }
-        }, 660000); //10 Minutes
+        }, 660000); // 10 Minutes
     }
 
     protected void stopInstance(Player player) {
@@ -286,6 +300,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230112, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230113, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230116, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 2:
                 spawn(230107, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -296,6 +312,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230113, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230116, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230106, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 3:
                 spawn(230108, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -306,6 +324,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230116, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230106, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230107, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 4:
                 spawn(230110, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -316,6 +336,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230106, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230107, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230108, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 5:
                 spawn(230111, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -326,6 +348,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230107, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230108, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230110, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 6:
                 spawn(230112, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -336,6 +360,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230108, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230110, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230111, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 7:
                 spawn(230113, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -346,6 +372,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230110, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230111, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230112, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
             case 8:
                 spawn(230116, 667.11957f, 467.81067f, 102.64f, (byte) 60); // Flame Beast.
@@ -356,6 +384,8 @@ public class IdgelResearchCenterLegionInstance extends GeneralInstanceHandler {
                 spawn(230111, 480.6027f, 430.0258f, 102.64236f, (byte) 6); // Purifying Sweetsteppe.
                 spawn(230112, 625.61334f, 432.30984f, 97.20597f, (byte) 68); // Weaponized Ragnarok.
                 spawn(230113, 611.28925f, 502.32315f, 102.68871f, (byte) 65); // Chieftain Sukka.
+
+                spawn(230121, 642.5346f, 506.89136f, 102.523834f, (byte) 81); // Retributive Effigy.
                 break;
         }
     }

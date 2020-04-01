@@ -5729,43 +5729,43 @@
     </world>
     <!-- Idgel Research Center -->
     <world world="300530000">
-        <staticdoor doorid="32" x="558.8129" y="495.1578" z="102.8886" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="32" keyid="185000171" x="558.8129" y="495.1578" z="102.8886" mesh="ldf5re_02_door3.cga">
             <box x1="553.2438" y1="494.70752" z1="100.290726" x2="564.3636" y2="495.615875" z2="113.034546"/>
         </staticdoor>
-        <staticdoor doorid="9" x="586.9631" y="490.265564" z="102.752136" mesh="ldf5re_02_door1.cga">
+        <staticdoor doorid="9" keyid="185000171" x="586.9631" y="490.265564" z="102.752136" mesh="ldf5re_02_door1.cga">
             <box x1="581.493958" y1="488.173981" z1="100.154266" x2="592.404" y2="492.3283" z2="112.898087"/>
         </staticdoor>
-        <staticdoor doorid="40" x="598.7687" y="501.0503" z="102.832413" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="40" keyid="185000171" x="598.7687" y="501.0503" z="102.832413" mesh="ldf5re_02_door3.cga">
             <box x1="596.522461" y1="495.63797" z1="100.234543" x2="601.0015" y2="506.447662" z2="112.978363"/>
         </staticdoor>
-        <staticdoor doorid="42" x="633.7687" y="487.408234" z="102.7594" mesh="ldf5re_02_door1.cga">
+        <staticdoor doorid="42" keyid="185000171" x="633.7687" y="487.408234" z="102.7594" mesh="ldf5re_02_door1.cga">
             <box x1="628.1995" y1="486.9181" z1="100.16153" x2="639.319336" y2="487.862579" z2="112.90535"/>
         </staticdoor>
-        <staticdoor doorid="43" x="649.1707" y="467.468567" z="102.554314" mesh="ldf5re_02_door1.cga">
+        <staticdoor doorid="43" keyid="185000171" x="649.1707" y="467.468567" z="102.554314" mesh="ldf5re_02_door1.cga">
             <box x1="648.680542" y1="461.9179" z1="99.9564362" x2="649.625061" y2="473.0377" z2="112.700256"/>
         </staticdoor>
-        <staticdoor doorid="45" x="615.238" y="428.097534" z="97.1927261" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="45" keyid="185000171" x="615.238" y="428.097534" z="97.1927261" mesh="ldf5re_02_door3.cga">
             <box x1="612.821167" y1="422.734131" z1="94.59485" x2="617.6542" y2="433.4409" z2="107.338669"/>
         </staticdoor>
-        <staticdoor doorid="46" x="600.5418" y="410.5032" z="97.33266" mesh="ldf5re_02_door1.cga">
+        <staticdoor doorid="46" keyid="185000171" x="600.5418" y="410.5032" z="97.33266" mesh="ldf5re_02_door1.cga">
             <box x1="595.184143" y1="408.089844" z1="94.73479" x2="605.9039" y2="412.9566" z2="107.478607"/>
         </staticdoor>
-        <staticdoor doorid="48" x="534.245056" y="441.839417" z="102.775879" mesh="ldf5re_02_door2.cga">
+        <staticdoor doorid="48" keyid="185000171" x="534.245056" y="441.839417" z="102.775879" mesh="ldf5re_02_door2.cga">
             <box x1="528.7483" y1="440.580872" z1="100.003143" x2="539.7526" y2="443.058319" z2="112.66983"/>
         </staticdoor>
-        <staticdoor doorid="49" x="499.938324" y="447.052155" z="102.831444" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="49" keyid="185000171" x="499.938324" y="447.052155" z="102.831444" mesh="ldf5re_02_door3.cga">
             <box x1="494.3692" y1="446.601868" z1="100.233566" x2="505.489" y2="447.510223" z2="112.977386"/>
         </staticdoor>
-        <staticdoor doorid="50" x="492.2838" y="433.073273" z="103.030479" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="50" keyid="185000171" x="492.2838" y="433.073273" z="103.030479" mesh="ldf5re_02_door3.cga">
             <box x1="491.833527" y1="427.522583" z1="100.4326" x2="492.741882" y2="438.6424" z2="113.176422"/>
         </staticdoor>
-        <staticdoor doorid="1" x="493.499542" y="467.505219" z="102.75412" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="1" keyid="185000171" x="493.499542" y="467.505219" z="102.75412" mesh="ldf5re_02_door3.cga">
             <box x1="493.049255" y1="461.954529" z1="100.15625" x2="493.9576" y2="473.074341" z2="112.90007"/>
         </staticdoor>
-        <staticdoor doorid="53" x="506.223633" y="515.565735" z="109.6886" mesh="ldf5re_02_door3.cga">
+        <staticdoor doorid="53" keyid="185000171" x="506.223633" y="515.565735" z="109.6886" mesh="ldf5re_02_door3.cga">
             <box x1="504.439423" y1="510.071045" z1="107.090729" x2="508.0109" y2="521.080261" z2="119.834549"/>
         </staticdoor>
-        <staticdoor doorid="54" x="523.2677" y="530.4549" z="109.71534" mesh="ldf5re_02_door1.cga">
+        <staticdoor doorid="54" keyid="185000171" x="523.2677" y="530.4549" z="109.71534" mesh="ldf5re_02_door1.cga">
             <box x1="517.7391" y1="528.724548" z1="107.117462" x2="528.7863" y2="532.14624" z2="119.861282"/>
         </staticdoor>
     </world>

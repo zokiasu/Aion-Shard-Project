@@ -126,22 +126,20 @@ public class DanuarMysticariumSoloInstance extends GeneralInstanceHandler {
             case 272762: // Sturdy Balaur Pickets
                 despawnNpc(npc);
                 break;
-        }
-        if (!isInstanceDestroyed && instanceReward.getInstanceScoreType().isStartProgress()) {
-            instanceReward.addNpcKill();
-            instanceReward.addPoints(rewardetPoints);
-            sendSystemMsg(player, npc, rewardetPoints);
-            sendPacket(rewardetPoints);
-        }
-        switch (npc.getNpcId()) {
             case 230080: // Sheban intelligence Inspector
             case 230081: // Sheban Intelligence Captain
                 stopInstance(player);
                 break;
             case 233253: // Berserk Chairman Nautius
             case 233254: // Frenzied Chairman Nautius
-                spawn(701572, 558.2879f, 414.86456f, 96.81003f, (byte) 40, 67); // Exit
+                spawn(701572, 556.48193f, 415.69165f, 96.81002f, (byte) 37); // Exit
                 break;
+        }
+        if (!isInstanceDestroyed && instanceReward.getInstanceScoreType().isStartProgress()) {
+            instanceReward.addNpcKill();
+            instanceReward.addPoints(rewardetPoints);
+            sendSystemMsg(player, npc, rewardetPoints);
+            sendPacket(rewardetPoints);
         }
     }
 
@@ -356,11 +354,12 @@ public class DanuarMysticariumSoloInstance extends GeneralInstanceHandler {
         int npcId = npc.getNpcId();
         switch (npcId) {
             case 230066:
-                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000127, 1));
+                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000127, 2));
                 break;
             case 230080:
             case 230081:
                 dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000165, 1));
+                break;
         }
     }
 

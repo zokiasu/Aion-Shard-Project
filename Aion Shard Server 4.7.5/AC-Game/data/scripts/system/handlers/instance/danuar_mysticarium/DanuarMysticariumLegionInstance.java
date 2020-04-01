@@ -126,22 +126,20 @@ public class DanuarMysticariumLegionInstance extends GeneralInstanceHandler {
             case 272762: // Sturdy Balaur Pickets
                 despawnNpc(npc);
                 break;
-        }
-        if (!isInstanceDestroyed && instanceReward.getInstanceScoreType().isStartProgress()) {
-            instanceReward.addNpcKill();
-            instanceReward.addPoints(rewardetPoints);
-            sendSystemMsg(player, npc, rewardetPoints);
-            sendPacket(rewardetPoints);
-        }
-        switch (npc.getNpcId()) {
             case 230080: // Sheban intelligence Inspector
             case 230081: // Sheban Intelligence Captain
                 stopInstance(player);
                 break;
             case 233253: // Berserk Chairman Nautius
             case 233254: // Frenzied Chairman Nautius
-                spawn(701572, 558.2879f, 414.86456f, 96.81003f, (byte) 40, 67); // Exit
+                spawn(701572, 556.48193f, 415.69165f, 96.81002f, (byte) 37); // Exit
                 break;
+        }
+        if (!isInstanceDestroyed && instanceReward.getInstanceScoreType().isStartProgress()) {
+            instanceReward.addNpcKill();
+            instanceReward.addPoints(rewardetPoints);
+            sendSystemMsg(player, npc, rewardetPoints);
+            sendPacket(rewardetPoints);
         }
     }
 
@@ -193,15 +191,15 @@ public class DanuarMysticariumLegionInstance extends GeneralInstanceHandler {
     private int checkRank(int totalPoints) {
         int timeRemain = getTime();
 
-        if (timeRemain >= 1080000 && totalPoints >= 30481) {
+        if (timeRemain >= 1080000 && totalPoints >= 29911) {
             rank = 1; // S
-        } else if (timeRemain >= 960000 && totalPoints >= 22252) {
+        } else if (timeRemain >= 960000 && totalPoints >= 21682) {
             rank = 2; // A
-        } else if (timeRemain >= 840000 && totalPoints >= 15394) {
+        } else if (timeRemain >= 840000 && totalPoints >= 14824) {
             rank = 3; // B
-        } else if (timeRemain >= 360000 && totalPoints >= 9908) {
+        } else if (timeRemain >= 360000 && totalPoints >= 9338) {
             rank = 4; // C
-        } else if (timeRemain >= 120000 && totalPoints >= 7165) {
+        } else if (timeRemain >= 120000 && totalPoints >= 6595) {
             rank = 5; // D
         } else if (timeRemain > 1) {
             rank = 6; // F
@@ -356,11 +354,12 @@ public class DanuarMysticariumLegionInstance extends GeneralInstanceHandler {
         int npcId = npc.getNpcId();
         switch (npcId) {
             case 230066:
-                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000127, 1));
+                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000127, 2));
                 break;
             case 230080:
             case 230081:
                 dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000165, 1));
+                break;
         }
     }
 

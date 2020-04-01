@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_drops>
+    <!-- Danuar Mysticarium Archive -->
+    <npc_drop npc_id="230076">
+        <drop_group name="MANASTONE">
+            <drop item_id="188052199" chance="25.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+    </npc_drop>
+    <!-- Berserk Chairman Nautius -->
+    <npc_drop npc_id="233253">
+        <drop_group name="STIGMA">
+            <drop item_id="188052679" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group name="STIGMA_SUP" use_category="false" race="ELYOS">
+            <drop item_id="188052544" chance="75.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group name="STIGMA_SUP" use_category="false" race="ASMODIANS">
+            <drop item_id="188052545" chance="75.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group name="TEMPERING_SOLUTION">
+            <drop item_id="166030005" chance="0.01" min_amount="1" max_amount="1"/>
+        </drop_group>
+    </npc_drop>
+    <!-- Frenzied Chairman Nautius -->
+    <npc_drop npc_id="233254">
+        <drop_group name="STIGMA">
+            <drop item_id="188052679" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group name="STIGMA_SUP" use_category="false" race="ELYOS">
+            <drop item_id="188052544" chance="75.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group name="STIGMA_SUP" use_category="false" race="ASMODIANS">
+            <drop item_id="188052545" chance="75.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+        <drop_group name="TEMPERING_SOLUTION">
+            <drop item_id="166030005" chance="0.01" min_amount="1" max_amount="1"/>
+        </drop_group>
+    </npc_drop>
+</npc_drops>

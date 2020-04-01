@@ -7555,38 +7555,38 @@
         <spawn npc_id="802454" respawn_time="295">
                 <spot x="1348.6854" y="2975.2473" z="215.42696" h="90"/>
         </spawn>
-		<!-- Dirinerk -->
+		<!-- Dirinerk Steel Rose
 		<spawn npc_id="804488" respawn_time="295">
 			<spot x="251.17543" y="499.48126" z="259.03723" h="50"/>
-		</spawn>
-		<!-- Yurunerk -->
+		</spawn> -->
+		<!-- Yurunerk Steel Rose
 		<spawn npc_id="804489" respawn_time="295">
 			<spot x="242.61377" y="509.85208" z="259.03723" h="79"/>
-		</spawn>
-		<!-- Carinerk -->
+		</spawn> -->
+		<!-- Carinerk Steel Rose
 		<spawn npc_id="804490" respawn_time="295">
 			<spot x="246.28226" y="507.64322" z="259.03723" h="78"/>
-		</spawn>
-		<!-- Jarinerk -->
+		</spawn> -->
+		<!-- Jarinerk Steel Rose
 		<spawn npc_id="804491" respawn_time="295">
 			<spot x="249.27092" y="505.69778" z="259.03723" h="78"/>
-		</spawn>
-		<!-- Fuurinerk -->
+		</spawn> -->
+		<!-- Fuurinerk
 		<spawn npc_id="801292" respawn_time="295">
 			<spot x="213.46887" y="2768.3616" z="142.06807" h="84"/>
-		</spawn>
-		<!-- Yukarunerk -->
+		</spawn> -->
+		<!-- Yukarunerk
 		<spawn npc_id="801552" respawn_time="295">
 			<spot x="215.00157" y="2756.2324" z="142.06807" h="38"/>
-		</spawn>
-		<!-- Kikorinrinerk -->
+		</spawn> -->
+		<!-- Kikorinrinerk
 		<spawn npc_id="801553" respawn_time="295">
 			<spot x="208.44574" y="2756.4055" z="142.06807" h="17"/>
-		</spawn>
-		<!-- Tocharunerk -->
+		</spawn> -->
+		<!-- Tocharunerk
 		<spawn npc_id="801554" respawn_time="295">
 			<spot x="204.96362" y="2761.0266" z="142.06807" h="1"/>
-		</spawn>
+		</spawn> -->
 		<!-- Katalam Base Balaur Sub Spawns -->
 		<!-- Occupation Vanguard Rider -->
         <spawn npc_id="233232" respawn_time="295">

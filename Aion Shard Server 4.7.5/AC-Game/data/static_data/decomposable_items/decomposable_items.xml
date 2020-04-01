@@ -21929,7 +21929,34 @@
             </items>
         </decomposable>
         <decomposable item_id="188052678" decomposable_name="[Event] Alchemist's Pouch"/>
-        <decomposable item_id="188052679" decomposable_name="[Growth] Stigma Bundle"/>
+        <decomposable item_id="188052679" decomposable_name="[Growth] Stigma Bundle">
+            <items>
+                <item id="140000691" name="Fettertwine I" player_class="GLADIATOR"/>
+                <item id="140000693" name="Punishing Thrust I" player_class="TEMPLAR"/>
+                <item id="140000696" name="Searching Strike I" player_class="ASSASSIN"/>
+                <item id="140000694" name="Dilation Arrow I" player_class="RANGER"/>
+                <item id="140000692" name="Somnolence I" player_class="SORCERER"/>
+                <item id="140000752" name="Absorb Vitality IX" player_class="SPIRIT_MASTER"/>
+                <item id="140000700" name="Leaping Flash I" player_class="CHANTER"/>
+                <item id="140000699" name="Retribution Lightning I" player_class="CLERIC"/>
+                <item id="140000862" name="Song of Sanctuary I" player_class="BARD"/>
+                <item id="140000940" name="Frozen Blitz VI" player_class="GUNNER"/>
+                <item id="140001038" name="Leeching Steel I" player_class="RIDER"/>
+            </items>
+            <items>
+                <item id="140000713" name="Vengeful Strike VII" player_class="GLADIATOR"/>
+                <item id="140000693" name="Punishing Thrust I" player_class="TEMPLAR"/>
+                <item id="140000784" name="Sigil Strike IX" player_class="ASSASSIN"/>
+                <item id="140000708" name="Dauntless Spirit VI" player_class="RANGER"/>
+                <item id="140000692" name="Somnolence I" player_class="SORCERER"/>
+                <item id="140000701" name="Command: Bodyguard I" player_class="SPIRIT_MASTER"/>
+                <item id="140000700" name="Leaping Flash I" player_class="CHANTER"/>
+                <item id="140000699" name="Retribution Lightning I" player_class="CLERIC"/>
+                <item id="140000862" name="Song of Sanctuary I" player_class="BARD"/>
+                <item id="140000981" name="Missile Guide I" player_class="GUNNER"/>
+                <item id="140001038" name="Leeching Steel I" player_class="RIDER"/>
+            </items>
+        </decomposable>
         <decomposable item_id="188052680" decomposable_name="[Growth] Shiny Stigma Bundle"/>
         <decomposable item_id="188052681" decomposable_name="Reward Box of Ophidan Victory">
             <items>

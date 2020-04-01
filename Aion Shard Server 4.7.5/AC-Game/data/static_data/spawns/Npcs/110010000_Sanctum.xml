@@ -71,10 +71,10 @@
         <spawn npc_id="203823" respawn_time="295">
             <spot h="113" x="1929.5159" y="1428.415" z="590.242"/>
         </spawn>
-        <!-- Amirinrinerk -->
+        <!-- Amirinrinerk
         <spawn npc_id="798462" respawn_time="295">
             <spot h="53" x="1867.7896" y="2062.1948" z="517.9072"/>
-        </spawn>
+        </spawn> -->
         <!-- Amis -->
         <spawn npc_id="798439" respawn_time="295">
             <spot h="40" x="1566.6324" y="1431.7997" z="573.0368"/>
@@ -1178,12 +1178,12 @@
         <spawn npc_id="798357" respawn_time="295">
             <spot h="60" x="1888.35" y="1495.92" z="591.11"/>
         </spawn>
-        <spawn npc_id="798378" respawn_time="295">
+        <!--<spawn npc_id="798378" respawn_time="295">
             <spot h="06" x="1869.87" y="2067.41" z="518.91"/>
         </spawn>
         <spawn npc_id="798462" respawn_time="295">
             <spot h="06" x="1867.77" y="2062.23" z="518.91"/>
-        </spawn>
+        </spawn>-->
         <spawn npc_id="798418" respawn_time="295">
             <spot h="48" x="1613.63" y="1463.63" z="575.00"/>
         </spawn>

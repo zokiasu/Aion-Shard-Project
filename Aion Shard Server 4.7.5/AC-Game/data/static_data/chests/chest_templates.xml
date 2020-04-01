@@ -1114,6 +1114,10 @@
     </chest>
     <!-- Unstable Splinter -->
     <!-- Abyssal Treasure Chest -->
+    <chest npcid="701574">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
+    <!-- Abyssal Treasure Chest -->
     <chest npcid="701575">
         <keyitem id="1" itemid="0" quantity="1"/>
     </chest>
