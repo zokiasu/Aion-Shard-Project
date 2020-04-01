@@ -122,13 +122,10 @@ public class DanuarMysticariumSoloInstance extends GeneralInstanceHandler {
             case 230080: // Sheban intelligence Inspector
             case 230081: // Sheban Intelligence Captain
                 rewardetPoints = 3051;
+                stopInstance(player);
                 break;
             case 272762: // Sturdy Balaur Pickets
                 despawnNpc(npc);
-                break;
-            case 230080: // Sheban intelligence Inspector
-            case 230081: // Sheban Intelligence Captain
-                stopInstance(player);
                 break;
             case 233253: // Berserk Chairman Nautius
             case 233254: // Frenzied Chairman Nautius
