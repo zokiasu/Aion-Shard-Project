@@ -231,12 +231,16 @@ public class FortressSiege extends Siege<FortressLocation> {
                 @Override
                 public void run() {
                     for (VisibleObject vo : AhserionTeleporter.values()) {
+                        Npc npc = (Npc) vo;
+                        if(npc.getNpcId() == 297273){
+                            announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter is now missing.");
+                        }
                         vo.getController().onDelete();
                     }
                     AhserionTeleporter.clear();
-                    announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter is now missing.");
                 }
-            }, 3600 * 1000);
+            //}, 3600 * 1000);
+            }, 60000);
 
         } else if( (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)
                 && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ELYOS)) ) {
@@ -260,15 +264,13 @@ public class FortressSiege extends Siege<FortressLocation> {
                 @Override
                 public void run() {
                     for (VisibleObject vo : AhserionTeleporter.values()) {
-                        if (vo != null) {
-                            Npc npc = (Npc) vo;
-                            if (!npc.getLifeStats().isAlreadyDead()) {
-                                npc.getController().onDelete();
-                            }
+                        Npc npc = (Npc) vo;
+                        if(npc.getNpcId() == 297274){
+                            announceEveryOne("Ahserion", "Ahserion's Elyos teleporter is now missing.");
                         }
+                        vo.getController().onDelete();
                     }
                     AhserionTeleporter.clear();
-                    announceEveryOne("Ahserion", "Ahserion's Elyos teleporter is now missing.");
                 }
             }, 3600 * 1000);
         }

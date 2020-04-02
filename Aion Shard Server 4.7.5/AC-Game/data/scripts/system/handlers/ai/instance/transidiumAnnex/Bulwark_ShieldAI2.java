@@ -63,7 +63,7 @@ public class Bulwark_ShieldAI2 extends NpcAI2
 				//The effect of the Transidium Annex has weakened the Bulwark Shield.
 				PacketSendUtility.npcSendPacketTime(getOwner(), SM_SYSTEM_MESSAGE.STR_MSG_GAB1_SUB_ALARM_12, 0);
 			}
-		}, 1800000); //...30 Minutes.
+		}, 1000); //...30 Minutes.
 	}
 	
 	@Override

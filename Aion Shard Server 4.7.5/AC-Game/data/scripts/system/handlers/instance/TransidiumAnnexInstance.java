@@ -33,12 +33,25 @@ public class TransidiumAnnexInstance extends GeneralInstanceHandler {
 	private int transidiumAnnexBase;
 	private Map<Integer, StaticDoor> doors;
 	protected boolean isInstanceDestroyed = false;
+	private int numberBossDie = 0;
 	
 	public void onDropRegistered(Npc npc) {
 		Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
 		int npcId = npc.getNpcId();
 		int index = dropItems.size() + 1;
 		switch (npcId) {
+			case 234564:
+			case 234570:
+			case 234571:
+			case 234572:
+				for (Player player: instance.getPlayersInside()) {
+					if (player.isOnline()) {
+						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 166030005, 1)); //Tempering Stone.
+						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 166020000, 1)); //Omega Enchantment Stone.
+						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188053618, 1)); //Honorable Elim's Idian Bundle.
+					}
+				}
+				break;
 			case 277224: //Ahserion.
 				for (Player player: instance.getPlayersInside()) {
 				    if (player.isOnline()) {
@@ -99,183 +112,18 @@ public class TransidiumAnnexInstance extends GeneralInstanceHandler {
 	
 	@Override
     public void onDie(Npc npc) {
-		Player mostPlayerDamage = npc.getAggroList().getMostPlayerDamage();
-        if (mostPlayerDamage == null) {
-            return;
-        }
-		Race race = mostPlayerDamage.getRace();
 		switch (npc.getObjectTemplate().getTemplateId()) {
-			//Belus Advance Corridor Shield.
-			case 297306:
-				//The Belus Advance Corridor Shield has been destroyed.
-				//The Daevas from the Belus camp have returned to the Arcadian Fortress.
-				sendMsgByRace(1402270, Race.PC_ALL, 2000);
-				//The Advance Corridor Shield will disappear soon.
-				sendMsgByRace(1402641, Race.PC_ALL, 7000);
-				//You will return to the fortress soon.
-				sendMsgByRace(1402642, Race.PC_ALL, 12000);
-				ThreadPoolManager.getInstance().schedule(new Runnable() {
-					@Override
-					public void run() {
-						instance.doOnAllPlayers(new Visitor<Player>() {
-							@Override
-							public void visit(Player player) {
-								//[Arcadian Fortress]
-								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
-							}
-						});
-						onInstanceDestroy();
-					}
-				}, 15000);
-			break;
-			//Aspida Advance Corridor Shield.
-			case 297307:
-				//The Aspida Advance Corridor Shield is under attack.
-				//The Daevas from the Aspida camp have returned to the Umbral Fortress.
-				sendMsgByRace(1402271, Race.PC_ALL, 2000);
-				//The Advance Corridor Shield will disappear soon.
-				sendMsgByRace(1402641, Race.PC_ALL, 7000);
-				//You will return to the fortress soon.
-				sendMsgByRace(1402642, Race.PC_ALL, 12000);
-				ThreadPoolManager.getInstance().schedule(new Runnable() {
-					@Override
-					public void run() {
-						instance.doOnAllPlayers(new Visitor<Player>() {
-							@Override
-							public void visit(Player player) {
-								//[Umbral Fortress]
-								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
-							}
-						});
-						onInstanceDestroy();
-					}
-				}, 15000);
-			break;
-			//Atanatos Advance Corridor Shield.
-			case 297308:
-				//The Atanatos Advance Corridor Shield is under attack.
-				//The Daevas from the Atanatos camp have returned to the Eternum Fortress.
-				sendMsgByRace(1402272, Race.PC_ALL, 2000);
-				//The Advance Corridor Shield will disappear soon.
-				sendMsgByRace(1402641, Race.PC_ALL, 7000);
-				//You will return to the fortress soon.
-				sendMsgByRace(1402642, Race.PC_ALL, 12000);
-				ThreadPoolManager.getInstance().schedule(new Runnable() {
-					@Override
-					public void run() {
-						instance.doOnAllPlayers(new Visitor<Player>() {
-							@Override
-							public void visit(Player player) {
-								//[Eternum Fortress]
-								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
-							}
-						});
-						onInstanceDestroy();
-					}
-				}, 15000);
-			break;
-			//Disillon Advance Corridor Shield.
-			case 297309:
-				//The Disillon Advance Corridor Shield has been destroyed.
-				//The Daevas from the Disillon camp have returned to the Skyclash Fortress.
-				sendMsgByRace(1402273, Race.PC_ALL, 2000);
-				//The Advance Corridor Shield will disappear soon.
-				sendMsgByRace(1402641, Race.PC_ALL, 7000);
-				//You will return to the fortress soon.
-				sendMsgByRace(1402642, Race.PC_ALL, 12000);
-				ThreadPoolManager.getInstance().schedule(new Runnable() {
-					@Override
-					public void run() {
-						instance.doOnAllPlayers(new Visitor<Player>() {
-							@Override
-							public void visit(Player player) {
-								//[Skyclash Fortress]
-								TeleportService2.teleportTo(player, 600020000, 1374.0f, 1455.0f, 600.0f, (byte) 27, TeleportAnimation.BEAM_ANIMATION);
-							}
-						});
-						onInstanceDestroy();
-					}
-				}, 15000);
-			break;
-			case 297310: //Chariot Hangar I Controller.
-		        despawnNpc(npc);
-				if (transidiumAnnexBase == 1) {
-				    if (race.equals(Race.ELYOS)) {
-					    deleteNpc(804118);
-						//Chariot Hangar I Controller has been destroyed.
-						sendMsgByRace(1402262, Race.PC_ALL, 0);
-					    spawn(804116, 335.55713f, 512.7856f, 683.0075f, (byte) 61); //Elyos Chariot Hangar I Flag.
-				    } else if (race.equals(Race.ASMODIANS)) {
-					    deleteNpc(804118);
-						//Chariot Hangar I Controller has been destroyed.
-						sendMsgByRace(1402262, Race.PC_ALL, 0);
-					    spawn(804114, 335.55713f, 512.7856f, 683.0075f, (byte) 61); //Elyos Chariot Hangar I Flag.
-				    }
+			case 234564:
+			case 234570:
+			case 234571:
+			case 234572:
+				numberBossDie++;
+				if(numberBossDie >= 4){
+					spawn(277224, 509.8f, 512.7f, 675.0f, (byte) 60);
 				}
-			break;
-			case 297311: //Chariot Hangar II Controller.
-			    despawnNpc(npc);
-				if (transidiumAnnexBase == 2) {
-				    if (race.equals(Race.ELYOS)) {
-					    deleteNpc(804123);
-						//Chariot Hangar II Controller has been destroyed.
-						sendMsgByRace(1402263, Race.PC_ALL, 0);
-					    spawn(804121, 681.18427f, 513.76154f, 683.0339f, (byte) 0); //Elyos Chariot Hangar II Flag.
-				    } else if (race.equals(Race.ASMODIANS)) {
-					    deleteNpc(804123);
-						//Chariot Hangar II Controller has been destroyed.
-						sendMsgByRace(1402263, Race.PC_ALL, 0);
-					    spawn(804119, 681.18427f, 513.76154f, 683.0339f, (byte) 0); //Asmodians Chariot Hangar II Flag.
-				    }
-				}
-			break;
-			case 297312: //Ignus Engine Hangar I Controller.
-			    despawnNpc(npc);
-				if (transidiumAnnexBase == 3) {
-				    if (race.equals(Race.ELYOS)) {
-					    deleteNpc(804128);
-						//Ignus Engine Hangar I Controller has been destroyed.
-						sendMsgByRace(1402264, Race.PC_ALL, 0);
-					    spawn(804126, 508.25092f, 339.45773f, 683.0075f, (byte) 91); //Elyos Ignus Engine Hangar I Flag.
-				    } else if (race.equals(Race.ASMODIANS)) {
-					    deleteNpc(804128);
-						//Ignus Engine Hangar I Controller has been destroyed.
-						sendMsgByRace(1402264, Race.PC_ALL, 0);
-					    spawn(804124, 508.25092f, 339.45773f, 683.0075f, (byte) 91); //Asmodians Ignus Engine Hangar I Flag.
-				    }
-				}
-			break;
-			case 297313: //Ignus Engine Hangar II Controller.
-				despawnNpc(npc);
-				if (transidiumAnnexBase == 4) {
-				    if (race.equals(Race.ELYOS)) {
-					    deleteNpc(804133);
-						//Ignus Engine Hangar II Controller has been destroyed.
-						sendMsgByRace(1402265, Race.PC_ALL, 0);
-					    spawn(804131, 508.54236f, 686.10504f, 683.0075f, (byte) 30); //Elyos Ignus Engine Hangar II Flag.
-				    } else if (race.equals(Race.ASMODIANS)) {
-					    deleteNpc(804133);
-						//Ignus Engine Hangar II Controller has been destroyed.
-						sendMsgByRace(1402265, Race.PC_ALL, 0);
-					    spawn(804129, 508.54236f, 686.10504f, 683.0075f, (byte) 30); //Asmodians Ignus Engine Hangar II Flag.
-				    }
-				}
-			break;
-			case 277229: //Hangar Barricade.
-				Npc ahserion = instance.getNpc(277224); //Ereshkigal's Reign.
-				hangarBarricade++;
-				if (ahserion != null) {
-				    if (hangarBarricade == 1) {
-				    } else if (hangarBarricade == 2) {
-				    } else if (hangarBarricade == 3) {
-				    } else if (hangarBarricade == 4) {
-					    ahserion.getEffectController().removeEffect(21571); //Ereshkigal's Reign.
-				    }
-				}
-				despawnNpc(npc);
-			break;
+            	break;
 			case 277224: //Ahserion.
-            break;
+            	break;
 		}
 	}
 	

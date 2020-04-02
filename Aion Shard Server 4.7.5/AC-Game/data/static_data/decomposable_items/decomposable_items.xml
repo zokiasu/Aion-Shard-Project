@@ -27720,7 +27720,7 @@
                 <item id="169405337" count="1"/>
             </items>
         </decomposable>
-        <!-- Boite idian mythique -->
+        <!-- Boite idian éternel -->
         <decomposable item_id="188052825" decomposable_name="Illuminary Obelisk Idian Pouch">
             <items>
                 <item id="166050096" name="Triumphal Idian: Attack" count="1"/>
@@ -27745,6 +27745,21 @@
             </items>
             <items>
                 <item id="166050094" name="Triumphal Idian: Support" count="1"/>
+            </items>
+        </decomposable>
+        <!-- Boite idian éternel -->
+        <decomposable item_id="188053618" decomposable_name="Honorable Elim's Idian Bundle">
+            <items>
+                <item id="166050137" name="Honorable Elim's Idian: Physical Attack" count="1"/>
+            </items>
+            <items>
+                <item id="166050138" name="Honorable Elim's Idian: Magical Attack" count="1"/>
+            </items>
+            <items>
+                <item id="166050139" name="Honorable Elim's Idian: Physical Defense" count="1"/>
+            </items>
+            <items>
+                <item id="166050140" name="Honorable Elim's Idian: Magical Defense" count="1"/>
             </items>
         </decomposable>
         <!-- Invasion Loot -->
