@@ -1539,5 +1539,18 @@
         <enter_min_level_dark>65</enter_min_level_dark>
         <can_enter_mentor>false</can_enter_mentor>
         <maxcount>1</maxcount>
-    </instance_cooltime>       
+    </instance_cooltime>
+    <!-- ??? -->
+    <instance_cooltime race="PC_ALL" worldId="400030000" id="137">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1000</max_member_light>
+        <max_member_dark>1000</max_member_dark>
+        <enter_min_level_light>65</enter_min_level_light>
+        <enter_min_level_dark>65</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
 </instance_cooltimes>

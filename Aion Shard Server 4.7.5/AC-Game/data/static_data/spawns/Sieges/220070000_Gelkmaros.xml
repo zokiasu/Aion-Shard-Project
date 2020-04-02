@@ -2022,8 +2022,8 @@
         <siege_spawn siege_id="3111">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">
-                <!-- Silentera Eastgate -->
-                <spawn npc_id="730260" respawn_time="295">
+                    <!-- Silentera Eastgate -->
+                    <spawn npc_id="730260" respawn_time="295">
                         <spot x="1449.23" y="903.722" z="302.27" h="34" static_id="1254"/>
                     </spawn>
                 </siege_mod>
@@ -2036,8 +2036,10 @@
             </siege_race>
             <siege_race race="ELYOS">
                 <siege_mod mod="PEACE">
-                    
-                    
+                    <!-- Silentera Eastgate -->
+                    <spawn npc_id="730260" respawn_time="295">
+                        <spot x="1449.23" y="903.722" z="302.27" h="34" static_id="1254"/>
+                    </spawn>
                 </siege_mod>
                 <siege_mod mod="SIEGE">
                 </siege_mod>

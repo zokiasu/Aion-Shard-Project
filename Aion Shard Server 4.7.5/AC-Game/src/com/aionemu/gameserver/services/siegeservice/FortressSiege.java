@@ -35,6 +35,8 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javolution.util.FastMap;
+
 import com.aionemu.commons.callbacks.util.GlobalCallbackHelper;
 import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.configs.main.LoggingConfig;
@@ -69,6 +71,15 @@ import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
 import com.google.common.collect.Lists;
 
+import com.aionemu.gameserver.spawnengine.*;
+import com.aionemu.gameserver.model.templates.spawns.*;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.knownlist.Visitor;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+
 /**
  * Object that controls siege of certain fortress. Siege object is not reusable.
  * New siege = new instance.
@@ -82,6 +93,8 @@ public class FortressSiege extends Siege<FortressLocation> {
     private final AbyssPointsListener addAPListener = new AbyssPointsListener(this);
     private final GloryPointsListener addGPListener = new GloryPointsListener(this);
     protected SiegePlayerReward instanceReward;
+
+    private FastMap<Integer, VisibleObject> AhserionTeleporter = new FastMap<Integer, VisibleObject>();
 
     public FortressSiege(FortressLocation fortress) {
         super(fortress);
@@ -194,7 +207,80 @@ public class FortressSiege extends Siege<FortressLocation> {
 			BaseService.getInstance().capture(114, Race.NPC);
 			BaseService.getInstance().capture(115, Race.NPC);
 		}
+        final SiegeService srv = SiegeService.getInstance();
 
+        if( (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ASMODIANS)
+            && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
+            log.warn("Ahserion Teleporter for Asmodian");
+
+            if (AhserionTeleporter.containsKey(297273) && AhserionTeleporter.get(297273).isSpawned()) {
+                log.warn("Ahserion Teleporter was already spawned...");
+            } else {
+                //Teleporter
+                AhserionTeleporter.put(297273, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 297273, 1079.38f, 1492.68f, 404.861f, (byte) 90), 1));
+                //PNJ
+                AhserionTeleporter.put(209218, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1086.6732f, 1499.8425f, 404.86078f, (byte) 15), 1));
+                AhserionTeleporter.put(209208, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1071.1923f, 1500.6755f, 404.86078f, (byte) 45), 1));
+                AhserionTeleporter.put(209209, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1071.6067f, 1484.9974f, 404.86078f, (byte) 76), 1));
+                AhserionTeleporter.put(209238, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1086.8112f, 1485.7357f, 404.86078f, (byte) 103), 1));
+                log.warn("Ahserion Teleporter spawned in Inggison");
+                announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter has appeared in Inggison.");
+            }
+
+            ThreadPoolManager.getInstance().schedule(new Runnable() {
+                @Override
+                public void run() {
+                    for (VisibleObject vo : AhserionTeleporter.values()) {
+                        vo.getController().onDelete();
+                    }
+                    AhserionTeleporter.clear();
+                    announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter is now missing.");
+                }
+            }, 3600 * 1000);
+
+        } else if( (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)
+                && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ELYOS)) ) {
+            log.warn("Ahserion Teleporter for Elyos");
+
+            if (AhserionTeleporter.containsKey(297273) && AhserionTeleporter.get(297273).isSpawned()) {
+                log.warn("Ahserion Teleporter was already spawned...");
+            } else {
+                //Teleporter
+                AhserionTeleporter.put(297274, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 297274, 1822.23f, 1976.96f, 392.035f, (byte) 0), 1));
+                //PNJ
+                AhserionTeleporter.put(209018, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1826.4636f, 1968.9579f, 392.0354f, (byte) 100), 1));
+                AhserionTeleporter.put(209008, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1817.4279f, 1984.7587f, 392.0354f, (byte) 40), 1));
+                AhserionTeleporter.put(209009, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1815.3062f, 1971.6099f, 392.0354f, (byte) 69), 1));
+                AhserionTeleporter.put(209038, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1829.2606f, 1980.844f, 392.0354f, (byte) 10), 1));
+                log.warn("Ahserion Teleporter spawned in Gelkmaros");
+                announceEveryOne("Ahserion", "Ahserion's Elyos teleporter has appeared in Gelkmaros.");
+            }
+
+            ThreadPoolManager.getInstance().schedule(new Runnable() {
+                @Override
+                public void run() {
+                    for (VisibleObject vo : AhserionTeleporter.values()) {
+                        if (vo != null) {
+                            Npc npc = (Npc) vo;
+                            if (!npc.getLifeStats().isAlreadyDead()) {
+                                npc.getController().onDelete();
+                            }
+                        }
+                    }
+                    AhserionTeleporter.clear();
+                    announceEveryOne("Ahserion", "Ahserion's Elyos teleporter is now missing.");
+                }
+            }, 3600 * 1000);
+        }
+    }
+
+    public void announceEveryOne(final String senderName,final String Message){
+        World.getInstance().doOnAllPlayers(new Visitor<Player>() {
+            @Override
+            public void visit(Player object) {
+                PacketSendUtility.sendSys2Message(object, senderName, Message);
+            }
+        });
     }
 
     protected SiegeAbyssRace getPlayerReward(Integer object) {
@@ -261,6 +347,8 @@ public class FortressSiege extends Siege<FortressLocation> {
 			BaseService.getInstance().capture(114, Race.NPC);
 			BaseService.getInstance().capture(115, Race.NPC);
 		}
+
+
 
     }
 		

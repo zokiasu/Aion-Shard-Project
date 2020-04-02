@@ -37,10 +37,10 @@
         <spawn npc_id="205456" respawn_time="295">
             <spot x="476.9819" y="271.4279" z="126.9759" h="90"/>
         </spawn>
-        <!-- Crucible Challenge Entrance -->
+        <!-- Crucible Challenge Entrance
         <spawn npc_id="730461" respawn_time="295">
             <spot x="492.1418" y="215.5870" z="127.3605" static_id="15"/>
-        </spawn>
+        </spawn> -->
         <!-- Crucible Guard -->
         <spawn npc_id="799633" respawn_time="295">
             <spot x="495.8050" y="217.4153" z="127.2953" h="30"/>
@@ -59,10 +59,10 @@
             <spot x="488.8033" y="217.3897" z="127.2954" h="30"/>
             <spot x="506.9673" y="217.3922" z="127.2953" h="30"/>
         </spawn>
-        <!-- Empyrean Crucible Entrance -->
+        <!-- Empyrean Crucible Entrance
         <spawn npc_id="730430" respawn_time="295">
             <spot x="511.5854" y="215.7292" z="127.3605" static_id="1"/>
-        </spawn>
+        </spawn> -->
         <!-- Forde -->
         <spawn npc_id="207024" respawn_time="295">
             <spot x="558.5809" y="314.0392" z="126.0967" h="45"/>

@@ -59,6 +59,10 @@
         <spawn npc_id="230051" respawn_time="295">
             <spot x="213.56271" y="508.97046" z="153.2284" h="110"/>
         </spawn>
+
+        <spawn npc_id="701572" respawn_time="295">
+            <spot x="556.48193" y="415.69165" z="96.81002" h="37"/>
+        </spawn>
         <!-- manumumu reborn -->
         <spawn npc_id="230052" respawn_time="295">
             <spot x="227.11836" y="529.7074" z="153.03906" h="100"/>

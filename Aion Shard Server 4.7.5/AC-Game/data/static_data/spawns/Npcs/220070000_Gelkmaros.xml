@@ -7818,10 +7818,10 @@
         <spawn npc_id="802176" respawn_time="295">
             <spot x="1715.9587" y="2882.5532" z="556.14484"/>
         </spawn>
-		<!-- Fujak -->
+		<!-- Fujak
         <spawn npc_id="802210" respawn_time="295">
             <spot x="1866.22" y="2694.9153" z="556.30" h="79"/>
-        </spawn>
+        </spawn> -->
 		<!-- Esde -->
         <spawn npc_id="799503" respawn_time="295">
             <spot x="1771.6627" y="2966.2969" z="554.8659" h="71"/>

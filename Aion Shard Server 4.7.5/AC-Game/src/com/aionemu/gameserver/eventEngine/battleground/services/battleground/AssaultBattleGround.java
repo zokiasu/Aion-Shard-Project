@@ -96,10 +96,8 @@ public class AssaultBattleGround extends BattleGround {
         /*
          * Spawn Healers
          */
-        SpawnTemplate se = SpawnEngine.addNewSingleTimeSpawn(bgTemplate.getWorldId(), 203098, bgTemplate.getHealerLocation().getXe(),
-                bgTemplate.getHealerLocation().getYe(), bgTemplate.getHealerLocation().getZe(), (byte) 0);
-        SpawnTemplate sa = SpawnEngine.addNewSingleTimeSpawn(bgTemplate.getWorldId(), 203557, bgTemplate.getHealerLocation().getXa(),
-                bgTemplate.getHealerLocation().getYa(), bgTemplate.getHealerLocation().getZa(), (byte) 0);
+        SpawnTemplate se = SpawnEngine.addNewSingleTimeSpawn(bgTemplate.getWorldId(), 203098, bgTemplate.getHealerLocation().getXe(), bgTemplate.getHealerLocation().getYe(), bgTemplate.getHealerLocation().getZe(), (byte) 0);
+        SpawnTemplate sa = SpawnEngine.addNewSingleTimeSpawn(bgTemplate.getWorldId(), 203557, bgTemplate.getHealerLocation().getXa(), bgTemplate.getHealerLocation().getYa(), bgTemplate.getHealerLocation().getZa(), (byte) 0);
 
         SpawnEngine.spawnBGHealer(se, instance.getInstanceId(), Race.ELYOS);
         SpawnEngine.spawnBGHealer(sa, instance.getInstanceId(), Race.ASMODIANS);

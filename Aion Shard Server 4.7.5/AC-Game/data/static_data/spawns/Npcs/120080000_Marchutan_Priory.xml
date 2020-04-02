@@ -29,10 +29,10 @@
         <spawn npc_id="730428" respawn_time="295">
             <spot x="549.3882" y="213.3909" z="93.6422" h="60" static_id="1601"/>
         </spawn>
-        <!-- Crucible Challenge Entrance -->
+        <!-- Crucible Challenge Entrance
         <spawn npc_id="730462" respawn_time="295">
             <spot x="578.9547" y="239.2771" z="93.6724" static_id="3"/>
-        </spawn>
+        </spawn> -->
         <!-- Crucible Guard -->
         <spawn npc_id="799634" respawn_time="295">
             <spot x="577.1282" y="236.6414" z="93.5044" h="60"/>
@@ -59,10 +59,10 @@
         <spawn npc_id="205448" respawn_time="295">
             <spot x="502.3558" y="202.738" z="93.43" h="60"/>
         </spawn>
-        <!-- Empyrean Crucible Entrance -->
+        <!-- Empyrean Crucible Entrance
         <spawn npc_id="730431" respawn_time="295">
             <spot x="578.1455" y="260.474" z="93.4918" static_id="1"/>
-        </spawn>
+        </spawn> -->
         <!-- Felder -->
         <spawn npc_id="205327" respawn_time="295">
             <spot x="469.6125" y="300.6918" z="93.44"/>
@@ -102,6 +102,10 @@
         <!-- Monzun -->
         <spawn npc_id="205490" respawn_time="295">
             <spot x="503.5787" y="296.474" z="93.44" h="60"/>
+        </spawn>
+        <!-- Ruz -->
+        <spawn npc_id="205491" respawn_time="295">
+            <spot x="503.59604" y="300.329" z="93.44" h="59"/>
         </spawn>
         <!-- Mordan -->
         <spawn npc_id="205329" respawn_time="295">

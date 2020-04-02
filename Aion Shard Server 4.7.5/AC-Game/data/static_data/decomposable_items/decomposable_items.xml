@@ -18311,6 +18311,7 @@
                 <item id="140001038" name="Leeching Steel I" player_class="RIDER"/>
             </items>
         </decomposable>
+
         <decomposable item_id="188052363" decomposable_name="Sillus Fortress Assault Reward Box: Grade 1">
             <items>
                 <item id="186000242" name="Ceramium Medal" count="4"/>
@@ -18339,41 +18340,41 @@
         </decomposable>
         <decomposable item_id="188052364" decomposable_name="Sillus Fortress Assault Reward Box: Grade 2">
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000055" name="Major Ancient Goblet" count="1"/>
                 <item id="188100113" name="Sillus Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000056" name="Greater Ancient Goblet" count="1"/>
                 <item id="188100113" name="Sillus Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000057" name="Ancient Goblet" count="1"/>
                 <item id="188100113" name="Sillus Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
                 <item id="188100113" name="Sillus Marble" count="1"/>
             </items>
         </decomposable>
         <decomposable item_id="188052365" decomposable_name="Sillus Fortress Assualt Reward Box: Grade 3">
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000059" name="Major Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000060" name="Greater Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000061" name="Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000062" name="Lesser Ancient Seal" count="1"/>
             </items>
         </decomposable>
@@ -18395,6 +18396,7 @@
                 <item id="186000066" name="Lesser Ancient Icon" count="1"/>
             </items>
         </decomposable>
+
         <decomposable item_id="188052367" decomposable_name="Silona Fortress Assault Reward Box: Grade 1">
             <items>
                 <item id="186000242" name="Ceramium Medal" count="4"/>
@@ -18423,41 +18425,41 @@
         </decomposable>
         <decomposable item_id="188052368" decomposable_name="Silona Fortress Assault Reward Box: Grade 2">
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000055" name="Major Ancient Goblet" count="1"/>
                 <item id="188100114" name="Silona Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000056" name="Greater Ancient Goblet" count="1"/>
                 <item id="188100114" name="Silona Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000057" name="Ancient Goblet" count="1"/>
                 <item id="188100114" name="Silona Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
                 <item id="188100114" name="Silona Marble" count="1"/>
             </items>
         </decomposable>
         <decomposable item_id="188052369" decomposable_name="Silona Fortress Assualt Reward Box: Grade 3">
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000059" name="Major Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000060" name="Greater Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000061" name="Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000062" name="Lesser Ancient Seal" count="1"/>
             </items>
         </decomposable>
@@ -18479,6 +18481,7 @@
                 <item id="186000066" name="Lesser Ancient Icon" count="1"/>
             </items>
         </decomposable>
+
         <decomposable item_id="188052371" decomposable_name="Pradeth Fortress Assault Reward Box: Grade 1">
             <items>
                 <item id="186000242" name="Ceramium Medal" count="4"/>
@@ -18507,41 +18510,41 @@
         </decomposable>
         <decomposable item_id="188052372" decomposable_name="Pradeth Fortress Assault Reward Box: Grade 2">
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000055" name="Major Ancient Goblet" count="1"/>
                 <item id="188100115" name="Pradeth Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000056" name="Greater Ancient Goblet" count="1"/>
                 <item id="188100115" name="Pradeth Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000057" name="Ancient Goblet" count="1"/>
                 <item id="188100115" name="Pradeth Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
                 <item id="188100115" name="Pradeth Marble" count="1"/>
             </items>
         </decomposable>
         <decomposable item_id="188052373" decomposable_name="Pradeth Fortress Assualt Reward Box: Grade 3">
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000059" name="Major Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000060" name="Greater Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000061" name="Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000062" name="Lesser Ancient Seal" count="1"/>
             </items>
         </decomposable>
@@ -18563,6 +18566,419 @@
                 <item id="186000066" name="Lesser Ancient Icon" count="1"/>
             </items>
         </decomposable>
+
+        <decomposable item_id="188053167" decomposable_name="Crimson Temple Assault Reward Box: Grade 1">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000051" name="Major Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000052" name="Greater Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000053" name="Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000054" name="Lesser Ancient Crown" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053168" decomposable_name="Crimson Temple Assault Reward Box: Grade 2">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000055" name="Major Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000056" name="Greater Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000057" name="Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053169" decomposable_name="Crimson Temple Assualt Reward Box: Grade 3">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000059" name="Major Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000060" name="Greater Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000061" name="Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000062" name="Lesser Ancient Seal" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053170" decomposable_name="Crimson Temple Assualt Reward Box: Grade 4">
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000063" name="Major Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000064" name="Greater Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000065" name="Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000066" name="Lesser Ancient Icon" count="1"/>
+            </items>
+        </decomposable>
+
+        <decomposable item_id="188053171" decomposable_name="Vorgaltem Citadel Assault Reward Box: Grade 1">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000051" name="Major Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000052" name="Greater Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000053" name="Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000054" name="Lesser Ancient Crown" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053172" decomposable_name="Vorgaltem Citadel Assault Reward Box: Grade 2">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000055" name="Major Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000056" name="Greater Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000057" name="Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053173" decomposable_name="Vorgaltem Citadel Assualt Reward Box: Grade 3">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000059" name="Major Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000060" name="Greater Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000061" name="Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000062" name="Lesser Ancient Seal" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053174" decomposable_name="Vorgaltem Citadel Assualt Reward Box: Grade 4">
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000063" name="Major Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000064" name="Greater Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000065" name="Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000066" name="Lesser Ancient Icon" count="1"/>
+            </items>
+        </decomposable>
+
+        <decomposable item_id="188053159" decomposable_name="Altar of Avarice Assault Reward Box: Grade 1">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000051" name="Major Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000052" name="Greater Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000053" name="Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000054" name="Lesser Ancient Crown" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053160" decomposable_name="Altar of Avarice Assault Reward Box: Grade 2">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000055" name="Major Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000056" name="Greater Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000057" name="Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053161" decomposable_name="Altar of Avarice Assualt Reward Box: Grade 3">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000059" name="Major Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000060" name="Greater Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000061" name="Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000062" name="Lesser Ancient Seal" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053162" decomposable_name="Altar of Avarice Assualt Reward Box: Grade 4">
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000063" name="Major Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000064" name="Greater Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000065" name="Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000066" name="Lesser Ancient Icon" count="1"/>
+            </items>
+        </decomposable>
+
+        <decomposable item_id="188053163" decomposable_name="Temple of Scales Assault Reward Box: Grade 1">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000051" name="Major Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000052" name="Greater Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000053" name="Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000054" name="Lesser Ancient Crown" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053164" decomposable_name="Temple of Scales Assault Reward Box: Grade 2">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000055" name="Major Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000056" name="Greater Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000057" name="Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053165" decomposable_name="Temple of Scales Assualt Reward Box: Grade 3">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000059" name="Major Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000060" name="Greater Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000061" name="Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000062" name="Lesser Ancient Seal" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053166" decomposable_name="Temple of Scales Assualt Reward Box: Grade 4">
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000063" name="Major Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000064" name="Greater Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000065" name="Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000066" name="Lesser Ancient Icon" count="1"/>
+            </items>
+        </decomposable>
+
+        <decomposable item_id="188053140" decomposable_name="Wealhtheow's Keep Assault Reward Box: Grade 1">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000051" name="Major Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000052" name="Greater Ancient Crown" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000053" name="Ancient Crown" count="1"/>
+                <item id="188100115" name="Pradeth Marble" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
+                <item id="186000054" name="Lesser Ancient Crown" count="1"/>
+                <item id="188100115" name="Pradeth Marble" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053141" decomposable_name="Wealhtheow's Keep Assault Reward Box: Grade 2">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000055" name="Major Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000056" name="Greater Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000057" name="Ancient Goblet" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053142" decomposable_name="Wealhtheow's Keep Assualt Reward Box: Grade 3">
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000059" name="Major Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000060" name="Greater Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000061" name="Ancient Seal" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000062" name="Lesser Ancient Seal" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188053143" decomposable_name="Wealhtheow's Keep Assualt Reward Box: Grade 4">
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000063" name="Major Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000064" name="Greater Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000065" name="Ancient Icon" count="1"/>
+            </items>
+            <items>
+                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000066" name="Lesser Ancient Icon" count="1"/>
+            </items>
+        </decomposable>
+
+        <decomposable item_id="188053143" decomposable_name="Wealhtheow's Keep Siege Defense Consumables Box">
+            <items>
+                <item id="162000124" name="Superior Recovery Serum" count="50"/>
+                <item id="164000073" name="Greater Courage Scroll" count="50"/>
+                <item id="164000076" name="Greater Running Scroll" count="50"/>
+                <item id="164000134" name="Greater Awakening Scroll" count="50"/>
+                <item id="164000259" name="Premium Anti-Shock Scroll" count="50"/>
+                <item id="188052375" name="Nourishing Combat Bundle" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188052375" decomposable_name="Nourishing Combat Bundle">
+            <items>
+                <item id="160003584" name="Broiled Rava" count="10"/>
+            </items>
+            <items>
+                <item id="160003585" name="Rava Dumplings" count="10"/>
+            </items>
+            <items>
+                <item id="160003586" name="Refreshing Rava Juice" count="10"/>
+            </items>
+            <items>
+                <item id="160003587" name="Pepento Jelly" count="10"/>
+            </items>
+        </decomposable>
+
         <decomposable item_id="188052384" decomposable_name="Mithril Coin Pouch">
             <items>
                 <item id="186000018" name="Mithril Coin" count="100" race="ELYOS"/>
@@ -23196,16 +23612,6 @@
                 <item id="110900571" name="Captain Harlock's Outfit"/>
             </items>
         </decomposable>
-        <decomposable item_id="188053161" decomposable_name="Altar of Avarice Assault Reward Box: Grade 3">
-            <items>
-                <item id="186000242" name="Ceramium Medal" count="1"/>
-            </items>
-        </decomposable>
-        <decomposable item_id="188053162" decomposable_name="Altar of Avarice Assault Reward Box: Grade 4">
-            <items>
-                <item id="186000242" name="Ceramium Medal" count="1"/>
-            </items>
-        </decomposable>
         <decomposable item_id="188053209" decomposable_name="Ophidan Bridge Opportunity Bundle">
             <items>
                 <item id="186000237" name="Ancient Coin" rnd_min="2" rnd_max="5"/>
@@ -24392,45 +24798,45 @@
             </items>
         </decomposable>
         <decomposable item_id="188053339" decomposable_name="Ancestor's Reward Bundle">
+            <items chance="10.0">
+                <item id="101901122" name="Inherited Aethercannon"/>
+            </items>
+            <items chance="10.0">
+                <item id="101701363" name="Inherited Bow"/>
+            </items>
+            <items chance="10.0">
+                <item id="102101067" name="Inherited Cipher-Blade"/>
+            </items>
+            <items chance="10.0">
+                <item id="100201498" name="Inherited Dagger"/>
+            </items>
+            <items chance="10.0">
+                <item id="100901370" name="Inherited Greatsword"/>
+            </items>
+            <items chance="10.0">
+                <item id="102001241" name="Inherited Harp"/>
+            </items>
+            <items chance="10.0">
+                <item id="100101329" name="Inherited Mace"/>
+            </items>
+            <items chance="10.0">
+                <item id="100501309" name="Inherited Orb"/>
+            </items>
+            <items chance="10.0">
+                <item id="101801213" name="Inherited Pistol"/>
+            </items>
+            <items chance="10.0">
+                <item id="101301262" name="Inherited Polearm"/>
+            </items>
+            <items chance="10.0">
+                <item id="100601426" name="Inherited Spellbook"/>
+            </items>
                 <items chance="10.0">
-                    <item id="101901122" name="Inherited Aethercannon"/>
-                </items>
-                <items chance="10.0">
-                    <item id="101701363" name="Inherited Bow"/>
-                </items>
-                <items chance="10.0">
-                    <item id="102101067" name="Inherited Cipher-Blade"/>
-                </items>
-                <items chance="10.0">
-                    <item id="100201498" name="Inherited Dagger"/>
-                </items>
-                <items chance="10.0">
-                    <item id="100901370" name="Inherited Greatsword"/>
-                </items>
-                <items chance="10.0">
-                    <item id="102001241" name="Inherited Harp"/>
-                </items>
-                <items chance="10.0">
-                    <item id="100101329" name="Inherited Mace"/>
-                </items>
-                <items chance="10.0">
-                    <item id="100501309" name="Inherited Orb"/>
-                </items>
-                <items chance="10.0">
-                    <item id="101801213" name="Inherited Pistol"/>
-                </items>
-                <items chance="10.0">
-                    <item id="101301262" name="Inherited Polearm"/>
-                </items>
-                <items chance="10.0">
-                    <item id="100601426" name="Inherited Spellbook"/>
-                </items>
-                    <items chance="10.0">
-                <item id="101501352" name="Inherited Staff"/>
-                </items>
-                <items chance="10.0">
-                    <item id="100001732" name="Inherited Sword"/>
-                </items>
+            <item id="101501352" name="Inherited Staff"/>
+            </items>
+            <items chance="10.0">
+                <item id="100001732" name="Inherited Sword"/>
+            </items>
         </decomposable>	
         <decomposable item_id="188053540" decomposable_name="Supply Scroll Bundle">
             <items>
@@ -24443,24 +24849,24 @@
             </items>
         </decomposable>	
         <decomposable item_id="188053297" decomposable_name="Expeditionary Force Supply Box">
-                <items chance="10.0">
-                    <item id="167010137" name="[Event] Manastone: Attack +5 / Crit Strike +9"/>
-                </items>
-                <items chance="10.0">
-                    <item id="167010142" name="[Event] Manastone: Crit Strike +19 / Attack +2"/>
-                </items>
-                <items chance="10.0">
-                    <item id="167010155" name="Event] Manastone: Magic Boost +27 / Crit Strike +9"/>
-                </items>
-                <items chance="10.0">
-                    <item id="167010146" name="[Event] Manastone: Crit Strike +19 / Block +14"/>
-                </items>
-                <items chance="10.0">
-                    <item id="167010138" name="[Event] Manastone: Attack +5 / Resist Magic +8"/>
-                </items>
-                <items chance="10.0">
-                    <item id="167010139" name="[Event] Manastone: Attack +5 / Magical Accuracy +8"/>
-                </items>
+            <items chance="10.0">
+                <item id="167010137" name="[Event] Manastone: Attack +5 / Crit Strike +9"/>
+            </items>
+            <items chance="10.0">
+                <item id="167010142" name="[Event] Manastone: Crit Strike +19 / Attack +2"/>
+            </items>
+            <items chance="10.0">
+                <item id="167010155" name="Event] Manastone: Magic Boost +27 / Crit Strike +9"/>
+            </items>
+            <items chance="10.0">
+                <item id="167010146" name="[Event] Manastone: Crit Strike +19 / Block +14"/>
+            </items>
+            <items chance="10.0">
+                <item id="167010138" name="[Event] Manastone: Attack +5 / Resist Magic +8"/>
+            </items>
+            <items chance="10.0">
+                <item id="167010139" name="[Event] Manastone: Attack +5 / Magical Accuracy +8"/>
+            </items>
         </decomposable>	
         <decomposable item_id="188053645" decomposable_name="Shugo's Special Reward Chest">
             <items>
@@ -24530,21 +24936,21 @@
             </items>
         </decomposable>
         <decomposable item_id="188053405" decomposable_name="Supply Scroll Bundle">
-                <items chance="10.0">
-                    <item id="162001020" name="[Event] Tea of Repose - 10% Recovery" count="4"/>
-                </items>
-                <items chance="10.0">
-                    <item id="169620051" name="Berdin's 100% XP Amulet" count="1"/>
-                </items>
-                <items chance="10.0">
-                    <item id="164002235" name="Greater Running Scroll (10 Minutes)" count="3"/>
-                </items>
-                <items chance="10.0">
-                    <item id="164002236" name="Greater Courage Scroll (10 Minutes)" count="3"/>
-                </items>
-                <items chance="10.0">
-                    <item id="164002237" name="Greater Awakening Scroll (10 Minutes)" count="3"/>
-                </items>
+            <items chance="10.0">
+                <item id="162001020" name="[Event] Tea of Repose - 10% Recovery" count="4"/>
+            </items>
+            <items chance="10.0">
+                <item id="169620051" name="Berdin's 100% XP Amulet" count="1"/>
+            </items>
+            <items chance="10.0">
+                <item id="164002235" name="Greater Running Scroll (10 Minutes)" count="3"/>
+            </items>
+            <items chance="10.0">
+                <item id="164002236" name="Greater Courage Scroll (10 Minutes)" count="3"/>
+            </items>
+            <items chance="10.0">
+                <item id="164002237" name="Greater Awakening Scroll (10 Minutes)" count="3"/>
+            </items>
         </decomposable>
         <decomposable item_id="188053406" decomposable_name="Lesser Supply Manastone Box">
             <items>
@@ -26739,21 +27145,6 @@
                 <item id="182213272" name="Sabat's Song"/>
             </items>
         </decomposable>
-        <!-- Stuff Tour -->
-        <decomposable item_id="188052827" decomposable_name="Dynatoum's Equipment Chest">
-            <items chance="75">
-                <item id="188052829" name="Dynatoum's Armor Box"/>
-            </items>
-            <items chance="75">
-                <item id="188052828" name="Dynatoum's Weapon Box"/>
-            </items>
-            <items chance="25">
-                <item id="188052831" name="Dynatoum's Brazen Armor Box"/>
-            </items>
-            <items chance="25">
-                <item id="188052830" name="Dynatoum's Brazen Weapon Box"/>
-            </items>
-        </decomposable>
         <!-- Stuff Grendal -->
         <decomposable item_id="188052388" decomposable_name="Modor's Equipment Box">
             <items chance="75.0">
@@ -27132,6 +27523,20 @@
             </items>
         </decomposable>
         <!-- Illuminary Obelisk -->
+        <decomposable item_id="188052827" decomposable_name="Dynatoum's Equipment Chest">
+            <items chance="75">
+                <item id="188052829" name="Dynatoum's Armor Box"/>
+            </items>
+            <items chance="75">
+                <item id="188052828" name="Dynatoum's Weapon Box"/>
+            </items>
+            <items chance="25">
+                <item id="188052831" name="Dynatoum's Brazen Armor Box"/>
+            </items>
+            <items chance="25">
+                <item id="188052830" name="Dynatoum's Brazen Weapon Box"/>
+            </items>
+        </decomposable>
         <decomposable item_id="188052823" decomposable_name="Illuminary Obelisk Supply Chest">
             <items>
                 <item id="152012585" name="Wind Mote" count="5"/>

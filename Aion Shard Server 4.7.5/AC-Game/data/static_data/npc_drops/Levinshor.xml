@@ -10,7 +10,7 @@
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
             <drop_group name="MANASTONE">
-                <drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
+                <drop item_id="188052199" chance="0.15" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
@@ -59,78 +59,6 @@
                 <drop item_id="152011080" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_65">
-                <drop item_id="152012594" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012595" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012596" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012597" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012598" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012599" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012600" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012601" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012602" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012603" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012604" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012605" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012606" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012607" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012608" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012609" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012610" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012611" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012612" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012613" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012614" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012615" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012616" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012617" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012618" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012619" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012620" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012621" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012622" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012623" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012624" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012625" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012626" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012627" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012628" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012629" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012630" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012631" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012632" chance="3.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_BALAUR">
-                <drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014022" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014021" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014020" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014019" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014018" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014017" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014016" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014015" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014014" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014013" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014012" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014011" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014010" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014008" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014007" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014006" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014005" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014004" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014003" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014002" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014001" chance="10.0" min_amount="1" max_amount="1"/>
-                <!-- Hearth Balaur -->
-                <drop item_id="186000033" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000035" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
             </drop_group>
             <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
@@ -199,78 +127,6 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group name="CRAFT_65">
-                <drop item_id="152012594" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012595" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012596" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012597" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012598" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012599" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012600" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012601" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012602" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012603" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012604" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012605" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012606" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012607" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012608" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012609" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012610" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012611" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012612" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012613" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012614" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012615" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012616" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012617" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012618" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012619" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012620" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012621" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012622" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012623" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012624" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012625" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012626" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012627" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012628" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012629" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012630" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012631" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012632" chance="3.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_BALAUR">
-                <drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014022" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014021" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014020" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014019" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014018" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014017" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014016" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014015" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014014" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014013" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014012" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014011" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014010" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014008" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014007" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014006" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014005" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014004" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014003" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014002" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014001" chance="10.0" min_amount="1" max_amount="1"/>
-                <!-- Hearth Balaur -->
-                <drop item_id="186000033" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000035" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
-            </drop_group>
             <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
@@ -337,78 +193,6 @@
                 <drop item_id="152011080" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_65">
-                <drop item_id="152012594" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012595" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012596" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012597" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012598" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012599" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012600" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012601" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012602" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012603" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012604" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012605" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012606" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012607" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012608" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012609" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012610" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012611" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012612" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012613" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012614" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012615" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012616" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012617" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012618" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012619" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012620" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012621" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012622" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012623" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012624" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012625" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012626" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012627" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012628" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012629" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012630" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012631" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012632" chance="3.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_BALAUR">
-                <drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014022" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014021" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014020" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014019" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014018" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014017" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014016" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014015" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014014" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014013" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014012" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014011" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014010" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014008" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014007" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014006" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014005" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014004" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014003" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014002" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014001" chance="10.0" min_amount="1" max_amount="1"/>
-                <!-- Hearth Balaur -->
-                <drop item_id="186000033" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000035" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
             </drop_group>
             <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
@@ -477,78 +261,6 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group name="CRAFT_65">
-                <drop item_id="152012594" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012595" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012596" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012597" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012598" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012599" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012600" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012601" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012602" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012603" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012604" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012605" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012606" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012607" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012608" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012609" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012610" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012611" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012612" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012613" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012614" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012615" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012616" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012617" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012618" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012619" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012620" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012621" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012622" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012623" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012624" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012625" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012626" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012627" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012628" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012629" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012630" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012631" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012632" chance="3.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_BALAUR">
-                <drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014022" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014021" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014020" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014019" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014018" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014017" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014016" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014015" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014014" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014013" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014012" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014011" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014010" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014008" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014007" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014006" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014005" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014004" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014003" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014002" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014001" chance="10.0" min_amount="1" max_amount="1"/>
-                <!-- Hearth Balaur -->
-                <drop item_id="186000033" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000035" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
-            </drop_group>
             <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
@@ -616,78 +328,6 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group name="CRAFT_65">
-                <drop item_id="152012594" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012595" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012596" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012597" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012598" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012599" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012600" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012601" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012602" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012603" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012604" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012605" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012606" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012607" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012608" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012609" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012610" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012611" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012612" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012613" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012614" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012615" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012616" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012617" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012618" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012619" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012620" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012621" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012622" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012623" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012624" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012625" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012626" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012627" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012628" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012629" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012630" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012631" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012632" chance="3.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_BALAUR">
-                <drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014022" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014021" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014020" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014019" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014018" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014017" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014016" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014015" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014014" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014013" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014012" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014011" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014010" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014008" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014007" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014006" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014005" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014004" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014003" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014002" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014001" chance="10.0" min_amount="1" max_amount="1"/>
-                <!-- Hearth Balaur -->
-                <drop item_id="186000033" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000035" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
-            </drop_group>
             <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
@@ -754,78 +394,6 @@
                 <drop item_id="152011080" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_65">
-                <drop item_id="152012594" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012595" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012596" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012597" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012598" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012599" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012600" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012601" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012602" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012603" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012604" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012605" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012606" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012607" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012608" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012609" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012610" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012611" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012612" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012613" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012614" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012615" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012616" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012617" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012618" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012619" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012620" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012621" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012622" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012623" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012624" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012625" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012626" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012627" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012628" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012629" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012630" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012631" chance="3.0" min_amount="1" max_amount="2"/>
-                <drop item_id="152012632" chance="3.0" min_amount="1" max_amount="2"/>
-            </drop_group>
-            <drop_group name="CRAFT_BALAUR">
-                <drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014022" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014021" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014020" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014019" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014018" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014017" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014016" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014015" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014014" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014013" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014012" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014011" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014010" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014008" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014007" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014006" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014005" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014004" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014003" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014002" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="152014001" chance="10.0" min_amount="1" max_amount="1"/>
-                <!-- Hearth Balaur -->
-                <drop item_id="186000033" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000035" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
-                <drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
             </drop_group>
             <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>

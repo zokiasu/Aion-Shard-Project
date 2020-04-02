@@ -31,10 +31,12 @@
     <!-- Divine Fortress -->
     <siege_location id="1011" type="FORTRESS" world="400010000" name_id="801821" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12078" cd="7200"/>
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1012" type="ARTIFACT" world="400010000" influence="0">
@@ -67,17 +69,23 @@
     <!-- Siel's Western Fortress -->
     <siege_location id="1131" type="FORTRESS" world="400010000" name_id="801823" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12070" cd="3600"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="2"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="2"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <!-- Siel's Eastern Fortress -->
     <siege_location id="1132" type="FORTRESS" world="400010000" name_id="801825" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12071" cd="3600"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="2"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="2"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1133" type="ARTIFACT" world="400010000" influence="0">
@@ -92,9 +100,12 @@
     <!-- Sulphur Fortress -->
     <siege_location id="1141" type="FORTRESS" world="400010000" name_id="801827" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12072" cd="3600"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="2"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="2"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1142" type="ARTIFACT" world="400010000" influence="0">
@@ -115,9 +126,12 @@
     <!-- Roah Fortress -->
     <siege_location id="1211" type="FORTRESS" world="400010000" name_id="801829" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12073" cd="5400"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="2"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="2"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1212" type="ARTIFACT" world="400010000" influence="0">
@@ -135,10 +149,12 @@
     <!-- Krotan Refuge -->
     <siege_location id="1221" type="FORTRESS" world="400010000" name_id="801831" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12075" cd="5400"/>
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1222" type="ARTIFACT" world="400010000" influence="0">
@@ -153,10 +169,12 @@
     <!-- Kysis Fortress -->
     <siege_location id="1231" type="FORTRESS" world="400010000" name_id="801833" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12076" cd="5400"/>
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1232" type="ARTIFACT" world="400010000" influence="0">
@@ -168,10 +186,12 @@
     <!-- Miren Fortress -->
     <siege_location id="1241" type="FORTRESS" world="400010000" name_id="801835" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12077" cd="5400"/>
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1242" type="ARTIFACT" world="400010000" influence="0">
@@ -183,9 +203,12 @@
     <!-- Asteria Fortress -->
     <siege_location id="1251" type="FORTRESS" world="400010000" name_id="801837" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020000" count="1" skill="12074" cd="5400"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="186000242" m_count="2"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="2"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="1252" type="ARTIFACT" world="400010000" influence="0">
@@ -209,9 +232,12 @@
     <!-- Temple of Scales -->
     <siege_location id="2011" type="FORTRESS" world="210050000" name_id="802577" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020001" count="2" skill="12132" cd="7200"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188053163" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188053164" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188053165" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188053166" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="2012" type="ARTIFACT" world="210050000" influence="0">
@@ -226,9 +252,12 @@
     <!-- Altar of Avarice -->
     <siege_location id="2021" type="FORTRESS" world="210050000" name_id="802581" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020001" count="2" skill="12106" cd="7200"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188053159" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188053160" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188053161" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188053162" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="2022" type="ARTIFACT" world="210050000" influence="0">
@@ -243,9 +272,12 @@
     <!-- Vorgaltem Citadel -->
     <siege_location id="3011" type="FORTRESS" world="220070000" name_id="802585" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020001" count="2" skill="12109" cd="7200"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188053171" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188053172" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188053173" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188053174" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="3012" type="ARTIFACT" world="220070000" influence="0">
@@ -260,9 +292,12 @@
     <!-- Crimson Temple -->
     <siege_location id="3021" type="FORTRESS" world="220070000" name_id="802589" siege_duration="3600" influence="8">
         <artifact_activation itemid="188020001" count="2" skill="12132" cd="7200"/>
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188053167" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188053168" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188053169" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188053170" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <siege_location id="3022" type="ARTIFACT" world="220070000" influence="0">
@@ -274,14 +309,15 @@
     <siege_location id="3024" type="ARTIFACT" world="220070000" influence="0">
         <artifact_activation itemid="188020002" count="1" skill="12159" repeat_count="5" repeat_interval="3" cd="1800"/>
     </siege_location>
-    <siege_location id="2111" type="BOSSRAID_LIGHT" world="210050000" fortress_dependency="2011 2021"
-                    siege_duration="7200"/>
-    <siege_location id="3111" type="BOSSRAID_DARK" world="220070000" fortress_dependency="3011 3021"
-                    siege_duration="7200"/>
+    <siege_location id="2111" type="BOSSRAID_LIGHT" world="210050000" fortress_dependency="2011 2021" siege_duration="7200"/>
+    <siege_location id="3111" type="BOSSRAID_DARK" world="220070000" fortress_dependency="3011 3021" siege_duration="7200"/>
     <!-- 3.0 -->
     <!-- Hearth of Fissure -->
     <siege_location id="4011" type="SOURCE" world="600030000" name_id="804123" siege_duration="1800">
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
     </siege_location>
     <siege_location id="4012" type="ARTIFACT" world="600030000">
         <artifact_activation itemid="188020001" count="1" skill="12124" cd="300"/>
@@ -291,7 +327,10 @@
     </siege_location>
     <!-- Hearth of Gravity -->
     <siege_location id="4021" type="SOURCE" world="600030000" name_id="804127" siege_duration="1800">
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
     </siege_location>
     <siege_location id="4022" type="ARTIFACT" world="600030000">
         <artifact_activation itemid="188020001" count="1" skill="12126" cd="300"/>
@@ -301,7 +340,10 @@
     </siege_location>
     <!-- Hearth of Wrath -->
     <siege_location id="4031" type="SOURCE" world="600030000" name_id="804131" siege_duration="1800">
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
     </siege_location>
     <siege_location id="4032" type="ARTIFACT" world="600030000">
         <artifact_activation itemid="188020001" count="1" skill="12128" cd="300"/>
@@ -311,7 +353,10 @@
     </siege_location>
     <!-- Hearth of Petrification -->
     <siege_location id="4041" type="SOURCE" world="600030000" name_id="804135" siege_duration="1800">
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
+        <siege_reward top="12" itemid="186000242" m_count="4"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="186000242" m_count="3"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="186000242" m_count="2"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="186000242" m_count="1"/> <!-- Grade 4 -->
     </siege_location>
     <siege_location id="4042" type="ARTIFACT" world="600030000">
         <artifact_activation itemid="188020001" count="1" skill="12130" cd="300"/>
@@ -330,36 +375,44 @@
     </siege_location>
     <!-- Sillus Fortress -->
     <siege_location id="5011" type="FORTRESS" world="600050000" name_id="807221" siege_duration="3600">
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188052363" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188052364" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188052365" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188052366" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <!-- Bassen Fortress -->
     <siege_location id="6011" type="FORTRESS" world="600060000" name_id="807225" siege_duration="3600">
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188052367" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188052368" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188052369" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188052370" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <!-- Prades Fortress -->
     <siege_location id="6021" type="FORTRESS" world="600060000" name_id="807229" siege_duration="3600">
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188052371" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188052372" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188052373" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188052374" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
     </siege_location>
     <!-- Anoha's Fortress -->
     <siege_location id="7011" type="FORTRESS" world="600090000" name_id="808285" occupy_count="2" siege_duration="3600" influence="8">
-        <siege_reward top="1" itemid="188053666" m_count="1"/> <!-- Ceranium Medal Box -->
-        <siege_reward top="1000" itemid="188052742" m_count="1"/> <!-- Fortress Supplies -->
-        <legion_reward itemid="186000030" m_count="60"/> <!-- Gold Medal -->
-        <legion_reward itemid="186000031" m_count="110"/> <!-- Silver Medal -->
+        <siege_reward top="12" itemid="188053140" m_count="1"/> <!-- Grade 1 -->
+        <siege_reward top="36" itemid="188053141" m_count="1"/> <!-- Grade 2 -->
+        <siege_reward top="72" itemid="188053142" m_count="1"/> <!-- Grade 3 -->
+        <siege_reward top="1000" itemid="188053143" m_count="1"/> <!-- Grade 4 -->
+        <legion_reward itemid="186000030" m_count="50"/> <!-- Gold Medal -->
+        <legion_reward itemid="186000031" m_count="100"/> <!-- Silver Medal -->
         <legion_reward itemid="188051892" m_count="1"/> <!-- Fortress Ground Defence Supplies Bundle -->
-        <legion_reward itemid="188053139" m_count="1"/> <!-- Chest containing consumables for defending the Anoha Fortress -->
+        <legion_reward itemid="188053139" m_count="1"/> <!-- Wealhtheow's Keep Siege Defense Consumables Box -->
         <legion_reward_on_occupy itemid="185000215" m_count="1"/> <!-- Anoha's Runeseal Stone -->
     </siege_location>
     <siege_location id="7012" type="ARTIFACT" world="600090000" influence="1">

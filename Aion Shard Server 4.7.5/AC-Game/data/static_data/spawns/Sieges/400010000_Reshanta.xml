@@ -2741,10 +2741,10 @@
                     <spawn npc_id="277040" respawn_time="295">
                         <spot x="2192.646" y="1926.968" z="2302.729" static_id="1284"/>
                     </spawn>
-                    <!-- Abyssal Splinter Entrance -->
+                    <!-- Abyssal Splinter Entrance
                     <spawn npc_id="730356" respawn_time="295">
                         <spot x="2204.4370" y="1928.4410" z="2303.8672" static_id="1345"/>
-                    </spawn>
+                    </spawn> -->
                     <!-- Unstable Abyssal Splinter Entrance -->
                     <spawn npc_id="730366" respawn_time="295">
                         <spot x="2182.9700" y="1924.4388" z="2303.8672" static_id="2355"/>
@@ -3646,10 +3646,10 @@
                         <spot x="2138.160" y="2048.935" z="2309.216" h="30"/>
                         <spot x="2020.561" y="1942.786" z="2316.511" h="1"/>
                     </spawn>
-                    <!-- Abyssal Splinter Entrance -->
+                    <!-- Abyssal Splinter Entrance
                     <spawn npc_id="730316" respawn_time="295">
                         <spot x="2204.4370" y="1928.4410" z="2303.8672" static_id="1345"/>
-                    </spawn>
+                    </spawn> -->
                     <!-- Unstable Abyssal Splinter Entrance -->
                     <spawn npc_id="730365" respawn_time="295">
                         <spot x="2182.9700" y="1924.4388" z="2303.8672" static_id="2355"/>

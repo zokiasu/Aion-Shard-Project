@@ -129,7 +129,7 @@ public class DanuarMysticariumLegionInstance extends GeneralInstanceHandler {
                 break;
             case 233253: // Berserk Chairman Nautius
             case 233254: // Frenzied Chairman Nautius
-                spawn(701572, 556.48193f, 415.69165f, 96.81002f, (byte) 37); // Exit
+                despawnNpc(npc);
                 break;
         }
         if (!isInstanceDestroyed && instanceReward.getInstanceScoreType().isStartProgress()) {
@@ -351,7 +351,8 @@ public class DanuarMysticariumLegionInstance extends GeneralInstanceHandler {
         int npcId = npc.getNpcId();
         switch (npcId) {
             case 230066:
-                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000127, 2));
+            case 230078:
+                dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000127, 1));
                 break;
             case 230080:
             case 230081:
