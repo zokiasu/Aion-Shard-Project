@@ -16,7 +16,7 @@
             <drop item_id="185000065" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="TEMPERING_SOLUTION">
-            <drop item_id="166030005" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="166030005" chance="0.1" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233676">
@@ -27,7 +27,7 @@
             <drop item_id="185000065" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="TEMPERING_SOLUTION">
-            <drop item_id="166030005" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="166030005" chance="0.1" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
 

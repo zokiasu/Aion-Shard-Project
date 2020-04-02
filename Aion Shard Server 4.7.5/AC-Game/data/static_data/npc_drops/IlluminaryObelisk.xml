@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops>
     <npc_drop npc_id="832794">
-        <drop_group use_category="true" name="OMEGA_ENCHANT_STONE" race="PC_ALL">
-            <drop item_id="166020000" chance="0.001" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
-        </drop_group>
         <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
             <drop item_id="166030005" chance="0.05" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -74,7 +71,7 @@
             <drop item_id="188053094" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="TEMPERING_SOLUTION">
-            <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1"/>
+            <drop item_id="166030005" chance="0.01" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="EQUIPMENT">
             <drop item_id="188052827" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>

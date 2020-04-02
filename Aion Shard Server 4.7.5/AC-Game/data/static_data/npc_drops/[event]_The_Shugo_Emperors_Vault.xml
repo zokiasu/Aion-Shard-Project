@@ -14,9 +14,6 @@
             <drop item_id="110000022" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="110101797" chance="35" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="CRAFT" use_category="true" race="PC_ALL">
-            <drop item_id="166500002" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
-		</drop_group>
 	</npc_drop>
     <npc_drop npc_id="832930"> <!-- Big Imperial Chest -->
 		<drop_group name="MEDAL" use_category="true" race="PC_ALL">
@@ -37,9 +34,7 @@
             <drop item_id="110101797" chance="35" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
 		<drop_group name="CRAFT" use_category="true" race="PC_ALL">
-            <drop item_id="166500002" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="166030005" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
-            <drop item_id="166020000" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
 		<drop_group name="GODSTONE" use_category="true" race="PC_ALL">
             <drop item_id="188053614" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
@@ -124,9 +119,7 @@
             <drop item_id="110101797" chance="35" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
 		<drop_group name="CRAFT" use_category="true" race="PC_ALL">
-            <drop item_id="166500002" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="166030005" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
-            <drop item_id="166020000" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
 		<drop_group name="GODSTONE" use_category="true" race="PC_ALL">
             <drop item_id="188053614" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />

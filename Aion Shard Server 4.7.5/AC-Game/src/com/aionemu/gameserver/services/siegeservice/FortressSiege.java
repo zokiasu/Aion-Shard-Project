@@ -218,6 +218,8 @@ public class FortressSiege extends Siege<FortressLocation> {
             } else {
                 //Teleporter
                 AhserionTeleporter.put(297273, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 297273, 1079.38f, 1492.68f, 404.861f, (byte) 90), 1));
+                //Flag
+                AhserionTeleporter.put(831979, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 831979, 1079.38f, 1492.68f, 404.861f, (byte) 90), 1));
                 //PNJ
                 AhserionTeleporter.put(209218, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1086.6732f, 1499.8425f, 404.86078f, (byte) 15), 1));
                 AhserionTeleporter.put(209208, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1071.1923f, 1500.6755f, 404.86078f, (byte) 45), 1));
@@ -251,6 +253,8 @@ public class FortressSiege extends Siege<FortressLocation> {
             } else {
                 //Teleporter
                 AhserionTeleporter.put(297274, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 297274, 1822.23f, 1976.96f, 392.035f, (byte) 0), 1));
+                //Flag
+                AhserionTeleporter.put(831978, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 831978, 1822.23f, 1976.96f, 392.035f, (byte) 0), 1));
                 //PNJ
                 AhserionTeleporter.put(209018, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1826.4636f, 1968.9579f, 392.0354f, (byte) 100), 1));
                 AhserionTeleporter.put(209008, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1817.4279f, 1984.7587f, 392.0354f, (byte) 40), 1));

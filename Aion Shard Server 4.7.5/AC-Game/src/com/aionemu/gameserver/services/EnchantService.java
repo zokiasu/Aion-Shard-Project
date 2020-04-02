@@ -211,7 +211,7 @@ public class EnchantService {
         		enchantStoneLevel = Rnd.get(85, 104);
         		break;
         	case 166000195: //Epsilon
-        		enchantStoneLevel = Rnd.get(105, 190);
+        		enchantStoneLevel = Rnd.get(105, 130);
         		break;
         	case 166020000: //Omega
         		enchantStoneLevel = 190;

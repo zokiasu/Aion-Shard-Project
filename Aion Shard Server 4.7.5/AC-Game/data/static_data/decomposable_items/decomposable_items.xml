@@ -24967,30 +24967,9 @@
                 <random_item type="MANASTONE_RARE_GRADE_50" rnd_min="1" rnd_max="3"/>
             </items>
         </decomposable>
-        <decomposable item_id="188053877" decomposable_name="Bona fide Enchantment Stone Box">
-            <items>
-                <item id="166020000" name="Omega Enchantment Stone" count="2"/>
-                <item id="166000195" name="Epsilon Enchantment Stone" count="10"/>
-                <item id="188053876" name="Bona fide Lucky Box" count="1"/>
-            </items>
-        </decomposable>
-        <decomposable item_id="188053874" decomposable_name="Bona fide Enchantment Stone Bundle">
-            <items>
-                <item id="166020000" name="Omega Enchantment Stone" count="1"/>
-                <item id="166000195" name="Epsilon Enchantment Stone" count="2"/>
-            </items>
-        </decomposable>
-        <decomposable item_id="188053876" decomposable_name="Bona fide Lucky Box">
-            <items>
-                <item id="166020000" name="Omega Enchantment Stone" count="1"/>
-            </items>
-            <items>
-                <item id="166000195" name="Epsilon Enchantment Stone" count="1"/>
-            </items>
-            <items>
-            <item id="166500002" name="Amplification Stone" count="1"/>
-            </items>
-        </decomposable>
+        <decomposable item_id="188053877" decomposable_name="Bona fide Enchantment Stone Box"/>
+        <decomposable item_id="188053874" decomposable_name="Bona fide Enchantment Stone Bundle"/>
+        <decomposable item_id="188053876" decomposable_name="Bona fide Lucky Box"/>
         <decomposable item_id="188053875" decomposable_name="Bona fide Manastone Box">
             <items>
                 <item id="167000734" name="Manastone: Magic Boost +27 / Resist Magic +8" count="5"/>

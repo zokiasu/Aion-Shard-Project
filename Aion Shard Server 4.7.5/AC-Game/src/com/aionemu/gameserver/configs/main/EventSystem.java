@@ -472,7 +472,7 @@ public class EventSystem {
     /*
      * Item 1
      */
-    @Property(key = "gameserver.onevsone.item1", defaultValue = "166020000") // omega item
+    @Property(key = "gameserver.onevsone.item1", defaultValue = "188053618") // omega item
     public static int ITEM1;
 
     /**
