@@ -244,8 +244,11 @@ public class FortressSiege extends Siege<FortressLocation> {
                 }, 3600 * 2000);
             }
 
-        } else if( (getSiegeLocation().getLocationId() == (3011 || 3021 || 2021 || 2011)) && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)
-                && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ELYOS)) ) {
+        } else if ( (getSiegeLocation().getLocationId() == 3011 || getSiegeLocation().getLocationId() == 3021
+                || getSiegeLocation().getLocationId() == 2021 || getSiegeLocation().getLocationId() == 2011)
+                && (srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS)
+                && (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ELYOS)
+                && ((srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)) ){
             log.warn("Ahserion Teleporter for Elyos");
 
             if (AhserionTeleporter.containsKey(297274) && AhserionTeleporter.get(297274).isSpawned()) {
