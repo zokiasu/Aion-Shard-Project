@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chest_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:noNamespaceSchemaLocation="chest_templates.xsd">
+<chest_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="chest_templates.xsd">
+    <!-- Sunayaka's Treasure Chest -->
+    <chest npcid="701651">
+        <keyitem id="1" itemid="0" quantity="1"/>
+    </chest>
     <!-- Treasure Chest-->
     <chest npcid="217100">
         <keyitem id="1" itemid="0" quantity="1"/>

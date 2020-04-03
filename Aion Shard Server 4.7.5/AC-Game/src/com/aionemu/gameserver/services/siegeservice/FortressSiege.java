@@ -209,7 +209,7 @@ public class FortressSiege extends Siege<FortressLocation> {
 		}
         final SiegeService srv = SiegeService.getInstance();
 
-        if( (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ASMODIANS)
+        if( (getSiegeLocation().getLocationId().isFinish() == (3011 || 3021 || 2021 || 2011)) && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ASMODIANS)
             && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
 
@@ -225,28 +225,27 @@ public class FortressSiege extends Siege<FortressLocation> {
                 AhserionTeleporter.put(209238, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 209238, 1086.8112f, 1485.7357f, 404.86078f, (byte) 103), 1));
                 log.warn("Ahserion Teleporter spawned in Inggison");
                 announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter has appeared in Inggison.");
+
+                ThreadPoolManager.getInstance().schedule(new Runnable() {
+                    @Override
+                    public void run() {
+                        for (VisibleObject vo : AhserionTeleporter.values()) {
+                            Npc npc = (Npc) vo;
+                            if(npc.getNpcId() == 297273){
+                                announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter is now missing.");
+                            }
+                            vo.getController().onDelete();
+                        }
+                        AhserionTeleporter.clear();
+                    }
+                }, 3600 * 2000);
             }
 
-            ThreadPoolManager.getInstance().schedule(new Runnable() {
-                @Override
-                public void run() {
-                    for (VisibleObject vo : AhserionTeleporter.values()) {
-                        Npc npc = (Npc) vo;
-                        if(npc.getNpcId() == 297273){
-                            announceEveryOne("Ahserion", "Ahserion's Asmodian teleporter is now missing.");
-                        }
-                        vo.getController().onDelete();
-                    }
-                    AhserionTeleporter.clear();
-                }
-            //}, 3600 * 1000);
-            }, 60000);
-
-        } else if( (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)
+        } else if( (getSiegeLocation().getLocationId().isFinish() == (3011 || 3021 || 2021 || 2011)) && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)
                 && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ELYOS)) ) {
             log.warn("Ahserion Teleporter for Elyos");
 
-            if (AhserionTeleporter.containsKey(297273) && AhserionTeleporter.get(297273).isSpawned()) {
+            if (AhserionTeleporter.containsKey(297274) && AhserionTeleporter.get(297274).isSpawned()) {
                 log.warn("Ahserion Teleporter was already spawned...");
             } else {
                 //Teleporter
@@ -258,21 +257,21 @@ public class FortressSiege extends Siege<FortressLocation> {
                 AhserionTeleporter.put(209038, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(220070000, 209038, 1829.2606f, 1980.844f, 392.0354f, (byte) 10), 1));
                 log.warn("Ahserion Teleporter spawned in Gelkmaros");
                 announceEveryOne("Ahserion", "Ahserion's Elyos teleporter has appeared in Gelkmaros.");
-            }
 
-            ThreadPoolManager.getInstance().schedule(new Runnable() {
-                @Override
-                public void run() {
-                    for (VisibleObject vo : AhserionTeleporter.values()) {
-                        Npc npc = (Npc) vo;
-                        if(npc.getNpcId() == 297274){
-                            announceEveryOne("Ahserion", "Ahserion's Elyos teleporter is now missing.");
+                ThreadPoolManager.getInstance().schedule(new Runnable() {
+                    @Override
+                    public void run() {
+                        for (VisibleObject vo : AhserionTeleporter.values()) {
+                            Npc npc = (Npc) vo;
+                            if(npc.getNpcId() == 297274){
+                                announceEveryOne("Ahserion", "Ahserion's Elyos teleporter is now missing.");
+                            }
+                            vo.getController().onDelete();
                         }
-                        vo.getController().onDelete();
+                        AhserionTeleporter.clear();
                     }
-                    AhserionTeleporter.clear();
-                }
-            }, 3600 * 1000);
+                }, 3600 * 2000);
+            }
         }
     }
 

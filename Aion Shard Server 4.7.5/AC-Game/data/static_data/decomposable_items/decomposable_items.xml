@@ -18877,23 +18877,23 @@
 
         <decomposable item_id="188053140" decomposable_name="Wealhtheow's Keep Assault Reward Box: Grade 1">
             <items>
-                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="186000242" name="Ceramium Medal" count="5"/>
                 <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
                 <item id="186000051" name="Major Ancient Crown" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="186000242" name="Ceramium Medal" count="5"/>
                 <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
                 <item id="186000052" name="Greater Ancient Crown" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="186000242" name="Ceramium Medal" count="5"/>
                 <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
                 <item id="186000053" name="Ancient Crown" count="1"/>
                 <item id="188100115" name="Pradeth Marble" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="4"/>
+                <item id="186000242" name="Ceramium Medal" count="5"/>
                 <item id="188052362" name="Fortress Assault Stigma Reward Bundle"/>
                 <item id="186000054" name="Lesser Ancient Crown" count="1"/>
                 <item id="188100115" name="Pradeth Marble" count="1"/>
@@ -18901,55 +18901,55 @@
         </decomposable>
         <decomposable item_id="188053141" decomposable_name="Wealhtheow's Keep Assault Reward Box: Grade 2">
             <items>
-                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
                 <item id="186000055" name="Major Ancient Goblet" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
                 <item id="186000056" name="Greater Ancient Goblet" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
                 <item id="186000057" name="Ancient Goblet" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="3"/>
+                <item id="186000242" name="Ceramium Medal" count="4"/>
                 <item id="186000058" name="Lesser Ancient Goblet" count="1"/>
             </items>
         </decomposable>
         <decomposable item_id="188053142" decomposable_name="Wealhtheow's Keep Assualt Reward Box: Grade 3">
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000059" name="Major Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000060" name="Greater Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000061" name="Ancient Seal" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal" count="2"/>
+                <item id="186000242" name="Ceramium Medal" count="3"/>
                 <item id="186000062" name="Lesser Ancient Seal" count="1"/>
             </items>
         </decomposable>
         <decomposable item_id="188053143" decomposable_name="Wealhtheow's Keep Assualt Reward Box: Grade 4">
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000063" name="Major Ancient Icon" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000064" name="Greater Ancient Icon" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000065" name="Ancient Icon" count="1"/>
             </items>
             <items>
-                <item id="186000242" name="Ceramium Medal"/>
+                <item id="186000242" name="Ceramium Medal" count="2"/>
                 <item id="186000066" name="Lesser Ancient Icon" count="1"/>
             </items>
         </decomposable>
@@ -25791,7 +25791,7 @@
             </items>
         </decomposable>
         <decomposable item_id="188053117">
-            <items chance="85.0">
+            <items>
                 <item id="169610148"/>
                 <item id="186000242" count="4"/>
                 <item id="188053109"/>
@@ -25799,16 +25799,6 @@
                 <item id="188053090"/>
                 <item id="188053112"/>
                 <item id="188053113"/>
-            </items>
-            <items chance="15.0">
-                <item id="169610148"/>
-                <item id="186000242" count="4"/>
-                <item id="188053109"/>
-                <item id="188053110"/>
-                <item id="188053090"/>
-                <item id="188053112"/>
-                <item id="188053113"/>
-                <item id="188053115"/>
                 <item id="188053116"/>
             </items>
         </decomposable>

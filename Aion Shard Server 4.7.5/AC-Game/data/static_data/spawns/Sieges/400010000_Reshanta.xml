@@ -479,7 +479,7 @@
                     <spawn npc_id="268023">
                         <spot x="2029.808" y="1294.376" z="2963.585" h="13"/>
                     </spawn>
-                    <!-- Veteran Stallari -->
+                    <!-- Veteran Stallari Boss -->
                     <spawn npc_id="267808">
                         <spot x="2070.119" y="1284.194" z="2917.617" h="45"/>
                     </spawn>
@@ -1177,7 +1177,6 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
-		<!-- END KROTAN FORTRESS 1221 -->
         <siege_spawn siege_id="1017">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">
@@ -2627,8 +2626,6 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
-		<!-- END KYSIS FORTRESS 1231 -->
-		
         <siege_spawn siege_id="1011">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">
@@ -5532,13 +5529,13 @@
                         <spot x="1763.823" y="2320.728" z="2948.971" h="36"/>
                         <spot x="1752.958" y="2344.036" z="2947.094" h="38"/>
                     </spawn>
-		    <!-- Miren Sentinel -->
-		    <spawn npc_id="279236">
-			<spot x="1787.871" y="2217.28" z="2947.872" h="6"/>
-			<spot x="1757.796" y="2356.874" z="2945.495" h="3"/>
-			<spot x="1774.4889" y="2336.87" z="2958.2947" h="31"/>
-			<spot x="1745.7194" y="2333.087" z="2958.2947" h="53"/>
-	    	    </spawn>
+                    <!-- Miren Sentinel -->
+                    <spawn npc_id="279236">
+                    <spot x="1787.871" y="2217.28" z="2947.872" h="6"/>
+                    <spot x="1757.796" y="2356.874" z="2945.495" h="3"/>
+                    <spot x="1774.4889" y="2336.87" z="2958.2947" h="31"/>
+                    <spot x="1745.7194" y="2333.087" z="2958.2947" h="53"/>
+                        </spawn>
                     <!-- Fortress Gate -->
                     <spawn npc_id="276406">
                         <spot x="1804.850" y="2233.245" z="2948.189" h="96" static_id="19"/>
@@ -6086,6 +6083,7 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
+        <!-- Siel's Eastern Fortress -->
         <siege_spawn siege_id="1132">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">
@@ -7637,6 +7635,7 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
+        <!-- Asteria Fortress -->
         <siege_spawn siege_id="1251">
             <siege_race race="ELYOS">
                 <siege_mod mod="PEACE">
@@ -8446,6 +8445,7 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
+        <!-- Siel's Western Fortress -->
         <siege_spawn siege_id="1131">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">
@@ -10001,6 +10001,7 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
+        <!-- Roah Fortress -->
         <siege_spawn siege_id="1211">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">
@@ -10916,6 +10917,7 @@
                 </siege_mod>
             </siege_race>
         </siege_spawn>
+        <!-- Sulfur Fortress -->
         <siege_spawn siege_id="1141">
             <siege_race race="ASMODIANS">
                 <siege_mod mod="PEACE">

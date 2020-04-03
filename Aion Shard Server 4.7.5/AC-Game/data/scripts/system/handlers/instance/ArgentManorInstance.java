@@ -80,8 +80,8 @@ public class ArgentManorInstance extends GeneralInstanceHandler {
 
     @Override
     public void onPlayerLogOut(Player player) {
-        TeleportService2.moveToInstanceExit(player, mapId, player.getRace());
-        removeEffects(player);
+        /*TeleportService2.moveToInstanceExit(player, mapId, player.getRace());
+        removeEffects(player);*/
     }
 
     @Override
