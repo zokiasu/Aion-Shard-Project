@@ -407,194 +407,194 @@
     <!-- Debut Agent Fight -->
         <npc_drop npc_id="235064">
             <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-                <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113301776" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112301684" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111301745" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110551137" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114501724" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113601566" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111601583" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114601573" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112601565" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113501714" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112101598" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111101648" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111501696" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114301813" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113101660" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-                <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113301776" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112301684" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111301745" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110551137" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114501724" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113601566" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111601583" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114601573" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112601565" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113501714" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112101598" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111101648" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111501696" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114301813" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113101660" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-                <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100901329" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100201474" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="102101023" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101301234" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101701339" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100001703" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100501288" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101801189" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-                <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100901329" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100201474" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="102101023" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101301234" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101701339" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100001703" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100501288" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101801189" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-                <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-                <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
-                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
             <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
-                <drop item_id="166030005" chance="50.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
+                <drop item_id="166030005" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
             <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
-                <drop item_id="166030005" chance="30.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
+                <drop item_id="166030005" chance="30.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
             <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
-                <drop item_id="166030005" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
+                <drop item_id="166030005" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="235065">
             <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-                <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113301776" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112301684" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111301745" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110551137" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114501724" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113601566" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111601583" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114601573" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112601565" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113501714" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112101598" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111101648" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111501696" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114301813" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113101660" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-                <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113301776" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112301684" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111301745" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110551137" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114501724" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113601566" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111601583" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114601573" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112601565" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113501714" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112101598" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111101648" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="111501696" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="114301813" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="113101660" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-                <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100901329" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100201474" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="102101023" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101301234" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101701339" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100001703" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100501288" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101801189" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-                <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100901329" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100201474" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="102101023" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101301234" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101701339" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100001703" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="100501288" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101801189" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-                <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-                <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-                <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+                <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
-                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
             <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
-                <drop item_id="166030005" chance="50.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
+                <drop item_id="166030005" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
             <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
-                <drop item_id="166030005" chance="30.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
+                <drop item_id="166030005" chance="30.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
             <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
-                <drop item_id="166030005" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
+                <drop item_id="166030005" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
         </npc_drop>
     <!-- Fin Agent Fight -->
