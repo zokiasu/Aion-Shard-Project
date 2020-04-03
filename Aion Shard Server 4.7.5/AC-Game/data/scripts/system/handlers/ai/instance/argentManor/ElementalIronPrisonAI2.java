@@ -183,7 +183,7 @@ public class ElementalIronPrisonAI2 extends GeneralNpcAI2 {
     @Override
     public int modifyHealValue(int value) {
         /*WorldMapInstance instance = getPosition().getWorldMapInstance();
-        int healValue = instance.getPlayersInside().size() == 12 ? 1 : 10;
-        return healValue;*/
+        int healValue = instance.getPlayersInside().size() == 12 ? 1 : 10;*/
+        return 1;
     }
 }
