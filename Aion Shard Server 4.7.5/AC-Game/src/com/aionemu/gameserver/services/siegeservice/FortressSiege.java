@@ -209,8 +209,11 @@ public class FortressSiege extends Siege<FortressLocation> {
 		}
         final SiegeService srv = SiegeService.getInstance();
 
-        if( (getSiegeLocation().getLocationId().isFinish() == (3011 || 3021 || 2021 || 2011)) && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS) && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ASMODIANS)
-            && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
+        if( (getSiegeLocation().getLocationId().isFinish() == 3011 || getSiegeLocation().getLocationId().isFinish() == 3021
+          || getSiegeLocation().getLocationId().isFinish() == 2021 || getSiegeLocation().getLocationId().isFinish() == 2011)
+          && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS)
+          && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ASMODIANS)
+          && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS) || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
 
             if (AhserionTeleporter.containsKey(297273) && AhserionTeleporter.get(297273).isSpawned()) {
