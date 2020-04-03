@@ -2,19 +2,19 @@
 <npc_drops>
     <!-- DEBUT MOB FARM -->
         <npc_drop npc_id="233954">
-            <drop_group group_name="KINAH">
+            <drop_group name="KINAH">
                 <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
             </drop_group>
-            <drop_group group_name="SHARDS">
+            <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
-            <drop_group group_name="MANASTONE">
+            <drop_group name="MANASTONE">
                 <drop item_id="188052199" chance="0.15" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
-            <drop_group group_name="ESSENCE">
+            <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012560" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012561" chance="7.0" min_amount="1" max_amount="2"/>
@@ -35,7 +35,7 @@
                 <drop item_id="152012576" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012577" chance="7.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_65">
+            <drop_group name="FLUX_65">
                 <drop item_id="152011106" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011103" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011100" chance="5.0" min_amount="1" max_amount="2"/>
@@ -46,7 +46,7 @@
                 <drop item_id="152011105" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011102" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_60">
+            <drop_group name="FLUX_60">
                 <drop item_id="152011083" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011087" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011091" chance="5.0" min_amount="1" max_amount="2"/>
@@ -60,7 +60,7 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="ELEMENTAL_STONE">
+            <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010325" chance="10.0" min_amount="1" max_amount="2"/>
@@ -69,19 +69,19 @@
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="233953">
-            <drop_group group_name="KINAH">
+            <drop_group name="KINAH">
                 <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
             </drop_group>
-            <drop_group group_name="SHARDS">
+            <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
-            <drop_group group_name="MANASTONE">
+            <drop_group name="MANASTONE">
                 <drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
-            <drop_group group_name="ESSENCE">
+            <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012560" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012561" chance="7.0" min_amount="1" max_amount="2"/>
@@ -102,7 +102,7 @@
                 <drop item_id="152012576" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012577" chance="7.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_65">
+            <drop_group name="FLUX_65">
                 <drop item_id="152011106" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011103" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011100" chance="5.0" min_amount="1" max_amount="2"/>
@@ -113,7 +113,7 @@
                 <drop item_id="152011105" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011102" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_60">
+            <drop_group name="FLUX_60">
                 <drop item_id="152011083" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011087" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011091" chance="5.0" min_amount="1" max_amount="2"/>
@@ -127,7 +127,7 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="ELEMENTAL_STONE">
+            <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010325" chance="10.0" min_amount="1" max_amount="2"/>
@@ -136,19 +136,19 @@
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="233956">
-            <drop_group group_name="KINAH">
+            <drop_group name="KINAH">
                 <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
             </drop_group>
-            <drop_group group_name="SHARDS">
+            <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
-            <drop_group group_name="MANASTONE">
+            <drop_group name="MANASTONE">
                 <drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
-            <drop_group group_name="ESSENCE">
+            <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012560" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012561" chance="7.0" min_amount="1" max_amount="2"/>
@@ -169,7 +169,7 @@
                 <drop item_id="152012576" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012577" chance="7.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_65">
+            <drop_group name="FLUX_65">
                 <drop item_id="152011106" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011103" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011100" chance="5.0" min_amount="1" max_amount="2"/>
@@ -180,7 +180,7 @@
                 <drop item_id="152011105" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011102" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_60">
+            <drop_group name="FLUX_60">
                 <drop item_id="152011083" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011087" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011091" chance="5.0" min_amount="1" max_amount="2"/>
@@ -194,7 +194,7 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="ELEMENTAL_STONE">
+            <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010325" chance="10.0" min_amount="1" max_amount="2"/>
@@ -203,19 +203,19 @@
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="234967">
-            <drop_group group_name="KINAH">
+            <drop_group name="KINAH">
                 <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
             </drop_group>
-            <drop_group group_name="SHARDS">
+            <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
-            <drop_group group_name="MANASTONE">
+            <drop_group name="MANASTONE">
                 <drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
-            <drop_group group_name="ESSENCE">
+            <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012560" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012561" chance="7.0" min_amount="1" max_amount="2"/>
@@ -236,7 +236,7 @@
                 <drop item_id="152012576" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012577" chance="7.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_65">
+            <drop_group name="FLUX_65">
                 <drop item_id="152011106" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011103" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011100" chance="5.0" min_amount="1" max_amount="2"/>
@@ -247,7 +247,7 @@
                 <drop item_id="152011105" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011102" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_60">
+            <drop_group name="FLUX_60">
                 <drop item_id="152011083" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011087" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011091" chance="5.0" min_amount="1" max_amount="2"/>
@@ -261,7 +261,7 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="ELEMENTAL_STONE">
+            <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010325" chance="10.0" min_amount="1" max_amount="2"/>
@@ -270,19 +270,19 @@
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="234956">
-            <drop_group group_name="KINAH">
+            <drop_group name="KINAH">
                 <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
             </drop_group>
-            <drop_group group_name="SHARDS">
+            <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
-            <drop_group group_name="MANASTONE">
+            <drop_group name="MANASTONE">
                 <drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
-            <drop_group group_name="ESSENCE">
+            <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012560" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012561" chance="7.0" min_amount="1" max_amount="2"/>
@@ -303,7 +303,7 @@
                 <drop item_id="152012576" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012577" chance="7.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_65">
+            <drop_group name="FLUX_65">
                 <drop item_id="152011106" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011103" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011100" chance="5.0" min_amount="1" max_amount="2"/>
@@ -314,7 +314,7 @@
                 <drop item_id="152011105" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011102" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_60">
+            <drop_group name="FLUX_60">
                 <drop item_id="152011083" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011087" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011091" chance="5.0" min_amount="1" max_amount="2"/>
@@ -328,7 +328,7 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="ELEMENTAL_STONE">
+            <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010325" chance="10.0" min_amount="1" max_amount="2"/>
@@ -337,19 +337,19 @@
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="234719">
-            <drop_group group_name="KINAH">
+            <drop_group name="KINAH">
                 <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
             </drop_group>
-            <drop_group group_name="SHARDS">
+            <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
-            <drop_group group_name="MANASTONE">
+            <drop_group name="MANASTONE">
                 <drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
                 <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
                 <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
-            <drop_group group_name="ESSENCE">
+            <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012560" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012561" chance="7.0" min_amount="1" max_amount="2"/>
@@ -370,7 +370,7 @@
                 <drop item_id="152012576" chance="7.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152012577" chance="7.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_65">
+            <drop_group name="FLUX_65">
                 <drop item_id="152011106" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011103" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011100" chance="5.0" min_amount="1" max_amount="2"/>
@@ -381,7 +381,7 @@
                 <drop item_id="152011105" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011102" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="FLUX_60">
+            <drop_group name="FLUX_60">
                 <drop item_id="152011083" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011087" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011091" chance="5.0" min_amount="1" max_amount="2"/>
@@ -395,7 +395,7 @@
                 <drop item_id="152011084" chance="5.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152011088" chance="5.0" min_amount="1" max_amount="2"/>
             </drop_group>
-            <drop_group group_name="ELEMENTAL_STONE">
+            <drop_group name="ELEMENTAL_STONE">
                 <drop item_id="152010327" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010326" chance="10.0" min_amount="1" max_amount="2"/>
                 <drop item_id="152010325" chance="10.0" min_amount="1" max_amount="2"/>
@@ -406,7 +406,7 @@
     <!-- FIN MOB FARM -->
     <!-- Debut Agent Fight -->
         <npc_drop npc_id="235064">
-            <drop_group use_category="true" group_name="ARMOR_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
                 <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -428,7 +428,7 @@
                 <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="ARMOR_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
                 <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -450,7 +450,7 @@
                 <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="WEAPON_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
                 <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -465,7 +465,7 @@
                 <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="WEAPON_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
                 <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -480,29 +480,29 @@
                 <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="ACCESSORY_RARE" race="PC_ALL">
+            <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
                 <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="ACCESSORY_RARE" race="PC_ALL">
+            <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
                 <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="MANASTONE" race="PC_ALL">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
-            <drop_group use_category="true" group_name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
                 <drop item_id="166030005" chance="50.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
-            <drop_group use_category="true" group_name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
                 <drop item_id="166030005" chance="30.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
-            <drop_group use_category="true" group_name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
                 <drop item_id="166030005" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
         </npc_drop>
         <npc_drop npc_id="235065">
-            <drop_group use_category="true" group_name="ARMOR_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
                 <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -524,7 +524,7 @@
                 <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="ARMOR_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
                 <drop itemid="114101694" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110301807" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="110601620" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -546,7 +546,7 @@
                 <drop itemid="110101834" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="112501635" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="WEAPON_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
                 <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -561,7 +561,7 @@
                 <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="WEAPON_COMMON" race="PC_ALL">
+            <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
                 <drop itemid="102001217" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100101302" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="100601398" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
@@ -576,24 +576,24 @@
                 <drop itemid="101501325" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="101901100" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="ACCESSORY_RARE" race="PC_ALL">
+            <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
                 <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="ACCESSORY_RARE" race="PC_ALL">
+            <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
                 <drop itemid="187100018" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
                 <drop itemid="187100017" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
             </drop_group>
-            <drop_group use_category="true" group_name="MANASTONE" race="PC_ALL">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
-            <drop_group use_category="true" group_name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
                 <drop item_id="166030005" chance="50.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
-            <drop_group use_category="true" group_name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
                 <drop item_id="166030005" chance="30.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
-            <drop_group use_category="true" group_name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
                 <drop item_id="166030005" chance="10.0" min_amount="1" max_amount="1" noreduce="false" eachmember="false"/> <!-- Manastone 70 Blue -->
             </drop_group>
         </npc_drop>
