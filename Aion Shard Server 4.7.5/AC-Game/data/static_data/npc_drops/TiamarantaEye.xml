@@ -8,67 +8,67 @@
         <drop_group name="COMPOSITE_70">
             <drop item_id="188052201" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX" race="PC_ALL">
-            <drop itemid="188051826" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX" race="PC_ALL">
+            <drop item_id="188051826" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX_SECOND" race="PC_ALL">
-            <drop itemid="188051826" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX_SECOND" race="PC_ALL">
+            <drop item_id="188051826" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX_THIRD" race="PC_ALL">
-            <drop itemid="188051826" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX_THIRD" race="PC_ALL">
+            <drop item_id="188051826" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX_FOURTH" race="PC_ALL">
-            <drop itemid="188051826" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX_FOURTH" race="PC_ALL">
+            <drop item_id="188051826" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_HEAD" race="PC_ALL">
-            <drop itemid="125003135" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_HEAD" race="PC_ALL">
+            <drop item_id="125003135" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_HEAD" race="PC_ALL">
-            <drop itemid="125003135" chance="50" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_HEAD" race="PC_ALL">
+            <drop item_id="125003135" chance="50" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group name="EPSILON_ENCHANTMENT">
             <drop item_id="166000195" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
@@ -648,67 +648,67 @@
         <drop_group name="COMPOSITE_70">
             <drop item_id="188052201" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX" race="PC_ALL">
-            <drop itemid="188051826" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX" race="PC_ALL">
+            <drop item_id="188051826" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX_SECOND" race="PC_ALL">
-            <drop itemid="188051826" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="20" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX_SECOND" race="PC_ALL">
+            <drop item_id="188051826" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="20" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX_THIRD" race="PC_ALL">
-            <drop itemid="188051826" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="10" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX_THIRD" race="PC_ALL">
+            <drop item_id="188051826" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="10" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_WEAPON_BOX_FOURTH" race="PC_ALL">
-            <drop itemid="188051826" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051829" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051827" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051832" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051830" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051831" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051824" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051828" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="188051825" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101800856" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="101900854" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
-            <drop itemid="102000888" chance="5" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_WEAPON_BOX_FOURTH" race="PC_ALL">
+            <drop item_id="188051826" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051829" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051827" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051832" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051830" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051831" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051824" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051828" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188051825" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101800856" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="101900854" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102000888" chance="5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_HEAD" race="PC_ALL">
-            <drop itemid="125003135" chance="100" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_HEAD" race="PC_ALL">
+            <drop item_id="125003135" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
-        <drop_group use_category="true" group_name="NAMED_EPIC_HEAD" race="PC_ALL">
-            <drop itemid="125003135" chance="50" min="1" max="1" noreduce="false" eachmember="false" />
+        <drop_group use_category="true" name="NAMED_EPIC_HEAD" race="PC_ALL">
+            <drop item_id="125003135" chance="50" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group name="EPSILON_ENCHANTMENT">
             <drop item_id="166000195" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
