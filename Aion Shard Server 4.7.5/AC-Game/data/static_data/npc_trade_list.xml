@@ -143,7 +143,7 @@
 	<tradelist_template npc_id="278134" npc_type="ABYSS">
 		<tradelist id="384"/>
 		<tradelist id="403"/>
-		<tradelist id="547"/>
+		<!--<tradelist id="547"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="278135" npc_type="ABYSS">
 		<tradelist id="381"/>
@@ -268,7 +268,7 @@
 	<tradelist_template npc_id="278636" npc_type="ABYSS">
 		<tradelist id="208"/>
 		<tradelist id="402"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="278637" npc_type="ABYSS">
 		<tradelist id="205"/>
@@ -1105,7 +1105,7 @@
 	<tradelist_template npc_id="203896" npc_type="ABYSS">
 		<tradelist id="517"/>
 		<tradelist id="402"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 		<tradelist id="557"/>
 	</tradelist_template>
 	<tradelist_template npc_id="203897" npc_type="ABYSS">
@@ -1335,7 +1335,7 @@
 	<tradelist_template npc_id="204272" npc_type="ABYSS">
 		<tradelist id="518"/>
 		<tradelist id="403"/>
-		<tradelist id="547"/>
+		<!--<tradelist id="547"/>-->
 		<tradelist id="558"/>
 	</tradelist_template>
 	<tradelist_template npc_id="204273" npc_type="ABYSS">
@@ -1870,7 +1870,7 @@
 	</tradelist_template>
 	<tradelist_template npc_id="205526" npc_type="ABYSS">
 		<tradelist id="1413"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="205527" npc_type="ABYSS">
 		<tradelist id="1236"/>
@@ -2010,7 +2010,7 @@
 	</tradelist_template>
 	<tradelist_template npc_id="205608" npc_type="ABYSS">
 		<tradelist id="1414"/>
-		<tradelist id="547"/>
+		<!--<tradelist id="547"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="205609" npc_type="ABYSS">
 		<tradelist id="1252"/>
@@ -2869,7 +2869,7 @@
 	<tradelist_template npc_id="798505" npc_type="ABYSS">
 		<tradelist id="724"/>
 		<tradelist id="810"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 		<tradelist id="1467"/>
 	</tradelist_template>
 	<tradelist_template npc_id="798506" npc_type="ABYSS">
@@ -2934,7 +2934,7 @@
 	<tradelist_template npc_id="798705" npc_type="ABYSS">
 		<tradelist id="725"/>
 		<tradelist id="811"/>
-		<tradelist id="547"/>
+		<!--<tradelist id="547"/>-->
 		<tradelist id="1468"/>
 	</tradelist_template>
 	<tradelist_template npc_id="798706" npc_type="ABYSS">
@@ -3064,7 +3064,7 @@
 	<tradelist_template npc_id="798920" npc_type="ABYSS">
 		<tradelist id="722"/>
 		<tradelist id="810"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="798921" npc_type="ABYSS">
 		<tradelist id="699"/>
@@ -3252,7 +3252,7 @@
 	<tradelist_template npc_id="799219" npc_type="ABYSS">
 		<tradelist id="723"/>
 		<tradelist id="811"/>
-		<tradelist id="547"/>
+		<!--<tradelist id="547"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="799220" npc_type="ABYSS">
 		<tradelist id="702"/>
@@ -4099,7 +4099,7 @@
 	<tradelist_template npc_id="800577" npc_type="ABYSS">
 		<tradelist id="724"/>
 		<tradelist id="810"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 		<tradelist id="1467"/>
 	</tradelist_template>
 	<tradelist_template npc_id="800587">
@@ -4584,7 +4584,7 @@
 	<tradelist_template npc_id="800952" npc_type="ABYSS">
 		<tradelist id="724"/>
 		<tradelist id="810"/>
-		<tradelist id="546"/>
+		<!--<tradelist id="546"/>-->
 		<tradelist id="1467"/>
 	</tradelist_template>
 	<tradelist_template npc_id="800955" npc_type="REWARD">

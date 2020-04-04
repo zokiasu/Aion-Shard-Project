@@ -25506,14 +25506,14 @@
         </decomposable>	
         <decomposable item_id="188053628" decomposable_name="Pallasite Bundle">
             <items>
-                <item id="169405339" name="Pallasite Crystal" count="50"/>
-                <item id="169405340" name="Pallasite Powder" count="10"/>
-                <item id="169405341" name="Pallasite Refined Water" count="10"/>
+                <item id="169405339" name="Pallasite Crystal" count="5"/>
+                <item id="169405340" name="Pallasite Powder" count="5"/>
+                <item id="169405341" name="Pallasite Refined Water" count="5"/>
             </items>
             <items>
-                <item id="169405338" name="Pallasite Ore" count="50"/>
-                <item id="169405340" name="Pallasite Powder" count="10"/>
-                <item id="169405341" name="Pallasite Refined Water" count="10"/>
+                <item id="169405338" name="Pallasite Ore" count="5"/>
+                <item id="169405340" name="Pallasite Powder" count="5"/>
+                <item id="169405341" name="Pallasite Refined Water" count="5"/>
             </items>
         </decomposable>
         <decomposable item_id="188053671" decomposable_name="[Event] Pallasite Material Box">
@@ -28135,160 +28135,6 @@
                     <item id="125004020"/>
                 </items>
             <!--FIN ARMURE-->
-            <!--DEBUT MANASTONE VERTE-->
-                <items>
-                    <item id="167000518"/>
-                </items>
-                <items>
-                    <item id="167000559"/>
-                </items>
-                <items>
-                    <item id="167000563"/>
-                </items>
-                <items>
-                    <item id="167000766"/>
-                </items>
-                <items>
-                    <item id="167000767"/>
-                </items>
-                <items>
-                    <item id="167000768"/>
-                </items>
-                <items>
-                    <item id="167000769"/>
-                </items>
-                <items>
-                    <item id="167000770"/>
-                </items>
-                <items>
-                    <item id="167000771"/>
-                </items>
-                <items>
-                    <item id="167000772"/>
-                </items>
-                <items>
-                    <item id="167000773"/>
-                </items>
-                <items>
-                    <item id="167000775"/>
-                </items>
-                <items>
-                    <item id="167000776"/>
-                </items>
-                <items>
-                    <item id="167000777"/>
-                </items>
-            <!--FIN MANASTONE VERTE-->
-            <!--DEBUT MANASTONE BLEU-->
-                <items>
-                    <item id="167000682"/>
-                </items>
-                <items>
-                    <item id="167000683"/>
-                </items>
-                <items>
-                    <item id="167000684"/>
-                </items>
-                <items>
-                    <item id="167000685"/>
-                </items>
-                <items>
-                    <item id="167000686"/>
-                </items>
-                <items>
-                    <item id="167000687"/>
-                </items>
-                <items>
-                    <item id="167000688"/>
-                </items>
-                <items>
-                    <item id="167000689"/>
-                </items>
-                <items>
-                    <item id="167000690"/>
-                </items>
-                <items>
-                    <item id="167000691"/>
-                </items>
-                <items>
-                    <item id="167000692"/>
-                </items>
-                <items>
-                    <item id="167000693"/>
-                </items>
-                <items>
-                    <item id="167000694"/>
-                </items>
-                <items>
-                    <item id="167000695"/>
-                </items>
-                <items>
-                    <item id="167000696"/>
-                </items>
-                <items>
-                    <item id="167000697"/>
-                </items>
-                <items>
-                    <item id="167000698"/>
-                </items>
-                <items>
-                    <item id="167000699"/>
-                </items>
-                <items>
-                    <item id="167000700"/>
-                </items>
-                <items>
-                    <item id="167000701"/>
-                </items>
-                <items>
-                    <item id="167000702"/>
-                </items>
-                <items>
-                    <item id="167000703"/>
-                </items>
-                <items>
-                    <item id="167000704"/>
-                </items>
-                <items>
-                    <item id="167000705"/>
-                </items>
-                <items>
-                    <item id="167000706"/>
-                </items>
-                <items>
-                    <item id="167000707"/>
-                </items>
-                <items>
-                    <item id="167000708"/>
-                </items>
-                <items>
-                    <item id="167000709"/>
-                </items>
-                <items>
-                    <item id="167000710"/>
-                </items>
-                <items>
-                    <item id="167000711"/>
-                </items>
-                <items>
-                    <item id="167000712"/>
-                </items>
-                <items>
-                    <item id="167000713"/>
-                </items>
-                <items>
-                    <item id="167000714"/>
-                </items>
-                <items>
-                    <item id="167000749"/>
-                </items>
-                <items>
-                    <item id="167000750"/>
-                </items>
-                <items>
-                    <item id="167000751"/>
-                </items>
-            <!--FIN MANASTONE BLEU-->
             <!--DEBUT ANCIENNE MANASTONE ETERNEL-->
                 <items>
                     <item id="167020072"/>
@@ -28327,11 +28173,6 @@
                     <item id="167020083"/>
                 </items>
             <!--FIN ANCIENNE MANASTONE ETERNEL-->
-            <!--DEBUT AUTRE-->
-                <items>
-                    <item id="188053628"/>
-                </items>
-            <!--FIN AUTRE-->
         </decomposable>
         <decomposable item_id="188053180" decomposable_name="Level 2 Grand Invasion Reward Box">
             <!--DEBUT ARMES-->

@@ -201,4 +201,55 @@
         </drop_group>
     </npc_drop>
     <!-- FIN MOB FARM -->
+    <!-- Debut Invasion -->
+        <npc_drop npc_id="234595">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+                <drop item_id="188051756" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="true"/> <!-- Manastone 60/70 Green or White -->
+            </drop_group>
+            <drop_group use_category="true" name="PALLASITE" race="PC_ALL">
+                <drop item_id="188053628" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+            <drop_group use_category="true" name="GRADE_1" race="PC_ALL">
+                <drop item_id="188053181" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+        </npc_drop>
+        <npc_drop npc_id="234596">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+                <drop item_id="188051756" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="true"/> <!-- Manastone 60/70 Green or White -->
+            </drop_group>
+            <drop_group use_category="true" name="PALLASITE" race="PC_ALL">
+                <drop item_id="188053628" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+            <drop_group use_category="true" name="GRADE_1" race="PC_ALL">
+                <drop item_id="188053181" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+        </npc_drop>
+        <npc_drop npc_id="234598">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+                <drop item_id="188051756" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="true"/> <!-- Manastone 60/70 Green or White -->
+            </drop_group>
+            <drop_group use_category="true" name="PALLASITE" race="PC_ALL">
+                <drop item_id="188053628" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+            <drop_group use_category="true" name="GRADE_1" race="PC_ALL">
+                <drop item_id="188053181" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+        </npc_drop>
+        <npc_drop npc_id="234599">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+                <drop item_id="188051756" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="true"/> <!-- Manastone 60/70 Green or White -->
+            </drop_group>
+            <drop_group use_category="true" name="PALLASITE" race="PC_ALL">
+                <drop item_id="188053628" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+            <drop_group use_category="true" name="GRADE_1" race="PC_ALL">
+                <drop item_id="188053181" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            </drop_group>
+        </npc_drop>
+    <!-- Fin Invasion -->
+
 </npc_drops>
