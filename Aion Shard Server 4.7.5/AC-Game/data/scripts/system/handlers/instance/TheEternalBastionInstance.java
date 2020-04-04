@@ -281,8 +281,8 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                         spawnWalk(231110, 611.19899f, 401.60455f, 226.0078f, (byte) 110, 1800, "30054000003");
                     }
                 }, 120000L, 120000L);
-
                 break;
+
             case START_STAGE_2_PHASE_1:
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
@@ -314,9 +314,9 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                         spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
                         spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
                         spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000010");*/
-                        spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
-                        spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
-                        spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
+                        spawnWalk(231110, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
+                        spawnWalk(231110, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
+                        spawnWalk(231110, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
                         spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
                         spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
                         spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000012");
@@ -368,6 +368,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     }
                 }, 120000L, 120000L);
                 break;
+
             case START_SPAWN_DEAD_GATE:
                 AttackTowerGate = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
                     @Override
