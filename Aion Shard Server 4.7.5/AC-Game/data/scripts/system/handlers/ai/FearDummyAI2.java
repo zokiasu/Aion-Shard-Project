@@ -65,9 +65,8 @@ public class FearDummyAI2 extends GeneralNpcAI2 {
 		float y1 = (float) (Math.sin(radian) * maxDistance);
 		byte intentions = (byte) (CollisionIntention.PHYSICAL.getId() | CollisionIntention.DOOR.getId());
 		Vector3f closestCollision = GeoService.getInstance().getClosestCollision(getOwner(), x + x1, y + y1, getOwner().getZ(), true, intentions);
-		if (getOwner().isFlying()) {
-			closestCollision.setZ(getOwner().getZ());
-		}
+
+		closestCollision.setZ(getOwner().getZ());
 		getOwner().getMoveController().resetMove();
 		getOwner().getMoveController().moveToPoint(closestCollision.getX(), closestCollision.getY(), closestCollision.getZ());
 	}
