@@ -707,7 +707,7 @@ public class Effect implements StatOwner {
 
         //TODO move it somewhere more appropriate
         // Fear is not applied on players who are gliding
-        if (isFearEffect()) {
+        /*if (isFearEffect()) {
             if (getEffected().isInState(CreatureState.GLIDING)) {
                 // Only if player is not in Flying mode
                 // TODO: verify on retail if this check is needed
@@ -718,7 +718,7 @@ public class Effect implements StatOwner {
                     }
                 }
             }
-        }
+        }*/
 
         /**
          * broadcast final hate to all visible objects

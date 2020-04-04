@@ -53,6 +53,7 @@ public class FearDummyAI2 extends GeneralNpcAI2 {
 
 	@Override
 	protected void handleAttack(Creature creature) {
+
 		float x = getOwner().getX();
 		float y = getOwner().getY();
 		if (!MathUtil.isNearCoordinates(getOwner(), creature, 40)) {
