@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
 	<spawn_map map_id="300540000">
-		<!-- vip buff -->
-        <spawn npc_id="831990">
-            <spot x="763.93414" y="266.71265" z="233.49747"/>
-        </spawn>
 	    <!-- Внутренний заслон -->
 	    <spawn npc_id="831335">
 			<spot x="662.99988" y="222.48276" z="225.69778" static_id="309"/>

@@ -281,9 +281,9 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
-                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
-                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
-                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
+                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000011");
+                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000011");
+                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000011");
                         onChangeStageList(StageList.START_STAGE_1_PHASE_1);
                         onChangeStageList(StageList.START_STAGE_2_PHASE_2);
                     }
@@ -293,9 +293,9 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
-                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
-                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
-                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
+                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000011");
+                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000011");
+                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000011");
                         onChangeStageList(StageList.START_STAGE_2_PHASE_3);
                     }
                 }, 120000L);
@@ -304,10 +304,10 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
-                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
-                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
-                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
-                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000010");
+                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000011");
+                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000011");
+                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000011");
+                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000011");
                         spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
                         spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000012");
                         onChangeStageList(StageList.START_STAGE_2_PHASE_4);
@@ -318,10 +318,10 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
-                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
-                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
-                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
-                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000010");
+                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000011");
+                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000011");
+                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000011");
+                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000011");
                         spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
                         spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000012");
                         onChangeStageList(StageList.START_STAGE_2_PHASE_5);
@@ -332,12 +332,12 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
-                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000007");
-                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000008");
-                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000009");
-                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000010");
+                        spawnWalk(231113, 643.53816f, 475.5974f, 226.5108f, (byte) 111, 1000, "30054000011");
+                        spawnWalk(231110, 644.84991f, 474.9318f, 226.5108f, (byte) 96, 1100, "30054000011");
+                        spawnWalk(231110, 645.19899f, 476.60455f, 226.5108f, (byte) 110, 1200, "30054000011");
+                        spawnWalk(231113, 677.53816f, 477.5974f, 224.5108f, (byte) 111, 1300, "30054000011");
                         spawnWalk(231108, 678.84991f, 478.9318f, 224.5108f, (byte) 96, 1400, "30054000011");
-                        spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000012");
+                        spawnWalk(231108, 679.19899f, 479.60455f, 224.5108f, (byte) 110, 1500, "30054000011");
                         onChangeStageList(StageList.START_STAGE_2_PHASE_6);
                     }
                 }, 120000L);

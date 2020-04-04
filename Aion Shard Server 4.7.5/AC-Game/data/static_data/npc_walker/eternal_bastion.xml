@@ -477,7 +477,7 @@
 		<routestep step="9" x="746.67" y="290.20" z="233.60"/>
 	</walker_template>
 	<walker_template route_id="30054000010" pool="1">
-		<routestep step="1" x="677.0673" y="477.96024" z="224.70"/>
+		<routestep step="1" x="678.0673" y="478.96024" z="226.70"/>
 		<routestep step="2" x="683.70" y="446.12" z="226.90"/>
 		<routestep step="3" x="716.67" y="428.20" z="230.10"/>
 		<routestep step="4" x="732.67" y="365.20" z="231.01"/>
