@@ -78,10 +78,10 @@ public class DashEffect extends DamageEffect {
 
         if(effector.getActingCreature() == effected) {
             log.warn("La target du joueur est la bonne");
-            effect.getSkill().setTargetPosition(effector.getActingCreature().getX(), effector.getActingCreature().getY(), effector.getActingCreature().getZ(), effector.getActingCreature().getHeading());
+            effect.getSkill().setTargetPosition(effected.getX(), effected.getY(), effected.getZ(), effected.getHeading());
         } else {
             log.warn("La target du joueur n'est pas la bonne");
-            effect.getSkill().setTargetPosition(effected.getX(), effected.getY(), effected.getZ(), effected.getHeading());
+            effect.getSkill().setTargetPosition(effector.getActingCreature().getX(), effector.getActingCreature().getY(), effector.getActingCreature().getZ(), effector.getActingCreature().getHeading());
         }
     }
 }
