@@ -71,7 +71,15 @@ public class DashEffect extends DamageEffect {
             return;
         }
 
+        final Player effector = (Player) effect.getEffector();
+
         Creature effected = effect.getEffected();
+
+        if(effector.getActingCreature() == effected) {
+            log.warn("La target du joueur est la bonne");
+        } else {
+            log.warn("La target du joueur n'est pas la bonne");
+        }
         effect.setDashStatus(DashStatus.DASH);
         effect.getSkill().setTargetPosition(effected.getX(), effected.getY(), effected.getZ(), effected.getHeading());
     }
