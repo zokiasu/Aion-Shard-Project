@@ -117,10 +117,8 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     break;
             }
         }
-
-        if (npcId == 230753 || npcId == 230757) {
-            dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 185000137, 1));
-        }
+        dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, 230753, 185000137, 1));
+        dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, 230757, 185000137, 1));
     }
 
     protected EternalBastionPlayerReward getPlayerReward(Player player) {
