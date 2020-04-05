@@ -177,7 +177,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     instanceReward.setInstanceScoreType(InstanceScoreType.START_PROGRESS);
                     sendPacket(0);
                 }
-            }, 60000L);
+            }, 150000L);
             instanceTimer = ThreadPoolManager.getInstance().schedule(new Runnable() {
                 @Override
                 public void run() {
@@ -939,6 +939,19 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         final int defenceWeapon11 = spawnRace == Race.ASMODIANS ? 701620 : 701606;
         final int defenceWeapon12 = spawnRace == Race.ASMODIANS ? 701621 : 701607;
         final int defenceWeapon13 = spawnRace == Race.ASMODIANS ? 701922 : 701625;
+        spawn(defenceWeapon1, 617.95416f, 248.32031f, 235.74449f, (byte) 63);
+        spawn(defenceWeapon2, 613.11914f, 275.30057f, 235.74294f, (byte) 64);
+        spawn(defenceWeapon3, 616.4774f, 313.85846f, 235.74289f, (byte) 52);
+        spawn(defenceWeapon4, 625.97675f, 339.55414f, 235.7432f, (byte) 54);
+        spawn(defenceWeapon5, 651.3247f, 373.3068f, 238.60867f, (byte) 44);
+        spawn(defenceWeapon6, 678.08124f, 396.04736f, 238.63474f, (byte) 43);
+        spawn(defenceWeapon7, 710.27765f, 409.9322f, 241.02042f, (byte) 31);
+        spawn(defenceWeapon8, 737.3579f, 413.3636f, 241.02278f, (byte) 33);
+        spawn(defenceWeapon9, 772.7887f, 410.0723f, 241.02089f, (byte) 6);
+        spawn(defenceWeapon10, 798.2277f, 400.5876f, 241.02304f, (byte) 38);
+        spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
+        spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
+        spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
         DefenceWeapons = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
              @Override
              public void run() {
@@ -995,7 +1008,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                      spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
                  }
              }
-         }, 180000L, 180000L);
+         }, 60000L, 60000L);
     }
 
     private void defenceWeaponCancelTask(){
