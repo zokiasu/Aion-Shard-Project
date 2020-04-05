@@ -156,7 +156,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 @Override
                 public void run() {
                     openDoor(311);
-                    SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
                     if (spawnRace == null) {
                         spawnRace = player.getRace();
                         instanceReward.addPoints(20000);
