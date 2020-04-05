@@ -61,6 +61,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     private int Wave04Begin;
     private int AssaultBombCancel;
     private int HakundaRakunda;
+    private Future<?> DefenceWeapons;
     private Future<?> instanceTimer;
     private Future<?> AssaultBomb;
     private Future<?> AssaultRam;
@@ -75,6 +76,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     private Future<?> stage2;
     private int rank;
     private int skillId;
+    private int CastleWallCount = 0;
 
     @Override
     public void onDropRegistered(Npc npc) {
@@ -836,13 +838,18 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             case 831333:
                 sendMsg(1401826);
                 despawnNpc(npc); //despawnByNpcId(831333);
-                onChangeStageList(StageList.START_SPAWN_DEAD_GATE);
-                AssaultBombCancelTask();
-                AssaultRamCancelTask();
+                CastleWallCount++;
+                if(CastleWallCount >= 2) {
+                    onChangeStageList(StageList.START_SPAWN_DEAD_GATE);
+                    AssaultBombCancelTask();
+                    AssaultRamCancelTask();
+                }
                 break;
             case 831335:
                 sendMsg(1401824);
-                onChangeStageList(StageList.START_SPAWN_DEAD_GATE_2);
+                if(CastleWallCount >= 2) {
+                    onChangeStageList(StageList.START_SPAWN_DEAD_GATE_2);
+                }
                 break;
             case 831330: // Eternal Bastion Bomb.
                 SkillEngine.getInstance().getSkill(npc, 21272, 60, player).useNoAnimationSkill();
@@ -909,6 +916,10 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         spawn(guard15, 744.25f, 362.73f, 231.67f, (byte) 58);
         spawn(guard16, 745.25f, 367.73f, 231.67f, (byte) 58);
         // Defence Weapon.
+        defenceWeapon();
+    }
+
+    private void defenceWeapon(){
         final int defenceWeapon1 = spawnRace == Race.ASMODIANS ? 701610 : 701596;
         final int defenceWeapon2 = spawnRace == Race.ASMODIANS ? 701611 : 701597;
         final int defenceWeapon3 = spawnRace == Race.ASMODIANS ? 701612 : 701598;
@@ -922,19 +933,58 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         final int defenceWeapon11 = spawnRace == Race.ASMODIANS ? 701620 : 701606;
         final int defenceWeapon12 = spawnRace == Race.ASMODIANS ? 701621 : 701607;
         final int defenceWeapon13 = spawnRace == Race.ASMODIANS ? 701922 : 701625;
-        spawn(defenceWeapon1, 617.95416f, 248.32031f, 235.74449f, (byte) 63);
-        spawn(defenceWeapon2, 613.11914f, 275.30057f, 235.74294f, (byte) 64);
-        spawn(defenceWeapon3, 616.4774f, 313.85846f, 235.74289f, (byte) 52);
-        spawn(defenceWeapon4, 625.97675f, 339.55414f, 235.7432f, (byte) 54);
-        spawn(defenceWeapon5, 651.3247f, 373.3068f, 238.60867f, (byte) 44);
-        spawn(defenceWeapon6, 678.08124f, 396.04736f, 238.63474f, (byte) 43);
-        spawn(defenceWeapon7, 710.27765f, 409.9322f, 241.02042f, (byte) 31);
-        spawn(defenceWeapon8, 737.3579f, 413.3636f, 241.02278f, (byte) 33);
-        spawn(defenceWeapon9, 772.7887f, 410.0723f, 241.02089f, (byte) 6);
-        spawn(defenceWeapon10, 798.2277f, 400.5876f, 241.02304f, (byte) 38);
-        spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
-        spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
-        spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
+        DefenceWeapons = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
+             @Override
+             public void run() {
+                 if(!isSpawned(defenceWeapon1)) {
+                     spawn(defenceWeapon1, 617.95416f, 248.32031f, 235.74449f, (byte) 63);
+                 }
+                 if(!isSpawned(defenceWeapon2)) {
+                     spawn(defenceWeapon2, 613.11914f, 275.30057f, 235.74294f, (byte) 64);
+                 }
+                 if(!isSpawned(defenceWeapon3)) {
+                     spawn(defenceWeapon3, 616.4774f, 313.85846f, 235.74289f, (byte) 52);
+                 }
+                 if(!isSpawned(defenceWeapon4)) {
+                     spawn(defenceWeapon4, 625.97675f, 339.55414f, 235.7432f, (byte) 54);
+                 }
+                 if(!isSpawned(defenceWeapon5)) {
+                     spawn(defenceWeapon5, 651.3247f, 373.3068f, 238.60867f, (byte) 44);
+                 }
+                 if(!isSpawned(defenceWeapon6)) {
+                     spawn(defenceWeapon6, 678.08124f, 396.04736f, 238.63474f, (byte) 43);
+                 }
+                 if(!isSpawned(defenceWeapon7)) {
+                     spawn(defenceWeapon7, 710.27765f, 409.9322f, 241.02042f, (byte) 31);
+                 }
+                 if(!isSpawned(defenceWeapon8)) {
+                     spawn(defenceWeapon8, 737.3579f, 413.3636f, 241.02278f, (byte) 33);
+                 }
+                 if(!isSpawned(defenceWeapon9)) {
+                     spawn(defenceWeapon9, 772.7887f, 410.0723f, 241.02089f, (byte) 6);
+                 }
+                 if(!isSpawned(defenceWeapon10)) {
+                     spawn(defenceWeapon10, 798.2277f, 400.5876f, 241.02304f, (byte) 38);
+                 }
+                 if(!isSpawned(defenceWeapon11)) {
+                     spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
+                 }
+                 if(!isSpawned(defenceWeapon12)) {
+                     spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
+                 }
+                 if(!isSpawned(defenceWeapon13)) {
+                     spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
+                 }
+             }
+         }, 180000L, 180000L);
+    }
+
+    private void defenceWeaponCancelTask(){
+        Tasks.cancel(DefenceWeapons);
+    }
+
+    private boolean isSpawned(int npcId) {
+        return !getPosition().getWorldMapInstance().getNpcs(npcId).isEmpty();
     }
 
     private void startAssault() {
@@ -980,12 +1030,11 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void StartSpawnRam() {
         AssaultRam = ThreadPoolManager.getInstance().schedule(new Runnable() {
-                                                                  @Override
-                                                                  public void run() {
-                                                                      attackGate(getNpc(831333), (Npc) spawn(231150, 798.76f, 426.68f, 231.77f, (byte) 77));
-                                                                  }
-                                                              }
-                , 900000L);
+              @Override
+              public void run() {
+                  attackGate(getNpc(831333), (Npc) spawn(231150, 798.76f, 426.68f, 231.77f, (byte) 77));
+              }
+        }, 900000L);
     }
 
     private void startAssaultPodTimer() {
@@ -1087,6 +1136,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     }
 
     private void cancelAllTasks() {
+        Tasks.cancel(DefenceWeapons);
         Tasks.cancel(AssaultBomb);
         Tasks.cancel(AssaultRam);
         Tasks.cancel(AttackTowerGate);
