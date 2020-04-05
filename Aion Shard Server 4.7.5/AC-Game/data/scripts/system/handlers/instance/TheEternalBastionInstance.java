@@ -117,10 +117,10 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     break;
             }
         }
-        if(npcID == 230753) {
+        if(npcId == 230753) {
             dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000137, 1));
         }
-        if(npcID == 230757) {
+        if(npcId == 230757) {
             dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000137, 1));
         }
     }
