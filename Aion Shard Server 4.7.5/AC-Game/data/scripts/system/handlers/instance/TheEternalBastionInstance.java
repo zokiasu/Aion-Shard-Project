@@ -560,6 +560,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 rewardedPoints = 266;
                 break;
             case 230785:
+            case 231140: // Assault Pod
             case 231137:
             case 231138:
             case 231141:
@@ -659,7 +660,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             case 231165: // Assault Drill
             case 231166: // Assault Drill
             case 231167: // Assault Drill
-            case 231140: // Assault Pod
             case 231156: // Assault Pod
             case 231157: // Assault Pod
             case 231158: // Assault Pod
