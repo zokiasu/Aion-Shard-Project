@@ -177,7 +177,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     stopInstance(player);
                     spawn(730871, 767.10693f, 264.60303f, 233.49748f, (byte) 43); //The Eternal Bastion Exit.
                 }
-            }, 1950000L);
+            }, 1800000L);
         }
         sendPacket(0);
     }
