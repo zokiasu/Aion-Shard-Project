@@ -939,7 +939,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         final int defenceWeapon11 = spawnRace == Race.ASMODIANS ? 701620 : 701606;
         final int defenceWeapon12 = spawnRace == Race.ASMODIANS ? 701621 : 701607;
         final int defenceWeapon13 = spawnRace == Race.ASMODIANS ? 701922 : 701625;
-        Npc npc;
+        final Npc npc;
         DefenceWeapons = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
              @Override
              public void run() {
