@@ -942,55 +942,55 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         DefenceWeapons = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
              @Override
              public void run() {
-                 final Npc npc = getNpc(617.954f, 248.320f, 235.744f);
+                 final Npc npc = getNpc(617, 248, 235);
                  if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon1, 617.95416f, 248.32031f, 235.74449f, (byte) 63);
                  }
-                 final Npc npc2 = getNpc(613.119f, 275.300f, 235.742f);
+                 final Npc npc2 = getNpc(613, 275, 235);
                  if(npc2 != null && npc2.isSpawned()) {
                      spawn(defenceWeapon2, 613.11914f, 275.30057f, 235.74294f, (byte) 64);
                  }
-                 final Npc npc3 = getNpc(616.477f, 313.858f, 235.742f);
+                 final Npc npc3 = getNpc(616, 313, 235);
                  if(npc3 != null && npc3.isSpawned()) {
                      spawn(defenceWeapon3, 616.4774f, 313.85846f, 235.74289f, (byte) 52);
                  }
-                 final Npc npc4 = getNpc(625.976f, 339.554f, 235.743f);
+                 final Npc npc4 = getNpc(625, 339, 235);
                  if(npc4 != null && npc4.isSpawned()) {
                      spawn(defenceWeapon4, 625.97675f, 339.55414f, 235.7432f, (byte) 54);
                  }
-                 final Npc npc5 = getNpc(651.324f, 373.306f, 238.608f);
+                 final Npc npc5 = getNpc(651, 373, 238);
                  if(npc5 != null && npc5.isSpawned()) {
                      spawn(defenceWeapon5, 651.3247f, 373.3068f, 238.60867f, (byte) 44);
                  }
-                 final Npc npc6 = getNpc(678.081f, 396.047f, 238.634f);
+                 final Npc npc6 = getNpc(678, 396, 238);
                  if(npc6 != null && npc6.isSpawned()) {
                      spawn(defenceWeapon6, 678.08124f, 396.04736f, 238.63474f, (byte) 43);
                  }
-                 final Npc npc7 = getNpc(710.277f, 409.932f, 241.020f);
+                 final Npc npc7 = getNpc(710, 409, 241);
                  if(npc7 != null && npc7.isSpawned()) {
                      spawn(defenceWeapon7, 710.27765f, 409.9322f, 241.02042f, (byte) 31);
                  }
-                 final Npc npc8 = getNpc(737.357f, 413.363f, 241.022f);
+                 final Npc npc8 = getNpc(737, 413, 241);
                  if(npc8 != null && npc8.isSpawned()) {
                      spawn(defenceWeapon8, 737.3579f, 413.3636f, 241.02278f, (byte) 33);
                  }
-                 final Npc npc9 = getNpc(772.788f, 410.072f, 241.020f);
+                 final Npc npc9 = getNpc(772, 410, 241);
                  if(npc9 != null && npc9.isSpawned()) {
                      spawn(defenceWeapon9, 772.7887f, 410.0723f, 241.02089f, (byte) 6);
                  }
-                 final Npc npc10 = getNpc(798.227f, 400.587f, 241.023f);
+                 final Npc npc10 = getNpc(798, 400, 241);
                  if(npc10 != null && npc10.isSpawned()) {
                      spawn(defenceWeapon10, 798.2277f, 400.5876f, 241.02304f, (byte) 38);
                  }
-                 final Npc npc11 = getNpc(709.544f, 313.671f, 254.216f);
+                 final Npc npc11 = getNpc(709, 313, 254);
                  if(npc11 != null && npc11.isSpawned()) {
                      spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
                  }
-                 final Npc npc12 = getNpc(726.698f, 328.010f, 254.216f);
+                 final Npc npc12 = getNpc(726, 328, 254);
                  if(npc12 != null && npc12.isSpawned()) {
                      spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
                  }
-                 final Npc npc13 = getNpc(640.844f, 412.947f, 243.939f);
+                 final Npc npc13 = getNpc(640, 412, 243);
                  if(npc13 != null && npc13.isSpawned()) {
                      spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
                  }
