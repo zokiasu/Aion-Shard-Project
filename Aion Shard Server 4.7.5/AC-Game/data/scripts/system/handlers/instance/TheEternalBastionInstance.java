@@ -939,46 +939,60 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         final int defenceWeapon11 = spawnRace == Race.ASMODIANS ? 701620 : 701606;
         final int defenceWeapon12 = spawnRace == Race.ASMODIANS ? 701621 : 701607;
         final int defenceWeapon13 = spawnRace == Race.ASMODIANS ? 701922 : 701625;
+        Npc npc;
         DefenceWeapons = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
              @Override
              public void run() {
-                 if(!isSpawned(defenceWeapon1)) {
+                 npc = getNpc(617.95416f, 248.32031f, 235.74449f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon1, 617.95416f, 248.32031f, 235.74449f, (byte) 63);
                  }
-                 if(!isSpawned(defenceWeapon2)) {
+                 npc = getNpc(613.11914f, 275.30057f, 235.74294f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon2, 613.11914f, 275.30057f, 235.74294f, (byte) 64);
                  }
-                 if(!isSpawned(defenceWeapon3)) {
+                 npc = getNpc(616.4774f, 313.85846f, 235.74289f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon3, 616.4774f, 313.85846f, 235.74289f, (byte) 52);
                  }
-                 if(!isSpawned(defenceWeapon4)) {
+                 npc = getNpc(625.97675f, 339.55414f, 235.7432f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon4, 625.97675f, 339.55414f, 235.7432f, (byte) 54);
                  }
-                 if(!isSpawned(defenceWeapon5)) {
+                 npc = getNpc(651.3247f, 373.3068f, 238.60867f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon5, 651.3247f, 373.3068f, 238.60867f, (byte) 44);
                  }
-                 if(!isSpawned(defenceWeapon6)) {
+                 npc = getNpc(678.08124f, 396.04736f, 238.63474f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon6, 678.08124f, 396.04736f, 238.63474f, (byte) 43);
                  }
-                 if(!isSpawned(defenceWeapon7)) {
+                 npc = getNpc(710.27765f, 409.9322f, 241.02042f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon7, 710.27765f, 409.9322f, 241.02042f, (byte) 31);
                  }
-                 if(!isSpawned(defenceWeapon8)) {
+                 npc = getNpc(737.3579f, 413.3636f, 241.02278f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon8, 737.3579f, 413.3636f, 241.02278f, (byte) 33);
                  }
-                 if(!isSpawned(defenceWeapon9)) {
+                 npc = getNpc(772.7887f, 410.0723f, 241.02089f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon9, 772.7887f, 410.0723f, 241.02089f, (byte) 6);
                  }
-                 if(!isSpawned(defenceWeapon10)) {
+                 npc = getNpc(798.2277f, 400.5876f, 241.02304f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon10, 798.2277f, 400.5876f, 241.02304f, (byte) 38);
                  }
-                 if(!isSpawned(defenceWeapon11)) {
+                 npc = getNpc(709.54443f, 313.67133f, 254.21622f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
                  }
-                 if(!isSpawned(defenceWeapon12)) {
+                 npc = getNpc(726.6982f, 328.01038f, 254.21628f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
                  }
-                 if(!isSpawned(defenceWeapon13)) {
+                 npc = getNpc(640.8445f, 412.9476f, 243.93938f);
+                 if(npc != null && npc.isSpawned()) {
                      spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
                  }
              }
@@ -987,10 +1001,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void defenceWeaponCancelTask(){
         Tasks.cancel(DefenceWeapons);
-    }
-
-    private boolean isSpawned(int npcId) {
-        return !getPosition().getWorldMapInstance().getNpcs(npcId).isEmpty();
     }
 
     private void startAssault() {
