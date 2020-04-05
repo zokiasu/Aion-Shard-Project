@@ -177,7 +177,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     instanceReward.setInstanceScoreType(InstanceScoreType.START_PROGRESS);
                     sendPacket(0);
                 }
-            }, 150000L);
+            }, 60000L);
             instanceTimer = ThreadPoolManager.getInstance().schedule(new Runnable() {
                 @Override
                 public void run() {
