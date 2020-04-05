@@ -83,6 +83,8 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         Integer object = getInstance().getSoloPlayerObj();
         if (npcId == 831328) {
             switch (npc.getSpawn().getStaticId()){
+                case 168:
+                case 312:
                 case 313:
                 case 314:
                 case 315:
@@ -114,7 +116,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     break;
             }
         } else if (npcId == 230753 || npcId == 230757) {
-            dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000137, 1));
+            dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 185000137, 1));
         }
     }
 
@@ -757,6 +759,8 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                             spawn(231131, 712.75f, 289.28f, 249.28f, (byte) 1); // Guard Fly Fashid.
                             spawn(231131, 747.78f, 323.02f, 249.28f, (byte) 88); // Guard Fly Fashid.
                             spawn(231131, 690.17f, 354.07f, 244.45f, (byte) 103); // Guard Fly Fashid.
+                            spawn(231131, 655.41f, 357.88f, 241.59f, (byte) 103); // Guard Fly Fashid.
+                            spawn(231131, 768.42f, 332.02f, 253.43f, (byte) 103); // Guard Fly Fashid.
                         }
                     }, 90000L);
                 }
@@ -919,16 +923,14 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void startAssault() {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
-                                                     @Override
-                                                     public void run() {
-                                                         sendMsg(1401815); // MSG Main Wave 01
-                                                         spawn(231140, 741.09f, 302.52f, 233.75f, (byte) 99); // Pashid Assault Pod.
-                                                         spawn(231141, 735.23f, 298.94f, 233.75f, (byte) 110); // Pashid Assault Drill.
-                                                     }
-                                                 }
-
-                , 5000L);
-    }
+             @Override
+             public void run() {
+                 sendMsg(1401815); // MSG Main Wave 01
+                 spawn(231140, 741.09f, 302.52f, 233.75f, (byte) 99); // Pashid Assault Pod.
+                 spawn(231141, 735.23f, 298.94f, 233.75f, (byte) 110); // Pashid Assault Drill.
+             }
+        }
+     , 5000L);}
 
     private void attackGate(final Npc gate, final Npc npc) {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
@@ -999,32 +1001,30 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void startRndAssaultPod() {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
-                                                     @Override
-                                                     public void run() {
-                                                         int rnd = Rnd.get(1, 4);
-                                                         switch (rnd) {
-                                                             case 1:
-                                                                 spawn(231156, 622.80f, 298.20f, 238.96f, (byte) 27); // Pashid Assault Pod.
-                                                                 spawn(231163, 725.40f, 367.19f, 230.96f, (byte) 0); // Pashid Assault Drill.
-                                                                 break;
-                                                             case 2:
-                                                                 spawn(231157, 778.01f, 388.72f, 243.94f, (byte) 55); // Pashid Assault Pod.
-                                                                 spawn(231164, 663.94f, 285.56f, 225.70f, (byte) 21); // Pashid Assault Drill.
-                                                                 break;
-                                                             case 3:
-                                                                 spawn(231158, 781.17f, 322.80f, 253.69f, (byte) 56); // Pashid Assault Pod.
-                                                                 spawn(231165, 763.63f, 354.47f, 231.69f, (byte) 23); // Pashid Assault Drill.
-                                                                 break;
-                                                             case 4:
-                                                                 spawn(231159, 698.70f, 306.36f, 249.69f, (byte) 3); // Pashid Assault Pod.
-                                                                 spawn(231166, 653.85f, 266.61f, 225.69f, (byte) 118); // Pashid Assault Drill.
-                                                                 break;
-                                                         }
-                                                     }
-                                                 }
-
-                , 300000L);
-    }
+             @Override
+             public void run() {
+                 int rnd = Rnd.get(1, 4);
+                 switch (rnd) {
+                     case 1:
+                         spawn(231156, 622.80f, 298.20f, 238.96f, (byte) 27); // Pashid Assault Pod.
+                         spawn(231163, 725.40f, 367.19f, 230.96f, (byte) 0); // Pashid Assault Drill.
+                         break;
+                     case 2:
+                         spawn(231157, 778.01f, 388.72f, 243.94f, (byte) 55); // Pashid Assault Pod.
+                         spawn(231164, 663.94f, 285.56f, 225.70f, (byte) 21); // Pashid Assault Drill.
+                         break;
+                     case 3:
+                         spawn(231158, 781.17f, 322.80f, 253.69f, (byte) 56); // Pashid Assault Pod.
+                         spawn(231165, 763.63f, 354.47f, 231.69f, (byte) 23); // Pashid Assault Drill.
+                         break;
+                     case 4:
+                         spawn(231159, 698.70f, 306.36f, 249.69f, (byte) 3); // Pashid Assault Pod.
+                         spawn(231166, 653.85f, 266.61f, 225.69f, (byte) 118); // Pashid Assault Drill.
+                         break;
+                 }
+             }
+         }
+    , 300000L);}
 
     private void AssaultBombCancelTask() {
         Tasks.cancel(AssaultBomb);
