@@ -115,7 +115,9 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                     dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006997, 2));
                     break;
             }
-        } else if (npcId == 230753 || npcId == 230757) {
+        }
+
+        if (npcId == 230753 || npcId == 230757) {
             dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npcId, 185000137, 1));
         }
     }
@@ -169,7 +171,9 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             instanceTimer = ThreadPoolManager.getInstance().schedule(new Runnable() {
                 @Override
                 public void run() {
+                    instanceReward.addPoints(-100000); // Fail Bastion
                     stopInstance(player);
+                    spawn(730871, 767.10693f, 264.60303f, 233.49748f, (byte) 43); //The Eternal Bastion Exit.
                 }
             }, 1950000L);
         }
@@ -557,6 +561,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             case 230785:
             case 231137:
             case 231138:
+            case 231141:
             case 231143:
             case 231144:
             case 231148:
@@ -636,6 +641,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 break;
 
         }
+
         if (!isDestroyed && instanceReward.getInstanceScoreType().isStartProgress()) {
             instanceReward.addNpcKill();
             instanceReward.addPoints(rewardedPoints);
@@ -760,7 +766,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                             spawn(231131, 747.78f, 323.02f, 249.28f, (byte) 88); // Guard Fly Fashid.
                             spawn(231131, 690.17f, 354.07f, 244.45f, (byte) 103); // Guard Fly Fashid.
                             spawn(231131, 655.41f, 357.88f, 241.59f, (byte) 103); // Guard Fly Fashid.
-                            spawn(231131, 768.42f, 332.02f, 253.43f, (byte) 103); // Guard Fly Fashid.
+                            spawn(231131, 688.86f, 384.49f, 241.59f, (byte) 103); // Guard Fly Fashid.
                         }
                     }, 90000L);
                 }
