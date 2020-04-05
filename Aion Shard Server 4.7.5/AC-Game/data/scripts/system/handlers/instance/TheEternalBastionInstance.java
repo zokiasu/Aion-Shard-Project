@@ -113,6 +113,7 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 case 340:
                     dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006996, 3));
                     dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006997, 2));
+                    dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 182006995, 6));
                     break;
             }
         }
@@ -840,6 +841,10 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
                 sendMsg(1401824);
                 onChangeStageList(StageList.START_SPAWN_DEAD_GATE_2);
                 break;
+            case 831330: // Eternal Bastion Bomb.
+                SkillEngine.getInstance().getSkill(npc, 21272, 60, player).useNoAnimationSkill();
+                despawnNpc(npc);
+                break;
         }
     }
 
@@ -849,14 +854,16 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             case 701625: // Eternal Bastion Turet Elyos.
                 despawnNpc(npc);
                 spawn(231160, 710.61f, 257.72f, 253.53f, (byte) 43); // Pashid Assault Pod.
+                spawn(230754, 703.65f, 258.25f, 253.43f, (byte) 43);
+                spawn(230754, 709.62f, 265.58f, 253.43f, (byte) 43);
+                spawn(230754, 704.81f, 264.30f, 253.43f, (byte) 43);
                 break;
             case 701922: // Eternal Bastion Turet Asmodians.
                 despawnNpc(npc);
                 spawn(231160, 710.61f, 257.72f, 253.53f, (byte) 43); // Pashid Assault Pod.
-                break;
-            case 831330: // Eternal Bastion Bomb.
-                SkillEngine.getInstance().getSkill(npc, 21272, 60, player).useNoAnimationSkill();
-                despawnNpc(npc);
+                spawn(230754, 703.65f, 258.25f, 253.43f, (byte) 43);
+                spawn(230754, 709.62f, 265.58f, 253.43f, (byte) 43);
+                spawn(230754, 704.81f, 264.30f, 253.43f, (byte) 43);
                 break;
         }
     }
@@ -956,16 +963,16 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
 
     private void startAssaultBombTimer() {
         AssaultBomb = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
-                                                                              @Override
-                                                                              public void run() {
-                                                                                  sendMsg(1401825);
-                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 424.36f, 232.9f, (byte) 77));
-                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 425.36f, 232.9f, (byte) 77));
-                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 426.36f, 232.9f, (byte) 77));
-                                                                                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 423.36f, 232.9f, (byte) 77));
-                                                                              }
-                                                                          }
-                , 600000L, 60000L);
+              @Override
+              public void run() {
+                  sendMsg(1401825);
+                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 424.36f, 232.9f, (byte) 77));
+                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 425.36f, 232.9f, (byte) 77));
+                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 426.36f, 232.9f, (byte) 77));
+                  attackGate(getNpc(831333), (Npc) spawn(231142, 795.99f, 423.36f, 232.9f, (byte) 77));
+              }
+        }
+        , 600000L, 60000L);
     }
 
     private void StartSpawnRam() {
