@@ -590,15 +590,17 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
             case 230745:
             case 230746: //Pashid Assault Tribuni Sentry.
             case 230749:
-            case 230753:
             case 230754:
             case 230756:
-            case 230757:
             case 231131:
             case 231132:
             case 231177: //Deathbringer Tariksha.
                 rewardedPoints = 1002;
                 despawnNpc(npc);
+                break;
+            case 230753:
+            case 230757:
+                rewardedPoints = 1002;
                 break;
             case 231168:
             case 231169:
