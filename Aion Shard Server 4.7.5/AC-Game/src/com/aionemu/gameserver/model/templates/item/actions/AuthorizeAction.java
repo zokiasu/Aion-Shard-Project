@@ -124,18 +124,17 @@ public class AuthorizeAction
     }, 5000L));
   }
   
-  public boolean isSuccess(Player player)
-  {
+  public boolean isSuccess(Player player) {
     int i = Rnd.get(0, 1000);
-    if (i < 700)
+    if (i < 500)
     {
-      if (player.getAccessLevel() > 2) {
-        PacketSendUtility.sendMessage(player, "Success! Rnd: " + i + " Luck: 700");
+      if (player.getAccessLevel() > 9) {
+        PacketSendUtility.sendMessage(player, "Success! Rnd: " + i + " Luck: 500");
       }
       return true;
     }
-    if (player.getAccessLevel() > 2) {
-      PacketSendUtility.sendMessage(player, "Fail! Rnd: " + i + " Luck: 700");
+    if (player.getAccessLevel() > 9) {
+      PacketSendUtility.sendMessage(player, "Fail! Rnd: " + i + " Luck: 500");
     }
     return false;
   }

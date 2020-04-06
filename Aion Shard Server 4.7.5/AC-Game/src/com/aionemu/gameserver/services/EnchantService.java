@@ -142,6 +142,7 @@ public class EnchantService {
 
         return skillId;
     }
+
     public static int getWeaponBuff(Player player) {
         int skillId = 0;
         skillId = Rnd.get(13001, 13037);
@@ -306,7 +307,7 @@ public class EnchantService {
         }
 
         // For test purpose. To use by administrator
-        if (player.getAccessLevel() > 3) {
+        if (player.getAccessLevel() > 9) {
             PacketSendUtility.sendMessage(player, (result ? "Success" : "Fail") + " Rnd:" + random + " Luck:" + success);
         }
 
@@ -357,24 +358,24 @@ public class EnchantService {
                 level = Rnd.get(1, 2);
                 break;
             case 2: // RARE
-                number = Rnd.get(1, 4);
-                level = Rnd.get(1, 3);
+                number = Rnd.get(1, 3);
+                level = Rnd.get(1, 2);
                 break;
             case 3: // LEGEND
-                number = Rnd.get(1, 6);
-                level = Rnd.get(2, 4);
+                number = Rnd.get(1, 3);
+                level = Rnd.get(1, 3);
                 break;
             case 4: // UNIQUE
-                number = Rnd.get(1, 8);
-                level = Rnd.get(3, 4);
+                number = Rnd.get(1, 3);
+                level = Rnd.get(2, 4);
                 break;
             case 5: // EPIC
-                number = Rnd.get(1, 10);
+                number = Rnd.get(1, 3);
                 level = Rnd.get(3, 5);
                 break;
             case 6: // MYTHIC
             case 7:
-                number = Rnd.get(1, 12);
+                number = Rnd.get(3, 5);
                 level = Rnd.get(4, 5);
                 break;
         }
@@ -636,7 +637,7 @@ public class EnchantService {
         }
 
         // For test purpose. To use by administrator
-        if (player.getAccessLevel() > 2) {
+        if (player.getAccessLevel() > 9) {
             PacketSendUtility.sendMessage(player, (result ? "Success" : "Fail") + " Rnd:" + random + " Luck:" + success);
         }
 
