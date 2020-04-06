@@ -36,7 +36,7 @@ public class GeoDataConfig {
     /**
      * Geodata enable
      */
-    @Property(key = "gameserver.geodata.enable", defaultValue = "false")
+    @Property(key = "gameserver.geodata.enable", defaultValue = "true")
     public static boolean GEO_ENABLE;
     /**
      * Enable canSee checks using geodata.
@@ -51,32 +51,32 @@ public class GeoDataConfig {
     /**
      * Enable Geo checks during npc movement (prevent flying mobs)
      */
-    @Property(key = "gameserver.geo.npc.move", defaultValue = "false")
+    @Property(key = "gameserver.geo.npc.move", defaultValue = "true")
     public static boolean GEO_NPC_MOVE;
     /**
      * Enable npc checks aggro target visibility range (canSee)
      */
-    @Property(key = "gameserver.geo.npc.aggro", defaultValue = "false")
+    @Property(key = "gameserver.geo.npc.aggro", defaultValue = "true")
     public static boolean GEO_NPC_AGGRO;
     /**
      * Enable geo materials using skills
      */
-    @Property(key = "gameserver.geo.materials.enable", defaultValue = "false")
+    @Property(key = "gameserver.geo.materials.enable", defaultValue = "true")
     public static boolean GEO_MATERIALS_ENABLE;
     /**
      * Show collision zone name and skill id
      */
-    @Property(key = "gameserver.geo.materials.showdetails", defaultValue = "false")
+    @Property(key = "gameserver.geo.materials.showdetails", defaultValue = "true")
     public static boolean GEO_MATERIALS_SHOWDETAILS;
     /**
      * Enable geo shields
      */
-    @Property(key = "gameserver.geo.shields.enable", defaultValue = "false")
+    @Property(key = "gameserver.geo.shields.enable", defaultValue = "true")
     public static boolean GEO_SHIELDS_ENABLE;
     /**
      * Enable geo doors
      */
-    @Property(key = "gameserver.geo.doors.enable", defaultValue = "false")
+    @Property(key = "gameserver.geo.doors.enable", defaultValue = "true")
     public static boolean GEO_DOORS_ENABLE;
     /**
      * Object factory for geodata primitives enabled

@@ -10,11 +10,23 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
+ *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ * Credits goes to all Open Source Core Developer Groups listed below
+ * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
+ * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
+ * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * @-Aion-Unique-
+ * @-Aion-Lightning
+ * @Aion-Engine
+ * @Aion-Extreme
+ * @Aion-NextGen
+ * @Aion-Core Dev.
  */
-
 package com.aionemu.gameserver.world.geo;
 
 import com.aionemu.gameserver.configs.main.GeoDataConfig;
@@ -88,8 +100,9 @@ public class GeoService {
         if (!GeoDataConfig.GEO_ENABLE) {
             newZ += defaultUp;
         }/*
-         * else { newZ += 0.5f; }
-         */
+         else {
+         newZ += 0.5f;			
+         }*/
 
         return newZ;
     }
@@ -109,8 +122,7 @@ public class GeoService {
     }
 
     public CollisionResults getCollisions(VisibleObject object, float x, float y, float z, boolean changeDirection, byte intentions) {
-        return geoData.getMap(object.getWorldId()).getCollisions(object.getX(), object.getY(), object.getZ(), x, y, z, changeDirection, false,
-                object.getInstanceId(), intentions);
+        return geoData.getMap(object.getWorldId()).getCollisions(object.getX(), object.getY(), object.getZ(), x, y, z, changeDirection, false, object.getInstanceId(), intentions);
     }
 
     /**
@@ -149,31 +161,6 @@ public class GeoService {
             return GeoType.GEO_MESHES;
         }
         return GeoType.NO_GEO;
-    }
-
-    public boolean isInBounds(Creature creature) {
-        return isInBounds(creature.getWorldId(), creature.getX(), creature.getY(), creature.getZ());
-    }
-
-    public boolean isInBounds(int worldId, float x, float y, float z) {
-        if (x < 0 || y < 0 || z < 0) {
-            return false;
-        }
-
-        if (Float.isNaN(x) || Float.isNaN(y) || Float.isNaN(z)) {
-            return false;
-        }
-
-        int worldSize = getWorldSize(worldId);
-        if (x > worldSize || y > worldSize || z > 4000) {
-            return false;
-        }
-
-        return true;
-    }
-
-    public int getWorldSize(int worldId) {
-        return 3072;
     }
 
     public static final GeoService getInstance() {
