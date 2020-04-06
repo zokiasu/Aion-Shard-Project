@@ -366,16 +366,19 @@ public class EnchantService {
                 level = Rnd.get(1, 3);
                 break;
             case 4: // UNIQUE
-                number = Rnd.get(1, 3);
-                level = Rnd.get(2, 4);
+                number = Rnd.get(1, 4);
+                level = Rnd.get(2, 3);
                 break;
             case 5: // EPIC
-                number = Rnd.get(1, 3);
+                number = Rnd.get(1, 4);
+                level = Rnd.get(2, 4);
+                break;
+            case 6: // ???
+                number = Rnd.get(1, 5);
                 level = Rnd.get(3, 5);
                 break;
-            case 6: // MYTHIC
-            case 7:
-                number = Rnd.get(3, 5);
+            case 7: // MYTHIC
+                number = Rnd.get(1, 5);
                 level = Rnd.get(4, 5);
                 break;
         }
