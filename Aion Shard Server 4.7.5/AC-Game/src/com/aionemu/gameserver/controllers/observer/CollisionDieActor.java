@@ -10,23 +10,11 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
- *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
  */
+
 package com.aionemu.gameserver.controllers.observer;
 
 import com.aionemu.gameserver.configs.main.GeoDataConfig;
@@ -43,40 +31,40 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
  */
 public class CollisionDieActor extends AbstractCollisionObserver implements IActor {
 
-    private boolean isEnabled = true;
+	private boolean isEnabled = true;
 
-    public CollisionDieActor(Creature creature, Spatial geometry) {
-        super(creature, geometry, CollisionIntention.MATERIAL.getId());
-    }
+	public CollisionDieActor(Creature creature, Spatial geometry) {
+		super(creature, geometry, CollisionIntention.MATERIAL.getId());
+	}
 
-    @Override
-    public void setEnabled(boolean enable) {
-        isEnabled = enable;
-    }
+	@Override
+	public void setEnabled(boolean enable) {
+		isEnabled = enable;
+	}
 
-    @Override
-    public void onMoved(CollisionResults collisionResults) {
-        if (isEnabled && collisionResults.size() != 0) {
-            if (GeoDataConfig.GEO_MATERIALS_SHOWDETAILS && creature instanceof Player) {
-                Player player = (Player) creature;
-                if (player.isGM()) {
-                    CollisionResult result = collisionResults.getClosestCollision();
-                    PacketSendUtility.sendMessage(player, "Entered " + result.getGeometry().getName());
-                }
-            }
-            act();
-        }
-    }
+	@Override
+	public void onMoved(CollisionResults collisionResults) {
+		if (isEnabled && collisionResults.size() != 0) {
+			if (GeoDataConfig.GEO_MATERIALS_SHOWDETAILS && creature instanceof Player) {
+				Player player = (Player) creature;
+				if (player.isGM()) {
+					CollisionResult result = collisionResults.getClosestCollision();
+					PacketSendUtility.sendMessage(player, "Entered " + result.getGeometry().getName());
+				}
+			}
+			act();
+		}
+	}
 
-    @Override
-    public void act() {
-        if (isEnabled) {
-            creature.getController().die();
-        }
-    }
+	@Override
+	public void act() {
+		if (isEnabled) {
+			creature.getController().die();
+		}
+	}
 
-    @Override
-    public void abort() {
-        // Nothing to do
-    }
+	@Override
+	public void abort() {
+		// Nothing to do
+	}
 }

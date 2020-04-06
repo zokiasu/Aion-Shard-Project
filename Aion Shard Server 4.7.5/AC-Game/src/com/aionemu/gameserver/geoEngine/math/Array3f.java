@@ -10,23 +10,11 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
- *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
  */
+
 package com.aionemu.gameserver.geoEngine.math;
 
 import com.aionemu.gameserver.configs.main.GeoDataConfig;
@@ -38,49 +26,50 @@ import javolution.lang.Reusable;
  */
 public class Array3f implements Reusable {
 
-    @SuppressWarnings("rawtypes")
-    private static final ObjectFactory FACTORY = new ObjectFactory() {
-        public Object create() {
-            return new Array3f();
-        }
-    };
-    public float a = 0;
-    public float b = 0;
-    public float c = 0;
+	@SuppressWarnings("rawtypes")
+	private static final ObjectFactory FACTORY = new ObjectFactory() {
+		@Override
+		public Object create() {
+			return new Array3f();
+		}
+	};
+	public float a = 0;
+	public float b = 0;
+	public float c = 0;
 
-    @Override
-    public void reset() {
-        a = 0;
-        b = 0;
-        c = 0;
-    }
+	@Override
+	public void reset() {
+		a = 0;
+		b = 0;
+		c = 0;
+	}
 
-    /**
-     * Returns a new, preallocated or {@link #recycle recycled} text builder (on
-     * the stack when executing in a {@link javolution.context.StackContext
-     * StackContext}).
-     *
-     * @return a new, preallocated or recycled text builder instance.
-     */
-    public static Array3f newInstance() {
-        if (GeoDataConfig.GEO_OBJECT_FACTORY_ENABLE) {
-            return (Array3f) FACTORY.object();
-        } else {
-            return new Array3f();
-        }
-    }
+	/**
+	 * Returns a new, preallocated or {@link #recycle recycled} text builder (on
+	 * the stack when executing in a {@link javolution.context.StackContext
+	 * StackContext}).
+	 *
+	 * @return a new, preallocated or recycled text builder instance.
+	 */
+	public static Array3f newInstance() {
+		if (GeoDataConfig.GEO_OBJECT_FACTORY_ENABLE) {
+			return (Array3f) FACTORY.object();
+		} else {
+			return new Array3f();
+		}
+	}
 
-    /**
-     * Recycles a text builder {@link #newInstance() instance} immediately (on
-     * the stack when executing in a {@link javolution.context.StackContext
-     * StackContext}).
-     */
-    @SuppressWarnings("unchecked")
-    public static void recycle(Array3f instance) {
-        if (GeoDataConfig.GEO_OBJECT_FACTORY_ENABLE) {
-            FACTORY.recycle(instance);
-        } else {
-            instance = null;
-        }
-    }
+	/**
+	 * Recycles a text builder {@link #newInstance() instance} immediately (on
+	 * the stack when executing in a {@link javolution.context.StackContext
+	 * StackContext}).
+	 */
+	@SuppressWarnings("unchecked")
+	public static void recycle(Array3f instance) {
+		if (GeoDataConfig.GEO_OBJECT_FACTORY_ENABLE) {
+			FACTORY.recycle(instance);
+		} else {
+			instance = null;
+		}
+	}
 }

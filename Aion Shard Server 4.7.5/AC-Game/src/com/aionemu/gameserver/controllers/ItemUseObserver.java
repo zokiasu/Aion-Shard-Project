@@ -15,23 +15,18 @@
  *  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.aionemu.gameserver.controllers.observer;
+package com.aionemu.gameserver.controllers;
 
+import com.aionemu.gameserver.controllers.observer.ActionObserver;
+import com.aionemu.gameserver.controllers.observer.ObserverType;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.skillengine.model.Effect;
 import com.aionemu.gameserver.skillengine.model.Skill;
 
-/**
- * @author MrPoke
- *
- */
 public abstract class ItemUseObserver extends ActionObserver {
 
-	/**
-	 * @param observerType
-	 */
 	public ItemUseObserver() {
 		super(ObserverType.ALL);
 	}

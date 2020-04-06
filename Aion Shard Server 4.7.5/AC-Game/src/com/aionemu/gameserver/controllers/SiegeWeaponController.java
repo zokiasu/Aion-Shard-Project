@@ -10,23 +10,11 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
- *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
- *
- *
- * Credits goes to all Open Source Core Developer Groups listed below
- * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
- * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
- * @-Aion-Unique-
- * @-Aion-Lightning
- * @Aion-Engine
- * @Aion-Extreme
- * @Aion-NextGen
- * @Aion-Core Dev.
  */
+
 package com.aionemu.gameserver.controllers;
 
 import com.aionemu.gameserver.ai2.event.AIEventType;
@@ -38,66 +26,67 @@ import com.aionemu.gameserver.model.summons.UnsummonType;
 import com.aionemu.gameserver.model.templates.npcskill.NpcSkillTemplates;
 
 /**
+ *
  * @author xTz
  */
 public class SiegeWeaponController extends SummonController {
 
-    private NpcSkillTemplates skills;
+	private NpcSkillTemplates skills;
 
-    public SiegeWeaponController(int npcId) {
-        skills = DataManager.NPC_SKILL_DATA.getNpcSkillList(npcId);
-    }
+	public SiegeWeaponController(int npcId) {
+		skills = DataManager.NPC_SKILL_DATA.getNpcSkillList(npcId);
+	}
 
-    @Override
-    public void release(final UnsummonType unsummonType) {
-        getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
-        getOwner().getMoveController().abortMove();
-        super.release(unsummonType);
-    }
+	@Override
+	public void release(final UnsummonType unsummonType) {
+		getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
+		getOwner().getMoveController().abortMove();
+		super.release(unsummonType);
+	}
 
-    @Override
-    public void restMode() {
-        getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
-        super.restMode();
-        getOwner().getAi2().onCreatureEvent(AIEventType.STOP_FOLLOW_ME, getMaster());
-    }
+	@Override
+	public void restMode() {
+		getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
+		super.restMode();
+		getOwner().getAi2().onCreatureEvent(AIEventType.STOP_FOLLOW_ME, getMaster());
+	}
 
-    @Override
-    public void setUnkMode() {
-        super.setUnkMode();
-        getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
-    }
+	@Override
+	public void setUnkMode() {
+		super.setUnkMode();
+		getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
+	}
 
-    @Override
-    public final void guardMode() {
-        super.guardMode();
-        getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
-        getOwner().setTarget(getMaster());
-        getOwner().getAi2().onCreatureEvent(AIEventType.FOLLOW_ME, getMaster());
-        getOwner().getMoveController().moveToTargetObject();
-        getMaster().getController().addTask(TaskId.SUMMON_FOLLOW, FollowStartService.newFollowingToTargetCheckTask(getOwner(), getMaster()));
-    }
+	@Override
+	public final void guardMode() {
+		super.guardMode();
+		getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
+		getOwner().setTarget(getMaster());
+		getOwner().getAi2().onCreatureEvent(AIEventType.FOLLOW_ME, getMaster());
+		getOwner().getMoveController().moveToTargetObject();
+		getMaster().getController().addTask(TaskId.SUMMON_FOLLOW, FollowStartService.newFollowingToTargetCheckTask(getOwner(), getMaster()));
+	}
 
-    @Override
-    public void attackMode(int targetObjId) {
-        super.attackMode(targetObjId);
-        Creature target = (Creature) getOwner().getKnownList().getObject(targetObjId);
-        if (target == null) {
-            return;
-        }
-        getOwner().setTarget(target);
-        getOwner().getAi2().onCreatureEvent(AIEventType.FOLLOW_ME, target);
-        getOwner().getMoveController().moveToTargetObject();
-        getMaster().getController().addTask(TaskId.SUMMON_FOLLOW, FollowStartService.newFollowingToTargetCheckTask(getOwner(), target));
-    }
+	@Override
+	public void attackMode(int targetObjId) {
+		super.attackMode(targetObjId);
+		Creature target = (Creature) getOwner().getKnownList().getObject(targetObjId);
+		if (target == null) {
+			return;
+		}
+		getOwner().setTarget(target);
+		getOwner().getAi2().onCreatureEvent(AIEventType.FOLLOW_ME, target);
+		getOwner().getMoveController().moveToTargetObject();
+		getMaster().getController().addTask(TaskId.SUMMON_FOLLOW, FollowStartService.newFollowingToTargetCheckTask(getOwner(), target));
+	}
 
-    @Override
-    public void onDie(final Creature lastAttacker) {
-        getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
-        super.onDie(lastAttacker);
-    }
+	@Override
+	public void onDie(final Creature lastAttacker) {
+		getMaster().getController().cancelTask(TaskId.SUMMON_FOLLOW);
+		super.onDie(lastAttacker);
+	}
 
-    public NpcSkillTemplates getNpcSkillTemplates() {
-        return skills;
-    }
+	public NpcSkillTemplates getNpcSkillTemplates() {
+		return skills;
+	}
 }
