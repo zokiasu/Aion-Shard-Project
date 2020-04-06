@@ -295,6 +295,9 @@ public class DuelService {
 
         drawTasks.put(requester.getObjectId(), task);
         drawTasks.put(responder.getObjectId(), task);
+        //timer duel - 5 minutes + 3 seconds
+        PacketSendUtility.sendPacket(requester, new SM_QUEST_ACTION(4, 300));
+        PacketSendUtility.sendPacket(responder, new SM_QUEST_ACTION(4, 300));
     }
 
     /**
@@ -332,6 +335,11 @@ public class DuelService {
         duels.remove(responderObjId);
         removeTask(requesterObjId);
         removeTask(responderObjId);
+        //remove timer duel
+        Player requester = World.getInstance().findPlayer(requesterObjId);
+        Player responder = World.getInstance().findPlayer(responderObjId);
+        PacketSendUtility.sendPacket(requester, new SM_QUEST_ACTION(4, (0)));
+        PacketSendUtility.sendPacket(responder, new SM_QUEST_ACTION(4, (0)));
     }
 
     private void removeTask(int playerId) {
