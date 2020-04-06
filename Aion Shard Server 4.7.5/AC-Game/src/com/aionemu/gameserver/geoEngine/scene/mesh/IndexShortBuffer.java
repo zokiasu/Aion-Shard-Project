@@ -10,11 +10,23 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
+ *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ * Credits goes to all Open Source Core Developer Groups listed below
+ * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
+ * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
+ * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * @-Aion-Unique-
+ * @-Aion-Lightning
+ * @Aion-Engine
+ * @Aion-Extreme
+ * @Aion-NextGen
+ * @Aion-Core Dev.
  */
-
 package com.aionemu.gameserver.geoEngine.scene.mesh;
 
 import java.nio.Buffer;
@@ -25,29 +37,29 @@ import java.nio.ShortBuffer;
  */
 public class IndexShortBuffer extends IndexBuffer {
 
-	private ShortBuffer buf;
+    private ShortBuffer buf;
 
-	public IndexShortBuffer(ShortBuffer buffer) {
-		this.buf = buffer;
-	}
+    public IndexShortBuffer(ShortBuffer buffer) {
+        this.buf = buffer;
+    }
 
-	@Override
-	public int get(int i) {
-		return buf.get(i) & 0x0000FFFF;
-	}
+    @Override
+    public int get(int i) {
+        return buf.get(i) & 0x0000FFFF;
+    }
 
-	@Override
-	public void put(int i, int value) {
-		buf.put(i, (short) value);
-	}
+    @Override
+    public void put(int i, int value) {
+        buf.put(i, (short) value);
+    }
 
-	@Override
-	public int size() {
-		return buf.limit();
-	}
+    @Override
+    public int size() {
+        return buf.limit();
+    }
 
-	@Override
-	public Buffer getBuffer() {
-		return buf;
-	}
+    @Override
+    public Buffer getBuffer() {
+        return buf;
+    }
 }

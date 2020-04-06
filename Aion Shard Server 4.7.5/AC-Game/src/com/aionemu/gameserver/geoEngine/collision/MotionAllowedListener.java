@@ -10,23 +10,35 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
+ *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ * Credits goes to all Open Source Core Developer Groups listed below
+ * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
+ * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
+ * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * @-Aion-Unique-
+ * @-Aion-Lightning
+ * @Aion-Engine
+ * @Aion-Extreme
+ * @Aion-NextGen
+ * @Aion-Core Dev.
  */
-
 package com.aionemu.gameserver.geoEngine.collision;
 
 import com.aionemu.gameserver.geoEngine.math.Vector3f;
 
 public interface MotionAllowedListener {
 
-	/**
-	 * Check if motion allowed. Modify position and velocity vectors
-	 * appropriately if not allowed..
-	 *
-	 * @param position
-	 * @param velocity
-	 */
-	public void checkMotionAllowed(Vector3f position, Vector3f velocity);
+    /**
+     * Check if motion allowed. Modify position and velocity vectors
+     * appropriately if not allowed..
+     *
+     * @param position
+     * @param velocity
+     */
+    public void checkMotionAllowed(Vector3f position, Vector3f velocity);
 }

@@ -10,11 +10,23 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
+ *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ * Credits goes to all Open Source Core Developer Groups listed below
+ * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
+ * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
+ * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * @-Aion-Unique-
+ * @-Aion-Lightning
+ * @Aion-Engine
+ * @Aion-Extreme
+ * @Aion-NextGen
+ * @Aion-Core Dev.
  */
-
 package com.aionemu.gameserver.controllers.observer;
 
 import com.aionemu.gameserver.model.gameobjects.Creature;
@@ -22,36 +34,35 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.utils.MathUtil;
 
 /**
- *
  * @author xTz
  */
 public abstract class GaleCycloneObserver extends ActionObserver {
 
-	private Player player;
-	private Creature creature;
-	private double oldRange;
+    private Player player;
+    private Creature creature;
+    private double oldRange;
 
-	public GaleCycloneObserver(Player player, Creature creature) {
-		super(ObserverType.MOVE);
-		this.player = player;
-		this.creature = creature;
-		oldRange = MathUtil.getDistance(player, creature);
-	}
+    public GaleCycloneObserver(Player player, Creature creature) {
+        super(ObserverType.MOVE);
+        this.player = player;
+        this.creature = creature;
+        oldRange = MathUtil.getDistance(player, creature);
+    }
 
-	@Override
-	public void moved() {
-		double newRange = MathUtil.getDistance(player, creature);
-		if (creature == null || creature.getLifeStats().isAlreadyDead()) {
-			if (player != null) {
-				player.getObserveController().removeObserver(this);
-			}
-			return;
-		}
-		if (oldRange > 12 && newRange <= 12) {
-			onMove();
-		}
-		oldRange = newRange;
-	}
+    @Override
+    public void moved() {
+        double newRange = MathUtil.getDistance(player, creature);
+        if (creature == null || creature.getLifeStats().isAlreadyDead()) {
+            if (player != null) {
+                player.getObserveController().removeObserver(this);
+            }
+            return;
+        }
+        if (oldRange > 12 && newRange <= 12) {
+            onMove();
+        }
+        oldRange = newRange;
+    }
 
-	public abstract void onMove();
+    public abstract void onMove();
 }

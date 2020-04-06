@@ -10,11 +10,23 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details. *
+ *
  *  You should have received a copy of the GNU General Public License
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ * Credits goes to all Open Source Core Developer Groups listed below
+ * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
+ * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
+ * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * @-Aion-Unique-
+ * @-Aion-Lightning
+ * @Aion-Engine
+ * @Aion-Extreme
+ * @Aion-NextGen
+ * @Aion-Core Dev.
  */
-
 package com.aionemu.gameserver.controllers.observer;
 
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -27,114 +39,135 @@ import com.aionemu.gameserver.skillengine.effect.AbnormalState;
 import com.aionemu.gameserver.skillengine.model.Effect;
 import com.aionemu.gameserver.skillengine.model.Skill;
 
+
 /**
  * @author ATracer
  */
 public class ActionObserver {
 
-	private AtomicBoolean used;
-	private ObserverType observerType;
+    private AtomicBoolean used;
+    private ObserverType observerType;
 
-	public ActionObserver(ObserverType observerType) {
-		this.observerType = observerType;
-	}
+    public ActionObserver(ObserverType observerType) {
+        this.observerType = observerType;
+    }
 
-	/**
-	 * Make this observer usable exactly one time
-	 */
-	public void makeOneTimeUse() {
-		used = new AtomicBoolean(false);
-	}
+    /**
+     * Make this observer usable exactly one time
+     */
+    public void makeOneTimeUse() {
+        used = new AtomicBoolean(false);
+    }
 
-	/**
-	 * Try to use this observer. Will return true only once.
-	 *
-	 * @return
-	 */
-	public boolean tryUse() {
-		return used.compareAndSet(false, true);
-	}
+    /**
+     * Try to use this observer. Will return true only once.
+     *
+     * @return
+     */
+    public boolean tryUse() {
+        return used.compareAndSet(false, true);
+    }
 
-	/**
-	 * @return the observerType
-	 */
-	public ObserverType getObserverType() {
-		return observerType;
-	}
+    /**
+     * @return the observerType
+     */
+    public ObserverType getObserverType() {
+        return observerType;
+    }
 
-	public void moved() {
-	}
+    public void moved() {
+    }
 
-	/**
-	 * @param creature
-	 */
-	public void attacked(Creature creature) {
-	}
+    ;
 
-	/**
-	 * @param creature
-	 */
-	public void attack(Creature creature) {
-	}
+    /**
+     * @param creature
+     */
+    public void attacked(Creature creature) {
+    }
 
-	/**
-	 * @param item
-	 * @param owner
-	 */
-	public void equip(Item item, Player owner) {
-	}
+    ;
 
-	/**
-	 * @param item
-	 * @param owner
-	 */
-	public void unequip(Item item, Player owner) {
-	}
+    /**
+     * @param creature
+     */
+    public void attack(Creature creature) {
+    }
 
-	/**
-	 * @param skill
-	 */
-	public void skilluse(Skill skill) {
-	}
+    ;
 
-	/**
-	 * @param creature
-	 */
-	public void died(Creature creature) {
-	}
+    /**
+     * @param item
+     * @param owner
+     */
+    public void equip(Item item, Player owner) {
+    }
 
-	/**
-	 * @param creature
-	 * @param dotEffect
-	 */
-	public void dotattacked(Creature creature, Effect dotEffect) {
-	}
+    ;
 
-	/**
-	 *
-	 * @param item
-	 */
-	public void itemused(Item item) {
-	}
+    /**
+     * @param item
+     * @param owner
+     */
+    public void unequip(Item item, Player owner) {
+    }
 
-	/**
-	 *
-	 * @param npc
-	 */
-	public void npcdialogrequested(Npc npc) {
-	}
+    ;
 
-	/**
-	 *
-	 * @param state
-	 */
-	public void abnormalsetted(AbnormalState state) {
-	}
+    /**
+     * @param skill
+     */
+    public void skilluse(Skill skill) {
+    }
 
-	/**
-	 *
-	 * @param
-	 */
-	public void summonrelease() {
-	}
+    ;
+
+    /**
+     * @param creature
+     */
+    public void died(Creature creature) {
+    }
+
+    ;
+
+    /**
+     * @param creature
+     * @param dotEffect
+     */
+    public void dotattacked(Creature creature, Effect dotEffect) {
+    }
+
+    ;
+
+    /**
+     * @param item
+     */
+    public void itemused(Item item) {
+    }
+
+    ;
+
+    /**
+     * @param npc
+     */
+    public void npcdialogrequested(Npc npc) {
+    }
+
+    ;
+
+    /**
+     * @param state
+     */
+    public void abnormalsetted(AbnormalState state) {
+    }
+
+    ;
+
+    /**
+     * @param
+     */
+    public void summonrelease() {
+    }
+
+    ;
 }
