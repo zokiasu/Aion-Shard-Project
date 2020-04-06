@@ -121,7 +121,7 @@ public class AuthorizeAction
           }
         }
       }
-    }, 5000L));
+    }, 2000L));
   }
   
   public boolean isSuccess(Player player) {
