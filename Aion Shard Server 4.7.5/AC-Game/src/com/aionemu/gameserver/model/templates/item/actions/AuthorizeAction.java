@@ -72,7 +72,7 @@ public class AuthorizeAction
   }
   
   public void act(final Player player, final Item parentItem, final Item targetItem) {
-    PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId().intValue(), parentItem.getObjectId().intValue(), parentItem.getItemTemplate().getTemplateId(), 5000, 0, 0));
+    PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId().intValue(), parentItem.getObjectId().intValue(), parentItem.getItemTemplate().getTemplateId(), 2000, 0, 0));
     final ItemUseObserver local1 = new ItemUseObserver() {
       public void abort() {
         player.getController().cancelTask(TaskId.ITEM_USE);
