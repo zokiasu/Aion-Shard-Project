@@ -67,7 +67,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     private int Wave04Begin;
     private int AssaultBombCancel;
     private int HakundaRakunda;
-    private Future<?> DefenceWeapons;
     private Future<?> instanceTimer;
     private Future<?> AssaultBomb;
     private Future<?> AssaultRam;
@@ -952,67 +951,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
         spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
         spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
         spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
-        DefenceWeapons = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
-             @Override
-             public void run() {
-                 final Npc npc = getNpc(defenceWeapon1);
-                 if(npc != null && !npc.isSpawned()) {
-                     spawn(defenceWeapon1, 617.95416f, 248.32031f, 235.74449f, (byte) 63);
-                 }
-                 final Npc npc2 = getNpc(defenceWeapon2);
-                 if(npc2 != null && !npc2.isSpawned()) {
-                     spawn(defenceWeapon2, 613.11914f, 275.30057f, 235.74294f, (byte) 64);
-                 }
-                 final Npc npc3 = getNpc(defenceWeapon3);
-                 if(npc3 != null && !npc3.isSpawned()) {
-                     spawn(defenceWeapon3, 616.4774f, 313.85846f, 235.74289f, (byte) 52);
-                 }
-                 final Npc npc4 = getNpc(defenceWeapon4);
-                 if(npc4 != null && !npc4.isSpawned()) {
-                     spawn(defenceWeapon4, 625.97675f, 339.55414f, 235.7432f, (byte) 54);
-                 }
-                 final Npc npc5 = getNpc(defenceWeapon5);
-                 if(npc5 != null && !npc5.isSpawned()) {
-                     spawn(defenceWeapon5, 651.3247f, 373.3068f, 238.60867f, (byte) 44);
-                 }
-                 final Npc npc6 = getNpc(defenceWeapon6);
-                 if(npc6 != null && !npc6.isSpawned()) {
-                     spawn(defenceWeapon6, 678.08124f, 396.04736f, 238.63474f, (byte) 43);
-                 }
-                 final Npc npc7 = getNpc(defenceWeapon7);
-                 if(npc7 != null && !npc7.isSpawned()) {
-                     spawn(defenceWeapon7, 710.27765f, 409.9322f, 241.02042f, (byte) 31);
-                 }
-                 final Npc npc8 = getNpc(defenceWeapon8);
-                 if(npc8 != null && !npc8.isSpawned()) {
-                     spawn(defenceWeapon8, 737.3579f, 413.3636f, 241.02278f, (byte) 33);
-                 }
-                 final Npc npc9 = getNpc(defenceWeapon9);
-                 if(npc9 != null && !npc9.isSpawned()) {
-                     spawn(defenceWeapon9, 772.7887f, 410.0723f, 241.02089f, (byte) 6);
-                 }
-                 final Npc npc10 = getNpc(defenceWeapon10);
-                 if(npc10 != null && !npc10.isSpawned()) {
-                     spawn(defenceWeapon10, 798.2277f, 400.5876f, 241.02304f, (byte) 38);
-                 }
-                 final Npc npc11 = getNpc(defenceWeapon11);
-                 if(npc11 != null && !npc11.isSpawned()) {
-                     spawn(defenceWeapon11, 709.54443f, 313.67133f, 254.21622f, (byte) 103);
-                 }
-                 final Npc npc12 = getNpc(defenceWeapon12);
-                 if(npc12 != null && !npc12.isSpawned()) {
-                     spawn(defenceWeapon12, 726.6982f, 328.01038f, 254.21628f, (byte) 103);
-                 }
-                 final Npc npc13 = getNpc(defenceWeapon13);
-                 if(npc13 != null && !npc13.isSpawned()) {
-                     spawn(defenceWeapon13, 640.8445f, 412.9476f, 243.93938f, (byte) 103);
-                 }
-             }
-         }, 60000L, 60000L);
-    }
-
-    private void defenceWeaponCancelTask(){
-        Tasks.cancel(DefenceWeapons);
     }
 
     private void startAssault() {
@@ -1164,7 +1102,6 @@ public class TheEternalBastionInstance extends GeneralInstanceHandler {
     }
 
     private void cancelAllTasks() {
-        Tasks.cancel(DefenceWeapons);
         Tasks.cancel(AssaultBomb);
         Tasks.cancel(AssaultRam);
         Tasks.cancel(AttackTowerGate);

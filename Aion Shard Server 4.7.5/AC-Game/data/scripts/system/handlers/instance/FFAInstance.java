@@ -518,7 +518,7 @@ public class FFAInstance extends GeneralInstanceHandler {
         instance.doOnAllPlayers(new Visitor<Player>() {
             @Override
             public void visit(Player object) {
-                PacketSendUtility.sendSys2Message(object, EventSystem.FFA_ANNOUNCER_NAME, winner.getName() + " " + msg + " " + loser.getName());
+                PacketSendUtility.sendSys2Message(object, EventSystem.FFA_ANNOUNCER_NAME, winner.getPlayerClass().name() + " " + msg + " " + loser.getPlayerClass().name());
             }
         });
     }

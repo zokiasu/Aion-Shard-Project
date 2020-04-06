@@ -71,13 +71,10 @@ public class AuthorizeAction
     return targetItem.getAuthorize() < targetItem.getItemTemplate().getAuthorize();
   }
   
-  public void act(final Player player, final Item parentItem, final Item targetItem)
-  {
+  public void act(final Player player, final Item parentItem, final Item targetItem) {
     PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId().intValue(), parentItem.getObjectId().intValue(), parentItem.getItemTemplate().getTemplateId(), 5000, 0, 0));
-    final ItemUseObserver local1 = new ItemUseObserver()
-    {
-      public void abort()
-      {
+    final ItemUseObserver local1 = new ItemUseObserver() {
+      public void abort() {
         player.getController().cancelTask(TaskId.ITEM_USE);
         player.getObserveController().removeObserver(this);
         PacketSendUtility.sendPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId().intValue(), parentItem.getObjectId().intValue(), parentItem.getItemTemplate().getTemplateId(), 0, 3, 0));
@@ -87,25 +84,18 @@ public class AuthorizeAction
     };
     player.getObserveController().attach(local1);
     final boolean bool = isSuccess(player);
-    player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable()
-    {
-      public void run()
-      {
-        if (player.getInventory().decreaseByItemId(parentItem.getItemId(), 1L))
-        {
-          if (!bool)
-          {
+    player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable() {
+      public void run() {
+        if (player.getInventory().decreaseByItemId(parentItem.getItemId(), 1L)) {
+          if (!bool) {
             PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId().intValue(), player.getObjectId().intValue(), parentItem.getObjectId().intValue(), parentItem.getItemId(), 0, 2, 0));
             targetItem.setAuthorize(0);
             if (targetItem.getItemTemplate().isPlume()) {
-              if (targetItem.isEquipped())
-              {
-                player.getEquipment().unEquipItem(targetItem.getObjectId().intValue(), player.getEquipment().getEquipedPlume().getEquipmentSlot());
-                player.getInventory().decreaseByObjectId(targetItem.getObjectId().intValue(), targetItem.getItemCount());
-              }
-              else
-              {
-                player.getInventory().decreaseByObjectId(targetItem.getObjectId().intValue(), targetItem.getItemCount());
+              if (targetItem.isEquipped()) {
+                //player.getEquipment().unEquipItem(targetItem.getObjectId().intValue(), player.getEquipment().getEquipedPlume().getEquipmentSlot());
+                //player.getInventory().decreaseByObjectId(targetItem.getObjectId().intValue(), targetItem.getItemCount());
+              } else {
+                //player.getInventory().decreaseByObjectId(targetItem.getObjectId().intValue(), targetItem.getItemCount());
               }
             }
             if (targetItem.getItemTemplate().isPlume()) {
@@ -113,9 +103,7 @@ public class AuthorizeAction
             } else {
               PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_ITEM_AUTHORIZE_FAILED(targetItem.getNameId()));
             }
-          }
-          else
-          {
+          } else {
             PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId().intValue(), player.getObjectId().intValue(), parentItem.getObjectId().intValue(), parentItem.getItemId(), 0, 1, 0));
             targetItem.setAuthorize(targetItem.getAuthorize() + 1);
             PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_ITEM_AUTHORIZE_SUCCEEDED(targetItem.getNameId(), targetItem.getAuthorize()));

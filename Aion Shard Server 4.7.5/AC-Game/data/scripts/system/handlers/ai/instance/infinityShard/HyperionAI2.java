@@ -73,34 +73,50 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
         for (Integer percent : percents) {
             if (hpPercentage <= percent) {
                 switch (percent) {
-                    case 75:
-                    case 60:
-                    case 55:
-                        spawnHyperionNormal1();
-                        break;
                     case 80:
-                    case 47:
                         AI2Actions.useSkill(this, 21245);
                         spawnHyperionEasy();
                         break;
+                    case 75:
+                        spawnHyperionNormal1();
+                        break;
+                    case 60:
+                        spawnHyperionNormal1();
+                        break;
+                    case 55:
+                        spawnHyperionNormal1();
+                        break;
                     case 52:
-                    case 35:
-                    case 20:
                         AI2Actions.useSkill(this, 21253);
                         spawnHyperionNormal();
                         break;
                     case 50:
-                    case 25:
                         AI2Actions.useSkill(this, 21244);
                         spawnHyperionHard();
                         break;
+                    case 47:
+                        AI2Actions.useSkill(this, 21245);
+                        spawnHyperionEasy();
+                        break;
                     case 40:
                         AI2Actions.useSkill(this, 21244);
+                        break;
+                    case 35:
+                        AI2Actions.useSkill(this, 21253);
+                        spawnHyperionNormal();
                         break;
                     case 30:
                         cancelEnergyTask();
                         AI2Actions.useSkill(this, 21248);
                         spawnHyperionHard();
+                        break;
+                    case 25:
+                        AI2Actions.useSkill(this, 21244);
+                        spawnHyperionHard();
+                        break;
+                    case 20:
+                        AI2Actions.useSkill(this, 21253);
+                        spawnHyperionNormal();
                         break;
                     case 10:
                         AI2Actions.useSkill(this, 21246);

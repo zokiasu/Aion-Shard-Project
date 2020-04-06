@@ -50,17 +50,16 @@ public class IdeResonatorAI2 extends NpcAI2 {
     @Override
     protected void handleSpawned() {
         super.handleSpawned();
-        startpower();
     }
 
     private void startpower() {
-        skillTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
+        /*skillTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
                 AI2Actions.targetCreature(IdeResonatorAI2.this, getPosition().getWorldMapInstance().getNpc(231073));
                 AI2Actions.useSkill(IdeResonatorAI2.this, 21257);
             }
-        }, 3000, 5000);
+        }, 3000, 5000);*/
     }
 
     private void cancelskillTask() {

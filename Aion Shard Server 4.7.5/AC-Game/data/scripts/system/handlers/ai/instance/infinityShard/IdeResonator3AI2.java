@@ -42,6 +42,11 @@ import com.aionemu.gameserver.ai2.poll.AIQuestion;
 public class IdeResonator3AI2 extends NpcAI2 {
 
     @Override
+    protected void handleSpawned() {
+        super.handleSpawned();
+    }
+
+    @Override
     protected AIAnswer pollInstance(AIQuestion question) {
         switch (question) {
             case SHOULD_DECAY:
