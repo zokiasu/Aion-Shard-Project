@@ -225,7 +225,7 @@ public class FFAInstance extends GeneralInstanceHandler {
             checkKillReward(winner, true, false);
             checkKillReward(winner, false, true);
             PacketSendUtility.sendMessage(winner, "You now have " + winner.getSpecialKills() + " kills!");
-            log.info("[FFA] " + winner.getName() + " killed " + loser.getName());
+            log.info("[FFA] " + winner.getPlayerClass().name() + " killed " + loser.getPlayerClass().name());
             return true;
         } else if (attacked instanceof Player && attacker != attacked) {
             Player loser = (Player) attacked;
@@ -243,10 +243,10 @@ public class FFAInstance extends GeneralInstanceHandler {
             checkKillReward(winner, true, false);
             checkKillReward(winner, false, true);
             PacketSendUtility.sendMessage(winner, "You now have " + winner.getSpecialKills() + " kills!");
-            log.info("[FFA] " + winner.getName() + " killed " + loser.getName());
+            log.info("[FFA] " + winner.getPlayerClass().name() + " killed " + loser.getPlayerClass().name());
             return true;
         } else {
-            announceAllInFFA("A ghost killed " + attacked.getName());
+            announceAllInFFA("A ghost killed " + attacked.getPlayerClass().name());
         }
         return false;
     }
@@ -258,7 +258,7 @@ public class FFAInstance extends GeneralInstanceHandler {
         String mac2 = loser.getClientConnection().getMacAddress();
         if ((mac1 != null) && (mac2 != null)) {
             if ((ip1.equalsIgnoreCase(ip2)) && (mac1.equalsIgnoreCase(mac2))) {
-                AuditLogger.info(winner, "[TradeKillAlert] You really need to check player " + winner.getName() + " and " + loser.getName() + ", They have same IP and MAC and possible they are Trade Killing in FFA, so please go and check in invisible! (MAC: " + mac1 + ").");
+                AuditLogger.info(winner, "[TradeKillAlert] You really need to check player " + winner.getPlayerClass().name() + " and " + loser.getPlayerClass().name() + ", They have same IP and MAC and possible they are Trade Killing in FFA, so please go and check in invisible! (MAC: " + mac1 + ").");
                 int lose_ap = 30000;
                 int lose_gp = 5000;
                 int omegaId = 166020000;
@@ -282,11 +282,11 @@ public class FFAInstance extends GeneralInstanceHandler {
                 PacketSendUtility.sendMessage(loser, "[TradeKillAlert] You lost [item:" + omegaId + "] x 1 and [item:" + tsId + "] x 1 item(s) for Trade Killing!"); // item lose Item msg
                 PacketSendUtility.sendMessage(winner, "[TradeKillAlert] Next Time Don't Trade Kill >_>");
                 PacketSendUtility.sendMessage(loser, "[TradeKillAlert] Next Time Don't Trade Kill >_>");
-                log.info("[FFA-TradeKill] Player " + winner.getName() + " killed " + loser.getName() + " and Have same IP and MAC!");
+                log.info("[FFA-TradeKill] Player " + winner.getPlayerClass().name() + " killed " + loser.getPlayerClass().name() + " and Have same IP and MAC!");
                 return;
             }
             if (ip1.equalsIgnoreCase(ip2)) {
-                AuditLogger.info(winner, "[TradeKillAlert] Possible chances that " + winner.getName() + " and " + loser.getName() + " are trade killing in FFA. They have same ip " + ip1 + ".");
+                AuditLogger.info(winner, "[TradeKillAlert] Possible chances that " + winner.getPlayerClass().name() + " and " + loser.getPlayerClass().name() + " are trade killing in FFA. They have same ip " + ip1 + ".");
                 AuditLogger.info(winner, "[TradeKillAlert] If not, they are in some kinda cafe, with same network. OR USING SAME WTFAST Connection!!");
             }
         }
@@ -391,45 +391,45 @@ public class FFAInstance extends GeneralInstanceHandler {
 
 
         if(updatedKillStreak == 5){
-            announceBigKillStreakToAll(winner.getName() + " is now on a Killing Spree!(Kills : 5)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + " is now on a Killing Spree!(Kills : 5)");
             kSLevel = 1;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 10){
-            announceBigKillStreakToAll(winner.getName() + " is now on Rampage!(Kills : 10)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + " is now on Rampage!(Kills : 10)");
             kSLevel = 2;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 15){
-            announceBigKillStreakToAll(winner.getName() + " is now Dominating!(Kills : 15)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + " is now Dominating!(Kills : 15)");
             kSLevel = 3;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 20){
-            announceBigKillStreakToAll("Unstoppable " + winner.getName() + "!(Kills : 20)");
+            announceBigKillStreakToAll("Unstoppable " + winner.getPlayerClass().name() + "!(Kills : 20)");
             kSLevel = 4;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 25){
-            announceBigKillStreakToAll(winner.getName() + ": CHUUCHUU MUTHAFAKAAASS!(Kills : 25)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + ": CHUUCHUU MUTHAFAKAAASS!(Kills : 25)");
             kSLevel = 5;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 30){
-            announceBigKillStreakToAll(winner.getName() + " is now Getting Crazzyyy !!!(Kills : 30)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + " is now Getting Crazzyyy !!!(Kills : 30)");
             kSLevel = 6;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 35){
-            announceBigKillStreakToAll(winner.getName() + " is now GODLIKE!!!(Kills : 35)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + " is now GODLIKE!!!(Kills : 35)");
             kSLevel = 7;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 40){
-            announceBigKillStreakToAll(winner.getName() + " is now on WICKED SICKKKKKK!(Kills : 40)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + " is now on WICKED SICKKKKKK!(Kills : 40)");
             kSLevel = 8;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 45){
-            announceBigKillStreakToAll(winner.getName() + ": Really knows how to kill players!!!!!!(Kills : 45)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + ": Really knows how to kill players!!!!!!(Kills : 45)");
             kSLevel = 9;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else if(updatedKillStreak == 50){
-            announceBigKillStreakToAll(winner.getName() + ": IS NOW A TRUE PVP FIGHTER!!!!!!!(Kills : 50)");
+            announceBigKillStreakToAll(winner.getPlayerClass().name() + ": IS NOW A TRUE PVP FIGHTER!!!!!!!(Kills : 50)");
             kSLevel = 10;
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getName() + " is on a Killing Spree of Level " + kSLevel);
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + winner.getPlayerClass().name() + " is on a Killing Spree of Level " + kSLevel);
         }else{
             announceNormalKillMsg(winner, loser, "has just killed");
             if(loser.getKSLevel() >= 1){
@@ -446,45 +446,45 @@ public class FFAInstance extends GeneralInstanceHandler {
     public void checkIfKillingSpree(Player oneWithKS, Player ksEnter){
         int kSLevel = oneWithKS.getKSLevel();
         if(kSLevel == 1){
-            announceBigKillStreakToAll(oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            announceBigKillStreakToAll(oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 2){
-            announceBigKillStreakToAll(oneWithKS.getName() + "'s Rampaging kill streak has been ended by " + ksEnter.getName());
+            announceBigKillStreakToAll(oneWithKS.getPlayerClass().name() + "'s Rampaging kill streak has been ended by " + ksEnter.getPlayerClass().name());
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 3){
-            announceBigKillStreakToAll(ksEnter.getName() + "'s Dominating Spree has been ended !!(KS Ended :" + oneWithKS.getName() + ")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + "'s Dominating Spree has been ended !!(KS Ended :" + oneWithKS.getPlayerClass().name() + ")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 4){
-            announceBigKillStreakToAll(ksEnter.getName() + " Has been stopped from going any furthur!!(KS Ended :" + oneWithKS.getName() + ")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + " Has been stopped from going any furthur!!(KS Ended :" + oneWithKS.getPlayerClass().name() + ")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 5){
-            announceBigKillStreakToAll(ksEnter.getName() + ": They see me Rolling They hating!!(KS Ended :" + oneWithKS.getName() + ")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + ": They see me Rolling They hating!!(KS Ended :" + oneWithKS.getPlayerClass().name() + ")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 6){
-            announceBigKillStreakToAll(ksEnter.getName() + ": Next Time, Learn some Skills when you face me in a fight!!(KS Ended :" + oneWithKS.getName() + ")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + ": Next Time, Learn some Skills when you face me in a fight!!(KS Ended :" + oneWithKS.getPlayerClass().name() + ")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 7){
-            announceBigKillStreakToAll(ksEnter.getName() + ": Fukk YeaHHH!!!! (KS Ended :" + oneWithKS.getName() + ")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + ": Fukk YeaHHH!!!! (KS Ended :" + oneWithKS.getPlayerClass().name() + ")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 8){
-            announceBigKillStreakToAll(ksEnter.getName() + ": Cmon!!, Thats all you can do ?!?! O.O (KS Ended :"+oneWithKS.getName()+")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + ": Cmon!!, Thats all you can do ?!?! O.O (KS Ended :"+oneWithKS.getPlayerClass().name()+")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 9){
-            announceBigKillStreakToAll(ksEnter.getName() + ": Thats how you kill an OutRaged Bish!! (KS Ended :"+oneWithKS.getName()+")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + ": Thats how you kill an OutRaged Bish!! (KS Ended :"+oneWithKS.getPlayerClass().name()+")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }else if(kSLevel == 10){
-            announceBigKillStreakToAll(ksEnter.getName() + " THE TRUE PVP FIGHTER HAS BEEN TAKEN DOWN!!! (KS Ended :"+oneWithKS.getName()+")");
+            announceBigKillStreakToAll(ksEnter.getPlayerClass().name() + " THE TRUE PVP FIGHTER HAS BEEN TAKEN DOWN!!! (KS Ended :"+oneWithKS.getPlayerClass().name()+")");
             oneWithKS.setKSLevel(0);
-            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getName() + "'s killing spree has been ended by " + ksEnter.getName());
+            log.info(EventSystem.FFA_ANNOUNCER_NAME + " " + oneWithKS.getPlayerClass().name() + "'s killing spree has been ended by " + ksEnter.getPlayerClass().name());
         }
 
     }
