@@ -246,7 +246,8 @@ public class FFAInstance extends GeneralInstanceHandler {
             log.info("[FFA] " + winner.getPlayerClass().name() + " killed " + loser.getPlayerClass().name());
             return true;
         } else {
-            announceAllInFFA("A ghost killed " + (Player) attacked.getPlayerClass().name());
+            Player loser = (Player) attacked;
+            announceAllInFFA("A ghost killed " + loser.getPlayerClass().name());
         }
         return false;
     }
