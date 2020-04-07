@@ -184,7 +184,7 @@ public class ExchangeService {
             return;
         }
         if (!TemporaryTradeTimeTask.getInstance().canTrade(item, partner.getObjectId())) {
-            if (!item.isTradeable(activePlayer)) {
+            if (!item.isTradeable(activePlayer) && !item.isPacked()) {
                 return;
             }
             if (!item.isTradeable(activePlayer) && (item.getPackCount() <= item.getItemTemplate().getPackCount() && !item.isPacked())) {
