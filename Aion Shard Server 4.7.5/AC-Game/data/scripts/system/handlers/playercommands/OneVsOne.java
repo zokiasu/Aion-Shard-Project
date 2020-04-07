@@ -78,6 +78,21 @@ public class OneVsOne extends PlayerCommand {
             return;
         }
 
+        if (player.isInInstance()){
+            PacketSendUtility.sendMessage(player, "You cannot use the command inside Instance!");
+            return;
+        }
+
+        if (player.isInTeam()) {
+            PacketSendUtility.sendMessage(player, "You are in team, you cannot enter !");
+            return;
+        }
+
+        if (player.isInGroup2()){
+            PacketSendUtility.sendMessage(player, "You cannot use the command inside a Group!");
+            return;
+        }
+
         if (player.isInPvEMode()){
             PacketSendUtility.sendMessage(player, "You're in a mode 'PvE' , you cannot register like that, Tell a GM to turn it off!");
             return;
@@ -97,6 +112,9 @@ public class OneVsOne extends PlayerCommand {
             RequestResponseHandler requestResponseHandler = new RequestResponseHandler(player) {
                 @Override
                 public void acceptRequest(Creature requester, Player responder) {
+                    if (player.isInGroup2()) {
+                        PlayerGroupService.removePlayer(player);
+                    }
                     OneVsOneService.getInstance().deletePlayer(player);
                     PacketSendUtility.sendYellowMessageOnCenter(player, "You've removed from the Queue, Good luck!");
                 }
@@ -110,7 +128,7 @@ public class OneVsOne extends PlayerCommand {
             if(areusure){
                 PacketSendUtility.sendPacket(player,new SM_QUESTION_WINDOW(1300564, 0, 0, "You're already registered for 1 vs 1 Event, Press 'YES' to unregister from 1 vs 1 Queue, or Just press 'NO' to ignore this message, and continue on the Queue!"));
             }
-        }else{
+        } else {
             OneVsOneService.getInstance().playersToArena.add(player);
             PacketSendUtility.sendMessage(player, "Registered to the queue, Please wait till you get ported, (Ports comes every 1min).");
         }
@@ -118,6 +136,5 @@ public class OneVsOne extends PlayerCommand {
 
     private boolean checkIfAlready(Player player){
         return OneVsOneService.getInstance().checkAlreadyExists(player);
-
     }
 }

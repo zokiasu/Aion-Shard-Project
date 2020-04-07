@@ -73,7 +73,7 @@ public class DanuarSanctuaryInstance extends GeneralInstanceHandler {
 	
 	@Override
 	public void onEnterInstance(Player player) {
-  	player.getEffectController().removeEffect(218611);
+  		player.getEffectController().removeEffect(218611);
 		player.getEffectController().removeEffect(218610);
 		player.getEffectController().removeEffect(284320);
 	}

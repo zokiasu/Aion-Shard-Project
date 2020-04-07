@@ -23,8 +23,9 @@ public class MirenBarracksInstance extends GeneralInstanceHandler {
             case 233711:
             case 233717:
                 numberBossDie++;
-                if(numberBossDie >= 4){
+                if(numberBossDie == 4){
                     spawn(233719, 526, 845, 199.7f, (byte) 5);
+                    numberBossDie = 0;
                 }
                 break;
             case 233719: // Miren Duke lvl.65
@@ -82,5 +83,19 @@ public class MirenBarracksInstance extends GeneralInstanceHandler {
                 }
             }
         }
+    }
+
+    @Override
+    public boolean onReviveEvent(Player player) {
+        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME);
+        PlayerReviveService.revive(player, 15, 15, false, 0);
+        player.getGameStats().updateStatsAndSpeedVisually();
+        TeleportService2.teleportTo(player, player.getWorldId(), player.getInstanceId(), 527f, 120f, 176f, (byte) 75);
+        return true;
+    }
+
+    @Override
+    public void onPlayerLogOut(Player player){
+        TeleportService2.teleportTo(player, player.getWorldId(), player.getInstanceId(), player.getX(), player.getY(), player.getZ(), player.getHeading());
     }
 }

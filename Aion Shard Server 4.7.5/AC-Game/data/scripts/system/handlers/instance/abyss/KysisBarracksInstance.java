@@ -28,8 +28,9 @@ public class KysisBarracksInstance extends GeneralInstanceHandler {
             case 233656:
             case 233674:
                 numberBossDie++;
-                if(numberBossDie >= 4){
+                if(numberBossDie == 4){
                     spawn(233676, 526, 845, 199.7f, (byte) 27);
+                    numberBossDie = 0;
                 }
                 break;
             case 233676: // Kysis Duke lvl.65

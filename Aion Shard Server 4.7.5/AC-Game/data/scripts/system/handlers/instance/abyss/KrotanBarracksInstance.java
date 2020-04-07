@@ -53,8 +53,9 @@ public class KrotanBarracksInstance extends GeneralInstanceHandler {
             case 233625:
             case 233687:
                 numberBossDie++;
-                if(numberBossDie >= 4){
+                if(numberBossDie == 4){
                     spawn(233633, 526, 845, 199.7f, (byte) 28);
+                    numberBossDie = 0;
                 }
                 break;
             case 233633: // Krotan Duke lvl.65

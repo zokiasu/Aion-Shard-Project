@@ -80,8 +80,18 @@ public class Ffa extends PlayerCommand {
         }
 
         if (params[0].equals("enter")) {
+            if (player.isInInstance()){
+                PacketSendUtility.sendMessage(player, "You cannot use the command inside Instance!");
+                return;
+            }
+
             if (player.isInTeam()) {
                 PacketSendUtility.sendMessage(player, "You are in team, you cannot enter !");
+                return;
+            }
+
+            if (player.isInGroup2()){
+                PacketSendUtility.sendMessage(player, "You cannot use the command inside a Group!");
                 return;
             }
 
