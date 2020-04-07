@@ -102,6 +102,6 @@ public class MirenBarracksInstance extends GeneralInstanceHandler {
 
     @Override
     public void onPlayerLogOut(Player player){
-        TeleportService2.teleportTo(player, player.getWorldId(), player.getInstanceId(), player.getX(), player.getY(), player.getZ(), player.getHeading());
+        TeleportService2.teleportTo(player, player.getWorldId(), player.getInstanceId(), 527f, 120f, 176f, (byte) 75);
     }
 }
