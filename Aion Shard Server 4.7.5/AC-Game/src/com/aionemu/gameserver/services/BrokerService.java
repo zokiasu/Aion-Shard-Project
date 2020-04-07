@@ -602,7 +602,7 @@ public class BrokerService {
         }
 
         // Check Trade Hack
-        if (!itemToRegister.isTradeable(player)) {
+        if (!itemToRegister.isTradeable(player) && !itemToRegister.isPacked()) {
             return;
         }
 
