@@ -19,7 +19,7 @@
  * Credits goes to all Open Source Core Developer Groups listed below
  * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
  * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * Everybody knows that this Emulator Core was developed by Aion Lightning
  * @-Aion-Unique-
  * @-Aion-Lightning
  * @Aion-Engine
@@ -187,15 +187,12 @@ public class MailService {
             // Check Mailing untradables with Cash items (Special courier passes)
             if (!senderItem.isTradeable(sender)) {
                 Disposition dispo = senderItem.getItemTemplate().getDisposition();
-                if (dispo == null || dispo.getId() == 0 || dispo.getCount() == 0) //can not be traded, hack
-                {
+                if (dispo == null || dispo.getId() == 0 || dispo.getCount() == 0) { //can not be traded, hack
                     return;
                 }
 
                 if (senderInventory.getItemCountByItemId(dispo.getId()) >= dispo.getCount()) {
                     senderInventory.decreaseByItemId(dispo.getId(), dispo.getCount());
-                } else {
-                    return;
                 }
 
                 /*if (senderItem.getPackCount() <= senderItem.getItemTemplate().getPackCount() && !senderItem.isPacked()) {
