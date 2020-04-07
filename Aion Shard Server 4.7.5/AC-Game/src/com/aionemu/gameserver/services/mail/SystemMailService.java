@@ -84,8 +84,7 @@ public class SystemMailService {
      * @return
      */
 
-    public boolean sendMail(String sender, String recipientName, String title, String message, int attachedItemObjId,
-                            long attachedItemCount, long attachedKinahCount, LetterType letterType) {
+    public boolean sendMail(String sender, String recipientName, String title, String message, int attachedItemObjId, long attachedItemCount, long attachedKinahCount, LetterType letterType) {
 
         if (attachedItemObjId != 0) {
             ItemTemplate itemTemplate = DataManager.ITEM_DATA.getItemTemplate(attachedItemObjId);

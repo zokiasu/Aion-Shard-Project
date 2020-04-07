@@ -49,13 +49,6 @@ public class DanuarReliquaryInstance extends GeneralInstanceHandler {
 		if(player.getLastMapId() == 600100000) {
 			SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
 		}
-		spawn(284375, 255.57027f, 293.0893f, 253.79536f, (byte) 90); 	//Spawn Cursed Queen Modor - Construct
-		spawn(284447, 256.5698f, 257.8559f, 241.9354f, (byte) 0); 		//Spawn Damage Circle - Invisible (Blue Water)
-		/**
-		 * WTF IS THIS ? Remove NPC ID effect ? LOL :D
-		 * player.getEffectController().removeEffect(218611);
-		 * player.getEffectController().removeEffect(218610);
-		 */
 	}
 
 	@Override
@@ -73,9 +66,9 @@ public class DanuarReliquaryInstance extends GeneralInstanceHandler {
 		final Npc NPC8 = getNpc(284659);
 		final Npc NPC9 = getNpc(284384);
 		switch (npc.getNpcId()) {
-			case 284377:
-			case 284378:
-			case 284379:
+			case 284377: //novun
+			case 284378: //lapilima
+			case 284379: //obscura
 				guardGraendalKilled++;
 				if (guardGraendalKilled == 3) {
 					CQM0.getController().onDelete();
@@ -83,25 +76,25 @@ public class DanuarReliquaryInstance extends GeneralInstanceHandler {
 				}
 				despawnNpc(npc);
 				break;
-			case 284380:
+			case 284380: //Bodyguard
 				NPC1.getController().onDelete();
 				if (isDead(NPC0) && isDead(NPC1) && isDead(NPC2)) {
 					Teleport();
 				}
 				break;
-			case 284381:
+			case 284381: //reaper
 				NPC2.getController().onDelete();
 				if (isDead(NPC0) && isDead(NPC1) && isDead(NPC2)) {
 					Teleport();
 				}
 				break;
-			case 284382:
+			case 284382: //drake
 				NPC3.getController().onDelete();
 				if (isDead(NPC3) && isDead(NPC4) && isDead(NPC5)) {
 					Teleport2();
 				}
 				break;
-			case 284383:
+			case 284383: //Clone
 				CQM1.getController().onAttack(CQM1, 125000, true);
 				CloneKill++;
 				CloneCount++;
@@ -136,50 +129,46 @@ public class DanuarReliquaryInstance extends GeneralInstanceHandler {
 					deleteNpcs(instance.getNpcs(284384));
 				}
 				break;
-			case 284384:
+			case 284384: //clone
 				CQM1.getController().onAttack(CQM1, 125000, true);
 				break;
-			case 231304:
+			case 231304: //Cursed Queen Modor
 				NPC9.getController().onDelete();
 				break;
-			case 231305:
+			case 231305: //Enraged Queen Modor
 				spawn(730843, 255.66669f, 263.78525f, 243.71048f, (byte) 86);
-				/*				sendMsg(1401893);
-                despawnNpc(npc);
-                spawn(730843, 256.2082f, 250.2959f, 241.8779f, (byte) 30); //exit
-                spawn(701795, 256.5212f, 258.3195f, 241.7859f, (byte) 89); //treasure box */
 				break;
-			case 284659:
+			case 284659: //jotun
 				NPC8.getController().onDelete();
 				if (isDead(NPC6) && isDead(NPC7) && isDead(NPC8)) {
 					Teleport2();
 				}
 				break;
-			case 284660:
+			case 284660: //lapilima
 				NPC5.getController().onDelete();
 				if (isDead(NPC3) && isDead(NPC4) && isDead(NPC5)) {
 					Teleport2();
 				}
 				break;
-			case 284661:
+			case 284661: //obscura
 				NPC6.getController().onDelete();
 				if (isDead(NPC6) && isDead(NPC7) && isDead(NPC8)) {
 					Teleport2();
 				}
 				break;
-			case 284662:
+			case 284662: //guardian
 				NPC7.getController().onDelete();
 				if (isDead(NPC6) && isDead(NPC7) && isDead(NPC8)) {
 					Teleport2();
 				}
 				break;
-			case 284663:
+			case 284663: //ghost
 				NPC4.getController().onDelete();
 				if (isDead(NPC3) && isDead(NPC4) && isDead(NPC5)) {
 					Teleport2();
 				}
 				break;
-			case 284664:
+			case 284664: //drake
 				NPC0.getController().onDelete();
 				if (isDead(NPC0) && isDead(NPC1) && isDead(NPC2)) {
 					Teleport();

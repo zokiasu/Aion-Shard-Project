@@ -56,7 +56,6 @@ public class cmd_onlineshop extends PlayerCommand {
     @Override
     public void execute(final Player player, String... params) {
         try {
-
             DB.select("SELECT object_id, item_id, item_count FROM player_shop WHERE player_id = ?", new ParamReadStH() {
                 @Override
                 public void setParams(PreparedStatement stmt) throws SQLException {

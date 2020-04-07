@@ -33,23 +33,21 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 		if(player.getLastMapId() == 600100000) {
 			SkillEngine.getInstance().applyEffectDirectly(skillId, player, player, 0);
 		}
-		player.getEffectController().removeEffect(218611);
-		player.getEffectController().removeEffect(218610);
     }
 		
 	@Override
 	public void onDie(Npc npc) {
 		switch (npc.getNpcId()) {
-			 case 284377:
-			 case 284378:
-			 case 284379:
+			 case 284377: //Novun
+			 case 284378: //Lapilima
+			 case 284379: //Obscura
 				guardGraendalKilled ++;
 				if (guardGraendalKilled == 3) {
-				  spawn(234690, 256.52f, 257.87f, 241.78f, (byte) 90);
+				  spawn(234690, 256.52f, 257.87f, 241.78f, (byte) 90); //Vengeful Modor
 				}
 				despawnNpc(npc);
 				break;
-			 case 855244:
+			 case 855244: //Clone
 				despawnNpc(npc);
 				despawnNpc(getNpc(855247));
 				despawnNpc(getNpc(855248));
@@ -84,7 +82,7 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 					}
 				}
 				break;
-			 case 855245:
+			 case 855245: //clone
 				despawnNpc(npc);
 				despawnNpc(getNpc(855247));
 				despawnNpc(getNpc(855248));
@@ -119,7 +117,7 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 					}
 				}
 				break;
-			 case 855246:
+			 case 855246: //clone
 				IllusionGraendalKilled ++;
 				if (IllusionGraendalKilled == 3) {
 					spawn(234691, 256.5205f, 257.8747f, 241.7870f, (byte) 90);
@@ -129,21 +127,21 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 				despawnNpc(getNpc(855248));
 				despawnNpc(getNpc(855249));
 				break;
-			 case 855247:
-			 case 855248:
-			 case 855249:
-			 case 284380:
-			 case 284381:
-			 case 284382:
-			 case 284659:
-			 case 284660:
-			 case 284661:
-			 case 284662:
-			 case 284663:
-			 case 284664:
+			 case 855247: //clone
+			 case 855248: //clone
+			 case 855249: //clone
+			 case 284380: //bodyguard
+			 case 284381: //reaper
+			 case 284382: //drake
+			 case 284659: //jotun
+			 case 284660: //lapilima
+			 case 284661: //obscura
+			 case 284662: //weakened modor guardian
+			 case 284663: //ghost
+			 case 284664: //drake
 				despawnNpc(npc);
 				break;
-			 case 234691:
+			 case 234691: //Crazed Modor
 			 	sendMsg(1401893);
 				if (Rnd.get(1, 100) < 30) {
 					spawn(802184, 256.33f, 267.22f, 241.84f, (byte) 0);
