@@ -73,27 +73,23 @@ public class WeaponTypeWrapper implements Comparable<WeaponTypeWrapper> {
      * @see java.lang.Object#equals(java.lang.Object)
      */
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
+    public boolean equals(Object var1) {
+        if (this == var1) {
             return true;
-        }
-        if (obj == null) {
+        } else if (var1 == null) {
             return false;
-        }
-        if (getClass() != obj.getClass()) {
+        } else if (this.getClass() != var1.getClass()) {
             return false;
+        } else {
+            WeaponTypeWrapper var2 = (WeaponTypeWrapper)var1;
+            if (!this.getOuterType().equals(var2.getOuterType())) {
+                return false;
+            } else if (this.mainHand != var2.mainHand) {
+                return false;
+            } else {
+                return this.offHand == var2.offHand;
+            }
         }
-        WeaponTypeWrapper other = (WeaponTypeWrapper) obj;
-        if (!getOuterType().equals(other.getOuterType())) {
-            return false;
-        }
-        if (mainHand != other.mainHand) {
-            return false;
-        }
-        if (offHand != other.offHand) {
-            return false;
-        }
-        return true;
     }
 
     @Override
