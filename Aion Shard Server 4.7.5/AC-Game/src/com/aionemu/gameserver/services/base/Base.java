@@ -145,12 +145,11 @@ public class Base<BL extends BaseLocation> {
 
 	private void delayedAssault() {
 		startAssault = ThreadPoolManager.getInstance().schedule(new Runnable() {
-
 			@Override
 			public void run() {
 				chooseAttackersRace();
 			}
-		}, Rnd.get(5, 10) * 60000); // Randomly every 15 - 20 min start assault
+		}, Rnd.get(15, 20) * 60000); // Randomly every 15 - 20 min start assault
 	}
 
 	private void delayedSpawn(final Race race) {
@@ -162,7 +161,7 @@ public class Base<BL extends BaseLocation> {
 					spawnBoss();
 				}
 			}
-		}, Rnd.get(1, 2) * 60000); // Boss spawn between 30 min and 4 hours delay
+		}, Rnd.get(5, 15) * 60000); // Boss spawn between 30 min and 4 hours delay
 	}
 
 	protected void spawnBoss() {
@@ -218,7 +217,7 @@ public class Base<BL extends BaseLocation> {
 				}
 			}
 
-		}, 1 * 6000); // Guard 1 min spawn delay
+		}, 1 * 60000); // Guard 1 min spawn delay
 	}
 
 	protected void spawnGuard() {
@@ -291,7 +290,7 @@ public class Base<BL extends BaseLocation> {
 				}
 			}
 
-		}, 2 * 6000); // Guard Village 2 min spawn delay
+		}, 1 * 60000); // Guard Village 2 min spawn delay
 	}
 
 	protected void spawnGuardVillage() {

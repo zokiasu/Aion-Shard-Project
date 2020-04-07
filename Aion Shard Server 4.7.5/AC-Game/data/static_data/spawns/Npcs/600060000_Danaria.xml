@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="600060000">
+        <!-- Adenerk
+        <spawn npc_id="832739" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="2436.9495" y="1610.0251" z="109.933586" h="13"/>
+        </spawn> -->
         <!-- Klara -->
         <spawn npc_id="801282" respawn_time="100">
             <spot x="2156.2334" y="869.35223" z="122.626495" h="50"/>
@@ -6950,6 +6954,7 @@
 		<spawn npc_id="832739" respawn_time="295">
             <spot x="2437.1565" y="1610.9716" z="109.933586" h="0"/>
         </spawn> -->
+
 		<!-- Danaria Base Balaur Sub Spawns -->
 		<!-- Desolation Vanguard Combatant -->
 		<spawn npc_id="232752" respawn_time="180">
@@ -6994,7 +6999,8 @@
 			<spot x="759.71423" y="1767.9221" z="361.03564" h="90"/>
 			<spot x="800.2845" y="1768.6862" z="361.03564" h="113"/>
 			<spot x="802.93066" y="1828.8201" z="372.5167" h="105"/>
-		</spawn>				
+			<spot x="832.81445" y="1796.843" z="361.03564" h="97"/>
+		</spawn>
 		<!-- Starlit Vanguard Combatant -->
 		<spawn npc_id="232758" respawn_time="180">
 			<spot x="894.76715" y="2366.3564" z="268.0" h="30"/>
@@ -7015,6 +7021,9 @@
 			<spot x="877.7883" y="2461.6704" z="278.36026"/>
 			<spot x="908.2231" y="2461.7524" z="260.5" h="26"/>
 			<spot x="918.13086" y="2420.9048" z="263.32217" h="21"/>
+			<spot x="929.1167" y="2415.0532" z="263.53793" h="14"/>
+			<spot x="925.53143" y="2389.7441" z="267.64368" h="31"/>
+			<spot x="895.81354" y="2418.9387" z="272.36734" h="74"/>
 			<spot x="948.5931" y="2402.7334" z="263.1596"/>
 		</spawn>
 		<!-- Archways Vanguard Veteran Combatant -->
@@ -7177,10 +7186,6 @@
 			<spot x="2768.2205" y="2271.9082" z="239.36508" h="45"/>
 			<spot x="2791.6814" y="2234.4133" z="248.34328" h="20"/>
 			<spot x="2757.7278" y="2227.8955" z="238.59152" h="30"/>
-        </spawn>
-	<!-- Adenerk -->
-	<spawn npc_id="832739" respawn_time="295" difficult_id="0" custom="true">
-            <spot x="2436.9495" y="1610.0251" z="109.933586" h="13"/>
         </spawn>
     </spawn_map>
 </spawns>

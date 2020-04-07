@@ -15,368 +15,226 @@
     <!-- Reian Treasure Box -->
 	<npc_drop npc_id="701421">
 		<drop_group use_category="true" name="SPECIAL" race="PC_ALL">
-			<drop item_id="188053876" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+			<drop item_id="188053618" chance="50.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="false" />
 		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="PC_ALL">
-			<drop item_id="188053876" chance="25.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
+			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="PC_ALL">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="20" no_reduce="false" eachmember="false" />
+		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="PC_ALL">
 			<drop item_id="186000242" chance="100.0" min_amount="1" max_amount="2" no_reduce="false" eachmember="false" />
 		</drop_group>
 	</npc_drop>
 
-    <!-- DEBUT MONSTRE NOMMÉ -->
-
-    <!-- Hakur Stonebraid -->
+<!-- Début Token Farm -->
+	<!-- Hakur Stonebraid -->
 	<npc_drop npc_id="218081">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Nubale the Glacier -->
+	<!-- Nubale the Glacier -->
 	<npc_drop npc_id="218080">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Prophet Huruhuru -->
+	<!-- Prophet Huruhuru -->
 	<npc_drop npc_id="217962">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Shadowstrike Gubacha -->
+	<!-- Shadowstrike Gubacha -->
 	<npc_drop npc_id="218001">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Shivhum Stonestriker -->
+	<!-- Shivhum Stonestriker -->
 	<npc_drop npc_id="218075">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Spirit of Tranquility -->
+	<!-- Spirit of Tranquility -->
 	<npc_drop npc_id="218027">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Teftak the Frenzied -->
+	<!-- Teftak the Frenzied -->
 	<npc_drop npc_id="218076">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Vanuka the Earthshaker -->
+	<!-- Vanuka the Earthshaker -->
 	<npc_drop npc_id="218026">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Zakul Deadeye -->
+	<!-- Zakul Deadeye -->
 	<npc_drop npc_id="218083">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Captain Babelkin -->
+	<!-- Captain Babelkin -->
 	<npc_drop npc_id="217915">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Captain Sakamat -->
+	<!-- Captain Sakamat -->
 	<npc_drop npc_id="218105">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Daturum Wreckhelm -->
+	<!-- Daturum Wreckhelm -->
 	<npc_drop npc_id="218082">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Dowager Geren -->
+	<!-- Dowager Geren -->
 	<npc_drop npc_id="218181">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Gabo the Obstinate -->
+	<!-- Gabo the Obstinate -->
 	<npc_drop npc_id="217891">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Gavijolf the Gouger -->
+	<!-- Gavijolf the Gouger -->
 	<npc_drop npc_id="217889">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Gavijolf the Gouger -->
+	<!-- Gavijolf the Gouger -->
 	<npc_drop npc_id="217965">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Haughty Kirke -->
+	<!-- Haughty Kirke -->
 	<npc_drop npc_id="218030">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Insidious Barolf -->
+	<!-- Insidious Barolf -->
 	<npc_drop npc_id="217890">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Ironjaw Tarapu -->
+	<!-- Ironjaw Tarapu -->
 	<npc_drop npc_id="217916">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Labor Supervisor Mukusa -->
+	<!-- Labor Supervisor Mukusa -->
 	<npc_drop npc_id="218147">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Leti the Rascal -->
+	<!-- Leti the Rascal -->
 	<npc_drop npc_id="218103">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-    <!-- Mankur the Elusive -->
+	<!-- Mankur the Elusive -->
 	<npc_drop npc_id="218084">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
-
-    <!-- FIN MONSTRE NOMMÉ -->
-
-
-    <!-- Jotun Handicrafter -->
+	<!-- Jotun Handicrafter -->
 	<npc_drop npc_id="218072">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
-			<drop item_id="186000133" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
-		</drop_group>
-		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
-			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true" />
+			<drop item_id="186000132" chance="25.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="false"/>
 		</drop_group>
 	</npc_drop>
+<!-- Fin Token Farm -->
 </npc_drops>

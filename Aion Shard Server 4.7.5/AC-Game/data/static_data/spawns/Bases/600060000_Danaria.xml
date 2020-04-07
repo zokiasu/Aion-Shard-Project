@@ -73,21 +73,27 @@
                 </spawn>
 				<!-- End Base Spawns -->
 				<!-- Sub Camp Asmodian Spawns -->
-				<!-- Desolation Recon Combatant -->
-				<spawn npc_id="232569" respawn_time="295">
-					<spot x="943.42786" y="1255.2578" z="383.25" h="90"/>
-					<spot x="951.95197" y="1268.9156" z="383.25" h="90"/>
-					<spot x="955.0734" y="1252.9022" z="383.25" h="90"/>
-					<spot x="964.58044" y="1258.6417" z="383.25" h="90"/>
-				</spawn>
-				<!-- Desolation Recon Sentry -->
-				<spawn npc_id="232570" respawn_time="295">
-					<spot x="960.8783" y="1264.5375" z="383.25" h="90"/>
-				</spawn>
-				<!-- Desolation Recon Supervisor -->
-				<spawn npc_id="232571" respawn_time="295">
-					<spot x="945.52844" y="1261.8505" z="383.25" h="90"/>
-				</spawn>
+                    <!-- Desolation Recon Combatant -->
+                    <spawn npc_id="232569" respawn_time="295">
+                        <spot x="943.42786" y="1255.2578" z="383.25" h="90"/>
+                        <spot x="951.95197" y="1268.9156" z="383.25" h="90"/>
+                        <spot x="955.0734" y="1252.9022" z="383.25" h="90"/>
+                        <spot x="964.58044" y="1258.6417" z="383.25" h="90"/>
+                    </spawn>
+                    <!-- Desolation Recon Sentry -->
+                    <spawn npc_id="232570" respawn_time="295">
+                        <spot x="960.8783" y="1264.5375" z="383.25" h="90"/>
+                    </spawn>
+                    <!-- Desolation Recon Supervisor -->
+                    <spawn npc_id="232571" respawn_time="295">
+                        <spot x="945.52844" y="1261.8505" z="383.25" h="90"/>
+                    </spawn>
+                    <spawn npc_id="233222" respawn_time="295">
+                        <spot x="924.11633" y="1241.0435" z="375.51086" h="99"/>
+                        <spot x="957.36554" y="1224.7079" z="377.54333" h="78"/>
+                        <spot x="890.3714" y="1234.371" z="373.56952" h="99"/>
+                        <spot x="886.6335" y="1204.8118" z="372.5631" h="85"/>
+                    </spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
 			</simple_race>
 			<simple_race race="ASMODIANS">
@@ -160,21 +166,27 @@
                 </spawn>
 				<!-- End Base Spawns -->
 				<!-- Sub Camp Elyos Spawns -->
-				<!-- Desolation Pioneers Combatant -->
-				<spawn npc_id="232508" respawn_time="295">
-					<spot x="943.42786" y="1255.2578" z="383.25" h="90"/>
-					<spot x="951.95197" y="1268.9156" z="383.25" h="90"/>
-					<spot x="955.0734" y="1252.9022" z="383.25" h="90"/>
-					<spot x="964.58044" y="1258.6417" z="383.25" h="90"/>
-				</spawn>
-				<!-- Desolation Pioneers Sentry -->
-				<spawn npc_id="232509" respawn_time="295">
-					<spot x="960.8783" y="1264.5375" z="383.25" h="90"/>
-				</spawn>
-				<!-- Desolation Pioneers Supervisor -->
-				<spawn npc_id="232510" respawn_time="295">
-					<spot x="945.52844" y="1261.8505" z="383.25" h="90"/>
-				</spawn>
+                    <!-- Desolation Pioneers Combatant -->
+                    <spawn npc_id="232508" respawn_time="295">
+                        <spot x="943.42786" y="1255.2578" z="383.25" h="90"/>
+                        <spot x="951.95197" y="1268.9156" z="383.25" h="90"/>
+                        <spot x="955.0734" y="1252.9022" z="383.25" h="90"/>
+                        <spot x="964.58044" y="1258.6417" z="383.25" h="90"/>
+                    </spawn>
+                    <!-- Desolation Pioneers Sentry -->
+                    <spawn npc_id="232509" respawn_time="295">
+                        <spot x="960.8783" y="1264.5375" z="383.25" h="90"/>
+                    </spawn>
+                    <!-- Desolation Pioneers Supervisor -->
+                    <spawn npc_id="232510" respawn_time="295">
+                        <spot x="945.52844" y="1261.8505" z="383.25" h="90"/>
+                    </spawn>
+                    <spawn npc_id="233203" respawn_time="295">
+                        <spot x="924.11633" y="1241.0435" z="375.51086" h="99"/>
+                        <spot x="957.36554" y="1224.7079" z="377.54333" h="78"/>
+                        <spot x="890.3714" y="1234.371" z="373.56952" h="99"/>
+                        <spot x="886.6335" y="1204.8118" z="372.5631" h="85"/>
+                    </spawn>
 				<!-- End Sub Camp Elyos Spawns -->
 			</simple_race>
 			<simple_race race="NPC">
@@ -302,21 +314,29 @@
 				</spawn>
 				<!-- End Base Spawns -->
 				<!-- Sub Camp Asmodian Spawns -->
-				<!-- Icethorn Recon Combatant -->
-				<spawn npc_id="232572" respawn_time="295">
-					<spot x="921.0907" y="1628.7854" z="363.45093" h="30"/>
-					<spot x="930.82544" y="1616.0411" z="363.5" h="30"/>
-					<spot x="932.03644" y="1632.1829" z="363.2386" h="30"/>
-					<spot x="940.45703" y="1627.734" z="363.375" h="30"/>
-				</spawn>
-				<!-- Icethorn Recon Sentry -->
-				<spawn npc_id="232573" respawn_time="295">
-					<spot x="934.8618" y="1622.6095" z="363.5" h="30"/>
-				</spawn>
-				<!-- Icethorn Recon Supervisor -->
-				<spawn npc_id="232574" respawn_time="295">
-					<spot x="926.50366" y="1624.4208" z="363.5" h="30"/>
-				</spawn>
+                    <!-- Icethorn Recon Combatant -->
+                    <spawn npc_id="232572" respawn_time="120" handler="GUARD_VILLAGE">
+                        <spot x="921.0907" y="1628.7854" z="363.45093" h="30"/>
+                        <spot x="930.82544" y="1616.0411" z="363.5" h="30"/>
+                        <spot x="932.03644" y="1632.1829" z="363.2386" h="30"/>
+                        <spot x="940.45703" y="1627.734" z="363.375" h="30"/>
+                    </spawn>
+                    <!-- Icethorn Recon Sentry -->
+                    <spawn npc_id="232573" respawn_time="120" handler="GUARD_VILLAGE">
+                        <spot x="934.8618" y="1622.6095" z="363.5" h="30"/>
+                    </spawn>
+                    <!-- Icethorn Recon Supervisor -->
+                    <spawn npc_id="232574" respawn_time="120" handler="GUARD_VILLAGE">
+                        <spot x="926.50366" y="1624.4208" z="363.5" h="30"/>
+                    </spawn>
+                    <!--...-->
+                    <spawn npc_id="233223" respawn_time="120" handler="GUARD_VILLAGE">
+                        <spot x="978.8028" y="1616.9608" z="364.16852" h="19"/>
+                        <spot x="952.7698" y="1592.6025" z="365.79236" h="19"/>
+                        <spot x="947.8048" y="1619.9796" z="362.8994" h="19"/>
+                        <spot x="907.00964" y="1605.0104" z="365.25" h="37"/>
+                        <spot x="878.6058" y="1603.7644" z="366.2377" h="32"/>
+                    </spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
 			</simple_race>
 			<simple_race race="ASMODIANS">
@@ -494,10 +514,10 @@
                 <spawn npc_id="801038" respawn_time="180">
                     <spot x="1057.0177" y="2246.654" z="276.5" h="60"/>
                 </spawn>
-                <!-- SIEGE
+                <!-- Teleport Device -->
                 <spawn npc_id="801707" handler="PORTAL">
                     <spot x="1062.8163" y="2243.9741" z="276.5" static_id="2771"/>
-                </spawn> -->
+                </spawn>
                 <!-- GUARD -->
                 <spawn npc_id="232249" handler="GUARD">
                     <spot h="42" z="276.373" y="2254.0322" x="1033.4583"/>
@@ -522,19 +542,27 @@
                     <spot h="58" z="276.5" y="2244.7463" x="1033.2081"/>
                     <spot h="48" z="275.4193" y="2262.6455" x="1029.7313"/>
                 </spawn>
-                <!-- GUARD VILLAGE -->
-                <spawn npc_id="232575" respawn_time="295" handler="GUARD_VILLAGE">
-                    <spot x="711.7379" y="2251.4412" z="290.0164" h="110"/>
-                    <spot x="717.28564" y="2234.338" z="289.77353" h="110"/>
-                    <spot x="727.78735" y="2244.7542" z="289.42212" h="110"/>
-                    <spot x="727.9773" y="2255.2798" z="289.955" h="110"/>
-                </spawn>
-                <spawn npc_id="232576" respawn_time="295" handler="GUARD_VILLAGE">
-                    <spot x="714.69586" y="2243.4773" z="289.75" h="110"/>
-                </spawn>
-                <spawn npc_id="232577" respawn_time="295" handler="GUARD_VILLAGE">
-                    <spot x="719.6244" y="2252.8538" z="289.92834" h="110"/>
-                </spawn>
+                <!-- Sub Camp Asmo Spawns -->
+                    <spawn npc_id="232575" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="711.7379" y="2251.4412" z="290.0164" h="110"/>
+                        <spot x="717.28564" y="2234.338" z="289.77353" h="110"/>
+                        <spot x="727.78735" y="2244.7542" z="289.42212" h="110"/>
+                        <spot x="727.9773" y="2255.2798" z="289.955" h="110"/>
+                    </spawn>
+                    <spawn npc_id="232576" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="714.69586" y="2243.4773" z="289.75" h="110"/>
+                    </spawn>
+                    <spawn npc_id="232577" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="719.6244" y="2252.8538" z="289.92834" h="110"/>
+                    </spawn>
+                    <spawn npc_id="233224" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="726.9209" y="2226.0583" z="290.06015" h="115"/>
+                        <spot x="747.55383" y="2252.4866" z="289.78546" h="94"/>
+                        <spot x="772.10205" y="2230.3733" z="291.5891" h="91"/>
+                        <spot x="794.9399" y="2196.0356" z="285.45462" h="85"/>
+                        <spot x="813.37787" y="2248.6326" z="289.1173" h="85"/>
+                    </spawn>
+                <!-- End Sub Camp Asmo Spawns -->
                 <!-- Elyos Territory -->
                 <spawn npc_id="801633">
                     <spot x="1046.2488" y="2248.4668" z="276.5" h="45"/>
@@ -548,6 +576,17 @@
                 </spawn>
             </simple_race>
             <simple_race race="ASMODIANS">
+                <!-- Asmodians Territory -->
+                <spawn npc_id="801634">
+                    <spot x="1046.2488" y="2248.4668" z="276.5" h="45"/>
+                </spawn>
+                <!-- Territory Boss -->
+                <spawn npc_id="231664" handler="BOSS">
+                    <spot x="1048.5157" y="2242.9324" z="276.5" h="45"/>
+                </spawn>
+                <spawn npc_id="231901" handler="ATTACKER">
+                    <spot x="1048.5157" y="2242.9324" z="276.5" h="45"/>
+                </spawn>
                 <!-- Eor Soul Healer -->
                 <spawn npc_id="800755" respawn_time="180">
                     <spot x="1066.447" y="2249.582" z="276.5" h="58"/>
@@ -576,10 +615,10 @@
                 <spawn npc_id="801048" respawn_time="180">
                     <spot x="1057.0177" y="2246.654" z="276.5" h="60"/>
                 </spawn>
-                <!-- SIEGE
+                <!-- Teleporter Device -->
                 <spawn npc_id="801706" handler="PORTAL">
                     <spot x="1062.8163" y="2243.9741" z="276.5" static_id="2771"/>
-                </spawn> -->
+                </spawn>
                 <!-- GUARD -->
                 <spawn npc_id="232344" handler="GUARD">
                     <spot h="42" z="276.373" y="2254.0322" x="1033.4583"/>
@@ -604,30 +643,27 @@
                     <spot h="58" z="276.5" y="2244.7463" x="1033.2081"/>
                     <spot h="48" z="275.4193" y="2262.6455" x="1029.7313"/>
                 </spawn>
-                <!-- GUARD VILLAGE -->
-                <spawn npc_id="232514" respawn_time="295" handler="GUARD_VILLAGE">
-                    <spot x="711.7379" y="2251.4412" z="290.0164" h="110"/>
-                    <spot x="717.28564" y="2234.338" z="289.77353" h="110"/>
-                    <spot x="727.78735" y="2244.7542" z="289.42212" h="110"/>
-                    <spot x="727.9773" y="2255.2798" z="289.955" h="110"/>
-                </spawn>
-                <spawn npc_id="232515" respawn_time="295" handler="GUARD_VILLAGE">
-                    <spot x="714.69586" y="2243.4773" z="289.75" h="110"/>
-                </spawn>
-                <spawn npc_id="232516" respawn_time="295" handler="GUARD_VILLAGE">
-                    <spot x="719.6244" y="2252.8538" z="289.92834" h="110"/>
-                </spawn>
-                <!-- Asmodians Territory -->
-                <spawn npc_id="801634">
-                    <spot x="1046.2488" y="2248.4668" z="276.5" h="45"/>
-                </spawn>
-                <!-- Territory Boss -->
-                <spawn npc_id="231664" handler="BOSS">
-                    <spot x="1048.5157" y="2242.9324" z="276.5" h="45"/>
-                </spawn>
-                <spawn npc_id="231901" handler="ATTACKER">
-                    <spot x="1048.5157" y="2242.9324" z="276.5" h="45"/>
-                </spawn>
+                <!-- Sub Camp Elyos Spawns -->
+                    <spawn npc_id="232514" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="711.7379" y="2251.4412" z="290.0164" h="110"/>
+                        <spot x="717.28564" y="2234.338" z="289.77353" h="110"/>
+                        <spot x="727.78735" y="2244.7542" z="289.42212" h="110"/>
+                        <spot x="727.9773" y="2255.2798" z="289.955" h="110"/>
+                    </spawn>
+                    <spawn npc_id="232515" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="714.69586" y="2243.4773" z="289.75" h="110"/>
+                    </spawn>
+                    <spawn npc_id="232516" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="719.6244" y="2252.8538" z="289.92834" h="110"/>
+                    </spawn>
+                    <spawn npc_id="233205" respawn_time="295" handler="GUARD_VILLAGE">
+                        <spot x="726.9209" y="2226.0583" z="290.06015" h="115"/>
+                        <spot x="747.55383" y="2252.4866" z="289.78546" h="94"/>
+                        <spot x="772.10205" y="2230.3733" z="291.5891" h="91"/>
+                        <spot x="794.9399" y="2196.0356" z="285.45462" h="85"/>
+                        <spot x="813.37787" y="2248.6326" z="289.1173" h="85"/>
+                    </spawn>
+                <!-- End Sub Camp Elyos Spawns -->
             </simple_race>
             <simple_race race="NPC">
                 <!-- GUARD -->

@@ -66,10 +66,6 @@
                     <spawn npc_id="801361" respawn_time="295">
                         <spot x="1429.0767" y="690.56055" z="144.82904"/>
                     </spawn>
-                    <!-- Teleport Device -->
-                    <spawn npc_id="801706" respawn_time="295">
-                        <spot x="1062.8163" y="2243.9741" z="276.5" static_id="2771"/>
-                    </spawn>
 					<!-- Teleport Device [Battlegroup Encampment To Silona Fortress] -->
 				    <spawn npc_id="801740" respawn_time="295">
 						<spot x="839.96661" y="273.53665" z="465.34393" static_id="2782"/>
@@ -690,10 +686,6 @@
                     </spawn>
                     <spawn npc_id="801369" respawn_time="295">
                         <spot x="1429.076660" y="690.560547" z="144.829041"/>
-                    </spawn>
-                    <!-- Teleport Device -->
-                    <spawn npc_id="801707" respawn_time="295">
-                        <spot x="1062.8163" y="2243.9741" z="276.5" static_id="2771"/>
                     </spawn>
 					<!-- Teleport Device [Beritra's Bane Encampment To Sillona Fortress] -->
 				    <spawn npc_id="801741" respawn_time="295">

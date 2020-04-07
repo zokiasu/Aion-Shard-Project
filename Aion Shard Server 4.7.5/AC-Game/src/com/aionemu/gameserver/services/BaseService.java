@@ -135,7 +135,6 @@ public class BaseService {
 
 	public void broadcastUpdate(final BaseLocation baseLocation) {
 		World.getInstance().getWorldMap(baseLocation.getWorldId()).getMainWorldMapInstance().doOnAllPlayers(new Visitor<Player>() {
-
 			@Override
 			public void visit(Player player) {
 				if (isActive(baseLocation.getId())) {
@@ -154,7 +153,6 @@ public class BaseService {
 	}
 
 	private static class BaseServiceHolder {
-
 		private static final BaseService INSTANCE = new BaseService();
 	}
 

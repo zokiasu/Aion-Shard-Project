@@ -614,24 +614,25 @@
 				<spawn npc_id="801792" respawn_time="180">
 					<spot x="1113.1454" y="513.6146" z="184.75" h="83"/>
 				</spawn>
+
 				<!-- Sub Camp Elyos Spawns -->
-				<!-- Liaison of the 73rd Scout Troop -->
-				<spawn npc_id="233196" respawn_time="180">
-					<spot x="1011.1494" y="498.11725" z="195.84383" h="90"/>
-					<spot x="1022.4934" y="523.7677" z="196.25" h="90"/>
-					<spot x="1023.922" y="500.4382" z="196.95311" h="105"/>
-					<spot x="1028.3223" y="513.0648" z="196.41528" h="75"/>
-					<spot x="1028.6794" y="524.68475" z="196.25" h="90"/>
-				</spawn>
-				<!-- Warrior of the 73rd Scout Troop -->
-				<spawn npc_id="232485" respawn_time="180">
-					<spot x="1011.0626" y="510.69418" z="198.38754" h="90"/>
-					<spot x="1036.8915" y="503.31747" z="197.94678" h="75"/>
-				</spawn>
-				<!-- Searcher of the 73rd Scout Troop -->
-				<spawn npc_id="232486" respawn_time="180">
-					<spot x="1037.2382" y="518.9691" z="196.79376" h="90"/>
-				</spawn>
+					<!-- Liaison of the 73rd Scout Troop -->
+					<spawn npc_id="233196" respawn_time="180">
+						<spot x="1011.1494" y="498.11725" z="195.84383" h="90"/>
+						<spot x="1022.4934" y="523.7677" z="196.25" h="90"/>
+						<spot x="1023.922" y="500.4382" z="196.95311" h="105"/>
+						<spot x="1028.3223" y="513.0648" z="196.41528" h="75"/>
+						<spot x="1028.6794" y="524.68475" z="196.25" h="90"/>
+					</spawn>
+					<!-- Warrior of the 73rd Scout Troop -->
+					<spawn npc_id="232485" respawn_time="180">
+						<spot x="1011.0626" y="510.69418" z="198.38754" h="90"/>
+						<spot x="1036.8915" y="503.31747" z="197.94678" h="75"/>
+					</spawn>
+					<!-- Searcher of the 73rd Scout Troop -->
+					<spawn npc_id="232486" respawn_time="180">
+						<spot x="1037.2382" y="518.9691" z="196.79376" h="90"/>
+					</spawn>
 				<!-- End Sub Camp Elyos Spawns -->
 			</simple_race>
 			<simple_race race="NPC">
