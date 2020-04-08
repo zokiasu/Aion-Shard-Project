@@ -60,14 +60,17 @@ public class ArenaOfHarmonyInstance extends HarmonyTrainingCenterInstance {
                     rankingAP = 4681;
                     rankingCoI = 49;
                     group.setGloryTicket(1);
+                    group.setMithrilMedal(2);
                     break;
                 case 1:
                     rankingAP = 1887;
                     rankingCoI = 20;
+                    group.setplatinumMedal(4);
                     break;
                 case 2:
                     rankingAP = 151;
                     rankingCoI = 1;
+                    group.setplatinumMedal(3);
                     break;
             }
             rankingAP *= percent;

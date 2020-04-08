@@ -104,13 +104,14 @@ public class ArenaOfGloryInstance extends PvPArenaInstance {
                         break;
                     case 1:
                         reward.setGloriousInsignia(1);
-                        reward.setplatinumMedal(3);
+                        reward.setMithrilMedal(3);
                         break;
                     case 2:
-                        reward.setplatinumMedal(3);
+                        reward.setplatinumMedal(2);
                         break;
                     case 3:
                         reward.setLifeSerum(1);
+                        reward.setplatinumMedal(1);
                         break;
                 }
             }

@@ -110,6 +110,9 @@ public class ArenaOfChaosInstance extends ChaosTrainingGroundsInstance {
                 }
                 if (rank < 2) {
                     reward.setGloryTicket(1);
+                    reward.setMithrilMedal(2);
+                } else {
+                    reward.setMithrilMedal(1);
                 }
             }
         }

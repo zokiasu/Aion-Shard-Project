@@ -375,8 +375,7 @@ public class HarmonyArenaInstance extends GeneralInstanceHandler {
         ownerReward.endBoostMoraleEffect(player);
         ownerReward.applyBoostMoraleEffect(player);
         instanceReward.sendPacket(4, player.getObjectId());
-        PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, player.equals(lastAttacker) ? 0
-                : lastAttacker.getObjectId()), true);
+        PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, player.equals(lastAttacker) ? 0 : lastAttacker.getObjectId()), true);
 
         PacketSendUtility.sendPacket(player, new SM_DIE(false, false, 0, 8));
 

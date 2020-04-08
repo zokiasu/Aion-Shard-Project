@@ -469,11 +469,11 @@ public class PvPArenaInstance extends GeneralInstanceHandler {
                 }
                 int mithrilMedal = reward.getMithrilMedal();
                 if (mithrilMedal != 0) {
-                    ItemService.addItem(player, 186000147, mithrilMedal);
+                    ItemService.addItem(player, 186000242, mithrilMedal); //Ceranium
                 }
                 int platinumMedal = reward.getPlatinumMedal();
                 if (platinumMedal != 0) {
-                    ItemService.addItem(player, 186000096, platinumMedal);
+                    ItemService.addItem(player, 186000147, platinumMedal); //Mithril
                 }
                 int gloriousInsignia = reward.getGloriousInsignia();
                 if (gloriousInsignia != 0) {
@@ -481,7 +481,7 @@ public class PvPArenaInstance extends GeneralInstanceHandler {
                 }
                 int lifeSerum = reward.getLifeSerum();
                 if (lifeSerum != 0) {
-                    ItemService.addItem(player, 162000077, lifeSerum);
+                    ItemService.addItem(player, 162000124, lifeSerum); //Superior Recovery Serum
                 }
             }
         }

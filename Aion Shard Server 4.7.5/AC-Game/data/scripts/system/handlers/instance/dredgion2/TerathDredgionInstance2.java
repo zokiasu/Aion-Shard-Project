@@ -81,7 +81,7 @@ public class TerathDredgionInstance2 extends DredgionInstance2 {
 
     private void onDieSurkan(Npc npc, Player mostPlayerDamage, int points) {
         Race race = mostPlayerDamage.getRace();
-        captureRoom(race, 1);
+        captureRoom(race, npc.getNpcId() + 14 - 701454);
         for (Player player : instance.getPlayersInside()) {
             PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1400199, new DescriptionId(race.equals(Race.ASMODIANS) ? 1800483 : 1800481), new DescriptionId(npc.getObjectTemplate().getNameId() * 2 + 1)));
         }
