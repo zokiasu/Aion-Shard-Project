@@ -38,6 +38,7 @@ import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.skillengine.SkillEngine;
 import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.commons.utils.Rnd;
 
 import java.util.ArrayList;
 import java.util.Collections;
