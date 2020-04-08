@@ -317,7 +317,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 TWD1Task.cancel(true);
                 TWD2Task.cancel(true);
                 PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(0, 0));
-                sendMsg("[Congratulation]: you finish <ILLUMINARY OBELISK>");
+                sendMsg("[Congratulation]: you finish <INFERNAL ILLUMINARY OBELISK>");
                 spawn(730905, 255.5597f, 254.49713f, 455.12012f, (byte) 104); //Illuminary Obelisk Exit.
                 break;
         }
@@ -409,9 +409,9 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
      * **************************
      */
     private void startWaveEasternShieldGenerator1() {
-        sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
-        sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
-        sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+        sp(231142, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+        sp(231142, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+        sp(231142, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
     }
 
     /**
@@ -420,9 +420,9 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
      * **************************
      */
     private void startWaveWesternShieldGenerator1() {
-        sp(283809, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
-        sp(283809, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
-        sp(283809, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
+        sp(231142, 258.37912f, 176.03621f, 325.59268f, (byte) 30, 1000, "WesternShieldGenerator1");
+        sp(231142, 255.55922f, 176.17963f, 325.49332f, (byte) 29, 1000, "WesternShieldGenerator2");
+        sp(231142, 252.49738f, 176.27466f, 325.52942f, (byte) 29, 1000, "WesternShieldGenerator3");
     }
 
     /**
@@ -431,9 +431,9 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
      * **************************
      */
     private void startWaveSouthernShieldGenerator1() {
-        sp(283809, 337.93338f, 257.88702f, 292.43845f, (byte) 60, 1000, "SouthernShieldGenerator1");
-        sp(283809, 338.05304f, 254.6424f, 292.3325f, (byte) 60, 1000, "SouthernShieldGenerator2");
-        sp(283809, 338.13315f, 251.34738f, 292.48932f, (byte) 59, 1000, "SouthernShieldGenerator3");
+        sp(231142, 337.93338f, 257.88702f, 292.43845f, (byte) 60, 1000, "SouthernShieldGenerator1");
+        sp(231142, 338.05304f, 254.6424f, 292.3325f, (byte) 60, 1000, "SouthernShieldGenerator2");
+        sp(231142, 338.13315f, 251.34738f, 292.48932f, (byte) 59, 1000, "SouthernShieldGenerator3");
     }
 
     /**
@@ -442,9 +442,9 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
      * **************************
      */
     private void startWaveNorthernShieldGenerator1() {
-        sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
-        sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
-        sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+        sp(231142, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+        sp(231142, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+        sp(231142, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
     }
 
     /**

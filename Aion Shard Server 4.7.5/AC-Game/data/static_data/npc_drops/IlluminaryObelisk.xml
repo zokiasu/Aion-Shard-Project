@@ -25,19 +25,25 @@
             <drop item_id="166000193" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
     </npc_drop>
-    <!-- Remodeled Dynatoum -->
+    <!-- Remodeled Dynatoum (Hero) -->
     <npc_drop npc_id="234686">
         <drop_group name="PLUME">
             <drop item_id="188053295" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="CHEST">
+        <drop_group name="CHEST"> <!-- Dynatoum's Curiosity Box -->
             <drop item_id="188053093" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="CHEST">
+        <drop_group name="CHEST"> <!-- Illuminary Obelisk Supply Chest -->
             <drop item_id="188052823" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="CHEST">
+        <drop_group name="CHEST"> <!-- Illuminary Obelisk Supplies Bundle -->
             <drop item_id="188053094" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group name="TEMPERING_SOLUTION">
+            <drop item_id="166030005" chance="0.5" min_amount="1" max_amount="1"/>
+        </drop_group>
+        <drop_group name="EQUIPMENT">
+            <drop item_id="188052827" chance="0.5" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="WINGS">
             <drop item_id="187000143" chance="0.01" min_amount="1" max_amount="1"/>
@@ -56,25 +62,28 @@
             <drop item_id="152013037" chance="10.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
-    <!-- Test Weapon Dynatoum -->
+    <!-- Test Weapon Dynatoum (Normal) -->
     <npc_drop npc_id="233740">
         <drop_group name="PLUME">
             <drop item_id="188053295" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="CHEST">
+        <drop_group name="CHEST"> <!-- Dynatoum's Curiosity Box -->
             <drop item_id="188053093" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="CHEST">
+        <drop_group name="CHEST"> <!-- Illuminary Obelisk Supply Chest -->
             <drop item_id="188052823" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="CHEST">
+        <drop_group name="CHEST"> <!-- Illuminary Obelisk Supplies Bundle -->
             <drop item_id="188053094" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="TEMPERING_SOLUTION">
-            <drop item_id="166030005" chance="0.01" min_amount="1" max_amount="1"/>
+            <drop item_id="166030005" chance="0.5" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="EQUIPMENT">
             <drop item_id="188052827" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group name="EQUIPMENT">
+            <drop item_id="188052827" chance="0.5" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
         <drop_group name="WINGS">
             <drop item_id="187000129" chance="1.0" min_amount="1" max_amount="1"/>

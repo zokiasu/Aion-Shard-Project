@@ -56,8 +56,9 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 		super.handleAttack(creature);
 		checkPercentage(getLifeStats().getHpPercentage());
 	}
+
 	private void checkPercentage(int hpPercentage) {
-		if (hpPercentage > 95 && percents.size() < 7) {
+		if (hpPercentage > 95 && percents.size() < 4) {
 			addPercent();
 		}
 		for (Integer percent : percents) {
@@ -66,8 +67,19 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 					case 95:
 						skill2();
 						break;
-					case 80:
+					case 90:
+						shout_spawn();
+						spawn_support();
+						break;
+					case 85:
 						shout1();
+						skill3();
+						break;
+					case 80:
+						shout_spawn();
+						spawn_support();
+						break;
+					case 75:
 						skill3();
 						break;
 					case 70:
@@ -77,90 +89,108 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						shout_spawn();
 						spawn_support();
 						break;
+					case 55:
+						shout_spawn();
+						spawn_support2();
+						break;
 					case 51:
 						shout_mass();
 						skill_mass_active();
 						break;
 					case 50:
 						skill_mass_destroy();
-						break; 
+						break;
 					case 49:
 						skill4();
-					  break;
+						break;
 					case 45:
 						skill5();
 						spawn_support();
-					  break;
+						break;
 					case 40:
 						shout2();
 						skill1();
 						skill_mass_active();
-					  break;
+						break;
 					case 39:
 						skill_mass_destroy();
 						skill6();
-					  break;
-					case 30:
+						break;
+					case 35:
 						shout_spawn();
 						spawn_support2();
-						skill2();
-					  break;
-				  case 10:
-					shout_spawn();
-					spawn_support3();
-					skill3();
-							  break;
-				  case 5:
-					shout_died();
-							  break;
-						}
-						percents.remove(percent);
+						skill1();
 						break;
+					case 30:
+						skill2();
+						break;
+					case 15:
+						shout_spawn();
+						spawn_support3();
+						skill6();
+						break;
+					case 10:
+						shout_spawn();
+						spawn_support3();
+						skill3();
+						break;
+					case 5:
+						shout_died();
+						break;
+				}
+				percents.remove(percent);
+				break;
 			}
 		}
 	}
+
 	private void addPercent() {
 		percents.clear();
 		Collections.addAll(percents, new Integer[]{95,80,60,51,50,40,30,10,5});
 	}
-	private void skill1() {
-		VisibleObject target = getTarget();
-		if (target != null && target instanceof Player) {
-			SkillEngine.getInstance().getSkill(getOwner(), 21172, 65, target).useNoAnimationSkill();
-		}
-	}
-	private void skill2() {
-		VisibleObject target = getTarget();
-		if (target != null && target instanceof Player) {
-			SkillEngine.getInstance().getSkill(getOwner(), 21171, 65, target).useNoAnimationSkill();
-		}
-	}
-	private void skill3() {
-		VisibleObject target = getTarget();
-		if (target != null && target instanceof Player) {
-			SkillEngine.getInstance().getSkill(getOwner(), 21742, 65, target).useNoAnimationSkill();
-		}
-	}
-	private void skill4() {
+
+	private void skill1() { //Grendel's Explosive Temper
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
 			SkillEngine.getInstance().getSkill(getOwner(), 21172, 65, target).useNoAnimationSkill();
 		}
 	}
 
-	private void skill5() {
+	private void skill2() { //Grendel's Explosive Wrath
+		VisibleObject target = getTarget();
+		if (target != null && target instanceof Player) {
+			SkillEngine.getInstance().getSkill(getOwner(), 21171, 65, target).useNoAnimationSkill();
+		}
+	}
+
+	private void skill3() { //Subzero Malice (Aoe Dégât)
+		VisibleObject target = getTarget();
+		if (target != null && target instanceof Player) {
+			SkillEngine.getInstance().getSkill(getOwner(), 21742, 65, target).useNoAnimationSkill();
+		}
+	}
+
+	private void skill4() { //Grendal's Explosive Temper (Stun)
+		VisibleObject target = getTarget();
+		if (target != null && target instanceof Player) {
+			SkillEngine.getInstance().getSkill(getOwner(), 21172, 65, target).useNoAnimationSkill();
+		}
+	}
+
+	private void skill5() { //Dance Off I (Fear AoE Pingouin)
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
 			SkillEngine.getInstance().getSkill(getOwner(), 3246, 65, target).useNoAnimationSkill();
 		}
 	}
 
-	private void skill6() {
+	private void skill6() { //Ginseng I (Fear Monocible)
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
 			SkillEngine.getInstance().getSkill(getOwner(), 2319, 65, target).useNoAnimationSkill();
 		}
 	}
+
 	private void skill_mass_active() {
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {

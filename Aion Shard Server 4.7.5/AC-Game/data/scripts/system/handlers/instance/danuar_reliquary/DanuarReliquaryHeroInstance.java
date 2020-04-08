@@ -29,7 +29,6 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 	@Override
 	public void onEnterInstance(Player player) {
 		super.onInstanceCreate(instance);
-		spawn(284375, 255.57027f, 293.0893f, 253.79536f, (byte) 90); 	//Spawn Cursed Queen Modor - Construct
 		spawn(284447, 256.5698f, 257.8559f, 241.9354f, (byte) 0); 		//Spawn Damage Circle - Invisible (Blue Water)
 		skillId = 8698;
 		if(player.getLastMapId() == 600100000) {

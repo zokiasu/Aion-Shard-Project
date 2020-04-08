@@ -125,7 +125,6 @@ public class SauroSupplyBaseInstance extends GeneralInstanceHandler {
                 break;
             case 230858: // Brigadian General Sheba , 2 key boss
                 spawn(801967, 886.4798f, 876.16693f, 411.45676f, (byte) 15); // exit portal
-                spawn(702659, 897.20306f, 886.9926f, 411.57693f, (byte) 15); // Noble Abbey Box
                 break;
         }
     }

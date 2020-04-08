@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_drops>
+    <!-- Hypérion -->
+    <npc_drop npc_id="231073">
+        <drop_group use_category="true" name="CHEST_HYPERION" race="PC_ALL">
+            <drop item_id="188052387" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CHEST_HYPERION" race="PC_ALL">
+            <drop item_id="188052387" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CHEST_HYPERION_2" race="PC_ALL">
+            <drop item_id="188052501" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+            <drop item_id="166030005" chance="0.5" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+    </npc_drop>
+</npc_drops>

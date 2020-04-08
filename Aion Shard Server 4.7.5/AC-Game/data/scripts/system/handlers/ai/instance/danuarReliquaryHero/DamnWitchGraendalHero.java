@@ -42,8 +42,17 @@ public class DamnWitchGraendalHero extends AggressiveNpcAI2 {
 					case 95:
 						skill1();
 						break;
+					case 90:
+						shout_spawn();
+						spawn_support();
+						break;
+					case 85:
+						skill2();
+						break;
 					case 80:
 						skill2();
+						shout_spawn();
+						spawn_support();
 						break;
 					case 75:
 						shout2();
@@ -51,8 +60,16 @@ public class DamnWitchGraendalHero extends AggressiveNpcAI2 {
 						break;
 					case 70:
 						skill4();
+						shout_spawn();
+						spawn_support();
 						break;
-					case 63:
+					case 65:
+						skill5();
+						break;
+					case 65:
+						skill3();
+						break;
+					case 60:
 						shout_spawn();
 						spawn_support();
 						degeneration_skill();
@@ -95,6 +112,13 @@ public class DamnWitchGraendalHero extends AggressiveNpcAI2 {
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
 			SkillEngine.getInstance().getSkill(getOwner(), 3246, 65, target).useNoAnimationSkill();
+		}
+	}
+
+	private void skill5() {
+		VisibleObject target = getTarget();
+		if (target != null && target instanceof Player) {
+			SkillEngine.getInstance().getSkill(getOwner(), 2336, 65, target).useNoAnimationSkill();
 		}
 	}
 
