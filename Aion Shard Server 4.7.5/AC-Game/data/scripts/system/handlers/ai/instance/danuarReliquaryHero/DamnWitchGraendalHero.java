@@ -66,7 +66,7 @@ public class DamnWitchGraendalHero extends AggressiveNpcAI2 {
 					case 65:
 						skill5();
 						break;
-					case 65:
+					case 61:
 						skill3();
 						break;
 					case 60:
