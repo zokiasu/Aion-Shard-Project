@@ -204,38 +204,46 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 			SkillEngine.getInstance().getSkill(getOwner(), 21740, 65, target).useNoAnimationSkill();
 		}
 	}
+
 	private void shout1() {
 		NpcShoutsService.getInstance().sendMsg(getOwner(), 1500740, getObjectId(), 0, 1000);
 	}
+
 	private void shout2() {
 		NpcShoutsService.getInstance().sendMsg(getOwner(), 1500745, getObjectId(), 0, 1000);
 	}
+
 	private void shout_mass() {
 		NpcShoutsService.getInstance().sendMsg(getOwner(), 1500748, getObjectId(), 0, 1000);
 	}
+
 	private void shout_spawn() {
 		NpcShoutsService.getInstance().sendMsg(getOwner(), 1500750, getObjectId(), 0, 1000);
 	}
+
 	private void shout_died() {
 		NpcShoutsService.getInstance().sendMsg(getOwner(), 1500751, getObjectId(), 0, 0);
 		NpcShoutsService.getInstance().sendMsg(getOwner(), 1500752, getObjectId(), 0, 8000);
 	}
-  private void spawn_support() {
- 		spawn(284659, 264.5786f, 249.9355f, 241.8923f, (byte) 45);
- 		spawn(284660, 248.6734f, 265.8675f, 241.8990f, (byte) 106);
- 	}
-  private void spawn_support2() {
- 		spawn(284661, 264.6672f, 265.9347f, 241.8658f, (byte) 90);
- 		spawn(284662, 248.3278f, 249.7112f, 241.8719f, (byte) 16);
- 		spawn(284663, 266.71f, 252.84f, 241.8658f, (byte) 45);
- 	}
-  private void spawn_support3() {
+
+	private void spawn_support() {
+		spawn(284659, 264.5786f, 249.9355f, 241.8923f, (byte) 45);
+		spawn(284660, 248.6734f, 265.8675f, 241.8990f, (byte) 106);
+	}
+
+	private void spawn_support2() {
+		spawn(284661, 264.6672f, 265.9347f, 241.8658f, (byte) 90);
+		spawn(284662, 248.3278f, 249.7112f, 241.8719f, (byte) 16);
+		spawn(284663, 266.71f, 252.84f, 241.8658f, (byte) 45);
+	}
+
+	private void spawn_support3() {
 		spawn(284660, 264.5786f, 249.9355f, 241.8923f, (byte) 45);
- 		spawn(284661, 264.6672f, 265.9347f, 241.8658f, (byte) 90);
- 		spawn(284662, 266.71f, 252.84f, 241.8658f, (byte) 45);
- 		spawn(284663, 248.3278f, 249.7112f, 241.8719f, (byte) 16);
+		spawn(284661, 264.6672f, 265.9347f, 241.8658f, (byte) 90);
+		spawn(284662, 266.71f, 252.84f, 241.8658f, (byte) 45);
+		spawn(284663, 248.3278f, 249.7112f, 241.8719f, (byte) 16);
 		spawn(284664, 248.77f, 261.9f, 241.8719f, (byte) 0);
- 	}
+	}
 	@Override
 	protected void handleDespawned() {
 		percents.clear();

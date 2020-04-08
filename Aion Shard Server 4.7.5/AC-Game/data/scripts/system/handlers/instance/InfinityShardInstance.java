@@ -71,7 +71,6 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
 	private boolean isDone4;
     private int skillId;
 
-
     @Override
     public void onEnterInstance(Player player) {
         super.onInstanceCreate(instance);
@@ -86,14 +85,6 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
         super.onInstanceCreate(instance);
         Npc hyperion = instance.getNpc(231073);
         SkillEngine.getInstance().getSkill(hyperion, 21254, 60, hyperion).useNoAnimationSkill();
-        Npc idegenerator1 = instance.getNpc(231074);
-        SkillEngine.getInstance().getSkill(idegenerator1, 21371, 60, idegenerator1).useNoAnimationSkill();
-        Npc idegenerator2 = instance.getNpc(231078);
-        SkillEngine.getInstance().getSkill(idegenerator2, 21371, 60, idegenerator2).useNoAnimationSkill();
-        Npc idegenerator3 = instance.getNpc(231082);
-        SkillEngine.getInstance().getSkill(idegenerator3, 21371, 60, idegenerator3).useNoAnimationSkill();
-        Npc idegenerator4 = instance.getNpc(231086);
-        SkillEngine.getInstance().getSkill(idegenerator4, 21371, 60, idegenerator4).useNoAnimationSkill();
     }
 
     @Override
@@ -131,50 +122,20 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
             case 231073:
                 spawn(730842, 124.669853f, 137.840668f, 113.942917f, (byte) 0);
                 cancelResonatorTask();
-                despawnNpc(231092);
-                despawnNpc(231093);
-                despawnNpc(231094);
-                despawnNpc(231095);
-                break;
-            case 231087:
-            case 231088:
-            case 231089:
-                isDeadGenerator1();
                 break;
             case 231075:
             case 231076:
             case 231077:
-                isDeadGenerator2();
-                break;
-            case 231083:
-            case 231084:
-            case 231085:
-                isDeadGenerator3();
-                break;
             case 231079:
             case 231080:
             case 231081:
-                isDeadGenerator4();
-                break;
-            case 231092:
-                if (!(hyperion.getAi2().getState() == (AIState.IDLE)) || !(hyperion.getAi2().getState() == (AIState.DIED)) || !(hyperion.getAi2().getState() == (AIState.DESPAWNED))) {
-                    resonatorSpawn(npc.getNpcId(), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading());
-				}
-				break;
-            case 231093:
-                if (!(hyperion.getAi2().getState() == (AIState.IDLE)) || !(hyperion.getAi2().getState() == (AIState.DIED)) || !(hyperion.getAi2().getState() == (AIState.DESPAWNED))) {
-                    resonatorSpawn(npc.getNpcId(), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading());
-				}
-                break;
-            case 231094:
-                 if (!(hyperion.getAi2().getState() == (AIState.IDLE)) || !(hyperion.getAi2().getState() == (AIState.DIED)) || !(hyperion.getAi2().getState() == (AIState.DESPAWNED))) {
-                    resonatorSpawn(npc.getNpcId(), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading());
-				}
-                break;
-            case 231095:
-				 if (!(hyperion.getAi2().getState() == (AIState.IDLE)) || !(hyperion.getAi2().getState() == (AIState.DIED)) || !(hyperion.getAi2().getState() == (AIState.DESPAWNED))) {
-                    resonatorSpawn(npc.getNpcId(), npc.getX(), npc.getY(), npc.getZ(), npc.getHeading());
-				}
+            case 231083:
+            case 231084:
+            case 231085:
+            case 231087:
+            case 231088:
+            case 231089:
+                npc.getController().onDelete();
                 break;
         }
     }
@@ -267,107 +228,6 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
                 spawn(730842, 129.46301f, 137.99736f, 112.17429f, (byte) 54);
             }
         }, 5000);
-    }
-
-    private void spawnResonators() {
-        resonator = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
-            @Override
-            public void run() {
-				if (getNpc(231092) != null) {
-				startSkillTask((Npc) getNpc(231092), 21258, 1401791);
-				}
-				resonator = ThreadPoolManager.getInstance().schedule(new Runnable() {
-                    @Override
-                    public void run() {
-						if (getNpc(231093) != null) {
-						startSkillTask((Npc) getNpc(231093), 21382, 1401792);
-						}
-						resonator = ThreadPoolManager.getInstance().schedule(new Runnable() {
-                            @Override
-                            public void run() {
-								if (getNpc(231094) != null) {
-                                startSkillTask((Npc) getNpc(231094), 21384, 1401793);
-								}
-									resonator = ThreadPoolManager.getInstance().schedule(new Runnable() {
-										@Override
-										public void run() {
-											if (getNpc(231095) != null) {
-											startSkillTask((Npc) getNpc(231095), 21416, 1401794);
-											}
-										}
-                                }, 40 * 1000);
-                            }
-                        }, 40 * 1000);
-                    }
-                }, 40 * 1000);
-            }
-        }, 40 * 1000, 40 * 1000);
-    }
-
-    private void resonatorSpawn(final int npcId, final float x, final float y, final float z, final float h) {
-        cancelskillTask(npcId);
-        ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                spawn(npcId, x, y, z, (byte) h);
-            }
-        }, 40 * 1000);
-    }
-
-    private boolean isDeadGenerator1() {
-        Npc Generator1 = getNpc(231087);
-        Npc Generator2 = getNpc(231088);
-        Npc Generator3 = getNpc(231089);
-        if (isDead(Generator1) && isDead(Generator2) && isDead(Generator3)) {
-            Npc idegenerator1 = getNpc(231074);
-            if (idegenerator1 != null) {
-                idegenerator1.getEffectController().removeEffect(21371);
-            }
-            return true;
-        }
-        return false;
-    }
-
-    private boolean isDeadGenerator2() {
-        Npc Generator4 = getNpc(231075);
-        Npc Generator5 = getNpc(231076);
-        Npc Generator6 = getNpc(231077);
-        if (isDead(Generator4) && isDead(Generator5) && isDead(Generator6)) {
-            Npc idegenerator2 = getNpc(231078);
-            if (idegenerator2 != null) {
-                idegenerator2.getEffectController().removeEffect(21371);
-            }
-            return true;
-        }
-        return false;
-    }
-
-    private boolean isDeadGenerator3() {
-        Npc Generator7 = getNpc(231083);
-        Npc Generator8 = getNpc(231084);
-        Npc Generator9 = getNpc(231085);
-        if (isDead(Generator7) && isDead(Generator8) && isDead(Generator9)) {
-            Npc idegenerator3 = getNpc(231082);
-            if (idegenerator3 != null) {
-                idegenerator3.getEffectController().removeEffect(21371);
-            }
-            return true;
-        }
-        return false;
-    }
-
-    private boolean isDeadGenerator4() {
-        Npc Generator10 = getNpc(231079);
-        Npc Generator11 = getNpc(231080);
-        Npc Generator12 = getNpc(231081);
-        if (isDead(Generator10) && isDead(Generator11) && isDead(Generator12)) {
-            Npc idegenerator4 = getNpc(231086);
-            if (idegenerator4 != null) {
-                idegenerator4.getEffectController().removeEffect(21371);
-            }
-            return true;
-        }
-        return false;
     }
 
     private void removeProtection() {

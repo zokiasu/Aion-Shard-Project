@@ -87,7 +87,6 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                         spawnHyperionNormal1();
                         break;
                     case 52:
-                        AI2Actions.useSkill(this, 21253);
                         spawnHyperionNormal();
                         break;
                     case 50:
@@ -102,7 +101,6 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                         AI2Actions.useSkill(this, 21244);
                         break;
                     case 35:
-                        AI2Actions.useSkill(this, 21253);
                         spawnHyperionNormal();
                         break;
                     case 30:
@@ -113,10 +111,10 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                     case 25:
                         AI2Actions.useSkill(this, 21244);
                         spawnHyperionHard();
+                        spawnHyperionNormal();
                         break;
                     case 20:
-                        AI2Actions.useSkill(this, 21253);
-                        spawnHyperionNormal();
+                        spawnHyperionHard();
                         break;
                     case 10:
                         AI2Actions.useSkill(this, 21246);
@@ -124,6 +122,7 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                         break;
                     case 5:
                         AI2Actions.useSkill(this, 21249);
+                        spawnHyperionHard();
                         break;
                     case 2:
                         AI2Actions.useSkill(this, 21249);
