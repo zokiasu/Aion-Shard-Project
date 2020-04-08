@@ -267,16 +267,16 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
             /****************************
              * Eastern Shield Generator *
              ****************************/
-            case 283809:
-            case 283811:
+            case 283815:
                 despawnNpc(npc);
                 if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
                     spawncheckE();
                 }
                 break;
+            case 283809:
             case 283812:
             case 283814:
-            case 283815:
+            case 283811:
                 despawnNpc(npc);
                 break;
             /****************************
@@ -294,9 +294,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
              *****************************/
             case 283816:
                 despawnNpc(npc);
-                if (getNpcs(283816).isEmpty() && getNpcs(283811).isEmpty()) {
-                    spawncheckS();
-                }
+                spawncheckS();
                 break;
 
             /*****************************
@@ -304,9 +302,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
              *****************************/
             case 283810:
                 despawnNpc(npc);
-                if (getNpcs(283811).isEmpty() && getNpcs(283810).isEmpty()) {
-                    spawncheckN();
-                }
+                spawncheckN();
                 break;
 
             /**
@@ -411,7 +407,8 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
     private void startWaveEasternShieldGenerator1() {
         sp(231142, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
         sp(231142, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
-        sp(231142, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+        sp(231142, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 3000, "EasternShieldGenerator2");
+        sp(231142, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
     }
 
     /**
