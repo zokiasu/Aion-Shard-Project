@@ -64,7 +64,7 @@ public class PashidAssaultPodAI2 extends NpcAI2 {
                     spawn_assault();
                 }
             }
-        }, 10000, 120000);
+        }, 1000, 120000);
     }
 
     private void spawn_assault() {

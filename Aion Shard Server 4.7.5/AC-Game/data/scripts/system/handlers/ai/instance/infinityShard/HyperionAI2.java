@@ -76,12 +76,18 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                     case 80:
                         AI2Actions.useSkill(this, 21245);
                         spawnHyperionEasy();
+                        spawnAssaultPod();
                         break;
                     case 75:
                         spawnHyperionNormal1();
                         break;
+                    case 70:
+                        spawnHyperionNormal1();
+                        spawnAssaultPod();
+                        break;
                     case 60:
                         spawnHyperionNormal1();
+                        spawnAssaultPod();
                         break;
                     case 55:
                         spawnHyperionNormal1();
@@ -92,6 +98,7 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                     case 50:
                         AI2Actions.useSkill(this, 21244);
                         spawnHyperionHard();
+                        spawnAssaultPod();
                         break;
                     case 47:
                         AI2Actions.useSkill(this, 21245);
@@ -99,6 +106,8 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                         break;
                     case 40:
                         AI2Actions.useSkill(this, 21244);
+                        spawnHyperionNormal();
+                        spawnAssaultPod();
                         break;
                     case 35:
                         spawnHyperionNormal();
@@ -107,6 +116,7 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                         cancelEnergyTask();
                         AI2Actions.useSkill(this, 21248);
                         spawnHyperionHard();
+                        spawnAssaultPod();
                         break;
                     case 25:
                         AI2Actions.useSkill(this, 21244);
@@ -115,10 +125,12 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                         break;
                     case 20:
                         spawnHyperionHard();
+                        spawnAssaultPod();
                         break;
                     case 10:
                         AI2Actions.useSkill(this, 21246);
                         spawnHyperionNormal();
+                        spawnAssaultPod();
                         break;
                     case 5:
                         AI2Actions.useSkill(this, 21249);
@@ -170,6 +182,27 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
         spawn(233298, 110.090965f, 128.28905f, 124.15179f, (byte) 43);
+    }
+
+    private void spawnAssaultPod() {
+        int rnd = Rnd.get(1, 8);
+        switch (rnd) {
+            case 1:
+                spawn(284070, 136.94958f, 133.78249f, 112.12359f, (byte) 74);
+                break;
+            case 2:
+                spawn(284070, 121.06398f, 133.20741f, 112.12359f, (byte) 52);
+                break;
+            case 3:
+                spawn(284070, 124.02135f, 146.44595f, 112.12359f, (byte) 99);
+                break;
+            case 4:
+                spawn(284070, 107.20429f, 140.68904f, 112.12359f, (byte) 71);
+                break;
+            case 5:
+                spawn(284070, 151.51714f, 135.24718f, 112.12359f, (byte) 114);
+                break;
+        }
     }
 
     private void addPercent() {
