@@ -114,7 +114,7 @@ public class SkillTemplate {
     @XmlAttribute(name = "pvp_duration")
     protected int pvpDuration;
     @XmlAttribute(name = "chain_skill_prob")
-    protected int chainSkillProb = 100;
+    protected int chainSkillProb = 20;
     @XmlAttribute(name = "cancel_rate")
     protected int cancelRate;
     @XmlAttribute(name = "stance")

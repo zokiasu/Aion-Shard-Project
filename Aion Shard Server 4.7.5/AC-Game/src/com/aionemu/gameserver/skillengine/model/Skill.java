@@ -696,6 +696,8 @@ public class Skill {
         // Check Chain Skill Trigger Rate
         if (CustomConfig.SKILL_CHAIN_TRIGGERRATE) {
             int chainProb = skillTemplate.getChainSkillProb();
+            log.warn("chainCategory: " + chainCategory);
+            log.warn("blockedChain: " + blockedChain);
             if (this.chainCategory != null && !blockedChain) {
                 this.chainSuccess = Rnd.get(90) < chainProb;
             }
