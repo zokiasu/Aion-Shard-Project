@@ -240,7 +240,6 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
             despawnNpc(284437);
             hyperion.getEffectController().removeEffect(21254);
             getRandomTarget(hyperion);
-            spawnResonators();
             NpcShoutsService.getInstance().sendMsg(instance, 1401790, 0, false, 25, 0);
         }
     }
