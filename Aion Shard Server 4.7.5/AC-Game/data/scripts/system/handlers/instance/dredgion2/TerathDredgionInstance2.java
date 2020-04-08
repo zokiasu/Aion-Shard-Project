@@ -48,7 +48,6 @@ public class TerathDredgionInstance2 extends DredgionInstance2 {
 
     @Override
     public void onEnterInstance(Player player) {
-        super.onEnterInstance(player);
         if (isInstanceStarted.compareAndSet(false, true)) {
             sp(730558, 415.034f, 174.004f, 433.940f, (byte) 0, 34, 720000);
             sp(730559, 572.038f, 185.252f, 433.940f, (byte) 0, 10, 720000);
@@ -77,6 +76,7 @@ public class TerathDredgionInstance2 extends DredgionInstance2 {
             sp(219270, 484.664f, 314.207f, 403.715f, (byte) 30, spawnTime);
             startInstanceTask();
         }
+        super.onEnterInstance(player);
     }
 
     private void onDieSurkan(Npc npc, Player mostPlayerDamage, int points) {
