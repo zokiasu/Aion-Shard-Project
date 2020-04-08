@@ -52,7 +52,7 @@ import java.util.regex.Pattern;
 public class cmd_reskin2 extends PlayerCommand {
 
     public cmd_reskin2() {
-        super("reskinvip");
+        super("reskin");
     }
 
     @Override
@@ -202,6 +202,6 @@ public class cmd_reskin2 extends PlayerCommand {
 
     @Override
     public void onFail(Player admin, String message) {
-        PacketSendUtility.sendMessage(admin, "syntax //reskinvip <Link@ | Old Item ID> <Link@ | New Item ID>");
+        PacketSendUtility.sendMessage(admin, "syntax //reskin <Link@ | Old Item ID> <Link@ | New Item ID>");
     }
 }
