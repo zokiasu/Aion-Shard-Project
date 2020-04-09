@@ -104,7 +104,7 @@ public class DamnWitchGraendal2Hero extends AggressiveNpcAI2 {
 
     private void addPercent() {
         percents.clear();
-        Collections.addAll(percents, new Integer[]{60, 57, 54, 50});
+        Collections.addAll(percents, new Integer[]{60, 58, 55, 53, 50});
     }
 
     private void skill2() {

@@ -865,24 +865,24 @@
 	<skill minLevel="16" race="PC_ALL" autolearn="true" name="Shield Bash I" skillLevel="7" skillId="441" classId="TEMPLAR" />
 	<skill minLevel="17" race="PC_ALL" autolearn="true" name="Shield Bash I" skillLevel="8" skillId="441" classId="TEMPLAR" />
 	<skill minLevel="18" race="PC_ALL" autolearn="true" name="Shield Bash I" skillLevel="9" skillId="441" classId="TEMPLAR" />
-	<skill minLevel="10" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="1" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="11" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="2" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="12" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="3" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="13" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="4" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="14" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="5" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="15" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="6" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="16" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="7" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="17" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="8" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="18" race="ELYOS" autolearn="true" name="Divine Chastisement I" skillLevel="9" skillId="500" classId="TEMPLAR" />
-	<skill minLevel="10" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="1" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="11" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="2" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="12" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="3" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="13" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="4" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="14" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="5" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="15" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="6" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="16" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="7" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="17" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="8" skillId="520" classId="TEMPLAR" />
-	<skill minLevel="18" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness I" skillLevel="9" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="10" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="1" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="11" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="2" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="12" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="3" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="13" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="4" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="14" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="5" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="15" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="6" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="16" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="7" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="17" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="8" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="18" race="ELYOS" autolearn="false" name="Divine Chastisement I" skillLevel="9" skillId="500" classId="TEMPLAR" />
+	<skill minLevel="10" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="1" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="11" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="2" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="12" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="3" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="13" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="4" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="14" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="5" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="15" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="6" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="16" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="7" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="17" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="8" skillId="520" classId="TEMPLAR" />
+	<skill minLevel="18" race="PC_ALL" autolearn="true" name="Chastisement of Darkness I" skillLevel="9" skillId="520" classId="TEMPLAR" />
 	<skill minLevel="13" race="PC_ALL" autolearn="true" name="Robust Blow II" skillLevel="1" skillId="166" classId="TEMPLAR" />
 	<skill minLevel="14" race="PC_ALL" autolearn="true" name="Robust Blow II" skillLevel="2" skillId="166" classId="TEMPLAR" />
 	<skill minLevel="15" race="PC_ALL" autolearn="true" name="Robust Blow II" skillLevel="3" skillId="166" classId="TEMPLAR" />
@@ -985,24 +985,24 @@
 	<skill minLevel="28" race="PC_ALL" autolearn="true" name="Shield Bash II" skillLevel="7" skillId="442" classId="TEMPLAR" />
 	<skill minLevel="29" race="PC_ALL" autolearn="true" name="Shield Bash II" skillLevel="8" skillId="442" classId="TEMPLAR" />
 	<skill minLevel="30" race="PC_ALL" autolearn="true" name="Shield Bash II" skillLevel="9" skillId="442" classId="TEMPLAR" />
-	<skill minLevel="22" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="1" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="23" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="2" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="24" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="3" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="25" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="4" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="26" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="5" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="27" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="6" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="28" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="7" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="29" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="8" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="30" race="ELYOS" autolearn="true" name="Divine Chastisement II" skillLevel="9" skillId="501" classId="TEMPLAR" />
-	<skill minLevel="22" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="1" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="23" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="2" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="24" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="3" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="25" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="4" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="26" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="5" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="27" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="6" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="28" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="7" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="29" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="8" skillId="521" classId="TEMPLAR" />
-	<skill minLevel="30" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness II" skillLevel="9" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="22" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="1" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="23" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="2" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="24" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="3" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="25" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="4" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="26" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="5" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="27" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="6" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="28" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="7" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="29" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="8" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="30" race="ELYOS" autolearn="false" name="Divine Chastisement II" skillLevel="9" skillId="501" classId="TEMPLAR" />
+	<skill minLevel="22" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="1" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="23" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="2" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="24" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="3" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="25" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="4" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="26" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="5" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="27" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="6" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="28" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="7" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="29" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="8" skillId="521" classId="TEMPLAR" />
+	<skill minLevel="30" race="PC_ALL" autolearn="true" name="Chastisement of Darkness II" skillLevel="9" skillId="521" classId="TEMPLAR" />
 	<skill minLevel="22" race="PC_ALL" autolearn="true" name="Avenging Blow I" skillLevel="1" skillId="403" classId="TEMPLAR" />
 	<skill minLevel="23" race="PC_ALL" autolearn="true" name="Avenging Blow I" skillLevel="2" skillId="403" classId="TEMPLAR" />
 	<skill minLevel="24" race="PC_ALL" autolearn="true" name="Avenging Blow I" skillLevel="3" skillId="403" classId="TEMPLAR" />
@@ -1147,15 +1147,15 @@
 	<skill minLevel="40" race="PC_ALL" autolearn="true" name="Shield Bash III" skillLevel="7" skillId="443" classId="TEMPLAR" />
 	<skill minLevel="41" race="PC_ALL" autolearn="true" name="Shield Bash III" skillLevel="8" skillId="443" classId="TEMPLAR" />
 	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Shield Bash III" skillLevel="9" skillId="443" classId="TEMPLAR" />
-	<skill minLevel="34" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="1" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="35" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="2" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="36" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="3" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="37" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="4" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="38" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="5" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="39" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="6" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="40" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="7" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="41" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="8" skillId="502" classId="TEMPLAR" />
-	<skill minLevel="42" race="ELYOS" autolearn="true" name="Divine Chastisement III" skillLevel="9" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="34" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="1" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="35" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="2" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="36" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="3" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="37" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="4" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="38" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="5" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="39" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="6" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="40" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="7" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="41" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="8" skillId="502" classId="TEMPLAR" />
+	<skill minLevel="42" race="ELYOS" autolearn="false" name="Divine Chastisement III" skillLevel="9" skillId="502" classId="TEMPLAR" />
 	<skill minLevel="34" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness III" skillLevel="1" skillId="522" classId="TEMPLAR" />
 	<skill minLevel="35" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness III" skillLevel="2" skillId="522" classId="TEMPLAR" />
 	<skill minLevel="36" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness III" skillLevel="3" skillId="522" classId="TEMPLAR" />
@@ -1351,15 +1351,15 @@
 	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Shield Bash IV" skillLevel="7" skillId="465" classId="TEMPLAR" />
 	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Shield Bash IV" skillLevel="8" skillId="465" classId="TEMPLAR" />
 	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Shield Bash IV" skillLevel="9" skillId="465" classId="TEMPLAR" />
-	<skill minLevel="45" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="1" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="46" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="2" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="47" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="3" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="48" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="4" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="49" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="5" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="50" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="6" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="51" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="7" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="52" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="8" skillId="532" classId="TEMPLAR" />
-	<skill minLevel="53" race="ELYOS" autolearn="true" name="Divine Chastisement IV" skillLevel="9" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="45" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="1" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="46" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="2" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="47" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="3" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="48" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="4" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="49" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="5" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="50" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="6" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="51" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="7" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="52" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="8" skillId="532" classId="TEMPLAR" />
+	<skill minLevel="53" race="ELYOS" autolearn="false" name="Divine Chastisement IV" skillLevel="9" skillId="532" classId="TEMPLAR" />
 	<skill minLevel="45" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness IV" skillLevel="1" skillId="533" classId="TEMPLAR" />
 	<skill minLevel="46" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness IV" skillLevel="2" skillId="533" classId="TEMPLAR" />
 	<skill minLevel="47" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness IV" skillLevel="3" skillId="533" classId="TEMPLAR" />
@@ -2879,7 +2879,7 @@
 	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Calming Whisper III" skillLevel="8" skillId="859" classId="ASSASSIN" />
 	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Calming Whisper III" skillLevel="9" skillId="859" classId="ASSASSIN" />
 	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Spelldodging I" skillLevel="1" skillId="926" classId="ASSASSIN" />
-	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Shadow Rage I" skillLevel="1" skillId="927" classId="ASSASSIN" />
+	<skill minLevel="42" race="ASMODIANS" autolearn="false" name="Shadow Rage I" skillLevel="1" skillId="927" classId="ASSASSIN" />
 	<skill minLevel="43" race="PC_ALL" stigma="true" name="Ambush IV" skillLevel="1" skillId="928" classId="ASSASSIN" />
 	<skill minLevel="43" race="PC_ALL" autolearn="true" name="Assassination II" skillLevel="1" skillId="871" classId="ASSASSIN" />
 	<skill minLevel="44" race="PC_ALL" autolearn="true" name="Assassination II" skillLevel="2" skillId="871" classId="ASSASSIN" />
@@ -3057,15 +3057,15 @@
 	<skill minLevel="56" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="7" skillId="940" classId="ASSASSIN" />
 	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="8" skillId="940" classId="ASSASSIN" />
 	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="9" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="1" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="2" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="3" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="4" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="54" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="5" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="55" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="6" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="56" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="7" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="8" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="9" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="50" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="1" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="51" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="2" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="52" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="3" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="53" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="4" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="54" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="5" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="55" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="6" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="56" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="7" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="57" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="8" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="58" race="ASMODIANS" autolearn="false" name="Darkness Rune I" skillLevel="9" skillId="941" classId="ASSASSIN" />
 	<skill minLevel="50" race="ELYOS" autolearn="true" name="Vaizel's Dirk I" skillLevel="1" skillId="942" classId="ASSASSIN" />
 	<skill minLevel="51" race="ELYOS" autolearn="true" name="Vaizel's Dirk I" skillLevel="2" skillId="942" classId="ASSASSIN" />
 	<skill minLevel="52" race="ELYOS" autolearn="true" name="Vaizel's Dirk I" skillLevel="3" skillId="942" classId="ASSASSIN" />
@@ -7236,8 +7236,8 @@
 	<skill minLevel="10" race="ASMODIANS" name="Transformation: Krall II" skillLevel="1" skillId="2313" classId="RANGER" />
 	<skill minLevel="10" race="ASMODIANS" name="Transformation: Krall III" skillLevel="1" skillId="2314" classId="RANGER" />
 	<skill minLevel="10" race="ASMODIANS" name="Transformation: Krall IV" skillLevel="1" skillId="2315" classId="RANGER" />
-	<skill minLevel="10" race="PC_ALL" name="Sleep: Frightcorn I" skillLevel="1" skillId="2317" classId="SORCERER" />
-	<skill minLevel="28" race="PC_ALL" name="Fear: Poppy I" skillLevel="1" skillId="2318" classId="SPIRIT_MASTER" />
+	<skill minLevel="10" race="PC_ALL" autolearn="true" name="Sleep: Frightcorn I" skillLevel="1" skillId="2317" classId="SORCERER" />
+	<skill minLevel="28" race="PC_ALL" autolearn="true" name="Fear: Poppy I" skillLevel="1" skillId="2318" classId="SPIRIT_MASTER" />
 	<skill minLevel="16" race="ELYOS" name="Summon Divine Mirror I" skillLevel="1" skillId="2320" classId="CLERIC" />
 	<skill minLevel="17" race="ELYOS" name="Summon Divine Mirror I" skillLevel="2" skillId="2320" classId="CLERIC" />
 	<skill minLevel="18" race="ELYOS" name="Summon Divine Mirror I" skillLevel="3" skillId="2320" classId="CLERIC" />
@@ -7741,15 +7741,15 @@
 	<skill minLevel="63" race="PC_ALL" autolearn="true" name="Shield Bash V" skillLevel="7" skillId="2452" classId="TEMPLAR" />
 	<skill minLevel="64" race="PC_ALL" autolearn="true" name="Shield Bash V" skillLevel="8" skillId="2452" classId="TEMPLAR" />
 	<skill minLevel="65" race="PC_ALL" autolearn="true" name="Shield Bash V" skillLevel="9" skillId="2452" classId="TEMPLAR" />
-	<skill minLevel="57" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="1" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="58" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="2" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="59" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="3" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="60" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="4" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="61" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="5" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="62" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="6" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="63" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="7" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="64" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="8" skillId="2453" classId="TEMPLAR" />
-	<skill minLevel="65" race="ELYOS" autolearn="true" name="Divine Chastisement V" skillLevel="9" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="57" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="1" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="58" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="2" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="59" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="3" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="60" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="4" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="61" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="5" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="62" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="6" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="63" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="7" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="64" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="8" skillId="2453" classId="TEMPLAR" />
+	<skill minLevel="65" race="ELYOS" autolearn="false" name="Divine Chastisement V" skillLevel="9" skillId="2453" classId="TEMPLAR" />
 	<skill minLevel="57" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness V" skillLevel="1" skillId="2454" classId="TEMPLAR" />
 	<skill minLevel="58" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness V" skillLevel="2" skillId="2454" classId="TEMPLAR" />
 	<skill minLevel="59" race="ASMODIANS" autolearn="true" name="Chastisement of Darkness V" skillLevel="3" skillId="2454" classId="TEMPLAR" />
