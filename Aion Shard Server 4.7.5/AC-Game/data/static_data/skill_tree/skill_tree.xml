@@ -7236,8 +7236,8 @@
 	<skill minLevel="10" race="ASMODIANS" name="Transformation: Krall II" skillLevel="1" skillId="2313" classId="RANGER" />
 	<skill minLevel="10" race="ASMODIANS" name="Transformation: Krall III" skillLevel="1" skillId="2314" classId="RANGER" />
 	<skill minLevel="10" race="ASMODIANS" name="Transformation: Krall IV" skillLevel="1" skillId="2315" classId="RANGER" />
-	<skill minLevel="10" race="PC_ALL" autolearn="true" name="Sleep: Frightcorn I" skillLevel="1" skillId="2317" classId="SORCERER" />
-	<skill minLevel="28" race="PC_ALL" autolearn="true" name="Fear: Poppy I" skillLevel="1" skillId="2318" classId="SPIRIT_MASTER" />
+	<skill minLevel="10" race="PC_ALL" name="Sleep: Frightcorn I" skillLevel="1" skillId="2317" classId="SORCERER" />
+	<skill minLevel="28" race="PC_ALL" name="Fear: Poppy I" skillLevel="1" skillId="2318" classId="SPIRIT_MASTER" />
 	<skill minLevel="16" race="ELYOS" name="Summon Divine Mirror I" skillLevel="1" skillId="2320" classId="CLERIC" />
 	<skill minLevel="17" race="ELYOS" name="Summon Divine Mirror I" skillLevel="2" skillId="2320" classId="CLERIC" />
 	<skill minLevel="18" race="ELYOS" name="Summon Divine Mirror I" skillLevel="3" skillId="2320" classId="CLERIC" />
