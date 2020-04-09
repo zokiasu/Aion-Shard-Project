@@ -2420,24 +2420,24 @@
 	<skill minLevel="17" race="PC_ALL" autolearn="true" name="Dash Attack I" skillLevel="8" skillId="816" classId="ASSASSIN" />
 	<skill minLevel="18" race="PC_ALL" autolearn="true" name="Dash Attack I" skillLevel="9" skillId="816" classId="ASSASSIN" />
 	<skill minLevel="10" race="PC_ALL" autolearn="true" name="Killer's Eye I" skillLevel="1" skillId="839" classId="ASSASSIN" />
-	<skill minLevel="10" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="1" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="11" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="2" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="12" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="3" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="13" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="4" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="14" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="5" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="15" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="6" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="16" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="7" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="17" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="8" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="18" race="ELYOS" autolearn="true" name="Divine Strike I" skillLevel="9" skillId="908" classId="ASSASSIN" />
-	<skill minLevel="10" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="1" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="11" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="2" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="12" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="3" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="13" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="4" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="14" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="5" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="15" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="6" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="16" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="7" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="17" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="8" skillId="905" classId="ASSASSIN" />
-	<skill minLevel="18" race="ASMODIANS" autolearn="true" name="Strike of Darkness I" skillLevel="9" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="10" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="1" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="11" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="2" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="12" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="3" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="13" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="4" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="14" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="5" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="15" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="6" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="16" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="7" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="17" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="8" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="18" race="ELYOS" autolearn="false" name="Divine Strike I" skillLevel="9" skillId="908" classId="ASSASSIN" />
+	<skill minLevel="10" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="1" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="11" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="2" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="12" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="3" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="13" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="4" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="14" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="5" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="15" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="6" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="16" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="7" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="17" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="8" skillId="905" classId="ASSASSIN" />
+	<skill minLevel="18" race="PC_ALL" autolearn="true" name="Strike of Darkness I" skillLevel="9" skillId="905" classId="ASSASSIN" />
 	<skill minLevel="13" race="PC_ALL" autolearn="true" name="Surprise Attack II" skillLevel="1" skillId="552" classId="ASSASSIN" />
 	<skill minLevel="14" race="PC_ALL" autolearn="true" name="Surprise Attack II" skillLevel="2" skillId="552" classId="ASSASSIN" />
 	<skill minLevel="15" race="PC_ALL" autolearn="true" name="Surprise Attack II" skillLevel="3" skillId="552" classId="ASSASSIN" />
@@ -2531,24 +2531,24 @@
 	<skill minLevel="28" race="PC_ALL" autolearn="true" name="Dash Attack II" skillLevel="7" skillId="817" classId="ASSASSIN" />
 	<skill minLevel="29" race="PC_ALL" autolearn="true" name="Dash Attack II" skillLevel="8" skillId="817" classId="ASSASSIN" />
 	<skill minLevel="30" race="PC_ALL" autolearn="true" name="Dash Attack II" skillLevel="9" skillId="817" classId="ASSASSIN" />
-	<skill minLevel="22" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="1" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="23" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="2" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="24" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="3" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="25" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="4" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="26" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="5" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="27" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="6" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="28" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="7" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="29" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="8" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="30" race="ELYOS" autolearn="true" name="Divine Strike II" skillLevel="9" skillId="909" classId="ASSASSIN" />
-	<skill minLevel="22" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="1" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="23" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="2" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="24" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="3" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="25" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="4" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="26" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="5" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="27" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="6" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="28" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="7" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="29" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="8" skillId="906" classId="ASSASSIN" />
-	<skill minLevel="30" race="ASMODIANS" autolearn="true" name="Strike of Darkness II" skillLevel="9" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="22" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="1" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="23" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="2" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="24" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="3" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="25" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="4" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="26" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="5" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="27" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="6" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="28" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="7" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="29" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="8" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="30" race="ELYOS" autolearn="false" name="Divine Strike II" skillLevel="9" skillId="909" classId="ASSASSIN" />
+	<skill minLevel="22" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="1" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="23" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="2" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="24" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="3" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="25" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="4" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="26" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="5" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="27" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="6" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="28" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="7" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="29" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="8" skillId="906" classId="ASSASSIN" />
+	<skill minLevel="30" race="PC_ALL" autolearn="true" name="Strike of Darkness II" skillLevel="9" skillId="906" classId="ASSASSIN" />
 	<skill minLevel="22" race="PC_ALL" autolearn="true" name="Rune Slash I" skillLevel="1" skillId="832" classId="ASSASSIN" />
 	<skill minLevel="23" race="PC_ALL" autolearn="true" name="Rune Slash I" skillLevel="2" skillId="832" classId="ASSASSIN" />
 	<skill minLevel="24" race="PC_ALL" autolearn="true" name="Rune Slash I" skillLevel="3" skillId="832" classId="ASSASSIN" />
@@ -2696,24 +2696,24 @@
 	<skill minLevel="40" race="PC_ALL" autolearn="true" name="Dash Attack III" skillLevel="7" skillId="818" classId="ASSASSIN" />
 	<skill minLevel="41" race="PC_ALL" autolearn="true" name="Dash Attack III" skillLevel="8" skillId="818" classId="ASSASSIN" />
 	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Dash Attack III" skillLevel="9" skillId="818" classId="ASSASSIN" />
-	<skill minLevel="34" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="1" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="35" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="2" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="36" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="3" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="37" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="4" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="38" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="5" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="39" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="6" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="40" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="7" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="41" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="8" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="42" race="ELYOS" autolearn="true" name="Divine Strike III" skillLevel="9" skillId="910" classId="ASSASSIN" />
-	<skill minLevel="34" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="1" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="35" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="2" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="36" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="3" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="37" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="4" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="38" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="5" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="39" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="6" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="40" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="7" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="41" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="8" skillId="907" classId="ASSASSIN" />
-	<skill minLevel="42" race="ASMODIANS" autolearn="true" name="Strike of Darkness III" skillLevel="9" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="34" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="1" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="35" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="2" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="36" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="3" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="37" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="4" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="38" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="5" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="39" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="6" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="40" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="7" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="41" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="8" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="42" race="ELYOS" autolearn="false" name="Divine Strike III" skillLevel="9" skillId="910" classId="ASSASSIN" />
+	<skill minLevel="34" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="1" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="35" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="2" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="36" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="3" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="37" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="4" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="38" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="5" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="39" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="6" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="40" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="7" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="41" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="8" skillId="907" classId="ASSASSIN" />
+	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Strike of Darkness III" skillLevel="9" skillId="907" classId="ASSASSIN" />
 	<skill minLevel="34" race="PC_ALL" autolearn="true" name="Rune Slash II" skillLevel="1" skillId="865" classId="ASSASSIN" />
 	<skill minLevel="35" race="PC_ALL" autolearn="true" name="Rune Slash II" skillLevel="2" skillId="865" classId="ASSASSIN" />
 	<skill minLevel="36" race="PC_ALL" autolearn="true" name="Rune Slash II" skillLevel="3" skillId="865" classId="ASSASSIN" />
@@ -2878,8 +2878,8 @@
 	<skill minLevel="48" race="PC_ALL" autolearn="true" name="Calming Whisper III" skillLevel="7" skillId="859" classId="ASSASSIN" />
 	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Calming Whisper III" skillLevel="8" skillId="859" classId="ASSASSIN" />
 	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Calming Whisper III" skillLevel="9" skillId="859" classId="ASSASSIN" />
-	<skill minLevel="42" race="ELYOS" autolearn="true" name="Spelldodging I" skillLevel="1" skillId="926" classId="ASSASSIN" />
-	<skill minLevel="42" race="ASMODIANS" autolearn="true" name="Shadow Rage I" skillLevel="1" skillId="927" classId="ASSASSIN" />
+	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Spelldodging I" skillLevel="1" skillId="926" classId="ASSASSIN" />
+	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Shadow Rage I" skillLevel="1" skillId="927" classId="ASSASSIN" />
 	<skill minLevel="43" race="PC_ALL" stigma="true" name="Ambush IV" skillLevel="1" skillId="928" classId="ASSASSIN" />
 	<skill minLevel="43" race="PC_ALL" autolearn="true" name="Assassination II" skillLevel="1" skillId="871" classId="ASSASSIN" />
 	<skill minLevel="44" race="PC_ALL" autolearn="true" name="Assassination II" skillLevel="2" skillId="871" classId="ASSASSIN" />
@@ -2909,24 +2909,24 @@
 	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Dash Attack IV" skillLevel="7" skillId="861" classId="ASSASSIN" />
 	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Dash Attack IV" skillLevel="8" skillId="861" classId="ASSASSIN" />
 	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Dash Attack IV" skillLevel="9" skillId="861" classId="ASSASSIN" />
-	<skill minLevel="45" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="1" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="46" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="2" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="47" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="3" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="48" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="4" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="49" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="5" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="50" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="6" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="51" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="7" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="52" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="8" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="53" race="ELYOS" autolearn="true" name="Divine Strike IV" skillLevel="9" skillId="930" classId="ASSASSIN" />
-	<skill minLevel="45" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="1" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="46" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="2" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="47" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="3" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="48" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="4" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="49" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="5" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="50" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="6" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="51" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="7" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="52" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="8" skillId="931" classId="ASSASSIN" />
-	<skill minLevel="53" race="ASMODIANS" autolearn="true" name="Strike of Darkness IV" skillLevel="9" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="45" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="1" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="46" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="2" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="47" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="3" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="48" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="4" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="49" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="5" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="50" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="6" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="51" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="7" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="52" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="8" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="53" race="ELYOS" autolearn="false" name="Divine Strike IV" skillLevel="9" skillId="930" classId="ASSASSIN" />
+	<skill minLevel="45" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="1" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="46" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="2" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="47" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="3" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="48" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="4" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="5" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="6" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="7" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="8" skillId="931" classId="ASSASSIN" />
+	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Strike of Darkness IV" skillLevel="9" skillId="931" classId="ASSASSIN" />
 	<skill minLevel="45" race="PC_ALL" autolearn="true" name="Rune Slash III" skillLevel="1" skillId="932" classId="ASSASSIN" />
 	<skill minLevel="46" race="PC_ALL" autolearn="true" name="Rune Slash III" skillLevel="2" skillId="932" classId="ASSASSIN" />
 	<skill minLevel="47" race="PC_ALL" autolearn="true" name="Rune Slash III" skillLevel="3" skillId="932" classId="ASSASSIN" />
@@ -3048,24 +3048,24 @@
 	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Soul Slash V" skillLevel="8" skillId="580" classId="ASSASSIN" />
 	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Soul Slash V" skillLevel="9" skillId="580" classId="ASSASSIN" />
 	<skill minLevel="50" race="PC_ALL" stigma="true" name="Throw Shuriken II" skillLevel="1" skillId="939" classId="ASSASSIN" />
-	<skill minLevel="50" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="1" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="51" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="2" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="52" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="3" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="53" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="4" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="54" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="5" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="55" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="6" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="56" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="7" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="57" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="8" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="58" race="ELYOS" autolearn="true" name="Radiant Rune I" skillLevel="9" skillId="940" classId="ASSASSIN" />
-	<skill minLevel="50" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="1" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="51" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="2" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="52" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="3" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="53" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="4" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="54" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="5" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="55" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="6" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="56" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="7" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="57" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="8" skillId="941" classId="ASSASSIN" />
-	<skill minLevel="58" race="ASMODIANS" autolearn="true" name="Darkness Rune I" skillLevel="9" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="1" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="2" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="3" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="4" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="54" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="5" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="55" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="6" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="56" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="7" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="8" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Radiant Rune I" skillLevel="9" skillId="940" classId="ASSASSIN" />
+	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="1" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="2" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="3" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="4" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="54" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="5" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="55" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="6" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="56" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="7" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="8" skillId="941" classId="ASSASSIN" />
+	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Darkness Rune I" skillLevel="9" skillId="941" classId="ASSASSIN" />
 	<skill minLevel="50" race="ELYOS" autolearn="true" name="Vaizel's Dirk I" skillLevel="1" skillId="942" classId="ASSASSIN" />
 	<skill minLevel="51" race="ELYOS" autolearn="true" name="Vaizel's Dirk I" skillLevel="2" skillId="942" classId="ASSASSIN" />
 	<skill minLevel="52" race="ELYOS" autolearn="true" name="Vaizel's Dirk I" skillLevel="3" skillId="942" classId="ASSASSIN" />
@@ -8007,24 +8007,24 @@
 	<skill minLevel="63" race="PC_ALL" autolearn="true" name="Dash Attack V" skillLevel="7" skillId="2515" classId="ASSASSIN" />
 	<skill minLevel="64" race="PC_ALL" autolearn="true" name="Dash Attack V" skillLevel="8" skillId="2515" classId="ASSASSIN" />
 	<skill minLevel="65" race="PC_ALL" autolearn="true" name="Dash Attack V" skillLevel="9" skillId="2515" classId="ASSASSIN" />
-	<skill minLevel="57" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="1" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="58" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="2" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="59" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="3" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="60" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="4" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="61" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="5" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="62" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="6" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="63" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="7" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="64" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="8" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="65" race="ELYOS" autolearn="true" name="Divine Strike V" skillLevel="9" skillId="2516" classId="ASSASSIN" />
-	<skill minLevel="57" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="1" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="58" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="2" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="59" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="3" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="60" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="4" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="61" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="5" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="62" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="6" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="63" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="7" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="64" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="8" skillId="2517" classId="ASSASSIN" />
-	<skill minLevel="65" race="ASMODIANS" autolearn="true" name="Strike of Darkness V" skillLevel="9" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="57" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="1" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="58" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="2" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="59" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="3" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="60" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="4" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="61" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="5" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="62" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="6" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="63" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="7" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="64" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="8" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="65" race="ELYOS" autolearn="false" name="Divine Strike V" skillLevel="9" skillId="2516" classId="ASSASSIN" />
+	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="1" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="2" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="59" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="3" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="60" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="4" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="61" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="5" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="62" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="6" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="63" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="7" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="64" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="8" skillId="2517" classId="ASSASSIN" />
+	<skill minLevel="65" race="PC_ALL" autolearn="true" name="Strike of Darkness V" skillLevel="9" skillId="2517" classId="ASSASSIN" />
 	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Rune Slash IV" skillLevel="1" skillId="2518" classId="ASSASSIN" />
 	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Rune Slash IV" skillLevel="2" skillId="2518" classId="ASSASSIN" />
 	<skill minLevel="59" race="PC_ALL" autolearn="true" name="Rune Slash IV" skillLevel="3" skillId="2518" classId="ASSASSIN" />
