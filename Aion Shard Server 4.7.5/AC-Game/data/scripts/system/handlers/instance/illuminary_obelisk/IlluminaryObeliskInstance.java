@@ -166,6 +166,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     deleteNpc(702218);
                     deleteNpc(702219);
                     deleteNpc(702220);
+
                     isEnd = true;
                     SP1Task.cancel(true);
                     instance.doOnAllPlayers(new Visitor<Player>() {
@@ -275,50 +276,45 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     });
                     spawn(702013, 216.97739f, 254.4616f, 295.77353f, (byte) 0); //Northern Shield Generator.
                     break;
-                /****************************
-                 * Eastern Shield Generator *
-                 ****************************/
                 case 283809:
                 case 283811:
-                    despawnNpc(npc);
-                    if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
-                        spawncheckE();
-                    }
-                    break;
                 case 283812:
                 case 283813:
                 case 283814:
+                    despawnNpc(npc);
+                    chargecheck();
+                    break;
+                /****************************
+                 * Eastern Shield Generator *
+                 ****************************/
                 case 283815:
                     despawnNpc(npc);
+                    spawncheckE();
+                    chargecheck();
                     break;
                 /****************************
                  * Western Shield Generator *
                  ****************************/
                 case 283817:
                     despawnNpc(npc);
-                    if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
-                        spawncheckW();
-                    }
+                    spawncheckW();
+                    chargecheck();
                     break;
-
                 /*****************************
                  * Southern Shield Generator *
                  *****************************/
                 case 283816:
                     despawnNpc(npc);
-                    if (getNpcs(283816).isEmpty() && getNpcs(283811).isEmpty()) {
-                        spawncheckS();
-                    }
+                    spawncheckS();
+                    chargecheck();
                     break;
-
                 /*****************************
                  * Northern Shield Generator *
                  *****************************/
                 case 283810:
                     despawnNpc(npc);
-                    if (getNpcs(283811).isEmpty() && getNpcs(283810).isEmpty()) {
-                        spawncheckN();
-                    }
+                    spawncheckN();
+                    chargecheck();
                     break;
 
                 /**
@@ -341,6 +337,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      */
     @Override
     public void onEnterZone(Player player, ZoneInstance zone) {
+        //Activation Timer pour le boss
         if (zone.getAreaTemplate().getZoneName() == ZoneName.get("SHIELD_GENERATION_HUB_301230000")) {
             if (!isStop) {
                 isStop = true;
@@ -377,6 +374,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                         }
                     }
                 });
+
                 TWDTask = ThreadPoolManager.getInstance().schedule(new Runnable() {
                     @Override
                     public void run() {
@@ -391,7 +389,9 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     }
                 }, 360000); //6 Minutes.
             }
-        } else {
+        }
+        //Timer pour l'instance
+        else {
             if (zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_A_301230000")
             || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_B_301230000")
             || zone.getAreaTemplate().getZoneName() == ZoneName.get("SZ_SECTOR_C_301230000")
@@ -472,7 +472,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveEasternShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -486,7 +486,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveWesternShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -500,7 +500,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveSouthernShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -514,7 +514,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveNorthernShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -525,12 +525,15 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
         CHKTask = ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
-                if (!getNpcs(702220).isEmpty() && !getNpcs(702223).isEmpty() && !getNpcs(702226).isEmpty() &&  !getNpcs(702229).isEmpty()) {
+                if (!getNpcs(702220).isEmpty()
+                    && !getNpcs(702223).isEmpty()
+                    && !getNpcs(702226).isEmpty()
+                    &&  !getNpcs(702229).isEmpty()) {
                     spawnShieldControlRoomTeleporter();
                     CHKTask.cancel(true);
                 }
             }
-        }, 15000, 15000);
+        }, 1000, 5000);
     }
 
     public void countdownmsg() {

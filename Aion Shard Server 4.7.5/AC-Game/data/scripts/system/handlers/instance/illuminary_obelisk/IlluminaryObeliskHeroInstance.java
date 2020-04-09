@@ -264,45 +264,45 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                     }
                 }, 10000);
                 break;
+            case 283809:
+            case 283811:
+            case 283812:
+            case 283813:
+            case 283814:
+                despawnNpc(npc);
+                chargecheck();
+                break;
             /****************************
              * Eastern Shield Generator *
              ****************************/
             case 283815:
                 despawnNpc(npc);
-                if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
-                    spawncheckE();
-                }
-                break;
-            case 283809:
-            case 283812:
-            case 283814:
-            case 283811:
-                despawnNpc(npc);
+                spawncheckE();
+                chargecheck();
                 break;
             /****************************
              * Western Shield Generator *
              ****************************/
             case 283817:
                 despawnNpc(npc);
-                if (getNpcs(283809).isEmpty() && getNpcs(283811).isEmpty()) {
-                    spawncheckW();
-                }
+                spawncheckW();
+                chargecheck();
                 break;
-
             /*****************************
              * Southern Shield Generator *
              *****************************/
             case 283816:
                 despawnNpc(npc);
                 spawncheckS();
+                chargecheck();
                 break;
-
             /*****************************
              * Northern Shield Generator *
              *****************************/
             case 283810:
                 despawnNpc(npc);
                 spawncheckN();
+                chargecheck();
                 break;
 
             /**
@@ -454,7 +454,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 public void run() {
                     startWaveEasternShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -468,7 +468,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 public void run() {
                     startWaveWesternShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -482,7 +482,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 public void run() {
                     startWaveSouthernShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -496,7 +496,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 public void run() {
                     startWaveNorthernShieldGenerator1();
                 }
-            }, 30000 * 3); //spawn every 1 and a half minutes.
+            }, 60000); //spawn every 1 and a half minutes.
         }
     }
 

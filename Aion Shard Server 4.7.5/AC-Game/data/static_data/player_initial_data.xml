@@ -9,6 +9,8 @@
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
             <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+            <item id="166150017" count="20"/> <!-- Assured Greater Felicitous Socketing (Fabled) -->
+            <item id="166150024" count="25"/> <!-- Assured Greater Felicitous Socketing (Eternal) -->
         </items>
     </player_data>
     <player_data class="MAGE">
@@ -18,6 +20,8 @@
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
             <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+            <item id="166150017" count="20"/> <!-- Assured Greater Felicitous Socketing (Fabled) -->
+            <item id="166150024" count="25"/> <!-- Assured Greater Felicitous Socketing (Eternal) -->
         </items>
     </player_data>
     <player_data class="PRIEST">
@@ -27,6 +31,8 @@
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
             <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+            <item id="166150017" count="20"/> <!-- Assured Greater Felicitous Socketing (Fabled) -->
+            <item id="166150024" count="25"/> <!-- Assured Greater Felicitous Socketing (Eternal) -->
         </items>
     </player_data>
     <player_data class="SCOUT">
@@ -36,6 +42,8 @@
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
             <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+            <item id="166150017" count="20"/> <!-- Assured Greater Felicitous Socketing (Fabled) -->
+            <item id="166150024" count="25"/> <!-- Assured Greater Felicitous Socketing (Eternal) -->
         </items>
     </player_data>
     <player_data class="ENGINEER">
@@ -44,7 +52,9 @@
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
-            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->			
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+            <item id="166150017" count="20"/> <!-- Assured Greater Felicitous Socketing (Fabled) -->
+            <item id="166150024" count="25"/> <!-- Assured Greater Felicitous Socketing (Eternal) -->
         </items>
     </player_data>
     <player_data class="ARTIST">
@@ -53,7 +63,9 @@
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
-            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->			
+            <item id="164002118" count="100"/> <!-- Parchemin d'éveil -->
+            <item id="166150017" count="20"/> <!-- Assured Greater Felicitous Socketing (Fabled) -->
+            <item id="166150024" count="25"/> <!-- Assured Greater Felicitous Socketing (Eternal) -->
         </items>
     </player_data>
 </player_initial_data>
