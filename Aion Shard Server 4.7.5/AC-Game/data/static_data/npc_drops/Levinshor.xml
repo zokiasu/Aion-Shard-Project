@@ -3,16 +3,16 @@
     <!-- DEBUT MOB FARM -->
         <npc_drop npc_id="233954">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
+                <drop item_id="182400001" chance="5.0" min_amount="1000" max_amount="50000"/>
             </drop_group>
             <drop_group name="SHARDS">
                 <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
                 <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
             </drop_group>
             <drop_group name="MANASTONE">
-                <drop item_id="188052199" chance="0.15" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
-                <drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
-                <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
+                <drop item_id="188052199" chance="0.05" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
+                <drop item_id="188052201" chance="0.01" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
+                <drop item_id="188051756" chance="10.0" min_amount="1" max_amount="10"/> <!-- Manastone 60/70 Green or White -->
             </drop_group>
             <drop_group name="ESSENCE">
                 <drop item_id="152012559" chance="7.0" min_amount="1" max_amount="2"/>
