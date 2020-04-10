@@ -128,7 +128,7 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						break;
 					case 39:
 						skill_mass_destroy();
-						skill6();
+						skill5();
 						break;
 					case 35:
 						shout_spawn();
