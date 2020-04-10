@@ -9,7 +9,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="1"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -152,7 +152,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -295,7 +295,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -438,7 +438,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -581,7 +581,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -724,7 +724,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -867,7 +867,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1010,7 +1010,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1153,7 +1153,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1296,7 +1296,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1439,7 +1439,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1582,7 +1582,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1725,7 +1725,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -1868,7 +1868,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2011,7 +2011,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2154,7 +2154,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2297,7 +2297,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2440,7 +2440,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2583,7 +2583,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2726,7 +2726,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -2869,7 +2869,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3012,7 +3012,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3155,7 +3155,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3298,7 +3298,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3441,7 +3441,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3584,7 +3584,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3727,7 +3727,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -3870,7 +3870,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4013,7 +4013,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4156,7 +4156,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4299,7 +4299,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4442,7 +4442,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4585,7 +4585,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4728,7 +4728,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -4871,7 +4871,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5014,7 +5014,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5157,7 +5157,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5300,7 +5300,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5443,7 +5443,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5586,7 +5586,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5729,7 +5729,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -5872,7 +5872,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -6015,7 +6015,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -6158,7 +6158,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -6301,7 +6301,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -6446,7 +6446,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -6691,7 +6691,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -6936,7 +6936,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -7181,7 +7181,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -7426,7 +7426,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -7671,7 +7671,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -7916,7 +7916,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -8161,7 +8161,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -8421,7 +8421,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -8681,7 +8681,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -8941,7 +8941,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -9201,7 +9201,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -9461,7 +9461,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -9721,7 +9721,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -9981,7 +9981,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -10241,7 +10241,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -10501,7 +10501,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -10761,7 +10761,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
@@ -11021,7 +11021,7 @@
             <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
-            <drop item_id="152012579" chance="10.0" min_amount="1" max_amount="3"/>
+            <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
         </drop_group>
         <drop_group name="SHARDS">
             <drop item_id="169000010" chance="10.0" min_amount="100" max_amount="1000"/>
