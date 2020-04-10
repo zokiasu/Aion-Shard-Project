@@ -109,6 +109,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                 }
             }, 1000);
         }
+        portal = true;
     }
 
     /**
@@ -270,8 +271,8 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
             case 283812:
             case 283813:
             case 283814:
+            case 231142:
                 despawnNpc(npc);
-                chargecheck();
                 break;
             /****************************
              * Eastern Shield Generator *
@@ -513,7 +514,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
                     CHKTask.cancel(true);
                 }
             }
-        }, 20000, 20000);
+        }, 30000, 60000);
     }
 
     public void countdownmsg() {
@@ -630,8 +631,8 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
         deleteNpc(283817);
         deleteNpc(283817);
         deleteNpc(283817);
-        
-        if(portal) {
+
+        if(portal == true) {
             sendMsg(1402202);
             deleteNpc(702010);
             deleteNpc(702011);
@@ -643,6 +644,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
             spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
             portal = false;
         }
+        
         GENTask.cancel(true);
         CNT1Task.cancel(true);
         CNT2Task.cancel(true);
@@ -656,7 +658,6 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
         SP3Task.cancel(true);
         SP4Task.cancel(true);
         isEnd = true;
-
     }
 
     protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {

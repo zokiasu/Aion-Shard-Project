@@ -111,6 +111,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 }
             }, 1000);
         }
+        portal = true;
     }
 
     /**
@@ -282,8 +283,8 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 case 283812:
                 case 283813:
                 case 283814:
+                case 231142:
                     despawnNpc(npc);
-                    chargecheck();
                     break;
                 /****************************
                  * Eastern Shield Generator *
@@ -534,7 +535,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     CHKTask.cancel(true);
                 }
             }
-        }, 1000, 5000);
+        }, 30000, 60000);
     }
 
     public void countdownmsg() {
@@ -612,20 +613,6 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      */
     private void spawnShieldControlRoomTeleporter() {
 
-        isEnd = true;
-        GENTask.cancel(true);
-        CNT1Task.cancel(true);
-        CNT2Task.cancel(true);
-        CNT3Task.cancel(true);
-        CNT4Task.cancel(true);
-        CNT5Task.cancel(true);
-        CNT6Task.cancel(true);
-        CNT7Task.cancel(true);
-        SP1Task.cancel(true);
-        SP2Task.cancel(true);
-        SP3Task.cancel(true);
-        SP4Task.cancel(true);
-
         deleteNpc(283809);
         deleteNpc(283809);
         deleteNpc(283809);
@@ -678,6 +665,20 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
             spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
             portal = false;
         }
+
+        GENTask.cancel(true);
+        CNT1Task.cancel(true);
+        CNT2Task.cancel(true);
+        CNT3Task.cancel(true);
+        CNT4Task.cancel(true);
+        CNT5Task.cancel(true);
+        CNT6Task.cancel(true);
+        CNT7Task.cancel(true);
+        SP1Task.cancel(true);
+        SP2Task.cancel(true);
+        SP3Task.cancel(true);
+        SP4Task.cancel(true);
+        isEnd = true;
     }
 
     protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {
