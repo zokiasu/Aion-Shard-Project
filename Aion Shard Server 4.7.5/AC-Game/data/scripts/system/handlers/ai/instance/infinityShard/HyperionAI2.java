@@ -33,71 +33,22 @@ import ai.AggressiveNpcAI2;
 import com.aionemu.commons.network.util.ThreadPoolManager;
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
+import com.aionemu.gameserver.ai2.manager.WalkManager;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.skillengine.SkillEngine;
 import com.aionemu.gameserver.world.WorldMapInstance;
-import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
 import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.model.*;
+import com.aionemu.gameserver.network.aion.serverpackets.*;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
-
-
-
-import java.util.*;
-import java.util.concurrent.Future;
-import java.util.concurrent.atomic.AtomicInteger;
-
-import com.aionemu.commons.utils.Rnd;
-import com.aionemu.commons.network.util.ThreadPoolManager;
-
-import com.aionemu.gameserver.ai2.AIState;
-import com.aionemu.gameserver.ai2.AbstractAI;
-import com.aionemu.gameserver.controllers.effect.*;
-import com.aionemu.gameserver.controllers.effect.PlayerEffectController;
-import com.aionemu.gameserver.instance.handlers.*;
-import com.aionemu.gameserver.model.*;
-import com.aionemu.gameserver.model.DescriptionId;
-import com.aionemu.gameserver.model.drop.*;
-import com.aionemu.gameserver.model.EmotionType;
-import com.aionemu.gameserver.model.Race;
-import com.aionemu.gameserver.model.gameobjects.*;
-import com.aionemu.gameserver.model.gameobjects.Creature;
-import com.aionemu.gameserver.model.gameobjects.Npc;
-import com.aionemu.gameserver.model.gameobjects.StaticDoor;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
-import com.aionemu.gameserver.model.instance.InstanceScoreType;
-import com.aionemu.gameserver.model.instance.StageList;
-import com.aionemu.gameserver.model.instance.instancereward.EternalBastionReward;
-import com.aionemu.gameserver.model.instance.playerreward.EternalBastionPlayerReward;
-import com.aionemu.gameserver.network.aion.serverpackets.*;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.aionemu.gameserver.services.DeathService;
-import com.aionemu.gameserver.services.abyss.AbyssPointsService;
-import com.aionemu.gameserver.services.drop.DropRegistrationService;
-import com.aionemu.gameserver.services.item.ItemService;
-import com.aionemu.gameserver.services.player.PlayerReviveService;
-import com.aionemu.gameserver.services.teleport.TeleportService2;
-import com.aionemu.gameserver.skillengine.SkillEngine;
-import com.aionemu.gameserver.utils.*;
-import com.aionemu.gameserver.utils.PacketSendUtility;
-import com.aionemu.gameserver.utils.Tasks;
-import com.aionemu.gameserver.world.zone.*;
-import com.aionemu.gameserver.world.WorldMapInstance;
-import com.aionemu.gameserver.world.knownlist.Visitor;
-
-import com.aionemu.gameserver.ai2.AIName;
-import com.aionemu.gameserver.ai2.NpcAI2;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author Eloann
@@ -201,60 +152,51 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
     }
 
     private void spawnHyperionEasy() {
-        spawnWalk(231096, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        spawnWalk(231096, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1500, "A2142518112");
-        spawnWalk(231096, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 2000, "A2142518112");
-
-        spawnWalk(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        spawnWalk(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1500, "B2142518141");
-        spawnWalk(233292, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 2000, "B2142518141");
-    }
-
-    private void spawnHyperionNormal() {
-        spawnWalk(233289, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        spawnWalk(233288, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1500, "A2142518112");
-        spawnWalk(233296, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 2000, "A2142518112");
-
-        spawnWalk(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        spawnWalk(233292, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1500, "B2142518141");
-        spawnWalk(233292, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 2000, "B2142518141");
-
+        spawn(231096, 148.12894f, 148.34091f, 124.03375f, (byte) 105);
+        spawn(233292, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
         spawn(231103, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
+        spawn(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43);
+
+        Npc npc1 = getNpc(231096);
+        npc1.getSpawn().setWalkerId("A2142518112");
+        WalkManager.startWalking((NpcAI2) npc1.getAi2());
+        npc1.setState(1);
+        PacketSendUtility.broadcastPacket(npc1, new SM_EMOTION(npc1, EmotionType.START_EMOTE2, 0, npc1.getObjectId()));
+    }
+
+    private void spawnHyperionNormal() {
+        spawn(233288, 148.12894f, 148.34091f, 124.03375f, (byte) 105);
         spawn(233294, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
+        spawn(231103, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
+        spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
+        spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
+        spawn(233296, 110.090965f, 128.28905f, 124.15179f, (byte) 43);
     }
 
     private void spawnHyperionNormal1() {
-        spawnWalk(233295, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        spawnWalk(233288, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1500, "A2142518112");
-        spawnWalk(233296, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 2000, "A2142518112");
-
-        spawnWalk(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        spawnWalk(233288, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1500, "B2142518141");
-        spawnWalk(233292, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 2000, "B2142518141");
-
+        spawn(233292, 148.12894f, 148.34091f, 124.03375f, (byte) 105);
+        spawn(233294, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
         spawn(233295, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
-        spawn(231103, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
+        spawn(233295, 110.090965f, 128.28905f, 124.15179f, (byte) 43);
     }
 
     private void spawnHyperionHard() {
-        spawnWalk(233288, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        spawnWalk(233299, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1500, "B2142518141");
-        spawnWalk(233298, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 2000, "B2142518141");
-
+        spawn(233288, 148.12894f, 148.34091f, 124.03375f, (byte) 105);
+        spawn(233299, 148.12894f, 148.34091f, 124.03375f, (byte) 105);
+        spawn(233294, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
         spawn(233298, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
-        spawn(231103, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
-        spawn(233294, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
+        spawn(233298, 110.090965f, 128.28905f, 124.15179f, (byte) 43);
     }
 
     private void spawnAssaultPod() {
-        int rnd = Rnd.get(1, 3);
+        int rnd = Rnd.get(1, 8);
         switch (rnd) {
             case 1:
                 spawn(284070, 136.94958f, 133.78249f, 112.12359f, (byte) 74);
@@ -264,6 +206,12 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                 break;
             case 3:
                 spawn(284070, 124.02135f, 146.44595f, 112.12359f, (byte) 99);
+                break;
+            case 4:
+                spawn(284070, 107.20429f, 140.68904f, 112.12359f, (byte) 71);
+                break;
+            case 5:
+                spawn(284070, 151.51714f, 135.24718f, 112.12359f, (byte) 114);
                 break;
         }
     }

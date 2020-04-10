@@ -52,19 +52,19 @@ import com.aionemu.gameserver.world.zone.ZoneInstance;
  */
 public class GeneralInstanceHandler implements InstanceHandler {
 
-    public Integer mapId;
-    public int instanceId;
-    public boolean _destroyed = false;
-    public final long creationTime;
-    public WorldMapInstance instance;
+    protected Integer mapId;
+    protected int instanceId;
+    private boolean _destroyed = false;
+    protected final long creationTime;
+    protected WorldMapInstance instance;
 
     @Override
     public void onInstanceCreate(WorldMapInstance instance) {
         this.instance = instance;
         this.instanceId = instance.getInstanceId();
         this.mapId = instance.getMapId();
-    }    
-    
+    }
+
     public GeneralInstanceHandler() {
         creationTime = System.currentTimeMillis();
     }
@@ -76,7 +76,7 @@ public class GeneralInstanceHandler implements InstanceHandler {
     @Override
     public void onPlayerLogin(Player player) {
     }
-    
+
     @Override
     public void onEnterZone(Player player, ZoneInstance zone) {
     }
@@ -84,7 +84,7 @@ public class GeneralInstanceHandler implements InstanceHandler {
     @Override
     public void onLeaveZone(Player player, ZoneInstance zone) {
     }
-    
+
     @Override
     public void onPlayerLogOut(Player player) {
     }
@@ -96,27 +96,27 @@ public class GeneralInstanceHandler implements InstanceHandler {
     @Override
     public void onPlayMovieEnd(Player player, int movieId) {
     }
-    
-    public VisibleObject spawn(int npcId, float x, float y, float z, byte heading) {
+
+    protected VisibleObject spawn(int npcId, float x, float y, float z, byte heading) {
         SpawnTemplate template = SpawnEngine.addNewSingleTimeSpawn(mapId, npcId, x, y, z, heading);
         return SpawnEngine.spawnObject(template, instanceId);
     }
 
-    public VisibleObject spawn(int npcId, float x, float y, float z, byte heading, int staticId) {
+    protected VisibleObject spawn(int npcId, float x, float y, float z, byte heading, int staticId) {
         SpawnTemplate template = SpawnEngine.addNewSingleTimeSpawn(mapId, npcId, x, y, z, heading);
         template.setStaticId(staticId);
         return SpawnEngine.spawnObject(template, instanceId);
     }
 
-    public VisibleObject spawn(int npcId, float x, float y, float z, byte heading, String walkerId, int walkerIdx) {
+    protected VisibleObject spawn(int npcId, float x, float y, float z, byte heading, String walkerId, int walkerIdx) {
         SpawnTemplate template = SpawnEngine.addNewSingleTimeSpawn(this.mapId.intValue(), npcId, x, y, z, heading, walkerId, walkerIdx);
         return SpawnEngine.spawnObject(template, this.instanceId);
     }
-    
-    public final boolean isDestroyed() {
+
+    protected final boolean isDestroyed() {
         return _destroyed;
     }
-    
+
     @Override
     public void onEnterInstance(Player player) {
     }
@@ -124,7 +124,7 @@ public class GeneralInstanceHandler implements InstanceHandler {
     @Override
     public void onLeaveInstance(Player player) {
     }
-    
+
     @Override
     public boolean onReviveEvent(Player player) {
         return false;
@@ -132,28 +132,28 @@ public class GeneralInstanceHandler implements InstanceHandler {
 
     public void onCheckAfk(Player player) {
     }
-    
-    public final int getMapId() {
+
+    protected final int getMapId() {
         return instance.getMapId();
     }
 
-    public final WorldMapInstance getInstance() {
+    protected final WorldMapInstance getInstance() {
         return instance;
     }
 
-    public final int getInstanceId() {
+    protected final int getInstanceId() {
         return instance.getInstanceId();
     }
-    
-    public void sendMsg(int msg, int Obj, boolean isShout, int color) {
+
+    protected void sendMsg(int msg, int Obj, boolean isShout, int color) {
         sendMsg(msg, Obj, isShout, color, 0);
     }
 
-    public void sendMsg(int msg, int Obj, boolean isShout, int color, int time) {
+    protected void sendMsg(int msg, int Obj, boolean isShout, int color, int time) {
         NpcShoutsService.getInstance().sendMsg(instance, msg, Obj, isShout, color, time);
     }
-    
-    public void spawnWalk(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkern) {
+
+    protected void spawnWalk(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkern) {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
     		@Override
     		public void run() {
@@ -167,19 +167,19 @@ public class GeneralInstanceHandler implements InstanceHandler {
     }
 
 
-    public void sendMsg(int msg) {
+    protected void sendMsg(int msg) {
         sendMsg(msg, 0, false, 25);
     }
-    
-    public void organizeAndSpawn() {
+
+    protected void organizeAndSpawn() {
         WalkerFormator.organizeAndSpawn(this.mapId.intValue(), this.instanceId);
     }
 
-    public void walkerDestroy() {
+    protected void walkerDestroy() {
         WalkerFormator.onInstanceDestroy(this.mapId.intValue(), this.instanceId);
     }
 
-    public Npc getNpc(int npcId) {
+    protected Npc getNpc(int npcId) {
         return instance.getNpc(npcId);
     }
     
