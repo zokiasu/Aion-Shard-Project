@@ -280,6 +280,7 @@
 			<item id="125003790" count="1"/>
 		</items>
 	</decomposable_selectitem>
+	<!-- Lunatic Modor Equipment -->
 	<decomposable_selectitem item_id="188052394">
 		<items player_class="GLADIATOR">
 			<item id="110601476" count="1"/>
@@ -390,6 +391,7 @@
 			<item id="125003791" count="1"/>
 		</items>
 	</decomposable_selectitem>
+	<!-- Danuar Reliquary Expedition -->
 	<decomposable_selectitem item_id="188052438">
 		<items player_class="GLADIATOR">
 			<item id="100001553" count="1"/>
@@ -451,6 +453,7 @@
 			<item id="102100821" count="1"/>
 		</items>
 	</decomposable_selectitem>
+
 	<!-- Infinity Shard Equipment Box -->
 	<decomposable_selectitem item_id="188052474">
 		<items player_class="GLADIATOR">

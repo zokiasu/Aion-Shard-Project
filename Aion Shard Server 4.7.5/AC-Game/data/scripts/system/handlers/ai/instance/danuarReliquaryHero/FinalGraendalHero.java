@@ -67,7 +67,11 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 					case 95:
 						skill2();
 						break;
+					case 93:
+						skill3();
+						break;
 					case 90:
+						skill4();
 						shout_spawn();
 						spawn_support();
 						break;
@@ -75,7 +79,11 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						shout1();
 						skill3();
 						break;
+					case 83:
+						skill5();
+						break;
 					case 80:
+						skill4();
 						shout_spawn();
 						spawn_support();
 						break;
@@ -83,7 +91,13 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						skill3();
 						break;
 					case 70:
-						skill3();
+						skill5();
+						shout_spawn();
+						spawn_support();
+						break;
+					case 65:
+						shout_spawn();
+						spawn_support();
 						break;
 					case 60:
 						shout_spawn();
@@ -127,7 +141,7 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 					case 15:
 						shout_spawn();
 						spawn_support3();
-						skill6();
+						skill5();
 						break;
 					case 10:
 						shout_spawn();
@@ -136,6 +150,7 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						break;
 					case 5:
 						shout_died();
+						skill1();
 						break;
 				}
 				percents.remove(percent);
@@ -146,7 +161,7 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 
 	private void addPercent() {
 		percents.clear();
-		Collections.addAll(percents, new Integer[]{95,80,60,51,50,40,30,10,5});
+		Collections.addAll(percents, new Integer[]{95,93,90,85,83,80,75,70,65,60,55,51,50,49,45,40,39,35,30,15,10,5});
 	}
 
 	private void skill1() { //Grendel's Explosive Temper
@@ -181,13 +196,6 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
 			SkillEngine.getInstance().getSkill(getOwner(), 3246, 65, target).useNoAnimationSkill();
-		}
-	}
-
-	private void skill6() { //Ginseng I (Fear Monocible)
-		VisibleObject target = getTarget();
-		if (target != null && target instanceof Player) {
-			SkillEngine.getInstance().getSkill(getOwner(), 2319, 65, target).useNoAnimationSkill();
 		}
 	}
 

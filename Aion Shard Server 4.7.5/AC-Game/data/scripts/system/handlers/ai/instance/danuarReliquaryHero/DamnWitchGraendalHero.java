@@ -47,7 +47,7 @@ public class DamnWitchGraendalHero extends AggressiveNpcAI2 {
 						spawn_support();
 						break;
 					case 85:
-						skill2();
+						skill4();
 						break;
 					case 80:
 						skill2();
@@ -97,7 +97,7 @@ public class DamnWitchGraendalHero extends AggressiveNpcAI2 {
 	private void skill2() {
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
-			SkillEngine.getInstance().getSkill(getOwner(), 2319, 65, target).useNoAnimationSkill();
+			SkillEngine.getInstance().getSkill(getOwner(), 17018, 65, target).useNoAnimationSkill();
 		}
 	}
 
