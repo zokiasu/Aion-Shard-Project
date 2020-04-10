@@ -30,7 +30,9 @@
 package ai.instance.infinityShard;
 
 import ai.AggressiveNpcAI2;
+import ai.ActionItemNpcAI2;
 import com.aionemu.commons.network.util.ThreadPoolManager;
+import com.aionemu.gameserver.ai2.*;
 import com.aionemu.gameserver.ai2.AI2Actions;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.manager.WalkManager;
@@ -42,6 +44,7 @@ import com.aionemu.gameserver.world.WorldMapInstance;
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.model.*;
 import com.aionemu.gameserver.network.aion.serverpackets.*;
+import com.aionemu.gameserver.utils.*;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 
 import java.util.ArrayList;
@@ -152,18 +155,14 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
     }
 
     private void spawnHyperionEasy() {
-        spawn(231096, 148.12894f, 148.34091f, 124.03375f, (byte) 105);
-        spawn(233292, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
+        
         spawn(231103, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
-        spawn(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43);
 
-        Npc npc1 = getNpc(231096);
-        npc1.getSpawn().setWalkerId("A2142518112");
-        WalkManager.startWalking((NpcAI2) npc1.getAi2());
-        npc1.setState(1);
-        PacketSendUtility.broadcastPacket(npc1, new SM_EMOTION(npc1, EmotionType.START_EMOTE2, 0, npc1.getObjectId()));
+        sp(233289, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "A2142518112");
+        sp(233292, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "A2142518112");
+        sp(231096, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "A2142518112");
     }
 
     private void spawnHyperionNormal() {
@@ -360,5 +359,18 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
         cancelBlasterTask();
         cancelEnergyTask();
         despawnAdds();
+    }
+
+    protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {
+        ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                if (!isInstanceDestroyed) {
+                    Npc npc = (Npc) spawn(npcId, x, y, z, h);
+                    npc.getSpawn().setWalkerId(walkerId);
+                    WalkManager.startWalking((NpcAI2) npc.getAi2());
+                }
+            }
+        }, time);
     }
 }
