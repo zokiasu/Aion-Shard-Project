@@ -155,7 +155,7 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
 				sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
 				sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
 			}
-		}, 15000);
+		}, 5000);
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
@@ -177,7 +177,7 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
 				sp(283814, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
 				sp(283812, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
 			}
-		}, 15000);
+		}, 5000);
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
@@ -186,7 +186,7 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
 				sp(283814, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
 				sp(283812, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
 			}
-		}, 30000);
+		}, 10000);
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
@@ -220,7 +220,22 @@ public class Northern_Shield_GeneratorAI2 extends NpcAI2 {
 				sp(283811, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 10000, "NorthernShieldGenerator2");
 				sp(283811, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 10000, "NorthernShieldGenerator3");
 		}
-		}, 15000);
+		}, 5000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+				sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+				sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+				sp(283814, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 5000, "NorthernShieldGenerator1");
+				sp(283814, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 5000, "NorthernShieldGenerator2");
+				sp(283814, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 5000, "NorthernShieldGenerator3");
+				sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 10000, "NorthernShieldGenerator1");
+				sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 10000, "NorthernShieldGenerator2");
+				sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 10000, "NorthernShieldGenerator3");
+			}
+		}, 10000);
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override

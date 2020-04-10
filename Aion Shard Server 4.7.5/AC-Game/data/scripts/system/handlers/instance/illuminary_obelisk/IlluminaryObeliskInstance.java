@@ -326,9 +326,9 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                     TWDTask.cancel(true);
                     TWD1Task.cancel(true);
                     TWD2Task.cancel(true);
-                    PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(0, 0));
                     sendMsg("[Congratulation]: you finish <ILLUMINARY OBELISK>");
                     spawn(730905, 255.5597f, 254.49713f, 455.12012f, (byte) 104); //Illuminary Obelisk Exit.
+                    PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(0, (0)));
                     break;
             }
         }
@@ -474,7 +474,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveEasternShieldGenerator1();
                 }
-            }, 60000); //spawn every 1 and a half minutes.
+            }, 25000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -488,7 +488,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveWesternShieldGenerator1();
                 }
-            }, 60000); //spawn every 1 and a half minutes.
+            }, 30000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -502,7 +502,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveSouthernShieldGenerator1();
                 }
-            }, 60000); //spawn every 1 and a half minutes.
+            }, 25000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -516,7 +516,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
                 public void run() {
                     startWaveNorthernShieldGenerator1();
                 }
-            }, 60000); //spawn every 1 and a half minutes.
+            }, 30000); //spawn every 1 and a half minutes.
         }
     }
 
@@ -779,6 +779,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
         player.getEffectController().removeEffect(skillId);
         removeItems(player);
         removeEffects(player);
+        TeleportService2.moveToInstanceExit(player, mapId, player.getRace());
     }
 
     @Override

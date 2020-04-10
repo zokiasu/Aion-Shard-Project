@@ -98,10 +98,12 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 					case 65:
 						shout_spawn();
 						spawn_support();
+						skill4();
 						break;
 					case 60:
 						shout_spawn();
 						spawn_support();
+						skill3();
 						break;
 					case 55:
 						shout_spawn();
@@ -113,6 +115,7 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 						break;
 					case 50:
 						skill_mass_destroy();
+						skill3();
 						break;
 					case 49:
 						skill4();
@@ -151,6 +154,7 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 					case 5:
 						shout_died();
 						skill1();
+						skill3();
 						break;
 				}
 				percents.remove(percent);
@@ -178,10 +182,10 @@ public class FinalGraendalHero extends AggressiveNpcAI2 {
 		}
 	}
 
-	private void skill3() { //Subzero Malice (Aoe Dégât)
+	private void skill3() { //Dash Attack (Fear)
 		VisibleObject target = getTarget();
 		if (target != null && target instanceof Player) {
-			SkillEngine.getInstance().getSkill(getOwner(), 21742, 65, target).useNoAnimationSkill();
+			SkillEngine.getInstance().getSkill(getOwner(), 2336, 65, target).useNoAnimationSkill();
 		}
 	}
 

@@ -191,7 +191,7 @@
     <map id="301100000" name="Unity Training Grounds" instance="true" death_level="0" water_level="16" world_size="2048"
          flags="RECALL PVP DUEL_SAME_RACE"/>
     <map id="301110000" name="Danuar Reliquary" instance="true" water_level="16" death_level="0" world_size="512"
-         flags="PVP DUEL_SAME_RACE"/>
+         flags="PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301120000" name="Kamar Battlefield" instance="true" water_level="200" death_level="0" world_size="3072"
          except_buff="true" flags="BIND RECALL GLIDE FLY_RIDE PVP DUEL_SAME_RACE">
         <ai_info chase_target="100" chase_home="1024"/>
@@ -221,7 +221,7 @@
         <ai_info chase_target="100" chase_home="1024"/>
     </map>
     <map id="301230000" name="Illuminary Obelisk" instance="true" death_level="0" water_level="16" world_size="512"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+         flags="BIND RECALL GLIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301240000" name="Legion's Kysis Barracks" instance="true" death_level="0" water_level="16"
          world_size="1024" flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301250000" name="Legion's Miren Barracks" instance="true" death_level="0" water_level="16"
@@ -243,13 +243,13 @@
     <map id="301320000" name="Lucky Ophidan Bridge" instance="true" death_level="0" water_level="16" world_size="1024"
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301330000" name="Lucky Danuar Reliquary" instance="true" death_level="0" water_level="16" world_size="512"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+         flags="PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301340000" name="Linkgate Foundry Legion" instance="true" death_level="0" water_level="16" world_size="512"
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301360000" name="Infernal Danuar Reliquary" instance="true" death_level="0" water_level="16" world_size="512"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+         flags="PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301370000" name="Infernal Illuminary Obelisk" instance="true" death_level="0" water_level="16" world_size="512"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>  
+         flags="BIND RECALL GLIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
 	<map id="301380000" name="IDLDF5_Under_02_e" death_level="0" water_level="16" world_size="1536"
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301390000" name="IDSeal" death_level="0" water_level="16" world_size="1024"
