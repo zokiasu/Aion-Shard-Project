@@ -153,7 +153,7 @@ public class GeneralInstanceHandler implements InstanceHandler {
         NpcShoutsService.getInstance().sendMsg(instance, msg, Obj, isShout, color, time);
     }
     
-    protected void spawnWalk(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkern) {
+    public void spawnWalk(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkern) {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
     		@Override
     		public void run() {

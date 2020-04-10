@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <npc_walker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_walker.xsd">
-	<walker_template pool="1" route_id="A2142518112">
-		<routestep step="1" x="141.52344" y="155.88562" z="121.98148"/>
-		<routestep step="2" x="135.98645" y="158.15436" z="120.50218"/>
-		<routestep step="3" x="129.14023" y="158.77403" z="118.36657"/>
-		<routestep step="4" x="122.2751" y="157.44235" z="116.34211"/>
-		<routestep step="5" x="135.98645" y="158.15436" z="120.50218"/>
-		<routestep step="6" x="129.14023" y="158.77403" z="118.36657"/>
-		<routestep step="7" x="122.2751" y="157.44235" z="116.34211"/>
-		<routestep step="8" x="135.98645" y="158.15436" z="120.50218"/>
-		<routestep step="9" x="129.23456" y="158.76549" z="118.39942"/>
-		<routestep step="10" x="122.2751" y="157.44235" z="116.34211"/>
-		<routestep step="11" x="135.98645" y="158.15436" z="120.50218"/>
+	<walker_template pool="1" route_id="A2142518112"><!--Droite Hyp-->
+		<routestep step="1" x="148.05475" y="149.27284" z="123.88327"/>
+		<routestep step="2" x="143.66364" y="154.5929" z="122.62778"/>
+		<routestep step="3" x="137.95793" y="157.95786" z="120.93821"/>
+		<routestep step="4" x="131.374" y="159.74" z="119.147224"/>
+		<routestep step="5" x="122.6912" y="159.0961" z="116.65696"/>
+		<routestep step="6" x="115.866684" y="155.87823" z="114.655014"/>
+		<routestep step="7" x="109.96739" y="148.74171" z="112.91484"/>
+		<routestep step="8" x="112.43357" y="141.43074" z="112.17429"/>
+		<routestep step="9" x="119.08637" y="140.06558" z="112.122777"/>
+		<routestep step="10" x="127.3712" y="137.95296" z="112.17429"/>
 	</walker_template>
 	<walker_template pool="1" route_id="B2142518141">
-		<routestep step="1" x="113.65226" y="120.10397" z="122.64897"/>
-		<routestep step="2" x="119.49632" y="117.8148" z="121.28413"/>
-		<routestep step="3" x="125.93277" y="116.266815" z="119.42543"/>
-		<routestep step="4" x="132.45815" y="116.00026" z="117.58343"/>
-		<routestep step="5" x="119.49632" y="117.8148" z="121.28413"/>
-		<routestep step="6" x="125.93277" y="116.266815" z="119.42543"/>
-		<routestep step="7" x="132.45815" y="116.00026" z="117.58343"/>
-		<routestep step="8" x="119.49632" y="117.8148" z="121.28413"/>
-		<routestep step="9" x="125.93277" y="116.266815" z="119.42543"/>
-		<routestep step="10" x="132.45815" y="116.00026" z="117.58343"/>
-		<routestep step="11" x="119.49632" y="117.8148" z="121.28413"/>
-		<routestep step="12" x="125.93277" y="116.266815" z="119.42543"/>
-		<routestep step="13" x="132.45815" y="116.00026" z="117.58343"/>
-		<routestep step="14" x="119.49632" y="117.8148" z="121.28413"/>
-		<routestep step="15" x="125.93277" y="116.266815" z="119.42543"/>
-		<routestep step="16" x="132.45815" y="116.00026" z="117.58343"/>
-		<routestep step="17" x="119.49632" y="117.8148" z="121.28413"/>
-		<routestep step="18" x="125.93277" y="116.266815" z="119.42543"/>
-		<routestep step="19" x="132.45815" y="116.00026" z="117.58343"/>
+		<routestep step="1" x="110.610016" y="125.708755" z="123.75383"/>
+		<routestep step="2" x="113.44825" y="122.22964" z="122.93465"/>
+		<routestep step="3" x="118.10485" y="119.55278" z="121.76319"/>
+		<routestep step="4" x="123.854645" y="116.90273" z="120.07626"/>
+		<routestep step="5" x="134.93584" y="116.16207" z="116.86541"/>
+		<routestep step="6" x="141.45941" y="118.83148" z="115.00733"/>
+		<routestep step="7" x="145.96611" y="123.18225" z="113.66928"/>
+		<routestep step="8" x="149.1969" y="129.50432" z="112.52877"/>
+		<routestep step="9" x="144.23097" y="135.13924" z="112.17429"/>
+		<routestep step="10" x="137.90935" y="136.44106" z="112.17429"/>
+		<routestep step="11" x="127.3712" y="137.95296" z="112.17429"/>
 	</walker_template>
 	<walker_template route_id="3AE5EA877BC596C2" pool="1">
 		<routestep step="1" x="135.99" y="158.15" z="121.999626"/>
@@ -43,5 +34,5 @@
 		<routestep step="1" x="119.50" y="117.81" z="122.632065"/>
 		<routestep step="2" x="125.93" y="116.27" z="119.632065"/>
 		<routestep step="3" x="132.46" y="116.00" z="118.24958"/>
-	</walker_template>	
+	</walker_template>
 </npc_walker>
