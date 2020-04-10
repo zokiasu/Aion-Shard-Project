@@ -155,7 +155,7 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
     }
 
     private void spawnHyperionEasy() {
-        
+
         spawn(231103, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
         spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
         spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
@@ -365,11 +365,9 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
         ThreadPoolManager.getInstance().schedule(new Runnable() {
             @Override
             public void run() {
-                if (!isInstanceDestroyed) {
-                    Npc npc = (Npc) spawn(npcId, x, y, z, h);
-                    npc.getSpawn().setWalkerId(walkerId);
-                    WalkManager.startWalking((NpcAI2) npc.getAi2());
-                }
+                Npc npc = (Npc) spawn(npcId, x, y, z, h);
+                npc.getSpawn().setWalkerId(walkerId);
+                WalkManager.startWalking((NpcAI2) npc.getAi2());
             }
         }, time);
     }
