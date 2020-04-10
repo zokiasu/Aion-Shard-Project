@@ -722,12 +722,6 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
     }
 
     @Override
-    public void onPlayerLogOut(Player player) {
-        removeItems(player);
-        removeEffects(player);
-    }
-
-    @Override
     public void onLeaveInstance(Player player) {
         player.getEffectController().removeEffect(skillId);
         removeItems(player);
@@ -778,6 +772,13 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
             return instance.getNpcs(npcId);
         }
         return null;
+    }
+
+    @Override
+    public void onPlayerLogOut(Player player) {
+        player.getEffectController().removeEffect(skillId);
+        removeItems(player);
+        removeEffects(player);
     }
 
     @Override

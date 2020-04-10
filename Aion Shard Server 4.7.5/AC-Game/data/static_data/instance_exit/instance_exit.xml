@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instance_exits xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="instance_exit.xsd">
     <!-- Baranath Dredgion -->
-    <instance_exit instance_id="300110000" exit_world="400010000" race="ELYOS" x="2867.418" y="1041.6997" z="1528.1271"
-                   h="73"/>
-    <instance_exit instance_id="300110000" exit_world="400010000" race="ASMODIANS" x="1079.1681" y="2829.6619"
-                   z="1636.4817" h="44"/>
+    <instance_exit instance_id="300110000" exit_world="400010000" race="ELYOS" x="2867.418" y="1041.6997" z="1528.1271" h="73"/>
+    <instance_exit instance_id="300110000" exit_world="400010000" race="ASMODIANS" x="1079.1681" y="2829.6619" z="1636.4817" h="44"/>
     <!-- Chantra Dredgion -->
-    <instance_exit instance_id="300210000" exit_world="110070000" race="ELYOS" x="444.95486" y="250.77603"
-                   z="126.97165"/>
-    <instance_exit instance_id="300210000" exit_world="120080000" race="ASMODIANS" x="549.487" y="202.21657"
-                   z="93.479576" h="29"/>
+    <instance_exit instance_id="300210000" exit_world="110070000" race="ELYOS" x="444.95486" y="250.77603" z="126.97165"/>
+    <instance_exit instance_id="300210000" exit_world="120080000" race="ASMODIANS" x="549.487" y="202.21657" z="93.479576" h="29"/>
     <!-- Terath Dredgion -->
-    <instance_exit instance_id="300440000" exit_world="600030000" race="ELYOS" x="144.1655" y="1611.9403" z="295.27646"
-                   h="2"/>
-    <instance_exit instance_id="300440000" exit_world="600030000" race="ASMODIANS" x="143.6365" y="1857.7517"
-                   z="294.6865" h="119"/>
+    <instance_exit instance_id="300440000" exit_world="600030000" race="ELYOS" x="144.1655" y="1611.9403" z="295.27646" h="2"/>
+    <instance_exit instance_id="300440000" exit_world="600030000" race="ASMODIANS" x="143.6365" y="1857.7517" z="294.6865" h="119"/>
     <!-- Nochsana Training Camp -->
     <instance_exit instance_id="300030000" exit_world="400010000" race="ELYOS" x="2890" y="754" z="1498.5786"/>
-    <instance_exit instance_id="300030000" exit_world="400010000" race="ASMODIANS" x="876.7211" y="3079.2874"
-                   z="1644.5786"/>
+    <instance_exit instance_id="300030000" exit_world="400010000" race="ASMODIANS" x="876.7211" y="3079.2874" z="1644.5786"/>
     <!-- Dark Poeta -->
     <instance_exit instance_id="300040000" exit_world="210040000" race="ELYOS" x="2019.51" y="1467.34" z="127.19"/>
     <instance_exit instance_id="300040000" exit_world="220040000" race="ASMODIANS" x="2420.12" y="2061.31" z="579.7"/>
     <!-- Haramel -->
-    <instance_exit instance_id="300200000" exit_world="210030000" race="ELYOS" x="2533.8564" y="835.055" z="103.967476"
-                   h="59"/>
-    <instance_exit instance_id="300200000" exit_world="220030000" race="ASMODIANS" x="2907.624" y="1464.1887"
-                   z="252.59264" h="36"/>
+    <instance_exit instance_id="300200000" exit_world="110010000" race="ELYOS" x="1394" y="1512" z="572" h="61"/>
+    <instance_exit instance_id="300200000" exit_world="120010000" race="ASMODIANS" x="1637" y="1406" z="193" h="31"/>
     <!-- Chamber Of Roah -->
     <instance_exit instance_id="300070000" exit_world="400010000" race="ELYOS" x="2712.53" y="757.89" z="2854.295"/>
     <instance_exit instance_id="300070000" exit_world="400010000" race="ASMODIANS" x="2712.53" y="757.89" z="2854.295"/>

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
     <spawn_map map_id="300200000">
-        <spawn npc_id="830150" respawn_time="295" difficult_id="0" custom="true">
+        <!-- Essencetapping Asmo -->
+        <spawn npc_id="204096" respawn_time="295" difficult_id="0" custom="true">
             <spot x="151.0137" y="81.01374" z="144.00992" h="91" entity_id="0"/>
         </spawn>
-        <spawn npc_id="830066" respawn_time="295" difficult_id="0" custom="true">
+        <!-- Essencetapping Elyos -->
+        <spawn npc_id="203780" respawn_time="295" difficult_id="0" custom="true">
             <spot x="146.75159" y="81.066734" z="143.95615" h="90" entity_id="0"/>
         </spawn>
-        <spawn npc_id="830148" respawn_time="295" difficult_id="0" custom="true">
+        <!-- Aethertapping Asmo -->
+        <spawn npc_id="204257" respawn_time="295" difficult_id="0" custom="true">
             <spot x="227.5215" y="291.0202" z="142.42577" h="89" entity_id="0"/>
         </spawn>
-        <spawn npc_id="830064" respawn_time="295" difficult_id="0" custom="true">
+        <!-- Aethertapping Elyos -->
+        <spawn npc_id="203782" respawn_time="295" difficult_id="0" custom="true">
             <spot x="223.25967" y="290.62875" z="142.42932" h="89" entity_id="0"/>
         </spawn>
         <spawn npc_id="700852">
