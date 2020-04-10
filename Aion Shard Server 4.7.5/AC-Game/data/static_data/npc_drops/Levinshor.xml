@@ -598,6 +598,158 @@
             </drop_group>
         </npc_drop>
     <!-- Fin Agent Fight -->
+    <!-- Debut Vocolith -->
+        <npc_drops npcid="287276">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+            </drop_group>
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+                <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            </drop_group>
+            <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
+                <drop item_id="188053339" chance="5" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
+                <drop item_id="152012635" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012634" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012637" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012636" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012633" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
+                <drop item_id="152012641" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012640" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012643" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012642" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+            </npc_drops>
+        <npc_drops npcid="287277">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+            </drop_group>
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+                <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            </drop_group>
+            <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
+                <drop item_id="188053339" chance="5" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
+                <drop item_id="152012635" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012634" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012637" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012636" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012633" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
+                <drop item_id="152012641" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012640" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012643" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012642" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+        </npc_drops>
+        <npc_drops npcid="235219">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+            </drop_group>
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+                <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            </drop_group>
+            <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
+                <drop item_id="188053339" chance="5" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
+                <drop item_id="152012635" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012634" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012637" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012636" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012633" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
+                <drop item_id="152012641" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012640" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012643" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012642" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+        </npc_drops>
+        <npc_drops npcid="235220">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+            </drop_group>
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+                <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            </drop_group>
+            <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
+                <drop item_id="188053339" chance="5" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
+                <drop item_id="152012635" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012634" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012637" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012636" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012633" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
+                <drop item_id="152012641" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012640" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012643" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012642" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+        </npc_drops>
+        <npc_drops npcid="231075">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+            </drop_group>
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+                <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            </drop_group>
+            <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
+                <drop item_id="188053339" chance="5" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
+            </drop_group>
+        <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
+            <drop item_id="152012635" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012634" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012637" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012636" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012633" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+        </drop_group>
+        <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
+            <drop item_id="152012641" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012640" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012643" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012642" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+        </drop_group>
+        </npc_drops>
+        <npc_drops npcid="214159">
+            <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+                <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+            </drop_group>
+            <drop_group use_category="true" name="TEMPERING_SOLUTION" race="PC_ALL">
+                <drop item_id="166030005" chance="1.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            </drop_group>
+            <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
+                <drop item_id="188053339" chance="5" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
+                <drop item_id="152012635" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012634" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012637" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012636" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012633" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+            <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
+                <drop item_id="152012641" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012640" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012643" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012642" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+                <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            </drop_group>
+        </npc_drops>
+    <!-- Fin Vocolith -->
     <!-- Debut Invasion -->
         <npc_drop npc_id="234609">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
