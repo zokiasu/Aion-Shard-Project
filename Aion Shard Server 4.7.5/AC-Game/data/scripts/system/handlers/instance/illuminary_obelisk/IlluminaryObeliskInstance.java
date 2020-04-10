@@ -65,6 +65,7 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
     private Future<?> instanceTimer;
     private Map<Integer, StaticDoor> doors;
     protected boolean isInstanceDestroyed = false;
+    protected boolean portal = true;
     private List<Integer> movies = new ArrayList<Integer>();
     private int skillId;
 
@@ -610,7 +611,6 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
      * ********************************
      */
     private void spawnShieldControlRoomTeleporter() {
-        sendMsg(1402202);
 
         isEnd = true;
         GENTask.cancel(true);
@@ -666,15 +666,18 @@ public class IlluminaryObeliskInstance extends GeneralInstanceHandler {
         deleteNpc(283817);
         deleteNpc(283817);
 
-        deleteNpc(702010);
-        deleteNpc(702011);
-        deleteNpc(702012);
-        deleteNpc(702013);
-
-        spawn(730886, 255.47392f, 293.56177f, 321.18497f, (byte) 89);
-        spawn(730886, 255.55742f, 216.03549f, 321.21344f, (byte) 30);
-        spawn(730886, 294.20718f, 254.60352f, 295.7729f, (byte) 60);
-        spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
+        if(portal) {
+            sendMsg(1402202);
+            deleteNpc(702010);
+            deleteNpc(702011);
+            deleteNpc(702012);
+            deleteNpc(702013);
+            spawn(730886, 255.47392f, 293.56177f, 321.18497f, (byte) 89);
+            spawn(730886, 255.55742f, 216.03549f, 321.21344f, (byte) 30);
+            spawn(730886, 294.20718f, 254.60352f, 295.7729f, (byte) 60);
+            spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
+            portal = false;
+        }
     }
 
     protected void sp(final int npcId, final float x, final float y, final float z, final byte h, final int time, final String walkerId) {

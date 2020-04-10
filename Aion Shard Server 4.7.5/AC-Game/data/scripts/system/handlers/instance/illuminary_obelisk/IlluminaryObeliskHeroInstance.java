@@ -63,6 +63,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
     private Future<?> instanceTimer;
     private Map<Integer, StaticDoor> doors;
     protected boolean isInstanceDestroyed = false;
+    protected boolean portal = true;
     private List<Integer> movies = new ArrayList<Integer>();
     private int skillId;
 
@@ -589,15 +590,59 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
      * ********************************
      */
     private void spawnShieldControlRoomTeleporter() {
-        sendMsg(1402202);
-        deleteNpc(702010);
-        deleteNpc(702011);
-        deleteNpc(702012);
-        deleteNpc(702013);
-        spawn(730886, 255.47392f, 293.56177f, 321.18497f, (byte) 89);
-        spawn(730886, 255.55742f, 216.03549f, 321.21344f, (byte) 30);
-        spawn(730886, 294.20718f, 254.60352f, 295.7729f, (byte) 60);
-        spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
+
+        deleteNpc(283809);
+        deleteNpc(283809);
+        deleteNpc(283809);
+        deleteNpc(283809);
+
+        deleteNpc(283810);
+        deleteNpc(283810);
+        deleteNpc(283810);
+        deleteNpc(283810);
+
+        deleteNpc(283811);
+        deleteNpc(283811);
+        deleteNpc(283811);
+        deleteNpc(283811);
+
+        deleteNpc(283812);
+        deleteNpc(283812);
+        deleteNpc(283812);
+        deleteNpc(283812);
+
+        deleteNpc(283814);
+        deleteNpc(283814);
+        deleteNpc(283814);
+        deleteNpc(283814);
+
+        deleteNpc(283815);
+        deleteNpc(283815);
+        deleteNpc(283815);
+        deleteNpc(283815);
+
+        deleteNpc(283816);
+        deleteNpc(283816);
+        deleteNpc(283816);
+        deleteNpc(283816);
+
+        deleteNpc(283817);
+        deleteNpc(283817);
+        deleteNpc(283817);
+        deleteNpc(283817);
+        
+        if(portal) {
+            sendMsg(1402202);
+            deleteNpc(702010);
+            deleteNpc(702011);
+            deleteNpc(702012);
+            deleteNpc(702013);
+            spawn(730886, 255.47392f, 293.56177f, 321.18497f, (byte) 89);
+            spawn(730886, 255.55742f, 216.03549f, 321.21344f, (byte) 30);
+            spawn(730886, 294.20718f, 254.60352f, 295.7729f, (byte) 60);
+            spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
+            portal = false;
+        }
         GENTask.cancel(true);
         CNT1Task.cancel(true);
         CNT2Task.cancel(true);
