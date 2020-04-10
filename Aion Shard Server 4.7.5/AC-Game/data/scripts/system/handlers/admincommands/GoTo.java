@@ -742,7 +742,36 @@ public class GoTo extends AdminCommand {
         	} else if (player.getRace() == Race.ASMODIANS) {
         		goTo(player, 301310000, 258.5553f, 169.85149f, 79.430855f, (byte) 45);
         	}
-        }/**
+        } /**
+         * 4.7 Camps Akaron
+         */
+        else if (destination.equalsIgnoreCase("100")) { //Base Centrale (Dragon Lord's Shrine)
+            goTo(player, 600100000, 946, 1040, 334);
+        } else if (destination.equalsIgnoreCase("101")) { //North Relay
+            goTo(player, 600100000, 503, 1173, 276);
+        } else if (destination.equalsIgnoreCase("102")) { //South Relay
+            goTo(player, 600100000, 1102, 496, 184);
+        } else if (destination.equalsIgnoreCase("103")) { //North Outpost
+            goTo(player, 600100000, 374, 989, 248);
+        } else if (destination.equalsIgnoreCase("104")) { //East Outpost
+            goTo(player, 600100000, 885, 1856, 229);
+        } else if (destination.equalsIgnoreCase("105")) { //East Relay
+            goTo(player, 600100000, 542, 1562, 234);
+        } else if (destination.equalsIgnoreCase("106")) { //West Picket
+            goTo(player, 600100000, 824, 629, 276);
+        } else if (destination.equalsIgnoreCase("107")) { //South Outpost
+            goTo(player, 600100000, 1899, 809, 237);
+        } else if (destination.equalsIgnoreCase("108")) { //West Outpost
+            goTo(player, 600100000, 1171, 252, 239);
+        } else if (destination.equalsIgnoreCase("109")) { //West Relay
+            goTo(player, 600100000, 1667, 239, 251);
+        } else if (destination.equalsIgnoreCase("110")) { //East Picket
+            goTo(player, 600100000, 1258, 1441, 275);
+        } else if (destination.equalsIgnoreCase("111")) { //North Picket
+            goTo(player, 600100000, 537, 583, 265);
+        } else if (destination.equalsIgnoreCase("112")) { //South Picket
+            goTo(player, 600100000, 1626, 1563, 248);
+        } /**
          * 4.8
          */
         else if (destination.equalsIgnoreCase("idsweep")) {

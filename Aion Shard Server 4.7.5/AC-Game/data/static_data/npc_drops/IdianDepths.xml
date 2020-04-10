@@ -6443,7 +6443,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -6646,7 +6646,6 @@
             <drop item_id="152012624" chance="1.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012625" chance="1.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012626" chance="1.0" min_amount="1" max_amount="10"/>
-
             <drop item_id="152012627" chance="1.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012628" chance="1.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012629" chance="1.0" min_amount="1" max_amount="10"/>
@@ -6688,7 +6687,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -6933,7 +6932,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -7178,7 +7177,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -7423,7 +7422,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -7668,7 +7667,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -7913,7 +7912,7 @@
             <drop item_id="182400001" chance="10.0" min_amount="1000" max_amount="30000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -8158,7 +8157,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -8418,7 +8417,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -8678,7 +8677,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -8938,7 +8937,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -9198,7 +9197,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -9458,7 +9457,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -9718,7 +9717,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -9978,7 +9977,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -10238,7 +10237,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -10498,7 +10497,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -10758,7 +10757,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
@@ -11018,7 +11017,7 @@
             <drop item_id="182400001" chance="25.0" min_amount="1000" max_amount="50000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
-            <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
+            <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ENIGMATIC_ORE">
             <drop item_id="152012579" chance="5.0" min_amount="1" max_amount="1"/>
