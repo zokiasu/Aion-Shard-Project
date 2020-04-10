@@ -156,6 +156,11 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
         }
     }
 
+    private void addPercent() {
+        percents.clear();
+        Collections.addAll(percents, new Integer[]{80, 75, 70, 60, 55, 52, 50, 47, 40, 35, 30, 25, 20, 10, 5, 2});
+    }
+
     private void spawnHyperionEasy() {
 
         spawn(231103, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
@@ -225,11 +230,6 @@ public class HyperionAI2 extends AggressiveNpcAI2 {
                 spawn(284070, 124.02135f, 146.44595f, 112.12359f, (byte) 99);
                 break;
         }
-    }
-
-    private void addPercent() {
-        percents.clear();
-        Collections.addAll(percents, new Integer[]{80, 75, 60, 55, 52, 50, 40, 35, 30, 25, 20, 10, 5, 2});
     }
 
     private void startSkillTask() {
