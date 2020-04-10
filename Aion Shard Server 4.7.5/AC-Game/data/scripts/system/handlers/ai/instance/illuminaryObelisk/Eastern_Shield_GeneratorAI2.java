@@ -118,14 +118,14 @@ public class Eastern_Shield_GeneratorAI2 extends ActionItemNpcAI2 {
 	private void startWaveEasternShieldGenerator1() {
 		sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
 		sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
-		sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+		sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
 			public void run() {
-				sp(283811, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
-				sp(283811, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
-				sp(283811, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
+				sp(283811, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+				sp(283811, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+				sp(283811, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
 			}
 		}, 15000);
 
@@ -145,11 +145,20 @@ public class Eastern_Shield_GeneratorAI2 extends ActionItemNpcAI2 {
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
 			public void run() {
-				sp(283814, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
-				sp(283814, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
-				sp(283814, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
+				sp(283814, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+				sp(283814, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+				sp(283814, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
 			}
 		}, 15000);
+
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
+			@Override
+			public void run() {
+				sp(283812, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 1000, "NorthernShieldGenerator1");
+				sp(283812, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 1000, "NorthernShieldGenerator2");
+				sp(283812, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 1000, "NorthernShieldGenerator3");
+			}
+		}, 30000);
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
@@ -160,12 +169,15 @@ public class Eastern_Shield_GeneratorAI2 extends ActionItemNpcAI2 {
     }
 
     private void startWaveEasternShieldGenerator3() {
-		sp(283812, 252.68709f, 333.483f, 325.59268f, (byte) 90, 6000, "EasternShieldGenerator1");
-		sp(283812, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 6000, "EasternShieldGenerator2");
-		sp(283812, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 6000, "EasternShieldGenerator3");
-		sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
-		sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
-		sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
+		sp(283812, 252.68709f, 333.483f, 325.59268f, (byte) 90, 1000, "EasternShieldGenerator1");
+		sp(283812, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 1000, "EasternShieldGenerator2");
+		sp(283812, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 1000, "EasternShieldGenerator3");
+		sp(283814, 252.68709f, 333.483f, 325.59268f, (byte) 90, 5000, "EasternShieldGenerator1");
+		sp(283814, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 5000, "EasternShieldGenerator2");
+		sp(283814, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 5000, "EasternShieldGenerator3");
+		sp(283809, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 10000, "NorthernShieldGenerator1");
+		sp(283809, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 10000, "NorthernShieldGenerator2");
+		sp(283809, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 10000, "NorthernShieldGenerator3");
 
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
 			@Override
@@ -176,6 +188,9 @@ public class Eastern_Shield_GeneratorAI2 extends ActionItemNpcAI2 {
 				sp(283809, 252.68709f, 333.483f, 325.59268f, (byte) 90, 23000, "EasternShieldGenerator1");
 				sp(283809, 255.74022f, 333.2762f, 325.49332f, (byte) 90, 23000, "EasternShieldGenerator2");
 				sp(283809, 258.72256f, 333.27713f, 325.58722f, (byte) 90, 23000, "EasternShieldGenerator3");
+				sp(283811, 174.50981f, 251.38982f, 292.43088f, (byte) 0, 10000, "NorthernShieldGenerator1");
+				sp(283811, 174.9973f, 254.4739f, 292.3325f, (byte) 0, 10000, "NorthernShieldGenerator2");
+				sp(283811, 174.84029f, 257.80832f, 292.4389f, (byte) 0, 10000, "NorthernShieldGenerator3");
 			}
 		}, 15000);
 

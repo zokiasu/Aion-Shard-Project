@@ -644,7 +644,7 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
             spawn(730886, 216.97739f, 254.4616f, 295.77353f, (byte) 0);
             portal = false;
         }
-        
+
         GENTask.cancel(true);
         CNT1Task.cancel(true);
         CNT2Task.cancel(true);
