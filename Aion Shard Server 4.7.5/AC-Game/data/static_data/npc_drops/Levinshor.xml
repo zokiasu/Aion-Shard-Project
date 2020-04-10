@@ -599,7 +599,7 @@
         </npc_drop>
     <!-- Fin Agent Fight -->
     <!-- Debut Vocolith -->
-        <npc_drop npcid="287276">
+        <npc_drop npc_id="287276">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
@@ -624,7 +624,7 @@
                 <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
         </npc_drop>
-        <npc_drop npcid="287277">
+        <npc_drop npc_id="287277">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
@@ -649,7 +649,7 @@
                 <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
         </npc_drop>
-        <npc_drop npcid="235219">
+        <npc_drop npc_id="235219">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
@@ -674,7 +674,7 @@
                 <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
         </npc_drop>
-        <npc_drop npcid="235220">
+        <npc_drop npc_id="235220">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
@@ -699,7 +699,7 @@
                 <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
             </drop_group>
         </npc_drop>
-        <npc_drop npcid="231075">
+        <npc_drop npc_id="231075">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
@@ -724,7 +724,7 @@
             <drop item_id="152012639" chance="6" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
         </drop_group>
         </npc_drop>
-        <npc_drop npcid="214159">
+        <npc_drop npc_id="214159">
             <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
                 <drop item_id="188052201" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
             </drop_group>
