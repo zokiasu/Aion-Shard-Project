@@ -240,23 +240,6 @@ public class DanuarReliquaryInstance extends GeneralInstanceHandler {
 	}
 
 	@Override
-	public void onDropRegistered(Npc npc) {
-		Set < DropItem > dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
-		int npcId = npc.getNpcId();
-		switch (npcId) {
-			case 231304:
-			case 231305:
-				int index = dropItems.size() + 1;
-				for (Player player: instance.getPlayersInside()) {
-					if (player.isOnline()) {
-						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188052388, 1)); //Modor's Equipment Box.
-					}
-				}
-				break;
-		}
-	}
-
-	@Override
 	public void onLeaveInstance(Player player) {
 		player.getEffectController().removeEffect(skillId);
 	}

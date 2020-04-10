@@ -1078,11 +1078,11 @@
     </portal_use>
 
     <!-- KATALAM TELEPORTER -->
-    <!-- Asmo Katalam to Kaldor Teleporter -->
+    <!-- Asmo Katalam/Levinshor to Kaldor Teleporter -->
     <portal_use npc_id="802453">
         <portal_path loc_id="6000900"/>
     </portal_use>
-    <!-- Elyos Katalam to Kaldor Teleporter -->
+    <!-- Elyos Katalam/Levinshor to Kaldor Teleporter -->
     <portal_use npc_id="802454">
         <portal_path loc_id="6000901"/>
     </portal_use>	

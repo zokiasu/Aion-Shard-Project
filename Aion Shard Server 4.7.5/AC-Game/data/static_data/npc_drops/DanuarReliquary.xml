@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops>
-	<npc_drop npc_id="0">
-		<drop_group use_category="true" name="SHAPER_TOKEN" race="PC_ALL">
-			<drop item_id="186000133" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="false"/>
+	<!-- Grendal HM -->
+	<npc_drop npc_id="234691">
+		<drop_group use_category="true" name="EQUIPMENT_BOX" race="PC_ALL">
+			<drop item_id="188052388" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+		</drop_group>
+		<drop_group use_category="true" name="MODOR_CRUX" race="PC_ALL">
+			<drop item_id="188053091" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Grendal NM -->
+	<npc_drop npc_id="231304">
+		<drop_group use_category="true" name="EQUIPMENT_BOX" race="PC_ALL">
+			<drop item_id="188052388" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+		</drop_group>
+	</npc_drop>
+	<npc_drop npc_id="231305">
+		<drop_group use_category="true" name="EQUIPMENT_BOX" race="PC_ALL">
+			<drop item_id="188052388" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
 		</drop_group>
 	</npc_drop>
 </npc_drops>

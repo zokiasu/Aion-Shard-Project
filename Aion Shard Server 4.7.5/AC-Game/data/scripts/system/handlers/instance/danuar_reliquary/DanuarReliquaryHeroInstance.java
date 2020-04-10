@@ -165,24 +165,6 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 	}
 
 	@Override
-	public void onDropRegistered(Npc npc) {
-		Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
-		int npcId = npc.getNpcId();
-                Integer object = instance.getSoloPlayerObj();
-		switch (npcId) {
-			case 234691:
-				int index = dropItems.size() + 1;
-				for (Player player: instance.getPlayersInside()) {
-					if (player.isOnline()) {
-						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188052388, 1)); //Modor's Equipment Box.
-						dropItems.add(DropRegistrationService.getInstance().regDropItem(index++, player.getObjectId(), npcId, 188053099, 1)); //Modor's Equipment Box.
-					}
-				}
-				break;
-		}
-	}
-
-	@Override
 	public void onInstanceDestroy() {
 		doors.clear();
 	}
@@ -198,17 +180,16 @@ public class DanuarReliquaryHeroInstance extends GeneralInstanceHandler {
 			npc.getController().onDelete();
 		}
 	}
-	
-	@Override
-	public boolean onDie(final Player player, Creature lastAttacker) {
-		PacketSendUtility.broadcastPacket(player,
-				new SM_EMOTION(player, EmotionType.DIE, 0, player.equals(lastAttacker) ? 0 : lastAttacker.getObjectId()), true);
-		PacketSendUtility.sendPacket(player, new SM_DIE(player.haveSelfRezEffect(), player.haveSelfRezItem(), 0, 8));
-		return true;
-	}
 
 	@Override
 	public void onLeaveInstance(Player player) {
 		player.getEffectController().removeEffect(skillId);
+	}
+
+	@Override
+	public boolean onDie(final Player player, Creature lastAttacker) {
+		PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, player.equals(lastAttacker) ? 0 : lastAttacker.getObjectId()), true);
+		PacketSendUtility.sendPacket(player, new SM_DIE(player.haveSelfRezEffect(), player.haveSelfRezItem(), 0, 8));
+		return true;
 	}
 }

@@ -750,7 +750,7 @@ public class GoTo extends AdminCommand {
         } else if (destination.equalsIgnoreCase("101")) { //North Relay
             goTo(player, 600100000, 503, 1173, 276);
         } else if (destination.equalsIgnoreCase("102")) { //South Relay
-            goTo(player, 600100000, 1102, 496, 184);
+            goTo(player, 600100000, 1416, 851, 258);
         } else if (destination.equalsIgnoreCase("103")) { //North Outpost
             goTo(player, 600100000, 374, 989, 248);
         } else if (destination.equalsIgnoreCase("104")) { //East Outpost

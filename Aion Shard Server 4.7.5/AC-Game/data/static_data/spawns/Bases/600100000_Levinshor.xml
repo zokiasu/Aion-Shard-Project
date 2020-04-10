@@ -109,12 +109,8 @@
 					<spot x="1730.0000" y="518.0000" z="232.625" h="20"/>
 				</spawn>
 				<!-- Levinshor [Dragon Lord Srine's] To Kaldor -->
-				<spawn npc_id="804563">
+				<spawn npc_id="802454">
 				    <spot x="957.6475" y="1034.6707" z="334.99393" h="49"/>
-				</spawn>
-				<!-- Infinity Shard 4.7 (Object Normal lvl:3) -->
-				<spawn npc_id="804623">
-				    <spot x="1076.0896" y="986.1598" z="338.0" h="75"/>
 				</spawn>
 				<!-- Teleporter (Object Normal lvl:3) -->
 				<spawn npc_id="731457">
@@ -227,7 +223,7 @@
 					<spot x="1730.0000" y="518.0000" z="232.625" h="20"/>
 				</spawn>
 				<!-- Levinshor [Dragon Lord Srine's] To Kaldor -->
-				<spawn npc_id="804566">
+				<spawn npc_id="802453">
 				    <spot x="957.46" y="1034.81" z="335.76" h="50"/>
 				</spawn>
 				<!-- Teleporter (Object Normal lvl:3) -->
@@ -428,7 +424,7 @@
 				    <spot h="105" x="478.08047" y="1202.0717" z="276.12125"/>
 				</spawn>
 				<!-- Levinshor [North Relay] To Kaldor -->
-				<spawn npc_id="804565">
+				<spawn npc_id="802454">
 				    <spot h="59" x="524.90576" y="1171.7664" z="277.49344"/>
 				</spawn>
 				<!-- Sacred Image Of Kaisinel -->
@@ -541,7 +537,7 @@
 				    <spot x="478.39346" y="1202.0018" z="276.14935" h="109"/>
 				</spawn>
 				<!-- Levinshor [North Relay] To Kaldor -->
-				<spawn npc_id="804568">
+				<spawn npc_id="802453">
 				    <spot x="524.75" y="1171.90" z="278.38" h="59"/>
 				</spawn>
 				<!-- Sacred Image Of Marchutan -->
@@ -715,7 +711,7 @@
 				    <spot x="1442.5225" y="874.82086" z="258.25" h="73"/>
 				</spawn>
 				<!-- Levinshor [South Relay] To Kaldor -->
-				<spawn npc_id="804564">
+				<spawn npc_id="802454">
 				    <spot x="1395.86" y="853.23" z="260.32" h="118"/>
 				</spawn>
 			</simple_race>
@@ -800,7 +796,7 @@
 				    <spot x="1442.5225" y="874.82086" z="258.25" h="73"/>
 				</spawn>
 				<!-- Levinshor [South Relay] To Kaldor -->
-				<spawn npc_id="804567">
+				<spawn npc_id="802453">
 				    <spot x="1395.86" y="853.23" z="260.32" h="118"/>
 				</spawn>	
 			</simple_race>
