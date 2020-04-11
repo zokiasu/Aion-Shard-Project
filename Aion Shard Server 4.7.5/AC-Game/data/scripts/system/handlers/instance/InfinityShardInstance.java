@@ -135,6 +135,7 @@ public class InfinityShardInstance extends GeneralInstanceHandler {
             case 231087:
             case 231088:
             case 231089:
+            case 284070:
                 npc.getController().onDelete();
                 break;
         }

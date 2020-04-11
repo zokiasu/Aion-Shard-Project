@@ -4107,24 +4107,24 @@
 	<skill minLevel="48" race="PC_ALL" autolearn="true" name="Incandescent Blow III" skillLevel="7" skillId="1248" classId="CHANTER" />
 	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Incandescent Blow III" skillLevel="8" skillId="1248" classId="CHANTER" />
 	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Incandescent Blow III" skillLevel="9" skillId="1248" classId="CHANTER" />
-	<skill minLevel="42" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="1" skillId="1334" classId="CHANTER" />
-	<skill minLevel="43" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="2" skillId="1334" classId="CHANTER" />
-	<skill minLevel="44" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="3" skillId="1334" classId="CHANTER" />
-	<skill minLevel="45" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="4" skillId="1334" classId="CHANTER" />
-	<skill minLevel="46" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="5" skillId="1334" classId="CHANTER" />
-	<skill minLevel="47" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="6" skillId="1334" classId="CHANTER" />
-	<skill minLevel="48" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="7" skillId="1334" classId="CHANTER" />
-	<skill minLevel="49" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="8" skillId="1334" classId="CHANTER" />
-	<skill minLevel="50" race="ELYOS" autolearn="true" name="Inescapable Judgment I" skillLevel="9" skillId="1334" classId="CHANTER" />
-	<skill minLevel="42" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="1" skillId="1335" classId="CHANTER" />
-	<skill minLevel="43" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="2" skillId="1335" classId="CHANTER" />
-	<skill minLevel="44" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="3" skillId="1335" classId="CHANTER" />
-	<skill minLevel="45" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="4" skillId="1335" classId="CHANTER" />
-	<skill minLevel="46" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="5" skillId="1335" classId="CHANTER" />
-	<skill minLevel="47" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="6" skillId="1335" classId="CHANTER" />
-	<skill minLevel="48" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="7" skillId="1335" classId="CHANTER" />
-	<skill minLevel="49" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="8" skillId="1335" classId="CHANTER" />
-	<skill minLevel="50" race="ASMODIANS" autolearn="true" name="Soul Strike I" skillLevel="9" skillId="1335" classId="CHANTER" />
+	<skill minLevel="42" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="1" skillId="1334" classId="CHANTER" />
+	<skill minLevel="43" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="2" skillId="1334" classId="CHANTER" />
+	<skill minLevel="44" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="3" skillId="1334" classId="CHANTER" />
+	<skill minLevel="45" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="4" skillId="1334" classId="CHANTER" />
+	<skill minLevel="46" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="5" skillId="1334" classId="CHANTER" />
+	<skill minLevel="47" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="6" skillId="1334" classId="CHANTER" />
+	<skill minLevel="48" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="7" skillId="1334" classId="CHANTER" />
+	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="8" skillId="1334" classId="CHANTER" />
+	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Inescapable Judgment I" skillLevel="9" skillId="1334" classId="CHANTER" />
+	<skill minLevel="42" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="1" skillId="1335" classId="CHANTER" />
+	<skill minLevel="43" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="2" skillId="1335" classId="CHANTER" />
+	<skill minLevel="44" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="3" skillId="1335" classId="CHANTER" />
+	<skill minLevel="45" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="4" skillId="1335" classId="CHANTER" />
+	<skill minLevel="46" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="5" skillId="1335" classId="CHANTER" />
+	<skill minLevel="47" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="6" skillId="1335" classId="CHANTER" />
+	<skill minLevel="48" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="7" skillId="1335" classId="CHANTER" />
+	<skill minLevel="49" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="8" skillId="1335" classId="CHANTER" />
+	<skill minLevel="50" race="ASMODIANS" autolearn="false" name="Soul Strike I" skillLevel="9" skillId="1335" classId="CHANTER" />
 	<skill minLevel="43" race="PC_ALL" autolearn="true" name="Intensity Mantra II" skillLevel="1" skillId="1349" classId="CHANTER" />
 	<skill minLevel="43" race="PC_ALL" autolearn="true" name="Promise of Wind IV" skillLevel="1" skillId="989" classId="CHANTER" />
 	<skill minLevel="44" race="PC_ALL" autolearn="true" name="Promise of Wind IV" skillLevel="2" skillId="989" classId="CHANTER" />
