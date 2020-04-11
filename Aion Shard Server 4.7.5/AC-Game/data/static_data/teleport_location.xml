@@ -430,8 +430,8 @@
     <!-- 79 base asmo -->
     <teleloc_template loc_id="234" mapid="600050000" name="Sillus Pass Watchpost" name_id="403600" posX="2433.9414" posY="2065.7131" posZ="287.60703" heading="79"/>
     <!-- 79 base ely-->
-    <teleloc_template loc_id="235" mapid="600050000" name="STR_LDF5a_DynAirport_SUB_D_5011" name_id="403601" posX="1976" posY="1934" posZ="336" heading="90"/>
-    <teleloc_template loc_id="236" mapid="600050000" name="STR_LDF5a_DynAirport_SUB_L_5011" name_id="403602" posX="1976" posY="1934" posZ="336" heading="90"/>
+    <teleloc_template loc_id="235" mapid="600050000" name="Sillus Fortress" name_id="403601" posX="1976" posY="1934" posZ="336" heading="90"/>
+    <teleloc_template loc_id="236" mapid="600050000" name="Sillus Fortress" name_id="403602" posX="1976" posY="1934" posZ="336" heading="90"/>
     <teleloc_template loc_id="237" mapid="600050000" name="Sillus Fortress" name_id="403603" posX="1977.78" posY="1932.18" posZ="334.62" heading="45"/>
     <teleloc_template loc_id="238" mapid="600050000" name="Sillus Fortress" name_id="403604" posX="1967.85" posY="1924.51" posZ="334.62" heading="45"/>
     <teleloc_template loc_id="239" mapid="600050000" name="Danuar Spire" name_id="403605"/>
