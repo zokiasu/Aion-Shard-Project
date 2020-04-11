@@ -392,10 +392,10 @@ public class GameServer {
         }
         
 		if(CustomConfig.FFA_ENABLE){
-			FFaService.getInstance().announceTask(60);
+			FFaService.getInstance().announceTask(120);
         }
         if(EventSystem.ENABLE_ONEVONE){
-            OneVsOneService.getInstance().autoAnnounce(60);
+            OneVsOneService.getInstance().autoAnnounce(120);
         }
 		if(EventSystem.ENABLE_CRAZY){
 			CrazyDaevaService.getInstance().startTimer();
