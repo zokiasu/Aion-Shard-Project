@@ -192,6 +192,7 @@ public class TeleportService2 {
             }
         }
 
+        //Blocks teleportation if the fortress does not belong to the player's faction.
         final SiegeService srv = SiegeService.getInstance();
         if((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(5011) != null && srv.getSiegeLocation(5011).getRace() == SiegeRace.ELYOS)){
             if(player.getRace().equals(Race.ASMODIANS)) {
@@ -203,6 +204,9 @@ public class TeleportService2 {
                 PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
                 return;
             }
+        } else if ((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(5011) != null && srv.getSiegeLocation(5011).getRace() == SiegeRace.BALAUR)) {
+            PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+            return;
         } else if ((locationTemplate.getName().equals("Pradeth Fortress")) && (srv.getSiegeLocation(6021) != null && srv.getSiegeLocation(6021).getRace() == SiegeRace.ELYOS)) {
             if(player.getRace().equals(Race.ASMODIANS)) {
                 PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
@@ -213,6 +217,9 @@ public class TeleportService2 {
                 PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
                 return;
             }
+        } else if ((locationTemplate.getName().equals("Pradeth Fortress")) && (srv.getSiegeLocation(6021) != null && srv.getSiegeLocation(6021).getRace() == SiegeRace.BALAUR)) {
+            PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+            return;
         } else if ((locationTemplate.getName().equals("Silona Fortress")) && (srv.getSiegeLocation(6011) != null && srv.getSiegeLocation(6011).getRace() == SiegeRace.ELYOS)) {
             if(player.getRace().equals(Race.ASMODIANS)) {
                 PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
@@ -223,7 +230,11 @@ public class TeleportService2 {
                 PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
                 return;
             }
+        } else if ((locationTemplate.getName().equals("Silona Fortress")) && (srv.getSiegeLocation(6011) != null && srv.getSiegeLocation(6011).getRace() == SiegeRace.BALAUR)) {
+            PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+            return;
         }
+
         // This function block some teleport, need to find why
         /*int id = SiegeService.getInstance().getFortressId(locId);
         if (id > 0 && !SiegeService.getInstance().getFortress(id).isCanTeleport(player)) {
