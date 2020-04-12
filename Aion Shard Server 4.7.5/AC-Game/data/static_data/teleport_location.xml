@@ -590,9 +590,9 @@
     <!-- new 4.7 -->
     <teleloc_template loc_id="321" mapid="600090000" name="Flamecrest Outpost D" name_id="404266" posX="1098" posY="1251" posZ="178" heading="0"/>
     <!-- new 4.7 -->
-    <teleloc_template loc_id="322" mapid="600090000" name="Wealhtheow Keep L" name_id="404267" posX="757" posY="275" posZ="156" heading="60"/>
+    <teleloc_template loc_id="322" mapid="600090000" name="Wealhtheow Keep" name_id="404267" posX="757" posY="275" posZ="156" heading="60"/>
     <!-- new 4.7 -->
-    <teleloc_template loc_id="323" mapid="600090000" name="Wealhtheow Keep D" name_id="404268" posX="757" posY="275" posZ="156" heading="60"/>
+    <teleloc_template loc_id="323" mapid="600090000" name="Wealhtheow Keep" name_id="404268" posX="757" posY="275" posZ="156" heading="60"/>
     <!-- new 4.7 -->
     <teleloc_template loc_id="324" mapid="600090000" name="Stonereach Outpost L" name_id="404269" posX="457" posY="1267" posZ="131" heading="0"/>
     <!-- new 4.7 -->
@@ -662,9 +662,9 @@
     <!-- new 4.7 -->
     <teleloc_template loc_id="357" mapid="400060000" name="Disilheim Redoubt" name_id="404305" posX="1875.5597" posY="202.80507" posZ="1489.649" heading="69"/>
     <!-- new 4.7 -->
-    <teleloc_template loc_id="358" mapid="600090000" name="Wealhtheow Keep L" name_id="404267" posX="755.8279" posY="274.5816" posZ="155.6706" heading="68"/>
+    <teleloc_template loc_id="358" mapid="600090000" name="Wealhtheow Keep" name_id="404267" posX="755.8279" posY="274.5816" posZ="155.6706" heading="68"/>
     <!-- new 4.7 -->
-    <teleloc_template loc_id="359" mapid="600090000" name="Wealhtheow Keep D" name_id="404268" posX="755.8279" posY="274.5816" posZ="155.6706" heading="68"/>
+    <teleloc_template loc_id="359" mapid="600090000" name="Wealhtheow Keep" name_id="404268" posX="755.8279" posY="274.5816" posZ="155.6706" heading="68"/>
     <!-- new 4.7 -->
     <teleloc_template loc_id="360" mapid="600060000" name="Danaria Ely" name_id="403871" posX="2560.2988" posY="1489.4193" posZ="91.759834" heading="91"/>
     <!-- new 4.7 -->

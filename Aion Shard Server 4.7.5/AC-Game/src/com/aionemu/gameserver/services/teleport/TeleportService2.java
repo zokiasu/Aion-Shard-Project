@@ -233,6 +233,19 @@ public class TeleportService2 {
         } else if ((locationTemplate.getName().equals("Silona Fortress")) && (srv.getSiegeLocation(6011) != null && srv.getSiegeLocation(6011).getRace() == SiegeRace.BALAUR)) {
             PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
             return;
+        } else if ((locationTemplate.getName().equals("Wealhtheow Keep")) && (srv.getSiegeLocation(7011) != null && srv.getSiegeLocation(7011).getRace() == SiegeRace.ELYOS)) {
+            if(player.getRace().equals(Race.ASMODIANS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Wealhtheow Keep")) && (srv.getSiegeLocation(7011) != null && srv.getSiegeLocation(7011).getRace() == SiegeRace.ASMODIANS)) {
+            if(player.getRace().equals(Race.ELYOS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Wealhtheow Keep")) && (srv.getSiegeLocation(7011) != null && srv.getSiegeLocation(7011).getRace() == SiegeRace.BALAUR)) {
+            PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+            return;
         }
 
         // This function block some teleport, need to find why
