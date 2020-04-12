@@ -68,8 +68,7 @@ public class FFaService implements FFaStruct {
 					World.getInstance().doOnAllPlayers(new Visitor<Player>() {
 						@Override
 						public void visit(Player object) {
-							PacketSendUtility.sendWhiteMessageOnCenter(object, " - There are " + getPlayerCount() + " player(s) inside FFA Zone! \n" +
-                                    "- Join by typing ' .ffa enter '.");
+							PacketSendUtility.sendWhiteMessageOnCenter(object, " - There are " + getPlayerCount() + " player(s) inside FFA Zone! \n" + "- Join by typing ' .ffa enter '.");
 						}
 					});
 				} else {
