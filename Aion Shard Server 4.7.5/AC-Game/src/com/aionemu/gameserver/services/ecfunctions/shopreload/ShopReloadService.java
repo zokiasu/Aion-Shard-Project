@@ -6,6 +6,7 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+
 import javolution.util.FastList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,13 +18,26 @@ import java.util.concurrent.ScheduledFuture;
 import com.aionemu.commons.database.DB;
 import com.aionemu.commons.database.IUStH;
 import com.aionemu.commons.database.ParamReadStH;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.services.item.ItemService;
-import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import com.aionemu.commons.database.dao.DAOManager;
+import com.aionemu.gameserver.dao.PlayerDAO;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.LetterType;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.services.mail.MailFormatter;
+import com.aionemu.gameserver.services.mail.SystemMailService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.world.World;
+import org.apache.commons.lang.StringUtils;
+
+import java.util.ArrayList;
 
 
 /**
