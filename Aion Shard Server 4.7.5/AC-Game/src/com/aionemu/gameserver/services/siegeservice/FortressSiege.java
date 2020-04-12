@@ -93,6 +93,7 @@ public class FortressSiege extends Siege<FortressLocation> {
     private final AbyssPointsListener addAPListener = new AbyssPointsListener(this);
     private final GloryPointsListener addGPListener = new GloryPointsListener(this);
     protected SiegePlayerReward instanceReward;
+    private boolean test = true;
 
     private FastMap<Integer, VisibleObject> AhserionTeleporter = new FastMap<Integer, VisibleObject>();
 
@@ -217,10 +218,9 @@ public class FortressSiege extends Siege<FortressLocation> {
           || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
 
-            if (AhserionTeleporter.containsKey(297273)) {
+            if (!test) {
                 log.warn("Ahserion Teleporter was already spawned...");
-            } else if (AhserionTeleporter.get(297273).isSpawned()) {
-                log.warn("Ahserion Teleporter was already spawned...");
+                test = true;
             } else {
                 //Teleporter
                 AhserionTeleporter.put(297273, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 297273, 1079.38f, 1492.68f, 404.861f, (byte) 90), 1));
