@@ -45,6 +45,7 @@ import com.aionemu.gameserver.utils.PositionUtil;
 import com.aionemu.gameserver.skillengine.SkillEngine;
 
 import ai.ActionItemNpcAI2;
+import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * @author Source
  */
