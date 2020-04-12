@@ -192,7 +192,6 @@ public class TeleportService2 {
             }
         }
 
-        // TODO: remove teleportation route if it's enemy fortress (1221, 1231, 1241)
         final SiegeService srv = SiegeService.getInstance();
         if((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(5011) != null && srv.getSiegeLocation(5011).getRace() == SiegeRace.ELYOS)){
             if(player.getRace().equals(Race.ASMODIANS)) {
@@ -200,6 +199,26 @@ public class TeleportService2 {
                 return;
             }
         } else if ((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(5011) != null && srv.getSiegeLocation(5011).getRace() == SiegeRace.ASMODIANS)) {
+            if(player.getRace().equals(Race.ELYOS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Pradeth Fortress")) && (srv.getSiegeLocation(6021) != null && srv.getSiegeLocation(6021).getRace() == SiegeRace.ELYOS)) {
+            if(player.getRace().equals(Race.ASMODIANS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Pradeth Fortress")) && (srv.getSiegeLocation(6021) != null && srv.getSiegeLocation(6021).getRace() == SiegeRace.ASMODIANS)) {
+            if(player.getRace().equals(Race.ELYOS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Silona Fortress")) && (srv.getSiegeLocation(6011) != null && srv.getSiegeLocation(6011).getRace() == SiegeRace.ELYOS)) {
+            if(player.getRace().equals(Race.ASMODIANS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Silona Fortress")) && (srv.getSiegeLocation(6011) != null && srv.getSiegeLocation(6011).getRace() == SiegeRace.ASMODIANS)) {
             if(player.getRace().equals(Race.ELYOS)) {
                 PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
                 return;
