@@ -19,6 +19,11 @@ import java.util.concurrent.ScheduledFuture;
  */
 public class ShopReloadService implements ShopReloadStruct{
 
+    private static final Logger log = LoggerFactory.getLogger(ShopReloadService.class);
+    private static final ShopReloadService Service = new ShopReloadService();
+    public List<Player> playersToArena = new FastList<Player>();
+    public boolean Initialized = false;
+
     public static ShopReloadService getInstance(){
         return Service;
     }
@@ -33,5 +38,14 @@ public class ShopReloadService implements ShopReloadStruct{
                 announceEveryOne("Shop", "ShopReload"); // later make config for this
             }
         }, 30000, 30000);  // also config for delay Timmer
+    }
+
+    public void announceEveryOne(final String senderName,final String Message){
+        World.getInstance().doOnAllPlayers(new Visitor<Player>() {
+            @Override
+            public void visit(Player object) {
+                PacketSendUtility.sendSys2Message(object, senderName, Message);
+            }
+        });
     }
 }
