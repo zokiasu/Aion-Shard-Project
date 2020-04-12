@@ -63,7 +63,7 @@ public class ShopReloadService implements ShopReloadStruct{
                 //announceEveryOne("Shop", "ShopReload"); // later make config for this
                 rechargeDB();
             }
-        }, 10000, 10000);  // also config for delay Timmer
+        }, 1000, 1000);  // also config for delay Timmer
     }
 
     public void announceEveryOne(final String senderName,final String Message){
