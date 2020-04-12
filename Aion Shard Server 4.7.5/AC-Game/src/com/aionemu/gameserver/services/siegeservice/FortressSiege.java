@@ -31,6 +31,8 @@ package com.aionemu.gameserver.services.siegeservice;
 
 import java.util.List;
 import java.util.Map;
+import java.util.ArrayList;
+import java.util.Collection;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
