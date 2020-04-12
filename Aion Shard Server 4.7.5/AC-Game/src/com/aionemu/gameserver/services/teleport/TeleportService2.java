@@ -52,6 +52,7 @@ import com.aionemu.gameserver.model.gameobjects.player.BindPointPosition;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
 import com.aionemu.gameserver.model.items.storage.Storage;
+import com.aionemu.gameserver.model.siege.SiegeRace;
 import com.aionemu.gameserver.model.templates.flypath.FlyPathEntry;
 import com.aionemu.gameserver.model.templates.portal.InstanceExit;
 import com.aionemu.gameserver.model.templates.portal.PortalLoc;
@@ -193,9 +194,16 @@ public class TeleportService2 {
 
         // TODO: remove teleportation route if it's enemy fortress (1221, 1231, 1241)
         final SiegeService srv = SiegeService.getInstance();
-        if((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() != player.getRace())){
-            PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
-            return;
+        if((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(5011) != null && srv.getSiegeLocation(5011).getRace() == SiegeRace.ELYOS)){
+            if(player.getRace().equals(Race.ASMODIANS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
+        } else if ((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(5011) != null && srv.getSiegeLocation(5011).getRace() == SiegeRace.ASMODIANS)) {
+            if(player.getRace().equals(Race.ELYOS)) {
+                PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+                return;
+            }
         }
         // This function block some teleport, need to find why
         /*int id = SiegeService.getInstance().getFortressId(locId);
