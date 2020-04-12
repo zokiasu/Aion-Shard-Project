@@ -218,7 +218,7 @@ public class FortressSiege extends Siege<FortressLocation> {
           && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS)
           || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
-            Collection<Npc> npcs = World.getInstance().getWorldMap(600030000).getWorld().getNpcs();
+            Collection<Npc> npcs = World.getInstance().getWorldMap(210050000).getWorld().getNpcs();
             for (Npc npc : npcs) {
                 if (npc.getNpcId() == 297273) {
                     test = false;
@@ -251,17 +251,15 @@ public class FortressSiege extends Siege<FortressLocation> {
                     }
                 }, 3600 * 2000);
             }
-
-        } else if ( (getSiegeLocation().getLocationId() == 3011 || getSiegeLocation().getLocationId() == 3021
-                || getSiegeLocation().getLocationId() == 2021 || getSiegeLocation().getLocationId() == 2011)
-                && (srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS)
+        } else if ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ELYOS)
                 && (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ELYOS)
-                && ((srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)) ){
-            log.warn("Ahserion Teleporter for Elyos");
+                && ((srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS)
+                || (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)) ){
+                log.warn("Ahserion Teleporter for Elyos");
 
-            Collection<Npc> npcs = World.getInstance().getWorldMap(600030000).getWorld().getNpcs();
+            Collection<Npc> npcs = World.getInstance().getWorldMap(220070000).getWorld().getNpcs();
             for (Npc npc : npcs) {
-                if (npc.getNpcId() == 297273) {
+                if (npc.getNpcId() == 297274) {
                     test = false;
                 }
             }
