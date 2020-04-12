@@ -92,6 +92,7 @@ public class FortressSiege extends Siege<FortressLocation> {
     private final AbyssPointsListener addAPListener = new AbyssPointsListener(this);
     private final GloryPointsListener addGPListener = new GloryPointsListener(this);
     protected SiegePlayerReward instanceReward;
+    private boolean test = true;
 
     private FastMap<Integer, VisibleObject> AhserionTeleporter = new FastMap<Integer, VisibleObject>();
 
@@ -215,9 +216,13 @@ public class FortressSiege extends Siege<FortressLocation> {
           && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS)
           || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
-            Npc npc = World.getInstance().getWorldMap(210050000).getWorld().getNpcs(297273);
-
-            if (npc.isSpawned()) {
+            Collection<Npc> npcs = World.getInstance().getWorldMap(600030000).getWorld().getNpcs();
+            for (Npc npc : npcs) {
+                if (npc.getNpcId() == 297273) {
+                    test = false;
+                }
+            }
+            if (!test) {
                 log.warn("Ahserion Teleporter was already spawned...");
             } else {
                 //Teleporter
@@ -252,8 +257,13 @@ public class FortressSiege extends Siege<FortressLocation> {
                 && ((srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)) ){
             log.warn("Ahserion Teleporter for Elyos");
 
-            Npc npc = getNpc(297274);
-            if (npc.isSpawned()) {
+            Collection<Npc> npcs = World.getInstance().getWorldMap(600030000).getWorld().getNpcs();
+            for (Npc npc : npcs) {
+                if (npc.getNpcId() == 297273) {
+                    test = false;
+                }
+            }
+            if (!test) {
                 log.warn("Ahserion Teleporter was already spawned...");
             } else {
                 //Teleporter
