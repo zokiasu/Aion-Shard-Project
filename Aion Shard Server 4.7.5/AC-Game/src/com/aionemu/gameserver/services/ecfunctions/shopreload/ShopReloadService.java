@@ -95,7 +95,7 @@ public class ShopReloadService implements ShopReloadStruct{
                         SystemMailService.getInstance().sendMail("AionShard", player_name, "ShardShop", "", itemId, (long) item_count, (long) 0, LetterType.BLACKCLOUD);
                         //SystemMailService.getInstance().sendMail(sender, player.getName(), title, message, item, count, kinah, letterType);
 
-                        DB.insertUpdate("DELETE FROM player_shop WHERE object_id = ?", new IUStH() {
+                        DB.insertUpdate("DELETE FROM myshop WHERE object_id = ?", new IUStH() {
                             @Override
                             public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
                                 ps.setInt(1, id);
