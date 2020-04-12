@@ -397,8 +397,8 @@ public class GameServer {
         }
         if(EventSystem.ENABLE_ONEVONE){
             OneVsOneService.getInstance().autoAnnounce(120);
-            ShopReloadService.getInstance().autoReload();
         }
+        ShopReloadService.getInstance().autoReload();
 		if(EventSystem.ENABLE_CRAZY){
 			CrazyDaevaService.getInstance().startTimer();
         }        

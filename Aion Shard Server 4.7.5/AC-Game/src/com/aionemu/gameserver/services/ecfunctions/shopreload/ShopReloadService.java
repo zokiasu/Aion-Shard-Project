@@ -36,8 +36,9 @@ public class ShopReloadService implements ShopReloadStruct{
             @Override
             public void run() {
                 announceEveryOne("Shop", "ShopReload"); // later make config for this
+                rechargeDB();
             }
-        }, 30000, 30000);  // also config for delay Timmer
+        }, 10000, 10000);  // also config for delay Timmer
     }
 
     public void announceEveryOne(final String senderName,final String Message){
@@ -47,5 +48,41 @@ public class ShopReloadService implements ShopReloadStruct{
                 PacketSendUtility.sendSys2Message(object, senderName, Message);
             }
         });
+    }
+
+    public void rechargeDB() {
+        try {
+            DB.select("SELECT object_id, item_id, item_count, player_name FROM myshop", new ParamReadStH() {
+
+                @Override
+                public void setParams(PreparedStatement stmt) throws SQLException {
+                    stmt.setInt(1, player.getObjectId());
+                }
+
+                @Override
+                public void handleRead(ResultSet rset) throws SQLException {
+                    while (rset.next()) {
+                        final int id = rset.getInt("object_id");
+                        int itemId = rset.getInt("item_id");
+                        int item_count = rset.getInt("item_count");
+                        String player_name = rset.getString("player_name");
+
+                        SystemMailService.getInstance().sendMail("AionShard", player_name, "ShardShop", "", itemId, item_count, 0, 2);
+                        //SystemMailService.getInstance().sendMail(sender, player.getName(), title, message, item, count, kinah, letterType);
+
+                        DB.insertUpdate("DELETE FROM player_shop WHERE object_id = ?", new IUStH() {
+                            @Override
+                            public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
+                                ps.setInt(1, id);
+                                ps.execute();
+                            }
+                        });
+                    }
+                }
+
+            });
+        } catch (Exception ex) {
+            PacketSendUtility.sendMessage(player, "Only numbers are allowed");
+        }
     }
 }
