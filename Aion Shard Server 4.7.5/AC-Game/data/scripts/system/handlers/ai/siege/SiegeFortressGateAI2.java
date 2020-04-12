@@ -56,7 +56,7 @@ public class SiegeFortressGateAI2 extends ActionItemNpcAI2 {
 
     @Override
     protected void handleUseItemFinish(Player player) {
-        TeleportService2.moveToTargetWithDistance(getOwner(), player, PositionUtil.isBehind(getOwner(), player) ? 0 : 1, 10);
+        TeleportService2.moveToTargetWithDistance(getOwner(), player, PositionUtil.isBehind(getOwner(), player) ? 0 : 1, 6);
     }
     /*
     @Override
