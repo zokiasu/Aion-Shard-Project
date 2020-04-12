@@ -96,7 +96,7 @@
 				</spawn>
 				<!-- Asmodians Fence East Gate (Object Normal lvl:3) -->
 				<spawn npc_id="272258" respawn_time="295">
-					<spot x="742.86737" y="988.29895" z="151.11795" static_id="185"/>
+					<spot x="742.86737" y="988.29895" z="151.11795" h="29" static_id="185"/>
 				</spawn>
 			</simple_race>
 			<simple_race race="NPC">
@@ -218,17 +218,9 @@
 					<spot x="567.3618" y="676.1633" z="159.13487" h="41"/>
 					<spot x="573.5996" y="677.1008" z="159.13487" h="20"/>
 				</spawn>
-				<!-- Asmodians North Gate Teleporter A (Object Normal lvl:3) -->
-				<spawn npc_id="702594" respawn_time="295">
-					<spot x="561.62732" y="678.724" z="153.68115" static_id="95"/>
-				</spawn>
-				<!-- Asmodians North Gate Teleporter B (Object Normal lvl:3) -->
-				<spawn npc_id="702596" respawn_time="295">
-					<spot x="563.2450" y="668.33148" z="152.7072" static_id="132"/>
-				</spawn>
 				<!-- Asmodians Fence North Gate (Object Normal lvl:3) -->
 				<spawn npc_id="272258" respawn_time="295">
-					<spot x="557.69177" y="672.47235" z="152.60912" static_id="258"/>
+					<spot x="557.69177" y="672.47235" z="152.60912" h="36" static_id="258"/>
 				</spawn>
 			</simple_race>
 			<simple_race race="NPC">
@@ -345,17 +337,9 @@
 					<spot x="1082.2035" y="693.4733" z="184.86227" h="55"/>
 					<spot x="1065.0693" y="696.65314" z="185.20918" h="115"/>
 				</spawn>
-				<!-- Asmodians South Gate Teleporter A (Object Normal lvl:3) -->
-				<spawn npc_id="702598" respawn_time="295">
-					<spot x="1072.7261" y="711.32611" z="185.47467" static_id="544"/>
-				</spawn>
-				<!-- Asmodians South Gate Teleporter B (Object Normal lvl:3) -->
-				<spawn npc_id="702600" respawn_time="295">
-					<spot x="1071.1566" y="704.1889" z="185.47467" static_id="508"/>
-				</spawn>
 				<!-- Asmodians Fence South Gate (Object Normal lvl:3) -->
 				<spawn npc_id="272258" respawn_time="295">
-					<spot x="1076.5396" y="706.71893" z="185.25739" static_id="540"/>
+					<spot x="1076.5396" y="706.71893" z="185.25739" h="26" static_id="540"/>
 				</spawn>
 			</simple_race>
 			<simple_race race="NPC">

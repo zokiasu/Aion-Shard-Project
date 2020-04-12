@@ -783,7 +783,7 @@ public class TeleportService2 {
         float y0 = object.getY();
         float x1 = (float) (Math.cos(Math.PI * direction + radian) * distance);
         float y1 = (float) (Math.sin(Math.PI * direction + radian) * distance);
-        return teleportTo(player, object.getWorldId(), x0 + x1, y0 + y1, object.getZ() + 3);
+        return teleportTo(player, object.getWorldId(), x0 + x1, y0 + y1, object.getZ() + 2);
     }
 
     public static void moveToInstanceExit(Player player, int worldId, Race race) {
