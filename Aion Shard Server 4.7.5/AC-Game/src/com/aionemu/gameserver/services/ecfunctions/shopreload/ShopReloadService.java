@@ -68,7 +68,7 @@ public class ShopReloadService implements ShopReloadStruct{
 
                 @Override
                 public void setParams(PreparedStatement stmt) throws SQLException {
-                    stmt.setInt(1, player.getObjectId());
+                    stmt.setInt(1, 351018);
                 }
 
                 @Override
@@ -94,7 +94,7 @@ public class ShopReloadService implements ShopReloadStruct{
 
             });
         } catch (Exception ex) {
-            PacketSendUtility.sendMessage(player, "Only numbers are allowed");
+            //PacketSendUtility.sendMessage(player, "Only numbers are allowed");
         }
     }
 }
