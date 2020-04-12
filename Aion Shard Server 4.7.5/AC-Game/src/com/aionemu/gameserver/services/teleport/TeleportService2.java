@@ -87,6 +87,7 @@ import com.aionemu.gameserver.services.DuelService;
 import com.aionemu.gameserver.services.FastTrackService;
 import com.aionemu.gameserver.services.PrivateStoreService;
 import com.aionemu.gameserver.services.SerialKillerService;
+import com.aionemu.gameserver.services.SiegeService;
 import com.aionemu.gameserver.services.instance.InstanceService;
 import com.aionemu.gameserver.services.item.ItemPacketService.ItemUpdateType;
 import com.aionemu.gameserver.services.trade.PricesService;
@@ -136,8 +137,7 @@ public class TeleportService2 {
         if (player.getWorldId() == mapId) {
             instanceId = player.getInstanceId();
         }
-        sendLoc(player, mapId, instanceId, template.getX(), template.getY(), template.getZ(),
-                (byte) template.getHeading(), teleportGoal, 1);
+        sendLoc(player, mapId, instanceId, template.getX(), template.getY(), template.getZ(), (byte) template.getHeading(), teleportGoal, 1);
     }
 
     /**
@@ -150,8 +150,7 @@ public class TeleportService2 {
     public static void teleport(TeleporterTemplate template, int locId, Player player, Npc npc, TeleportAnimation animation) {
         TribeClass tribe = npc.getTribe();
         Race race = player.getRace();
-        if (tribe.equals(TribeClass.FIELD_OBJECT_LIGHT) && race.equals(Race.ASMODIANS)
-                || (tribe.equals(TribeClass.FIELD_OBJECT_DARK) && race.equals(Race.ELYOS))) {
+        if (tribe.equals(TribeClass.FIELD_OBJECT_LIGHT) && race.equals(Race.ASMODIANS) || (tribe.equals(TribeClass.FIELD_OBJECT_DARK) && race.equals(Race.ELYOS))) {
             return;
         }
 
@@ -193,6 +192,11 @@ public class TeleportService2 {
         }
 
         // TODO: remove teleportation route if it's enemy fortress (1221, 1231, 1241)
+        final SiegeService srv = SiegeService.getInstance();
+        if((locationTemplate.getName().equals("Sillus Fortress")) && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() != player.getRace())){
+            PacketSendUtility.sendMessage(player, "You cannot use that transporter when the fortress has not been captured by your faction.");
+            return;
+        }
         // This function block some teleport, need to find why
         /*int id = SiegeService.getInstance().getFortressId(locId);
         if (id > 0 && !SiegeService.getInstance().getFortress(id).isCanTeleport(player)) {
