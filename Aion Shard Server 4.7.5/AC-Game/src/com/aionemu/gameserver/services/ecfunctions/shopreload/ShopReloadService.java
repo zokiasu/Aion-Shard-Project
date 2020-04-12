@@ -79,10 +79,10 @@ public class ShopReloadService implements ShopReloadStruct{
         try {
             DB.select("SELECT object_id, item_id, item_count, player_name FROM myshop", new ParamReadStH() {
 
-                @Override
+                /*@Override
                 public void setParams(PreparedStatement stmt) throws SQLException {
                     stmt.setInt(1, 351018);
-                }
+                }*/
 
                 @Override
                 public void handleRead(ResultSet rset) throws SQLException {
