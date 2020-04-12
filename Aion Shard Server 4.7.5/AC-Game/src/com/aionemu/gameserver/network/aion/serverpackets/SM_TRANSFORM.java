@@ -61,9 +61,15 @@ public class SM_TRANSFORM extends AionServerPacket {
             case 217384:
             case 218611:
             case 218610:
+            case 234533:
+            case 234534:
+            case 234537:
+            case 234538:
             case 284320:
             case 701646:
             case 701647:
+            case 702586:
+            case 702587:
                 return true;
         }
         return false;

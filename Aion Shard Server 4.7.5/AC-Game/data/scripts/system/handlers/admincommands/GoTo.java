@@ -742,6 +742,18 @@ public class GoTo extends AdminCommand {
         	} else if (player.getRace() == Race.ASMODIANS) {
         		goTo(player, 301310000, 258.5553f, 169.85149f, 79.430855f, (byte) 45);
         	}
+        }/**
+         * 4.7 fortress
+         */
+        else if (destination.equalsIgnoreCase("Anoha") || destination.equalsIgnoreCase("7011")) {
+            goTo(player, 600090000, 787, 282, 145);
+        } /**
+         * 4.7 Camps Kaldor
+         */
+        else if (destination.equalsIgnoreCase("90")) { //Base Asmo (Stonereach Outpost)
+            goTo(player, 600090000, 253, 1168, 131);
+        } else if (destination.equalsIgnoreCase("91")) { //Base Elyos (Flamecrest Outpost)
+            goTo(player, 600090000, 1348, 1126, 186);
         } /**
          * 4.7 Camps Akaron
          */

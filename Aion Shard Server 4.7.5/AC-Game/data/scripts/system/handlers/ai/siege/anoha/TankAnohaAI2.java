@@ -61,12 +61,14 @@ public class TankAnohaAI2 extends ActionItemNpcAI2 {
 
     private int getMorphSkill() {
         switch (getNpcId()) {
-            case 234537: //elyos
-			case 702586:
-                return 21434;
-            case 702584: //asmodian
-			case 234534:
-                return 21435;
+            case 234533: //Anoha Elyos
+            case 234537: //Anoha Elyos
+            case 702586: //Anoha Elyos
+                return 21592;
+            case 234534: //Anoha Asmodian
+            case 234538: //Anoha Asmodian
+            case 702587: //Anoha Asmodian
+                return 21593;
         }
         return 0;
     }

@@ -51,12 +51,30 @@ public class SiegeFortressGateAI2 extends NpcAI2 {
 
     @Override
     protected void handleDialogStart(Player player) {
+        handleUseItemStart(player);
+    }
+
+    @Override
+    protected void handleUseItemStart(final Player player) {
+        super.handleUseItemStart(player);
+    }
+
+    @Override
+    protected void handleUseItemFinish(Player player) {
+        if (MathUtil.isInRange(this, player, 10)) {
+            TeleportService2.moveToTargetWithDistance(this, player, PositionUtil.isBehind(this, player) ? 0 : 1, 3);
+        } else {
+            PacketSendUtility.sendBrightYellowMessageOnCenter(player, "You too far away");
+        }
+    }
+    /*
+    @Override
+    protected void handleDialogStart(Player player) {
         AI2Actions.addRequest(this, player, 160017, 0, new AI2Request() {
             @Override
             public void acceptRequest(Creature requester, Player responder) {
                 if (MathUtil.isInRange(requester, responder, 10)) {
-                    TeleportService2.moveToTargetWithDistance(requester, responder,
-                            PositionUtil.isBehind(requester, responder) ? 0 : 1, 3);
+                    TeleportService2.moveToTargetWithDistance(requester, responder, PositionUtil.isBehind(requester, responder) ? 0 : 1, 3);
                 } else {
                     PacketSendUtility.sendBrightYellowMessageOnCenter(responder, "You too far away");
                 }
@@ -78,5 +96,5 @@ public class SiegeFortressGateAI2 extends NpcAI2 {
             default:
                 return null;
         }
-    }
+    }*/
 }
