@@ -76,8 +76,6 @@ import com.aionemu.gameserver.model.templates.spawns.*;
 import com.aionemu.gameserver.model.gameobjects.VisibleObject;
 import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
-import com.aionemu.gameserver.world.World;
-import com.aionemu.gameserver.world.knownlist.Visitor;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.*;
 
@@ -217,7 +215,8 @@ public class FortressSiege extends Siege<FortressLocation> {
           && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS)
           || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
-            Npc npc = getPosition().getWorldMapInstance().getNpc(297273);
+            Npc npc = World.getInstance().getWorldMap(210050000).getWorld().getNpcs(297273);
+
             if (npc.isSpawned()) {
                 log.warn("Ahserion Teleporter was already spawned...");
             } else {
