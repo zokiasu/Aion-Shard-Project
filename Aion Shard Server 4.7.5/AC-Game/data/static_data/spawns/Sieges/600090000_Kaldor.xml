@@ -699,27 +699,14 @@
                     <spawn npc_id="250206" respawn_time="295">
                         <spot x="825.195801" y="261.073059" z="157.073700"/>
                     </spawn>
-                    <!-- Устройство перемещения к заграждению -->
-                    <spawn npc_id="702593">
-                        <spot x="561.62732" y="678.7240" z="153.68115" static_id="95"/>
-                    </spawn>
-                    <spawn npc_id="702595">
-                        <spot x="563.2450" y="668.33148" z="152.7072" static_id="132"/>
-                    </spawn>
-                    <spawn npc_id="702597">
-                        <spot x="1072.7261" y="711.32611" z="185.47467" static_id="544"/>
-                    </spawn>
-                    <spawn npc_id="702599">
-                        <spot x="1071.1566" y="704.1889" z="185.47467" static_id="508"/>
-                    </spawn>
                     <!-- Прочное загрождение элийцев -->
                     <spawn npc_id="881575">
-                        <spot x="596.99481" y="725.86981" z="160.70309" static_id="86"/>
+                        <spot x="596.99481" y="725.86981" z="160.70309" h="69" static_id="86"/>
                         <spot x="982.68469" y="881.90149" z="169.31003" static_id="60"/>
                     </spawn>
                     <!-- Прочное загрождение элийцев -->
                     <spawn npc_id="881578">
-                        <spot x="786.43964" y="564.19983" z="148.77126" static_id="151"/>
+                        <spot x="786.43964" y="564.19983" z="148.77126" h="30" static_id="151"/>
                     </spawn>
                     <!--  -->
                     <spawn npc_id="702601">
@@ -747,7 +734,7 @@
                     </spawn>
                     <!-- Fortress Door (Object Normal lvl:3) -->
                     <spawn npc_id="252115">
-                        <spot x="787.00000" y="341.91000" z="143.06000" static_id="1657"/>
+                        <spot x="787.00000" y="341.91000" z="143.06000" h="30" static_id="1657"/>
                     </spawn>
                     <!-- Terrace Door (Object Normal lvl:3) -->
                     <spawn npc_id="252289">
@@ -759,9 +746,9 @@
                     </spawn>
                     <!-- Elyos Fence (Object Normal lvl:3) -->
                     <spawn npc_id="272255">
-                        <spot x="557.69177" y="672.47235" z="152.60912" static_id="158"/>
-                        <spot x="742.87677" y="987.92535" z="151.01486" static_id="338"/>
-                        <spot x="1076.5396" y="706.71893" z="185.25739" static_id="539"/>
+                        <spot x="557.69177" y="672.47235" z="152.60912" h="35" static_id="158"/>
+                        <spot x="742.87677" y="987.92535" z="151.01486" h="29" static_id="338"/>
+                        <spot x="1076.5396" y="706.71893" z="185.25739" h="25" static_id="539"/>
                     </spawn>
                     <!-- Guard Knight -->
                     <spawn npc_id="251840">
