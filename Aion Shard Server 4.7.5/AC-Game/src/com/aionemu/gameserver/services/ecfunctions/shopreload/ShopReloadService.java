@@ -77,12 +77,12 @@ public class ShopReloadService implements ShopReloadStruct{
 
     public void rechargeDB() {
         try {
-            DB.select("SELECT object_id, item_id, item_count, player_name FROM myshop", new ParamReadStH() {
+            DB.select("SELECT object_id, item_id, item_count, player_name FROM myshop WHERE test = ?", new ParamReadStH() {
 
-                /*@Override
+                @Override
                 public void setParams(PreparedStatement stmt) throws SQLException {
-                    stmt.setInt(1, 351018);
-                }*/
+                    stmt.setInt(1, 974);
+                }
 
                 @Override
                 public void handleRead(ResultSet rset) throws SQLException {
