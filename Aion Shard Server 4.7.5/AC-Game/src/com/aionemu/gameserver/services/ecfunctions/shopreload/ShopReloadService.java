@@ -63,7 +63,7 @@ public class ShopReloadService implements ShopReloadStruct{
                 //announceEveryOne("Shop", "ShopReload"); // later make config for this
                 rechargeDB();
             }
-        }, 1000, 1000);  // also config for delay Timmer
+        }, 10000, 10000);  // also config for delay Timmer
     }
 
     public void announceEveryOne(final String senderName,final String Message){
@@ -92,16 +92,19 @@ public class ShopReloadService implements ShopReloadStruct{
                         int item_count = rset.getInt("item_count");
                         String player_name = rset.getString("player_name");
 
-                        SystemMailService.getInstance().sendMail("AionShard", player_name, "ShardShop", "", itemId, (long) item_count, (long) 0, LetterType.BLACKCLOUD);
                         //SystemMailService.getInstance().sendMail(sender, player.getName(), title, message, item, count, kinah, letterType);
 
-                        DB.insertUpdate("DELETE FROM myshop WHERE object_id = ?", new IUStH() {
-                            @Override
-                            public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
-                                ps.setInt(1, id);
-                                ps.execute();
-                            }
-                        });
+                        if (SystemMailService.getInstance().sendMail("AionShard", player_name, "ShardShop", "", itemId, (long) item_count, (long) 0, LetterType.BLACKCLOUD) == true) {
+                            DB.insertUpdate("DELETE FROM myshop WHERE object_id = ?", new IUStH() {
+                                @Override
+                                public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
+                                    ps.setInt(1, id);
+                                    ps.execute();
+                                }
+                            });
+                        } else {
+                            log.error("Can't add " + itemId + " to player " + player_name + " because mail box is full or player doesn't exist");
+                        }
                     }
                 }
 
