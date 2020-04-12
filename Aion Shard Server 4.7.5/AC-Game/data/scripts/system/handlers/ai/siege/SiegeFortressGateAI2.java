@@ -63,8 +63,8 @@ public class SiegeFortressGateAI2 extends ActionItemNpcAI2 {
 
     @Override
     protected void handleUseItemFinish(Player player) {
-        if (MathUtil.isInRange(this, player, 10)) {
-            TeleportService2.moveToTargetWithDistance(this, player, PositionUtil.isBehind(this, player) ? 0 : 1, 3);
+        if (MathUtil.isInRange(getOwner(), player, 10)) {
+            TeleportService2.moveToTargetWithDistance(getOwner(), player, PositionUtil.isBehind(getOwner(), player) ? 0 : 1, 3);
         } else {
             PacketSendUtility.sendBrightYellowMessageOnCenter(player, "You too far away");
         }
