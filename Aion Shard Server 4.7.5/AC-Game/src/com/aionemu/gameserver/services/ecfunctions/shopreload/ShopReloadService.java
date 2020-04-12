@@ -34,7 +34,6 @@ import com.aionemu.gameserver.services.mail.MailFormatter;
 import com.aionemu.gameserver.services.mail.SystemMailService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
-import com.aionemu.gameserver.world.World;
 import org.apache.commons.lang.StringUtils;
 
 import java.util.ArrayList;
@@ -93,7 +92,7 @@ public class ShopReloadService implements ShopReloadStruct{
                         int item_count = rset.getInt("item_count");
                         String player_name = rset.getString("player_name");
 
-                        SystemMailService.getInstance().sendMail("AionShard", player_name, "ShardShop", "", itemId, item_count, 0, 2);
+                        SystemMailService.getInstance().sendMail("AionShard", player_name, "ShardShop", "", itemId, (long) item_count, (long) 0, LetterType.BLACKCLOUD);
                         //SystemMailService.getInstance().sendMail(sender, player.getName(), title, message, item, count, kinah, letterType);
 
                         DB.insertUpdate("DELETE FROM player_shop WHERE object_id = ?", new IUStH() {
