@@ -217,7 +217,7 @@ public class FortressSiege extends Siege<FortressLocation> {
           && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS)
           || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
-            Npc npc = getNpc(297273);
+            Npc npc = getPosition().getWorldMapInstance().getNpc(297273);
             if (npc.isSpawned()) {
                 log.warn("Ahserion Teleporter was already spawned...");
             } else {
