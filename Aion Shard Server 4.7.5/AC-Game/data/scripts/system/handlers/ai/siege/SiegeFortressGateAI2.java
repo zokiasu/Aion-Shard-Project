@@ -42,12 +42,14 @@ import com.aionemu.gameserver.services.teleport.TeleportService2;
 import com.aionemu.gameserver.utils.MathUtil;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 
+import ai.ActionItemNpcAI2;
 /**
  * @author Source
  */
 @AIName("fortressgate")
-public class SiegeFortressGateAI2 extends NpcAI2 {
+public class SiegeFortressGateAI2 extends ActionItemNpcAI2 {
 
     @Override
     protected void handleDialogStart(Player player) {
