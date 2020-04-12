@@ -19,7 +19,7 @@
  * Credits goes to all Open Source Core Developer Groups listed below
  * Please do not change here something, regarding the developer credits, except the "developed by XXXX".
  * Even if you edit a lot of files in this source, you still have no rights to call it as "your Core".
- * Everybody knows that this Emulator Core was developed by Aion Lightning 
+ * Everybody knows that this Emulator Core was developed by Aion Lightning
  * @-Aion-Unique-
  * @-Aion-Lightning
  * @Aion-Engine
@@ -93,7 +93,6 @@ public class FortressSiege extends Siege<FortressLocation> {
     private final AbyssPointsListener addAPListener = new AbyssPointsListener(this);
     private final GloryPointsListener addGPListener = new GloryPointsListener(this);
     protected SiegePlayerReward instanceReward;
-    private boolean test = true;
 
     private FastMap<Integer, VisibleObject> AhserionTeleporter = new FastMap<Integer, VisibleObject>();
 
@@ -124,7 +123,7 @@ public class FortressSiege extends Siege<FortressLocation> {
         deSpawnNpcs(getSiegeLocationId());
         spawnNpcs(getSiegeLocationId(), getSiegeLocation().getRace(), SiegeModType.SIEGE);
         initSiegeBoss();
-		
+
 		if (getSiegeLocation().getLocationId() == 7011) {
 			captureBasePosts();
         }
@@ -180,7 +179,7 @@ public class FortressSiege extends Siege<FortressLocation> {
             giveRewardsToLegion();
             giveRewardsToPlayers(getSiegeCounter().getRaceCounter(getSiegeLocation().getRace()));
         }
-        
+
         // Remove gp for players that lost the fortress
         if (winner.getSiegeRace() != looser) {
             giveLossToPlayers(looser);
@@ -202,25 +201,24 @@ public class FortressSiege extends Siege<FortressLocation> {
                 }
             }
         });
-		
+
 		if (getSiegeLocation().getLocationId() == 7011) {
 			BaseService.getInstance().capture(113, Race.NPC);
 			BaseService.getInstance().capture(114, Race.NPC);
 			BaseService.getInstance().capture(115, Race.NPC);
 		}
+
         final SiegeService srv = SiegeService.getInstance();
 
-        if( (getSiegeLocation().getLocationId() == 3011 || getSiegeLocation().getLocationId() == 3021
-          || getSiegeLocation().getLocationId() == 2021 || getSiegeLocation().getLocationId() == 2011)
-          && (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS)
+
+        if( (srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ASMODIANS)
           && (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ASMODIANS)
           && ((srv.getSiegeLocation(2011) != null && srv.getSiegeLocation(2011).getRace() == SiegeRace.ASMODIANS)
           || (srv.getSiegeLocation(2021) != null && srv.getSiegeLocation(2021).getRace() == SiegeRace.ASMODIANS)) ) {
             log.warn("Ahserion Teleporter for Asmodian");
-
-            if (!test) {
+            Npc npc = getNpc(297273);
+            if (npc.isSpawned()) {
                 log.warn("Ahserion Teleporter was already spawned...");
-                test = true;
             } else {
                 //Teleporter
                 AhserionTeleporter.put(297273, SpawnEngine.spawnObject(SpawnEngine.addNewSingleTimeSpawn(210050000, 297273, 1079.38f, 1492.68f, 404.861f, (byte) 90), 1));
@@ -254,7 +252,8 @@ public class FortressSiege extends Siege<FortressLocation> {
                 && ((srv.getSiegeLocation(3011) != null && srv.getSiegeLocation(3011).getRace() == SiegeRace.ELYOS) || (srv.getSiegeLocation(3021) != null && srv.getSiegeLocation(3021).getRace() == SiegeRace.ELYOS)) ){
             log.warn("Ahserion Teleporter for Elyos");
 
-            if (AhserionTeleporter.containsKey(297274) && AhserionTeleporter.get(297274).isSpawned()) {
+            Npc npc = getNpc(297274);
+            if (npc.isSpawned()) {
                 log.warn("Ahserion Teleporter was already spawned...");
             } else {
                 //Teleporter
@@ -351,7 +350,7 @@ public class FortressSiege extends Siege<FortressLocation> {
             getSiegeLocation().setLegionId(topLegionId != null ? topLegionId : 0);
             getArtifact().setLegionId(topLegionId != null ? topLegionId : 0);
         }
-		
+
 		if (getSiegeLocation().getLocationId() == 7011) {
 			BaseService.getInstance().capture(113, Race.NPC);
 			BaseService.getInstance().capture(114, Race.NPC);
@@ -361,7 +360,7 @@ public class FortressSiege extends Siege<FortressLocation> {
 
 
     }
-		
+
 
     @Override
     public boolean isEndless() {
@@ -421,7 +420,7 @@ public class FortressSiege extends Siege<FortressLocation> {
             }
         }
     }
-    
+
     protected void giveLossToPlayers(final SiegeRace race) {
         if (race == SiegeRace.BALAUR)// this shouldn't happen, but secure is secure :)
             return;
