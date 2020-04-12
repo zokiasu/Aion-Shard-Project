@@ -60,7 +60,7 @@ public class ShopReloadService implements ShopReloadStruct{
         return ThreadPoolManager.getInstance().scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
-                announceEveryOne("Shop", "ShopReload"); // later make config for this
+                //announceEveryOne("Shop", "ShopReload"); // later make config for this
                 rechargeDB();
             }
         }, 10000, 10000);  // also config for delay Timmer
