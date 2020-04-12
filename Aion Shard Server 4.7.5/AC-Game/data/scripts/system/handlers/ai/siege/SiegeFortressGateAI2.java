@@ -51,22 +51,17 @@ import ai.ActionItemNpcAI2;
 @AIName("fortressgate")
 public class SiegeFortressGateAI2 extends ActionItemNpcAI2 {
 
-    @Override
-    protected void handleDialogStart(Player player) {
-        handleUseItemStart(player);
-    }
-
-    @Override
-    protected void handleUseItemStart(final Player player) {
-        super.handleUseItemStart(player);
-    }
+    private AtomicBoolean canUse = new AtomicBoolean(true);
 
     @Override
     protected void handleUseItemFinish(Player player) {
-        if (MathUtil.isInRange(getOwner(), player, 10)) {
-            TeleportService2.moveToTargetWithDistance(getOwner(), player, PositionUtil.isBehind(getOwner(), player) ? 0 : 1, 3);
-        } else {
-            PacketSendUtility.sendBrightYellowMessageOnCenter(player, "You too far away");
+
+        if (canUse.compareAndSet(true, false)) {
+            if (MathUtil.isInRange(getOwner(), player, 10)) {
+                TeleportService2.moveToTargetWithDistance(getOwner(), player, PositionUtil.isBehind(getOwner(), player) ? 0 : 1, 3);
+            } else {
+                PacketSendUtility.sendBrightYellowMessageOnCenter(player, "You too far away");
+            }
         }
     }
     /*
