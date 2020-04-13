@@ -41,6 +41,8 @@ public class GoldPackAction extends AbstractItemAction {
         ItemService.addItem(player, 164002225, 1);
         ItemService.addItem(player, 169610093, 1);
 
+        Connection con = null;
+
         try {
             final Timestamp deletionDate = new Timestamp(System.currentTimeMillis());
             final Player player1 = player;
@@ -49,8 +51,6 @@ public class GoldPackAction extends AbstractItemAction {
             cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
             deletionDate.setTime(cal.getTime().getTime());
-
-            Connection con = null;
             con = DatabaseFactory.getConnection();
             PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +" account_data set membership = ? where name = ?");
             stmt.setInt(1, 1);
