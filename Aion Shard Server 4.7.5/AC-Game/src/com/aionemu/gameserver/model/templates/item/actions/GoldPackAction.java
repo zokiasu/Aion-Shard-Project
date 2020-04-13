@@ -46,34 +46,31 @@ public class GoldPackAction extends AbstractItemAction {
             final Player player1 = player;
             String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
             Calendar cal = Calendar.getInstance();
-            cal.setTime(deletionDate);
-            cal.add(Calendar.DAY_OF_WEEK, 30);
-            deletionDate.setTime(cal.getTime().getTime());
 
             con = DatabaseFactory.getConnection();
             PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.membership = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt.setInt(1, 1);
             stmt.setString(2, player1.getAcountName());
+
+            stmt = con.prepareStatement("SELECT " + LOGIN_DATABASE +".account_data.expire FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
+            stmt.setString(1, player1.getAcountName());
+            ResultSet resultSet = stmt.executeQuery();
+
+            if(resultSet.getTimestamp("expire") != null) {
+                cal.setTime(resultSet.getTimestamp("expire"));
+            } else {
+                cal.setTime(deletionDate);
+            }
+
+            cal.add(Calendar.DAY_OF_WEEK, 30);
+            deletionDate.setTime(cal.getTime().getTime());
+
+            stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.expire = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
+            stmt.setTimestamp(1, deletionDate);
+            stmt.setString(2, player1.getAcountName());
+
             stmt.execute();
             stmt.close();
-
-            /*DB.insertUpdate("UPDATE " + LOGIN_DATABASE +" account_data set membership = ? where name = ?", new IUStH() {
-                @Override
-                public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
-                    preparedStatement.setInt(1, 1);
-                    preparedStatement.setString(2, player1.getAcountName());
-                    preparedStatement.execute();
-                }
-            });*/
-
-            /*DB.insertUpdate("UPDATE account_data set expire = ? where name = ?", new IUStH() {
-                @Override
-                public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
-                    preparedStatement.setTimestamp(1, deletionDate);
-                    preparedStatement.setString(2, player1.getAcountName());
-                    preparedStatement.execute();
-                }
-            });*/
 
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
