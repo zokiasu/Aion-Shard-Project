@@ -122,15 +122,19 @@ public class SystemMailService {
         PlayerCommonData recipientCommonData = DAOManager.getDAO(PlayerDAO.class).loadPlayerCommonDataByName(recipientName);
 
         if (recipientCommonData == null) {
-            log.info("[SYSMAILSERVICE] > [RecipientName: " + recipientName + "] NO SUCH CHARACTER NAME.");
+            if (LoggingConfig.LOG_SYSMAIL) {
+                log.info("[SYSMAILSERVICE] > [RecipientName: " + recipientName + "] NO SUCH CHARACTER NAME.");
+            }
             return false;
         }
 
         Player recipient = World.getInstance().findPlayer(recipientCommonData.getPlayerObjId());
         if (recipient != null) {
-            if (recipient.getMailbox() != null && !(recipient.getMailbox().size() < 100)) {
-                log.info("[SYSMAILSERVICE] > [SenderName: " + sender + "] [RecipientName: " + recipientCommonData.getName()
-                        + "] ITEM RETURN" + attachedItemObjId + " ITEM COUNT " + attachedItemCount + " KINAH COUNT " + attachedKinahCount + " MAILBOX FULL ");
+            if (recipient.getMailbox() != null && !(recipient.getMailbox().size() < 101)) {
+                if (LoggingConfig.LOG_SYSMAIL) {
+                    log.info("[SYSMAILSERVICE] > [SenderName: " + sender + "] [RecipientName: " + recipientCommonData.getName()
+                            + "] ITEM RETURN" + attachedItemObjId + " ITEM COUNT " + attachedItemCount + " KINAH COUNT " + attachedKinahCount + " MAILBOX FULL ");
+                }
                 return false;
             }
         } else if (recipientCommonData.getMailboxLetters() > 99) {
@@ -235,12 +239,14 @@ public class SystemMailService {
 
         Player recipient = World.getInstance().findPlayer(recipientCommonData.getPlayerObjId());
         if (recipient != null) {
-            if (recipient.getMailbox() != null && !(recipient.getMailbox().size() < 200)) {
-                log.info("[SYSMAILSERVICE] > [SenderName: " + sender + "] [RecipientName: " + recipientCommonData.getName()
-                        + "] ITEM RETURN" + attachedItemObjId + " ITEM COUNT " + attachedItemCount + " KINAH COUNT " + attachedKinahCount + " MAILBOX FULL ");
+            if (recipient.getMailbox() != null && !(recipient.getMailbox().size() < 101)) {
+                if (LoggingConfig.LOG_SYSMAIL) {
+                    log.info("[SYSMAILSERVICE] > [SenderName: " + sender + "] [RecipientName: " + recipientCommonData.getName()
+                            + "] ITEM RETURN" + attachedItemObjId + " ITEM COUNT " + attachedItemCount + " KINAH COUNT " + attachedKinahCount + " MAILBOX FULL ");
+                }
                 return false;
             }
-        } else if (recipientCommonData.getMailboxLetters() > 199) {
+        } else if (recipientCommonData.getMailboxLetters() > 100) {
             return false;
         }
 

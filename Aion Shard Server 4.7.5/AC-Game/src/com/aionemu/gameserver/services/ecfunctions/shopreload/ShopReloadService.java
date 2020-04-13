@@ -102,8 +102,6 @@ public class ShopReloadService implements ShopReloadStruct{
                                     ps.execute();
                                 }
                             });
-                        } else {
-                            log.error("Can't add " + itemId + " to player " + player_name + " because mail box is full or player doesn't exist");
                         }
                     }
                 }

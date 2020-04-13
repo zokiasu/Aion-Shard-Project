@@ -33,7 +33,7 @@ import com.aionemu.commons.configuration.Property;
 
 public class LoggingConfig {
 
-    @Property(key = "gameserver.enable.advanced.logging", defaultValue = "false")
+    @Property(key = "gameserver.enable.advanced.logging", defaultValue = "true")
     public static boolean ENABLE_ADVANCED_LOGGING;
     /**
      * Logging
@@ -46,7 +46,7 @@ public class LoggingConfig {
     public static boolean LOG_CHAT;
     @Property(key = "gameserver.log.craft", defaultValue = "true")
     public static boolean LOG_CRAFT;
-    @Property(key = "gameserver.log.faction", defaultValue = "false")
+    @Property(key = "gameserver.log.faction", defaultValue = "true")
     public static boolean LOG_FACTION;
     @Property(key = "gameserver.log.gmaudit", defaultValue = "true")
     public static boolean LOG_GMAUDIT;
@@ -56,19 +56,19 @@ public class LoggingConfig {
     public static boolean LOG_INGAMESHOP_SQL;
     @Property(key = "gameserver.log.item", defaultValue = "true")
     public static boolean LOG_ITEM;
-    @Property(key = "gameserver.log.kill", defaultValue = "false")
+    @Property(key = "gameserver.log.kill", defaultValue = "true")
     public static boolean LOG_KILL;
-    @Property(key = "gameserver.log.pl", defaultValue = "false")
+    @Property(key = "gameserver.log.pl", defaultValue = "true")
     public static boolean LOG_PL;
-    @Property(key = "gameserver.log.mail", defaultValue = "false")
+    @Property(key = "gameserver.log.mail", defaultValue = "true")
     public static boolean LOG_MAIL;
-    @Property(key = "gameserver.log.player.exchange", defaultValue = "false")
+    @Property(key = "gameserver.log.player.exchange", defaultValue = "true")
     public static boolean LOG_PLAYER_EXCHANGE;
-    @Property(key = "gameserver.log.broker.exchange", defaultValue = "false")
+    @Property(key = "gameserver.log.broker.exchange", defaultValue = "true")
     public static boolean LOG_BROKER_EXCHANGE;
-    @Property(key = "gameserver.log.siege", defaultValue = "false")
+    @Property(key = "gameserver.log.siege", defaultValue = "true")
     public static boolean LOG_SIEGE;
-    @Property(key = "gameserver.log.sysmail", defaultValue = "false")
+    @Property(key = "gameserver.log.sysmail", defaultValue = "true")
     public static boolean LOG_SYSMAIL;
     @Property(key = "gameserver.log.auction", defaultValue = "true")
     public static boolean LOG_HOUSE_AUCTION;
