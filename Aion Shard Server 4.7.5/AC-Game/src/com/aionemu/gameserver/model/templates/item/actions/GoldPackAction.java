@@ -8,6 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.sql.Connection;
 import java.util.Calendar;
 
 import com.aionemu.commons.database.DB;
@@ -50,7 +51,16 @@ public class GoldPackAction extends AbstractItemAction {
             cal.add(Calendar.DAY_OF_WEEK, 30);
             deletionDate.setTime(cal.getTime().getTime());
 
-            DB.insertUpdate("UPDATE account_data set membership = ? where name = ?", new IUStH() {
+            Class.forName("org.postgresql.Driver");
+
+            String url = "jdbc:mysql://localhost:3306/ac47_server_ls?useUnicode=true&characterEncoding=UTF-8";
+            String user = "aion";
+            String passwd = "ny@rkT43m!";
+
+            Connection conn = DriverManager.getConnection(url, user, passwd);
+            Statement st = conn.createStatement();
+
+            st.insertUpdate("UPDATE account_data set membership = ? where name = ?", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
                     preparedStatement.setInt(1, 1);
@@ -59,14 +69,14 @@ public class GoldPackAction extends AbstractItemAction {
                 }
             });
 
-            DB.insertUpdate("UPDATE account_data set expire = ? where name = ?", new IUStH() {
+            /*DB.insertUpdate("UPDATE account_data set expire = ? where name = ?", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
                     preparedStatement.setTimestamp(1, deletionDate);
                     preparedStatement.setString(2, player1.getAcountName());
                     preparedStatement.execute();
                 }
-            });
+            });*/
 
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
