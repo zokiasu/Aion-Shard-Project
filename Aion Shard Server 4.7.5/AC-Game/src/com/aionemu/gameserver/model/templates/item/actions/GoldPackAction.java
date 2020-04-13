@@ -44,6 +44,7 @@ public class GoldPackAction extends AbstractItemAction {
 
         try {
             final Timestamp deletionDate = new Timestamp(System.currentTimeMillis());
+            final Player player1 = player;
             Calendar cal = Calendar.getInstance();
             cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
@@ -53,7 +54,7 @@ public class GoldPackAction extends AbstractItemAction {
                 @Override
                 public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
                     preparedStatement.setInt(1, 1);
-                    preparedStatement.setString(2, player.getAcountName());
+                    preparedStatement.setString(2, player1.getAcountName());
                     preparedStatement.execute();
                 }
             });
@@ -62,7 +63,7 @@ public class GoldPackAction extends AbstractItemAction {
                 @Override
                 public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
                     preparedStatement.setTimestamp(1, deletionDate);
-                    preparedStatement.setString(2, player.getAcountName());
+                    preparedStatement.setString(2, player1.getAcountName());
                     preparedStatement.execute();
                 }
             });
