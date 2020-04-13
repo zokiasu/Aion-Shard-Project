@@ -47,6 +47,7 @@ public class ItemActions {
 
     @XmlElements({
             @XmlElement(name = "skilllearn", type = SkillLearnAction.class),
+            @XmlElement(name = "goldpack", type = GoldPackAction.class),
             @XmlElement(name = "extract", type = ExtractAction.class),
             @XmlElement(name = "skilluse", type = SkillUseAction.class),
             @XmlElement(name = "enchant", type = EnchantItemAction.class),

@@ -178,6 +178,7 @@
     <xs:complexType name="ItemActions">
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
             <xs:element name="skilllearn" type="SkillLearnAction" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="goldpack" type="GoldPackAction" minOccurs="0" maxOccurs="1"/>
             <xs:element name="skilluse" type="SkillUseAction" minOccurs="0" maxOccurs="1"/>
             <xs:element name="enchant" type="EnchantItemAction" minOccurs="0" maxOccurs="1"/>
             <xs:element name="queststart" type="QuestStartAction" minOccurs="0" maxOccurs="1"/>
@@ -268,6 +269,11 @@
                 <xs:attribute name="class" type="playerClass"/>
                 <xs:attribute name="skillid" type="xs:int"/>
             </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GoldPackAction">
+        <xs:complexContent>
+            <xs:extension base="AbstractItemAction"/>
         </xs:complexContent>
     </xs:complexType>
     <xs:complexType name="SkillUseAction">

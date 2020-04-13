@@ -3744,24 +3744,24 @@
 	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Winter Circle III" skillLevel="1" skillId="1187" classId="CLERIC" />
 	<skill minLevel="49" race="PC_ALL" autolearn="true" name="Prayer of Focus II" skillLevel="1" skillId="1125" classId="CLERIC" />
 	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Brilliant Protection I" skillLevel="1" skillId="1164" classId="CLERIC" />
-	<skill minLevel="50" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="1" skillId="1188" classId="CLERIC" />
-	<skill minLevel="51" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="2" skillId="1188" classId="CLERIC" />
-	<skill minLevel="52" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="3" skillId="1188" classId="CLERIC" />
-	<skill minLevel="53" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="4" skillId="1188" classId="CLERIC" />
-	<skill minLevel="54" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="5" skillId="1188" classId="CLERIC" />
-	<skill minLevel="55" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="6" skillId="1188" classId="CLERIC" />
-	<skill minLevel="56" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="7" skillId="1188" classId="CLERIC" />
-	<skill minLevel="57" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="8" skillId="1188" classId="CLERIC" />
-	<skill minLevel="58" race="ELYOS" autolearn="true" name="Yustiel's Light I" skillLevel="9" skillId="1188" classId="CLERIC" />
-	<skill minLevel="50" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="1" skillId="1189" classId="CLERIC" />
-	<skill minLevel="51" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="2" skillId="1189" classId="CLERIC" />
-	<skill minLevel="52" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="3" skillId="1189" classId="CLERIC" />
-	<skill minLevel="53" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="4" skillId="1189" classId="CLERIC" />
-	<skill minLevel="54" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="5" skillId="1189" classId="CLERIC" />
-	<skill minLevel="55" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="6" skillId="1189" classId="CLERIC" />
-	<skill minLevel="56" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="7" skillId="1189" classId="CLERIC" />
-	<skill minLevel="57" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="8" skillId="1189" classId="CLERIC" />
-	<skill minLevel="58" race="ASMODIANS" autolearn="true" name="Marchutan's Light I" skillLevel="9" skillId="1189" classId="CLERIC" />
+	<skill minLevel="50" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="1" skillId="1188" classId="CLERIC" />
+	<skill minLevel="51" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="2" skillId="1188" classId="CLERIC" />
+	<skill minLevel="52" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="3" skillId="1188" classId="CLERIC" />
+	<skill minLevel="53" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="4" skillId="1188" classId="CLERIC" />
+	<skill minLevel="54" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="5" skillId="1188" classId="CLERIC" />
+	<skill minLevel="55" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="6" skillId="1188" classId="CLERIC" />
+	<skill minLevel="56" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="7" skillId="1188" classId="CLERIC" />
+	<skill minLevel="57" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="8" skillId="1188" classId="CLERIC" />
+	<skill minLevel="58" race="ELYOS" autolearn="false" name="Yustiel's Light I" skillLevel="9" skillId="1188" classId="CLERIC" />
+	<skill minLevel="50" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="1" skillId="1189" classId="CLERIC" />
+	<skill minLevel="51" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="2" skillId="1189" classId="CLERIC" />
+	<skill minLevel="52" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="3" skillId="1189" classId="CLERIC" />
+	<skill minLevel="53" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="4" skillId="1189" classId="CLERIC" />
+	<skill minLevel="54" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="5" skillId="1189" classId="CLERIC" />
+	<skill minLevel="55" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="6" skillId="1189" classId="CLERIC" />
+	<skill minLevel="56" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="7" skillId="1189" classId="CLERIC" />
+	<skill minLevel="57" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="8" skillId="1189" classId="CLERIC" />
+	<skill minLevel="58" race="PC_ALL" autolearn="true" name="Marchutan's Light I" skillLevel="9" skillId="1189" classId="CLERIC" />
 	<skill minLevel="50" race="ELYOS" stigma="true" name="Yustiel's Splendor I" skillLevel="1" skillId="1049" classId="CLERIC" />
 	<skill minLevel="50" race="ASMODIANS" stigma="true" name="Marchutan's Splendor I" skillLevel="1" skillId="1050" classId="CLERIC" />
 	<skill minLevel="50" race="PC_ALL" stigma="true" name="Ripple of Purification I" skillLevel="1" skillId="1042" classId="CLERIC" />

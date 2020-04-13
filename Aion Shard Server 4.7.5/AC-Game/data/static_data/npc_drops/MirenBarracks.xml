@@ -1,5 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops>
+    <!-- Début boss intermédiaire -->
+    <npc_drop npc_id="233687">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="233698">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="233710">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="233717">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="233711">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="233709">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <npc_drop npc_id="233687">
+        <drop_group use_category="true" name="CANDY" race="ELYOS">
+            <drop item_id="160010317" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010315" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010319" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+        <drop_group use_category="true" name="CANDY" race="ASMODIANS">
+            <drop item_id="160010320" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010318" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+            <drop item_id="160010316" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+        </drop_group>
+    </npc_drop>
+    <!-- Fin boss intermédiaire -->
+
     <npc_drop npc_id="233716">
         <drop_group name="KEY">
             <drop item_id="185000066" chance="100.0" min_amount="1" max_amount="1"/>
