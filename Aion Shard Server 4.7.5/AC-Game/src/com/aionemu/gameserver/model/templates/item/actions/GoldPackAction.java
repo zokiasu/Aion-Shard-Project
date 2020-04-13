@@ -38,8 +38,6 @@ public class GoldPackAction extends AbstractItemAction {
         }
         ItemTemplate itemTemplate = parentItem.getItemTemplate();
         PacketSendUtility.sendMessage(player, "Ah que coucou!");
-        ItemService.addItem(player, 164002225, 1);
-        ItemService.addItem(player, 169610093, 1);
 
         Connection con = null;
 
@@ -51,8 +49,9 @@ public class GoldPackAction extends AbstractItemAction {
             cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
             deletionDate.setTime(cal.getTime().getTime());
+
             con = DatabaseFactory.getConnection();
-            PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +" account_data set membership = ? where name = ?");
+            PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.membership = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt.setInt(1, 1);
             stmt.setString(2, player1.getAcountName());
             stmt.execute();
@@ -78,10 +77,14 @@ public class GoldPackAction extends AbstractItemAction {
 
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
+            log.error(e.getMessage(), e);
             return;
         } finally {
             DatabaseFactory.close(con);
         }
+
+        ItemService.addItem(player, 164002225, 1);
+        ItemService.addItem(player, 169610093, 1);
 
         PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), parentItem.getObjectId(), itemTemplate.getTemplateId()), true);
     }
