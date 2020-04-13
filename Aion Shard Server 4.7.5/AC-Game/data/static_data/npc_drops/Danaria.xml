@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops>
 	<!-- DEBUT MOB FARM -->
-		<npc_drop npc_id="0">
+	<npc_drop npc_id="0">
 		<drop_group name="KINAH">
 			<drop item_id="182400001" chance="10.0" min_amount="25000" max_amount="25600"/>
 		</drop_group>
@@ -203,17 +203,17 @@
 	<!-- FIN MOB FARM -->
 	<!-- Debut Invasion -->
 		<npc_drop npc_id="234600">
-		<drop_group use_category="true" name="MANASTONE" race="PC_ALL">
-			<drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
-			<drop item_id="188051756" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="true"/> <!-- Manastone 60/70 Green or White -->
-		</drop_group>
-		<drop_group use_category="true" name="PALLASITE" race="PC_ALL">
-			<drop item_id="188053628" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
-		</drop_group>
-		<drop_group use_category="true" name="GRADE_1" race="PC_ALL">
-			<drop item_id="188053181" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
-		</drop_group>
-	</npc_drop>
+			<drop_group use_category="true" name="MANASTONE" race="PC_ALL">
+				<drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+				<drop item_id="188051756" chance="100.0" min_amount="1" max_amount="10" no_reduce="false" eachmember="true"/> <!-- Manastone 60/70 Green or White -->
+			</drop_group>
+			<drop_group use_category="true" name="PALLASITE" race="PC_ALL">
+				<drop item_id="188053628" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+			</drop_group>
+			<drop_group use_category="true" name="GRADE_1" race="PC_ALL">
+				<drop item_id="188053181" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
+			</drop_group>
+		</npc_drop>
 		<npc_drop npc_id="234604">
 			<drop_group use_category="true" name="MANASTONE" race="PC_ALL">
 				<drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
