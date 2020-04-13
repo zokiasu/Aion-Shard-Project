@@ -8,8 +8,10 @@ import java.sql.*;
 import java.util.Calendar;
 
 import com.aionemu.commons.database.DB;
+import com.aionemu.commons.database.DatabaseFactory;
 import com.aionemu.commons.database.IUStH;
 import com.aionemu.commons.database.ParamReadStH;
+import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
@@ -42,28 +44,28 @@ public class GoldPackAction extends AbstractItemAction {
         try {
             final Timestamp deletionDate = new Timestamp(System.currentTimeMillis());
             final Player player1 = player;
+            String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME
             Calendar cal = Calendar.getInstance();
             cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
             deletionDate.setTime(cal.getTime().getTime());
 
-            Class.forName("org.postgresql.Driver");
+            Connection con = null;
+            con = DatabaseFactory.getConnection();
+            PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +" account_data set membership = ? where name = ?");
+            stmt.setInt(1, 1);
+            stmt.setString(2, player1.getAcountName());
+            stmt.execute();
+            stmt.close();
 
-            String url = "jdbc:mysql://localhost:3306/ac47_server_ls?useUnicode=true&characterEncoding=UTF-8";
-            String user = "aion";
-            String passwd = "ny@rkT43m!";
-
-            Connection conn = DriverManager.getConnection(url, user, passwd);
-            Statement st = conn.createStatement();
-
-            st.insertUpdate("UPDATE account_data set membership = ? where name = ?", new IUStH() {
+            /*DB.insertUpdate("UPDATE " + LOGIN_DATABASE +" account_data set membership = ? where name = ?", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
                     preparedStatement.setInt(1, 1);
                     preparedStatement.setString(2, player1.getAcountName());
                     preparedStatement.execute();
                 }
-            });
+            });*/
 
             /*DB.insertUpdate("UPDATE account_data set expire = ? where name = ?", new IUStH() {
                 @Override
@@ -77,6 +79,8 @@ public class GoldPackAction extends AbstractItemAction {
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
             return;
+        } finally {
+            DatabaseFactory.close(con);
         }
 
         PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), parentItem.getObjectId(), itemTemplate.getTemplateId()), true);
