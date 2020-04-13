@@ -85,8 +85,7 @@ public class Bk extends AdminCommand {
                 final int char_id = player.getObjectId();
                 final int world_id = player.getWorldId();
 
-                DB.insertUpdate("INSERT INTO bookmark (" + "`name`,`char_id`, `x`, `y`, `z`,`world_id` )" + " VALUES "
-                        + "(?, ?, ?, ?, ?, ?)", new IUStH() {
+                DB.insertUpdate("INSERT INTO bookmark (" + "`name`,`char_id`, `x`, `y`, `z`,`world_id` )" + " VALUES " + "(?, ?, ?, ?, ?, ?)", new IUStH() {
                     @Override
                     public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
                         ps.setString(1, bookmark_name);
@@ -99,8 +98,7 @@ public class Bk extends AdminCommand {
                     }
                 });
 
-                PacketSendUtility
-                        .sendMessage(player, "Bookmark " + bookmark_name + " sucessfully added to your bookmark list!");
+                PacketSendUtility .sendMessage(player, "Bookmark " + bookmark_name + " sucessfully added to your bookmark list!");
 
                 updateInfo(player.getObjectId());
             } catch (Exception e) {
