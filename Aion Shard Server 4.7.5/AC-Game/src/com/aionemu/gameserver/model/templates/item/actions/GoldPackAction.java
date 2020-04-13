@@ -77,7 +77,6 @@ public class GoldPackAction extends AbstractItemAction {
 
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
-            log.error(e.getMessage(), e);
             return;
         } finally {
             DatabaseFactory.close(con);
