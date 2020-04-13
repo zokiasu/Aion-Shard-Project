@@ -128,12 +128,12 @@ public class SystemMailService {
 
         Player recipient = World.getInstance().findPlayer(recipientCommonData.getPlayerObjId());
         if (recipient != null) {
-            if (recipient.getMailbox() != null && !(recipient.getMailbox().size() < 200)) {
+            if (recipient.getMailbox() != null && !(recipient.getMailbox().size() < 100)) {
                 log.info("[SYSMAILSERVICE] > [SenderName: " + sender + "] [RecipientName: " + recipientCommonData.getName()
                         + "] ITEM RETURN" + attachedItemObjId + " ITEM COUNT " + attachedItemCount + " KINAH COUNT " + attachedKinahCount + " MAILBOX FULL ");
                 return false;
             }
-        } else if (recipientCommonData.getMailboxLetters() > 199) {
+        } else if (recipientCommonData.getMailboxLetters() > 99) {
             return false;
         }
         Item attachedItem = null;
