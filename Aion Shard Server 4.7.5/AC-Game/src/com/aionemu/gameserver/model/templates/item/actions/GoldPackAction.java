@@ -44,7 +44,7 @@ public class GoldPackAction extends AbstractItemAction {
         try {
             final Timestamp deletionDate = new Timestamp(System.currentTimeMillis());
             final Player player1 = player;
-            String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME
+            String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
             Calendar cal = Calendar.getInstance();
             cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
