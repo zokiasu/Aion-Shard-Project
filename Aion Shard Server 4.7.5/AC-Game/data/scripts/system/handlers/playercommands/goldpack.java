@@ -40,7 +40,8 @@ public class goldpack extends PlayerCommand {
             final Player player1 = player;
             String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
             DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
-
+            
+            con = DatabaseFactory.getConnection();
             PreparedStatement stmt1 = con.prepareStatement("SELECT * FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt1.setString(1, player1.getAcountName());
             ResultSet resultSet = stmt1.executeQuery();
