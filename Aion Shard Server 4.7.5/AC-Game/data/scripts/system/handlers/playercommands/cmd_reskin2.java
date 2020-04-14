@@ -153,10 +153,10 @@ public class cmd_reskin2 extends PlayerCommand {
 
         if (!admin.isGM() && !itemnew.isEmpty()) {
             reskin(admin, tollPrice, newItemId, items);
-            admin.getInventory().decreaseByItemId(newItemId, 1);
+            //admin.getInventory().decreaseByItemId(newItemId, 1);
         } else {
             reskin(admin, tollPrice, newItemId, items);
-            admin.getInventory().decreaseByItemId(newItemId, 1);
+            //admin.getInventory().decreaseByItemId(newItemId, 1);
         }
     }
 
@@ -173,8 +173,9 @@ public class cmd_reskin2 extends PlayerCommand {
                 Iterator<Item> iter = items.iterator();
                 Item item = iter.next();
                 item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(itemId));
+                admin.getInventory().decreaseByItemId(itemId, 1);
                 PacketSendUtility.sendMessage(admin, "Skin successfully changed!");
-                PacketSendUtility.sendMessage(p, "For changing the skin, you have use " + toll + " Shard Coins!");
+                PacketSendUtility.sendMessage(admin, "For changing the skin, you have use " + toll + " Shard Coins!");
             }
 
             @Override
