@@ -1,23 +1,27 @@
--- --------------------------------------------------------
--- Hôte :                        127.0.0.1
--- Version du serveur:           5.6.47-log - MySQL Community Server (GPL)
--- SE du serveur:                Win64
--- HeidiSQL Version:             11.0.0.5919
--- --------------------------------------------------------
+/*
+Navicat MySQL Data Transfer
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+by GiGatR00n v4.7.5.x
 
+Source Server         : Localhost
+Source Server Version : 50616
+Source Host           : 192.168.2.20:3306
+Source Database       : test_server46_ls
 
--- Listage de la structure de la base pour ac47_server_ls
-CREATE DATABASE IF NOT EXISTS `ac47_server_ls` /*!40100 DEFAULT CHARACTER SET armscii8 COLLATE armscii8_bin */;
-USE `ac47_server_ls`;
+Target Server Type    : MYSQL
+Target Server Version : 50616
+File Encoding         : 65001
 
--- Listage de la structure de la table ac47_server_ls. account_data
-CREATE TABLE IF NOT EXISTS `account_data` (
+Date: 2015-05-11 19:14:37
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for account_data
+-- ----------------------------
+DROP TABLE IF EXISTS `account_data`;
+CREATE TABLE `account_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
   `password` varchar(65) NOT NULL,
@@ -37,22 +41,32 @@ CREATE TABLE IF NOT EXISTS `account_data` (
   `answer` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=60 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of account_data
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. account_playtime
-CREATE TABLE IF NOT EXISTS `account_playtime` (
+-- ----------------------------
+-- Table structure for account_playtime
+-- ----------------------------
+DROP TABLE IF EXISTS `account_playtime`;
+CREATE TABLE `account_playtime` (
   `account_id` int(10) unsigned NOT NULL,
   `accumulated_online` int(10) unsigned NOT NULL DEFAULT '0',
   `lastupdate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`account_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of account_playtime
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. account_rewards
-CREATE TABLE IF NOT EXISTS `account_rewards` (
+-- ----------------------------
+-- Table structure for account_rewards
+-- ----------------------------
+DROP TABLE IF EXISTS `account_rewards`;
+CREATE TABLE `account_rewards` (
   `uniqId` int(11) NOT NULL AUTO_INCREMENT,
   `accountId` int(11) NOT NULL,
   `added` varchar(70) NOT NULL DEFAULT '',
@@ -64,10 +78,15 @@ CREATE TABLE IF NOT EXISTS `account_rewards` (
   CONSTRAINT `FK_account_rewards` FOREIGN KEY (`accountId`) REFERENCES `account_data` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of account_rewards
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. account_time
-CREATE TABLE IF NOT EXISTS `account_time` (
+-- ----------------------------
+-- Table structure for account_time
+-- ----------------------------
+DROP TABLE IF EXISTS `account_time`;
+CREATE TABLE `account_time` (
   `account_id` int(11) NOT NULL,
   `last_active` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `expiration_time` timestamp NULL DEFAULT NULL,
@@ -79,21 +98,31 @@ CREATE TABLE IF NOT EXISTS `account_time` (
   CONSTRAINT `FK_account_time` FOREIGN KEY (`account_id`) REFERENCES `account_data` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of account_time
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. banned_ip
-CREATE TABLE IF NOT EXISTS `banned_ip` (
+-- ----------------------------
+-- Table structure for banned_ip
+-- ----------------------------
+DROP TABLE IF EXISTS `banned_ip`;
+CREATE TABLE `banned_ip` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `mask` varchar(45) NOT NULL,
   `time_end` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `mask` (`mask`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of banned_ip
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. banned_mac
-CREATE TABLE IF NOT EXISTS `banned_mac` (
+-- ----------------------------
+-- Table structure for banned_mac
+-- ----------------------------
+DROP TABLE IF EXISTS `banned_mac`;
+CREATE TABLE `banned_mac` (
   `uniId` int(10) NOT NULL AUTO_INCREMENT,
   `address` varchar(20) NOT NULL,
   `time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
@@ -101,20 +130,30 @@ CREATE TABLE IF NOT EXISTS `banned_mac` (
   PRIMARY KEY (`uniId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of banned_mac
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. gameservers
-CREATE TABLE IF NOT EXISTS `gameservers` (
+-- ----------------------------
+-- Table structure for gameservers
+-- ----------------------------
+DROP TABLE IF EXISTS `gameservers`;
+CREATE TABLE `gameservers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `mask` varchar(45) NOT NULL,
   `password` varchar(65) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of gameservers
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. player_transfers
-CREATE TABLE IF NOT EXISTS `player_transfers` (
+-- ----------------------------
+-- Table structure for player_transfers
+-- ----------------------------
+DROP TABLE IF EXISTS `player_transfers`;
+CREATE TABLE `player_transfers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `source_server` tinyint(3) NOT NULL,
   `target_server` tinyint(3) NOT NULL,
@@ -129,10 +168,15 @@ CREATE TABLE IF NOT EXISTS `player_transfers` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of player_transfers
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_ls. tasks
-CREATE TABLE IF NOT EXISTS `tasks` (
+-- ----------------------------
+-- Table structure for tasks
+-- ----------------------------
+DROP TABLE IF EXISTS `tasks`;
+CREATE TABLE `tasks` (
   `id` int(5) NOT NULL AUTO_INCREMENT,
   `task_type` enum('SHUTDOWN','RESTART','CLEAN_ACCOUNTS') NOT NULL,
   `trigger_type` enum('FIXED_IN_TIME','AFTER_RESTART') NOT NULL,
@@ -141,8 +185,6 @@ CREATE TABLE IF NOT EXISTS `tasks` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+-- ----------------------------
+-- Records of tasks
+-- ----------------------------

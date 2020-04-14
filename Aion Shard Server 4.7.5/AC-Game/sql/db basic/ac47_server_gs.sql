@@ -1,23 +1,26 @@
--- --------------------------------------------------------
--- Hôte :                        127.0.0.1
--- Version du serveur:           5.6.47-log - MySQL Community Server (GPL)
--- SE du serveur:                Win64
--- HeidiSQL Version:             11.0.0.5919
--- --------------------------------------------------------
+/*
+Navicat MySQL Data Transfer
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+by GiGatR00n v4.7.5.x
+
+Source Server         : Localhost
+Source Server Version : 50616
+Source Host           : 127.0.0.1:3306
+Source Database       : ac47_server_gs
+
+Target Server Type    : MYSQL
+Target Server Version : 50616
+File Encoding         : 65001
+
+Date: 2015-05-11 19:21:17
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
 
 
--- Listage de la structure de la base pour ac47_server_gs
-CREATE DATABASE IF NOT EXISTS `ac47_server_gs` /*!40100 DEFAULT CHARACTER SET armscii8 COLLATE armscii8_bin */;
-USE `ac47_server_gs`;
 
--- Listage de la structure de la table ac47_server_gs. abyss_rank
-CREATE TABLE IF NOT EXISTS `abyss_rank` (
+DROP TABLE IF EXISTS `abyss_rank`;
+CREATE TABLE `abyss_rank` (
   `player_id` int(11) NOT NULL,
   `daily_ap` int(11) NOT NULL,
   `daily_gp` int(11) NOT NULL,
@@ -42,10 +45,8 @@ CREATE TABLE IF NOT EXISTS `abyss_rank` (
   CONSTRAINT `abyss_rank_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. announcements
-CREATE TABLE IF NOT EXISTS `announcements` (
+DROP TABLE IF EXISTS `announcements`;
+CREATE TABLE `announcements` (
   `id` int(3) NOT NULL AUTO_INCREMENT,
   `announce` text NOT NULL,
   `faction` enum('ALL','ASMODIANS','ELYOS') NOT NULL DEFAULT 'ALL',
@@ -54,19 +55,22 @@ CREATE TABLE IF NOT EXISTS `announcements` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. base_location
-CREATE TABLE IF NOT EXISTS `base_location` (
+-- ----------------------------
+-- Table structure for `base_location`
+-- ----------------------------
+DROP TABLE IF EXISTS `base_location`;
+CREATE TABLE `base_location` (
   `id` int(11) NOT NULL,
   `race` enum('ELYOS','ASMODIANS','NPC') NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- ----------------------------
+-- Records of base_location
+-- ----------------------------
 
--- Listage de la structure de la table ac47_server_gs. blocks
-CREATE TABLE IF NOT EXISTS `blocks` (
+DROP TABLE IF EXISTS `blocks`;
+CREATE TABLE `blocks` (
   `player` int(11) NOT NULL,
   `blocked_player` int(11) NOT NULL,
   `reason` varchar(100) NOT NULL DEFAULT '',
@@ -76,10 +80,8 @@ CREATE TABLE IF NOT EXISTS `blocks` (
   CONSTRAINT `blocks_ibfk_2` FOREIGN KEY (`blocked_player`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. bookmark
-CREATE TABLE IF NOT EXISTS `bookmark` (
+DROP TABLE IF EXISTS `bookmark`;
+CREATE TABLE `bookmark` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) DEFAULT NULL,
   `char_id` int(11) NOT NULL,
@@ -90,10 +92,8 @@ CREATE TABLE IF NOT EXISTS `bookmark` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. broker
-CREATE TABLE IF NOT EXISTS `broker` (
+DROP TABLE IF EXISTS `broker`;
+CREATE TABLE `broker` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `item_pointer` int(11) NOT NULL DEFAULT '0',
   `item_id` int(11) NOT NULL,
@@ -111,12 +111,10 @@ CREATE TABLE IF NOT EXISTS `broker` (
   PRIMARY KEY (`id`),
   KEY `seller_id` (`seller_id`),
   CONSTRAINT `broker_ibfk_1` FOREIGN KEY (`seller_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. challenge_tasks
-CREATE TABLE IF NOT EXISTS `challenge_tasks` (
+DROP TABLE IF EXISTS `challenge_tasks`;
+CREATE TABLE `challenge_tasks` (
   `task_id` int(11) NOT NULL,
   `quest_id` int(10) NOT NULL,
   `owner_id` int(11) NOT NULL,
@@ -126,10 +124,8 @@ CREATE TABLE IF NOT EXISTS `challenge_tasks` (
   PRIMARY KEY (`task_id`,`quest_id`,`owner_id`,`owner_type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. craft_cooldowns
-CREATE TABLE IF NOT EXISTS `craft_cooldowns` (
+DROP TABLE IF EXISTS `craft_cooldowns`;
+CREATE TABLE `craft_cooldowns` (
   `player_id` int(11) NOT NULL,
   `delay_id` int(11) unsigned NOT NULL,
   `reuse_time` bigint(13) unsigned NOT NULL,
@@ -137,10 +133,8 @@ CREATE TABLE IF NOT EXISTS `craft_cooldowns` (
   CONSTRAINT `craft_cooldowns_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. friends
-CREATE TABLE IF NOT EXISTS `friends` (
+DROP TABLE IF EXISTS `friends`;
+CREATE TABLE `friends` (
   `player` int(11) NOT NULL,
   `friend` int(11) NOT NULL,
   PRIMARY KEY (`player`,`friend`),
@@ -149,22 +143,18 @@ CREATE TABLE IF NOT EXISTS `friends` (
   CONSTRAINT `friends_ibfk_2` FOREIGN KEY (`friend`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. guides
-CREATE TABLE IF NOT EXISTS `guides` (
+DROP TABLE IF EXISTS `guides`;
+CREATE TABLE `guides` (
   `guide_id` int(11) NOT NULL AUTO_INCREMENT,
   `player_id` int(11) NOT NULL,
   `title` varchar(80) NOT NULL,
   PRIMARY KEY (`guide_id`),
   KEY `player_id` (`player_id`),
   CONSTRAINT `guides_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=368630 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=329193 DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. guild_quests
-CREATE TABLE IF NOT EXISTS `guild_quests` (
+DROP TABLE IF EXISTS `guild_quests`;
+CREATE TABLE `guild_quests` (
   `player_id` int(11) NOT NULL,
   `guild_id` int(2) NOT NULL DEFAULT '0',
   `recently_taken_quest` int(6) NOT NULL DEFAULT '0',
@@ -174,10 +164,8 @@ CREATE TABLE IF NOT EXISTS `guild_quests` (
   CONSTRAINT `guild_quests_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. houses
-CREATE TABLE IF NOT EXISTS `houses` (
+DROP TABLE IF EXISTS `houses`;
+CREATE TABLE `houses` (
   `id` int(10) NOT NULL,
   `player_id` int(10) NOT NULL DEFAULT '0',
   `building_id` int(10) NOT NULL,
@@ -194,10 +182,8 @@ CREATE TABLE IF NOT EXISTS `houses` (
   KEY `address` (`address`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. house_bids
-CREATE TABLE IF NOT EXISTS `house_bids` (
+DROP TABLE IF EXISTS `house_bids`;
+CREATE TABLE `house_bids` (
   `player_id` int(10) NOT NULL,
   `house_id` int(10) NOT NULL,
   `bid` bigint(20) NOT NULL,
@@ -207,20 +193,16 @@ CREATE TABLE IF NOT EXISTS `house_bids` (
   CONSTRAINT `house_id_ibfk_1` FOREIGN KEY (`house_id`) REFERENCES `houses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. house_object_cooldowns
-CREATE TABLE IF NOT EXISTS `house_object_cooldowns` (
+DROP TABLE IF EXISTS `house_object_cooldowns`;
+CREATE TABLE `house_object_cooldowns` (
   `player_id` int(11) NOT NULL,
   `object_id` int(11) NOT NULL,
   `reuse_time` bigint(20) NOT NULL,
   PRIMARY KEY (`player_id`,`object_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. house_scripts
-CREATE TABLE IF NOT EXISTS `house_scripts` (
+DROP TABLE IF EXISTS `house_scripts`;
+CREATE TABLE `house_scripts` (
   `house_id` int(11) NOT NULL,
   `index` tinyint(4) NOT NULL,
   `script` mediumtext,
@@ -228,10 +210,8 @@ CREATE TABLE IF NOT EXISTS `house_scripts` (
   CONSTRAINT `houses_id_ibfk_1` FOREIGN KEY (`house_id`) REFERENCES `houses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED KEY_BLOCK_SIZE=16;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. ingameshop
-CREATE TABLE IF NOT EXISTS `ingameshop` (
+DROP TABLE IF EXISTS `ingameshop`;
+CREATE TABLE `ingameshop` (
   `object_id` int(11) NOT NULL AUTO_INCREMENT,
   `item_id` int(11) NOT NULL,
   `item_count` bigint(13) NOT NULL DEFAULT '0',
@@ -247,10 +227,8 @@ CREATE TABLE IF NOT EXISTS `ingameshop` (
   PRIMARY KEY (`object_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. ingameshop_log
-CREATE TABLE IF NOT EXISTS `ingameshop_log` (
+DROP TABLE IF EXISTS `ingameshop_log`;
+CREATE TABLE `ingameshop_log` (
   `transaction_id` int(11) NOT NULL AUTO_INCREMENT,
   `transaction_type` enum('BUY','GIFT') NOT NULL,
   `transaction_date` timestamp NULL DEFAULT NULL,
@@ -263,10 +241,8 @@ CREATE TABLE IF NOT EXISTS `ingameshop_log` (
   PRIMARY KEY (`transaction_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. inventory
-CREATE TABLE IF NOT EXISTS `inventory` (
+DROP TABLE IF EXISTS `inventory`;
+CREATE TABLE `inventory` (
   `item_unique_id` int(11) NOT NULL,
   `item_id` int(11) NOT NULL,
   `item_count` bigint(20) NOT NULL DEFAULT '0',
@@ -298,10 +274,8 @@ CREATE TABLE IF NOT EXISTS `inventory` (
   KEY `index3` (`item_owner`,`item_location`,`is_equiped`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. item_cooldowns
-CREATE TABLE IF NOT EXISTS `item_cooldowns` (
+DROP TABLE IF EXISTS `item_cooldowns`;
+CREATE TABLE `item_cooldowns` (
   `player_id` int(11) NOT NULL,
   `delay_id` int(11) NOT NULL,
   `use_delay` int(10) unsigned NOT NULL,
@@ -310,10 +284,8 @@ CREATE TABLE IF NOT EXISTS `item_cooldowns` (
   CONSTRAINT `item_cooldowns_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. item_stones
-CREATE TABLE IF NOT EXISTS `item_stones` (
+DROP TABLE IF EXISTS `item_stones`;
+CREATE TABLE `item_stones` (
   `item_unique_id` int(11) NOT NULL,
   `item_id` int(11) NOT NULL,
   `slot` int(2) NOT NULL,
@@ -324,10 +296,8 @@ CREATE TABLE IF NOT EXISTS `item_stones` (
   CONSTRAINT `item_stones_ibfk_1` FOREIGN KEY (`item_unique_id`) REFERENCES `inventory` (`item_unique_id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. legions
-CREATE TABLE IF NOT EXISTS `legions` (
+DROP TABLE IF EXISTS `legions`;
+CREATE TABLE `legions` (
   `id` int(11) NOT NULL,
   `name` varchar(32) DEFAULT NULL,
   `level` int(1) NOT NULL DEFAULT '1',
@@ -345,10 +315,8 @@ CREATE TABLE IF NOT EXISTS `legions` (
   UNIQUE KEY `name_unique` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. legion_announcement_list
-CREATE TABLE IF NOT EXISTS `legion_announcement_list` (
+DROP TABLE IF EXISTS `legion_announcement_list`;
+CREATE TABLE `legion_announcement_list` (
   `legion_id` int(11) NOT NULL,
   `announcement` varchar(256) NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -356,10 +324,8 @@ CREATE TABLE IF NOT EXISTS `legion_announcement_list` (
   CONSTRAINT `legion_announcement_list_ibfk_1` FOREIGN KEY (`legion_id`) REFERENCES `legions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. legion_emblems
-CREATE TABLE IF NOT EXISTS `legion_emblems` (
+DROP TABLE IF EXISTS `legion_emblems`;
+CREATE TABLE `legion_emblems` (
   `legion_id` int(11) NOT NULL,
   `emblem_id` int(1) NOT NULL DEFAULT '0',
   `color_r` int(3) NOT NULL DEFAULT '0',
@@ -371,10 +337,8 @@ CREATE TABLE IF NOT EXISTS `legion_emblems` (
   CONSTRAINT `legion_emblems_ibfk_1` FOREIGN KEY (`legion_id`) REFERENCES `legions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. legion_history
-CREATE TABLE IF NOT EXISTS `legion_history` (
+DROP TABLE IF EXISTS `legion_history`;
+CREATE TABLE `legion_history` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `legion_id` int(11) NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -385,12 +349,10 @@ CREATE TABLE IF NOT EXISTS `legion_history` (
   PRIMARY KEY (`id`),
   KEY `legion_id` (`legion_id`),
   CONSTRAINT `legion_history_ibfk_1` FOREIGN KEY (`legion_id`) REFERENCES `legions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. legion_members
-CREATE TABLE IF NOT EXISTS `legion_members` (
+DROP TABLE IF EXISTS `legion_members`;
+CREATE TABLE `legion_members` (
   `legion_id` int(11) NOT NULL,
   `player_id` int(11) NOT NULL,
   `nickname` varchar(10) NOT NULL DEFAULT '',
@@ -404,10 +366,8 @@ CREATE TABLE IF NOT EXISTS `legion_members` (
   CONSTRAINT `legion_members_ibfk_2` FOREIGN KEY (`legion_id`) REFERENCES `legions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. mail
-CREATE TABLE IF NOT EXISTS `mail` (
+DROP TABLE IF EXISTS `mail`;
+CREATE TABLE `mail` (
   `mail_unique_id` int(11) NOT NULL,
   `mail_recipient_id` int(11) NOT NULL,
   `sender_name` varchar(64) NOT NULL,
@@ -423,22 +383,8 @@ CREATE TABLE IF NOT EXISTS `mail` (
   CONSTRAINT `FK_mail` FOREIGN KEY (`mail_recipient_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. myshop
-CREATE TABLE IF NOT EXISTS `myshop` (
-  `object_id` int(11) NOT NULL AUTO_INCREMENT,
-  `item_id` int(11) NOT NULL,
-  `item_count` bigint(13) NOT NULL DEFAULT '0',
-  `player_name` varchar(50) NOT NULL,
-  `test` int(11) NOT NULL DEFAULT '974',
-  PRIMARY KEY (`object_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1102 DEFAULT CHARSET=utf8;
-
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. old_names
-CREATE TABLE IF NOT EXISTS `old_names` (
+DROP TABLE IF EXISTS `old_names`;
+CREATE TABLE `old_names` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `player_id` int(11) NOT NULL,
   `old_name` varchar(50) NOT NULL,
@@ -446,10 +392,8 @@ CREATE TABLE IF NOT EXISTS `old_names` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. petitions
-CREATE TABLE IF NOT EXISTS `petitions` (
+DROP TABLE IF EXISTS `petitions`;
+CREATE TABLE `petitions` (
   `id` bigint(11) NOT NULL,
   `player_id` int(11) NOT NULL,
   `type` int(11) NOT NULL,
@@ -461,22 +405,8 @@ CREATE TABLE IF NOT EXISTS `petitions` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la vue ac47_server_gs. pet_feed_data
--- Création d'une table temporaire pour palier aux erreurs de dépendances de VIEW
-CREATE TABLE `pet_feed_data` (
-	`player_id` INT(11) NOT NULL,
-	`pet_id` INT(11) NOT NULL,
-	`name` VARCHAR(255) NOT NULL COLLATE 'utf8_general_ci',
-	`hungry_level` TINYINT(4) NOT NULL,
-	`regular_count` BIGINT(21) UNSIGNED NOT NULL,
-	`feed_points` BIGINT(22) UNSIGNED NOT NULL,
-	`loved_count` BIGINT(21) UNSIGNED NOT NULL
-) ENGINE=MyISAM;
-
--- Listage de la structure de la table ac47_server_gs. players
-CREATE TABLE IF NOT EXISTS `players` (
+DROP TABLE IF EXISTS `players`;
+CREATE TABLE `players` (
   `id` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
   `account_id` int(11) NOT NULL,
@@ -520,10 +450,8 @@ CREATE TABLE IF NOT EXISTS `players` (
   KEY `account_id` (`account_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_appearance
-CREATE TABLE IF NOT EXISTS `player_appearance` (
+DROP TABLE IF EXISTS `player_appearance`;
+CREATE TABLE `player_appearance` (
   `player_id` int(11) NOT NULL,
   `face` int(11) NOT NULL,
   `hair` int(11) NOT NULL,
@@ -582,10 +510,8 @@ CREATE TABLE IF NOT EXISTS `player_appearance` (
   CONSTRAINT `player_id_fk` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_bind_point
-CREATE TABLE IF NOT EXISTS `player_bind_point` (
+DROP TABLE IF EXISTS `player_bind_point`;
+CREATE TABLE `player_bind_point` (
   `player_id` int(11) NOT NULL,
   `map_id` int(11) NOT NULL,
   `x` float NOT NULL,
@@ -596,10 +522,8 @@ CREATE TABLE IF NOT EXISTS `player_bind_point` (
   CONSTRAINT `player_bind_point_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_cooldowns
-CREATE TABLE IF NOT EXISTS `player_cooldowns` (
+DROP TABLE IF EXISTS `player_cooldowns`;
+CREATE TABLE `player_cooldowns` (
   `player_id` int(11) NOT NULL,
   `cooldown_id` int(6) NOT NULL,
   `reuse_delay` bigint(13) NOT NULL,
@@ -607,10 +531,8 @@ CREATE TABLE IF NOT EXISTS `player_cooldowns` (
   CONSTRAINT `player_cooldowns_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_effects
-CREATE TABLE IF NOT EXISTS `player_effects` (
+DROP TABLE IF EXISTS `player_effects`;
+CREATE TABLE `player_effects` (
   `player_id` int(11) NOT NULL,
   `skill_id` int(11) NOT NULL,
   `skill_lvl` tinyint(4) NOT NULL,
@@ -620,10 +542,8 @@ CREATE TABLE IF NOT EXISTS `player_effects` (
   CONSTRAINT `player_effects_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_emotions
-CREATE TABLE IF NOT EXISTS `player_emotions` (
+DROP TABLE IF EXISTS `player_emotions`;
+CREATE TABLE `player_emotions` (
   `player_id` int(11) NOT NULL,
   `emotion` int(11) NOT NULL,
   `remaining` int(11) NOT NULL DEFAULT '0',
@@ -631,10 +551,8 @@ CREATE TABLE IF NOT EXISTS `player_emotions` (
   CONSTRAINT `player_emotions_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_game_stats
-CREATE TABLE IF NOT EXISTS `player_game_stats` (
+DROP TABLE IF EXISTS `player_game_stats`;
+CREATE TABLE `player_game_stats` (
   `player_id` int(11) NOT NULL,
   `defense_physic` int(11) NOT NULL DEFAULT '1',
   `block` int(11) NOT NULL DEFAULT '1',
@@ -663,10 +581,8 @@ CREATE TABLE IF NOT EXISTS `player_game_stats` (
   CONSTRAINT `player_game_stats` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_life_stats
-CREATE TABLE IF NOT EXISTS `player_life_stats` (
+DROP TABLE IF EXISTS `player_life_stats`;
+CREATE TABLE `player_life_stats` (
   `player_id` int(11) NOT NULL,
   `hp` int(11) NOT NULL DEFAULT '1',
   `mp` int(11) NOT NULL DEFAULT '1',
@@ -675,10 +591,8 @@ CREATE TABLE IF NOT EXISTS `player_life_stats` (
   CONSTRAINT `FK_player_life_stats` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_login_reward
-CREATE TABLE IF NOT EXISTS `player_login_reward` (
+DROP TABLE IF EXISTS `player_login_reward`;
+CREATE TABLE `player_login_reward` (
   `player_id` int(11) NOT NULL,
   `activated_id` int(11) NOT NULL,
   `login_count` int(11) NOT NULL,
@@ -686,10 +600,8 @@ CREATE TABLE IF NOT EXISTS `player_login_reward` (
   PRIMARY KEY (`player_id`,`activated_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_macrosses
-CREATE TABLE IF NOT EXISTS `player_macrosses` (
+DROP TABLE IF EXISTS `player_macrosses`;
+CREATE TABLE `player_macrosses` (
   `player_id` int(11) NOT NULL,
   `order` int(3) NOT NULL,
   `macro` text NOT NULL,
@@ -697,10 +609,8 @@ CREATE TABLE IF NOT EXISTS `player_macrosses` (
   CONSTRAINT `player_macrosses_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_motions
-CREATE TABLE IF NOT EXISTS `player_motions` (
+DROP TABLE IF EXISTS `player_motions`;
+CREATE TABLE `player_motions` (
   `player_id` int(11) NOT NULL,
   `motion_id` int(3) NOT NULL,
   `time` int(11) NOT NULL DEFAULT '0',
@@ -709,10 +619,8 @@ CREATE TABLE IF NOT EXISTS `player_motions` (
   CONSTRAINT `motions_player_id_fk` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_npc_factions
-CREATE TABLE IF NOT EXISTS `player_npc_factions` (
+DROP TABLE IF EXISTS `player_npc_factions`;
+CREATE TABLE `player_npc_factions` (
   `player_id` int(11) NOT NULL,
   `faction_id` int(2) NOT NULL,
   `active` tinyint(1) NOT NULL,
@@ -723,19 +631,15 @@ CREATE TABLE IF NOT EXISTS `player_npc_factions` (
   CONSTRAINT `player_npc_factions_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_passkey
-CREATE TABLE IF NOT EXISTS `player_passkey` (
+DROP TABLE IF EXISTS `player_passkey`;
+CREATE TABLE `player_passkey` (
   `account_id` int(11) NOT NULL,
   `passkey` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`account_id`,`passkey`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_pets
-CREATE TABLE IF NOT EXISTS `player_pets` (
+DROP TABLE IF EXISTS `player_pets`;
+CREATE TABLE `player_pets` (
   `player_id` int(11) NOT NULL,
   `pet_id` int(11) NOT NULL,
   `decoration` int(11) NOT NULL,
@@ -755,10 +659,8 @@ CREATE TABLE IF NOT EXISTS `player_pets` (
   CONSTRAINT `FK_player_pets` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_punishments
-CREATE TABLE IF NOT EXISTS `player_punishments` (
+DROP TABLE IF EXISTS `player_punishments`;
+CREATE TABLE `player_punishments` (
   `player_id` int(11) NOT NULL,
   `punishment_type` enum('PRISON','GATHER','CHARBAN') NOT NULL,
   `start_time` int(10) unsigned DEFAULT '0',
@@ -768,10 +670,8 @@ CREATE TABLE IF NOT EXISTS `player_punishments` (
   CONSTRAINT `player_punishments_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_quests
-CREATE TABLE IF NOT EXISTS `player_quests` (
+DROP TABLE IF EXISTS `player_quests`;
+CREATE TABLE `player_quests` (
   `player_id` int(11) NOT NULL,
   `quest_id` int(10) unsigned NOT NULL DEFAULT '0',
   `status` varchar(10) NOT NULL DEFAULT 'NONE',
@@ -784,20 +684,16 @@ CREATE TABLE IF NOT EXISTS `player_quests` (
   CONSTRAINT `player_quests_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_recipes
-CREATE TABLE IF NOT EXISTS `player_recipes` (
+DROP TABLE IF EXISTS `player_recipes`;
+CREATE TABLE `player_recipes` (
   `player_id` int(11) NOT NULL,
   `recipe_id` int(11) NOT NULL,
   PRIMARY KEY (`player_id`,`recipe_id`),
   CONSTRAINT `player_recipes_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_registered_items
-CREATE TABLE IF NOT EXISTS `player_registered_items` (
+DROP TABLE IF EXISTS `player_registered_items`;
+CREATE TABLE `player_registered_items` (
   `player_id` int(10) NOT NULL,
   `item_unique_id` int(10) NOT NULL,
   `item_id` int(10) NOT NULL,
@@ -816,10 +712,8 @@ CREATE TABLE IF NOT EXISTS `player_registered_items` (
   CONSTRAINT `player_regitems_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_settings
-CREATE TABLE IF NOT EXISTS `player_settings` (
+DROP TABLE IF EXISTS `player_settings`;
+CREATE TABLE `player_settings` (
   `player_id` int(11) NOT NULL,
   `settings_type` tinyint(1) NOT NULL,
   `settings` blob NOT NULL,
@@ -827,10 +721,8 @@ CREATE TABLE IF NOT EXISTS `player_settings` (
   CONSTRAINT `ps_pl_fk` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_skills
-CREATE TABLE IF NOT EXISTS `player_skills` (
+DROP TABLE IF EXISTS `player_skills`;
+CREATE TABLE `player_skills` (
   `player_id` int(11) NOT NULL,
   `skill_id` int(11) NOT NULL,
   `skill_level` int(3) NOT NULL DEFAULT '1',
@@ -838,10 +730,8 @@ CREATE TABLE IF NOT EXISTS `player_skills` (
   CONSTRAINT `player_skills_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_titles
-CREATE TABLE IF NOT EXISTS `player_titles` (
+DROP TABLE IF EXISTS `player_titles`;
+CREATE TABLE `player_titles` (
   `player_id` int(11) NOT NULL,
   `title_id` int(11) NOT NULL,
   `remaining` int(11) NOT NULL DEFAULT '0',
@@ -849,10 +739,8 @@ CREATE TABLE IF NOT EXISTS `player_titles` (
   CONSTRAINT `player_titles_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_vars
-CREATE TABLE IF NOT EXISTS `player_vars` (
+DROP TABLE IF EXISTS `player_vars`;
+CREATE TABLE `player_vars` (
   `player_id` int(11) NOT NULL,
   `param` varchar(255) NOT NULL,
   `value` varchar(255) DEFAULT NULL,
@@ -861,10 +749,8 @@ CREATE TABLE IF NOT EXISTS `player_vars` (
   CONSTRAINT `player_vars_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. player_world_bans
-CREATE TABLE IF NOT EXISTS `player_world_bans` (
+DROP TABLE IF EXISTS `player_world_bans`;
+CREATE TABLE `player_world_bans` (
   `player` int(11) NOT NULL,
   `by` varchar(255) NOT NULL,
   `duration` bigint(11) NOT NULL,
@@ -873,10 +759,8 @@ CREATE TABLE IF NOT EXISTS `player_world_bans` (
   PRIMARY KEY (`player`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. portal_cooldowns
-CREATE TABLE IF NOT EXISTS `portal_cooldowns` (
+DROP TABLE IF EXISTS `portal_cooldowns`;
+CREATE TABLE `portal_cooldowns` (
   `player_id` int(11) NOT NULL,
   `world_id` int(11) NOT NULL,
   `reuse_time` bigint(13) NOT NULL,
@@ -885,29 +769,23 @@ CREATE TABLE IF NOT EXISTS `portal_cooldowns` (
   CONSTRAINT `portal_cooldowns_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. server_variables
-CREATE TABLE IF NOT EXISTS `server_variables` (
+DROP TABLE IF EXISTS `server_variables`;
+CREATE TABLE `server_variables` (
   `key` varchar(30) NOT NULL,
   `value` varchar(30) NOT NULL,
   PRIMARY KEY (`key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. siege_locations
-CREATE TABLE IF NOT EXISTS `siege_locations` (
+DROP TABLE IF EXISTS `siege_locations`;
+CREATE TABLE `siege_locations` (
   `id` int(11) NOT NULL,
   `race` enum('ELYOS','ASMODIANS','BALAUR') NOT NULL,
   `legion_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. siege_spawns
-CREATE TABLE IF NOT EXISTS `siege_spawns` (
+DROP TABLE IF EXISTS `siege_spawns`;
+CREATE TABLE `siege_spawns` (
   `spawn_id` int(10) NOT NULL,
   `siege_id` int(10) NOT NULL,
   `race` enum('ELYOS','ASMODIANS','BALAUR') NOT NULL,
@@ -916,10 +794,8 @@ CREATE TABLE IF NOT EXISTS `siege_spawns` (
   PRIMARY KEY (`spawn_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. skill_motions
-CREATE TABLE IF NOT EXISTS `skill_motions` (
+DROP TABLE IF EXISTS `skill_motions`;
+CREATE TABLE `skill_motions` (
   `motion_name` varchar(255) NOT NULL DEFAULT '',
   `skill_id` int(11) NOT NULL,
   `attack_speed` int(11) NOT NULL,
@@ -929,10 +805,8 @@ CREATE TABLE IF NOT EXISTS `skill_motions` (
   PRIMARY KEY (`motion_name`,`skill_id`,`attack_speed`,`weapon_type`,`off_weapon_type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. spawns
-CREATE TABLE IF NOT EXISTS `spawns` (
+DROP TABLE IF EXISTS `spawns`;
+CREATE TABLE `spawns` (
   `spawn_id` int(10) NOT NULL AUTO_INCREMENT,
   `npc_id` int(10) NOT NULL,
   `npc_name` varchar(50) NOT NULL DEFAULT '',
@@ -952,10 +826,8 @@ CREATE TABLE IF NOT EXISTS `spawns` (
   PRIMARY KEY (`spawn_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. surveys
-CREATE TABLE IF NOT EXISTS `surveys` (
+DROP TABLE IF EXISTS `surveys`;
+CREATE TABLE `surveys` (
   `unique_id` int(11) NOT NULL AUTO_INCREMENT,
   `owner_id` int(11) NOT NULL,
   `item_id` int(11) NOT NULL,
@@ -969,10 +841,11 @@ CREATE TABLE IF NOT EXISTS `surveys` (
   CONSTRAINT `surveys_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
 
--- Listage de la structure de la table ac47_server_gs. tasks
-CREATE TABLE IF NOT EXISTS `tasks` (
+-- Table structure for tasks
+
+DROP TABLE IF EXISTS `tasks`;
+CREATE TABLE `tasks` (
   `id` int(5) NOT NULL,
   `task_type` enum('SHUTDOWN','RESTART') NOT NULL,
   `trigger_type` enum('FIXED_IN_TIME') NOT NULL,
@@ -981,10 +854,12 @@ CREATE TABLE IF NOT EXISTS `tasks` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
+-- Records of tasks
 
--- Listage de la structure de la table ac47_server_gs. towns
-CREATE TABLE IF NOT EXISTS `towns` (
+INSERT INTO `tasks` VALUES ('1', 'RESTART', 'FIXED_IN_TIME', '04:20:00', '60 5 320');
+
+DROP TABLE IF EXISTS `towns`;
+CREATE TABLE `towns` (
   `id` int(11) NOT NULL,
   `level` int(11) NOT NULL DEFAULT '1',
   `points` int(10) NOT NULL DEFAULT '0',
@@ -993,10 +868,8 @@ CREATE TABLE IF NOT EXISTS `towns` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. webshop
-CREATE TABLE IF NOT EXISTS `webshop` (
+DROP TABLE IF EXISTS `webshop`;
+CREATE TABLE `webshop` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `recipient` varchar(11) NOT NULL,
   `item_desc` varchar(50) NOT NULL,
@@ -1010,10 +883,8 @@ CREATE TABLE IF NOT EXISTS `webshop` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. web_reward
-CREATE TABLE IF NOT EXISTS `web_reward` (
+DROP TABLE IF EXISTS `web_reward`;
+CREATE TABLE `web_reward` (
   `unique` int(11) NOT NULL AUTO_INCREMENT,
   `item_owner` int(11) NOT NULL,
   `item_id` int(11) NOT NULL,
@@ -1026,10 +897,8 @@ CREATE TABLE IF NOT EXISTS `web_reward` (
   CONSTRAINT `web_reward_ibfk_1` FOREIGN KEY (`item_owner`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. weddings
-CREATE TABLE IF NOT EXISTS `weddings` (
+DROP TABLE IF EXISTS `weddings`;
+CREATE TABLE `weddings` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `player1` int(11) NOT NULL,
   `player2` int(11) NOT NULL,
@@ -1040,13 +909,5 @@ CREATE TABLE IF NOT EXISTS `weddings` (
   CONSTRAINT `weddings_ibfk_2` FOREIGN KEY (`player2`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la vue ac47_server_gs. pet_feed_data
--- Suppression de la table temporaire et création finale de la structure d'une vue
-DROP TABLE IF EXISTS `pet_feed_data`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `pet_feed_data` AS select `player_pets`.`player_id` AS `player_id`,`player_pets`.`pet_id` AS `pet_id`,`player_pets`.`name` AS `name`,`player_pets`.`hungry_level` AS `hungry_level`,(`player_pets`.`feed_progress` >> 24) AS `regular_count`,(((`player_pets`.`feed_progress` & 0xfffc00) >> 10) * 4) AS `feed_points`,((`player_pets`.`feed_progress` & 0x03f0) >> 4) AS `loved_count` from `player_pets` where (`player_pets`.`feed_progress` <> 0);
-
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+DROP VIEW IF EXISTS `pet_feed_data`;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER  VIEW `pet_feed_data` AS select `player_pets`.`player_id` AS `player_id`,`player_pets`.`pet_id` AS `pet_id`,`player_pets`.`name` AS `name`,`player_pets`.`hungry_level` AS `hungry_level`,(`player_pets`.`feed_progress` >> 24) AS `regular_count`,(((`player_pets`.`feed_progress` & 0xfffc00) >> 10) * 4) AS `feed_points`,((`player_pets`.`feed_progress` & 0x03f0) >> 4) AS `loved_count` from `player_pets` where (`player_pets`.`feed_progress` <> 0) ;
