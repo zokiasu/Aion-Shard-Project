@@ -37,7 +37,6 @@ public class GoldPackAction extends AbstractItemAction {
             return;
         }
         ItemTemplate itemTemplate = parentItem.getItemTemplate();
-        PacketSendUtility.sendMessage(player, "Ah que coucou!");
 
         Connection con = null;
 
@@ -63,18 +62,15 @@ public class GoldPackAction extends AbstractItemAction {
                     cal.setTime(resultSet.getTimestamp("expire"));
                     cal.add(Calendar.DAY_OF_WEEK, 30);
                     deletionDate.setTime(cal.getTime().getTime());
-                    PacketSendUtility.sendMessage(player, "Expire pas null !");
                 } else {
                     cal.setTime(deletionDate);
                     cal.add(Calendar.DAY_OF_WEEK, 30);
                     deletionDate.setTime(cal.getTime().getTime());
-                    PacketSendUtility.sendMessage(player, "Expire null !");
                 }
             } else {
                 cal.setTime(deletionDate);
                 cal.add(Calendar.DAY_OF_WEEK, 30);
                 deletionDate.setTime(cal.getTime().getTime());
-                PacketSendUtility.sendMessage(player, "resultSet.next null !");
             }
             resultSet.close();
             stmt1.close();
@@ -86,7 +82,6 @@ public class GoldPackAction extends AbstractItemAction {
             stmt2.close();
 
         } catch (Exception e) {
-            PacketSendUtility.sendMessage(player, "C'est pas Ok!");
             return;
         }
 
