@@ -61,27 +61,29 @@ public class GoldPackAction extends AbstractItemAction {
             if(resultSet.next()) {
                 if(resultSet.getTimestamp("expire") != null) {
                     cal.setTime(resultSet.getTimestamp("expire"));
+                    cal.add(Calendar.DAY_OF_WEEK, 30);
+                    deletionDate.setTime(cal.getTime().getTime());
                     PacketSendUtility.sendMessage(player, "Expire pas null !");
                 } else {
                     cal.setTime(deletionDate);
+                    cal.add(Calendar.DAY_OF_WEEK, 30);
+                    deletionDate.setTime(cal.getTime().getTime());
                     PacketSendUtility.sendMessage(player, "Expire null !");
                 }
             } else {
                 cal.setTime(deletionDate);
+                cal.add(Calendar.DAY_OF_WEEK, 30);
+                deletionDate.setTime(cal.getTime().getTime());
                 PacketSendUtility.sendMessage(player, "resultSet.next null !");
             }
             resultSet.close();
             stmt1.close();
 
-            //cal.setTime(deletionDate);
-            cal.add(Calendar.DAY_OF_WEEK, 30);
-            deletionDate.setTime(cal.getTime().getTime());
-
-            /*PreparedStatement stmt2 = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.expire = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
+            PreparedStatement stmt2 = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.expire = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt2.setTimestamp(1, deletionDate);
             stmt2.setString(2, player1.getAcountName());
             stmt2.execute();
-            stmt2.close();*/
+            stmt2.close();
 
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
