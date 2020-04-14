@@ -54,16 +54,21 @@ public class GoldPackAction extends AbstractItemAction {
             stmt.execute();
             stmt.close();*/
 
-            PreparedStatement stmt1 = con.prepareStatement("SELECT " + LOGIN_DATABASE +".account_data.expire FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
+            PreparedStatement stmt1 = con.prepareStatement("SELECT * FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt1.setString(1, player1.getAcountName());
             ResultSet resultSet = stmt1.executeQuery();
 
-            if(resultSet.getTimestamp("expire") != null) {
-                cal.setTime(resultSet.getTimestamp("expire"));
-                PacketSendUtility.sendMessage(player, "Expire pas null !");
+            if(resultSet.next()) {
+                if(resultSet.getTimestamp("expire") != null) {
+                    cal.setTime(resultSet.getTimestamp("expire"));
+                    PacketSendUtility.sendMessage(player, "Expire pas null !");
+                } else {
+                    cal.setTime(deletionDate);
+                    PacketSendUtility.sendMessage(player, "Expire null !");
+                }
             } else {
                 cal.setTime(deletionDate);
-                PacketSendUtility.sendMessage(player, "Expire null !");
+                PacketSendUtility.sendMessage(player, "resultSet.next null !");
             }
             resultSet.close();
             stmt1.close();
