@@ -206,7 +206,7 @@ public class cmd_reskin2 extends PlayerCommand {
 
             con = DatabaseFactory.getConnection();
             PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE + ".account_data SET " + LOGIN_DATABASE + ".account_data.toll = ? WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
-            stmt.setInt(1, newToll);
+            stmt.setInt(1, (int) newToll);
             stmt.setString(2, player1.getAcountName());
             stmt.execute();
             stmt.close();
