@@ -6,6 +6,9 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlType;
 import java.sql.*;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+import java.text.DateFormat;
 
 import com.aionemu.commons.database.DB;
 import com.aionemu.commons.database.DatabaseFactory;
@@ -80,6 +83,11 @@ public class GoldPackAction extends AbstractItemAction {
             stmt2.setString(2, player1.getAcountName());
             stmt2.execute();
             stmt2.close();
+
+            Date date = new Date(deletionDate.getTime())
+            DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
+            PacketSendUtility.sendMessage(player, "Congratulations, you have just activated a new gold pack.");
+            PacketSendUtility.sendMessage(player, "Your next gold pack will need to be activated on : " + shortDateFormat.format(date));
 
         } catch (Exception e) {
             return;
