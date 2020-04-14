@@ -84,7 +84,7 @@ public class GoldPackAction extends AbstractItemAction {
             stmt2.execute();
             stmt2.close();
 
-            Date date = new Date(deletionDate.getTime())
+            Date date = new Date(deletionDate.getTime());
             DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
             PacketSendUtility.sendMessage(player, "Congratulations, you have just activated a new gold pack.");
             PacketSendUtility.sendMessage(player, "Your next gold pack will need to be activated on : " + shortDateFormat.format(date));
