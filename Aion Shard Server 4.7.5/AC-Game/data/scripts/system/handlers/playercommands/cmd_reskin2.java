@@ -29,6 +29,8 @@
  */
 package playercommands;
 
+import com.aionemu.commons.database.DatabaseFactory;
+import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -43,6 +45,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import java.sql.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+import java.text.DateFormat;
 
 /**
  * @author Wakizashi, Imaginary
@@ -167,7 +175,7 @@ public class cmd_reskin2 extends PlayerCommand {
                     PacketSendUtility.sendMessage(admin, "You don't have enought Shard Coin (" + tolls + "). You need : " + toll + " Shard Coin.");
                     return;
                 }
-                admin.getClientConnection().getAccount().setToll(tolls - toll);
+                updateToll(tolls - toll);
                 Iterator<Item> iter = items.iterator();
                 Item item = iter.next();
                 item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(itemId));
@@ -185,6 +193,27 @@ public class cmd_reskin2 extends PlayerCommand {
         boolean requested = admin.getResponseRequester().putRequest(902247, responseHandler);
         if (requested) {
             PacketSendUtility.sendPacket(admin, new SM_QUESTION_WINDOW(902247, 0, 0, "In your inventory, there is no New Item. To change the look, for which you have not, you need to " + toll + " Shard Coin. On your account, you have : " + tolls + ". Want to reskin the item ?"));
+        }
+    }
+
+    public void updateToll(int newToll) {
+        Connection con = null;
+
+        try {
+            final Player player1 = player;
+            String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
+            DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
+
+            con = DatabaseFactory.getConnection();
+            PreparedStatement stmt1 = con.prepareStatement("UPDATE " + LOGIN_DATABASE + ".account_data SET " + LOGIN_DATABASE + ".account_data.toll = ? WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
+            stmt.setInt(1, newToll);
+            stmt.setString(2, player1.getAcountName());
+            stmt.execute();
+            stmt.close();
+
+        } catch (Exception e) {
+            PacketSendUtility.sendMessage(player, "update toll fail");
+            return;
         }
     }
 
