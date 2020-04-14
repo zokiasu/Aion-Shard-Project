@@ -54,7 +54,7 @@ public class GoldPackAction extends AbstractItemAction {
             stmt.execute();
             stmt.close();
 
-            PreparedStatement stmt1 = con.prepareStatement("SELECT " + LOGIN_DATABASE +".account_data.expire FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
+            /*PreparedStatement stmt1 = con.prepareStatement("SELECT " + LOGIN_DATABASE +".account_data.expire FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt1.setString(1, player1.getAcountName());
             ResultSet resultSet = stmt1.executeQuery();
 
@@ -63,9 +63,10 @@ public class GoldPackAction extends AbstractItemAction {
             } else {
                 cal.setTime(deletionDate);
             }
-            stmt1.execute();
-            stmt1.close();
+            resultSet.close();
+            stmt1.close();*/
 
+            cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
             deletionDate.setTime(cal.getTime().getTime());
 
@@ -78,8 +79,6 @@ public class GoldPackAction extends AbstractItemAction {
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
             return;
-        } finally {
-            DatabaseFactory.close(con);
         }
 
         ItemService.addItem(player, 164002225, 1);
