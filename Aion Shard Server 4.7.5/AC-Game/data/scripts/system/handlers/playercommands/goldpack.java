@@ -26,15 +26,16 @@ import com.aionemu.gameserver.services.mail.SystemMailService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
-public class Goldpack extends PlayerCommand {
+public class goldpack extends PlayerCommand {
 
-    public Goldpack() {
+    public goldpack() {
         super("goldpack");
     }
 
     @Override
     public void execute(Player player, String... params) {
         Connection con = null;
+
         try {
             final Player player1 = player;
             String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
