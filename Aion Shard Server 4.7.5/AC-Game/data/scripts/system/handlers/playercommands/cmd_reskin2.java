@@ -62,11 +62,6 @@ public class cmd_reskin2 extends PlayerCommand {
             return;
         }
 
-        if (admin.getClientConnection().getAccount().getMembership() < 2 && !admin.isGM()) {
-            PacketSendUtility.sendYellowMessageOnCenter(admin, "This command is available only to VIP!");
-            return;
-        }
-
         Player target = admin;
         VisibleObject creature = admin.getTarget();
         if (admin.getTarget() instanceof Player && admin.isGM()) {
@@ -161,10 +156,10 @@ public class cmd_reskin2 extends PlayerCommand {
             }
         }
 
-        /*if (admin.getInventory().decreaseByItemId(oldItemId, 1)) {
+        if (admin.getInventory().decreaseByItemId(newItemId, 1)) {
             PacketSendUtility.sendMessage(admin, "You can't reskin with something you don't own.");
             return;
-        }*/
+        }
 
         Iterator<Item> iter = items.iterator();
         Item item = iter.next();
@@ -184,29 +179,32 @@ public class cmd_reskin2 extends PlayerCommand {
             @Override
             public void acceptRequest(Creature p2, Player p) {
                 if (tolls < toll) {
-                    PacketSendUtility.sendMessage(admin, "You don't have enought Vote Points (" + tolls + "). You need : " + toll + " Vote Points.");
+                    PacketSendUtility.sendMessage(admin, "You don't have enought Shard Coin (" + tolls + "). You need : " + toll + " Shard Coin.");
                     return;
                 }
-                p.getClientConnection().getAccount().setToll(tolls - toll);
+                admin.getClientConnection().getAccount().setToll(tolls - toll);
                 Iterator<Item> iter = items.iterator();
                 Item item = iter.next();
                 item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(itemId));
                 PacketSendUtility.sendMessage(admin, "Skin successfully changed!");
-                PacketSendUtility.sendMessage(p, "For changing the skin, you have use " + toll + " Vote Points!");
+                PacketSendUtility.sendMessage(p, "For changing the skin, you have use " + toll + " Shard Coins!");
             }
 
             @Override
             public void denyRequest(Creature p2, Player p) {
+
             }
         };
         boolean requested = admin.getResponseRequester().putRequest(902247, responseHandler);
         if (requested) {
-            PacketSendUtility.sendPacket(admin, new SM_QUESTION_WINDOW(902247, 0, 0, "In your inventory, there is no New ItemId. To change the look, for which you have not, you need to" + toll + " Vote Points. On your account, you have :" + tolls + ". Want to reskin the item ?"));
+            PacketSendUtility.sendPacket(admin, new SM_QUESTION_WINDOW(902247, 0, 0, "In your inventory, there is no New Item. To change the look, for which you have not, you need to" + toll + " Shard Coin. On your account, you have :" + tolls + ". Want to reskin the item ?"));
         }
     }
 
     @Override
     public void onFail(Player admin, String message) {
+        PacketSendUtility.sendMessage(admin, "OldItem is item you want reksin");
+        PacketSendUtility.sendMessage(admin, "NewItem is item you use to reksin");
         PacketSendUtility.sendMessage(admin, "syntax //reskin <Link@ | Old Item ID> <Link@ | New Item ID>");
     }
 }
