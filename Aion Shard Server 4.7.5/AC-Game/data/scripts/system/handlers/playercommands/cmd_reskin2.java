@@ -184,7 +184,7 @@ public class cmd_reskin2 extends PlayerCommand {
         };
         boolean requested = admin.getResponseRequester().putRequest(902247, responseHandler);
         if (requested) {
-            PacketSendUtility.sendPacket(admin, new SM_QUESTION_WINDOW(902247, 0, 0, "In your inventory, there is no New Item. To change the look, for which you have not, you need to" + toll + " Shard Coin. On your account, you have :" + tolls + ". Want to reskin the item ?"));
+            PacketSendUtility.sendPacket(admin, new SM_QUESTION_WINDOW(902247, 0, 0, "In your inventory, there is no New Item. To change the look, for which you have not, you need to " + toll + " Shard Coin. On your account, you have : " + tolls + ". Want to reskin the item ?"));
         }
     }
 
