@@ -48,33 +48,35 @@ public class GoldPackAction extends AbstractItemAction {
             Calendar cal = Calendar.getInstance();
 
             con = DatabaseFactory.getConnection();
-            PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.membership = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
+            /*PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.membership = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt.setInt(1, 1);
             stmt.setString(2, player1.getAcountName());
             stmt.execute();
-            stmt.close();
+            stmt.close();*/
 
-            /*PreparedStatement stmt1 = con.prepareStatement("SELECT " + LOGIN_DATABASE +".account_data.expire FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
+            PreparedStatement stmt1 = con.prepareStatement("SELECT " + LOGIN_DATABASE +".account_data.expire FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt1.setString(1, player1.getAcountName());
             ResultSet resultSet = stmt1.executeQuery();
 
             if(resultSet.getTimestamp("expire") != null) {
                 cal.setTime(resultSet.getTimestamp("expire"));
+                PacketSendUtility.sendMessage(player, "Expire pas null !");
             } else {
                 cal.setTime(deletionDate);
+                PacketSendUtility.sendMessage(player, "Expire null !");
             }
             resultSet.close();
-            stmt1.close();*/
+            stmt1.close();
 
-            cal.setTime(deletionDate);
+            //cal.setTime(deletionDate);
             cal.add(Calendar.DAY_OF_WEEK, 30);
             deletionDate.setTime(cal.getTime().getTime());
 
-            PreparedStatement stmt2 = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.expire = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
+            /*PreparedStatement stmt2 = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.expire = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt2.setTimestamp(1, deletionDate);
             stmt2.setString(2, player1.getAcountName());
             stmt2.execute();
-            stmt2.close();
+            stmt2.close();*/
 
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "C'est pas Ok!");
