@@ -173,7 +173,7 @@ public class cmd_reskin2 extends PlayerCommand {
                 item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(itemId));
                 PacketSendUtility.sendMessage(admin, "Skin successfully changed!");
                 PacketSendUtility.sendMessage(p, "For changing the skin, you have use " + toll + " Shard Coins!");
-                admin.getInventory().decreaseByItemId(newItemId, 1);
+                admin.getInventory().decreaseByItemId(itemId, 1);
             }
 
             @Override
