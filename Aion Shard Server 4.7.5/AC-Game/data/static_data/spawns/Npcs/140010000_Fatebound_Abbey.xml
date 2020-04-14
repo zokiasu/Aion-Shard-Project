@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <spawn_map map_id="140010000">
-        <!-- Eomer -->
-        <spawn npc_id="804671" respawn_time="295">
-            <spot x="242.76779" y="270.81256" z="97.338799"/>
-        </spawn>
-        <!-- Iruming -->
-        <spawn npc_id="804696" respawn_time="295">
-            <spot x="242.68784" y="259.94205" z="95.78592" h="0"/>
-        </spawn>
-        <!-- Tet -->
-        <spawn npc_id="804694" respawn_time="295">
-            <spot x="242.74216" y="272.60263" z="95.78592" h="118"/>
-        </spawn>
 		<!-- Pandaemonium teleporter -->
 		<spawn npc_id="804688" respawn_time="295">
 			<spot x="287.2496" y="266.16083" z="96.462944" static_id="83"/>
@@ -20,6 +8,34 @@
         <!-- Shuvanhilt Eternal Bastion Entreance -->
         <spawn npc_id="730870" respawn_time="295">
             <spot x="206.07155" y="266.13898" z="97.08674" h="5"/>
+        </spawn>
+        <!-- Illuminary Obelisk Entreance -->
+        <spawn npc_id="730883" respawn_time="295">
+            <spot x="207.84407" y="259.9805" z="97.08672" h="10"/>
+        </spawn>
+        <!-- Danuar Reliquary Entreance -->
+        <spawn npc_id="730841" respawn_time="295">
+            <spot x="208.32782" y="272.56683" z="97.0867" h="111"/>
+        </spawn>
+        <!-- Sauro Supply Base Entreance -->
+        <spawn npc_id="801964" respawn_time="295">
+            <spot x="219.3325" y="278.86252" z="97.0867" h="90"/>
+        </spawn>
+        <!-- Infinity Shard Entreance -->
+        <spawn npc_id="730840" respawn_time="295">
+            <spot x="219.1822" y="254.29916" z="97.08667" h="29"/>
+        </spawn>
+        <!-- Ophidan Bridge Entreance -->
+        <spawn npc_id="730867" respawn_time="295">
+            <spot x="227.9785" y="257.46143" z="97.08669" h="43"/>
+        </spawn>
+        <!-- Tiamat Stronghold Detachment Entreance -->
+        <spawn npc_id="832760" respawn_time="295">
+            <spot x="240.47461" y="280.2248" z="95.793564" h="89"/>
+        </spawn>
+        <!-- Dragon Lord's Refuge Entreance -->
+        <spawn npc_id="730627" respawn_time="295">
+            <spot x="240.23169" y="253.85847" z="95.78592" h="29"/>
         </spawn>
     </spawn_map>
 </spawns>

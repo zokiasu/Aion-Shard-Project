@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="110010000">
+        <!-- Trabos -->
+        <spawn npc_id="804660" respawn_time="295">
+            <spot x="1371.5165" y="1516.973" z="569.06744" h="53"/>
+        </spawn>
         <spawn npc_id="730055" respawn_time="295" difficult_id="0" custom="true">
             <spot x="1390.7579" y="1512.5707" z="572.99426" h="0"/>
         </spawn>

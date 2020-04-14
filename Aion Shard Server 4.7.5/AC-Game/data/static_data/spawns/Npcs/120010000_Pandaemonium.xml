@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="120010000">
+        <!-- Eomer -->
+        <spawn npc_id="804671" respawn_time="295">
+            <spot x="1599.9086" y="1406.8312" z="193.12872" h="0"/>
+        </spawn>
         <spawn npc_id="730055" respawn_time="295" difficult_id="0" custom="true">
             <spot x="1638.035" y="1409.1443" z="193.12688" h="90"/>
         </spawn>
