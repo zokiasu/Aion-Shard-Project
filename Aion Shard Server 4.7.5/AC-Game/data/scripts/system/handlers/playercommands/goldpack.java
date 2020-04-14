@@ -46,7 +46,6 @@ public class goldpack extends PlayerCommand {
             stmt1.close();
 
         } catch (Exception e) {
-            log.error("Cmd goldpack fail");
             return;
         }
     }
