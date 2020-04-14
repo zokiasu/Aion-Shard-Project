@@ -16,12 +16,14 @@ import com.aionemu.commons.database.IUStH;
 import com.aionemu.commons.database.ParamReadStH;
 import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.LetterType;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_ITEM_USAGE_ANIMATION;
 import com.aionemu.gameserver.services.CubeExpandService;
 import com.aionemu.gameserver.services.WarehouseService;
 import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.mail.SystemMailService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 
 
@@ -93,8 +95,10 @@ public class GoldPackAction extends AbstractItemAction {
             return;
         }
 
-        ItemService.addItem(player, 164002225, 1);
-        ItemService.addItem(player, 169610093, 1);
+        //ItemService.addItem(player, 164002225, 1);
+        SystemMailService.getInstance().sendMail("AionShard", player.getName(), "GoldPack Reward", "", 164002225, (long) 1, (long) 0, LetterType.BLACKCLOUD);
+        //ItemService.addItem(player, 169610093, 1);
+        SystemMailService.getInstance().sendMail("AionShard", player.getName(), "GoldPack Reward", "", 169610093, (long) 1, (long) 0, LetterType.BLACKCLOUD);
 
         PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), parentItem.getObjectId(), itemTemplate.getTemplateId()), true);
     }
