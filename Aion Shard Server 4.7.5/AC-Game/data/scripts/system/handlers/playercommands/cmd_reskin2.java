@@ -175,7 +175,7 @@ public class cmd_reskin2 extends PlayerCommand {
                     PacketSendUtility.sendMessage(admin, "You don't have enought Shard Coin (" + tolls + "). You need : " + toll + " Shard Coin.");
                     return;
                 }
-                updateToll(tolls - toll);
+                updateToll(admin, tolls - toll);
                 Iterator<Item> iter = items.iterator();
                 Item item = iter.next();
                 item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(itemId));
@@ -196,7 +196,7 @@ public class cmd_reskin2 extends PlayerCommand {
         }
     }
 
-    public void updateToll(int newToll) {
+    public void updateToll(Player player, long newToll) {
         Connection con = null;
 
         try {
@@ -205,7 +205,7 @@ public class cmd_reskin2 extends PlayerCommand {
             DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
 
             con = DatabaseFactory.getConnection();
-            PreparedStatement stmt1 = con.prepareStatement("UPDATE " + LOGIN_DATABASE + ".account_data SET " + LOGIN_DATABASE + ".account_data.toll = ? WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
+            PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE + ".account_data SET " + LOGIN_DATABASE + ".account_data.toll = ? WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt.setInt(1, newToll);
             stmt.setString(2, player1.getAcountName());
             stmt.execute();
