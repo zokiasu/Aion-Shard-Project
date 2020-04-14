@@ -9,14 +9,26 @@ import java.text.DateFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.aionemu.commons.database.DB;
+import com.aionemu.commons.database.DatabaseFactory;
+import com.aionemu.commons.database.IUStH;
+import com.aionemu.commons.database.ParamReadStH;
 import com.aionemu.gameserver.configs.main.GSConfig;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.LetterType;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ITEM_USAGE_ANIMATION;
+import com.aionemu.gameserver.services.CubeExpandService;
+import com.aionemu.gameserver.services.WarehouseService;
+import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.mail.SystemMailService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
-public class goldpack extends PlayerCommand {
+public class Goldpack extends PlayerCommand {
 
-    public goldpack() {
+    public Goldpack() {
         super("goldpack");
     }
 
@@ -46,12 +58,13 @@ public class goldpack extends PlayerCommand {
             stmt1.close();
 
         } catch (Exception e) {
+            PacketSendUtility.sendMessage(player, ".goldpack fail");
             return;
         }
     }
 
     @Override
     public void onFail(Player player, String message) {
-        // TODO Auto-generated method stub
+        PacketSendUtility.sendMessage(player, "syntax : .goldpack");
     }
 }
