@@ -142,10 +142,10 @@ public class cmd_reskin2 extends PlayerCommand {
             return;
         }
         //Change the appearance of any item. Gun on the mace, sword, shield and so on
-        /*if (DataManager.ITEM_DATA.getItemTemplate(oldItemId).getItemSlot() != DataManager.ITEM_DATA.getItemTemplate(newItemId).getItemSlot()) {
+        if (DataManager.ITEM_DATA.getItemTemplate(oldItemId).getItemSlot() != DataManager.ITEM_DATA.getItemTemplate(newItemId).getItemSlot()) {
             PacketSendUtility.sendMessage(admin, "You can't :D");
             return;
-        }*/
+        }
 
         if (itemnew.isEmpty() && !admin.isGM()) {
             reskin(target, tollPrice, newItemId, items);
@@ -161,11 +161,11 @@ public class cmd_reskin2 extends PlayerCommand {
             }
         }
 
-        if (admin.getInventory().decreaseByItemId(oldItemId, 1)) {
+        /*if (admin.getInventory().decreaseByItemId(oldItemId, 1)) {
             PacketSendUtility.sendMessage(admin, "You can't reskin with something you don't own.");
             return;
-        }
-        
+        }*/
+
         Iterator<Item> iter = items.iterator();
         Item item = iter.next();
         if (!admin.isGM() && !itemnew.isEmpty()) {
