@@ -62,13 +62,9 @@ public class cmd_reskin2 extends PlayerCommand {
             return;
         }
 
-        Player target = admin;
-        VisibleObject creature = admin.getTarget();
-        if (admin.getTarget() instanceof Player && admin.isGM()) {
-            target = (Player) creature;
-        }
         int oldItemId = 0;
         int newItemId = 0;
+
         try {
             String item = params[0];
             if (item.equals("[item:")) {
@@ -121,21 +117,21 @@ public class cmd_reskin2 extends PlayerCommand {
             PacketSendUtility.sendMessage(admin, "4 " + (admin.isGM() ? ex2 : ""));
             return;
         }
+
         if (DataManager.ITEM_DATA.getItemTemplate(newItemId) == null) {
             PacketSendUtility.sendMessage(admin, "Item is incorrect: " + newItemId);
             return;
         }
-        if (!admin.isGM()) {
-            target = admin;
-        }
 
         int tollPrice = 2;
-        List<Item> items = target.getInventory().getItemsByItemId(oldItemId);
-        List<Item> itemnew = target.getInventory().getItemsByItemId(newItemId);
+        List<Item> items = admin.getInventory().getItemsByItemId(oldItemId);
+        List<Item> itemnew = admin.getInventory().getItemsByItemId(newItemId);
+
         if (oldItemId == newItemId) {
             PacketSendUtility.sendMessage(admin, "You cannot reskin the same item :D");
             return;
         }
+
         //Change the appearance of any item. Gun on the mace, sword, shield and so on
         if (DataManager.ITEM_DATA.getItemTemplate(oldItemId).getItemSlot() != DataManager.ITEM_DATA.getItemTemplate(newItemId).getItemSlot()) {
             PacketSendUtility.sendMessage(admin, "You can't :D");
@@ -143,33 +139,22 @@ public class cmd_reskin2 extends PlayerCommand {
         }
 
         if (itemnew.isEmpty() && !admin.isGM()) {
-            reskin(target, tollPrice, newItemId, items);
+            reskin(admin, tollPrice, newItemId, items);
             return;
         }
-        if (items.isEmpty()) {
-            if (admin.isGM()) {
-                PacketSendUtility.sendMessage(admin, "Old item character taken to the Target is not found in the inventory.");
-                return;
-            } else {
-                PacketSendUtility.sendMessage(admin, "Old item Not Found in inventory.");
-                return;
-            }
-        }
 
-        if (admin.getInventory().decreaseByItemId(newItemId, 1)) {
-            PacketSendUtility.sendMessage(admin, "You can't reskin with something you don't own.");
+        if (items.isEmpty()) {
+            PacketSendUtility.sendMessage(admin, "Old item Not Found in inventory.");
             return;
         }
 
         Iterator<Item> iter = items.iterator();
         Item item = iter.next();
+
         if (!admin.isGM() && !itemnew.isEmpty()) {
-            item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(newItemId));
-            PacketSendUtility.sendMessage(admin, "Skin successfully modified!");
-            admin.getInventory().decreaseByItemId(newItemId, 1);
+            reskin(admin, tollPrice, newItemId, items);
         } else {
-            item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(newItemId));
-            PacketSendUtility.sendMessage(admin, "Skin successfully modified!");
+            reskin(admin, tollPrice, newItemId, items);
         }
     }
 
@@ -188,6 +173,7 @@ public class cmd_reskin2 extends PlayerCommand {
                 item.setItemSkinTemplate(DataManager.ITEM_DATA.getItemTemplate(itemId));
                 PacketSendUtility.sendMessage(admin, "Skin successfully changed!");
                 PacketSendUtility.sendMessage(p, "For changing the skin, you have use " + toll + " Shard Coins!");
+                admin.getInventory().decreaseByItemId(newItemId, 1);
             }
 
             @Override
