@@ -327,6 +327,8 @@ public class CommandsConfig {
     public static int UNSTUCK;
     @Property(key = "1v1", defaultValue = "0")
     public static int ONEVONE;
+    @Property(key = "goldpack", defaultValue = "0")
+    public static int GOLDPACK;
     @Property(key = "skin", defaultValue = "0")
     public static int SKIN;
     // Chat Command
