@@ -48,11 +48,11 @@ public class GoldPackAction extends AbstractItemAction {
             Calendar cal = Calendar.getInstance();
 
             con = DatabaseFactory.getConnection();
-            /*PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.membership = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
+            PreparedStatement stmt = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.membership = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt.setInt(1, 1);
             stmt.setString(2, player1.getAcountName());
             stmt.execute();
-            stmt.close();*/
+            stmt.close();
 
             PreparedStatement stmt1 = con.prepareStatement("SELECT * FROM " + LOGIN_DATABASE + ".account_data WHERE " + LOGIN_DATABASE + ".account_data.name = ?");
             stmt1.setString(1, player1.getAcountName());
