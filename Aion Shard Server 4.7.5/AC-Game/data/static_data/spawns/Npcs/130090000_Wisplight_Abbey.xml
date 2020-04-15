@@ -20,18 +20,18 @@
         </spawn>
         <!-- Sauro Supply Base Entreance -->
         <spawn npc_id="801964" respawn_time="295">
-            <spot x="235.51918" y="292.42523" z="130.21106" h="4"/>
+            <spot x="235.51918" y="292.42523" z="130.21106" h="118"/>
         </spawn>
         <!-- Infinity Shard Entreance -->
         <spawn npc_id="730840" respawn_time="295">
-            <spot x="259.35483" y="292.2301" z="130.21106" h="56"/>
+            <spot x="259.35483" y="292.2301" z="130.21106" h="62"/>
         </spawn>
         <!-- Ophidan Bridge Entreance -->
         <spawn npc_id="730867" respawn_time="295">
-            <spot x="237.15282" y="282.77554" z="130.21106" h="23"/>
+            <spot x="237.15282" y="282.77554" z="130.21106" h="13"/>
         </spawn>
         <!-- Tiamat Stronghold Detachment Entreance -->
-        <spawn npc_id="832760" respawn_time="295">
+        <spawn npc_id="832759" respawn_time="295">
             <spot x="260.04407" y="257.14743" z="128.85756" h="60"/>
         </spawn>
         <!-- Dragon Lord's Refuge Entreance -->
