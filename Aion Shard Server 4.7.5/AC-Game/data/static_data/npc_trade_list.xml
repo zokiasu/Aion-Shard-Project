@@ -9337,7 +9337,7 @@
 		<tradelist id="52"/>
 		<tradelist id="53"/>
 	</purchase_template>
-	<purchase_template npc_id="801480" sell_price_rate="3000" buy_price_rate="-10" npc_type="ABYSS">
+	<purchase_template npc_id="801480" npc_type="ABYSS">
 		<tradelist id="51"/>
 		<tradelist id="52"/>
 		<tradelist id="53"/>
