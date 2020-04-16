@@ -1952,6 +1952,10 @@
 		<modifiers>
 			<add name="MAXHP" value="500" bonus="true"/>
 			<add name="MAXMP" value="500" bonus="true"/>
+			<rate name="SPEED" value="5" bonus="true"/>
+			<rate name="ATTACK_SPEED" value="-3" bonus="true"/>
+			<rate name="BOOST_CASTING_TIME" value="3" bonus="true"/>
+			<add name="PVP_DEFEND_RATIO" value="3" bonus="true"/>
 		</modifiers>
 	</title>	
 </player_titles>
