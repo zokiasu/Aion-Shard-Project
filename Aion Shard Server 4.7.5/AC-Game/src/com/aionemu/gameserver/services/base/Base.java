@@ -217,7 +217,7 @@ public class Base<BL extends BaseLocation> {
 				}
 			}
 
-		}, 1 * 60000); // Guard 1 min spawn delay
+		}, 15000); // Guard 1 min spawn delay
 	}
 
 	protected void spawnGuard() {
@@ -290,7 +290,7 @@ public class Base<BL extends BaseLocation> {
 				}
 			}
 
-		}, 1 * 60000); // Guard Village 2 min spawn delay
+		}, 15000); // Guard Village 2 min spawn delay
 	}
 
 	protected void spawnGuardVillage() {
