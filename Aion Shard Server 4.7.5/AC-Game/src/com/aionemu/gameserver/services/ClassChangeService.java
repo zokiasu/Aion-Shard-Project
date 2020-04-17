@@ -61,54 +61,42 @@ public class ClassChangeService {
                 if (playerRace == Race.ELYOS) {
                     switch (playerClass) {
                         case WARRIOR:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 2375, 1006));
                             break;
                         case SCOUT:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 2716, 1006));
                             break;
                         case MAGE:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3057, 1006));
                             break;
                         case PRIEST:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3398, 1006));
                             break;
                         case ENGINEER:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3739, 1006)); // 4.5
                             break;
                         case ARTIST:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 4080, 1006));
                             break;
                     }
                 } else if (playerRace == Race.ASMODIANS) {
                     switch (playerClass) {
                         case WARRIOR:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3057, 2008));
                             break;
                         case SCOUT:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3398, 2008));
                             break;
                         case MAGE:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3739, 2008));
                             break;
                         case PRIEST:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 4080, 2008));
                             break;
                         case ENGINEER:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3612, 2008)); // 4.5
                             break;
                         case ARTIST:
-                            CubeExpandService.expand(player, true);
                             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 3910, 2008));
                             break;
                     }
@@ -125,6 +113,7 @@ public class ClassChangeService {
         Race playerRace = player.getRace();
         if (CustomConfig.ENABLE_SIMPLE_2NDCLASS) {
             if (playerRace == Race.ELYOS) {
+                CubeExpandService.expand(player, true);
                 switch (dialogId) {
                     case 2376:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
@@ -169,6 +158,7 @@ public class ClassChangeService {
                     completeQuest(player, 1929);
                 }
             } else if (playerRace == Race.ASMODIANS) {
+                CubeExpandService.expand(player, true);
                 switch (dialogId) {
                     case 3058:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
