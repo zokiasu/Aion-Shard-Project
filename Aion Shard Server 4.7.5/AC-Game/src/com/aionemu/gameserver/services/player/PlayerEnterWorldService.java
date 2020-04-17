@@ -388,7 +388,12 @@ public final class PlayerEnterWorldService {
             }
             InstanceService.onPlayerLogin(player);
             client.sendPacket(new SM_REQUEST_BEGINNER_SERVER(1, 1, true));
-            if (!player.getSkillList().isSkillPresent(3512)) {
+            if (!player.getSkillList().isSkillPresent(3512) && (player.getPlayerClass() != PlayerClass.WARRIOR)
+                                                            && (player.getPlayerClass() != PlayerClass.SCOUT)
+                                                            && (player.getPlayerClass() != PlayerClass.MAGE)
+                                                            && (player.getPlayerClass() != PlayerClass.PRIEST)
+                                                            && (player.getPlayerClass() != PlayerClass.ENGINEER)
+                                                            && (player.getPlayerClass() != PlayerClass.ARTIST)) {
                 player.getSkillList().addSkill(player, 3512, 129);
             }
             // Update player skills first!!!
