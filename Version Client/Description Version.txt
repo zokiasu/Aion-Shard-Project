@@ -1,1 +1,0 @@
-version_0.1 - Edition des objets pour les bêta testeurs & modification des quêtes de médailles (Platine, Mithril, Ceranium et Bloodmark)

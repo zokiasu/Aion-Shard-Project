@@ -60,7 +60,7 @@ public class cmd_remodel extends PlayerCommand {
 
         if (params.length == 1) { // Use target
             int itemId = Integer.parseInt(params[0]);
-            if (admin.getInventory().decreaseByItemId(186000202, 1)) {
+            if (admin.getInventory().decreaseByItemId(186000221, 1)) {
                 if (remodelItem(admin, itemId)) {
                     PacketSendUtility.sendMessage(admin, "Successfully remodelled an item of the player!");
                     PacketSendUtility.broadcastPacket(admin, new SM_UPDATE_PLAYER_APPEARANCE(admin.getObjectId(), admin.getEquipment().getEquippedItemsWithoutStigma()), true);

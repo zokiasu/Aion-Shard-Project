@@ -702,14 +702,6 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
     }
 
     @Override
-    public void onPlayerLogOut(Player player) {
-        player.getEffectController().removeEffect(skillId);
-        removeItems(player);
-        removeEffects(player);
-        TeleportService2.moveToInstanceExit(player, mapId, player.getRace());
-    }
-
-    @Override
     public void onLeaveInstance(Player player) {
         player.getEffectController().removeEffect(skillId);
         removeItems(player);
@@ -760,6 +752,14 @@ public class IlluminaryObeliskHeroInstance extends GeneralInstanceHandler
             return instance.getNpcs(npcId);
         }
         return null;
+    }
+
+    @Override
+    public void onPlayerLogOut(Player player) {
+        player.getEffectController().removeEffect(skillId);
+        removeItems(player);
+        removeEffects(player);
+        TeleportService2.moveToInstanceExit(player, mapId, player.getRace());
     }
 
     @Override

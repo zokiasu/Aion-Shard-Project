@@ -1,0 +1,13 @@
+  Custom object to remodel :
+
+  <string>
+    <id>802510</id>
+    <name>STR_PROMOTION_NEWBIE_CONTINUE_COIN</name>
+    <body>Magic Shard</body>
+  </string>
+
+  <string>
+    <id>802514</id>
+    <name>STR_PROMOTION_NEWBIE_CONTINUE_COIN_DESC</name>
+    <body>You can use this jewel via the '.remodel' command.</body>
+  </string>
