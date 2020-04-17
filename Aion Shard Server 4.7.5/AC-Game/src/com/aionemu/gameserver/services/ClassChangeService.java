@@ -115,6 +115,7 @@ public class ClassChangeService {
         if (CustomConfig.ENABLE_SIMPLE_2NDCLASS) {
             if (playerRace == Race.ELYOS) {
                 CubeExpandService.expand(player, true);
+                completeQuest(player, 1929);
                 switch (dialogId) {
                     case 2376:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
@@ -160,6 +161,7 @@ public class ClassChangeService {
                 }
             } else if (playerRace == Race.ASMODIANS) {
                 CubeExpandService.expand(player, true);
+                completeQuest(player, 2900);
                 switch (dialogId) {
                     case 3058:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
@@ -215,8 +217,7 @@ public class ClassChangeService {
         } else {
 			qs.setStatus(QuestStatus.COMPLETE);
 			qs.setCompleteCount(qs.getCompleteCount() + 1);
-            PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(questId, qs.getStatus(), qs.getQuestVars()
-                    .getQuestVars()));
+            PacketSendUtility.sendPacket(player, new SM_QUEST_ACTION(questId, qs.getStatus(), qs.getQuestVars().getQuestVars()));
         }
     }
 
