@@ -60,6 +60,10 @@ public class cmd_remodel extends PlayerCommand {
 
         if (params.length == 1) { // Use target
             int itemId = Integer.parseInt(params[0]);
+            if (DataManager.ITEM_DATA.getItemTemplate(itemId) == null) {
+                PacketSendUtility.sendMessage(player, "Item id is incorrect: " + itemId);
+                return;
+            }
             if (admin.getInventory().decreaseByItemId(186000221, 1)) {
                 if (remodelItem(admin, itemId)) {
                     PacketSendUtility.sendMessage(admin, "Successfully remodelled an item of the player!");
