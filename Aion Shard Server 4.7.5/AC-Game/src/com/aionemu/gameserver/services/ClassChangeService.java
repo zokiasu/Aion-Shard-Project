@@ -160,12 +160,12 @@ public class ClassChangeService {
                 }
             } else if (playerRace == Race.ASMODIANS) {
                 CubeExpandService.expand(player, true);
+                for(int i = 0; i < 12; i++) {
+                    StigmaService.extendAdvancedStigmaSlots(player);
+                }
                 switch (dialogId) {
                     case 3058:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
-                        for(int i = 0; i < 12; i++) {
-                            StigmaService.extendAdvancedStigmaSlots(player);
-                        }
                         break;
                     case 3143:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 2));
