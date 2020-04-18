@@ -44,6 +44,8 @@ public class CommandsConfig {
     public static int ADDEXP;
     @Property(key = "addset", defaultValue = "3")
     public static int ADDSET;
+    @Property(key = "addshop", defaultValue = "3")
+    public static int ADDSHOP;
     @Property(key = "addskill", defaultValue = "3")
     public static int ADDSKILL;
     @Property(key = "addtitle", defaultValue = "3")
