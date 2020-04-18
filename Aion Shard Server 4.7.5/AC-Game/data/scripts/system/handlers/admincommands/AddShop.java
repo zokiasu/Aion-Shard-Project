@@ -130,7 +130,7 @@ public class AddShop extends AdminCommand {
 
         List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
 
-        String tmp = "STR_"+itemId.getNamedesc();
+        String tmp = "STR_"+Integer.toString(itemId.getNamedesc());
         for(int i = 0; i < stringList.size(); i++){
             if(stringList.get(i).getName().equals(tmp)){
                 PacketSendUtility.sendMessage(player, "Ah que coucou!");
@@ -192,24 +192,37 @@ public class AddShop extends AdminCommand {
     }
 
     public class Strings {
-        private List<String> stringList = new ArrayList<String>();
+        private int Id;
+        private java.lang.String name;
+        private java.lang.String body;
 
-        public Strings () {}
-
-        public Strings(List<String> stringList) {
-            this.stringList = stringList;
+        @Override
+        public java.lang.String toString() {
+            return "Employee [id=" + Id + ", name=" + name + ", body=" + body + "]";
         }
 
-        public List<String> getStringList() {
-            return stringList;
+        public int getId() {
+            return Id;
         }
 
-        public void setStringList(List<String> stringList) {
-            this.stringList = stringList;
+        public void setId(int id) {
+            Id = id;
         }
 
-        public void addString(String string) {
-            stringList.add(string);
+        public java.lang.String getName() {
+            return name;
+        }
+
+        public void setName(java.lang.String name) {
+            this.name = name;
+        }
+
+        public java.lang.String getbody() {
+            return body;
+        }
+
+        public void setbody(java.lang.String body) {
+            this.body = body;
         }
     }
 }
