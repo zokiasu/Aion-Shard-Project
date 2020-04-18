@@ -128,18 +128,13 @@ public class AddShop extends AdminCommand {
 
         long count = ItemService.addItem(receiver, itemId, itemCount);
 
-        try {
-            List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
+        List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
 
-            String tmp = "STR_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
-            for(int i = 0; i < stringList.size(); i++){
-                if(stringList.get(i).getName().equals(tmp)){
-                    PacketSendUtility.sendMessage(player, "Ah que coucou!");
-                }
+        String tmp = "STR_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
+        for(int i = 0; i < stringList.size(); i++){
+            if(stringList.get(i).getName().equals(tmp)){
+                PacketSendUtility.sendMessage(player, "Ah que coucou!");
             }
-            PacketSendUtility.sendMessage(player, "Try/Catch");
-        } catch (Exception e) {
-            PacketSendUtility.sendMessage(player, "Try/Catch fail");
         }
 
         if (count == 0) {
