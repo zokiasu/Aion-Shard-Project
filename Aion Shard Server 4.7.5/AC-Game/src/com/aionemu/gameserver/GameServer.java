@@ -44,7 +44,6 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 import com.aionemu.gameserver.services.ecfunctions.oneVsone.OneVsOneService;
-import com.aionemu.gameserver.services.ecfunctions.shopreload.ShopReloadService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -398,7 +397,6 @@ public class GameServer {
         if(EventSystem.ENABLE_ONEVONE){
             OneVsOneService.getInstance().autoAnnounce(120);
         }
-        ShopReloadService.getInstance().autoReload();
 		if(EventSystem.ENABLE_CRAZY){
 			CrazyDaevaService.getInstance().startTimer();
         }        

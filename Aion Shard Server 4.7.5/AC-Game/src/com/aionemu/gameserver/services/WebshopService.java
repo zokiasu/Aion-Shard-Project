@@ -103,7 +103,6 @@ public class WebshopService {
 
     @SuppressWarnings("synthetic-access")
     private static class SingletonHolder {
-
         protected static final WebshopService instance = new WebshopService();
     }
 }

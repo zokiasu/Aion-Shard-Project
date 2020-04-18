@@ -55,8 +55,7 @@ public class MySQL5WebshopDAO extends WebshopDAO {
             @Override
             public void handleRead(ResultSet resultSet) throws SQLException {
                 while (resultSet.next()) {
-                    result.add(new Webshop(resultSet.getInt("id"), resultSet.getString("recipient"), resultSet
-                            .getInt("item_id"), resultSet.getInt("count"), resultSet.getString("send")));
+                    result.add(new Webshop(resultSet.getInt("id"), resultSet.getString("recipient"), resultSet.getInt("item_id"), resultSet.getInt("count"), resultSet.getString("send")));
                 }
             }
         });

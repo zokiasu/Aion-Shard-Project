@@ -382,7 +382,7 @@ public class CustomConfig {
 	/**
 	 * Custom Webshop
 	 */
-	@Property(key = "gameserver.webshop.enable", defaultValue = "false")
+	@Property(key = "gameserver.webshop.enable", defaultValue = "true")
     public static boolean WEBSHOP_ENABLED;
 	/**
      * Custom Delay for Hotspot Teleportation in Milliseconds
