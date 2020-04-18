@@ -127,11 +127,8 @@ public class AddShop extends AdminCommand {
         }
 
         long count = ItemService.addItem(receiver, itemId, itemCount);
-        try {
-            List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
-        } catch (Exception e){
-            PacketSendUtility.sendMessage(player, "Try/Catch Fail");
-        }
+
+        List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
 
         String tmp = "STR_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
         for(int i = 0; i < stringList.size(); i++){
@@ -158,14 +155,26 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "syntax //addShop <item Id>");
     }
 
-    public List<Strings> RecupXml(String test) throws Exception {
+    public List<Strings> RecupXml(String test) {
         List<Strings> stringList = new ArrayList<Strings>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = factory.newDocumentBuilder();
+        DocumentBuilder builder = null;
+        try {
+            builder = factory.newDocumentBuilder();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        }
 
         //Build Document
-        Document document = builder.parse(new File(test));
+        Document document = null;
+        try {
+            document = builder.parse(new File(test));
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         //Normalize the XML Structure; It's just too important !!
         document.getDocumentElement().normalize();
@@ -176,6 +185,7 @@ public class AddShop extends AdminCommand {
 
         //Get all employees
         NodeList nList = document.getElementsByTagName("string");
+        System.out.println("============================");
 
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node node = nList.item(temp);
