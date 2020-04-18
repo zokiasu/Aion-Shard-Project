@@ -128,10 +128,11 @@ public class AddShop extends AdminCommand {
 
         long count = ItemService.addItem(receiver, itemId, itemCount);
 
-        List<Strings> stringList = RecupXmlTest("AutoShop/client_strings_item2.xml");
+        List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
 
+        String tmp = "STR_"+itemId.getNamedesc();
         for(int i = 0; i < stringList.size(); i++){
-            if(stringList.get(i).getName().equals("STR_"+itemId.getNamedesc())){
+            if(stringList.get(i).getName().equals(tmp)){
                 PacketSendUtility.sendMessage(player, "Ah que coucou!");
             }
         }
@@ -154,7 +155,7 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "syntax //addShop <item Id>");
     }
 
-    public static List<Strings> RecupXml(String test) throws Exception {
+    public List<Strings> RecupXml(String test) throws Exception {
         List<String> stringList = new ArrayList<String>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
