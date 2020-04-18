@@ -131,7 +131,7 @@ public class AddShop extends AdminCommand {
 
         //long count = ItemService.addItem(receiver, itemId, itemCount);
 
-        List<Strings> stringList = RecupXml("./data/scripts/system/handlers/admincommands/client_strings_item2.xml");
+        List<Strings> stringList = RecupXml("./data/static_data/client_strings_item2.xml");
 
         String tmp = "STR_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
         for(int i = 0; i < stringList.size(); i++){
