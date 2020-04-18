@@ -129,9 +129,9 @@ public class AddShop extends AdminCommand {
             return;
         }
 
-        long count = ItemService.addItem(receiver, itemId, itemCount);
+        //long count = ItemService.addItem(receiver, itemId, itemCount);
 
-        List<Strings> stringList = RecupXml("AutoShop/client_strings_item2.xml");
+        List<Strings> stringList = RecupXml("data/scripts/system/handlers/admincommands/AutoShop/client_strings_item2.xml");
 
         String tmp = "STR_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
         for(int i = 0; i < stringList.size(); i++){
@@ -140,7 +140,7 @@ public class AddShop extends AdminCommand {
             }
         }
 
-        if (count == 0) {
+        /*if (count == 0) {
             if (player != receiver) {
                 PacketSendUtility.sendMessage(player, "You successfully gave " + itemCount + " x [item:"+ itemId + "] to " + receiver.getName() + ".");
                 PacketSendUtility.sendMessage(receiver, "You successfully received " + itemCount + " x [item:"+ itemId + "] from " + player.getName() + ".");
@@ -149,7 +149,7 @@ public class AddShop extends AdminCommand {
             }
         } else {
             PacketSendUtility.sendMessage(player, "Item couldn't be added");
-        }
+        }*/
 
     }
 
