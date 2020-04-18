@@ -156,7 +156,7 @@ public class AddShop extends AdminCommand {
     }
 
     public List<Strings> RecupXml(String test) throws Exception {
-        List<Strings> stringList = new ArrayList<String>();
+        List<Strings> stringList = new ArrayList<Strings>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
