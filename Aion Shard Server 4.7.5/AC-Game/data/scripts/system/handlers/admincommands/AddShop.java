@@ -29,7 +29,7 @@ import org.w3c.dom.NodeList;
 public class AddShop extends AdminCommand {
 
     public AddShop() {
-        super("addShop");
+        super("addshop");
     }
 
     @Override
@@ -137,6 +137,7 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, "Ah que coucou!");
                 }
             }
+            PacketSendUtility.sendMessage(player, "Try/Catch");
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "Try/Catch fail");
         }
