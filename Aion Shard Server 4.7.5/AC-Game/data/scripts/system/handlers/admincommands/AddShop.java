@@ -177,13 +177,14 @@ public class AddShop extends AdminCommand {
             }
         }
 
+        PacketSendUtility.sendMessage(player, " ");
         PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
-        PacketSendUtility.sendMessage(player, Integer.toString(itemId));
-        PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
-        PacketSendUtility.sendMessage(player, itemDesc);
+        PacketSendUtility.sendMessage(player, "ID : " + Integer.toString(itemId));
+        PacketSendUtility.sendMessage(player, "Name : " + DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
+        PacketSendUtility.sendMessage(player, "Description : " + itemDesc);
+        PacketSendUtility.sendMessage(player, "Category : " + itemCategoryName);
         PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
         PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-        PacketSendUtility.sendMessage(player, "ImagePath : " + imagePath);
 
         addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
 
