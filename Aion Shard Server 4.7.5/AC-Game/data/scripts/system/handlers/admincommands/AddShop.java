@@ -1,13 +1,26 @@
 package admincommands;
 
+import com.aionemu.commons.database.DB;
+import com.aionemu.commons.database.DatabaseFactory;
+import com.aionemu.commons.database.IUStH;
+import com.aionemu.commons.database.ParamReadStH;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.services.AdminService;
 import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.teleport.TeleportService2;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.ChatUtil;
 import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapType;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,6 +38,10 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import org.slf4j.LoggerFactory;
+
+import ch.qos.logback.classic.Logger;
+
 
 /**
  * @author Phantom, ATracer, Source
@@ -68,7 +85,7 @@ public class AddShop extends AdminCommand {
                 PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                 PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                 PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice);
+                addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice, player);
                 checkDesc = false;
             }
         }
@@ -83,7 +100,7 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                     PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice);
+                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice, player);
                     checkDesc = false;
                 }
             }
@@ -99,7 +116,7 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                     PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice);
+                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice, player);
                     checkDesc = false;
                 }
             }
@@ -193,7 +210,7 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public void addShopDb(int item_id, String item_name, String item_desc, int item_count, int item_price){
+    public void addShopDb(int item_id, String item_name, String item_desc, int item_count, int item_price, Player player){
         try {
             /*final int item_id = item_id;
             final String item_name = item_name;
