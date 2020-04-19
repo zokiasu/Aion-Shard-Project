@@ -5,6 +5,7 @@ import com.aionemu.commons.database.DatabaseFactory;
 import com.aionemu.commons.database.IUStH;
 import com.aionemu.commons.database.ParamReadStH;
 import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.services.AdminService;
 import com.aionemu.gameserver.services.item.ItemService;
@@ -62,6 +63,7 @@ public class AddShop extends AdminCommand {
         int itemId = Integer.parseInt(params[0]);
         int itemPrice = Integer.parseInt(params[1]);
         int itemCategory = Integer.parseInt(params[2]);
+        String itemName = "";
         String itemCategoryName = "";
         String itemDesc = "";
         String imagePath = "";
@@ -189,7 +191,15 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
         PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
 
-        addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
+        if(DataManager.ITEM_DATA.getItemTemplate(itemId).getRace() == Race.ASMODIANS) {
+            itemName = "[Asmo]" + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
+        } else if(DataManager.ITEM_DATA.getItemTemplate(itemId).getRace() == Race.ELYOS) {
+            itemName = "[Elyos]" + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
+        } else {
+            itemName = DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
+        }
+
+        addShopDb(itemId, itemName, itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
 
     }
 
