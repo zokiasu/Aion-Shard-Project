@@ -158,7 +158,7 @@ public class AddShop extends AdminCommand {
         }
 
         if(checkImage) {
-            imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml")
+            imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
             for (int i = 0; i < imageList.size(); i++) {
                 if (DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
                     imagePath = imageList.get(i).getIcon_name();
@@ -168,7 +168,7 @@ public class AddShop extends AdminCommand {
         }
 
         if(checkImage) {
-            imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
+            imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml")
             for (int i = 0; i < imageList.size(); i++) {
                 if (DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
                     imagePath = imageList.get(i).getIcon_name();
