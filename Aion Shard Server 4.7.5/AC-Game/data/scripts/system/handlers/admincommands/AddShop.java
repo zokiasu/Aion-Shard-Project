@@ -87,9 +87,7 @@ public class AddShop extends AdminCommand {
                 break;
             case 6 :
                 itemCategoryName = "Mount";
-                itemDesc = "The mounts are personalized and have all the same.\n" +
-                           "Move Speed 13 |  Fly Speed 16 | Sprint Speed 15,2\n" +
-                           "Cost Flight Point 6";
+                itemDesc = "The mounts are personalized and have all the same.\n Move Speed 13 |  Fly Speed 16 | Sprint Speed 15,2\n Cost Flight Point 6";
                 break;
             case 7 :
                 itemCategoryName = "Skin";
@@ -119,50 +117,38 @@ public class AddShop extends AdminCommand {
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
 
-        if(checkDesc && !itemCategoryName.equals("Mount")) {
+        if(checkDesc) {
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
-                    PacketSendUtility.sendMessage(player, Integer.toString(itemId));
-                    PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
-                    PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                    PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
-                    PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    itemDesc = stringList.get(i).getbody();
+                    if(!itemCategoryName.equals("Mount")) {
+                        itemDesc = stringList.get(i).getbody();
+                    }
                     checkDesc = false;
                 }
             }
         }
 
-        if(checkDesc && !itemCategoryName.equals("Mount")) {
+        if(checkDesc) {
             stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item2.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
-                    PacketSendUtility.sendMessage(player, Integer.toString(itemId));
-                    PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
-                    PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                    PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
-                    PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    itemDesc = stringList.get(i).getbody();
+                    if(!itemCategoryName.equals("Mount")) {
+                        itemDesc = stringList.get(i).getbody();
+                    }
                     checkDesc = false;
                 }
             }
         }
 
-        if(checkDesc && !itemCategoryName.equals("Mount")) {
+        if(checkDesc) {
             stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item3.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
-                    PacketSendUtility.sendMessage(player, Integer.toString(itemId));
-                    PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
-                    PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                    PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
-                    PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    itemDesc = stringList.get(i).getbody();
+                    if(!itemCategoryName.equals("Mount")) {
+                        itemDesc = stringList.get(i).getbody();
+                    }
                     checkDesc = false;
                 }
             }
@@ -171,7 +157,6 @@ public class AddShop extends AdminCommand {
         if(checkImage) {
             for (int i = 0; i < imageList.size(); i++) {
                 if (DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
-                    PacketSendUtility.sendMessage(player, imageList.get(i).getIcon_name());
                     imagePath = imageList.get(i).getIcon_name();
                     checkImage = false;
                 }
@@ -187,6 +172,14 @@ public class AddShop extends AdminCommand {
                 }
             }
         }
+
+        PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
+        PacketSendUtility.sendMessage(player, Integer.toString(itemId));
+        PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
+        PacketSendUtility.sendMessage(player, itemDesc);
+        PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
+        PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+        PacketSendUtility.sendMessage(player, "ImagePath : " + imagePath);
 
         addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
 
