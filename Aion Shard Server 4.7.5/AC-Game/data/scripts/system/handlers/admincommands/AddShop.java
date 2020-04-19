@@ -197,11 +197,15 @@ public class AddShop extends AdminCommand {
         }
 
         if(DataManager.ITEM_DATA.getItemTemplate(itemId).getRace() == Race.ASMODIANS) {
-            itemName = "[Asmo]" + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
+            itemName = "[Asmo] " + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
         } else if(DataManager.ITEM_DATA.getItemTemplate(itemId).getRace() == Race.ELYOS) {
-            itemName = "[Elyos]" + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
+            itemName = "[Elyos] " + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
         } else {
             itemName = DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
+        }
+
+        if(itemCount > 1) {
+            itemName = itemName + " (x" + itemCount + ")";
         }
 
         PacketSendUtility.sendMessage(player, " ");
