@@ -76,7 +76,7 @@ public class AddShop extends AdminCommand {
         boolean checkDesc = true;
         boolean checkImage = true;
         List<Strings> stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item.xml");
-        List<Client_item> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
+        List<clientItem> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
         String itemDesc, imagePath;
@@ -205,8 +205,8 @@ public class AddShop extends AdminCommand {
         return stringList;
     }
 
-    public static List<Client_item> RecupXmlIcon(String test) {
-        List<Client_item> stringList = new ArrayList<Client_item>();
+    public static List<clientItem> RecupXmlIcon(String test) {
+        List<clientItem> stringList = new ArrayList<clientItem>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = null;
@@ -239,7 +239,7 @@ public class AddShop extends AdminCommand {
 
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node node = nList.item(temp);
-            Client_item abc = new Client_item();
+            clientItem abc = new clientItem();
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 //Print each employee's detail
                 Element eElement = (Element) node;
@@ -292,7 +292,7 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public class Client_item {
+    public class clientItem {
         private int id;
         private java.lang.String name;
         private java.lang.String icon_name;
