@@ -69,6 +69,14 @@ public class AddShop extends AdminCommand {
         switch (itemCategory){
             case 0 :
                 itemCategoryName = "Boost";
+                if(itemId == 188710074) {
+                    itemDesc = "- Administrator's Boon 30 d\n " +
+                            "- Title Top Gun 30 d\n" +
+                            "- XP Obtained by quests and hunting (x3)\n" +
+                            "- XP Obtained for jobs (x5)\n" +
+                            "- Object obtained by extraction (x5)\n" +
+                            "- +30% AP, Kinah, Drop, Reward Ordalie";
+                }
                 break;
             case 1 :
                 itemCategoryName = "Miscellaneous";
@@ -120,7 +128,7 @@ public class AddShop extends AdminCommand {
         if(checkDesc) {
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    if(!itemCategoryName.equals("Mount")) {
+                    if(itemDesc.equals("")) {
                         itemDesc = stringList.get(i).getbody();
                     }
                     checkDesc = false;
@@ -133,7 +141,7 @@ public class AddShop extends AdminCommand {
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    if(!itemCategoryName.equals("Mount")) {
+                    if(itemDesc.equals("")) {
                         itemDesc = stringList.get(i).getbody();
                     }
                     checkDesc = false;
@@ -146,7 +154,7 @@ public class AddShop extends AdminCommand {
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    if(!itemCategoryName.equals("Mount")) {
+                    if(itemDesc.equals("")) {
                         itemDesc = stringList.get(i).getbody();
                     }
                     checkDesc = false;
@@ -267,11 +275,9 @@ public class AddShop extends AdminCommand {
 
         //Here comes the root node
         Element root = document.getDocumentElement();
-        System.out.println(root.getNodeName());
 
         //Get all employees
         NodeList nList = document.getElementsByTagName("client_item");
-        System.out.println("============================");
 
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node node = nList.item(temp);
