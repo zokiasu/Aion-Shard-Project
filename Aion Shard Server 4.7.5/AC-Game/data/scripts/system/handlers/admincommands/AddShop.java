@@ -125,38 +125,32 @@ public class AddShop extends AdminCommand {
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
 
-        if(checkDesc) {
+        if(checkDesc && itemDesc.equals("")) {
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    if(itemDesc.equals("")) {
-                        itemDesc = stringList.get(i).getbody();
-                    }
+                    itemDesc = stringList.get(i).getbody();
                     checkDesc = false;
                 }
             }
         }
 
-        if(checkDesc) {
+        if(checkDesc && itemDesc.equals("")) {
             stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item2.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    if(itemDesc.equals("")) {
-                        itemDesc = stringList.get(i).getbody();
-                    }
+                    itemDesc = stringList.get(i).getbody();
                     checkDesc = false;
                 }
             }
         }
 
-        if(checkDesc) {
+        if(checkDesc && itemDesc.equals("")) {
             stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item3.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    if(itemDesc.equals("")) {
-                        itemDesc = stringList.get(i).getbody();
-                    }
+                    itemDesc = stringList.get(i).getbody();
                     checkDesc = false;
                 }
             }
