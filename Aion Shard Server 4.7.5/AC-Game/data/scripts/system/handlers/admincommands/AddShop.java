@@ -62,6 +62,39 @@ public class AddShop extends AdminCommand {
         int itemId = Integer.parseInt(params[0]);
         int itemPrice = Integer.parseInt(params[1]);
         int itemCategory = Integer.parseInt(params[2]);
+        String itemCategoryName = "";
+        switch (itemCategory){
+            case 0 :
+                itemCategoryName = "Boost";
+                break;
+            case 1 :
+                itemCategoryName = "Miscellaneous";
+                break;
+            case 2 :
+                itemCategoryName = "Ticket";
+                break;
+            case 3 :
+                itemCategoryName = "Candy";
+                break;
+            case 4 :
+                itemCategoryName = "Emotion Card/Motion Card";
+                break;
+            case 5 :
+                itemCategoryName = "Pet";
+                break;
+            case 6 :
+                itemCategoryName = "Mount";
+                break;
+            case 7 :
+                itemCategoryName = "Skin";
+                break;
+            case 8 :
+                itemCategoryName = "Skill Skin";
+                break;
+            case 9 :
+                itemCategoryName = "Housing";
+                break;
+        }
         int itemCount = 1;
         if(params.length == 4) {
             itemCount = Integer.parseInt(params[3]);
@@ -151,13 +184,18 @@ public class AddShop extends AdminCommand {
             }
         }
 
-        addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), itemDesc, itemCount, itemPrice, imagePath, player);
+        addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
 
     }
 
     @Override
     public void onFail(Player player, String message) {
-        PacketSendUtility.sendMessage(player, "syntax //addShop <item Id> <item Price> <item Count>");
+        PacketSendUtility.sendMessage(player, "ID for Category :");
+        PacketSendUtility.sendMessage(player, "0 : Boost / 1 : Miscellaneous / 2 : Ticket");
+        PacketSendUtility.sendMessage(player, "3 : Candy / 4 : Emotion Card-Motion Card / 5 : Pet");
+        PacketSendUtility.sendMessage(player, "6 : Mount / 7 : Skin / 8 : Skill Skin");
+        PacketSendUtility.sendMessage(player, "9 : Housing");
+        PacketSendUtility.sendMessage(player, "syntax //addShop <item Id> <item Price> <item Category> <item Count>");
     }
 
     public List<Strings> RecupXmlDesc(String test) {
@@ -328,15 +366,16 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public void addShopDb(final int item_id, final String item_name, final String item_desc, final int item_count, final int item_price, final String item_image_path, Player player){
+    public void addShopDb(final int item_id, final String item_name, final String item_desc, final String item_category, final int item_count, final int item_price, final String item_image_path, Player player){
         try {
 
-            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?)", new IUStH() {
+            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_caegory`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?, ?)", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
                     ps.setInt(1, item_id);
                     ps.setString(2, item_name);
                     ps.setString(3, item_desc);
+                    ps.setString(4, item_category);
                     ps.setInt(4, item_count);
                     ps.setInt(5, item_price);
                     ps.setString(6, item_image_path);
