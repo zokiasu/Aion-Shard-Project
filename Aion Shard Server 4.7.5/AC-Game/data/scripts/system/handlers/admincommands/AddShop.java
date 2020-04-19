@@ -130,26 +130,46 @@ public class AddShop extends AdminCommand {
         }
 
         //long count = ItemService.addItem(receiver, itemId, itemCount);
+        boolean test = true;
+        List<Strings> stringList = RecupXml("./data/static_data/client_strings_item.xml");
 
-        List<Strings> stringList = RecupXml("./data/static_data/client_strings_item2.xml");
+        String tmp = "str_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
 
-        String tmp = "STR_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
         for(int i = 0; i < stringList.size(); i++){
-            if(stringList.get(i).getName().equals(tmp)){
-                PacketSendUtility.sendMessage(player, "Ah que coucou!");
+            if(tmp.equalsIgnoreCase(stringList.get(i).getName())){
+                PacketSendUtility.sendMessage(player, "Ah que coucouA!");
+                test = false;
+            }
+            if(i == stringList.size()-1){
+                PacketSendUtility.sendMessage(player, "Ah que coucou1!");
             }
         }
+        if(test) {
+            stringList = RecupXml("./data/static_data/client_strings_item2.xml");
 
-        /*if (count == 0) {
-            if (player != receiver) {
-                PacketSendUtility.sendMessage(player, "You successfully gave " + itemCount + " x [item:"+ itemId + "] to " + receiver.getName() + ".");
-                PacketSendUtility.sendMessage(receiver, "You successfully received " + itemCount + " x [item:"+ itemId + "] from " + player.getName() + ".");
-            } else {
-                PacketSendUtility.sendMessage(player, "You successfully received " + itemCount + " x [item:"+ itemId + "]");
+            for (int i = 0; i < stringList.size(); i++) {
+                if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, "Ah que coucouB!");
+                    test = false;
+                }
+                if (i == stringList.size() - 1) {
+                    PacketSendUtility.sendMessage(player, "Ah que coucou2!");
+                }
             }
-        } else {
-            PacketSendUtility.sendMessage(player, "Item couldn't be added");
-        }*/
+        }
+        if(test) {
+            stringList = RecupXml("./data/static_data/client_strings_item3.xml");
+
+            for (int i = 0; i < stringList.size(); i++) {
+                if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, "Ah que coucouC!");
+                    test = false;
+                }
+                if (i == stringList.size() - 1) {
+                    PacketSendUtility.sendMessage(player, "Ah que coucou3!");
+                }
+            }
+        }
 
     }
 
@@ -172,7 +192,7 @@ public class AddShop extends AdminCommand {
         //Build Document
         Document document = null;
         try {
-            document = builder.parse(new File("./data/static_data/client_strings_item2.xml"));
+            document = builder.parse(new File("test"));
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -184,16 +204,13 @@ public class AddShop extends AdminCommand {
 
         //Here comes the root node
         Element root = document.getDocumentElement();
-        System.out.println(root.getNodeName());
 
         //Get all employees
         NodeList nList = document.getElementsByTagName("string");
-        System.out.println("============================");
 
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node node = nList.item(temp);
             Strings abc = new Strings();
-            System.out.println("");    //Just a separator
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 //Print each employee's detail
                 Element eElement = (Element) node;
