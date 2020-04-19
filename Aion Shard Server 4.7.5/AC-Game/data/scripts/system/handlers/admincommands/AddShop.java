@@ -76,7 +76,7 @@ public class AddShop extends AdminCommand {
         boolean checkDesc = true;
         boolean checkImage = true;
         List<Strings> stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item.xml");
-        List<clientItem> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
+        List<ClientItem> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
         String itemDesc, imagePath;
@@ -205,8 +205,8 @@ public class AddShop extends AdminCommand {
         return stringList;
     }
 
-    public static List<clientItem> RecupXmlIcon(String test) {
-        List<clientItem> stringList = new ArrayList<clientItem>();
+    public List<ClientItem> RecupXmlIcon(String test) {
+        List<ClientItem> stringList = new ArrayList<ClientItem>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = null;
@@ -239,7 +239,7 @@ public class AddShop extends AdminCommand {
 
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node node = nList.item(temp);
-            clientItem abc = new clientItem();
+            ClientItem abc = new ClientItem();
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 //Print each employee's detail
                 Element eElement = (Element) node;
@@ -292,14 +292,14 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public class clientItem {
+    public class ClientItem {
         private int id;
         private java.lang.String name;
         private java.lang.String icon_name;
 
         @Override
         public java.lang.String toString() {
-            return "Strings [id=" + id + ", name=" + name + ", icon_name=" + icon_name + "]";
+            return "clientItem [id=" + id + ", name=" + name + ", icon_name=" + icon_name + "]";
         }
 
         public int getId() {
