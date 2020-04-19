@@ -109,7 +109,10 @@ public class AddShop extends AdminCommand {
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, itemId);
+                    PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
+                    PacketSendUtility.sendMessage(player, itemCount);
                     test = false;
                 }
             }
@@ -120,7 +123,10 @@ public class AddShop extends AdminCommand {
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, itemId);
+                    PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
+                    PacketSendUtility.sendMessage(player, itemCount);
                     test = false;
                 }
             }
