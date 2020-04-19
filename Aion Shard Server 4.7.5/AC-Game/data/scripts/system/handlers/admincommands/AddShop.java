@@ -55,16 +55,17 @@ public class AddShop extends AdminCommand {
     @Override
     public void execute(Player player, String... params) {
 
-        if (params.length < 2) {
+        if (params.length < 3) {
             onFail(player, null);
             return;
         }
 
         int itemId = Integer.parseInt(params[0]);
         int itemPrice = Integer.parseInt(params[1]);
+        int itemCategory = Integer.parseInt(params[2]);
         int itemCount = 1;
-        if(params.length == 3) {
-            itemCount = Integer.parseInt(params[2]);
+        if(params.length == 4) {
+            itemCount = Integer.parseInt(params[3]);
         }
 
 
@@ -80,6 +81,7 @@ public class AddShop extends AdminCommand {
 
         for(int i = 0; i < stringList.size(); i++){
             if(tmp.equalsIgnoreCase(stringList.get(i).getName())){
+                PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
                 PacketSendUtility.sendMessage(player, Integer.toString(itemId));
                 PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                 PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
@@ -95,6 +97,7 @@ public class AddShop extends AdminCommand {
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
                     PacketSendUtility.sendMessage(player, Integer.toString(itemId));
                     PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
@@ -111,6 +114,7 @@ public class AddShop extends AdminCommand {
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
                     PacketSendUtility.sendMessage(player, Integer.toString(itemId));
                     PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());

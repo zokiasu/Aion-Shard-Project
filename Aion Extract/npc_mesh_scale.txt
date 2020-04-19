@@ -1,0 +1,56 @@
+// mesh에 따른 scaling factor
+// data/NPC 폴더에 넣어 주세요
+
+cherubim		140
+shugomale		70
+Methu                   60
+
+Porguss                 70
+Minx                    70
+Qooqoo                  90
+
+BabyOctaside            80
+Tog                     80
+Brax                    100
+kirca                   70
+Lobnite                 80
+octaside                100
+
+dbrowniewwaprt          80
+
+DBrownieFWo             80
+DBrownieFWa             80
+DBrownieFSc             80
+DBrownieFFl             80
+
+DBrownieMFl             70
+DBrownieMSc             70
+DBrownieMWa             70
+DBrownieMWo             70
+
+KrallKeeperT            140
+
+frillfaimam             120
+frillfaimamnamed        140
+babyfrillfaimam         120
+
+
+
+
+SAM_Defence              55
+
+NagaMage                 65
+
+LizardmanFighter        120
+LizardmanFighter_red    120
+LizardmanFighter_Named  120
+LizardmanPriest         90
+LizardmanPriest_red     90
+LizardmanPriest_Named   90
+LizardmanAssassin       80
+LizardmanAssassin_red   80
+LizardmanRanger         80
+LizardmanRanger_red     80
+
+SeirenRe                120
+

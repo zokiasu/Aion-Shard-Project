@@ -1,0 +1,27 @@
+// mesh에 따른 blending flags
+// 0은 BONES_ALL_BODY	attack 등에서 _run 사용
+// 1은 BONES_NECK	목만 blending
+// data/NPC 폴더에 넣어 주세요
+
+elementalking			0
+shulack_mechanic		0
+dramata_wind			0
+dramata_earth			0
+testresult_f			0
+chimera				0
+vanq				0
+drakanmaster			0
+drakanstrider			0
+dragon_Raksha			0
+drakanscoutf_Whip_named		0
+
+dragon				1
+dragon_low			1
+tiamat_dragon			1
+Tiamat_Gravity			1
+Tiamat_Crystal			1
+Tiamat_Crack			1
+Tiamat_Rage			1
+DragonGuard			1
+DragonGuard_Public		1
+DragonGuard_Public_High         1
