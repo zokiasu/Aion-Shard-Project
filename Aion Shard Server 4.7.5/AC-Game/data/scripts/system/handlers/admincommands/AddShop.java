@@ -43,103 +43,16 @@ public class AddShop extends AdminCommand {
             return;
         }
 
-        int itemId = 0;
-        long itemCount = 1;
-        long itemPrice = 1;
-        Player receiver;
-
-        try {
-            String item = params[0];
-            // Some item links have space before Id
-            if (item.equals("[item:")) {
-                item = params[1];
-                Pattern id = Pattern.compile("(\\d{9})");
-                Matcher result = id.matcher(item);
-                if (result.find()) {
-                    itemId = Integer.parseInt(result.group(1));
-                }
-
-                if (params.length == 3) {
-                    itemPrice = Long.parseLong(params[2]);
-                }
-
-                if (params.length == 4) {
-                    itemCount = Long.parseLong(params[3]);
-                }
-
-            } else {
-                Pattern id = Pattern.compile("\\[item:(\\d{9})");
-                Matcher result = id.matcher(item);
-
-                if (result.find()) {
-                    itemId = Integer.parseInt(result.group(1));
-                } else {
-                    itemId = Integer.parseInt(params[0]);
-                }
-
-                if (params.length == 2) {
-                    itemPrice = Long.parseLong(params[1]);
-                }
-
-                if (params.length == 3) {
-                    itemCount = Long.parseLong(params[2]);
-                }
-            }
-            receiver = player;
-        } catch (NumberFormatException e) {
-            receiver = World.getInstance().findPlayer(Util.convertName(params[0]));
-            if (receiver == null) {
-                PacketSendUtility.sendMessage(player, "Could not find a player by that name.");
-                return;
-            }
-
-            try {
-                String item = params[1];
-                // Some item links have space before Id
-                if (item.equals("[item:")) {
-                    item = params[2];
-                    Pattern id = Pattern.compile("(\\d{9})");
-                    Matcher result = id.matcher(item);
-                    if (result.find()) {
-                        itemId = Integer.parseInt(result.group(1));
-                    }
-
-                    if (params.length == 4) {
-                        itemCount = Long.parseLong(params[3]);
-                    }
-                } else {
-                    Pattern id = Pattern.compile("\\[item:(\\d{9})");
-                    Matcher result = id.matcher(item);
-
-                    if (result.find()) {
-                        itemId = Integer.parseInt(result.group(1));
-                    } else {
-                        itemId = Integer.parseInt(params[1]);
-                    }
-
-                    if (params.length == 3) {
-                        itemCount = Long.parseLong(params[2]);
-                    }
-                }
-            } catch (NumberFormatException ex) {
-                PacketSendUtility.sendMessage(player, "You must give number to itemid.");
-                return;
-            } catch (Exception ex2) {
-                PacketSendUtility.sendMessage(player, "Occurs an error.");
-                return;
-            }
-        }
+        int itemId = Integer.parseInt(params[0]);
+        int itemPrice = Integer.parseInt(params[1]);
+        int itemCount = Integer.parseInt(params[2]);
 
         if (DataManager.ITEM_DATA.getItemTemplate(itemId) == null) {
             PacketSendUtility.sendMessage(player, "Item id is incorrect: " + itemId);
             return;
         }
 
-        if (!AdminService.getInstance().canOperate(player, receiver, itemId, "command //add")) {
-            return;
-        }
-
-        boolean test = true;
+        boolean checkDesc = true;
         List<Strings> stringList = RecupXml("./data/static_data/client_strings_item.xml");
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
@@ -149,13 +62,13 @@ public class AddShop extends AdminCommand {
                 PacketSendUtility.sendMessage(player, Integer.toString(itemId));
                 PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                 PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                PacketSendUtility.sendMessage(player, Long.toString(itemPrice));
-                PacketSendUtility.sendMessage(player, Long.toString(itemCount));
-                test = false;
+                PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
+                PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                checkDesc = false;
             }
         }
 
-        if(test) {
+        if(checkDesc) {
             stringList = RecupXml("./data/static_data/client_strings_item2.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
@@ -163,14 +76,14 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, Integer.toString(itemId));
                     PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                    PacketSendUtility.sendMessage(player, Long.toString(itemPrice));
-                    PacketSendUtility.sendMessage(player, Long.toString(itemCount));
-                    test = false;
+                    PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
+                    PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                    checkDesc = false;
                 }
             }
         }
 
-        if(test) {
+        if(checkDesc) {
             stringList = RecupXml("./data/static_data/client_strings_item3.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
@@ -178,9 +91,9 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, Integer.toString(itemId));
                     PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                    PacketSendUtility.sendMessage(player, Long.toString(itemPrice));
-                    PacketSendUtility.sendMessage(player, Long.toString(itemCount));
-                    test = false;
+                    PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
+                    PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                    checkDesc = false;
                 }
             }
         }
