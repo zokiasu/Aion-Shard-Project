@@ -182,15 +182,6 @@ public class AddShop extends AdminCommand {
             }
         }
 
-        PacketSendUtility.sendMessage(player, " ");
-        PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
-        PacketSendUtility.sendMessage(player, "ID : " + Integer.toString(itemId));
-        PacketSendUtility.sendMessage(player, "Name : " + DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
-        PacketSendUtility.sendMessage(player, "Description : " + itemDesc);
-        PacketSendUtility.sendMessage(player, "Category : " + itemCategoryName);
-        PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
-        PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-
         if(DataManager.ITEM_DATA.getItemTemplate(itemId).getRace() == Race.ASMODIANS) {
             itemName = "[Asmo]" + DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
         } else if(DataManager.ITEM_DATA.getItemTemplate(itemId).getRace() == Race.ELYOS) {
@@ -198,6 +189,15 @@ public class AddShop extends AdminCommand {
         } else {
             itemName = DataManager.ITEM_DATA.getItemTemplate(itemId).getName();
         }
+
+        PacketSendUtility.sendMessage(player, " ");
+        PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
+        PacketSendUtility.sendMessage(player, "ID : " + Integer.toString(itemId));
+        PacketSendUtility.sendMessage(player, "Name : " + itemName);
+        PacketSendUtility.sendMessage(player, "Description : " + itemDesc);
+        PacketSendUtility.sendMessage(player, "Category : " + itemCategoryName);
+        PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
+        PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
 
         addShopDb(itemId, itemName, itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
 
