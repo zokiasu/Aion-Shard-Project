@@ -38,13 +38,14 @@ public class AddShop extends AdminCommand {
     @Override
     public void execute(Player player, String... params) {
 
-        if ((params.length < 0) || (params.length < 1)) {
+        if (params.length < 1) {
             onFail(player, null);
             return;
         }
 
         int itemId = 0;
         long itemCount = 1;
+        long itemPrice = 1;
         Player receiver;
 
         try {
@@ -59,8 +60,13 @@ public class AddShop extends AdminCommand {
                 }
 
                 if (params.length == 3) {
-                    itemCount = Long.parseLong(params[2]);
+                    itemPrice = Long.parseLong(params[2]);
                 }
+
+                if (params.length == 4) {
+                    itemCount = Long.parseLong(params[3]);
+                }
+
             } else {
                 Pattern id = Pattern.compile("\\[item:(\\d{9})");
                 Matcher result = id.matcher(item);
@@ -72,7 +78,11 @@ public class AddShop extends AdminCommand {
                 }
 
                 if (params.length == 2) {
-                    itemCount = Long.parseLong(params[1]);
+                    itemPrice = Long.parseLong(params[1]);
+                }
+
+                if (params.length == 3) {
+                    itemCount = Long.parseLong(params[2]);
                 }
             }
             receiver = player;
