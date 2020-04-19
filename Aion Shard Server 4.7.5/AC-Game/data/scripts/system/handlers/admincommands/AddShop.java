@@ -79,7 +79,8 @@ public class AddShop extends AdminCommand {
         List<ClientItem> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
-        String itemDesc, imagePath;
+        String itemDesc = "";
+        String imagePath = "";
 
         if(checkDesc) {
             for (int i = 0; i < stringList.size(); i++) {
