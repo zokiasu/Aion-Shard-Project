@@ -106,6 +106,9 @@ public class AddShop extends AdminCommand {
             case 9 :
                 itemCategoryName = "Housing";
                 break;
+            default:
+                onFail(player, null);
+                return;
         }
         int itemCount = 1;
         if(params.length == 4) {
@@ -197,7 +200,7 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "3 : Candy / 4 : Emotion Card-Motion Card / 5 : Pet");
         PacketSendUtility.sendMessage(player, "6 : Mount / 7 : Skin / 8 : Skill Skin");
         PacketSendUtility.sendMessage(player, "9 : Housing");
-        PacketSendUtility.sendMessage(player, "syntax //addShop <item Id> <item Price> <item Category> <item Count>");
+        PacketSendUtility.sendMessage(player, "syntax //addshop <item Id> <item Price> <item Category> <item Count>");
     }
 
     public List<Strings> RecupXmlDesc(String test) {
