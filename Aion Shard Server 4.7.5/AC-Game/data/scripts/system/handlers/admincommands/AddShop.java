@@ -210,7 +210,7 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public void addShopDb(int item_id, String item_name, String item_desc, int item_count, int item_price, Player player){
+    public void addShopDb(final int item_id, final String item_name, final String item_desc, final int item_count, final int item_price, Player player){
         try {
             /*final int item_id = item_id;
             final String item_name = item_name;
