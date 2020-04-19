@@ -172,7 +172,7 @@ public class AddShop extends AdminCommand {
         //Build Document
         Document document = null;
         try {
-            document = builder.parse(new File(test));
+            document = builder.parse(new File("./data/static_data/client_strings_item2.xml"));
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
