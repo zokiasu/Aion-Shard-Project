@@ -87,7 +87,47 @@ public class AddShop extends AdminCommand {
             }
             receiver = player;
         } catch (NumberFormatException e) {
-            //Todo
+            receiver = World.getInstance().findPlayer(Util.convertName(params[0]));
+            if (receiver == null) {
+                PacketSendUtility.sendMessage(player, "Could not find a player by that name.");
+                return;
+            }
+
+            try {
+                String item = params[1];
+                // Some item links have space before Id
+                if (item.equals("[item:")) {
+                    item = params[2];
+                    Pattern id = Pattern.compile("(\\d{9})");
+                    Matcher result = id.matcher(item);
+                    if (result.find()) {
+                        itemId = Integer.parseInt(result.group(1));
+                    }
+
+                    if (params.length == 4) {
+                        itemCount = Long.parseLong(params[3]);
+                    }
+                } else {
+                    Pattern id = Pattern.compile("\\[item:(\\d{9})");
+                    Matcher result = id.matcher(item);
+
+                    if (result.find()) {
+                        itemId = Integer.parseInt(result.group(1));
+                    } else {
+                        itemId = Integer.parseInt(params[1]);
+                    }
+
+                    if (params.length == 3) {
+                        itemCount = Long.parseLong(params[2]);
+                    }
+                }
+            } catch (NumberFormatException ex) {
+                PacketSendUtility.sendMessage(player, "You must give number to itemid.");
+                return;
+            } catch (Exception ex2) {
+                PacketSendUtility.sendMessage(player, "Occurs an error.");
+                return;
+            }
         }
 
         if (DataManager.ITEM_DATA.getItemTemplate(itemId) == null) {
