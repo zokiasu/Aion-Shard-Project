@@ -133,23 +133,24 @@ public class AddShop extends AdminCommand {
         boolean test = true;
         List<Strings> stringList = RecupXml("./data/static_data/client_strings_item.xml");
 
-        String tmp = "str_"+ DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc();
+        String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
 
         for(int i = 0; i < stringList.size(); i++){
             if(tmp.equalsIgnoreCase(stringList.get(i).getName())){
-                PacketSendUtility.sendMessage(player, "Ah que coucouA!");
+                PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                 test = false;
             }
             if(i == stringList.size()-1){
                 PacketSendUtility.sendMessage(player, "Ah que coucou1!");
             }
         }
+
         if(test) {
             stringList = RecupXml("./data/static_data/client_strings_item2.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    PacketSendUtility.sendMessage(player, "Ah que coucouB!");
+                    PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     test = false;
                 }
                 if (i == stringList.size() - 1) {
@@ -157,12 +158,13 @@ public class AddShop extends AdminCommand {
                 }
             }
         }
+
         if(test) {
             stringList = RecupXml("./data/static_data/client_strings_item3.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
-                    PacketSendUtility.sendMessage(player, "Ah que coucouC!");
+                    PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     test = false;
                 }
                 if (i == stringList.size() - 1) {
@@ -192,7 +194,7 @@ public class AddShop extends AdminCommand {
         //Build Document
         Document document = null;
         try {
-            document = builder.parse(new File("test"));
+            document = builder.parse(new File(test));
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
