@@ -89,6 +89,8 @@ public class CommandsConfig {
     @Property(key = "delete", defaultValue = "3")
     public static int DELETE;
     @Property(key = "delskill", defaultValue = "3")
+    public static int DELETESHOP;
+    @Property(key = "deleteshop", defaultValue = "3")
     public static int DELSKILL;
     @Property(key = "dispel", defaultValue = "3")
     public static int DISPELL;
