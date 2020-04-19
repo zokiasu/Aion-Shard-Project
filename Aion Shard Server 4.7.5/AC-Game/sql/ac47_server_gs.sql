@@ -888,10 +888,12 @@ CREATE TABLE IF NOT EXISTS `server_variables` (
 CREATE TABLE IF NOT EXISTS `shop` (
   `object_id` int(11) NOT NULL AUTO_INCREMENT,
   `item_id` int(11) NOT NULL,
-  `item_name` int(11) DEFAULT NULL,
-  `item_desc` int(11) DEFAULT NULL,
+  `item_name` varchar(255) NOT NULL,
+  `item_desc` varchar(255) DEFAULT NULL,
+  `item_category` varchar(255) NOT NULL,
   `item_count` bigint(13) NOT NULL DEFAULT '1',
-  `price` int(11) DEFAULT NULL,
+  `price` int(11) NOT NULL,
+  `item_image_path` varchar(255) NOT NULL,
   PRIMARY KEY (`object_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1102 DEFAULT CHARSET=utf8;
 

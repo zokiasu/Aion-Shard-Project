@@ -20,7 +20,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 
 import java.io.File;
 import java.io.IOException;
@@ -75,25 +74,30 @@ public class AddShop extends AdminCommand {
         }
 
         boolean checkDesc = true;
-        List<Strings> stringList = RecupXml("./data/static_data/client_strings_item.xml");
+        boolean checkImage = true;
+        List<Strings> stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item.xml");
+        List<Client_item> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
+        String itemDesc, imagePath;
 
-        for(int i = 0; i < stringList.size(); i++){
-            if(tmp.equalsIgnoreCase(stringList.get(i).getName())){
-                PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
-                PacketSendUtility.sendMessage(player, Integer.toString(itemId));
-                PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
-                PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
-                PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
-                PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice, player);
-                checkDesc = false;
+        if(checkDesc) {
+            for (int i = 0; i < stringList.size(); i++) {
+                if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
+                    PacketSendUtility.sendMessage(player, Integer.toString(itemId));
+                    PacketSendUtility.sendMessage(player, DataManager.ITEM_DATA.getItemTemplate(itemId).getName());
+                    PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
+                    PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
+                    PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                    itemDesc = stringList.get(i).getbody();
+                    checkDesc = false;
+                }
             }
         }
 
         if(checkDesc) {
-            stringList = RecupXml("./data/static_data/client_strings_item2.xml");
+            stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item2.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
@@ -103,14 +107,14 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                     PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice, player);
+                    itemDesc = stringList.get(i).getbody();
                     checkDesc = false;
                 }
             }
         }
 
         if(checkDesc) {
-            stringList = RecupXml("./data/static_data/client_strings_item3.xml");
+            stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item3.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
@@ -120,11 +124,33 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                     PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
-                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice, player);
+                    itemDesc = stringList.get(i).getbody();
                     checkDesc = false;
                 }
             }
         }
+
+        if(checkImage) {
+            for (int i = 0; i < imageList.size(); i++) {
+                if (DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                    PacketSendUtility.sendMessage(player, imageList.get(i).getIcon_name());
+                    imagePath = imageList.get(i).getIcon_name();
+                    checkImage = false;
+                }
+            }
+        }
+
+        if(checkImage) {
+            imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
+            for (int i = 0; i < imageList.size(); i++) {
+                if (DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                    imagePath = imageList.get(i).getIcon_name();
+                    checkImage = false;
+                }
+            }
+        }
+
+        addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), itemDesc, itemCount, itemPrice, imagePath, player);
 
     }
 
@@ -133,7 +159,7 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "syntax //addShop <item Id> <item Price> <item Count>");
     }
 
-    public List<Strings> RecupXml(String test) {
+    public List<Strings> RecupXmlDesc(String test) {
         List<Strings> stringList = new ArrayList<Strings>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -179,6 +205,58 @@ public class AddShop extends AdminCommand {
         return stringList;
     }
 
+    public static List<Client_item> RecupXmlIcon(String test) throws Exception  {
+        List<Client_item> stringList = new ArrayList<Client_item>();
+        //Get Docuemnt Builder
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = null;
+        try {
+            builder = factory.newDocumentBuilder();
+        } catch (ParserConfigurationException e) {
+            e.printStackTrace();
+        }
+
+        //Build Document
+        Document document = null;
+        try {
+            document = builder.parse(new File(test));
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //Normalize the XML Structure; It's just too important !!
+        document.getDocumentElement().normalize();
+
+        //Here comes the root node
+        Element root = document.getDocumentElement();
+        System.out.println(root.getNodeName());
+
+        //Get all employees
+        NodeList nList = document.getElementsByTagName("client_item");
+        System.out.println("============================");
+
+        for (int temp = 0; temp < nList.getLength(); temp++) {
+            Node node = nList.item(temp);
+            Client_item abc = new Client_item();
+            if (node.getNodeType() == Node.ELEMENT_NODE) {
+                //Print each employee's detail
+                Element eElement = (Element) node;
+                abc.setId(Integer.parseInt(eElement.getElementsByTagName("id").item(0).getTextContent()));
+                abc.setName(eElement.getElementsByTagName("name").item(0).getTextContent());
+                try {
+                    abc.setIcon_name(eElement.getElementsByTagName("icon_name").item(0).getTextContent());
+                } catch (Exception e) {
+
+                }
+            }
+            stringList.add(abc);
+        }
+
+        return stringList;
+    }
+
     public class Strings {
         private int Id;
         private java.lang.String name;
@@ -214,7 +292,42 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public void addShopDb(final int item_id, final String item_name, final String item_desc, final int item_count, final int item_price, Player player){
+    public class Client_item {
+        private int id;
+        private java.lang.String name;
+        private java.lang.String icon_name;
+
+        @Override
+        public java.lang.String toString() {
+            return "Strings [id=" + id + ", name=" + name + ", icon_name=" + icon_name + "]";
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public java.lang.String getName() {
+            return name;
+        }
+
+        public void setName(java.lang.String name) {
+            this.name = name;
+        }
+
+        public java.lang.String getIcon_name() {
+            return icon_name;
+        }
+
+        public void setIcon_name(java.lang.String icon_name) {
+            this.icon_name = icon_name;
+        }
+    }
+
+    public void addShopDb(final int item_id, final String item_name, final String item_desc, final int item_count, final int item_price, final String item_image_path, Player player){
         try {
             /*final int item_id = item_id;
             final String item_name = item_name;
@@ -222,7 +335,7 @@ public class AddShop extends AdminCommand {
             final int item_count = item_count;
             final int item_price = item_price;*/
 
-            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_count`, `price`)" + " VALUES " + "(?, ?, ?, ?, ?)", new IUStH() {
+            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?)", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
                     ps.setInt(1, item_id);
@@ -230,6 +343,7 @@ public class AddShop extends AdminCommand {
                     ps.setString(3, item_desc);
                     ps.setInt(4, item_count);
                     ps.setInt(5, item_price);
+                    ps.setString(6, item_image_path);
                     ps.execute();
                 }
             });
