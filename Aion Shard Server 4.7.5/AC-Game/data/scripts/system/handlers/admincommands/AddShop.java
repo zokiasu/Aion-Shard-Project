@@ -195,11 +195,11 @@ public class AddShop extends AdminCommand {
 
     public void addShopDb(int item_id, String item_name, String item_desc, int item_count, int item_price){
         try {
-            final int item_id = item_id;
+            /*final int item_id = item_id;
             final String item_name = item_name;
             final String item_desc = item_desc;
             final int item_count = item_count;
-            final int item_price = item_price;
+            final int item_price = item_price;*/
 
             DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_count`, `price`)" + " VALUES " + "(?, ?, ?, ?, ?)", new IUStH() {
                 @Override
