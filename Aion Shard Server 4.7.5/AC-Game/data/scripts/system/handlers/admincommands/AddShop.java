@@ -120,12 +120,13 @@ public class AddShop extends AdminCommand {
 
         boolean checkDesc = true;
         boolean checkImage = true;
-        List<Strings> stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item.xml");
-        List<ClientItem> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
+        List<Strings> stringList;
+        List<ClientItem> imageList;
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
 
         if(checkDesc && itemDesc.equals("")) {
+            stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item.xml");
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
                     itemDesc = stringList.get(i).getbody();
@@ -157,6 +158,7 @@ public class AddShop extends AdminCommand {
         }
 
         if(checkImage) {
+            imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml")
             for (int i = 0; i < imageList.size(); i++) {
                 if (DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
                     imagePath = imageList.get(i).getIcon_name();
