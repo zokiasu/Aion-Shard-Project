@@ -68,6 +68,7 @@ public class AddShop extends AdminCommand {
                 PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                 PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                 PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice);
                 checkDesc = false;
             }
         }
@@ -82,6 +83,7 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                     PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice);
                     checkDesc = false;
                 }
             }
@@ -97,6 +99,7 @@ public class AddShop extends AdminCommand {
                     PacketSendUtility.sendMessage(player, stringList.get(i).getbody());
                     PacketSendUtility.sendMessage(player, "Price : " + Integer.toString(itemPrice));
                     PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
+                    addShopDb(itemId, DataManager.ITEM_DATA.getItemTemplate(itemId).getName(), stringList.get(i).getbody(), itemCount, itemPrice);
                     checkDesc = false;
                 }
             }
@@ -187,6 +190,31 @@ public class AddShop extends AdminCommand {
 
         public void setbody(java.lang.String body) {
             this.body = body;
+        }
+    }
+
+    public void addShopDb(int item_id, String item_name, String item_desc, int item_count, int item_price){
+        try {
+            final int item_id = item_id;
+            final String item_name = item_name;
+            final String item_desc = item_desc;
+            final int item_count = item_count;
+            final int item_price = item_price;
+
+            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_count`, `price`)" + " VALUES " + "(?, ?, ?, ?, ?)", new IUStH() {
+                @Override
+                public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
+                    ps.setInt(1, item_id);
+                    ps.setString(2, item_name);
+                    ps.setString(3, item_desc);
+                    ps.setInt(4, item_count);
+                    ps.setInt(5, item_price);
+                    ps.execute();
+                }
+            });
+            PacketSendUtility.sendMessage(player, "Item successfully added");
+        } catch (Exception e) {
+            PacketSendUtility.sendMessage(player, "Item could not be added");
         }
     }
 }
