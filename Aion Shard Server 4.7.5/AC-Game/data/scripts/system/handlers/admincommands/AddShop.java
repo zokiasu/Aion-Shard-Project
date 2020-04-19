@@ -88,6 +88,20 @@ public class AddShop extends AdminCommand {
                 break;
             case 3 :
                 itemCategoryName = "Candy";
+
+                if(itemId == 160010344 || itemId == 160010342){
+                    itemDesc = "Take the form of an Ailu for 60m and increases Physical Attack% by 3, Accuracy% by 60, Atk Speed% by 4%, Casting Speed% by 4%, and Speed% by 4%.";
+                } else if (itemId == 160010345 || itemId == 160010343) {
+                    itemDesc = "Take the form of an Ailu for 60m and increases Magic Boost% by 15, Magical Acc% by 60, Atk Speed% by 4%, Casting Speed% by 4%, and Speed% by 4%.";
+                } else if (itemId == 160010177 || itemId == 160010179 || itemId == 160010181
+                        || itemId == 160010183 || itemId == 160010185 || itemId == 160010176
+                        || itemId == 160010178 || itemId == 160010180 || itemId == 160010182 || itemId == 160010184) {
+                    itemDesc = "You transform into an Inquin that can use skills for 60 minutes. Meanwhile, your Physical Attack increases by 3 points, Maximum HP increases by 220 points, Atk Speed increases by 3%, and Speed increases by 3%.";
+                } else if (itemId == 160010187 || itemId == 160010189 || itemId == 160010191
+                        || itemId == 160010193 || itemId == 160010195 || itemId == 160010186
+                        || itemId == 160010188 || itemId == 160010190 || itemId == 160010192 || itemId == 160010194) {
+                    itemDesc = "You transform into an Inquin that can use skills for 60 minutes. Meanwhile, your Magic Boost increases by 15 points, Maximum HP increases by 220 points, Casting Speed increases by 3%, and Speed increases by 3%.";
+                }
                 break;
             case 4 :
                 itemCategoryName = "Emotion Card/Motion Card";
