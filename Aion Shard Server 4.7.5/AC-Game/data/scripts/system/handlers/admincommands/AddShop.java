@@ -38,14 +38,19 @@ public class AddShop extends AdminCommand {
     @Override
     public void execute(Player player, String... params) {
 
-        if (params.length < 1) {
+        if (params.length < 2) {
             onFail(player, null);
             return;
         }
 
         int itemId = Integer.parseInt(params[0]);
         int itemPrice = Integer.parseInt(params[1]);
-        int itemCount = Integer.parseInt(params[2]);
+        if(params.length == 3) {
+            int itemCount = Integer.parseInt(params[2]);
+        } else {
+            int itemCount = 1;
+        }
+
 
         if (DataManager.ITEM_DATA.getItemTemplate(itemId) == null) {
             PacketSendUtility.sendMessage(player, "Item id is incorrect: " + itemId);
@@ -102,7 +107,7 @@ public class AddShop extends AdminCommand {
 
     @Override
     public void onFail(Player player, String message) {
-        PacketSendUtility.sendMessage(player, "syntax //addShop <item Id>");
+        PacketSendUtility.sendMessage(player, "syntax //addShop <item Id> <item Price> <item Count>");
     }
 
     public List<Strings> RecupXml(String test) {

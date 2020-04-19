@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Hôte :                        127.0.0.1
--- Version du serveur:           5.6.47-log - MySQL Community Server (GPL)
+-- Version du serveur:           5.6.28-log - MySQL Community Server (GPL)
 -- SE du serveur:                Win64
 -- HeidiSQL Version:             11.0.0.5919
 -- --------------------------------------------------------
@@ -13,7 +13,7 @@
 
 
 -- Listage de la structure de la base pour ac47_server_gs
-CREATE DATABASE IF NOT EXISTS `ac47_server_gs` /*!40100 DEFAULT CHARACTER SET armscii8 COLLATE armscii8_bin */;
+CREATE DATABASE IF NOT EXISTS `ac47_server_gs` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `ac47_server_gs`;
 
 -- Listage de la structure de la table ac47_server_gs. abyss_rank
@@ -422,18 +422,6 @@ CREATE TABLE IF NOT EXISTS `mail` (
   KEY `mail_recipient_id` (`mail_recipient_id`),
   CONSTRAINT `FK_mail` FOREIGN KEY (`mail_recipient_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- Les données exportées n'étaient pas sélectionnées.
-
--- Listage de la structure de la table ac47_server_gs. myshop
-CREATE TABLE IF NOT EXISTS `myshop` (
-  `object_id` int(11) NOT NULL AUTO_INCREMENT,
-  `item_id` int(11) NOT NULL,
-  `item_count` bigint(13) NOT NULL DEFAULT '0',
-  `player_name` varchar(50) NOT NULL,
-  `test` int(11) NOT NULL DEFAULT '974',
-  PRIMARY KEY (`object_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1102 DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -893,6 +881,19 @@ CREATE TABLE IF NOT EXISTS `server_variables` (
   `value` varchar(30) NOT NULL,
   PRIMARY KEY (`key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- Les données exportées n'étaient pas sélectionnées.
+
+-- Listage de la structure de la table ac47_server_gs. shop
+CREATE TABLE IF NOT EXISTS `shop` (
+  `object_id` int(11) NOT NULL AUTO_INCREMENT,
+  `item_id` int(11) NOT NULL,
+  `item_name` int(11) DEFAULT NULL,
+  `item_desc` int(11) DEFAULT NULL,
+  `item_count` bigint(13) NOT NULL DEFAULT '1',
+  `price` int(11) DEFAULT NULL,
+  PRIMARY KEY (`object_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1102 DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
