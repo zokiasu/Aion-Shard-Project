@@ -205,7 +205,7 @@ public class AddShop extends AdminCommand {
         return stringList;
     }
 
-    public static List<Client_item> RecupXmlIcon(String test) throws Exception  {
+    public static List<Client_item> RecupXmlIcon(String test) {
         List<Client_item> stringList = new ArrayList<Client_item>();
         //Get Docuemnt Builder
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -329,11 +329,6 @@ public class AddShop extends AdminCommand {
 
     public void addShopDb(final int item_id, final String item_name, final String item_desc, final int item_count, final int item_price, final String item_image_path, Player player){
         try {
-            /*final int item_id = item_id;
-            final String item_name = item_name;
-            final String item_desc = item_desc;
-            final int item_count = item_count;
-            final int item_price = item_price;*/
 
             DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?)", new IUStH() {
                 @Override
