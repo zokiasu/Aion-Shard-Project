@@ -45,10 +45,9 @@ public class AddShop extends AdminCommand {
 
         int itemId = Integer.parseInt(params[0]);
         int itemPrice = Integer.parseInt(params[1]);
+        int itemCount = 1;
         if(params.length == 3) {
-            int itemCount = Integer.parseInt(params[2]);
-        } else {
-            int itemCount = 1;
+            itemCount = Integer.parseInt(params[2]);
         }
 
 
