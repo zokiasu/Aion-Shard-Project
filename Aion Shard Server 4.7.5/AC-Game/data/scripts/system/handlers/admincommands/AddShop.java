@@ -63,6 +63,9 @@ public class AddShop extends AdminCommand {
         int itemPrice = Integer.parseInt(params[1]);
         int itemCategory = Integer.parseInt(params[2]);
         String itemCategoryName = "";
+        String itemDesc = "";
+        String imagePath = "";
+
         switch (itemCategory){
             case 0 :
                 itemCategoryName = "Boost";
@@ -84,6 +87,9 @@ public class AddShop extends AdminCommand {
                 break;
             case 6 :
                 itemCategoryName = "Mount";
+                itemDesc = "The mounts are personalized and have all the same.\n" +
+                           "Move Speed 13 |  Fly Speed 16 | Sprint Speed 15,2\n" +
+                           "Cost Flight Point 6";
                 break;
             case 7 :
                 itemCategoryName = "Skin";
@@ -112,10 +118,8 @@ public class AddShop extends AdminCommand {
         List<ClientItem> imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
 
         String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(itemId).getNamedesc() + "_desc";
-        String itemDesc = "";
-        String imagePath = "";
 
-        if(checkDesc) {
+        if(checkDesc && !itemCategoryName.equals("Mount")) {
             for (int i = 0; i < stringList.size(); i++) {
                 if (tmp.equalsIgnoreCase(stringList.get(i).getName())) {
                     PacketSendUtility.sendMessage(player, "You have added the following item to the shop :");
@@ -130,7 +134,7 @@ public class AddShop extends AdminCommand {
             }
         }
 
-        if(checkDesc) {
+        if(checkDesc && !itemCategoryName.equals("Mount")) {
             stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item2.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
@@ -147,7 +151,7 @@ public class AddShop extends AdminCommand {
             }
         }
 
-        if(checkDesc) {
+        if(checkDesc && !itemCategoryName.equals("Mount")) {
             stringList = RecupXmlDesc("./data/static_data/client_info/client_strings_item3.xml");
 
             for (int i = 0; i < stringList.size(); i++) {
@@ -369,16 +373,16 @@ public class AddShop extends AdminCommand {
     public void addShopDb(final int item_id, final String item_name, final String item_desc, final String item_category, final int item_count, final int item_price, final String item_image_path, Player player){
         try {
 
-            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_caegory`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?, ?)", new IUStH() {
+            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_category`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?, ?)", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
                     ps.setInt(1, item_id);
                     ps.setString(2, item_name);
                     ps.setString(3, item_desc);
                     ps.setString(4, item_category);
-                    ps.setInt(4, item_count);
-                    ps.setInt(5, item_price);
-                    ps.setString(6, item_image_path);
+                    ps.setInt(5, item_count);
+                    ps.setInt(6, item_price);
+                    ps.setString(7, item_image_path);
                     ps.execute();
                 }
             });
