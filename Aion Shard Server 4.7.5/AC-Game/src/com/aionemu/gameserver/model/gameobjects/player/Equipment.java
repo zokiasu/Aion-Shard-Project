@@ -145,10 +145,10 @@ public class Equipment {
                 return null;
             }
 
-            if (!verifyRankLimits(item)) {
+            /*if (!verifyRankLimits(item)) {
                 PacketSendUtility.sendPacket(owner, SM_SYSTEM_MESSAGE.STR_CANNOT_USE_ITEM_INVALID_RANK(AbyssRankEnum.getRankById(limits.getMinRank()).getDescriptionId()));
                 return null;
-            }
+            }*/
         }
 
         long itemSlotToEquip = 0;
