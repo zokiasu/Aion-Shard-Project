@@ -65,7 +65,7 @@ public class MySQL5WebshopDAO extends WebshopDAO {
 	
     @Override
     public void setWebshop(final String done, final int id) {
-        DB.insertUpdate("UPDATE webshop SET  send=? WHERE id=?", new IUStH() {
+        DB.insertUpdate("UPDATE webshop SET send=? WHERE id=?", new IUStH() {
             @Override
             public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
                 preparedStatement.setString(1, done);

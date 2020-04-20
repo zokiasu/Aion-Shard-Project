@@ -3275,7 +3275,7 @@
         </message>
         <select>I feel the power already!</select>
 		<!-- Noble Ophidan Weapon -->
-		<survey itemId="101801005" count="1"/> <!-- Gun -->
+		<survey itemId="101801007" count="1"/> <!-- Gun -->
 		<survey itemId="102100810" count="2"/> <!-- Clé -->
         <!-- Officer Armor -->
         <survey itemId="110550986" count="1"/> <!-- Torse -->
@@ -3752,7 +3752,7 @@
         </message>
         <select>I feel the power already!</select>
 		<!-- Noble Ophidan Weapon -->
-		<survey itemId="101801005" count="1"/> <!-- Gun -->
+		<survey itemId="101801007" count="1"/> <!-- Gun -->
 		<survey itemId="102100810" count="2"/> <!-- Clé -->
         <!-- Officer Armor -->
         <survey itemId="110550986" count="1"/> <!-- Torse -->

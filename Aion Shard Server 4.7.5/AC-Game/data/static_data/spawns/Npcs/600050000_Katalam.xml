@@ -513,8 +513,8 @@
             <spot x="1248.6577" y="917.59094" z="136.24884" h="50"/>
             <spot x="1301.5685" y="1035.5076" z="136.18622" h="50"/>
         </spawn>
-        <!-- Belmar -->
-        <spawn npc_id="801386" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="798717" respawn_time="295">
             <spot x="396.8303" y="446.71423" z="280.0233" h="23"/>
         </spawn>
         <!-- Benvolio -->
@@ -3094,8 +3094,8 @@
         <spawn npc_id="800602" respawn_time="295">
             <spot x="334.01498" y="392.85803" z="274.22433" h="67"/>
         </spawn>
-        <!-- Kenais -->
-        <spawn npc_id="801455" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="804674" respawn_time="295">
             <spot x="340.9134" y="2773.391" z="140.57265" h="10"/>
         </spawn>
         <!-- Kerub Digger -->
@@ -3129,8 +3129,8 @@
             <spot x="2424.7336" y="2869.0847" z="227.86638" h="93"/>
             <spot x="2431.04" y="2865.6619" z="231.17645" h="73"/>
         </spawn>
-        <!-- Kiyar -->
-        <spawn npc_id="801387" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="804194" respawn_time="295">
             <spot x="400.74164" y="456.6651" z="280.0233" h="83"/>
         </spawn>
         <!-- Kilros -->
@@ -4106,8 +4106,8 @@
         <spawn npc_id="800579" respawn_time="295">
             <spot x="430.32565" y="2633.3198" z="146.125" h="100"/>
         </spawn>
-        <!-- Notus -->
-        <spawn npc_id="801452" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="798714" respawn_time="295">
             <spot x="354.3142" y="2774.8623" z="140.57265" h="40"/>
         </spawn>
         <!-- Novun Guardian -->
@@ -4261,8 +4261,8 @@
             <spot x="167.34412" y="1107.0455" z="209.26663" h="10"/>
             <spot x="170.06403" y="1100.3767" z="209.57391" h="10"/>
         </spawn>
-        <!-- Orangus -->
-        <spawn npc_id="801453" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="804673" respawn_time="295">
             <spot x="343.1133" y="2780.6016" z="140.57265" h="100"/>
         </spawn>
         <spawn npc_id="701754" respawn_time="295">
@@ -5587,8 +5587,8 @@
             <spot x="1098.756" y="361.8994" z="184.64386"/>
             <spot x="1099.6005" y="358.7561" z="184.81955"/>
         </spawn>
-        <!-- Seneta -->
-        <spawn npc_id="801454" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="804184" respawn_time="295">
             <spot x="348.32617" y="2771.5432" z="140.57265" h="40"/>
         </spawn>
         <!-- Senior Tribunus Stellman -->
@@ -6108,8 +6108,8 @@
             <spot x="1341.6761" y="1901.9036" z="64.72157" h="105"/>
             <spot x="1353.4182" y="1915.7113" z="64.23168" h="90"/>
         </spawn>
-        <!-- Skad -->
-        <spawn npc_id="801388" respawn_time="295">
+        <!-- ??? -->
+        <spawn npc_id="804676" respawn_time="295">
             <spot x="394.36813" y="459.11407" z="280.0233" h="83"/>
         </spawn>
         <!-- Skilros -->
@@ -6945,7 +6945,7 @@
             <spot x="1423.3297" y="1273.6119" z="111.17351" h="27"/>
         </spawn>
         <!-- Tiav -->
-        <spawn npc_id="801389" respawn_time="295">
+        <spawn npc_id="804675" respawn_time="295">
             <spot x="403.79355" y="449.41736" z="280.0233" h="53"/>
         </spawn>
         <!-- Tired Mukuki Laborer -->
@@ -7512,16 +7512,16 @@
 			<spot h="41" x="1288.63" y="2136.85" z="65.24" />
 			<spot h="41" x="1299.49" y="2019.89" z="75.35" />
 		</spawn>
-	   <!-- Verintos -->	
-		<spawn respawn_time="295" npc_id="802057">
+	   <!-- Verintos -->
+		<spawn respawn_time="295" npc_id="798716">
 			<spot h="66" x="404.937" y="454.4247" z="280.0233"/>
 		</spawn>
 	   <!-- Nesfir
 		<spawn respawn_time="295" npc_id="832737">
 			<spot h="76" x="365.61" y="352.52" z="273.625"/>
 		</spawn> -->
-	    <!-- Heraenia -->	
-		<spawn respawn_time="295" npc_id="802056">
+	    <!-- ??? -->
+		<spawn respawn_time="295" npc_id="798714">
 			<spot h="23" x="343.75345" y="2769.7837" z="140.57266"/>
 		</spawn>
 	    <!-- Castarus -->	

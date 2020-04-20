@@ -60,6 +60,24 @@ public class cmd_remodel extends PlayerCommand {
 
         if (params.length == 1) { // Use target
             int itemId = Integer.parseInt(params[0]);
+
+            if(itemId == 100000999 || itemId == 100000997 || itemId == 100000998 || itemId == 100001167
+              || itemId == 100001168  || itemId == 100000027  || itemId == 100000564  || itemId == 100001275
+              || itemId == 100901365  || itemId == 100901364  || itemId == 100900806  || itemId == 100901182
+              || itemId == 100900999  || itemId == 101301257  || itemId == 101301256  || itemId == 100000665
+              || itemId == 100900727  || itemId == 100900594  || itemId == 100900618  || itemId == 100901140
+              || itemId == 100000037  || itemId == 100001176  || itemId == 100000592  || itemId == 100000038
+              || itemId == 100000039  || itemId == 100001309  || itemId == 101300532  || itemId == 101501303
+              || itemId == 101501215  || itemId == 100901205  || itemId == 101501194  || itemId == 101501105
+              || itemId == 101501104  || itemId == 101501103  || itemId == 101501096  || itemId == 101500763
+              || itemId == 101500762  || itemId == 101500632  || itemId == 101500631  || itemId == 101500595
+              || itemId == 100900281  || itemId == 100900594  || itemId == 100900805  || itemId == 100001727
+              || itemId == 101500588  || itemId == 100901203  || itemId == 100900205  || itemId == 100901204
+              || itemId == 100901304  || itemId == 101801015  || itemId == 100501011) {
+                PacketSendUtility.sendMessage(admin, "Item id is incorrect: " + itemId);
+                return;
+            }
+
             if (DataManager.ITEM_DATA.getItemTemplate(itemId) == null) {
                 PacketSendUtility.sendMessage(admin, "Item id is incorrect: " + itemId);
                 return;

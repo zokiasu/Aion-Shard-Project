@@ -83,7 +83,7 @@ public class WebshopService {
 						}
 					}
 				}
-			}, 2 * 60000, 2 * 60000);
+			}, 30000, 30000);
 		} else {
 			log.info("Webshop service disable");	
 		}
