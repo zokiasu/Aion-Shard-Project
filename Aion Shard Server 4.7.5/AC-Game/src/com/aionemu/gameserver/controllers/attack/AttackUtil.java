@@ -162,6 +162,17 @@ public class AttackUtil {
     }
 
     /**
+     * [Critical]
+     * Spear : x1.5
+     * Sword : x2.5
+     * Dagger : x2.3
+     * Mace : x2.0
+     * Greatsword : x1.5
+     * Orb : x2.0
+     * Spellbook : x2.0
+     * Bow : x1.4
+     * Staff : x1.5
+     *
      * @param damages
      * @param weaponType
      * @return
@@ -297,9 +308,9 @@ public class AttackUtil {
             switch (randomDamage) {
                 case 1:
                     if (randomChance <= 40) {
-                        damage /= 1.6;
+                        damage /= 1.35;
                     } else if (randomChance <= 70) {
-                        damage *= 1.3;
+                        damage *= 1.1;
                     }
                     break;
                 case 2:
@@ -309,7 +320,7 @@ public class AttackUtil {
                     break;
                 case 6:
                     if (randomChance <= 30) {
-                        damage *= 7;
+                        damage *= 1.5;
                     }
                     break;
                 // TODO rest of the cases
@@ -318,7 +329,8 @@ public class AttackUtil {
                      * chance to do from 50% to 200% damage This must NOT be calculated after critical status check, or it will be
                      * over powered and not retail
                      */
-                    damage *= (Rnd.get(1, 100) * 0.02f);
+                    damage *= (Rnd.get(1, 50) * 0.02f);
+                    //damage *= (Rnd.get(1, 100) * 0.02f);
                     break;
             }
         }
@@ -628,16 +640,14 @@ public class AttackUtil {
         return calculatePhysicalStatus(attacker, attacked, isMainHand, 0, 100, false, false);
     }
 
-    public static AttackStatus calculatePhysicalStatus(Creature attacker, Creature attacked, boolean isMainHand,
-                                                       int accMod, int criticalProb, boolean isSkill, boolean cannotMiss) {
+    public static AttackStatus calculatePhysicalStatus(Creature attacker, Creature attacked, boolean isMainHand, int accMod, int criticalProb, boolean isSkill, boolean cannotMiss) {
         AttackStatus status = AttackStatus.NORMALHIT;
         if (!isMainHand) {
             status = AttackStatus.OFFHAND_NORMALHIT;
         }
 
         if (!cannotMiss) {
-            if (attacked instanceof Player && ((Player) attacked).getEquipment().isShieldEquipped()
-                    && StatFunctions.calculatePhysicalBlockRate(attacker, attacked))//TODO accMod
+            if (attacked instanceof Player && ((Player) attacked).getEquipment().isShieldEquipped() && StatFunctions.calculatePhysicalBlockRate(attacker, attacked))//TODO accMod
             {
                 status = AttackStatus.BLOCK;
             } // Parry can only be done with weapon, also weapon can have humanoid mobs,
