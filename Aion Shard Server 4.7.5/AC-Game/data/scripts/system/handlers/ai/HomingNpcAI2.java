@@ -50,7 +50,12 @@ public class HomingNpcAI2 extends GeneralNpcAI2 {
 
     @Override
     public AttackIntention chooseAttackIntention() {
-        // TODO skill type homings
+        NpcSkillEntry skill = SkillAttackManager.chooseNextSkill(this);
+        if (skill != null) {
+            skillId = skill.getSkillId();
+            skillLevel = skill.getSkillLevel();
+            return AttackIntention.SKILL_ATTACK;
+        }
         return AttackIntention.SIMPLE_ATTACK;
     }
 

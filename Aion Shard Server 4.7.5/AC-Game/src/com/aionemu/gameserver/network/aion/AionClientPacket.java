@@ -74,9 +74,9 @@ public abstract class AionClientPacket extends BaseClientPacket<AionConnection> 
         State state = getConnection().getState();
         boolean valid = validStates.contains(state);
 
-        if (!valid) {
+        /*if (!valid) {
             log.info(this + " wont be processed cuz its valid state don't match current connection state: " + state);
-        }
+        }*/
         return valid;
     }       
     

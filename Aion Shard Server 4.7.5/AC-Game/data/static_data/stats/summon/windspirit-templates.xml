@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<summon_stats_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        xsi:noNamespaceSchemaLocation="../stats.xsd">
+<summon_stats_templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../stats.xsd">
     <summon_stats npc_id_light="201012" npc_id_dark="201013" level="13">
         <stats_template maxHp="774" evasion="484" parry="0" main_hand_attack="96" main_hand_accuracy="508"
                         main_hand_crit_rate="80" magic_accuracy="261" pdefense="195" mresist="305" mcrit="18">

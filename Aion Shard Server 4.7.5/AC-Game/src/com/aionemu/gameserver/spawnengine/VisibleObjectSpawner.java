@@ -434,8 +434,7 @@ public class VisibleObjectSpawner {
      * @param attackCount
      * @return
      */
-    public static Homing spawnHoming(SpawnTemplate spawn, int instanceIndex, Creature creator, int attackCount,
-                                     int skillId, int level, int homingSkillId) {
+    public static Homing spawnHoming(SpawnTemplate spawn, int instanceIndex, Creature creator, int attackCount, int skillId, int level, int homingSkillId) {
         int objectId = spawn.getNpcId();
         NpcTemplate npcTemplate = DataManager.NPC_DATA.getNpcTemplate(objectId);
         int creatureLevel = creator.getLevel();
