@@ -171,7 +171,7 @@ public class AttackUtil {
     }
 
     private static float calculateWeaponCritical(Creature attacked, float damages, WeaponType weaponType, int critAddDmg, StatEnum stat) {
-        float coeficient = 2f;
+        float coeficient = 1.5f;
 
         if (weaponType != null) {
             switch (weaponType) {
@@ -297,19 +297,19 @@ public class AttackUtil {
             switch (randomDamage) {
                 case 1:
                     if (randomChance <= 40) {
-                        damage /= 2;
+                        damage /= 1.6;
                     } else if (randomChance <= 70) {
-                        damage *= 1.5;
+                        damage *= 1.3;
                     }
                     break;
                 case 2:
                     if (randomChance <= 25) {
-                        damage *= 3;
+                        damage *= 2;
                     }
                     break;
                 case 6:
                     if (randomChance <= 30) {
-                        damage *= 2;
+                        damage *= 7;
                     }
                     break;
                 // TODO rest of the cases
@@ -318,7 +318,7 @@ public class AttackUtil {
                      * chance to do from 50% to 200% damage This must NOT be calculated after critical status check, or it will be
                      * over powered and not retail
                      */
-                    damage *= (Rnd.get(25, 100) * 0.02f);
+                    damage *= (Rnd.get(1, 100) * 0.02f);
                     break;
             }
         }
@@ -437,7 +437,7 @@ public class AttackUtil {
         }
 
         // adjusting baseDamages according to attacker and target level
-        damage = (int) StatFunctions.adjustDamages(attacker, attacked, damage, 0, false);
+        damage = (int) StatFunctions.adjustDamages(attacker, attacked, damage, 1, false);
 
         if (damage <= 0) {
             damage = 1;
@@ -523,8 +523,7 @@ public class AttackUtil {
         //TODO is damage multiplier used on dot?
         float damageMultiplier = effector.getObserveController().getBaseMagicalDamageMultiplier();
 
-        int damage = Math.round(StatFunctions.calculateMagicalSkillDamage(effect.getEffector(), effect.getEffected(), skillDamage,
-                0, element, useMagicBoost, false, false, effect.getSkillTemplate().getPvpDamage()) * damageMultiplier);
+        int damage = Math.round(StatFunctions.calculateMagicalSkillDamage(effect.getEffector(), effect.getEffected(), skillDamage,0, element, useMagicBoost, false, false, effect.getSkillTemplate().getPvpDamage()) * damageMultiplier);
 
         AttackStatus status = effect.getAttackStatus();
         // calculate attack status only if it has not been forced already
@@ -800,6 +799,7 @@ public class AttackUtil {
                     break;
                 case BOW:
                     skillId = 8217;
+                    break;
             }
         }
 
