@@ -32,9 +32,11 @@ package ai;
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.AttackIntention;
 import com.aionemu.gameserver.ai2.manager.AttackManager;
+import com.aionemu.gameserver.ai2.manager.SkillAttackManager;
 import com.aionemu.gameserver.ai2.poll.AIAnswer;
 import com.aionemu.gameserver.ai2.poll.AIAnswers;
 import com.aionemu.gameserver.ai2.poll.AIQuestion;
+import com.aionemu.gameserver.model.skill.NpcSkillEntry;
 import com.aionemu.gameserver.model.gameobjects.Homing;
 
 /**
