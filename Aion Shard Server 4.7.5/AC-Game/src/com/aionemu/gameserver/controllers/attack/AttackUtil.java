@@ -308,7 +308,7 @@ public class AttackUtil {
             switch (randomDamage) {
                 case 1:
                     if (randomChance <= 40) {
-                        damage /= 1.35;
+                        damage /= 2;
                     } else if (randomChance <= 70) {
                         damage *= 1.1;
                     }
