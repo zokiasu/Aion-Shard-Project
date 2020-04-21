@@ -53,7 +53,7 @@ public class HomingNpcAI2 extends GeneralNpcAI2 {
     @Override
     public AttackIntention chooseAttackIntention() {
         NpcSkillEntry skill = SkillAttackManager.chooseNextSkill(this);
-        if (skill != null) {
+        if (skill.getSkillId() != 0) {
             skillId = skill.getSkillId();
             skillLevel = skill.getSkillLevel();
             return AttackIntention.SKILL_ATTACK;
