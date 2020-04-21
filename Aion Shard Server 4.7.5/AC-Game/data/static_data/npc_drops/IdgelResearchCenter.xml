@@ -13,4 +13,11 @@
             <drop item_id="185000171" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Research Center Key -->
         </drop_group>
     </npc_drop>
+    <!-- Test Apparatus Storage -->
+    <npc_drop npc_id="230100">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
 </npc_drops>

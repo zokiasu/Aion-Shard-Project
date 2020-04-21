@@ -54,27 +54,15 @@
             <spot x="642.23065" y="481.4402" z="102.649895" h="13" static_id="23"/>
             <spot x="590.05365" y="481.6961" z="102.75874" h="24" static_id="25"/>
         </spawn>
-        <!-- Seal Siege Cannon
-        <spawn npc_id="700642">
-            <spot x="642.5346" y="506.89136" z="102.523834" h="81"/>
-        </spawn> -->
         <!-- Experiment Report -->
         <spawn npc_id="701892">
             <spot x="603.1693" y="419.3058" z="97.22941" h="45"/>
-        </spawn>
-        <!-- Dropped Backpack -->
-        <spawn npc_id="701893">
-            <spot x="602.6769" y="474.10983" z="105.89369" h="62"/>
         </spawn>
         <!-- Skill Neutralisation Manual -->
         <spawn npc_id="701894">
             <spot x="644.84766" y="474.95914" z="103.48617" static_id="124"/>
             <spot x="557.5578" y="442.97116" z="103.45373" static_id="125"/>
             <spot x="496.33978" y="459.04572" z="103.53967" static_id="126"/>
-        </spawn>
-        <!-- Research Center Epitaph -->
-        <spawn npc_id="701895">
-            <spot x="544.99536" y="489.5253" z="102.98142" h="91"/>
         </spawn>
         <!-- Doors -->
         <spawn npc_id="730718">

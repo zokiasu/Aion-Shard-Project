@@ -1732,9 +1732,10 @@ public class Player extends Creature {
         long time = System.currentTimeMillis();
         if (AttackStatus.getBaseStatus(status) == AttackStatus.DODGE && PlayerClass.getStartingClassFor(getPlayerClass()) == PlayerClass.SCOUT) {
             this.lastCounterSkill.put(AttackStatus.DODGE, time);
-        } else if (AttackStatus.getBaseStatus(status) == AttackStatus.PARRY
-                && (getPlayerClass() == PlayerClass.GLADIATOR || getPlayerClass() == PlayerClass.CHANTER)) {
+        } else if (AttackStatus.getBaseStatus(status) == AttackStatus.PARRY && (getPlayerClass() == PlayerClass.GLADIATOR || getPlayerClass() == PlayerClass.CHANTER)) {
             this.lastCounterSkill.put(AttackStatus.PARRY, time);
+        } else if (AttackStatus.getBaseStatus(status) == AttackStatus.RESIST && (getPlayerClass() == PlayerClass.RIDER)) {
+            this.lastCounterSkill.put(AttackStatus.RESIST, time);
         } else if (AttackStatus.getBaseStatus(status) == AttackStatus.BLOCK
                 && PlayerClass.getStartingClassFor(getPlayerClass()) == PlayerClass.WARRIOR) {
             this.lastCounterSkill.put(AttackStatus.BLOCK, time);

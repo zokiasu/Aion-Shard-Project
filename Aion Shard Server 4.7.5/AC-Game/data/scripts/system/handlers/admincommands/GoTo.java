@@ -677,6 +677,8 @@ public class GoTo extends AdminCommand {
             goTo(player, 301050000, 713, 462, 1015);
         } else if (destination.equalsIgnoreCase("reliquary") || destination.equalsIgnoreCase("Danuar Reliquary")) {
             goTo(player, 301110000, 256, 257, 241);
+        } else if (destination.equalsIgnoreCase("reliquary infernal") || destination.equalsIgnoreCase("Danuar Reliquary Infernal")) {
+            goTo(player, 301110000, 256, 257, 241);
         } else if (destination.equalsIgnoreCase("kamar") || destination.equalsIgnoreCase("Kamar Battlefield")) {
             goTo(player, 301120000, 1374, 1455, 600);
         } else if (destination.equalsIgnoreCase("sauro") || destination.equalsIgnoreCase("Sauro Supply Base")) {

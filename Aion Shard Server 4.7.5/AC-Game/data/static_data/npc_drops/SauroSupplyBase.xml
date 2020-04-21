@@ -25,4 +25,67 @@
             <drop item_id="166000193" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
     </npc_drop>
+    <!-- Guard Captain Rohuka -->
+    <npc_drop npc_id="230849">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Chief Gunner Kurmata -->
+    <npc_drop npc_id="230851">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Derakanak the Reaver -->
+    <npc_drop npc_id="233258">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Researcher Teselik -->
+    <npc_drop npc_id="230850">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Commander Ranodim -->
+    <npc_drop npc_id="230852">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Darkblade Ovanuka -->
+    <npc_drop npc_id="233256">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Archmagus Sayahum -->
+    <npc_drop npc_id="233257">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Chief of Staff Moriata -->
+    <npc_drop npc_id="230853">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
+    <!-- Brigade General Sheba -->
+    <npc_drop npc_id="230858">
+        <drop_group name="MANASTONE" use_category="false" race="PC_ALL">
+            <drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 60 Blue -->
+            <drop item_id="188052201" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Manastone 70 Blue -->
+        </drop_group>
+    </npc_drop>
 </npc_drops>
