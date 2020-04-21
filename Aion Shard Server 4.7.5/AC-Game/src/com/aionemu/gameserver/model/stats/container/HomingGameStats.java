@@ -52,7 +52,7 @@ public class HomingGameStats extends SummonedObjectGameStats {
         }
         switch (statEnum) {
             case MAGICAL_ATTACK:
-                stat.setBonusRate(1.0f);
+                stat.setBonusRate(0.2f);
                 return owner.getMaster().getGameStats().getItemStatBoost(statEnum, stat);
             default:
                 break;
