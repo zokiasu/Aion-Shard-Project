@@ -1145,7 +1145,7 @@
     <!-- CAMP KATALAM/DANARIA TELEPORTER  -->
     <!-- 73. Camp Elyos To Idian Depths (Elyos Base Camp) -->
     <portal_use npc_id="801791">
-        <portal_path loc_id="6000708" siege_id="5011" race="ELYOS"/>
+        <portal_path loc_id="6000707" siege_id="5011" race="ELYOS"/>
     </portal_use>
     <!-- 73. Camp Asmodians To Idian Depths (Asmodians Base Camp) -->
     <portal_use npc_id="801792">
@@ -1157,7 +1157,7 @@
     </portal_use>
     <!-- 74. Camp Asmodians To Idian Depths (Asmodians Base Camp) -->
     <portal_use npc_id="801794">
-        <portal_path loc_id="6000707" race="ASMODIANS"/>
+        <portal_path loc_id="6000708" race="ASMODIANS"/>
     </portal_use>
     <!-- 75. Camp Elyos To Idian Depths (Elyos Base Camp) -->
     <portal_use npc_id="801795">
@@ -1169,19 +1169,19 @@
     </portal_use>
     <!-- Camp Elyos To Idian Depths (Elyos Base Camp) -->
     <portal_use npc_id="801797">
-        <portal_path loc_id="6000701" siege_id="6021" race="ELYOS"/>
+        <portal_path loc_id="6000700" siege_id="6021" race="ELYOS"/>
     </portal_use>
     <!-- Camp Asmodians To Idian Depths (Asmodians Base Camp) -->
     <portal_use npc_id="801798">
-        <portal_path loc_id="6000711" siege_id="6021" race="ASMODIANS"/>
+        <portal_path loc_id="6000700" siege_id="6021" race="ASMODIANS"/>
     </portal_use>
     <!-- Camp Elyos To Idian Depths (Elyos Base Camp) -->
     <portal_use npc_id="801799">
-        <portal_path loc_id="6000710" siege_id="6021" race="ELYOS"/>
+        <portal_path loc_id="6000700" siege_id="6021" race="ELYOS"/>
     </portal_use>
     <!-- Camp Asmodians To Idian Depths (Asmodians Base Camp) -->
     <portal_use npc_id="801800">
-        <portal_path loc_id="6000710" siege_id="6021" race="ASMODIANS"/>
+        <portal_path loc_id="6000700" siege_id="6021" race="ASMODIANS"/>
     </portal_use>
     <!-- CAMP KATALAM/DANARIA TELEPORTER END -->    
 

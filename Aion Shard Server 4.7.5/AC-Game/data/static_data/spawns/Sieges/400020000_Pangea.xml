@@ -509,9 +509,9 @@
                     <!--<spawn npc_id="277517" respawn_time="295">
                         <spot h="53" x="537.53" y="1510.89" z="1462.60"/>
                     </spawn>-->
-                    <spawn npc_id="277488" respawn_time="295">
+                    <!--<spawn npc_id="277488" respawn_time="295">
                         <spot h="53" x="1442.00" y="1440.00" z="1489.54"/>
-                    </spawn>
+                    </spawn>-->
                     <spawn npc_id="277906" respawn_time="295">
                         <spot h="53" x="1448.07" y="1447.20" z="1492.84"/>
                     </spawn>

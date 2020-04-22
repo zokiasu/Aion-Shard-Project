@@ -120,19 +120,19 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
         
-     // if target is in neutral zone, you cannot hit them
-        //if (!skill.getSkillTemplate().hasHealEffect() || !skill.getSkillTemplate().hasRandomMoveEffect()
-                //|| skill.getSkillTemplate().getSubType() != SkillSubType.BUFF || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
-                //|| skill.getSkillTemplate().getSubType() != SkillSubType.SUMMON || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMONHOMING) {
-            //if (target instanceof Player && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
-                //List<ZoneInstance> zones = target.getPosition().getMapRegion().getZones((Player) target);
-                //for (ZoneInstance zone : zones) {
-                    //if (!zone.isPvpAllowed()) {
-                        //return false;
-                    //}
-                //}
-            //}
-        //}
+        // if target is in neutral zone, you cannot hit them
+        if (!skill.getSkillTemplate().hasHealEffect() || !skill.getSkillTemplate().hasRandomMoveEffect()
+        || skill.getSkillTemplate().getSubType() != SkillSubType.BUFF || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
+        || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMON || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMONHOMING) {
+            if (target instanceof Player && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
+                List<ZoneInstance> zones = target.getPosition().getMapRegion().getZones((Player) target);
+                for (ZoneInstance zone : zones) {
+                    if (!zone.isPvpAllowed()) {
+                        return false;
+                    }
+                }
+            }
+        }
 
         return true;
     }
@@ -161,9 +161,9 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
         // TODO cancel skill if other is used
-        if (player.isCasting()) {
+        /*if (player.isCasting()) {
             return false;
-        }
+        }*/
 
         if ((!player.canAttack()) && !template.hasEvadeEffect()) {
             return false;
