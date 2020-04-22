@@ -550,8 +550,7 @@ public class StatFunctions {
         return Math.round(resultDamage);
     }
 
-    public static int calculateMagicalSkillDamage(Creature speller, Creature target, int baseDamages,
-                                                  int bonus, SkillElement element, boolean useMagicBoost, boolean useKnowledge, boolean noReduce, int pvpDamage) {
+    public static int calculateMagicalSkillDamage(Creature speller, Creature target, int baseDamages, int bonus, SkillElement element, boolean useMagicBoost, boolean useKnowledge, boolean noReduce, int pvpDamage) {
         CreatureGameStats<?> sgs = speller.getGameStats();
         CreatureGameStats<?> tgs = target.getGameStats();
 
