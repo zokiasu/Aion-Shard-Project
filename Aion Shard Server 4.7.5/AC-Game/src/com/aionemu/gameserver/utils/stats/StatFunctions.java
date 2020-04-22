@@ -926,7 +926,7 @@ public class StatFunctions {
         critical = attacked.getGameStats().getPositiveReverseStat(StatEnum.PHYSICAL_CRITICAL_RESIST, critical) - attacker.getGameStats().getStat(StatEnum.PVP_HIT_ACCURACY, 0).getCurrent();
 
         //add critical Prob
-        critical *= (float) criticalProb / 100f;
+        //critical *= (float) criticalProb / 100f;
 
         double criticalRate;
 
