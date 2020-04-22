@@ -213,7 +213,7 @@ public class AttackUtil {
         if (attacked instanceof Npc) {
             damages = attacked.getAi2().modifyDamage((int) damages);
         }
-
+        log.warn("calculateWeaponCritical Damage : " + damages);
         return damages;
     }
 
@@ -351,10 +351,12 @@ public class AttackUtil {
             if (effector instanceof Player) {
                 WeaponType weaponType = ((Player) effector).getEquipment().getMainHandWeaponType();
                 damage = (int) calculateWeaponCritical(effected, damage, weaponType, critAddDmg, StatEnum.PHYSICAL_CRITICAL_DAMAGE_REDUCE);
+                log.warn("calculateSkillResult Damage " + damage);
                 // Proc Stumble/Stagger on Crit calculation
                 applyEffectOnCritical((Player) effector, effected);
             } else {
                 damage = (int) calculateWeaponCritical(effected, damage, null, critAddDmg, StatEnum.PHYSICAL_CRITICAL_DAMAGE_REDUCE);
+                log.warn("calculateSkillResult Damage " + damage);
             }
         }
 
