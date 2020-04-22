@@ -247,9 +247,13 @@ public class AttackUtil {
             switch (func) {
                 case ADD:
                     damage += skillDamage;
+                    log.warn("Damage skillDamage : " + skillDamage);
+                    log.warn("Damage result : " + damage);
                     break;
                 case PERCENT:
                     damage += baseAttack * skillDamage / 100f;
+                    log.warn("Damage Percent baseattack : " + baseAttack * skillDamage / 100f);
+                    log.warn("Damage Percent baseattack : " + damage);
                     break;
             }
         }
@@ -705,12 +709,6 @@ public class AttackUtil {
     private static AttackStatus calculateHomingAttackStatus(Creature attacker, Creature attacked) {
         if (Rnd.get(0, 1000) < StatFunctions.calculateMagicalResistRate(attacker, attacked, 0)) {
             return AttackStatus.RESIST;
-        } else if (StatFunctions.calculatePhysicalDodgeRate(attacker, attacked, 0)) {
-            return AttackStatus.DODGE;
-        } else if (StatFunctions.calculatePhysicalParryRate(attacker, attacked)) {
-            return AttackStatus.PARRY;
-        } else if (StatFunctions.calculatePhysicalBlockRate(attacker, attacked)) {
-            return AttackStatus.BLOCK;
         } else {
             return AttackStatus.NORMALHIT;
         }

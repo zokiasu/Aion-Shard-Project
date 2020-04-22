@@ -484,8 +484,9 @@ public class StatFunctions {
         if (resultDamage <= 0) {
             resultDamage = 1;
         }
-
-        return Math.round(resultDamage);
+        int i = Math.round(resultDamage);
+        log.warn("calculatePhysicalAttackDamage Math.round(resultDamage) : " + i);
+        return i;
     }
 
     public static int calculateMagicalAttackDamage(Creature attacker, Creature target, SkillElement element, boolean isMainHand) {
