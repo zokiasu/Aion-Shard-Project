@@ -137,7 +137,8 @@ public class PlayerRestrictions extends AbstractRestrictions {
         }
         // TODO cancel skill if other is used
         if (player.isCasting()) {
-            return true;
+            player.getController().cancelCurrentSkill()
+            return false;
         }
 
         if ((!player.canAttack()) && !template.hasEvadeEffect()) {
