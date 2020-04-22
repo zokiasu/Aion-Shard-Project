@@ -200,25 +200,19 @@ public class AttackUtil {
                 case PHYSICAL_CRITICAL_DAMAGE_REDUCE:
                 case MAGICAL_CRITICAL_DAMAGE_REDUCE:
                     fortitude = player.getGameStats().getStat(stat, 0).getCurrent();
-                    log.warn("calculateWeaponCritical Strike fortitude : " + fortitude);
                     coeficient -= Math.round(fortitude / 1000f);
-                    log.warn("calculateWeaponCritical coeficient : " + coeficient);
                     break;
             }
         }
 
         //add critical add dmg
         coeficient += (float) critAddDmg / 100f;
-        log.warn("calculateWeaponCritical add dmg : " + (float) critAddDmg / 100f);
-        log.warn("calculateWeaponCritical coeficient : " + coeficient);
 
         damages = Math.round(damages * coeficient);
-        log.warn("calculateWeaponCritical damages with coef : " + damages);
 
         if (attacked instanceof Npc) {
             damages = attacked.getAi2().modifyDamage((int) damages);
         }
-        log.warn("calculateWeaponCritical Damage : " + damages);
         return damages;
     }
 
@@ -252,13 +246,9 @@ public class AttackUtil {
             switch (func) {
                 case ADD:
                     damage += skillDamage;
-                    log.warn("Damage skillDamage : " + skillDamage);
-                    log.warn("Damage result : " + damage);
                     break;
                 case PERCENT:
                     damage += baseAttack * skillDamage / 100f;
-                    log.warn("Damage Percent baseattack : " + baseAttack * skillDamage / 100f);
-                    log.warn("Damage Percent baseattack : " + damage);
                     break;
             }
         }
@@ -269,24 +259,17 @@ public class AttackUtil {
             switch (modifier.getFunc()) {
                 case ADD:
                     damage += bonus;
-                    log.warn("Damage bonus : " + bonus);
-                    log.warn("Damage result : " + damage);
                     break;
                 case PERCENT:
                     damage += baseAttack * bonus / 100f;
-                    log.warn("Damage baseattack : " + baseAttack * bonus / 100f);
-                    log.warn("Damage baseattack : " + damage);
                     break;
             }
         }
 
         // adjusting baseDamages according to attacker and target level
         damage = (int) StatFunctions.adjustDamages(effect.getEffector(), effect.getEffected(), damage, effect.getPvpDamage(), true);
-        log.warn("Damage after adjusting : " + damage);
         float damageMultiplier = effector.getObserveController().getBasePhysicalDamageMultiplier(true);
-        log.warn("Damage Multiplier : " + damageMultiplier);
         damage = Math.round(damage * damageMultiplier);
-        log.warn("Damage with Multiplier : " + damage);
 
         // implementation of random damage for skills like Stunning Shot, etc
         log.warn("randomDamage : " + randomDamage);
@@ -364,7 +347,6 @@ public class AttackUtil {
                 applyEffectOnCritical((Player) effector, effected);
             } else {
                 damage = (int) calculateWeaponCritical(effected, damage, null, critAddDmg, StatEnum.PHYSICAL_CRITICAL_DAMAGE_REDUCE);
-                log.warn("calculateSkillResult2 Damage " + damage);
             }
         }
 
@@ -382,7 +364,7 @@ public class AttackUtil {
         if (damage < 0) {
             damage = 0;
         }
-
+        log.warn("End Damage " + damage);
         calculateEffectResult(effect, effected, damage, status, HitType.PHHIT, ignoreShield);
     }
 
