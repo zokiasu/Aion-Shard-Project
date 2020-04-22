@@ -200,15 +200,20 @@ public class AttackUtil {
                 case PHYSICAL_CRITICAL_DAMAGE_REDUCE:
                 case MAGICAL_CRITICAL_DAMAGE_REDUCE:
                     fortitude = player.getGameStats().getStat(stat, 0).getCurrent();
+                    log.warn("calculateWeaponCritical Strike fortitude : " + fortitude);
                     coeficient -= Math.round(fortitude / 1000f);
+                    log.warn("calculateWeaponCritical coeficient : " + coeficient);
                     break;
             }
         }
 
         //add critical add dmg
         coeficient += (float) critAddDmg / 100f;
+        log.warn("calculateWeaponCritical add dmg : " + (float) critAddDmg / 100f);
+        log.warn("calculateWeaponCritical coeficient : " + coeficient);
 
         damages = Math.round(damages * coeficient);
+        log.warn("calculateWeaponCritical damages with coef : " + damages);
 
         if (attacked instanceof Npc) {
             damages = attacked.getAi2().modifyDamage((int) damages);
@@ -277,11 +282,14 @@ public class AttackUtil {
 
         // adjusting baseDamages according to attacker and target level
         damage = (int) StatFunctions.adjustDamages(effect.getEffector(), effect.getEffected(), damage, effect.getPvpDamage(), true);
-
+        log.warn("Damage after adjusting : " + damage);
         float damageMultiplier = effector.getObserveController().getBasePhysicalDamageMultiplier(true);
+        log.warn("Damage Multiplier : " + damageMultiplier);
         damage = Math.round(damage * damageMultiplier);
+        log.warn("Damage with Multiplier : " + damage);
 
         // implementation of random damage for skills like Stunning Shot, etc
+        log.warn("randomDamage : " + randomDamage);
         if (randomDamage > 0) {
             int randomChance = Rnd.get(100);
             // TODO Hard fix
@@ -356,7 +364,7 @@ public class AttackUtil {
                 applyEffectOnCritical((Player) effector, effected);
             } else {
                 damage = (int) calculateWeaponCritical(effected, damage, null, critAddDmg, StatEnum.PHYSICAL_CRITICAL_DAMAGE_REDUCE);
-                log.warn("calculateSkillResult Damage " + damage);
+                log.warn("calculateSkillResult2 Damage " + damage);
             }
         }
 
