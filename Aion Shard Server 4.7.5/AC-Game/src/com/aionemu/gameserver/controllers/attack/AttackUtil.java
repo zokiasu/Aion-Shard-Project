@@ -275,7 +275,7 @@ public class AttackUtil {
         damage = Math.round(damage * damageMultiplier);
 
         // implementation of random damage for skills like Stunning Shot, etc
-        log.warn("randomDamage : " + randomDamage);
+        //log.warn("randomDamage : " + randomDamage);
         if (randomDamage > 0) {
             int randomChance = Rnd.get(100);
             // TODO Hard fix
@@ -345,10 +345,10 @@ public class AttackUtil {
             if (effector instanceof Player) {
                 WeaponType weaponType = ((Player) effector).getEquipment().getMainHandWeaponType();
                 damage = (int) calculateWeaponCritical(effected, damage, weaponType, critAddDmg, StatEnum.PHYSICAL_CRITICAL_DAMAGE_REDUCE);
-                log.warn("calculateSkillResult Damage " + damage);
+                //log.warn("calculateSkillResult Damage " + damage);
                 if ((((Player) effector).getPlayerClass()) == PlayerClass.GLADIATOR && ((Player) effector).isPvpTarget(effected)){
-                    damage -= damage*0.1;
-                    log.warn("After Reduc Glad Damage " + damage);
+                    damage -= damage*0.15;
+                    //log.warn("After Reduc Glad Damage " + damage);
                 }
                 // Proc Stumble/Stagger on Crit calculation
                 applyEffectOnCritical((Player) effector, effected);

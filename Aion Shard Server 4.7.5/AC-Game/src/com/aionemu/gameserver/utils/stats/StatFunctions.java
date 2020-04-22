@@ -485,7 +485,7 @@ public class StatFunctions {
             resultDamage = 1;
         }
         int i = Math.round(resultDamage);
-        log.warn("calculatePhysicalAttackDamage Math.round(resultDamage) : " + i);
+        //log.warn("calculatePhysicalAttackDamage Math.round(resultDamage) : " + i);
         return i;
     }
 
