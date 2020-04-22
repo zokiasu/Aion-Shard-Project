@@ -345,7 +345,7 @@ public class AttackUtil {
                 damage = (int) calculateWeaponCritical(effected, damage, weaponType, critAddDmg, StatEnum.PHYSICAL_CRITICAL_DAMAGE_REDUCE);
                 log.warn("calculateSkillResult Damage " + damage);
                 if ((((Player) effector).getPlayerClass()) == PlayerClass.GLADIATOR && ((Player) effector).isPvpTarget(effected)){
-                    damage = (int)(damage * 0.10f);
+                    damage *= 0.1f;
                 }
                 log.warn("After Reduc Glad Damage " + damage);
                 // Proc Stumble/Stagger on Crit calculation
