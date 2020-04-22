@@ -445,10 +445,10 @@
 					<spawn npc_id="277486" respawn_time="295">
 						<spot x="1446.0719" y="601.25879" z="1484.6670" entity_id="29"/>
 					</spawn>
-					<!-- Fortress Back Doors
+					<!-- Fortress Back Doors -->
 					<spawn npc_id="277488" respawn_time="295">
 						<spot x="1446.6808" y="1445.7941" z="1484.6859" entity_id="32"/>
-					</spawn> -->
+					</spawn>
 					<!-- Fortress Back Doors -->
 					<spawn npc_id="277490" respawn_time="295">
 						<spot x="601.27618" y="602.00464" z="1484.6403" entity_id="36"/>
@@ -732,31 +732,31 @@
 					<!-- Fortress Front Doors -->
 					<spawn npc_id="277487">
 						<spot x="1438.9561" y="608.33270" z="1484.6478" entity_id="30"/>
-					</spawn> -->
+					</spawn>
 					<!-- Fortress Front Doors -->
 					<spawn npc_id="277489">
 						<spot x="1439.3408" y="1438.4541" z="1484.6608" entity_id="31"/>
-					</spawn> -->
+					</spawn>
 					<!-- Fortress Front Doors -->
 					<spawn npc_id="277491">
 						<spot x="608.58569" y="609.31421" z="1484.6403" entity_id="37"/>
-					</spawn> -->
+					</spawn>
 					<!-- Fortress Back Doors -->
 					<spawn npc_id="277484">
 						<spot x="601.98260" y="1446.7188" z="1484.6934" entity_id="25"/>
-					</spawn> -->
+					</spawn>
 					<!-- Fortress Back Doors -->
 					<spawn npc_id="277486">
 						<spot x="1446.0719" y="601.25879" z="1484.6670" entity_id="29"/>
-					</spawn> -->
-					<!-- Fortress Back Doors
+					</spawn>
+					<!-- Fortress Back Doors -->
 					<spawn npc_id="277488">
 						<spot x="1446.6808" y="1445.7941" z="1484.6859" entity_id="32"/>
-					</spawn> -->
+					</spawn>
 					<!-- Fortress Back Doors -->
 					<spawn npc_id="277490">
 						<spot x="601.27618" y="602.00464" z="1484.6403" entity_id="36"/>
-					</spawn> -->
+					</spawn>
 					<!-- Boss -->
 					<spawn npc_id="277405">
 					    <spot x="1024.1173" y="1024.4729" z="1552.5522" h="65"/>
