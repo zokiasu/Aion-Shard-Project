@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="600050000">
+        <!-- Mailbox Elyos -->
+        <spawn npc_id="700000" respawn_time="295">
+            <spot h="0" x="362.27448" y="2721.8372" z="143.2707"/>
+        </spawn>
+        <!-- Mailbox Asmo -->
+        <spawn npc_id="700079" respawn_time="295">
+            <spot h="72" x="378.04868" y="405.76343" z="282.46265" static_id="622"/>
+        </spawn>
         <!-- Haramel Entrance -->
         <spawn npc_id="730055" respawn_time="5">
             <spot h="46" x="394.38315" y="327.31998" z="273.8325"/>

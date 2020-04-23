@@ -97,7 +97,7 @@ public class GMService {
     public void onPlayerAvailable(Player player) {
         if (player.isGM()) {
             gms.put(player.getObjectId(), player);
-            String adminTag = "%s";
+            String adminTag = "";
             StringBuilder sb = new StringBuilder(adminTag);
 
             if (player.getClientConnection() != null) {
