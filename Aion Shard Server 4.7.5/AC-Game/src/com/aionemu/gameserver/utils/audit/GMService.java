@@ -101,7 +101,6 @@ public class GMService {
             StringBuilder sb = new StringBuilder(adminTag);
 
             if (player.getClientConnection() != null) {
-            	
                 // * = Premium & VIP Membership
                 if (MembershipConfig.PREMIUM_TAG_DISPLAY) {
                     switch (player.getClientConnection().getAccount().getMembership()) {
@@ -157,11 +156,10 @@ public class GMService {
 
     public void onPlayerUnavailable(Player player) {
         gms.remove(player.getObjectId());
-        String adminTag = "%s";
+        String adminTag = "";
         StringBuilder sb = new StringBuilder(adminTag);
 
-        if (player.getClientConnection() != null) {
-        	
+        if (player.getClientConnection() != null) {        	
             // * = Premium & VIP Membership
             if (MembershipConfig.PREMIUM_TAG_DISPLAY) {
                 switch (player.getClientConnection().getAccount().getMembership()) {
