@@ -6832,6 +6832,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -7076,6 +7077,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -7320,6 +7322,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -7565,6 +7568,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -7810,6 +7814,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -8055,6 +8060,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -8300,6 +8306,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -8545,6 +8552,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -8790,6 +8798,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -9050,6 +9059,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -9310,6 +9320,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -9570,6 +9581,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -9830,6 +9842,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -10090,6 +10103,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -10350,6 +10364,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -10610,6 +10625,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -10870,6 +10886,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -11130,6 +11147,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -11390,6 +11408,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
@@ -11650,6 +11669,7 @@
             <drop item_id="152011108" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
             <drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
+            <drop item_id="152011096" chance="1.5" min_amount="1" max_amount="10"/>
         </drop_group>
         <drop_group name="ELEMENTAL_STONE">
             <drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>

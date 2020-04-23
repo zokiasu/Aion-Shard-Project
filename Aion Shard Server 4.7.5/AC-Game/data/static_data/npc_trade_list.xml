@@ -7,18 +7,12 @@
 
 <npc_trade_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_trade_list.xsd">
 	<!-- Dlya Eloys materiali -->
-	<tradelist_template npc_id="800573" sell_price_rate="20000">
+	<tradelist_template npc_id="800573" sell_price_rate="10000">
 		<tradelist id="119"/>
-		<tradelist id="122"/>
-		<tradelist id="123"/>
-		<tradelist id="125"/>
 	</tradelist_template>
 	<!-- Dlya asmo materiali -->
-	<tradelist_template npc_id="800575" sell_price_rate="20000">
+	<tradelist_template npc_id="800575" sell_price_rate="10000">
 		<tradelist id="120"/>
-		<tradelist id="121"/>
-		<tradelist id="124"/>
-		<tradelist id="126"/>
 	</tradelist_template>
 	<tradelist_template npc_id="216527">
 		<tradelist id="837"/>
