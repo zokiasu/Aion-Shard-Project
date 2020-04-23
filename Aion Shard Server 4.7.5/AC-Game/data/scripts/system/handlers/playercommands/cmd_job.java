@@ -49,6 +49,7 @@ public class cmd_job extends PlayerCommand {
         player.getSkillList().addSkill(player, 40004, 550); // Couture
         player.getSkillList().addSkill(player, 40007, 550); // Alchimie
         player.getSkillList().addSkill(player, 40008, 550); // Artisanat
+        player.getSkillList().addSkill(player, 40010, 550); // Artisanat
     }
 
     @Override
