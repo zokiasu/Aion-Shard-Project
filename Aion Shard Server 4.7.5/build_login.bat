@@ -1,10 +1,10 @@
 @echo off
 @COLOR 0C
-TITLE Aion-Core LS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard CS v4.7.5.x
 cd AC-Login
 CLS
 ECHO   ^*--------------------------------------------------------------------------^*
-ECHO   ^|                    Aion Core v4.7.5.x by GiGatR00n - %TITLE% Panel              ^|
+ECHO   ^|                    Aion-Shard CS v4.7.5.x - %TITLE% Panel              ^|
 ECHO   ^|                                  Login Server                            ^|
 ECHO   ^*--------------------------------------------------------------------------^*
 start ..\AC-Tools\ant\bin\ant

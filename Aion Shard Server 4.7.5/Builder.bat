@@ -2,12 +2,12 @@
 @COLOR 0C
 SET MODE=clean package
 SET TITLE=Build
-TITLE Aion-Rework v4.7.5.x by GiGatR00n
+TITLE Aion-Shard CS v4.7.5.x
 :MENU
 CLS
 ECHO.
 ECHO   ^*--------------------------------------------------------------------------^*
-ECHO   ^|                Aion-Rework v4.7.5x by GiGatR00n - %TITLE% Panel          ^|
+ECHO   ^|                Aion-Shard CS v4.7.5.x - %TITLE% Panel                    ^|
 ECHO   ^*--------------------------------------------------------------------------^*
 ECHO   ^|                                                                          ^|
 ECHO   ^|    1 - Build Login server                         6 - Build mode         ^|
@@ -21,35 +21,35 @@ ECHO.
 SET /P OPTION=Type your option and press ENTER: 
 IF %OPTION% == 1 (
 CLS
-TITLE Aion-Rework - %TITLE%ing Login server
+TITLE Aion-Shard - %TITLE%ing Login server
 CD AC-Login
 start ..\AC-Tools\Ant\bin\ant
 )
 IF %OPTION% == 2 (
 CLS
-TITLE Aion-Rework - %TITLE%ing Game Server
+TITLE Aion-Shard - %TITLE%ing Game Server
 CD AC-Game
 start ..\AC-Tools\Ant\bin\ant
 )
 IF %OPTION% == 3 (
 CLS
-TITLE Aion-Rework - %TITLE%ing Chat Server
+TITLE Aion-Shard - %TITLE%ing Chat Server
 CD AC-Chat
 start ..\AC-Tools\Ant\bin\ant
 )
 IF %OPTION% == 4 (
 CLS
-TITLE Aion-Rework - %TITLE%ing Commons Server
+TITLE Aion-Shard - %TITLE%ing Commons Server
 CALL build_maven_commons.bat
 )
 IF %OPTION% == 5 (
 CLS
 TITLE Aion-Rework - %TITLE%ing All Project
-CD ../AC-Login
+CD AC-Login
 start ..\AC-Tools\Ant\bin\ant
-CD ../AC-Game
+CD AC-Game
 start ..\AC-Tools\Ant\bin\ant
-CD ../AC-Chat
+CD AC-Chat
 start ..\AC-Tools\Ant\bin\ant
 CALL build_maven_commons.bat
 )
@@ -60,10 +60,10 @@ IF %OPTION% == 7 (
 CLS
 SET MODE=clean install
 SET TITLE=Install
-TITLE Aion-Rework - Install Panel
+TITLE Aion-Shard - Install Panel
 ECHO.
 ECHO   ^*--------------------------------------------------------------------------^*
-ECHO   ^|                Aion-Rework v4.7.5x by GiGatR00n - %TITLE% Panel          ^|
+ECHO   ^|                Aion-Shard v4.7.5x - %TITLE% Panel                        ^|
 ECHO   ^*--------------------------------------------------------------------------^*
 ECHO   ^|                                                                          ^|
 ECHO   ^|    1 - Install Login server                        6 - Build mode        ^|
@@ -80,10 +80,10 @@ IF %OPTION% == 8 (
 CLS
 SET MODE=clean package -e -X
 SET TITLE=Debug
-TITLE Aion-Rework - Debug Panel
+TITLE Aion-Shard - Debug Panel
 ECHO.
 ECHO   ^*--------------------------------------------------------------------------^*
-ECHO   ^|                Aion Core v4.7.5x by GiGatR00n - %TITLE% Panel            ^|
+ECHO   ^|                Aion-Shard v4.7.5x - %TITLE% Panel                        ^|
 ECHO   ^*--------------------------------------------------------------------------^*
 ECHO   ^|                                                                          ^|
 ECHO   ^|    1 - Debug Login server                          6 - Build mode        ^|
