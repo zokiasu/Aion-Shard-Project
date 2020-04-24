@@ -38,7 +38,7 @@ public class GoldPackAction extends AbstractItemAction {
 
     @Override
     public void act(Player player, Item parentItem, Item targetItem) {
-
+        PacketSendUtility.sendMessage(player, "Ah que Coucou1.");
         ItemTemplate itemTemplate = parentItem.getItemTemplate();
 
         Connection con = null;
