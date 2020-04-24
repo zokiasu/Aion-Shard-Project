@@ -28749,4 +28749,26 @@
                 </items>
             <!--FIN AUTRE-->
         </decomposable>
+        <!-- Récompense Testeur -->
+        <decomposable item_id="188052872" decomposable_name="Reward for tester">
+            <items>
+                <item id="188710074" name="AionShard Pack (30 Days)" count="1"/>
+                <item id="169610140" name="Aion's Chosen (30 Days)" count="1"/>
+                <item id="190100131" name="Lustrous Skymane" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188052876" decomposable_name="Glorious reward for tester">
+            <items>
+                <item id="188710074" name="AionShard Pack (30 Days)" count="1"/>
+                <item id="169610152" name="AionShard Tester" count="1"/>
+                <item id="190100100" name="Dragon of valiant testers" count="1"/>
+            </items>
+        </decomposable>
+        <decomposable item_id="188052880" decomposable_name="Supreme Reward for testers">
+            <items>
+                <item id="188710074" name="AionShard Pack (30 Days)" count="1"/>
+                <item id="169610152" name="AionShard Tester" count="1"/>
+                <item id="190100100" name="Dragon of valiant testers" count="1"/>
+            </items>
+        </decomposable>
     </decomposable_items>
