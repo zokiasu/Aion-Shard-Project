@@ -104,11 +104,11 @@ public class AdminConfig {
     public static String CUSTOMTAG_ACCESS9;
     @Property(key = "gameserver.customtag.access10", defaultValue = "\uE0BD \uE042 S-Owner \uE043 %s \uE0BD")
     public static String CUSTOMTAG_ACCESS10;
-    @Property(key = "gameserver.admin.announce.levels", defaultValue = "*")
+    @Property(key = "gameserver.admin.announce.levels", defaultValue = "3,4,5")
     public static String ANNOUNCE_LEVEL_LIST;
     /**
      * GM special skill
      */
-    @Property(key = "administration.command.special.skill", defaultValue = "3")
+    @Property(key = "administration.command.special.skill", defaultValue = "10")
     public static int COMMAND_SPECIAL_SKILL;
 }
