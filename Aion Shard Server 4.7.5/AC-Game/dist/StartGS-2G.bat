@@ -1,6 +1,6 @@
 @ECHO off
 @COLOR 0C
-TITLE Aion-Rework GS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard GS v4.7.5.x
 :START
 CLS
 SET JAVAVER=1.7

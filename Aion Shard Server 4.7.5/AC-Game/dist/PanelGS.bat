@@ -1,11 +1,11 @@
 @ECHO off
 @COLOR 2
-TITLE Aion-Rework GS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard GS v4.7.5.x
 :MENU
 CLS
 ECHO.
 ECHO   ^*--------------------------------------------------------------------------^*
-ECHO                         Aion-Rework GS v4.7.5.x by GiGatR00n                  
+ECHO                         Aion-Shard GS v4.7.5.x
 ECHO   ^*--------------------------------------------------------------------------^*
 ECHO   ^|                                                                          ^|
 ECHO   ^|    1 - Development                                       4 - Quit        ^|

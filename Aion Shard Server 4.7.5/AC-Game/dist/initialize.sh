@@ -1,4 +1,4 @@
-echo Aion-Core GS v4.7.5.x by GiGatR00n
+echo Aion-Shard GS v4.7.5.x
 echo Initializing Java Patch...
 
 JAVA_HOME=/home/user_name/jdk1.7.0_XX

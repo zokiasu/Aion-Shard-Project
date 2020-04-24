@@ -1,11 +1,11 @@
 @ECHO off
 @COLOR 0C
-TITLE Aion-Core CS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard CS v4.7.5.x
 :MENU
 CLS
 ECHO.
 ECHO   ^*--------------------------------------------------------------------------^*
-ECHO                          Aion-Core CS v4.7.5.x by GiGatR00n                  
+ECHO                          Aion-Shard CS v4.7.5.x
 ECHO   ^*--------------------------------------------------------------------------^*
 ECHO   ^|                                                                          ^|
 ECHO   ^|    1 - Development                                       3 - Quit        ^|

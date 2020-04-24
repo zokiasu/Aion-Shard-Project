@@ -1,12 +1,12 @@
 @ECHO off
 @COLOR 0C
-TITLE Aion-Core LS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard LS v4.7.5.x
 :START
 CLS
 IF "%MODE%" == "" (
 CALL PanelLS.bat
 )
-ECHO Starting Aion-Core Login in %MODE% mode.
+ECHO Starting Aion-Shard Login in %MODE% mode.
 JAVA -version:"1.7" %JAVA_OPTS% -cp ./libs/*;ac-login.jar com.aionemu.loginserver.LoginServer
 SET CLASSPATH=%OLDCLASSPATH%
 IF ERRORLEVEL 2 GOTO START

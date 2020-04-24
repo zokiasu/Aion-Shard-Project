@@ -1,12 +1,12 @@
 @ECHO off
 @COLOR 0C
-TITLE Aion-Core CS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard CS v4.7.5.x
 :START
 CLS
 IF "%MODE%" == "" (
 CALL PanelCS.bat
 )
-ECHO Starting Aion-Core Chat in %MODE% mode.
+ECHO Starting Aion-Shard Chat in %MODE% mode.
 JAVA -version:"1.7" %JAVA_OPTS% -cp ./libs/*;ac-chat.jar com.aionemu.chatserver.ChatServer
 SET CLASSPATH=%OLDCLASSPATH%
 IF ERRORLEVEL 2 GOTO START

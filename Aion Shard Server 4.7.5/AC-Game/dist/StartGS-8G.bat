@@ -1,6 +1,6 @@
 @ECHO off
 @COLOR 2
-TITLE Aion-Rework GS v4.7.5.x by GiGatR00n
+TITLE Aion-Shard GS v4.7.5.x
 :START
 CLS
 
