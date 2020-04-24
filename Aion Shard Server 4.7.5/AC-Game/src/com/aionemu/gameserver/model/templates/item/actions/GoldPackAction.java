@@ -50,6 +50,7 @@ public class GoldPackAction extends AbstractItemAction {
             Connection con = null;
 
             try {
+                PacketSendUtility.sendMessage(player, "Try ok.");
                 final Player player1 = player;
                 String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
                 int actualToll = 0;
@@ -79,8 +80,8 @@ public class GoldPackAction extends AbstractItemAction {
                 stmt2.setString(2, player1.getAcountName());
                 stmt2.execute();
                 stmt2.close();
-                con.close();
             } catch (Exception e) {
+                PacketSendUtility.sendMessage(player, "Try Fail.");
                 return;
             }
 
