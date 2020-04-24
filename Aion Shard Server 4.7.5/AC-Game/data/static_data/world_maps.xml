@@ -29,10 +29,12 @@
          flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="210060000" name="Theobomos" twin_count="1" beginner_twin_count="2" death_level="0" water_level="1"
          world_type="ELYSEA" world_size="3072" flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-	<map id="210070000" name="LF5" death_level="0" water_level="16" world_type="BALAUREA" world_size="3072"
-         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-    <map id="210080000" name="LF5_Ship" death_level="0" water_level="16" world_type="BALAUREA" world_size="512"
-         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+        <!-- Signia -->
+	<!--<map id="210070000" name="LF5" death_level="0" water_level="16" world_type="BALAUREA" world_size="3072"
+         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>-->
+        <!-- Griffoen -->
+    <!--<map id="210080000" name="LF5_Ship" death_level="0" water_level="16" world_type="BALAUREA" world_size="512"
+         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>-->
     <map id="220010000" name="Ishalgen" max_user="200" twin_count="2" beginner_twin_count="6" death_level="0"
          water_level="248" world_type="ASMODAE" world_size="3072" flags="BIND RECALL PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="220020000" name="Morheim" beginner_twin_count="5" death_level="0" water_level="16" world_type="ASMODAE"
@@ -46,10 +48,12 @@
          world_type="ASMODAE" world_size="3072" flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="220070000" name="Gelkmaros" death_level="0" water_level="16" world_type="BALAUREA" world_size="3072"
          flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-	<map id="220080000" name="DF5" death_level="0" water_level="16" world_type="BALAUREA" world_size="3072"
-         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-    <map id="220090000" name="DF5_Ship" death_level="0" water_level="16" world_type="BALAUREA" world_size="512"
-         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+        <!-- Ensha -->
+	<!--<map id="220080000" name="DF5" death_level="0" water_level="16" world_type="BALAUREA" world_size="3072"
+         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>-->
+        <!-- Habrok -->
+    <!--<map id="220090000" name="DF5_Ship" death_level="0" water_level="16" world_type="BALAUREA" world_size="512"
+         flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>-->
     <map id="300010000" name="IDAbPro" death_level="0" water_level="16" world_size="512"
          flags="BIND RECALL GLIDE RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="300020000" name="IDTest_Dungeon" death_level="0" water_level="16" world_size="256"
@@ -250,13 +254,16 @@
          flags="PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="301370000" name="Infernal Illuminary Obelisk" instance="true" death_level="0" water_level="16" world_size="512"
          flags="BIND RECALL GLIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-	<map id="301380000" name="IDLDF5_Under_02_e" death_level="0" water_level="16" world_size="1536"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-    <map id="301390000" name="IDSeal" death_level="0" water_level="16" world_size="1024"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+        <!-- The Catacombs Entrance -->
+	<!-- <map id="301380000" name="IDLDF5_Under_02_e" death_level="0" water_level="16" world_size="1536"
+         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/> -->
+        <!-- Drakensphir Depth -->
+    <!-- <map id="301390000" name="IDSeal" death_level="0" water_level="16" world_size="1024"
+         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/> -->
 	<map id="301400000" name="The Shugo Emperor's Vault" instance="true" death_level="0" water_level="16" world_size="2048" except_buff="true" flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-	<map id="301500000" name="IDLegion" death_level="0" water_level="16" world_size="512"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+        <!-- Stonespear Reach -->
+    <!--<map id="301500000" name="IDLegion" death_level="0" water_level="16" world_size="512"
+         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/> -->
     <map id="310010000" name="Karamatis A" beginner_twin_count="2" instance="true" death_level="0" water_level="16"
          world_size="1024" flags="RECALL GLIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="310020000" name="Karamatis B" instance="true" death_level="0" water_level="16" world_size="1024"
@@ -311,8 +318,8 @@
          flags="RECALL GLIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="320150000" name="Padmarashka's Cave" instance="false" death_level="-1" water_level="16" world_size="1024"
          flags="GLIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-    <map id="330010010" name="Vein of Flame" death_level="0" water_level="16" world_size="3072"
-         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+    <!-- <map id="330010010" name="Vein of Flame" death_level="0" water_level="16" world_size="3072"
+         flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/> -->
     <map id="400010000" name="Reshanta" death_level="500" water_level="16" world_type="ABYSS" world_size="4096"
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="400020000" name="Belus" death_level="0" water_level="16" world_size="3072"
@@ -355,8 +362,8 @@
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="710010000" name="Pernon" death_level="0" water_level="16" world_type="ASMODAE" world_size="3072"
          flags="RECALL RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
-    <map id="710020000" name="Asmodian Legion Housing" death_level="0" water_level="16" world_size="3072"
-         flags="PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+    <!--<map id="710020000" name="Asmodian Legion Housing" death_level="0" water_level="16" world_size="3072"
+         flags="PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/> -->
     <map id="720010000" name="Oriel Studio" instance="true" death_level="0" water_level="16" world_size="512"
          flags="RECALL PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="730010000" name="Pernon Studio" instance="true" death_level="0" water_level="16" world_size="512"
@@ -369,6 +376,7 @@
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="900110000" name="Housing Barrack" death_level="0" water_level="16" world_size="512"
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
+
     <map id="900120000" name="Test Empyrean Crucible" death_level="0" water_level="16" world_size="3072"
          flags="BIND RECALL GLIDE FLY RIDE FLY_RIDE PVP DUEL_SAME_RACE DUEL_OTHER_RACE"/>
     <map id="900130000" name="IDLDF5RE Test" death_level="0" water_level="16" world_size="3072"
