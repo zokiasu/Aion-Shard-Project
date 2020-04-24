@@ -38,7 +38,8 @@ public class GoldPackAction extends AbstractItemAction {
 
     @Override
     public void act(Player player, Item parentItem, Item targetItem) {
-        if(parentItem.getObjectId() == 188710151){
+        
+        if(parentItem.getItemId() == 188710151){
             PacketSendUtility.sendMessage(player, "Ah que coucou.");
             return;
         }
