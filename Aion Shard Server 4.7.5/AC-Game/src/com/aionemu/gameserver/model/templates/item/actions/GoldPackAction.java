@@ -61,9 +61,7 @@ public class GoldPackAction extends AbstractItemAction {
                 ResultSet resultSet = stmt1.executeQuery();
 
                 if(resultSet.next()) {
-                    if(resultSet.getTimestamp("toll") != null) {
-                        actualToll = resultSet.getInt("toll");
-                    }
+                    actualToll = resultSet.getInt("toll");
                 }
                 resultSet.close();
                 stmt1.close();
