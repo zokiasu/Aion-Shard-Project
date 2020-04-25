@@ -40,7 +40,6 @@ public class GoldPackAction extends AbstractItemAction {
     public void act(Player player, Item parentItem, Item targetItem) {
         
         if(parentItem.getItemId() == 188710151){
-            PacketSendUtility.sendMessage(player, "Ah que coucou.");
             
             if (!player.getInventory().decreaseByObjectId(parentItem.getObjectId(), 1)) {
                 return;
@@ -50,7 +49,6 @@ public class GoldPackAction extends AbstractItemAction {
             Connection con = null;
 
             try {
-                PacketSendUtility.sendMessage(player, "Try ok.");
                 final Player player1 = player;
                 String LOGIN_DATABASE = GSConfig.LOGINSERVER_NAME;
                 int actualToll = 0;
@@ -65,8 +63,6 @@ public class GoldPackAction extends AbstractItemAction {
                 }
                 resultSet.close();
                 stmt1.close();
-
-                PacketSendUtility.sendMessage(player, "You had " + actualToll + " coins.");
                 
                 actualToll = actualToll + 100;
 
@@ -79,7 +75,6 @@ public class GoldPackAction extends AbstractItemAction {
                 stmt2.execute();
                 stmt2.close();
             } catch (Exception e) {
-                PacketSendUtility.sendMessage(player, "Try Fail.");
                 return;
             }
 
