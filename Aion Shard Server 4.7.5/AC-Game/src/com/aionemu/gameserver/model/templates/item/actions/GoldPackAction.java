@@ -66,7 +66,7 @@ public class GoldPackAction extends AbstractItemAction {
                 
                 actualToll = actualToll + 100;
 
-                PacketSendUtility.sendMessage(player, "With the 'Shard Coin' item you have won 100 coins.");
+                PacketSendUtility.sendMessage(player, "You have won 100 coins with \"Shard Coin\".");
                 PacketSendUtility.sendMessage(player, "Now you have " + actualToll + " coins.");
 
                 PreparedStatement stmt2 = con.prepareStatement("UPDATE " + LOGIN_DATABASE +".account_data set "+ LOGIN_DATABASE +".account_data.toll = ? where " + LOGIN_DATABASE + ".account_data.name = ?");
