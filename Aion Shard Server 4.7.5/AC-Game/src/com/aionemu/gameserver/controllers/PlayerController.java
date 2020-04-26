@@ -258,7 +258,7 @@ public class PlayerController extends CreatureController<Player> {
     /**
      * {@inheritDoc} Should only be triggered from one place (life stats)
      */
-    // TODO [AT] move
+    // TODO [AT] move Not found
     public void onEnterWorld() {
 
         InstanceService.onEnterInstance(getOwner());
@@ -286,7 +286,7 @@ public class PlayerController extends CreatureController<Player> {
         }
     }
 
-    // TODO [AT] move
+    // TODO [AT] move Not found
     public void onLeaveWorld() {
         SerialKillerService.getInstance().onLeaveMap(getOwner());
         ArenaMasterService.getInstance().onLeaveInstance(getOwner());

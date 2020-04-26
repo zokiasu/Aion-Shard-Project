@@ -383,7 +383,7 @@ public class FFAInstance extends GeneralInstanceHandler {
         }
 
     }
-//MAKE MANUAL SK KILL SET IN .FFA
+    //MAKE MANUAL SK KILL SET IN .FFA
     public void giveKillMsgWithKills(Player winner, Player loser){
         int TotalKillsNow = winner.getSpecialKills();
         winner.setSpecialKills(TotalKillsNow + 1);

@@ -157,9 +157,10 @@ public class cmd_dye extends PlayerCommand {
             }
         }
 
-        if (!player.isGM()) {
+        /*if (!player.isGM()) {
             player.getInventory().decreaseKinah(price);
-        }
+        }*/
+        player.getInventory().decreaseKinah(price);
 
         for (Item targetItem : target.getEquipment().getEquippedItemsWithoutStigmaOld()) {
             if (color.equals("no")) {

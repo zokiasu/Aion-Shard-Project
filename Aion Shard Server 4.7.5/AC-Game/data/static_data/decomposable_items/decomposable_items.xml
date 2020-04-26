@@ -22059,7 +22059,6 @@
         <decomposable item_id="188052662" decomposable_name="Mystery Stigma"/>
         <decomposable item_id="188052663" decomposable_name="Enigma Stigma"/>
         <decomposable item_id="188052664" decomposable_name="Occult Stigma"/>
-        <decomposable item_id="188052665" decomposable_name="Secret Stigma"/>
         <decomposable item_id="188052666" decomposable_name="Godstone Box">
             <items chance="3.44">
                 <item id="168000074" name="Godstone: Bollvig's Tragedy"/>
@@ -28755,6 +28754,7 @@
                 <item id="188710074" name="AionShard Pack (30 Days)" count="1"/>
                 <item id="169610140" name="Aion's Chosen (30 Days)" count="1"/>
                 <item id="190100131" name="Lustrous Skymane" count="1"/>
+                <item id="188710151" name="Shard Coin" count="5"/>
             </items>
         </decomposable>
         <decomposable item_id="188052876" decomposable_name="Glorious reward for tester">
@@ -28762,6 +28762,7 @@
                 <item id="188710074" name="AionShard Pack (30 Days)" count="1"/>
                 <item id="169610152" name="AionShard Tester" count="1"/>
                 <item id="190100100" name="Dragon of valiant testers" count="1"/>
+                <item id="188710151" name="Shard Coin" count="10"/>
             </items>
         </decomposable>
         <decomposable item_id="188052880" decomposable_name="Supreme Reward for testers">
@@ -28769,6 +28770,133 @@
                 <item id="188710074" name="AionShard Pack (30 Days)" count="1"/>
                 <item id="169610152" name="AionShard Tester" count="1"/>
                 <item id="190100100" name="Dragon of valiant testers" count="1"/>
+                <item id="188710151" name="Shard Coin" count="15"/>
+            </items>
+        </decomposable>
+        <!-- Stigma sup de départ -->
+        <decomposable item_id="188052665" decomposable_name="Secret Stigma">
+            <items>
+                <item id="140000221" name="Precision Cut I" player_class="GLADIATOR"/>
+                <item id="140000222" name="Berserking I" player_class="GLADIATOR"/>
+                <item id="140000223" name="Spite Strike I" player_class="GLADIATOR"/>
+                <item id="140000224" name="Sharp Strike I" player_class="GLADIATOR"/>
+                <item id="140000227" name="Severe Precision Cut I" player_class="GLADIATOR"/>
+                <item id="140000227" name="Vicious Blow I" player_class="GLADIATOR"/>
+                <item id="140000319" name="Tendon Slice I" player_class="GLADIATOR"/>
+                <item id="140000319" name="Whirling Strike I" player_class="GLADIATOR"/>
+                <item id="140000329" name="Sure Strike I" player_class="GLADIATOR"/>
+                <item id="140000331" name="Draining Sword I" player_class="GLADIATOR"/>
+
+                <item id="140000232" name="Prayer of Resilience I" player_class="TEMPLAR"/>
+                <item id="140000233" name="Prayer of Victory I" player_class="TEMPLAR"/>
+                <item id="140000234" name="Divine Justice I" player_class="TEMPLAR"/>
+                <item id="140000235" name="Magic Smash I" player_class="TEMPLAR"/>
+                <item id="140000237" name="Shield of Faith I" player_class="TEMPLAR"/>
+                <item id="140000238" name="Empyrean Fury I" player_class="TEMPLAR"/>
+                <item id="140000346" name="Threatening Taunt I" player_class="TEMPLAR"/>
+                <item id="140000347" name="Punishing Wave I" player_class="TEMPLAR"/>
+                <item id="140000354" name="Empyrean Providence I" player_class="TEMPLAR"/>
+                <item id="140000357" name="Shieldburst I" player_class="TEMPLAR"/>
+
+                <item id="140000256" name="Beastly Scar I" player_class="ASSASSIN"/>
+                <item id="140000257" name="Agonizing Slash I" player_class="ASSASSIN"/>
+                <item id="140000258" name="Apply Lethal Venom I" player_class="ASSASSIN"/>
+                <item id="140000259" name="Lightning Slash I" player_class="ASSASSIN"/>
+                <item id="140000261" name="Agony Rune I" player_class="ASSASSIN"/>
+                <item id="140000262" name="Dash and Slash I" player_class="ASSASSIN"/>
+                <item id="140000399" name="Explosive Burst I" player_class="ASSASSIN"/>
+                <item id="140000400" name="Sensory Boost I" player_class="ASSASSIN"/>
+                <item id="140000410" name="Signet Silence I" player_class="ASSASSIN"/>
+                <item id="140000411" name="Quickening Doom I" player_class="ASSASSIN"/>
+
+                <item id="140000244" name="Gale Arrow I" player_class="RANGER"/>
+                <item id="140000245" name="Speed of the Wind I" player_class="RANGER"/>
+                <item id="140000246" name="Explosive Arrow I" player_class="RANGER"/>
+                <item id="140000247" name="Hunter's Might I" player_class="RANGER"/>
+                <item id="140000250" name="Heart Shot I" player_class="RANGER"/>
+                <item id="140000251" name="Lethal Arrow I" player_class="RANGER"/>
+                <item id="140000367" name="Blazing Trap I" player_class="RANGER"/>
+                <item id="140000368" name="Sharpen Arrows I" player_class="RANGER"/>
+                <item id="140000381" name="Lightning Arrows I" player_class="RANGER"/>
+                <item id="140000382" name="Agonizing Arrows I" player_class="RANGER"/>
+
+                <item id="140000290" name="Illusion Storm I" player_class="SORCERER"/>
+                <item id="140000291" name="Illusion I" player_class="SORCERER"/>
+                <item id="140000292" name="Summon Rock I" player_class="SORCERER"/>
+                <item id="140000293" name="Supplication of Focus I" player_class="SORCERER"/>
+                <item id="140000295" name="Sleeping Storm I" player_class="SORCERER"/>
+                <item id="140000296" name="Flame Spray I" player_class="SORCERER"/>
+                <item id="140000465" name="Elemental Ward I" player_class="SORCERER"/>
+                <item id="140000467" name="Arcane Thunderbolt I" player_class="SORCERER"/>
+                <item id="140000475" name="Wintry Armor I" player_class="SORCERER"/>
+                <item id="140000476" name="Glacial Shard I" player_class="SORCERER"/>
+
+                <item id="140000301" name="Summon Cyclone Servant I" player_class="SPIRIT_MASTER"/>
+                <item id="140000302" name="Armor Spirit I" player_class="SPIRIT_MASTER"/>
+                <item id="140000303" name="Shackle of Vulnerability I" player_class="SPIRIT_MASTER"/>
+                <item id="140000304" name="Magic Implosion I" player_class="SPIRIT_MASTER"/>
+                <item id="140000306" name="Spirit Ruinous Offensive I" player_class="SPIRIT_MASTER"/>
+                <item id="140000307" name="Infernal Pain I" player_class="SPIRIT_MASTER"/>
+                <item id="140000486" name="Healing Spirit I" player_class="SPIRIT_MASTER"/>
+                <item id="140000488" name="Hand of Torpor I" player_class="SPIRIT_MASTER"/>
+                <item id="140000493" name="Spirit Hypnosis I" player_class="SPIRIT_MASTER"/>
+                <item id="140000496" name="Infernal Bligh I" player_class="SPIRIT_MASTER"/>
+
+                <item id="140000266" name="Splendor of Rebirth I" player_class="CLERIC"/>
+                <item id="140000267" name="Shatter Memory I" player_class="CLERIC"/>
+                <item id="140000268" name="Chain of Suffering I" player_class="CLERIC"/>
+                <item id="140000269" name="Hand of Reincarnation I" player_class="CLERIC"/>
+                <item id="140000271" name="Ripple of Purification I" player_class="CLERIC"/>
+                <item id="140000273" name="Summon Noble Energy I" player_class="CLERIC"/>
+                <item id="140000426" name="Summon Healing Servant I" player_class="CLERIC"/>
+                <item id="140000427" name="Enfeebling Burst I" player_class="CLERIC"/>
+                <item id="140000442" name="Benevolence I" player_class="CLERIC"/>
+                <item id="140000443" name="Call Lightning I" player_class="CLERIC"/>
+
+                <item id="140000279" name="Stamina Restoration I" player_class="CHANTER"/>
+                <item id="140000280" name="Blessing of Wind I" player_class="CHANTER"/>
+                <item id="140000281" name="Magic Recovery I" player_class="CHANTER"/>
+                <item id="140000282" name="Blessing of Stone I" player_class="CHANTER"/>
+                <item id="140000285" name="Mountain Crash I" player_class="CHANTER"/>
+                <item id="140000286" name="Invicibility Mantra I" player_class="CHANTER"/>
+                <item id="140000450" name="Disoriening Blow I" player_class="CHANTER"/>
+                <item id="140000451" name="Healing Burst I" player_class="CHANTER"/>
+                <item id="140000459" name="Elemental Screen I" player_class="CHANTER"/>
+                <item id="140000497" name="Numbing Blow I" player_class="CHANTER"/>
+
+                <item id="140001040" name="Particle Whip I" player_class="RIDER"/>
+                <item id="140001047" name="Stability Thrusters I" player_class="RIDER"/>
+                <item id="140001069" name="Debilitating Blade I" player_class="RIDER"/>
+                <item id="140001076" name="Boost Mobility I" player_class="RIDER"/>
+                <item id="140001054" name="Rain of Knuckles I" player_class="RIDER"/>
+                <item id="140001060" name="Aethercharged Steel I" player_class="RIDER"/>
+                <item id="140001079" name="Convulsion Beam I" player_class="RIDER"/>
+                <item id="140001085" name="Trauma Plate Trigger I" player_class="RIDER"/>
+                <item id="140001065" name="Meteor Strike I" player_class="RIDER"/>
+                <item id="140001090" name="Kinetic Bulwark I" player_class="RIDER"/>
+
+                <item id="140000913" name="Juggernaut Cannon I" player_class="GUNNER"/>
+                <item id="140000960" name="Steady Fire I" player_class="GUNNER"/>
+                <item id="140000987" name="Fiery Blast I" player_class="GUNNER"/>
+                <item id="140000994" name="Hemorrhage Shot I" player_class="GUNNER"/>
+                <item id="140000908" name="Paralysis Cannon I" player_class="GUNNER"/>
+                <item id="140000921" name="Pressurized Chamber I" player_class="GUNNER"/>
+                <item id="140000928" name="Autoload I" player_class="GUNNER"/>
+                <item id="140000968" name="Shock and Awe I" player_class="GUNNER"/>
+                <item id="140001091" name="Paralysis Cannon I" player_class="GUNNER"/>
+                <item id="140000951" name="Shellshock I" player_class="GUNNER"/>
+                <item id="140000982" name="Dazzling Fire I" player_class="GUNNER"/>
+
+                <item id="140000860" name="Exultation I" player_class="BARD"/>
+                <item id="140000861" name="Impassion I" player_class="BARD"/>
+                <item id="140000884" name="Paean of Pain I" player_class="BARD"/>
+                <item id="140000899" name="Resonant Hymn I" player_class="BARD"/>
+                <item id="140000857" name="Staggered Rest I" player_class="BARD"/>
+                <item id="140000868" name="Myt. 2: Summer" player_class="BARD"/>
+                <item id="140000873" name="Myt. 3: Autumn" player_class="BARD"/>
+                <item id="140000879" name="Soothing Hymn I" player_class="BARD"/>
+                <item id="140000864" name="Chorus of Blessing I" player_class="BARD"/>
+                <item id="140000874" name="Treble Cleave I" player_class="BARD"/>
             </items>
         </decomposable>
     </decomposable_items>
