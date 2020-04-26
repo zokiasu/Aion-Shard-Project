@@ -74,6 +74,7 @@ public class GoldPackAction extends AbstractItemAction {
                 stmt2.setString(2, player1.getAcountName());
                 stmt2.execute();
                 stmt2.close();
+                con.close();
             } catch (Exception e) {
                 return;
             }
@@ -127,6 +128,7 @@ public class GoldPackAction extends AbstractItemAction {
                 stmt2.setString(2, player1.getAcountName());
                 stmt2.execute();
                 stmt2.close();
+                con.close();
 
                 Date date = new Date(deletionDate.getTime());
                 DateFormat shortDateFormat = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT);
