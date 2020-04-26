@@ -70,7 +70,7 @@ public class AddShop extends AdminCommand {
 
         switch (itemCategory){
             case 0 :
-                itemCategoryName = "Boost";
+                itemCategoryName = "Premium";
                 if(itemId == 188710074) {
                     itemDesc = "- Administrator's Boon 30 d\n " +
                             "- Title Top Gun 30 d\n" +
@@ -224,7 +224,7 @@ public class AddShop extends AdminCommand {
     @Override
     public void onFail(Player player, String message) {
         PacketSendUtility.sendMessage(player, "ID for Category :");
-        PacketSendUtility.sendMessage(player, "0 : Boost / 1 : Miscellaneous / 2 : Ticket");
+        PacketSendUtility.sendMessage(player, "0 : Premium / 1 : Miscellaneous / 2 : Ticket");
         PacketSendUtility.sendMessage(player, "3 : Candy / 4 : Emotion Card-Motion Card / 5 : Pet");
         PacketSendUtility.sendMessage(player, "6 : Mount / 7 : Skin / 8 : Skill Skin");
         PacketSendUtility.sendMessage(player, "9 : Housing");

@@ -313,6 +313,8 @@ public class CommandsConfig {
     public static int REVENGE;
     @Property(key = "rp", defaultValue = "0")
     public static int RP;
+    @Property(key = "report", defaultValue = "0")
+    public static int REPORT;
     @Property(key = "shop", defaultValue = "0")
     public static int SHOP;
     @Property(key = "skills", defaultValue = "0")
