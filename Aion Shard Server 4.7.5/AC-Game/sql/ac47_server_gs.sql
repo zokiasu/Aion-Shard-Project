@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Hôte :                        127.0.0.1
--- Version du serveur:           5.6.28-log - MySQL Community Server (GPL)
+-- Version du serveur:           5.6.47-log - MySQL Community Server (GPL)
 -- SE du serveur:                Win64
 -- HeidiSQL Version:             11.0.0.5919
 -- --------------------------------------------------------
@@ -13,7 +13,7 @@
 
 
 -- Listage de la structure de la base pour ac47_server_gs
-CREATE DATABASE IF NOT EXISTS `ac47_server_gs` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE IF NOT EXISTS `ac47_server_gs` /*!40100 DEFAULT CHARACTER SET armscii8 COLLATE armscii8_bin */;
 USE `ac47_server_gs`;
 
 -- Listage de la structure de la table ac47_server_gs. abyss_rank
@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS `bookmark` (
   `z` float NOT NULL,
   `world_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `broker` (
   PRIMARY KEY (`id`),
   KEY `seller_id` (`seller_id`),
   CONSTRAINT `broker_ibfk_1` FOREIGN KEY (`seller_id`) REFERENCES `players` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -159,7 +159,7 @@ CREATE TABLE IF NOT EXISTS `guides` (
   PRIMARY KEY (`guide_id`),
   KEY `player_id` (`player_id`),
   CONSTRAINT `guides_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=368630 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=341939 DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -385,7 +385,7 @@ CREATE TABLE IF NOT EXISTS `legion_history` (
   PRIMARY KEY (`id`),
   KEY `legion_id` (`legion_id`),
   CONSTRAINT `legion_history_ibfk_1` FOREIGN KEY (`legion_id`) REFERENCES `legions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -888,14 +888,14 @@ CREATE TABLE IF NOT EXISTS `server_variables` (
 CREATE TABLE IF NOT EXISTS `shop` (
   `object_id` int(11) NOT NULL AUTO_INCREMENT,
   `item_id` int(11) NOT NULL,
-  `item_name` varchar(255) NOT NULL,
-  `item_desc` varchar(255) DEFAULT NULL,
-  `item_category` varchar(255) NOT NULL,
+  `item_name` longtext,
+  `item_desc` longtext,
+  `item_category` longtext,
   `item_count` bigint(13) NOT NULL DEFAULT '1',
   `price` int(11) NOT NULL,
-  `item_image_path` varchar(255) NOT NULL,
+  `item_image_path` longtext NOT NULL,
   PRIMARY KEY (`object_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1102 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=233 DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 

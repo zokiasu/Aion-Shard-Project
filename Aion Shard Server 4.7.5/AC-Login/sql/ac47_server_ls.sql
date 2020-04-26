@@ -30,14 +30,15 @@ CREATE TABLE IF NOT EXISTS `account_data` (
   `last_mac` varchar(20) NOT NULL DEFAULT 'xx-xx-xx-xx-xx-xx',
   `ip_force` varchar(20) DEFAULT NULL,
   `expire` date DEFAULT NULL,
-  `toll` bigint(13) NOT NULL DEFAULT '0',
+  `toll` int(11) NOT NULL DEFAULT '0',
   `balance` float DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
   `question` varchar(50) DEFAULT NULL,
   `answer` varchar(50) DEFAULT NULL,
+  `token` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=60 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=74 DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
@@ -88,7 +89,7 @@ CREATE TABLE IF NOT EXISTS `banned_ip` (
   `time_end` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `mask` (`mask`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Les données exportées n'étaient pas sélectionnées.
 
