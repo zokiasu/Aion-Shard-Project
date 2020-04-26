@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="700010000">
+        <!-- AionShard Craft Provider -->
+        <spawn npc_id="800573" respawn_time="300">
+            <spot x="1346.4642" y="1795.2844" z="100.857025" h="7"/>
+            <spot x="1351.7728" y="1936.5822" z="100.84961" h="87"/>
+        </spawn>
         <!-- <Tezz's House Information> -->
         <spawn npc_id="730526" respawn_time="300">
             <spot x="1178.576" y="1853.733" z="99.750" h="18"/>

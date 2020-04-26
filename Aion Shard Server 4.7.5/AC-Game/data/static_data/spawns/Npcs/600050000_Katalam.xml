@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="600050000">
+        <!-- Abyss Teleporter Elyos -->
+        <spawn npc_id="730059" respawn_time="295">
+            <spot h="9" x="400.9637" y="2579.0544" z="140.74887"/>
+        </spawn>
+        <!-- Abyss Teleporter Asmo -->
+        <spawn npc_id="730062" respawn_time="295">
+            <spot h="41" x="359.2288" y="301.06863" z="276.375"/>
+        </spawn>
         <!-- Mailbox Elyos -->
         <spawn npc_id="700000" respawn_time="295">
             <spot h="0" x="362.27448" y="2721.8372" z="143.2707"/>
