@@ -120,9 +120,12 @@ public class AddShop extends AdminCommand {
                 itemCategoryName = "Weapon Skin";
                 break;
             case 9 :
-                itemCategoryName = "Skill Skin";
+                itemCategoryName = "Hat Skin";
                 break;
             case 10 :
+                itemCategoryName = "Skill Skin";
+                break;
+            case 11 :
                 itemCategoryName = "Housing";
                 break;
             default:
@@ -229,8 +232,8 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "ID for Category :");
         PacketSendUtility.sendMessage(player, "0 : Premium / 1 : Miscellaneous / 2 : Ticket");
         PacketSendUtility.sendMessage(player, "3 : Candy / 4 : Emotion Card-Motion Card / 5 : Pet");
-        PacketSendUtility.sendMessage(player, "6 : Mount / 7 : Skin / 8 : Weapon Skin / 9: Skill Skin");
-        PacketSendUtility.sendMessage(player, "10 : Housing");
+        PacketSendUtility.sendMessage(player, "6 : Mount / 7 : Skin / 8 : Weapon Skin / 9: Hat Skin");
+        PacketSendUtility.sendMessage(player, "10: Skill Skin / 11 : Housing");
         PacketSendUtility.sendMessage(player, "syntax //addshop <item Id> <item Price> <item Category> <item Count>");
     }
 
