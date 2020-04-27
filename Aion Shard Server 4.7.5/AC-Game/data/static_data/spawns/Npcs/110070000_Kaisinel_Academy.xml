@@ -224,11 +224,6 @@
         <spawn npc_id="804674" respawn_time="295">
             <spot x="508.83273" y="404.73236" z="126.78955" h="60"/>
         </spawn>
-        <!-- Nicorun
-        <Honorable Ceramium Trader> -->
-        <spawn npc_id="832898" respawn_time="295">
-            <spot x="553.7046" y="245.64928" z="127.28589" h="48"/>
-        </spawn>
         <!-- Baloy
         <Honorable Ceramium Trader> -->
         <spawn npc_id="832903" respawn_time="295">

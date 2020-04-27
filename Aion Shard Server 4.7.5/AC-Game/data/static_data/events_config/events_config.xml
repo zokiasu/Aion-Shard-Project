@@ -3021,7 +3021,7 @@
                     </spawn>
                     <!-- Medical Tent -->
                     <spawn npc_id="831446" respawn_time="295">
-                        <spot x="943.1000" y="2968.8000" z="1646.3000" h="44"/>
+                        <spot x="943.1000" y="2968.8000" z="1646.3000" h="45"/>
                     </spawn>
                     <!-- Medical Supplies -->
                     <spawn npc_id="831447" respawn_time="295">

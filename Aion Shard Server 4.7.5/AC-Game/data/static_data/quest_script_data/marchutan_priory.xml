@@ -19,7 +19,7 @@
     <!-- COLLECTING QUESTS -->
     <item_collecting id="47002" start_npc_ids="0" end_npc_ids="799864"/>
     <item_collecting id="47005" start_npc_ids="0" end_npc_ids="799872"/>
-    <item_collecting id="80671" start_npc_ids="832900" end_npc_ids="832900"/>
+    <item_collecting id="80671" start_npc_ids="832904" end_npc_ids="832904"/>
     <item_collecting id="80672" start_npc_ids="832904" end_npc_ids="832904"/>
     <!-- HUNTING QUESTS -->
     <mentor_monster_hunt id="47001" start_npc_ids="0" end_npc_ids="799864">

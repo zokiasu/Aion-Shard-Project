@@ -219,11 +219,6 @@
         <spawn npc_id="804676" respawn_time="295">
             <spot x="398.70294" y="255.47528" z="93.112526" h="90"/>
         </spawn>
-        <!-- Naptil
-        <Honorable Ceramium Trader> -->
-        <spawn npc_id="832900" respawn_time="295">
-            <spot x="542.75116" y="300.5606" z="93.50706" h="0"/>
-        </spawn>
         <!-- Cusefort
         <Honorable Ceramium Trader> -->
         <spawn npc_id="832904" respawn_time="295">
