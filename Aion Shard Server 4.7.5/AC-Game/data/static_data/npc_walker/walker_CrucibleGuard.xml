@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_walker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <walker_template route_id="CRUCIBLEGUARDMARCHUTANPRIORY000000000000" pool="1">
+        <routestep x="559.539" y="230.478" z="93.4819" step="1"/>
+        <routestep x="555.309" y="230.518" z="93.4765" step="2"/>
+        <routestep x="546.689" y="230.483" z="93.49" step="3"/>
+        <routestep x="541.884" y="230.464" z="93.49" step="4"/>
+        <routestep x="536.634" y="230.443" z="93.49" step="5"/>
+        <routestep x="541.884" y="230.464" z="93.49" step="6"/>
+        <routestep x="546.689" y="230.483" z="93.49" step="7"/>
+        <routestep x="555.309" y="230.518" z="93.4765" step="8"/>
+        <routestep x="559.539" y="230.478" z="93.4819" step="9"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDMARCHUTANPRIORY000000000001" pool="1">
+        <routestep step="1" z="93.49" y="332.06668" x="542.67145"/>
+        <routestep step="2" z="93.49" y="336.41174" x="547.7312"/>
+        <routestep step="3" z="93.49" y="334.52795" x="554.6508"/>
+        <routestep step="4" z="93.49" y="328.05865" x="558.017"/>
+        <routestep step="5" z="93.49" y="321.70834" x="554.40094"/>
+        <routestep step="6" z="93.49" y="320.12933" x="549.048"/>
+        <routestep step="7" z="93.49" y="323.9508" x="542.197"/>
+        <routestep step="8" z="93.49" y="332.06668" x="542.67145"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDMARCHUTANPRIORY000000000002" pool="1">
+        <routestep x="487.932" y="250.316" z="93.52" step="1"/>
+        <routestep x="493.63" y="250.308" z="93.52" step="2"/>
+        <routestep x="503.712" y="250.295" z="93.49" step="3"/>
+        <routestep x="515.348" y="250.281" z="93.49" step="4"/>
+        <routestep x="523.552" y="250.27" z="93.49" step="5"/>
+        <routestep x="532.151" y="250.259" z="93.49" step="6"/>
+        <routestep x="541.699" y="250.247" z="93.52" step="7"/>
+        <routestep x="532.151" y="250.259" z="93.49" step="8"/>
+        <routestep x="523.552" y="250.27" z="93.49" step="9"/>
+        <routestep x="515.348" y="250.281" z="93.49" step="10"/>
+        <routestep x="503.712" y="250.295" z="93.49" step="11"/>
+        <routestep x="493.63" y="250.308" z="93.52" step="12"/>
+        <routestep x="487.932" y="250.316" z="93.52" step="13"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDMARCHUTANPRIORY000000000003" pool="1">
+        <routestep step="1" z="93.48658" y="232.90674" x="563.22003"/>
+        <routestep step="2" z="93.48648" y="242.91246" x="563.1697"/>
+        <routestep step="3" z="93.478806" y="255.87982" x="563.01263"/>
+        <routestep step="4" z="93.46852" y="269.5816" x="562.88666"/>
+        <routestep step="5" z="93.478806" y="255.87982" x="563.01263"/>
+        <routestep step="6" z="93.48648" y="242.91246" x="563.1697"/>
+        <routestep step="7" z="93.48658" y="232.90674" x="563.22003"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDMARCHUTANPRIORY000000000004" pool="1">
+        <routestep step="1" z="93.46852" y="263.30215" x="549.381"/>
+        <routestep step="2" z="93.46852" y="270.8571" x="549.3317"/>
+        <routestep step="3" z="93.46852" y="280.77484" x="549.2671"/>
+        <routestep step="4" z="93.50706" y="289.56894" x="549.20966"/>
+        <routestep step="5" z="93.50706" y="299.1163" x="549.14746"/>
+        <routestep step="6" z="93.4828" y="307.3838" x="549.0934"/>
+        <routestep step="7" z="93.49" y="316.33063" x="549.0351"/>
+        <routestep step="8" z="93.4828" y="307.3838" x="549.0934"/>
+        <routestep step="9" z="93.50706" y="299.1163" x="549.14746"/>
+        <routestep step="10" z="93.50706" y="289.56894" x="549.20966"/>
+        <routestep step="11" z="93.46852" y="280.77484" x="549.2671"/>
+        <routestep step="12" z="93.46852" y="270.8571" x="549.3317"/>
+        <routestep step="13" z="93.46852" y="263.30215" x="549.381"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDKAISINELACADEMY000000000000" pool="1">
+        <routestep x="503.584" y="326.516" z="126.935" step="1"/>
+        <routestep x="503.592" y="322.704" z="126.935" step="2"/>
+        <routestep x="503.6" y="318.265" z="126.935" step="3"/>
+        <routestep x="503.608" y="312.93" z="126.935" step="4"/>
+        <routestep x="503.619" y="306.358" z="126.935" step="5"/>
+        <routestep x="503.629" y="300.596" z="126.935" step="6"/>
+        <routestep x="503.637" y="295.83" z="127.339" step="7"/>
+        <routestep x="503.647" y="289.894" z="127.357" step="8"/>
+        <routestep x="503.658" y="283.458" z="127.214" step="9"/>
+        <routestep x="503.669" y="276.788" z="126.976" step="10"/>
+        <routestep x="503.678" y="271.043" z="126.976" step="11"/>
+        <routestep x="503.688" y="265.269" z="127.008" step="12"/>
+        <routestep x="503.678" y="271.043" z="126.976" step="13"/>
+        <routestep x="503.669" y="276.788" z="126.976" step="14"/>
+        <routestep x="503.658" y="283.458" z="127.214" step="15"/>
+        <routestep x="503.647" y="289.894" z="127.357" step="16"/>
+        <routestep x="503.637" y="295.83" z="127.339" step="17"/>
+        <routestep x="503.629" y="300.596" z="126.935" step="18"/>
+        <routestep x="503.619" y="306.358" z="126.935" step="19"/>
+        <routestep x="503.608" y="312.93" z="126.935" step="20"/>
+        <routestep x="503.6" y="318.265" z="126.935" step="21"/>
+        <routestep x="503.592" y="322.704" z="126.935" step="22"/>
+        <routestep x="503.584" y="326.516" z="126.935" step="23"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDKAISINELACADEMY000000000001" pool="1">
+        <routestep x="517.692" y="230.586" z="126.976" step="1"/>
+        <routestep x="513.752" y="230.602" z="126.976" step="2"/>
+        <routestep x="509.593" y="230.619" z="126.976" step="3"/>
+        <routestep x="505.628" y="230.635" z="126.976" step="4"/>
+        <routestep x="501.303" y="230.652" z="126.976" step="5"/>
+        <routestep x="495.328" y="230.676" z="126.976" step="6"/>
+        <routestep x="491.112" y="230.693" z="126.976" step="7"/>
+        <routestep x="485.226" y="230.659" z="126.976" step="8"/>
+        <routestep x="479.206" y="230.683" z="126.976" step="9"/>
+        <routestep x="485.226" y="230.659" z="126.976" step="10"/>
+        <routestep x="491.112" y="230.693" z="126.976" step="11"/>
+        <routestep x="495.328" y="230.676" z="126.976" step="12"/>
+        <routestep x="501.303" y="230.652" z="126.976" step="13"/>
+        <routestep x="505.628" y="230.635" z="126.976" step="14"/>
+        <routestep x="509.593" y="230.619" z="126.976" step="15"/>
+        <routestep x="513.752" y="230.602" z="126.976" step="16"/>
+        <routestep x="517.692" y="230.586" z="126.976" step="17"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDKAISINELACADEMY000000000002" pool="1">
+        <routestep step="1" x="589.33966" y="259.24637" z="127.00829"/>
+        <routestep step="2" x="583.4931" y="260.3423" z="127.00828"/>
+        <routestep step="3" x="578.34937" y="257.3199" z="127.00828"/>
+        <routestep step="4" x="576.5049" y="251.68605" z="127.00828"/>
+        <routestep step="5" x="578.43353" y="246.24158" z="127.00827"/>
+        <routestep step="6" x="583.7671" y="243.3096" z="127.00828"/>
+        <routestep step="7" x="589.44293" y="244.37068" z="127.00828"/>
+        <routestep step="8" x="593.32837" y="249.00758" z="127.00828"/>
+        <routestep step="9" x="593.1205" y="254.74036" z="127.00829"/>
+        <routestep step="10" x="589.33966" y="259.24637" z="127.00829"/>
+    </walker_template>
+    <walker_template route_id="CRUCIBLEGUARDKAISINELACADEMY000000000003" pool="1">
+        <routestep step="1" x="525.306" y="252.89603" z="127.143074"/>
+        <routestep step="2" x="533.49963" y="252.96446" z="127.44681"/>
+        <routestep step="3" x="543.15094" y="252.89487" z="127.2859"/>
+        <routestep step="4" x="551.37213" y="252.97305" z="127.2859"/>
+        <routestep step="5" x="559.51965" y="253.04501" z="127.2859"/>
+        <routestep step="6" x="569.3812" y="252.95667" z="127.01806"/>
+        <routestep step="7" x="559.51965" y="253.04501" z="127.2859"/>
+        <routestep step="8" x="551.37213" y="252.97305" z="127.2859"/>
+        <routestep step="9" x="543.15094" y="252.89487" z="127.2859"/>
+        <routestep step="10" x="533.49963" y="252.96446" z="127.44681"/>
+        <routestep step="11" x="525.306" y="252.89603" z="127.143074"/>
+    </walker_template>
+</npc_walker>

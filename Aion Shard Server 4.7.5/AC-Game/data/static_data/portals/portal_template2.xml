@@ -2980,6 +2980,57 @@
     </portal_dialog>
 	<!-- BARUNA DIMENSIONAL LAB END -->
 
+    <!-- PANESTERRA 4.7 -->
+    <!-- Belus To Aspida -->
+    <portal_dialog npc_id="731013">
+        <portal_path dialog="104" loc_id="4000418">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Belus To Aspida -->
+    <portal_dialog npc_id="731014">
+        <portal_path dialog="104" loc_id="4000417">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Aspida To Belus -->
+    <portal_dialog npc_id="731017">
+        <portal_path dialog="104" loc_id="4000218">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Aspida To Belus -->
+    <portal_dialog npc_id="731018">
+        <portal_path dialog="104" loc_id="4000220">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Atanatos To Disillon -->
+    <portal_dialog npc_id="731021">
+        <portal_path dialog="104" loc_id="4000618">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Atanatos To Disillon -->
+    <portal_dialog npc_id="731022">
+        <portal_path dialog="104" loc_id="4000620">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Disillon To Atanatos -->
+    <portal_dialog npc_id="731025">
+        <portal_path dialog="104" loc_id="4000518">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- Disillon To Atanatos -->
+    <portal_dialog npc_id="731026">
+        <portal_path dialog="104" loc_id="4000520">
+            <portal_req min_level="65" err_level="27"/>
+        </portal_path>
+    </portal_dialog>
+    <!-- PANESTERRA END -->
+
     <!-- **************** PORTAL SCROLL **************** -->
     <!-- SCROLL TELEPORTS ELYOS -->
     <portal_scroll name="LC1_RETURN_AREA_1">

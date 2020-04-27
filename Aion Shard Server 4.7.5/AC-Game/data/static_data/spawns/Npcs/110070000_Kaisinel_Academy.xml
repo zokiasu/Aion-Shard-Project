@@ -43,21 +43,46 @@
         </spawn> -->
         <!-- Crucible Guard -->
         <spawn npc_id="799633" respawn_time="295">
-            <spot x="495.8050" y="217.4153" z="127.2953" h="30"/>
-            <spot x="513.9690" y="217.4179" z="127.2954" h="30"/>
-            <spot x="568.3924" y="240.6126" z="127.2458" h="15"/>
-            <spot x="569.0079" y="264.2847" z="127.2457" h="106"/>
-            <spot x="573.1162" y="235.9949" z="127.2457" h="15"/>
-            <spot x="574.3513" y="269.5636" z="127.2458" h="106"/>
-            <spot x="595.3439" y="269.6938" z="127.2458" h="76"/>
-            <spot x="596.4377" y="235.8395" z="127.2458" h="43"/>
-            <spot x="600.5625" y="264.3542" z="127.2458" h="76"/>
-            <spot x="601.4633" y="240.9161" z="127.2457" h="46"/>
+            <spot x="513.997" y="216.721" z="127.299" h="29"/>
+            <spot x="495.846" y="216.506" z="127.345" h="29"/>
+            <spot x="533.098" y="256.333" z="127.445" h="60"/>
+            <spot x="500.185" y="289.678" z="127.352" h="90"/>
+            <spot x="461.17" y="243.164" z="126.972" h="60"/>
+            <spot x="461.13" y="267.774" z="126.972" h="60"/>
+            <spot x="596.8723" y="234.23032" z="127.44238" h="44"/>
+            <spot x="595.78217" y="270.8527" z="127.44157" h="75"/>
+            <spot x="564.7853" y="249.71608" z="127.270386" h="0"/>
+            <spot x="591.5792" y="257.4536" z="127.0083" h="44" walker_id="CRUCIBLEGUARDKAISINELACADEMY000000000002"/>
+            <spot x="503.571" y="327.464" z="126.935" h="89" walker_id="CRUCIBLEGUARDKAISINELACADEMY000000000000"/>
         </spawn>
         <!-- Crucible Guard -->
         <spawn npc_id="799632" respawn_time="295">
-            <spot x="488.8033" y="217.3897" z="127.2954" h="30"/>
-            <spot x="506.9673" y="217.3922" z="127.2953" h="30"/>
+            <spot x="507.496" y="217.026" z="127.295" h="29"/>
+            <spot x="533.094" y="249.669" z="127.442" h="59"/>
+            <spot x="461.251" y="235.52" z="126.972" h="59"/>
+            <spot x="461.115" y="260.059" z="126.972" h="60"/>
+            <spot x="507.04" y="289.678" z="127.352" h="90"/>
+            <spot x="489.226" y="216.644" z="127.315" h="29"/>
+            <spot x="564.78516" y="256.47882" z="127.26962" h="0"/>
+            <spot x="602.9962" y="240.35365" z="127.44449" h="44"/>
+            <spot x="601.49097" y="265.1438" z="127.44102" h="75"/>
+            <spot x="519.98193" y="252.91771" z="126.97587" h="0" walker_id="CRUCIBLEGUARDKAISINELACADEMY000000000003"/>
+            <spot x="519.734" y="230.574" z="126.976" h="60" walker_id="CRUCIBLEGUARDKAISINELACADEMY000000000001"/>
+        </spawn>
+        <!-- Hall Guard
+        <Crucible Defender> -->
+        <spawn npc_id="702556" respawn_time="295">
+            <spot x="499.153" y="334.821" z="126.935" h="90"/>
+        </spawn>
+        <!-- Hall Guard
+        <Crucible Defender> -->
+        <spawn npc_id="702557" respawn_time="295">
+            <spot x="507.773" y="334.695" z="126.935" h="90"/>
+        </spawn>
+        <!-- Hall Guard
+        <Crucible Defender> -->
+        <spawn npc_id="702558" respawn_time="295">
+            <spot x="516.93" y="434.56" z="132.90" h="37"/>
         </spawn>
         <!-- Empyrean Crucible Entrance
         <spawn npc_id="730430" respawn_time="295">
@@ -198,6 +223,16 @@
         <!-- Hypsitos -->
         <spawn npc_id="804674" respawn_time="295">
             <spot x="508.83273" y="404.73236" z="126.78955" h="60"/>
+        </spawn>
+        <!-- Nicorun
+        <Honorable Ceramium Trader> -->
+        <spawn npc_id="832898" respawn_time="295">
+            <spot x="553.7046" y="245.64928" z="127.28589" h="48"/>
+        </spawn>
+        <!-- Baloy
+        <Honorable Ceramium Trader> -->
+        <spawn npc_id="832903" respawn_time="295">
+            <spot x="551.3356" y="245.31897" z="127.28589" h="30"/>
         </spawn>
     </spawn_map>
 </spawns>
