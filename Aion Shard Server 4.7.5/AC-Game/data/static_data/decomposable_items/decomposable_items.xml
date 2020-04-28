@@ -24835,7 +24835,7 @@
             <items chance="10.0">
                 <item id="100601426" name="Inherited Spellbook"/>
             </items>
-                <items chance="10.0">
+            <items chance="10.0">
             <item id="101501352" name="Inherited Staff"/>
             </items>
             <items chance="10.0">
