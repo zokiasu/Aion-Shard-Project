@@ -19771,7 +19771,12 @@
         <decomposable item_id="188052521" decomposable_name="Classy Gray Cat Set"/>
         <decomposable item_id="188052522" decomposable_name="Lovely Pink Rabbit Set"/>
         <decomposable item_id="188052523" decomposable_name="Classy Gray Rabbit Set"/>
-        <decomposable item_id="188052524" decomposable_name="Lovely Pink Raccoon Set"/>
+        <decomposable item_id="188052524" decomposable_name="Lovely Pink Raccoon Set">
+            <items>
+                <item id="125045140" name="Lovely Pink Raccoon Hat"/>
+                <item id="110900425" name="Lovely Pink Raccoon Suit"/>
+            </items>
+        </decomposable>
         <decomposable item_id="188052525" decomposable_name="Classy Gray Raccoon Set"/>
         <decomposable item_id="188052526" decomposable_name="Mysterious Green Sack">
             <items>

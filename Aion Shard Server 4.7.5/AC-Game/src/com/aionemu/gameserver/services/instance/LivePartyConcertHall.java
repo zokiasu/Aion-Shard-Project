@@ -182,7 +182,7 @@ public class LivePartyConcertHall {
 					log.info("[Live Party] The show begins...");
 			}
 			
-		}, 1200 * 1000, 1200 * 1000);//20 minutes to start
+		}, 300 * 1000, 300 * 1000);//5 minutes to start
 	}
 	
 	private ScheduledFuture<?> announceTask(int delayInMinutes) {
