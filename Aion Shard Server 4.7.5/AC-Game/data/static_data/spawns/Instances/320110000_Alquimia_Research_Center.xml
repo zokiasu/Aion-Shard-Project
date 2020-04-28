@@ -32,8 +32,8 @@
             <spot x="418.222" y="531.345" z="204.691" h="10"/>
             <spot x="406.659" y="553.236" z="204.7" h="40"/>
         </spawn>
-        <!-- Special Ambusher -->
-        <spawn npc_id="213957">
+        <!-- Special Guardian Ranger -->
+        <spawn npc_id="231765">
             <spot x="381.466" y="501.899" z="208.852" h="84"/>
             <spot x="538.615" y="523.098" z="199.735" h="114"/>
             <spot x="546.06" y="527.06" z="199.2548" h="56" walker_id="E829DC69CF3AA8B9E78C8D566FB2693C9C8E28DA"/>
@@ -57,8 +57,8 @@
         <spawn npc_id="730113">
             <spot x="396.1958" y="560.0437" z="207.67615" static_id="451"/>
         </spawn>
-        <!-- Expert Medic -->
-        <spawn npc_id="213958">
+        <!-- Special Guardian Cleric -->
+        <spawn npc_id="231764">
             <spot x="408.166" y="552.477" z="204.691" h="45"/>
             <spot x="452.924" y="549.341" z="204.691" h="29"/>
             <spot x="474.355" y="562.078" z="204.691" h="87"/>
@@ -75,8 +75,8 @@
         <spawn npc_id="213959">
             <spot x="470.56" y="533.1" z="204.69067" h="115" walker_id="1290B66B116D694FB694C3DC9F8A843D410018CE"/>
         </spawn>
-        <!-- Special Defender -->
-        <spawn npc_id="213952">
+        <!-- Special Guardian Templar -->
+        <spawn npc_id="231763">
             <spot x="401.991" y="533.995" z="204.691" h="52"/>
             <spot x="451.77" y="510.527" z="205.331" h="77"/>
             <spot x="469.912" y="521.173" z="204.691" h="42"/>
@@ -138,8 +138,8 @@
         <spawn npc_id="214028">
             <spot x="280.36" y="501.09" z="211.677" h="68"/>
         </spawn>
-        <!-- Special Infantry -->
-        <spawn npc_id="213951">
+        <!-- Special Guardian Gladiator -->
+        <spawn npc_id="231762">
             <spot x="470.238" y="547.701" z="204.691" h="31"/>
             <spot x="472.083" y="503.116" z="204.691" h="54"/>
             <spot x="454.351" y="530.027" z="204.691" h="61"/>
@@ -155,8 +155,8 @@
         <spawn npc_id="214027">
             <spot x="513" y="499.356" z="199.735" h="74"/>
         </spawn>
-        <!-- Poisonmaster -->
-        <spawn npc_id="213950">
+        <!-- Special Guardian Sorcerer -->
+        <spawn npc_id="231766">
             <spot x="469.559" y="522.97" z="204.691" h="67"/>
             <spot x="486.957" y="524.801" z="204.869" h="69"/>
             <spot x="429.328" y="498.959" z="204.691" h="99"/>
