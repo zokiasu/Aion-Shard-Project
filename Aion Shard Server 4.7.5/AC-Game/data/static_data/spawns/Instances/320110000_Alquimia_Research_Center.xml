@@ -92,12 +92,12 @@
             <spot x="566.107" y="520.192" z="199.735" h="113"/>
             <spot x="551.15" y="541.361" z="199.737" h="68"/>
         </spawn>
-        <!-- Lab Director Odetu -->
-        <spawn npc_id="214099">
+        <!-- Gen's Beritra -->
+        <spawn npc_id="283784">
             <spot x="476.501" y="484.326" z="204.691" h="56"/>
         </spawn>
-        <!-- Key Protector Nimue -->
-        <spawn npc_id="214034">
+        <!-- Key Guardian Two -->
+        <spawn npc_id="283782">
             <spot x="460" y="558" z="204.691" h="27"/>
         </spawn>
         <!-- RA-121ex -->
@@ -132,8 +132,8 @@
             <spot x="418.222" y="531.345" z="204.691" h="10"/>
             <spot x="406.659" y="553.236" z="204.7" h="40"/>
         </spawn>
-        <!-- Researcher Zoiks -->
-        <spawn npc_id="214027">
+        <!-- Key Guardian One -->
+        <spawn npc_id="283783">
             <spot x="513" y="499.356" z="199.735" h="74"/>
         </spawn>
         <!-- Special Guardian Sorcerer -->

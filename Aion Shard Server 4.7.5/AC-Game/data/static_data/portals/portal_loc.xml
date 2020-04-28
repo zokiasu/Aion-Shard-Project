@@ -144,7 +144,6 @@
     <!-- <portal_loc world_id="220040000" loc_id="2200403" x="1929.999" y="507.82068" z="412.25"/> Kromede's Trial Emergency Exit -->
     <!-- <portal_loc world_id="220040000" loc_id="2200404" x="593" y="2535" z="289"/> Alukina's Palace Asmodians Entrance -->
     <!-- <portal_loc world_id="220040000" loc_id="2200405" x="543.44214" y="2500.1926" z="286.55652"/> Alukina's Palace Asmodians Exit -->
-    <!-- <portal_loc world_id="220040000" loc_id="2200406" x="2209.6526" y="2926.3257" z="699.80756"/> Alquimia Research Center Asmodians Exit -->
     <!-- <portal_loc world_id="220040000" loc_id="2200407" x="1466.8792" y="1947.9192" z="588.06555"/> Indratu Fortress Asmodians Exit -->
     <!-- <portal_loc world_id="220040000" loc_id="2200408" x="2420.12" y="2061.31" z="579.7" h="0"/> Dark Poeta Exit -->
     <!-- <portal_loc world_id="220040000" loc_id="2200409" x="2257.466" y="1267.1333" z="473.4867" h="4"/> Frost Spirit to Red Mane Cavern  -->
@@ -828,4 +827,8 @@
     <portal_loc world_id="301290000" loc_id="3012900" x="527.5752" y="119.29071" z="175.89603" h="0"/>
     <!-- Krotan Barracksn -->
     <portal_loc world_id="301300000" loc_id="3013000" x="527.79846" y="109.320755" z="175.92393" h="0"/>
+    <!-- Alquimia Research Center Asmodians Exit -->
+    <portal_loc world_id="140010000" loc_id="1400101" x="2209.6526" y="2926.3257" z="699.80756"/>
+    <!-- Alquimia Research Center Elyos Exit -->
+    <portal_loc world_id="130090000" loc_id="1300901" x="2209.6526" y="2926.3257" z="699.80756"/>
 </portal_locs>

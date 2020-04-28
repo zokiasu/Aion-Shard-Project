@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_walker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_walker.xsd">
+    <!-- Vague 1 First Boss -->
+    <walker_template route_id="ALQUI_FIRST_BOSS_0" pool="1">
+        <routestep step="1" x="583.7656" y="493.8441" z="199.47145"/>
+        <routestep step="2" x="578.6562" y="493.85413" z="199.47145"/>
+        <routestep step="3" x="574.5175" y="493.74365" z="199.47145"/>
+        <routestep step="4" x="567.5379" y="493.62796" z="199.47145"/>
+        <routestep step="5" x="559.4917" y="493.65103" z="199.73503"/>
+        <routestep step="6" x="554.2368" y="493.8641" z="199.73503"/>
+        <routestep step="7" x="548.18665" y="494.20374" z="199.73503"/>
+        <routestep step="8" x="540" y="494" z="199.73503"/>
+    </walker_template>
+    <walker_template route_id="ALQUI_FIRST_BOSS_1" pool="1">
+        <routestep step="1" x="583.7656" y="496.8441" z="199.47145"/>
+        <routestep step="2" x="578.6562" y="496.85413" z="199.47145"/>
+        <routestep step="3" x="574.5175" y="496.74365" z="199.47145"/>
+        <routestep step="4" x="567.5379" y="496.62796" z="199.47145"/>
+        <routestep step="5" x="559.4917" y="496.65103" z="199.73503"/>
+        <routestep step="6" x="554.2368" y="496.8641" z="199.73503"/>
+        <routestep step="7" x="548.18665" y="496.20374" z="199.73503"/>
+        <routestep step="8" x="540" y="496" z="199.73503"/>
+    </walker_template>
+    <walker_template route_id="ALQUI_FIRST_BOSS_2" pool="1">
+        <routestep step="1" x="583.7656" y="490.8441" z="199.47145"/>
+        <routestep step="2" x="578.6562" y="490.85413" z="199.47145"/>
+        <routestep step="3" x="574.5175" y="490.74365" z="199.47145"/>
+        <routestep step="4" x="567.5379" y="490.62796" z="199.47145"/>
+        <routestep step="5" x="559.4917" y="490.65103" z="199.73503"/>
+        <routestep step="6" x="554.2368" y="490.8641" z="199.73503"/>
+        <routestep step="7" x="548.18665" y="490.20374" z="199.73503"/>
+        <routestep step="8" x="540" y="490" z="199.73503"/>
+    </walker_template>
+</npc_walker>
