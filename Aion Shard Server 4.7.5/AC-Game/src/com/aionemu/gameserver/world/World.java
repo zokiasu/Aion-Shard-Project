@@ -125,9 +125,6 @@ public class World {
             log.warn("Not putting object with null position!!! " + object.getObjectTemplate().getTemplateId());
             return;
         }
-        if (allObjects.put(object.getObjectId(), object) != null) {
-            throw new DuplicateAionObjectException();
-        }
 
         if (object instanceof Player) {
             allPlayers.add((Player) object);
@@ -163,6 +160,10 @@ public class World {
 
         if (object instanceof Npc) {
             allNpcs.put(object.getObjectId(), (Npc) object);
+        }
+        
+        if (allObjects.put(object.getObjectId(), object) != null) {
+            throw new DuplicateAionObjectException();
         }
     }
 
