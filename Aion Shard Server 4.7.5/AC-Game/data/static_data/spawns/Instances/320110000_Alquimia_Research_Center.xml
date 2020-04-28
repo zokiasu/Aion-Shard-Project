@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
     <spawn_map map_id="320110000">
-        <!-- Consecrated Guardian -->
-        <spawn npc_id="213960">
-            <spot x="349.24" y="499.202" z="209.24" h="104"/>
-            <spot x="331.667" y="503.762" z="209.217" h="74"/>
-            <spot x="314.231" y="499.079" z="209.24" h="12"/>
-            <spot x="314.261" y="503.575" z="209.217" h="36"/>
-            <spot x="331.637" y="499.266" z="209.24" h="104"/>
-            <spot x="349.27" y="503.698" z="209.217" h="114"/>
-        </spawn>
-        <!-- Consecrated Sentinel -->
-        <spawn npc_id="213961">
-            <spot x="364.18" y="500.62" z="209.23999" h="20" walker_id="1530E3EA96CB473BB94FA2D5D2E5F506BB3D8B35"/>
-            <spot x="307.221" y="511.325" z="209.92" h="18"/>
-            <spot x="306.718" y="490.716" z="209.92" h="117"/>
-            <spot x="364.12" y="502.39" z="209.23999" h="111" walker_id="D839F8A93CC97B5AD4ED8CF3F718313A9070617E"
-                  walker_index="1"/>
-        </spawn>
         <!-- Research Center Cabinet -->
         <spawn npc_id="700362">
             <spot x="401.882" y="546.404" z="204.691" h="83" static_id="9"/>
@@ -30,6 +13,13 @@
             <spot x="519.433" y="531.231" z="199.735" h="68"/>
             <spot x="443.475" y="535.953" z="204.691" h="38"/>
             <spot x="422.333" y="548.71" z="204.691" h="67"/>
+            <spot x="470.56" y="533.1" z="204.69067" h="115" walker_id="1290B66B116D694FB694C3DC9F8A843D410018CE"/>
+            <spot x="431.35" y="508.05" z="204.69067" h="76" walker_id="446008608434967E8210F99F4343F6605647A6CA"/>
+            <spot x="422.22" y="557.9" z="204.69067" h="18" walker_id="DE2FA050E78265CCB3129CBC6836FD3A29755031"/>
+            <spot x="364.18" y="500.62" z="209.23999" h="20" walker_id="1530E3EA96CB473BB94FA2D5D2E5F506BB3D8B35"/>
+            <spot x="307.221" y="511.325" z="209.92" h="18"/>
+            <spot x="306.718" y="490.716" z="209.92" h="117"/>
+            <spot x="364.12" y="502.39" z="209.23999" h="111" walker_id="D839F8A93CC97B5AD4ED8CF3F718313A9070617E" walker_index="1"/>
         </spawn>
         <!-- Research Center Journal -->
         <spawn npc_id="700363">
@@ -61,10 +51,6 @@
             <spot x="452.206" y="566.653" z="204.71" h="15"/>
             <spot x="397.434" y="561.503" z="204.691" h="38"/>
         </spawn>
-        <!-- Special Guardian -->
-        <spawn npc_id="213959">
-            <spot x="470.56" y="533.1" z="204.69067" h="115" walker_id="1290B66B116D694FB694C3DC9F8A843D410018CE"/>
-        </spawn>
         <!-- Special Guardian Templar -->
         <spawn npc_id="231763">
             <spot x="401.991" y="533.995" z="204.691" h="52"/>
@@ -79,11 +65,12 @@
             <spot x="410.344" y="485.361" z="205.33" h="101"/>
             <spot x="419.21" y="516.333" z="204.716" h="77"/>
             <spot x="444.919" y="497.539" z="204.691" h="16"/>
-        </spawn>
-        <!-- Special Guardian -->
-        <spawn npc_id="213954">
-            <spot x="431.35" y="508.05" z="204.69067" h="76" walker_id="446008608434967E8210F99F4343F6605647A6CA"/>
-            <spot x="422.22" y="557.9" z="204.69067" h="18" walker_id="DE2FA050E78265CCB3129CBC6836FD3A29755031"/>
+            <spot x="349.24" y="499.202" z="209.24" h="104"/>
+            <spot x="331.667" y="503.762" z="209.217" h="74"/>
+            <spot x="314.231" y="499.079" z="209.24" h="12"/>
+            <spot x="314.261" y="503.575" z="209.217" h="36"/>
+            <spot x="331.637" y="499.266" z="209.24" h="104"/>
+            <spot x="349.27" y="503.698" z="209.217" h="114"/>
         </spawn>
         <!-- Human-in-ascension -->
         <spawn npc_id="213955">
@@ -121,8 +108,8 @@
         <spawn npc_id="213947">
             <spot x="418.521" y="518.6" z="204.716" h="28"/>
         </spawn>
-        <!-- High Priest Esras -->
-        <spawn npc_id="214028">
+        <!-- Celestras's Beritra -->
+        <spawn npc_id="283785">
             <spot x="280.36" y="501.09" z="211.677" h="68"/>
         </spawn>
         <!-- Special Guardian Gladiator -->
