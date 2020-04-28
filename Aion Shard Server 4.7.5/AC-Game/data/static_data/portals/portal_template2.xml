@@ -742,8 +742,8 @@
     </portal_use>
     <!-- Alquimia Research Center Exit -->
     <portal_use npc_id="730111">
-        <portal_path loc_id="1300901" race="ELYOS"/>
-        <portal_path loc_id="1400101" race="ASMODIANS"/>
+        <portal_path loc_id="1300900" race="ELYOS"/>
+        <portal_path loc_id="1400100" race="ASMODIANS"/>
     </portal_use>
     <!-- Dark Poeta (Reshanta) Entrance -->
     <portal_use npc_id="730215">

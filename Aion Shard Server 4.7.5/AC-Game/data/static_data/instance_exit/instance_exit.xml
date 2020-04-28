@@ -67,7 +67,8 @@
     <instance_exit instance_id="310090000" exit_world="210040000" race="ELYOS" x="1896.48" y="2607.92" z="137.672005"/>
     <instance_exit instance_id="310090000" exit_world="220040000" race="ASMODIANS" x="1466.8792" y="1947.9192" z="588.06555"/>
     <!-- Alquimia Research Center -->
-    <instance_exit instance_id="320110000" exit_world="220040000" race="ASMODIANS" x="2209.6526" y="2926.3257" z="699.80756"/>
+    <instance_exit instance_id="320110000" exit_world="130090000" race="ELYOS" x="246.95517" y="291.7604" z="130.25021" h="90"/>
+    <instance_exit instance_id="320110000" exit_world="140010000" race="ASMODIANS" x="219.29517" y="266.29892" z="97.24827" h="2"/>
     <!-- Theobomos Lab -->
     <instance_exit instance_id="310110000" exit_world="210060000" race="ELYOS" x="2978.09" y="193.51" z="172.14"/>
     <instance_exit instance_id="310110000" exit_world="220050000" race="ASMODIANS" x="1427.5475" y="2037.9175" z="51.5"/>
