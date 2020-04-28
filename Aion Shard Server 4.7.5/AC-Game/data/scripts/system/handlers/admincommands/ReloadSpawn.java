@@ -86,6 +86,6 @@ public class ReloadSpawn extends AdminCommand {
 
     @Override
     public void onFail(Player player, String message) {
-        PacketSendUtility.sendMessage(player, "syntax //reload_spawn <location name | all>");
+        PacketSendUtility.sendMessage(player, "syntax //reload_spawn <idMap>");
     }
 }
