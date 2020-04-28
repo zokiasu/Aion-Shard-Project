@@ -1657,29 +1657,49 @@
         </spawn>       
         <!-- NEW --> 
         <!-- Protector Vaetild
-	<spawn npc_id="831851" respawn_time="295">
-		<spot h="36" x="1290.8" y="1205.4" z="214.33871"/>
-	</spawn> -->
+        <spawn npc_id="831851" respawn_time="295">
+            <spot h="36" x="1290.8" y="1205.4" z="214.33871"/>
+        </spawn> -->
         <!-- Protector Idmund -->  
         <spawn npc_id="831846" respawn_time="295">
             <spot h="108" x="946.0" y="1155.7" z="195.88033"/>
-        </spawn> 
-        <!-- Bern -->  
-        <spawn npc_id="205162" respawn_time="295">
+        </spawn>
+        <!-- Iskadar -->
+        <spawn npc_id="205592" respawn_time="295">
             <spot h="119" x="1192.9" y="1437.9" z="209.09077"/>
         </spawn>
-        <!-- Nagel --> 
-        <spawn npc_id="205160" respawn_time="295">
-            <spot h="101" x="1197.6" y="1441.8" z="209.09077"/>
-        </spawn>
-        <!-- Huvat -->
-        <spawn npc_id="205161" respawn_time="295">
+        <!-- Dena -->
+        <spawn npc_id="205594" respawn_time="295">
             <spot h="111" x="1194.7" y="1439.7" z="209.09077"/>
         </spawn>
-        <!-- Rumolt -->
+        <!-- Leontidan -->
+        <spawn npc_id="205560" respawn_time="295">
+            <spot h="102" x="1196.2" y="1441.2" z="209.09077"/>
+        </spawn>
+        <!-- Equous -->
+        <spawn npc_id="205595" respawn_time="295">
+            <spot h="101" x="1197.6" y="1441.8" z="209.09077"/>
+        </spawn>
+        <!-- Versin -->
+        <spawn npc_id="205593" respawn_time="295">
+            <spot h="96" x="1199.1226" y="1442.3768" z="209.09077"/>
+        </spawn>
+        <!-- Bern
+        <spawn npc_id="205162" respawn_time="295">
+            <spot h="119" x="1192.9" y="1437.9" z="209.09077"/>
+        </spawn> -->
+        <!-- Huvat
+        <spawn npc_id="205161" respawn_time="295">
+            <spot h="111" x="1194.7" y="1439.7" z="209.09077"/>
+        </spawn> -->
+        <!-- Rumolt
         <spawn npc_id="205163" respawn_time="295">
             <spot h="102" x="1196.2" y="1441.2" z="209.09077"/>
-        </spawn> 
+        </spawn> -->
+        <!-- Nagel
+        <spawn npc_id="205160" respawn_time="295">
+            <spot h="101" x="1197.6" y="1441.8" z="209.09077"/>
+        </spawn> -->
         <!-- Claw Captain Jaysif -->
         <spawn npc_id="831836" respawn_time="295">
             <spot h="91" x="1201.2" y="1442.2" z="209.09077"/>
