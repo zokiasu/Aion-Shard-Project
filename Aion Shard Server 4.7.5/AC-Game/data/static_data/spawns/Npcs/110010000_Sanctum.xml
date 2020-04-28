@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="110010000">
+        <!-- Alquimia Entrance
+        <spawn npc_id="730110" respawn_time="295">
+            <spot x="1659.7031" y="1648.3086" z="548.7344" h="88"/>
+        </spawn> -->
         <!-- Trabos -->
         <spawn npc_id="804660" respawn_time="295">
             <spot x="1371.5165" y="1516.973" z="569.06744" h="53"/>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="120010000">
+        <!-- Alquimia Entrance
+        <spawn npc_id="730110" respawn_time="295">
+            <spot x="1356.4801" y="1440.4446" z="209.09084" h="74"/>
+        </spawn> -->
         <!-- Eomer -->
         <spawn npc_id="804671" respawn_time="295">
             <spot x="1599.9086" y="1406.8312" z="193.12872" h="0"/>

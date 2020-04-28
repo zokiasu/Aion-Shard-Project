@@ -54,12 +54,12 @@
         <type>DAILY</type>
         <ent_cool_time>900</ent_cool_time>
         <indun_type>NORMAL</indun_type>
-        <max_member_light>6</max_member_light>
-        <max_member_dark>6</max_member_dark>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
         <enter_min_level_light>35</enter_min_level_light>
         <enter_min_level_dark>35</enter_min_level_dark>
-        <can_enter_mentor>true</can_enter_mentor>
-        <maxcount>16</maxcount>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
     </instance_cooltime>
     <!-- Theobomos Lab -->
     <instance_cooltime race="PC_ALL" worldId="310110000" id="6">

@@ -738,7 +738,7 @@
     </portal_use>
     <!-- Alquimia Research Center Asmodians Entrance -->
     <portal_use npc_id="730110">
-        <portal_path loc_id="3201100" player_count="6" instance="true" race="ASMODIANS">
+        <portal_path loc_id="3201100" player_count="3" instance="true">
             <portal_req min_level="35"/>
         </portal_path>
     </portal_use>

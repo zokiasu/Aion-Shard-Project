@@ -64,6 +64,16 @@ public class AlquimiaResearchCenterInstance extends GeneralInstanceHandler {
     }
 
     @Override
+    public void onDie(Npc npc) {
+        switch (npc.getObjectTemplate().getTemplateId()) {
+            case 214027: //Researcher Zoiks
+                spawn(214132, 514.0324f, 499.51627f, 199.73499f, (byte) 0);
+                npc.getController().onDelete();
+                break;
+        }
+    }
+
+    @Override
     public boolean onDie(final Player player, Creature lastAttacker) {
         PacketSendUtility.broadcastPacket(player, new SM_EMOTION(player, EmotionType.DIE, 0, player.equals(lastAttacker) ? 0 : lastAttacker.getObjectId()), true);
 
