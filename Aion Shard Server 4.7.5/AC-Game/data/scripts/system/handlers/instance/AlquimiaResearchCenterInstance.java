@@ -52,11 +52,11 @@ public class AlquimiaResearchCenterInstance extends GeneralInstanceHandler {
 
     @Override
     public void onDropRegistered(Npc npc) {
-        if (npc.getNpcId() == 214034) { // Gardien des clés Nimue
+        if (npc.getNpcId() == 283782) { // Gardien des clés Nimue
             Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
             dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000007, 1)); // Clé de sanctuaire de Léphariste
         }
-        if (npc.getNpcId() == 214027) { // Scientifique Zoiks
+        if (npc.getNpcId() == 283783) { // Scientifique Zoiks
             Set<DropItem> dropItems = DropRegistrationService.getInstance().getCurrentDropMap().get(npc.getObjectId());
             dropItems.add(DropRegistrationService.getInstance().regDropItem(1, 0, npc.getNpcId(), 185000006, 1)); // Clef du labo générateur Daeva
         }
@@ -66,9 +66,8 @@ public class AlquimiaResearchCenterInstance extends GeneralInstanceHandler {
     @Override
     public void onDie(Npc npc) {
         switch (npc.getObjectTemplate().getTemplateId()) {
-            case 214027: //Researcher Zoiks
+            case 283783:
                 spawn(214132, 514.0324f, 499.51627f, 199.73499f, (byte) 0);
-                npc.getController().onDelete();
                 break;
         }
     }

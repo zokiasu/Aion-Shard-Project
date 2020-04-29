@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc_drops>
+    <!-- Treasure Box -->
+    <npc_drop npc_id="214132">
+        <drop_group name="SPECIAL">
+            <drop item_id="188052199" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+        </drop_group>
+    </npc_drop>
+</npc_drops>
