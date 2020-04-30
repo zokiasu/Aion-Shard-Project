@@ -233,7 +233,7 @@ public class ClassChangeService {
             ItemTemplate itemTemplate = DataManager.ITEM_DATA.getItemTemplate(itemId);
             int i = player.getObjectId() + 900000000;
             Item item = new Item(i, itemTemplate);
-            item.setEnchantLevel(15);
+            item.setEnchantLevel(item.getChargeLevelMax());
             ItemService.addItem(player, item);
 
             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 0, 0));
