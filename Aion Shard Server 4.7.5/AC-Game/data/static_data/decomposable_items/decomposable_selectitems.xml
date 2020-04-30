@@ -1212,7 +1212,11 @@
 	<!-- Manastone Box Starter -->
 	<decomposable_selectitem item_id="188052743">
 		<items player_class="ALL">
-			<item id="167000715" count="25"/>
+			<item id="167000954" count="25"/>
+			<item id="167000522" count="25"/>
+			<item id="167000516" count="25"/>
+			<item id="167000519" count="25"/>
+			<item id="167000541" count="25"/>
 		</items>
 	</decomposable_selectitem>
 	<!-- Bonbon panda -->
