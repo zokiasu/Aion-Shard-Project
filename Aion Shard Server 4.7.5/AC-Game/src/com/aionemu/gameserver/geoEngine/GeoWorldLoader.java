@@ -63,7 +63,7 @@ public class GeoWorldLoader {
     @SuppressWarnings("unused")
     private static final Logger log = LoggerFactory.getLogger(GeoWorldLoader.class);
     private static String GEO_DIR = "data/geo/";
-    private static boolean DEBUG = false;
+    private static boolean DEBUG = true;
 
     public static void setDebugMod(boolean debug) {
         DEBUG = debug;

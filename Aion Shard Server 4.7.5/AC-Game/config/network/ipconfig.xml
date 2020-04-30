@@ -17,9 +17,9 @@
     # Set up a new MySQL user with your LAN IP and grant access to the both LS and GS databases
 -->
 
-<ipconfig default="127.0.0.1">
-    <!--<iprange min="192.168.0.0" max="192.168.255.255" address="192.168.0.10"/>
-    <iprange min="10.0.0.0" max="10.255.255.255" address="10.0.0.0"/>
-    <iprange min="192.168.4.0" max="192.168.4.255" address="192.168.4.0"/>
-    <iprange min="127.0.0.1" max="127.0.255.255" address="127.0.0.1"/>-->
+<ipconfig default="51.178.130.119">
+	<!--<iprange min="10.0.0.0" max="10.255.255.255" address="10.0.0.0"/>
+	<iprange min="172.16.0.0" max="172.31.255.255" address="172.16.0.0"/>
+	<iprange min="192.168.0.0" max="192.168.255.255" address="192.168.1.100"/>
+	<iprange min="127.0.0.1" max="127.0.255.255" address="127.0.0.1"/>-->
 </ipconfig>
