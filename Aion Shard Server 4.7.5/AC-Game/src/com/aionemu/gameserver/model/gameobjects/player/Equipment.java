@@ -1440,7 +1440,7 @@ public class Equipment {
                         PacketSendUtility.broadcastPacket(player, new SM_UPDATE_PLAYER_APPEARANCE(player.getObjectId(), getEquippedForApparence()),
                                 true);
                     }
-                }, 5000));
+                }, 5));
             }
 
             @Override
