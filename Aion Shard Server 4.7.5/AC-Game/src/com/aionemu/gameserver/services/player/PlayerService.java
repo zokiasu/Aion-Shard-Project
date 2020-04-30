@@ -364,8 +364,7 @@ public class PlayerService {
                 // Make sure you will not put into xml file more items than possible to equip.
                 ItemTemplate itemTemplate = item.getItemTemplate();
 
-                if ((itemTemplate.isArmor() || itemTemplate.isWeapon())
-                        && !(equipment.isSlotEquipped(itemTemplate.getItemSlot()))) {
+                if ((itemTemplate.isArmor() || itemTemplate.isWeapon()) && !(equipment.isSlotEquipped(itemTemplate.getItemSlot()))) {
                     item.setEquipped(true);
                     ItemSlot itemSlot = ItemSlot.getSlotFor(itemTemplate.getItemSlot());
                     item.setEquipmentSlot(itemSlot.getSlotIdMask());
