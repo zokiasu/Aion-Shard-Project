@@ -1409,7 +1409,7 @@ public class Equipment {
             public void acceptRequest(Creature requester, Player responder) {
                 player.getController().cancelUseItem();
 
-                PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0000, 4), true);
+                PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0000, 0), true);
 
                 player.getController().cancelTask(TaskId.ITEM_USE);
 
