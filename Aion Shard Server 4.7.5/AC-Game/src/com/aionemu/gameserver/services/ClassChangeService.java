@@ -128,6 +128,7 @@ public class ClassChangeService {
     public static void changeClassToSelection(final Player player, final int dialogId) {
         Race playerRace = player.getRace();
         if (CustomConfig.ENABLE_SIMPLE_2NDCLASS) {
+            CubeExpandService.expand(player, true);
             if (playerRace == Race.ELYOS) {
                 completeQuest(player, 1929);
                 switch (dialogId) {
@@ -219,7 +220,6 @@ public class ClassChangeService {
                     completeQuest(player, 2900);
                 }
             }
-            CubeExpandService.expand(player, true);
         }
     }
 
