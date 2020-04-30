@@ -23464,11 +23464,6 @@
                 <random_item type="ENCHANTMENT" rnd_min="1" rnd_max="3"/>
             </items>
         </decomposable>
-        <decomposable item_id="188052743" decomposable_name="Manastone Box">
-            <items>
-                <random_item type="ENCHANTMENT" rnd_min="1" rnd_max="3"/>
-            </items>
-        </decomposable>
         <decomposable item_id="188052744" decomposable_name="Ancient Relic Box">
             <items>
                 <item id="186000237" name="Ancient Coin" rnd_min="2" rnd_max="5"/>

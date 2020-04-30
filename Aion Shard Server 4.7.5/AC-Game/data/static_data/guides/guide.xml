@@ -3074,9 +3074,7 @@
         <select>Click here to close window</select>
         <survey itemId="182201729" count="1"/> <!-- Jaiorunerk's Diary -->
     </guide>
-
-    <!-- Stuff de départ Asmo -->
-    <guide title="adventurers_guide65_asmo_sin" level="65" race="ASMODIANS" classType="ASSASSIN" rewardCount="15">
+    <guide title="adventurers_guide65_asmo_sin" level="99" race="ASMODIANS" classType="ASSASSIN" rewardCount="15">
 		<message>
 			<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3105,7 +3103,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_cleric" level="65" race="ASMODIANS" classType="CLERIC" rewardCount="14">
+	<guide title="adventurers_guide65_asmo_cleric" level="99" race="ASMODIANS" classType="CLERIC" rewardCount="14">
         <message>
           <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3132,7 +3130,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_chanter" level="65" race="ASMODIANS" classType="CHANTER" rewardCount="14">
+	<guide title="adventurers_guide65_asmo_chanter" level="99" race="ASMODIANS" classType="CHANTER" rewardCount="14">
         <message>
            <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3159,7 +3157,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_glad" level="65" race="ASMODIANS" classType="GLADIATOR" rewardCount="14">
+	<guide title="adventurers_guide65_asmo_glad" level="99" race="ASMODIANS" classType="GLADIATOR" rewardCount="14">
         <message>
             <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3186,7 +3184,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-    <guide title="adventurers_guide65_asmo_gunner" level="65" race="ASMODIANS" classType="GUNNER" rewardCount="14">
+    <guide title="adventurers_guide65_asmo_gunner" level="99" race="ASMODIANS" classType="GUNNER" rewardCount="14">
         <message>
           <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3213,7 +3211,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_bard" level="65" race="ASMODIANS" classType="BARD" rewardCount="13">
+	<guide title="adventurers_guide65_asmo_bard" level="99" race="ASMODIANS" classType="BARD" rewardCount="13">
         <message>
            <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3239,7 +3237,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_ranger" level="65" race="ASMODIANS" classType="RANGER" rewardCount="14">
+	<guide title="adventurers_guide65_asmo_ranger" level="99" race="ASMODIANS" classType="RANGER" rewardCount="14">
         <message>
             <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3266,7 +3264,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_rider" level="65" race="ASMODIANS" classType="RIDER" rewardCount="14">
+	<guide title="adventurers_guide65_asmo_rider" level="99" race="ASMODIANS" classType="RIDER" rewardCount="14">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3293,7 +3291,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_sorc" level="65" race="ASMODIANS" classType="SORCERER" rewardCount="13">
+	<guide title="adventurers_guide65_asmo_sorc" level="99" race="ASMODIANS" classType="SORCERER" rewardCount="13">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3319,7 +3317,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_sm" level="65" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="13">
+	<guide title="adventurers_guide65_asmo_sm" level="99" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="13">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3345,7 +3343,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_asmo_templar" level="65" race="ASMODIANS" classType="TEMPLAR" rewardCount="16">
+	<guide title="adventurers_guide65_asmo_templar" level="99" race="ASMODIANS" classType="TEMPLAR" rewardCount="16">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3374,8 +3372,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-
-    <guide title="adventurers_guide25_asmo_sin" level="65" race="ASMODIANS" classType="ASSASSIN" rewardCount="8">
+    <guide title="adventurers_guide25_asmo_sin" level="99" race="ASMODIANS" classType="ASSASSIN" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3391,7 +3388,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_cleric" level="65" race="ASMODIANS" classType="CLERIC" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_cleric" level="99" race="ASMODIANS" classType="CLERIC" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3407,7 +3404,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_chanter" level="65" race="ASMODIANS" classType="CHANTER" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_chanter" level="99" race="ASMODIANS" classType="CHANTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3423,7 +3420,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_glad" level="65" race="ASMODIANS" classType="GLADIATOR" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_glad" level="99" race="ASMODIANS" classType="GLADIATOR" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3439,7 +3436,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-    <guide title="adventurers_guide25_asmo_gunner" level="65" race="ASMODIANS" classType="GUNNER" rewardCount="8">
+    <guide title="adventurers_guide25_asmo_gunner" level="99" race="ASMODIANS" classType="GUNNER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3455,7 +3452,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_bard" level="65" race="ASMODIANS" classType="BARD" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_bard" level="99" race="ASMODIANS" classType="BARD" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3471,7 +3468,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_amso_ranger" level="65" race="ASMODIANS" classType="RANGER" rewardCount="8">
+	<guide title="adventurers_guide25_amso_ranger" level="99" race="ASMODIANS" classType="RANGER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3487,7 +3484,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_rider" level="65" race="ASMODIANS" classType="RIDER" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_rider" level="99" race="ASMODIANS" classType="RIDER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3503,7 +3500,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_sorc" level="65" race="ASMODIANS" classType="SORCERER" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_sorc" level="99" race="ASMODIANS" classType="SORCERER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3519,7 +3516,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_amso_sm" level="65" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="8">
+	<guide title="adventurers_guide25_amso_sm" level="99" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3535,7 +3532,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide25_asmo_templar" level="65" race="ASMODIANS" classType="TEMPLAR" rewardCount="8">
+	<guide title="adventurers_guide25_asmo_templar" level="99" race="ASMODIANS" classType="TEMPLAR" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3551,9 +3548,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-
-    <!-- Stuff de départ Elyos -->
-	<guide title="adventurers_guide65_ely_sin" level="65" race="ELYOS" classType="ASSASSIN" rewardCount="15">
+	<guide title="adventurers_guide65_ely_sin" level="99" race="ELYOS" classType="ASSASSIN" rewardCount="3">
 		<message>
 			<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3562,54 +3557,23 @@
 		
         </message>
         <select>I feel the power already!</select>
-		<!-- Noble Ophidan Weapons -->
-        <survey itemId="100001538" count="1"/> <!-- Épée -->
-		<survey itemId="100201343" count="1"/> <!-- Dague -->
-        <!-- Officer Armor -->
-        <survey itemId="110301200" count="1"/> <!-- Torse -->
-        <survey itemId="113301169" count="1"/> <!-- Jambière -->
-        <survey itemId="112301089" count="1"/> <!-- Spallière -->
-        <survey itemId="111301143" count="1"/> <!-- Gants -->
-        <survey itemId="114301200" count="1"/> <!-- Botte -->
-        <!-- Noble Ophidan Accessory -->
-        <survey itemId="120001433" count="2"/> <!-- Boucles Physique-->
-		<survey itemId="121001307" count="1"/> <!-- Collier Physique-->
-        <survey itemId="122001576" count="2"/> <!-- Anneaux Physique-->
-        <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
-        <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
         <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_ely_cleric" level="65" race="ELYOS" classType="CLERIC" rewardCount="14">
+	<guide title="adventurers_guide65_ely_cleric" level="99" race="ELYOS" classType="CLERIC" rewardCount="2">
         <message>
           <![CDATA[<BR><BR>
-			You have reached the pinnacle of Aion!
 			On behalf of the entire Server staff, enjoy the rewards. Please recommend us!
 			<br><br>]]>
         </message>
         <select>I feel the power already!</select>
-		<!-- Noble Ophidan Weapon -->
-        <survey itemId="100101173" count="1"/> <!-- Mace -->
-		<survey itemId="115001579" count="1"/> <!-- Shield -->
-        <!-- Officer Armor -->
-        <survey itemId="110501174" count="1"/> <!-- Torse -->
-        <survey itemId="113501150" count="1"/> <!-- Jambière -->
-        <survey itemId="112501082" count="1"/> <!-- Spallière -->
-        <survey itemId="111501133" count="1"/> <!-- Gants -->
-        <survey itemId="114501154" count="1"/> <!-- Botte -->
-        <!-- Noble Ophidan Accessory -->
-        <survey itemId="120001444" count="2"/> <!-- Boucles Magique-->
-		<survey itemId="121001318" count="1"/> <!-- Collier Magique-->
-        <survey itemId="122001587" count="2"/> <!-- Anneaux Magique-->
-        <survey itemId="123001384" count="1"/> <!-- Ceinture Magque-->
-        <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_ely_chanter" level="65" race="ELYOS" classType="CHANTER" rewardCount="14">
+	<guide title="adventurers_guide65_ely_chanter" level="99" race="ELYOS" classType="CHANTER" rewardCount="3">
         <message>
            <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3617,26 +3581,12 @@
 			<br><br>]]>
         </message>
         <select>I feel the power already!</select>
-		<!-- Noble Ophidan Weapon -->
-        <survey itemId="101501206" count="2"/> <!-- Bâton -->
-        <!-- Officer Armor -->
-        <survey itemId="110501174" count="1"/> <!-- Torse -->
-        <survey itemId="113501150" count="1"/> <!-- Jambière -->
-        <survey itemId="112501082" count="1"/> <!-- Spallière -->
-        <survey itemId="111501133" count="1"/> <!-- Gants -->
-        <survey itemId="114501154" count="1"/> <!-- Botte -->
-        <!-- Noble Ophidan Accessory -->
-        <survey itemId="120001433" count="2"/> <!-- Boucles Physique-->
-		<survey itemId="121001307" count="1"/> <!-- Collier Physique-->
-        <survey itemId="122001576" count="2"/> <!-- Anneaux Physique-->
-        <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
-        <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
         <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_ely_glad" level="65" race="ELYOS" classType="GLADIATOR" rewardCount="14">
+	<guide title="adventurers_guide65_ely_glad" level="99" race="ELYOS" classType="GLADIATOR" rewardCount="3">
         <message>
             <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3644,26 +3594,12 @@
 			<br><br>]]>
         </message>
         <select>I feel the power already!</select>
-		<!-- Noble Ophidan Weapon -->
-        <survey itemId="101301125" count="2"/> <!-- Guisarme -->
-        <!-- Officer Armor -->
-        <survey itemId="110601147" count="1"/> <!-- Torse -->
-        <survey itemId="113601107" count="1"/> <!-- Jambière -->
-        <survey itemId="112601094" count="1"/> <!-- Spallière -->
-        <survey itemId="111601116" count="1"/> <!-- Gants -->
-        <survey itemId="114601100" count="1"/> <!-- Botte -->
-        <!-- Noble Ophidan Accessory -->
-        <survey itemId="120001433" count="2"/> <!-- Boucles Physique-->
-		<survey itemId="121001307" count="1"/> <!-- Collier Physique-->
-        <survey itemId="122001576" count="2"/> <!-- Anneaux Physique-->
-        <survey itemId="123001373" count="1"/> <!-- Ceinture Physique-->
-        <survey itemId="125003446" count="1"/> <!-- Chapeau -->
         <!-- Pierre de mana -->
         <survey itemId="167000954" count="100"/> <!-- Attack 5 -->
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-    <guide title="adventurers_guide65_ely_gunner" level="65" race="ELYOS" classType="GUNNER" rewardCount="14">
+    <guide title="adventurers_guide65_ely_gunner" level="99" race="ELYOS" classType="GUNNER" rewardCount="14">
         <message>
           <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3690,7 +3626,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_ely_bard" level="65" race="ELYOS" classType="BARD" rewardCount="13">
+	<guide title="adventurers_guide65_ely_bard" level="99" race="ELYOS" classType="BARD" rewardCount="13">
         <message>
            <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3716,7 +3652,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_ely_ranger" level="65" race="ELYOS" classType="RANGER" rewardCount="14">
+	<guide title="adventurers_guide65_ely_ranger" level="99" race="ELYOS" classType="RANGER" rewardCount="14">
         <message>
             <![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3743,7 +3679,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-	<guide title="adventurers_guide65_ely_rider" level="65" race="ELYOS" classType="RIDER" rewardCount="14">
+	<guide title="adventurers_guide65_ely_rider" level="99" race="ELYOS" classType="RIDER" rewardCount="14">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3770,7 +3706,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_ely_sorc" level="65" race="ELYOS" classType="SORCERER" rewardCount="13">
+	<guide title="adventurers_guide65_ely_sorc" level="99" race="ELYOS" classType="SORCERER" rewardCount="13">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3796,7 +3732,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_ely_sm" level="65" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="13">
+	<guide title="adventurers_guide65_ely_sm" level="99" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="13">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3822,7 +3758,7 @@
         <survey itemId="167000519" count="100"/> <!-- Magic Boost 25 -->
         <survey itemId="167000541" count="100"/> <!-- Magical Accuracy 12 -->
     </guide>
-	<guide title="adventurers_guide65_ely_templar" level="65" race="ELYOS" classType="TEMPLAR" rewardCount="16">
+	<guide title="adventurers_guide65_ely_templar" level="99" race="ELYOS" classType="TEMPLAR" rewardCount="16">
         <message>
 		<![CDATA[<BR><BR>
 			You have reached the pinnacle of Aion!
@@ -3851,8 +3787,7 @@
         <survey itemId="167000522" count="100"/> <!-- Crit Strike 15 -->
         <survey itemId="167000516" count="100"/> <!-- Accuracy 25 -->
     </guide>
-
-	<guide title="adventurers_guide50_ely_sin" level="65" race="ELYOS" classType="ASSASSIN" rewardCount="8">
+	<guide title="adventurers_guide50_ely_sin" level="99" race="ELYOS" classType="ASSASSIN" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3868,7 +3803,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_cleric" level="65" race="ELYOS" classType="CLERIC" rewardCount="8">
+	<guide title="adventurers_guide50_ely_cleric" level="99" race="ELYOS" classType="CLERIC" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3884,7 +3819,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_chanter" level="65" race="ELYOS" classType="CHANTER" rewardCount="8">
+	<guide title="adventurers_guide50_ely_chanter" level="99" race="ELYOS" classType="CHANTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3900,7 +3835,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_glad" level="65" race="ELYOS" classType="GLADIATOR" rewardCount="8">
+	<guide title="adventurers_guide50_ely_glad" level="99" race="ELYOS" classType="GLADIATOR" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3916,7 +3851,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-    <guide title="adventurers_guide50_ely_gunner" level="65" race="ELYOS" classType="GUNNER" rewardCount="8">
+    <guide title="adventurers_guide50_ely_gunner" level="99" race="ELYOS" classType="GUNNER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3932,7 +3867,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_bard" level="65" race="ELYOS" classType="BARD" rewardCount="8">
+	<guide title="adventurers_guide50_ely_bard" level="99" race="ELYOS" classType="BARD" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3948,7 +3883,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_ranger" level="65" race="ELYOS" classType="RANGER" rewardCount="8">
+	<guide title="adventurers_guide50_ely_ranger" level="99" race="ELYOS" classType="RANGER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3964,7 +3899,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_rider" level="65" race="ELYOS" classType="RIDER" rewardCount="8">
+	<guide title="adventurers_guide50_ely_rider" level="99" race="ELYOS" classType="RIDER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3980,7 +3915,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_sorc" level="65" race="ELYOS" classType="SORCERER" rewardCount="8">
+	<guide title="adventurers_guide50_ely_sorc" level="99" race="ELYOS" classType="SORCERER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -3996,7 +3931,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_sm" level="65" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="8">
+	<guide title="adventurers_guide50_ely_sm" level="99" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
@@ -4012,7 +3947,7 @@
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
         <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
-	<guide title="adventurers_guide50_ely_templar" level="65" race="ELYOS" classType="TEMPLAR" rewardCount="8">
+	<guide title="adventurers_guide50_ely_templar" level="99" race="ELYOS" classType="TEMPLAR" rewardCount="8">
         <message><![CDATA[<BR><BR>
 			Please equip your equipment before accepting the following items.<br>
 			Use the cube extension only after purchasing the other slots from the pnj please.
