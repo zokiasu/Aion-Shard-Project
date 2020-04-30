@@ -276,11 +276,12 @@ public class ClassChangeService {
                     ItemService.addItem(player, item);
                 }
                 itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301125);
-                item = new Item(1, itemTemplate);
+                item = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
                 item.setFusionedItem(item.getItemTemplate());
                 item.setPersistentState(PersistentState.UPDATE_REQUIRED);
                 DAOManager.getDAO(InventoryDAO.class).store(item, player);
                 ItemPacketService.updateItemAfterInfoChange(player, item);
+                ItemService.addItem(player, item);
                 break;
             case TEMPLAR:
                 for (String itemids : STARTER_TEMPLAR.split(",")) {
