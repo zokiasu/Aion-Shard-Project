@@ -277,9 +277,10 @@ public class ClassChangeService {
                 }
                 itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301125);
                 item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
+                item.setFusionedItem(item.getItemTemplate());
+                item.setPersistentState(PersistentState.UPDATE_REQUIRED);
+                DAOManager.getDAO(InventoryDAO.class).store(item, player);
+                ItemPacketService.updateItemAfterInfoChange(player, item);
                 break;
             case TEMPLAR:
                 for (String itemids : STARTER_TEMPLAR.split(",")) {
