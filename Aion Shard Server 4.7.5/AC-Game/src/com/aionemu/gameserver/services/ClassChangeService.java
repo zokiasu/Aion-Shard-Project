@@ -272,16 +272,25 @@ public class ClassChangeService {
                 }
                 itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301138);
                 item = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
-                item.setFusionedItem(item.getItemTemplate());
+
+                Item item2 = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
+
+                item.setFusionedItem(item2.getItemTemplate());
+
                 ItemSocketService.removeAllFusionStone(player, item);
-                if (item.hasOptionalSocket()) {
-                    item.setOptionalFusionSocket(item.getOptionalSocket());
+
+                if (item2.hasOptionalSocket()) {
+                    item.setOptionalFusionSocket(item2.getOptionalSocket());
                 } else {
                     item.setOptionalFusionSocket(0);
                 }
+                ItemSocketService.copyFusionStones(item2, item);
                 item.setPersistentState(PersistentState.UPDATE_REQUIRED);
+
                 DAOManager.getDAO(InventoryDAO.class).store(item, player);
+
                 ItemPacketService.updateItemAfterInfoChange(player, item);
+
                 ItemService.addItem(player, item);
                 break;
             case TEMPLAR:
