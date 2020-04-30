@@ -34,7 +34,7 @@ package com.aionemu.gameserver.model.items.storage;
  */
 public enum StorageType {
 
-    CUBE(0, 36, 9, 102),
+    CUBE(0, 27, 9, 102),
     REGULAR_WAREHOUSE(1, 24, 8),
     ACCOUNT_WAREHOUSE(2, 16, 8),
     LEGION_WAREHOUSE(3, 56, 8),
