@@ -262,11 +262,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101701224);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case GLADIATOR:
                 for (String itemids : STARTER_GLADIATOR.split(",")) {
@@ -275,13 +270,13 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301125);
+                /*itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301125);
                 item = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
                 item.setFusionedItem(item.getItemTemplate());
                 item.setPersistentState(PersistentState.UPDATE_REQUIRED);
                 DAOManager.getDAO(InventoryDAO.class).store(item, player);
                 ItemPacketService.updateItemAfterInfoChange(player, item);
-                ItemService.addItem(player, item);
+                ItemService.addItem(player, item);*/
                 break;
             case TEMPLAR:
                 for (String itemids : STARTER_TEMPLAR.split(",")) {
@@ -290,11 +285,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(100901192);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case CHANTER:
                 for (String itemids : STARTER_CHANTER.split(",")) {
@@ -303,11 +293,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101501206);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case CLERIC:
                 for (String itemids : STARTER_CLERIC.split(",")) {
@@ -324,11 +309,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(100501177);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case SPIRIT_MASTER:
                 for (String itemids : STARTER_SPIRITMASTER.split(",")) {
@@ -337,11 +317,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(100601265);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case GUNNER:
                 for (String itemids : STARTER_GUNNER.split(",")) {
@@ -350,11 +325,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101900971);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case RIDER:
                 for (String itemids : STARTER_RIDER.split(",")) {
@@ -363,31 +333,14 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(102100810);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);
                 break;
             case BARD:
                 for (String itemids : STARTER_BARD.split(",")) {
                     itemTemplate = DataManager.ITEM_DATA.getItemTemplate(Integer.parseInt(itemids));
                     item = new Item(1, itemTemplate);
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                    if (itemTemplate.isCanFuse() || itemTemplate.isTwoHandWeapon()){
-                        item.setFusionedItem(item.getItemTemplate());
-                        ItemSocketService.copyFusionStones(item, item);
-                        item.setPersistentState(PersistentState.UPDATE_REQUIRED);
-                        DAOManager.getDAO(InventoryDAO.class).store(item, player);
-                        ItemPacketService.updateItemAfterInfoChange(player, item);
-                    }
                     ItemService.addItem(player, item);
                 }
-                /*itemTemplate = DataManager.ITEM_DATA.getItemTemplate(102001034);
-                item = new Item(1, itemTemplate);
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-                item.setFusionedItem(itemTemplate);
-                ItemService.addItem(player, item);*/
                 break;
         }
         ItemService.addItem(player, ItemId.KINAH.value(), STARTER_KINAH);
