@@ -270,13 +270,19 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                /*itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301125);
+                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301138);
                 item = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
                 item.setFusionedItem(item.getItemTemplate());
+                ItemSocketService.removeAllFusionStone(player, item);
+                if (item.hasOptionalSocket()) {
+                    item.setOptionalFusionSocket(item.getOptionalSocket());
+                } else {
+                    item.setOptionalFusionSocket(0);
+                }
                 item.setPersistentState(PersistentState.UPDATE_REQUIRED);
                 DAOManager.getDAO(InventoryDAO.class).store(item, player);
                 ItemPacketService.updateItemAfterInfoChange(player, item);
-                ItemService.addItem(player, item);*/
+                ItemService.addItem(player, item);
                 break;
             case TEMPLAR:
                 for (String itemids : STARTER_TEMPLAR.split(",")) {
