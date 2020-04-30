@@ -191,6 +191,9 @@ public class Config {
             ConfigurableProcessor.process(SiegeConfig.class, mainProps);
             log.info("Loading: " + main + "/siege.properties");
 
+            ConfigurableProcessor.process(StarterPackConfig.class, mainProps);
+            log.info("Loading: " + main + "/starterpack.properties");
+
             ConfigurableProcessor.process(ThreadConfig.class, mainProps);
             log.info("Loading: " + main + "/thread.properties");
 
@@ -356,6 +359,9 @@ public class Config {
 
             ConfigurableProcessor.process(SiegeConfig.class, mainProps);
             log.info("Reload: " + main + "/siege.properties");
+
+            ConfigurableProcessor.process(StarterPackConfig.class, mainProps);
+            log.info("Reload: " + main + "/starterpack.properties");
 
             ConfigurableProcessor.process(ThreadConfig.class, mainProps);
             log.info("Reload: " + main + "/thread.properties");
