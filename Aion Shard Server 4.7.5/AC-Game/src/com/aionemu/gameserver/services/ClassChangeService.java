@@ -273,29 +273,6 @@ public class ClassChangeService {
                     item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
                     ItemService.addItem(player, item);
                 }
-                itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301138);
-
-                item = new Item(((player.getObjectId()+itemTemplate.getTemplateId())/100), itemTemplate);
-                Item item2 = new Item(((player.getObjectId()+itemTemplate.getTemplateId())/100), itemTemplate);
-                ArmsfusionService.fusionWeapons(player, item.getItemId(), item2.getItemId());
-                /*item.setFusionedItem(item2.getItemTemplate());
-
-                ItemSocketService.removeAllFusionStone(player, item);
-
-                if (item2.hasOptionalSocket()) {
-                    item.setOptionalFusionSocket(item2.getOptionalSocket());
-                } else {
-                    item.setOptionalFusionSocket(0);
-                }
-                ItemSocketService.copyFusionStones(item2, item);
-
-                item.setPersistentState(PersistentState.UPDATE_REQUIRED);
-
-                ItemPacketService.updateItemAfterInfoChange(player, item);
-
-                item.setEnchantLevel(item.getItemTemplate().getMaxEnchantLevel());
-
-                ItemService.addItem(player, item);*/
                 break;
             case TEMPLAR:
                 for (String itemids : STARTER_TEMPLAR.split(",")) {
