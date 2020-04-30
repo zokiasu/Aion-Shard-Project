@@ -430,7 +430,7 @@ public class PlayerService {
             return;
         }
 
-        accData.setDeletionDate(new Timestamp(System.currentTimeMillis() + 5 * 60 * 1000));
+        accData.setDeletionDate(new Timestamp(System.currentTimeMillis() + 10080 * 60 * 1000));
         storeDeletionTime(accData);
     }
 
