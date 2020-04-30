@@ -38,9 +38,11 @@ import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.Npc;
 import com.aionemu.gameserver.model.gameobjects.PersistentState;
 import com.aionemu.gameserver.model.items.ItemId;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.StigmaService;
 import com.aionemu.gameserver.services.SkillLearnService;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -51,6 +53,7 @@ import com.aionemu.gameserver.questEngine.model.QuestStatus;
 import com.aionemu.gameserver.services.item.ItemPacketService;
 import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.services.item.ItemSocketService;
+import com.aionemu.gameserver.services.trade.PricesService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.services.CubeExpandService;
 
@@ -272,26 +275,10 @@ public class ClassChangeService {
                 }
                 itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301138);
                 item = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
-
                 Item item2 = new Item((player.getObjectId()+itemTemplate.getTemplateId()), itemTemplate);
-
-                item.setFusionedItem(item2.getItemTemplate());
-
-                ItemSocketService.removeAllFusionStone(player, item);
-
-                if (item2.hasOptionalSocket()) {
-                    item.setOptionalFusionSocket(item2.getOptionalSocket());
-                } else {
-                    item.setOptionalFusionSocket(0);
-                }
-                ItemSocketService.copyFusionStones(item2, item);
-                item.setPersistentState(PersistentState.UPDATE_REQUIRED);
-
-                DAOManager.getDAO(InventoryDAO.class).store(item, player);
-
-                ItemPacketService.updateItemAfterInfoChange(player, item);
-
                 ItemService.addItem(player, item);
+                ItemService.addItem(player, item2);
+                fusionWeaponsStarter(player, item.getItemId(), item2.getItemId());
                 break;
             case TEMPLAR:
                 for (String itemids : STARTER_TEMPLAR.split(",")) {
@@ -366,6 +353,76 @@ public class ClassChangeService {
             ItemService.addItem(player, itemid, itemCount);
         }
 
+    }
+
+    public static void fusionWeaponsStarter(Player player, int firstItemUniqueId, int secondItemUniqueId) {
+        Item firstItem = player.getInventory().getItemByObjId(firstItemUniqueId);
+        if (firstItem == null) {
+            firstItem = player.getEquipment().getEquippedItemByObjId(firstItemUniqueId);
+        }
+        Item secondItem = player.getInventory().getItemByObjId(secondItemUniqueId);
+        if (secondItem == null) {
+            secondItem = player.getEquipment().getEquippedItemByObjId(secondItemUniqueId);
+        }
+
+        /*
+         * Fusioned weapons must be not fusioned
+         */
+        if (firstItem.hasFusionedItem()) {
+            PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_ERROR_NOT_AVAILABLE(firstItem.getNameId()));
+            return;
+        }
+        if (secondItem.hasFusionedItem()) {
+            PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_ERROR_NOT_AVAILABLE(secondItem.getNameId()));
+            return;
+        }
+
+        if (!firstItem.getItemTemplate().isTwoHandWeapon()) {
+            PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_ERROR_NOT_AVAILABLE(firstItem.getNameId()));
+            return;
+        }
+
+        // Fusioned weapons must have same type
+        if (firstItem.getItemTemplate().getWeaponType() != secondItem.getItemTemplate().getWeaponType()) {
+            PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_ERROR_DIFFERENT_TYPE);
+            return;
+        }
+
+        /*
+         * Second weapon must have inferior or equal lvl. in relation to first weapon
+         */
+        if (secondItem.getItemTemplate().getLevel() > firstItem.getItemTemplate().getLevel()) {
+            PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_ERROR_MAIN_REQUIRE_HIGHER_LEVEL);
+            return;
+        }
+
+        //You can not combine Conditioning and Augmenting
+        if (firstItem.getImprovement() != null && secondItem.getImprovement() != null) {
+            if (firstItem.getImprovement().getChargeWay() != secondItem.getImprovement().getChargeWay()) {
+                PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_ERROR_NOT_COMPARABLE_ITEM);
+                return;
+            }
+        }
+
+        firstItem.setFusionedItem(secondItem.getItemTemplate());
+        ItemSocketService.removeAllFusionStone(player, firstItem);
+
+        if (secondItem.hasOptionalSocket()) {
+            firstItem.setOptionalFusionSocket(secondItem.getOptionalSocket());
+        } else {
+            firstItem.setOptionalFusionSocket(0);
+        }
+
+        ItemSocketService.copyFusionStones(secondItem, firstItem);
+        firstItem.setPersistentState(PersistentState.UPDATE_REQUIRED);
+        DAOManager.getDAO(InventoryDAO.class).store(firstItem, player);
+
+        if (!player.getInventory().decreaseByObjectId(secondItemUniqueId, 1)) {
+            return;
+        }
+
+        ItemPacketService.updateItemAfterInfoChange(player, firstItem);
+        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_COMPOUND_SUCCESS(firstItem.getNameId(), secondItem.getNameId()));
     }
 
     private static boolean validateSwitch(Player player, PlayerClass playerClass) {
