@@ -97,6 +97,8 @@ public class ArmsfusionService {
     }    
     
     public static void fusionWeapons(Player player, int firstItemUniqueId, int secondItemUniqueId) {
+        PacketSendUtility.sendMessage(player, "The price of the fusion has been set at 0. Do not rely on the price displayed.");
+        PacketSendUtility.sendBrightYellowMessageOnCenter(player, "The price of the fusion has been set at 0. Do not rely on the price displayed.");
         Item firstItem = player.getInventory().getItemByObjId(firstItemUniqueId);
         if (firstItem == null) {
             firstItem = player.getEquipment().getEquippedItemByObjId(firstItemUniqueId);
@@ -122,6 +124,7 @@ public class ArmsfusionService {
         //int level = firstItem.getItemTemplate().getLevel();
         int level = 1;
 
+        //int price = (int) (priceMod * priceRate * taxRate * rarity * level * level);
         int price = 0;
         log.debug("Rarete: " + rarity + " Prix Ratio: " + priceRate + " Tax: " + taxRate + " Mod: " + priceMod
                 + " NiveauDeLArme: " + level);
