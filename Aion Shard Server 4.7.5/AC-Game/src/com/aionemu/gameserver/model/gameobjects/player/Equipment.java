@@ -1409,7 +1409,7 @@ public class Equipment {
             public void acceptRequest(Creature requester, Player responder) {
                 player.getController().cancelUseItem();
 
-                PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0000, 0), true);
+                //PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(),5000, 4), true);
 
                 player.getController().cancelTask(TaskId.ITEM_USE);
 
@@ -1430,8 +1430,7 @@ public class Equipment {
                     public void run() {
                         player.getObserveController().removeObserver(moveObserver);
 
-                        PacketSendUtility.broadcastPacket(player,
-                                new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0, 6), true);
+                        //PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0, 6), true);
                         PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_SOUL_BOUND_ITEM_SUCCEED(item.getNameId()));
 
                         item.setSoulBound(true);
