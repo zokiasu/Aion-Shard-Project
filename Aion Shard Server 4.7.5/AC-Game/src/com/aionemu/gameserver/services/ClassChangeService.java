@@ -44,6 +44,7 @@ import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_QUEST_ACTION;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
+import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.services.CubeExpandService;
 
@@ -121,10 +122,6 @@ public class ClassChangeService {
                 switch (dialogId) {
                     case 2376:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
-                        ItemTemplate itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301131);
-                        int i = player.getObjectId() + 900000000;
-                        Item item = new Item(i, itemTemplate);
-                        player.getInventory().add(item);
                         break;
                     case 2461:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 2));
@@ -231,6 +228,13 @@ public class ClassChangeService {
         if (validateSwitch(player, playerClass)) {
             player.getCommonData().setPlayerClass(playerClass);
             player.getController().upgradePlayer();
+
+            int itemId = 101301131;
+            ItemTemplate itemTemplate = DataManager.ITEM_DATA.getItemTemplate(itemId);
+            int i = player.getObjectId() + 900000000;
+            Item item = new Item(i, itemTemplate);
+            ItemService.addItem(player, item);
+
             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 0, 0));
             SkillLearnService.addMissingSkills(player);
         }
