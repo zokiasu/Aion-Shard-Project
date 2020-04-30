@@ -58,15 +58,15 @@ public class ArmsfusionService {
     private static double rarityRate(ItemQuality rarity) {
         switch (rarity) {
             case COMMON:
-                return 1.0;
+                ///return 1.0;
             case RARE:
-                return 1.25;
+                //return 1.25;
             case LEGEND:
-                return 1.5;
+                //return 1.5;
             case UNIQUE:
-                return 2.0;
+                //return 2.0;
             case EPIC:
-                return 2.5;
+                //return 2.5;
             default:
                 return 1.0;
         }
@@ -111,11 +111,16 @@ public class ArmsfusionService {
         if (firstItem == null || secondItem == null || !(player.getTarget() instanceof Npc)) {
             return;
         }
-        double priceRate = PricesService.getGlobalPrices(player.getRace()) * .01;
-        double taxRate = PricesService.getTaxes(player.getRace()) * .01;
-        double rarity = rarityRate(firstItem.getItemTemplate().getItemQuality());
-        int priceMod = PricesService.getGlobalPricesModifier() * 2;
-        int level = firstItem.getItemTemplate().getLevel();
+        //double priceRate = PricesService.getGlobalPrices(player.getRace()) * .01;
+        double priceRate = 1;
+        //double taxRate = PricesService.getTaxes(player.getRace()) * .01;
+        double taxRate = 1;
+        //double rarity = rarityRate(firstItem.getItemTemplate().getItemQuality());
+        double rarity = 1;
+        //int priceMod = PricesService.getGlobalPricesModifier() * 2;
+        int priceMod = 1;
+        //int level = firstItem.getItemTemplate().getLevel();
+        int level = 1;
 
         //int price = (int) (priceMod * priceRate * taxRate * rarity * level * level);
         int price = 499999;
