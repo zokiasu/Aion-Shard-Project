@@ -1404,7 +1404,41 @@ public class Equipment {
             return false;
         }
 
-        RequestResponseHandler responseHandler = new RequestResponseHandler(player) {
+        player.getController().cancelUseItem();
+
+        //PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(),5000, 4), true);
+
+        player.getController().cancelTask(TaskId.ITEM_USE);
+
+        final ActionObserver moveObserver = new ActionObserver(ObserverType.MOVE) {
+            @Override
+            public void moved() {
+                player.getController().cancelTask(TaskId.ITEM_USE);
+                PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_SOUL_BOUND_ITEM_CANCELED(item.getNameId()));
+                PacketSendUtility.broadcastPacket(player,
+                        new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0, 8), true);
+            }
+        };
+        player.getObserveController().attach(moveObserver);
+
+        // item usage animation
+        player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable() {
+            @Override
+            public void run() {
+                player.getObserveController().removeObserver(moveObserver);
+
+                //PacketSendUtility.broadcastPacket(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), item.getObjectId(), item.getItemId(), 0, 6), true);
+                PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_SOUL_BOUND_ITEM_SUCCEED(item.getNameId()));
+
+                item.setSoulBound(true);
+                ItemPacketService.updateItemAfterInfoChange(owner, item);
+
+                equip(slot, item);
+                PacketSendUtility.broadcastPacket(player, new SM_UPDATE_PLAYER_APPEARANCE(player.getObjectId(), getEquippedForApparence()), true);
+            }
+        }, 1));
+
+        /*RequestResponseHandler responseHandler = new RequestResponseHandler(player) {
             @Override
             public void acceptRequest(Creature requester, Player responder) {
                 player.getController().cancelUseItem();
@@ -1437,8 +1471,7 @@ public class Equipment {
                         ItemPacketService.updateItemAfterInfoChange(owner, item);
 
                         equip(slot, item);
-                        PacketSendUtility.broadcastPacket(player, new SM_UPDATE_PLAYER_APPEARANCE(player.getObjectId(), getEquippedForApparence()),
-                                true);
+                        PacketSendUtility.broadcastPacket(player, new SM_UPDATE_PLAYER_APPEARANCE(player.getObjectId(), getEquippedForApparence()), true);
                     }
                 }, 1));
             }
@@ -1449,13 +1482,12 @@ public class Equipment {
             }
         };
 
-        boolean requested = player.getResponseRequester().putRequest(SM_QUESTION_WINDOW.STR_SOUL_BOUND_ITEM_DO_YOU_WANT_SOUL_BOUND,
-                responseHandler);
+        boolean requested = player.getResponseRequester().putRequest(SM_QUESTION_WINDOW.STR_SOUL_BOUND_ITEM_DO_YOU_WANT_SOUL_BOUND, responseHandler);
         if (requested) {
             PacketSendUtility.sendPacket(player, new SM_QUESTION_WINDOW(SM_QUESTION_WINDOW.STR_SOUL_BOUND_ITEM_DO_YOU_WANT_SOUL_BOUND, 0, 0, new DescriptionId(item.getNameId())));
         } else {
             PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_SOUL_BOUND_CLOSE_OTHER_MSG_BOX_AND_RETRY);
-        }
+        }*/
         return false;
     }
 
