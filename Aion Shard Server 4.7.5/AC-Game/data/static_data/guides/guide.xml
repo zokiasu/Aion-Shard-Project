@@ -1721,7 +1721,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
     <guide title="adventurers_guide63_asmo" level="99" race="ASMODIANS" rewardCount="6">
         <message><![CDATA[<BR><BR>
@@ -3062,7 +3062,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
     <guide title="adventurers_guide63_ely" level="99" race="ELYOS" rewardCount="1">
         <message><![CDATA[<BR><BR>
@@ -3389,7 +3389,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_cleric" level="65" race="ASMODIANS" classType="CLERIC" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3405,7 +3405,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_chanter" level="65" race="ASMODIANS" classType="CHANTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3421,7 +3421,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_glad" level="65" race="ASMODIANS" classType="GLADIATOR" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3437,7 +3437,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
     <guide title="adventurers_guide25_asmo_gunner" level="65" race="ASMODIANS" classType="GUNNER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3453,7 +3453,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_bard" level="65" race="ASMODIANS" classType="BARD" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3469,7 +3469,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_amso_ranger" level="65" race="ASMODIANS" classType="RANGER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3485,7 +3485,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_rider" level="65" race="ASMODIANS" classType="RIDER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3501,7 +3501,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_sorc" level="65" race="ASMODIANS" classType="SORCERER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3517,7 +3517,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_amso_sm" level="65" race="ASMODIANS" classType="SPIRIT_MASTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3533,7 +3533,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide25_asmo_templar" level="65" race="ASMODIANS" classType="TEMPLAR" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3549,7 +3549,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 
     <!-- Stuff de départ Elyos -->
@@ -3866,7 +3866,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_cleric" level="65" race="ELYOS" classType="CLERIC" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3882,7 +3882,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_chanter" level="65" race="ELYOS" classType="CHANTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3898,7 +3898,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_glad" level="65" race="ELYOS" classType="GLADIATOR" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3914,7 +3914,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
     <guide title="adventurers_guide50_ely_gunner" level="65" race="ELYOS" classType="GUNNER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3930,7 +3930,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_bard" level="65" race="ELYOS" classType="BARD" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3946,7 +3946,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_ranger" level="65" race="ELYOS" classType="RANGER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3962,7 +3962,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_rider" level="65" race="ELYOS" classType="RIDER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3978,7 +3978,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_sorc" level="65" race="ELYOS" classType="SORCERER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -3994,7 +3994,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_sm" level="65" race="ELYOS" classType="SPIRIT_MASTER" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -4010,7 +4010,7 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 	<guide title="adventurers_guide50_ely_templar" level="65" race="ELYOS" classType="TEMPLAR" rewardCount="8">
         <message><![CDATA[<BR><BR>
@@ -4026,6 +4026,6 @@
         <survey itemId="188500003" count="1"/> <!-- [Motion Card] Ninja Set (7 day) -->
         <survey itemId="188500015" count="1"/> <!-- [Motion Card] The Dragon's Set (7 day) -->
         <survey itemId="182400001" count="1500000"/> <!-- Kinah -->
-        <survey itemId="190100055" count="1"/> <!-- Flying Pagati (30 day) -->
+        <survey itemId="190100097" count="1"/> <!-- Flying Pagati (7 day) -->
     </guide>
 </guides>

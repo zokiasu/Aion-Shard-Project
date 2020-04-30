@@ -32,8 +32,11 @@ package com.aionemu.gameserver.services;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.configs.main.MembershipConfig;
+import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
 import com.aionemu.gameserver.services.StigmaService;
 import com.aionemu.gameserver.services.SkillLearnService;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -114,11 +117,14 @@ public class ClassChangeService {
         Race playerRace = player.getRace();
         if (CustomConfig.ENABLE_SIMPLE_2NDCLASS) {
             if (playerRace == Race.ELYOS) {
-                CubeExpandService.expand(player, true);
                 completeQuest(player, 1929);
                 switch (dialogId) {
                     case 2376:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 1));
+                        ItemTemplate itemTemplate = DataManager.ITEM_DATA.getItemTemplate(101301131);
+                        int i = player.getObjectId() + 900000000;
+                        Item item = new Item(i, itemTemplate);
+                        player.getInventory().add(item);
                         break;
                     case 2461:
                         setClass(player, PlayerClass.getPlayerClassById((byte) 2));
@@ -160,7 +166,6 @@ public class ClassChangeService {
                     completeQuest(player, 1929);
                 }
             } else if (playerRace == Race.ASMODIANS) {
-                CubeExpandService.expand(player, true);
                 completeQuest(player, 2900);
                 switch (dialogId) {
                     case 3058:
@@ -206,6 +211,7 @@ public class ClassChangeService {
                     completeQuest(player, 2900);
                 }
             }
+            CubeExpandService.expand(player, true);
         }
     }
 
