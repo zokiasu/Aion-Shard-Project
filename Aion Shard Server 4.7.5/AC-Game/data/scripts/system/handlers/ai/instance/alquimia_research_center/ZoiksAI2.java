@@ -45,7 +45,6 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                 switch (percent) {
                     case 90:
                         AI2Actions.useSkill(this, 2834);
-                        spawnAlquimiaZoiks();
                         break;
                     case 80:
                         AI2Actions.useSkill(this, 2855);
@@ -53,11 +52,9 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                         break;
                     case 75:
                         AI2Actions.useSkill(this, 16906);
-                        spawnAlquimiaZoiks();
                         break;
                     case 70:
                         AI2Actions.useSkill(this, 2834);
-                        spawnAlquimiaZoiks();
                         break;
                     case 60:
                         AI2Actions.useSkill(this, 2855);
@@ -65,7 +62,6 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                         break;
                     case 50:
                         AI2Actions.useSkill(this, 2843);
-                        spawnAlquimiaZoiks();
                         break;
                     case 40:
                         AI2Actions.useSkill(this, 2855);
@@ -73,7 +69,6 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                         break;
                     case 30:
                         AI2Actions.useSkill(this, 2843);
-                        spawnAlquimiaZoiks();
                         break;
                     case 20:
                         AI2Actions.useSkill(this, 16508);
@@ -81,7 +76,6 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                         break;
                     case 10:
                         AI2Actions.useSkill(this, 2843);
-                        spawnAlquimiaZoiks();
                         break;
                 }
                 percents.remove(percent);
