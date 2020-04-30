@@ -122,7 +122,7 @@ public class ArmsfusionService {
         //int level = firstItem.getItemTemplate().getLevel();
         int level = 1;
 
-        int price = (int) (priceMod * priceRate * taxRate * rarity * level * level);
+        int price = 0;
         log.debug("Rarete: " + rarity + " Prix Ratio: " + priceRate + " Tax: " + taxRate + " Mod: " + priceMod
                 + " NiveauDeLArme: " + level);
         log.debug("Prix: " + price);
