@@ -48,7 +48,11 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                         spawnAlquimiaZoiks();
                         break;
                     case 80:
-                        AI2Actions.useSkill(this, 2834);
+                        AI2Actions.useSkill(this, 2855);
+                        spawnAlquimiaZoiks();
+                        break;
+                    case 75:
+                        AI2Actions.useSkill(this, 16906);
                         spawnAlquimiaZoiks();
                         break;
                     case 70:
@@ -56,10 +60,26 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
                         spawnAlquimiaZoiks();
                         break;
                     case 60:
-                        AI2Actions.useSkill(this, 2834);
+                        AI2Actions.useSkill(this, 2855);
                         spawnAlquimiaZoiks();
                         break;
                     case 50:
+                        AI2Actions.useSkill(this, 2843);
+                        spawnAlquimiaZoiks();
+                        break;
+                    case 40:
+                        AI2Actions.useSkill(this, 2855);
+                        spawnAlquimiaZoiks();
+                        break;
+                    case 30:
+                        AI2Actions.useSkill(this, 2843);
+                        spawnAlquimiaZoiks();
+                        break;
+                    case 20:
+                        AI2Actions.useSkill(this, 16508);
+                        spawnAlquimiaZoiks();
+                        break;
+                    case 10:
                         AI2Actions.useSkill(this, 2843);
                         spawnAlquimiaZoiks();
                         break;
@@ -72,7 +92,7 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
 
     private void addPercent() {
         percents.clear();
-        Collections.addAll(percents, new Integer[]{90, 80, 75, 70, 60, 55, 52, 50, 47, 40, 35, 30, 25, 20, 10, 5, 2});
+        Collections.addAll(percents, new Integer[]{90, 80, 70, 60, 50, 40, 30, 20 ,10});
     }
 
     private void spawnAlquimiaZoiks() {
@@ -80,108 +100,6 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
         spawn(231761, 516.43097f, 503.32056f, 199.73503f, (byte) 87);
         spawn(231761, 519.87946f, 500.02615f, 199.73503f, (byte) 61);
         spawn(231761, 519.87946f, 495.92548f, 199.73503f, (byte) 61);
-    }
-
-    private void spawnHyperionNormal() {
-        sp(233288, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        sp(233294, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        sp(233296, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-
-        sp(233288, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        sp(233296, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        sp(233294, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-
-        spawn(231103, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
-        spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
-        spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
-    }
-
-    private void spawnHyperionNormal1() {
-        sp(233292, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        sp(233294, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        sp(233296, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-
-        sp(233295, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        sp(233296, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        sp(233294, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-
-        spawn(233294, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
-        spawn(233295, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
-        spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
-        spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
-    }
-
-    private void spawnHyperionHard() {
-        sp(233288, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        sp(233299, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-        sp(233296, 148.12894f, 148.34091f, 124.03375f, (byte) 105, 1000, "A2142518112");
-
-        sp(233295, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        sp(233296, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-        sp(233298, 110.090965f, 128.28905f, 124.15179f, (byte) 43, 1000, "B2142518141");
-
-        spawn(233294, 108.5921f, 145.41702f, 114.03043f, (byte) 20);
-        spawn(233298, 150.05635f, 128.56758f, 114.49583f, (byte) 16);
-        spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
-        spawn(231103, 147.41049f, 131.2569f, 114.49583f, (byte) 16);
-        spawn(231103, 153.60158f, 129.60774f, 114.49583f, (byte) 16);
-    }
-
-    private void spawnAssaultPod() {
-        int rnd = Rnd.get(1, 3);
-        switch (rnd) {
-            case 1:
-                spawn(284070, 136.94958f, 133.78249f, 112.12359f, (byte) 74);
-                break;
-            case 2:
-                spawn(284070, 121.06398f, 133.20741f, 112.12359f, (byte) 52);
-                break;
-            case 3:
-                spawn(284070, 124.02135f, 146.44595f, 112.12359f, (byte) 99);
-                break;
-        }
-    }
-
-    private void cancelskillTask() {
-        if (skillTask != null && !skillTask.isCancelled()) {
-            skillTask.cancel(true);
-        }
-    }
-
-    private void cancelBlasterTask() {
-        if (BlasterTask != null && !BlasterTask.isCancelled()) {
-            BlasterTask.cancel(true);
-        }
-    }
-
-    private void cancelEnergyTask() {
-        if (EnergyTask != null && !EnergyTask.isCancelled()) {
-            EnergyTask.cancel(true);
-        }
-    }
-
-    private void Throw() {
-        SkillEngine.getInstance().getSkill(getOwner(), 21250, 55, getOwner()).useNoAnimationSkill();
-        ThreadPoolManager.getInstance().schedule(new Runnable() {
-            @Override
-            public void run() {
-                SkillEngine.getInstance().getSkill(getOwner(), 21251, 55, getOwner()).useNoAnimationSkill();
-            }
-        }, 5000);
-    }
-
-    private void Blaster() {
-        SkillEngine.getInstance().getSkill(getOwner(), 21241, 60, getOwner().getTarget()).useNoAnimationSkill();
-        Player target = getRandomTarget();
-        if (target == null) {
-        }
-    }
-
-    private void Energy() {
-        SkillEngine.getInstance().getSkill(getOwner(), 21247, 60, getOwner().getTarget()).useNoAnimationSkill();
-        Player target = getRandomTarget();
-        if (target == null) {
-        }
     }
 
     @Override
@@ -217,9 +135,6 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
     protected void handleBackHome() {
         super.handleBackHome();
         addPercent();
-        cancelskillTask();
-        cancelBlasterTask();
-        cancelEnergyTask();
         isHome.set(true);
         despawnAdds();
     }
@@ -229,18 +144,12 @@ public class ZoiksAI2 extends AggressiveNpcAI2 {
         super.handleDespawned();
         percents.clear();
         despawnAdds();
-        cancelskillTask();
-        cancelBlasterTask();
-        cancelEnergyTask();
     }
 
     @Override
     protected void handleDied() {
         super.handleDied();
         percents.clear();
-        cancelskillTask();
-        cancelBlasterTask();
-        cancelEnergyTask();
         despawnAdds();
     }
 

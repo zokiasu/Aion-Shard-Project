@@ -2971,7 +2971,7 @@
 	<tradelist_template npc_id="798715" npc_type="ABYSS">
 		<tradelist id="2161"/>
 		<tradelist id="5148"/>
-		<tradelist id="2403"/>
+		<!--<tradelist id="2403"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="798716" npc_type="ABYSS">
 		<tradelist id="2162"/>
@@ -2981,7 +2981,7 @@
 	<tradelist_template npc_id="798717" npc_type="ABYSS">
 		<tradelist id="2163"/>
 		<tradelist id="5149"/>
-		<tradelist id="2403"/>
+		<!--<tradelist id="2403"/>-->
 	</tradelist_template>
 	<tradelist_template npc_id="798802" npc_type="ABYSS">
 		<tradelist id="1436"/>

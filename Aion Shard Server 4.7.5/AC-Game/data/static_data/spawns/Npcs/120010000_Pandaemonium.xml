@@ -618,13 +618,13 @@
         <spawn npc_id="204186" respawn_time="295">
             <spot h="90" x="1401.7892" y="1439.1432" z="208.10016"/>
         </spawn> -->
-        <!-- Karantania (equipment purifier) -->
+        <!-- Karantania (equipment purifier)
         <spawn npc_id="804198" respawn_time="295">
             <spot x="1402.4397" y="1439.0293" z="208.10017" h="90"/>
-        </spawn>
+        </spawn> -->
         <!-- Legia -->
         <spawn npc_id="832842" respawn_time="295">
-            <spot x="1395.9595" y="1432.0952" z="208.08516" h="3"/>
+            <spot x="1402.4397" y="1439.0293" z="208.10017" h="90"/>
         </spawn>
         <!-- Genoveva -->
         <spawn npc_id="204060" respawn_time="295">
@@ -974,7 +974,7 @@
         </spawn>
         <!-- Lasesbini -->
         <spawn npc_id="204189" respawn_time="295">
-            <spot h="90" x="1211.8154" y="1391.4036" z="208.125" walker_id="12001000044"/>
+            <spot h="90" x="1211.8154" y="1391.4036" z="208.125" walker_id="DD4E9AC62331759116CEF14D413D8B703AD820D9"/>
         </spawn>
         <!-- Latatusk -->
         <spawn npc_id="204096" respawn_time="295">
@@ -1320,7 +1320,7 @@
         </spawn> -->
         <!-- Sehamm -->
         <spawn npc_id="204195" respawn_time="295">
-            <spot h="90" x="1210.8018" y="1390.7766" z="208.125" walker_id="12001000042"/>
+            <spot h="90" x="1210.8018" y="1390.7766" z="208.125" walker_id="DD4E9AC62331759116CEF14D413D8B703AD820D9"/>
         </spawn>
         <!-- Sekidona -->
         <spawn npc_id="204148" respawn_time="295">
@@ -1647,10 +1647,10 @@
         <spawn npc_id="804503" respawn_time="295">
             <spot h="30" x="1288.9484" y="1205.0863" z="214.33871"/>
         </spawn>
-        <!-- Plume Tuner Fedo -->
+        <!-- Plume Tuner Fedo
         <spawn npc_id="832827" respawn_time="295" difficult_id="0" custom="true">
             <spot x="1413.0981" y="1439.3469" z="208.10017" h="90"/>
-        </spawn>
+        </spawn> -->
         <!-- Renen -->
         <spawn npc_id="205472" respawn_time="295">
             <spot h="0" x="1600.6652" y="1392.2494" z="193.12886"/>

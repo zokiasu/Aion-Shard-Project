@@ -65,7 +65,7 @@
     <item_collecting id="23509" start_npc_ids="800529"/>
     <item_collecting id="23510" start_npc_ids="800529"/>
     <item_collecting id="23515" start_npc_ids="800529"/>
-    <item_collecting id="23528" start_npc_ids="801544"/>
+    <!--<item_collecting id="23528" start_npc_ids="801544"/>-->
     <item_collecting id="23529" start_npc_ids="801544"/>
     <!-- HUNTING QUESTS -->
     <monster_hunt id="13511" start_npc_ids="801027">

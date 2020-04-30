@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawns>
     <spawn_map map_id="110010000">
+        <!-- Iskadar -->
+        <spawn npc_id="205592" respawn_time="295">
+            <spot x="1499.4207" y="1487.3354" z="565.9477" h="13"/>
+        </spawn>
+        <!-- Dena -->
+        <spawn npc_id="205594" respawn_time="295">
+            <spot x="1498.1111" y="1489.2345" z="565.9477" h="11"/>
+        </spawn>
+        <!-- Leontidan -->
+        <spawn npc_id="205560" respawn_time="295">
+            <spot x="1496.9729" y="1491.106" z="565.9477" h="9"/>
+        </spawn>
+        <!-- Equous -->
+        <spawn npc_id="205595" respawn_time="295">
+            <spot x="1495.8163" y="1493.2006" z="565.9477" h="9"/>
+        </spawn>
+        <!-- Versin -->
+        <spawn npc_id="205593" respawn_time="295">
+            <spot x="1494.9225" y="1495.1115" z="565.9477" h="8"/>
+        </spawn>
         <!-- Alquimia Entrance
         <spawn npc_id="730110" respawn_time="295">
             <spot x="1659.7031" y="1648.3086" z="548.7344" h="88"/>
@@ -601,7 +621,7 @@
         </spawn>
         <!-- Neperphon -->
         <spawn npc_id="832843" respawn_time="295">
-            <spot h="60" x="1620.01" y="1521.48" z="575.00"/>
+            <spot h="60" x="1623.83" y="1512.66" z="575.00"/>
         </spawn>
         <spawn npc_id="206335" respawn_time="295">
             <spot h="60" x="1889.20" y="1537.45" z="591.52"/>
@@ -614,10 +634,11 @@
         </spawn>
         <spawn npc_id="804493" respawn_time="295">
             <spot h="60" x="1877.74" y="1539.06" z="806.43"/>
-        </spawn>
+        </spawn>        
+        <!-- Plume Tuner Penna
         <spawn npc_id="832826" respawn_time="295">
             <spot h="68" x="1617.12" y="1552.91" z="573.82"/>
-        </spawn>
+        </spawn>-->
         <spawn npc_id="730265" respawn_time="295">
             <spot x="1366.4603" y="1544.1014" z="569.0382" h="89" static_id="1136"/>
         </spawn>
@@ -694,10 +715,10 @@
         <spawn npc_id="730264" respawn_time="295">
             <spot h="09" x="1812.32" y="2155.91" z="528.71" static_id="1126"/>
         </spawn>
-        <!-- Teleios (equipment purifier) -->
+        <!-- Teleios (equipment purifier)
         <spawn npc_id="804188" respawn_time="295">
             <spot h="60" x="1623.83" y="1512.66" z="575.00"/>
-        </spawn>
+        </spawn> -->
         <spawn npc_id="748010" respawn_time="295">
             <spot h="08" x="1607.53" y="1535.83" z="550.95"/>
         </spawn>
