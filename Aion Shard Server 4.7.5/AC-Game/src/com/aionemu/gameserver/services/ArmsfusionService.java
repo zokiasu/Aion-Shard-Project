@@ -97,8 +97,6 @@ public class ArmsfusionService {
     }    
     
     public static void fusionWeapons(Player player, int firstItemUniqueId, int secondItemUniqueId) {
-        PacketSendUtility.sendMessage(player, "The price of the fusion has been set at 0. Do not rely on the price displayed.");
-        PacketSendUtility.sendBrightYellowMessageOnCenter(player, "The price of the fusion has been set at 0. Do not rely on the price displayed.");
         Item firstItem = player.getInventory().getItemByObjId(firstItemUniqueId);
         if (firstItem == null) {
             firstItem = player.getEquipment().getEquippedItemByObjId(firstItemUniqueId);
