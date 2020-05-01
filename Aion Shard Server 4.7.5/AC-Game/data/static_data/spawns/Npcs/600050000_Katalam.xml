@@ -7642,6 +7642,14 @@
             <spot x="334.0795" y="2118.9065" z="196.37003" h="60"/>
             <spot x="346.6611" y="2100.7656" z="201.25653" h="15"/>
         </spawn>
+        <!-- Foothold Vanguard Rider -->
+        <spawn npc_id="233234" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1007.3021" y="213.29486" z="192.95847" h="52" entity_id="0"/>
+            <spot x="1024.0869" y="195.40851" z="195.02287" h="35" entity_id="0"/>
+            <spot x="1043.16" y="218.06458" z="193.30637" h="40" entity_id="0"/>
+            <spot x="997.51935" y="280.62823" z="186.27283" h="2" entity_id="0"/>
+            <spot x="1026.3428" y="295.63657" z="184.111" h="62" entity_id="0"/>
+        </spawn>
 		<!-- Foothold Vanguard Combatant -->
         <spawn npc_id="232729" respawn_time="295">
             <spot x="1023.3403" y="239.92131" z="188.81895" h="45"/>
