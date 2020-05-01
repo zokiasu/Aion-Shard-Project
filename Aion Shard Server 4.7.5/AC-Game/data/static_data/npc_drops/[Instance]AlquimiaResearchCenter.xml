@@ -19,9 +19,6 @@
         <drop_group name="SPECIAL">
             <drop item_id="166030005" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Tempering Solution -->
         </drop_group>
-        <drop_group name="SPECIAL">
-            <drop item_id="188052199" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/> <!-- Tempering Solution -->
-        </drop_group>
         <drop_group name="ANCIENT_MANASTONE">
             <!-- Ancient Manastone Gold -->
             <drop item_id="167020056" chance="100.0" min_amount="1" max_amount="1"/>
@@ -104,7 +101,7 @@
             <drop item_id="182400001" chance="50.0" min_amount="100000" max_amount="600000"/>
         </drop_group>
         <drop_group name="SPECIAL">
-            <drop item_id="166030005" chance="25.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Tempering Solution -->
+            <drop item_id="166030005" chance="25.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
     </npc_drop>
     <!-- NPC Instance + -->
@@ -146,9 +143,6 @@
         <drop_group name="KINAH">
             <drop item_id="182400001" chance="50.0" min_amount="100000" max_amount="600000"/>
         </drop_group>
-        <drop_group name="SPECIAL">
-            <drop item_id="188052199" chance="15.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
-        </drop_group>
         <drop_group name="ANCIENT_MANASTONE">
             <!-- Ancient Manastone Gold -->
             <drop item_id="167020056" chance="25.0" min_amount="1" max_amount="1"/>
@@ -179,9 +173,6 @@
     <npc_drop npc_id="214100">
         <drop_group name="KINAH">
             <drop item_id="182400001" chance="50.0" min_amount="100000" max_amount="600000"/>
-        </drop_group>
-        <drop_group name="SPECIAL">
-            <drop item_id="188052199" chance="15.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group name="ANCIENT_MANASTONE">
             <!-- Ancient Manastone Gold -->
@@ -225,18 +216,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231757">
@@ -253,18 +244,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231758">
@@ -281,18 +272,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231760">
@@ -309,18 +300,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231761">
@@ -337,18 +328,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231762">
@@ -365,18 +356,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231763">
@@ -393,18 +384,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231764">
@@ -421,18 +412,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231765">
@@ -449,18 +440,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="231766">
@@ -477,18 +468,18 @@
             <drop item_id="167020064" chance="5.0" min_amount="1" max_amount="1"/>
             <drop item_id="167020065" chance="5.0" min_amount="1" max_amount="1"/>
             <!-- Ancient Manastone Eternal -->
-            <drop item_id="167020072" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020073" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020074" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020075" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020076" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020077" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020078" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020079" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020080" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020081" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020082" chance="5.0" min_amount="1" max_amount="1"/>
-            <drop item_id="167020083" chance="5.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020072" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020073" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020074" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020075" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020076" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020077" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020078" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020079" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020080" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020081" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020082" chance="3.0" min_amount="1" max_amount="1"/>
+            <drop item_id="167020083" chance="3.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
 </npc_drops>
