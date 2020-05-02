@@ -54,6 +54,73 @@ public class AddShop extends AdminCommand {
 
     @Override
     public void execute(Player player, String... params) {
+
+        if(params[0].equals("reload")){
+            String imagePath = "";
+            Connection con = null;
+            try {
+                con = DatabaseFactory.getConnection();
+                PreparedStatement stmt = con.prepareStatement("SELECT * FROM shop WHERE item_image_path = '' ");
+                ResultSet rs = stmt.executeQuery();
+                while (rs.next()) {
+                    boolean checkImage = true;
+                    List<ClientItem> imageList;
+                    String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc() + "_desc";
+
+                    if(checkImage) {
+                        imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
+                        for (int i = 0; i < imageList.size(); i++) {
+                            if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                                imagePath = imageList.get(i).getIcon_name();
+                                checkImage = false;
+                            }
+                        }
+                    }
+
+                    if(checkImage) {
+                        imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
+                        for (int i = 0; i < imageList.size(); i++) {
+                            if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                                imagePath = imageList.get(i).getIcon_name();
+                                checkImage = false;
+                            }
+                        }
+                    }
+
+                    if(checkImage) {
+                        imageList = RecupXmlIcon("./data/static_data/client_info/client_items_armor.xml");
+                        for (int i = 0; i < imageList.size(); i++) {
+                            if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                                imagePath = imageList.get(i).getIcon_name();
+                                checkImage = false;
+                            }
+                        }
+                    }
+
+                    if(!checkImage) {
+                        try {
+                            DB.insertUpdate("UPDATE shop SET item_image_path=? WHERE item_id=?", new IUStH() {
+                                @Override
+                                public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
+                                    preparedStatement.setString(1, imagePath);
+                                    preparedStatement.setInt(2, rs.getInt("item_id"));
+                                    preparedStatement.execute();
+                                }
+                            });
+                            PacketSendUtility.sendMessage(player, "Item successfully added");
+                        } catch (Exception e) {
+                            PacketSendUtility.sendMessage(player, "Item could not be added");
+                        }
+                    }
+                }
+                stmt.close();
+            } catch (Exception e) {
+                log.error("Error getting pets for " + player.getObjectId(), e);
+            } finally {
+                DatabaseFactory.close(con);
+            }
+        }
+
         if (params.length < 3) {
             onFail(player, null);
             return;
@@ -414,10 +481,12 @@ public class AddShop extends AdminCommand {
         }
     }
 
-    public void addShopDb(final int item_id, final String item_name, final String item_desc, final String item_category, final int item_count, final int item_price, final String item_image_path, Player player){
+    public void addShopDb(final int item_id, final String item_name, final String item_desc, final String item_category,
+                          final int item_count, final int item_price, final String item_image_path, Player player){
         try {
 
-            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_category`, `item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?, ?)", new IUStH() {
+            DB.insertUpdate("INSERT INTO shop (" + "`item_id`,`item_name`, `item_desc`, `item_category`, " +
+                    "`item_count`, `price`, `item_image_path`)" + " VALUES " + "(?, ?, ?, ?, ?, ?, ?)", new IUStH() {
                 @Override
                 public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
                     ps.setInt(1, item_id);
