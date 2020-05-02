@@ -41,7 +41,10 @@ public class AddShop extends AdminCommand {
     @Override
     public void execute(Player player, String... params) {
 
-        if(params[0].equalsIgnoreCase("reload")) {
+        if (params.length < 1) {
+            onFail(player, null);
+            return;
+        } else if(params[0].equalsIgnoreCase("reload")) {
             String imagePath = "";
             Connection con = null;
             boolean checkImage = true;
@@ -105,7 +108,6 @@ public class AddShop extends AdminCommand {
         } else {
             if (params.length < 3) {
                 onFail(player, null);
-                return;
             } else {
                 int itemId = Integer.parseInt(params[0]);
                 int itemPrice = Integer.parseInt(params[1]);
