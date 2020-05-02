@@ -1540,7 +1540,7 @@
         <can_enter_mentor>false</can_enter_mentor>
         <maxcount>1</maxcount>
     </instance_cooltime>
-    <!-- ??? -->
+    <!-- Transidium Annexe -->
     <instance_cooltime race="PC_ALL" worldId="400030000" id="137">
         <type>WEEKLY</type>
         <typevalue>Wed</typevalue>
