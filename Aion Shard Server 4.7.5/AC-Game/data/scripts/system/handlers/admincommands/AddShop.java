@@ -1,7 +1,6 @@
 package admincommands;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -35,7 +34,7 @@ import org.xml.sax.SAXException;
 public class AddShop extends AdminCommand {
 
     public AddShop() {
-        super("addshop");
+        super("shop");
     }
 
     @Override
@@ -53,8 +52,11 @@ public class AddShop extends AdminCommand {
                 con = DatabaseFactory.getConnection();
                 PreparedStatement stmt = con.prepareStatement("SELECT * FROM shop WHERE item_image_path = '' ");
                 ResultSet rs = stmt.executeQuery();
+
                 while (rs.next()) {
                     String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc() + "_desc";
+                    
+                    FileChecker(rs.getString("item_image_path"));
 
                     if(checkImage) {
                         imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
@@ -98,6 +100,7 @@ public class AddShop extends AdminCommand {
                         }
                     }
                 }
+                
                 stmt.close();
             } catch (Exception e) {
                 PacketSendUtility.sendMessage(player, "Error getting pets for " + player.getObjectId());
@@ -297,7 +300,7 @@ public class AddShop extends AdminCommand {
         PacketSendUtility.sendMessage(player, "3 : Candy / 4 : Emotion Card-Motion Card / 5 : Pet");
         PacketSendUtility.sendMessage(player, "6 : Mount / 7 : Skin / 8 : Weapon Skin / 9: Hat Skin");
         PacketSendUtility.sendMessage(player, "10: Skill Skin / 11 : Wings Skin / 12 : Housing");
-        PacketSendUtility.sendMessage(player, "syntax //addshop <item Id> <item Price> <item Category> <item Count>");
+        PacketSendUtility.sendMessage(player, "syntax //shop <item Id> <item Price> <item Category> <item Count>");
     }
 
     public List<Strings> RecupXmlDesc(String test) {
@@ -487,6 +490,16 @@ public class AddShop extends AdminCommand {
             PacketSendUtility.sendMessage(player, "Item successfully added");
         } catch (Exception e) {
             PacketSendUtility.sendMessage(player, "Item could not be added");
+        }
+    }
+
+    public void FileChecker (String test) {
+        File f = new File("C:\\inetpub\\wwwroot\\img\\"+test+".png");
+    
+        if(f.exists()){
+            System.out.println("File existed");
+        }else{
+            System.out.println("File not found!");
         }
     }
 }
