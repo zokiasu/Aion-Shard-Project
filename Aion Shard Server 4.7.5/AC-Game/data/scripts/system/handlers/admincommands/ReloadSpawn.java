@@ -26,6 +26,7 @@
  * @Aion-Extreme
  * @Aion-NextGen
  * @Aion-Core Dev.
+ * @Aion-Shard Dev.
  */
 package admincommands;
 
@@ -45,6 +46,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author Luno, reworked Bobobear
+ * reworked Zokiasu
  */
 public class ReloadSpawn extends AdminCommand {
 
