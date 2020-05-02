@@ -120,8 +120,7 @@ public class AddShop extends AdminCommand {
                 DatabaseFactory.close(con);
             }
         }
-
-        if (params.length < 3) {
+        else if (params.length < 3) {
             onFail(player, null);
             return;
         } else {
