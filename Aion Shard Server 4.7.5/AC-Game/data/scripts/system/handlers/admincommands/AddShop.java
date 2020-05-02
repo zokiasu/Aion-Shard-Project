@@ -43,7 +43,6 @@ public class AddShop extends AdminCommand {
 
         if (params.length < 1) {
             onFail(player, null);
-            return;
         } else if(params[0].equalsIgnoreCase("reload")) {
             String imagePath = "";
             Connection con = null;
@@ -105,6 +104,7 @@ public class AddShop extends AdminCommand {
             } finally {
                 DatabaseFactory.close(con);
             }
+            PacketSendUtility.sendMessage(player, "Successfully reload");
         } else {
             if (params.length < 3) {
                 onFail(player, null);
