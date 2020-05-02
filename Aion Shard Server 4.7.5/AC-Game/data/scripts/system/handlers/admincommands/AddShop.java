@@ -17,10 +17,13 @@ import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.WorldMapType;
 
+import javax.annotation.Nullable;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Iterator;
+import java.util.Map;
 
 import java.io.File;
 import java.io.IOException;
@@ -55,72 +58,71 @@ public class AddShop extends AdminCommand {
     @Override
     public void execute(Player player, String... params) {
 
-        if(params[0].equals("reload")){
-            String imagePath = "";
-            Connection con = null;
-            try {
-                con = DatabaseFactory.getConnection();
-                PreparedStatement stmt = con.prepareStatement("SELECT * FROM shop WHERE item_image_path = '' ");
-                ResultSet rs = stmt.executeQuery();
-                while (rs.next()) {
-                    boolean checkImage = true;
-                    List<ClientItem> imageList;
-                    String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc() + "_desc";
+        String imagePath = "";
+        Connection con = null;
+        boolean checkImage = true;
+        List<ClientItem> imageList;
 
-                    if(checkImage) {
-                        imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
-                        for (int i = 0; i < imageList.size(); i++) {
-                            if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
-                                imagePath = imageList.get(i).getIcon_name();
-                                checkImage = false;
-                            }
-                        }
-                    }
+        try {
+            con = DatabaseFactory.getConnection();
+            PreparedStatement stmt = con.prepareStatement("SELECT * FROM shop WHERE item_image_path = '' ");
+            ResultSet rs = stmt.executeQuery();
+            while (rs.next()) {
+                String tmp = "str_" + DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc() + "_desc";
 
-                    if(checkImage) {
-                        imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
-                        for (int i = 0; i < imageList.size(); i++) {
-                            if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
-                                imagePath = imageList.get(i).getIcon_name();
-                                checkImage = false;
-                            }
-                        }
-                    }
-
-                    if(checkImage) {
-                        imageList = RecupXmlIcon("./data/static_data/client_info/client_items_armor.xml");
-                        for (int i = 0; i < imageList.size(); i++) {
-                            if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
-                                imagePath = imageList.get(i).getIcon_name();
-                                checkImage = false;
-                            }
-                        }
-                    }
-
-                    if(!checkImage) {
-                        try {
-                            DB.insertUpdate("UPDATE shop SET item_image_path=? WHERE item_id=?", new IUStH() {
-                                @Override
-                                public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
-                                    preparedStatement.setString(1, imagePath);
-                                    preparedStatement.setInt(2, rs.getInt("item_id"));
-                                    preparedStatement.execute();
-                                }
-                            });
-                            PacketSendUtility.sendMessage(player, "Item successfully added");
-                        } catch (Exception e) {
-                            PacketSendUtility.sendMessage(player, "Item could not be added");
+                if(checkImage) {
+                    imageList = RecupXmlIcon("./data/static_data/client_info/client_items_misc.xml");
+                    for (int i = 0; i < imageList.size(); i++) {
+                        if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                            imagePath = imageList.get(i).getIcon_name();
+                            checkImage = false;
                         }
                     }
                 }
-                stmt.close();
-            } catch (Exception e) {
-                log.error("Error getting pets for " + player.getObjectId(), e);
-            } finally {
-                DatabaseFactory.close(con);
+
+                if(checkImage) {
+                    imageList = RecupXmlIcon("./data/static_data/client_info/client_items_etc.xml");
+                    for (int i = 0; i < imageList.size(); i++) {
+                        if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                            imagePath = imageList.get(i).getIcon_name();
+                            checkImage = false;
+                        }
+                    }
+                }
+
+                if(checkImage) {
+                    imageList = RecupXmlIcon("./data/static_data/client_info/client_items_armor.xml");
+                    for (int i = 0; i < imageList.size(); i++) {
+                        if (DataManager.ITEM_DATA.getItemTemplate(rs.getInt("item_id")).getNamedesc().equalsIgnoreCase(imageList.get(i).getName())) {
+                            imagePath = imageList.get(i).getIcon_name();
+                            checkImage = false;
+                        }
+                    }
+                }
+
+                if(!checkImage) {
+                    try {
+                        DB.insertUpdate("UPDATE shop SET item_image_path=? WHERE item_id=?", new IUStH() {
+                            @Override
+                            public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
+                                preparedStatement.setString(1, imagePath);
+                                preparedStatement.setInt(2, rs.getInt("item_id"));
+                                preparedStatement.execute();
+                            }
+                        });
+                        PacketSendUtility.sendMessage(player, "Item successfully added");
+                    } catch (Exception e) {
+                        PacketSendUtility.sendMessage(player, "Item could not be added");
+                    }
+                }
             }
+            stmt.close();
+        } catch (Exception e) {
+            log.error("Error getting pets for " + player.getObjectId(), e);
+        } finally {
+            DatabaseFactory.close(con);
         }
-        else if (params.length < 3) {
+        /*else if (params.length < 3) {
             onFail(player, null);
             return;
         } else {
@@ -301,7 +303,7 @@ public class AddShop extends AdminCommand {
             PacketSendUtility.sendMessage(player, "Count : " + Integer.toString(itemCount));
 
             addShopDb(itemId, itemName, itemDesc, itemCategoryName, itemCount, itemPrice, imagePath, player);
-        }
+        }*/
     }
 
     @Override
