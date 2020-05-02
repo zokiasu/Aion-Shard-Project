@@ -1,49 +1,31 @@
 package admincommands;
 
-import com.aionemu.commons.database.DB;
-import com.aionemu.commons.database.DatabaseFactory;
-import com.aionemu.commons.database.IUStH;
-import com.aionemu.commons.database.ParamReadStH;
-import com.aionemu.gameserver.dataholders.DataManager;
-import com.aionemu.gameserver.model.Race;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
-import com.aionemu.gameserver.services.AdminService;
-import com.aionemu.gameserver.services.item.ItemService;
-import com.aionemu.gameserver.services.teleport.TeleportService2;
-import com.aionemu.gameserver.utils.PacketSendUtility;
-import com.aionemu.gameserver.utils.Util;
-import com.aionemu.gameserver.utils.ChatUtil;
-import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
-import com.aionemu.gameserver.world.World;
-import com.aionemu.gameserver.world.WorldMapType;
-
-import javax.annotation.Nullable;
+import java.io.File;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Iterator;
-import java.util.Map;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+
+import com.aionemu.commons.database.DB;
+import com.aionemu.commons.database.DatabaseFactory;
+import com.aionemu.commons.database.IUStH;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import org.slf4j.LoggerFactory;
-
-import ch.qos.logback.classic.Logger;
 
 
 /**
@@ -102,14 +84,10 @@ public class AddShop extends AdminCommand {
 
                 if(!checkImage) {
                     try {
-                        DB.insertUpdate("UPDATE shop SET item_image_path=? WHERE item_id=?", new IUStH() {
-                            @Override
-                            public void handleInsertUpdate(PreparedStatement ps) throws SQLException {
-                                preparedStatement.setString(1, imagePath);
-                                preparedStatement.setInt(2, rs.getInt("item_id"));
-                                preparedStatement.execute();
-                            }
-                        });
+                        PreparedStatement stmt1 = con.prepareStatement("UPDATE shop SET item_image_path=? WHERE item_id=?");
+                        stmt1.setString(1, imagePath);
+                        stmt1.setInt(2, rs.getInt("item_id"));
+                        stmt1.execute();
                         PacketSendUtility.sendMessage(player, "Item successfully added");
                     } catch (Exception e) {
                         PacketSendUtility.sendMessage(player, "Item could not be added");
@@ -118,7 +96,7 @@ public class AddShop extends AdminCommand {
             }
             stmt.close();
         } catch (Exception e) {
-            log.error("Error getting pets for " + player.getObjectId(), e);
+            PacketSendUtility.sendMessage(player, "Error getting pets for " + player.getObjectId());
         } finally {
             DatabaseFactory.close(con);
         }
