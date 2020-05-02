@@ -315,8 +315,8 @@ public class CommandsConfig {
     public static int RP;
     @Property(key = "report", defaultValue = "0")
     public static int REPORT;
-    @Property(key = "shop", defaultValue = "0")
-    public static int SHOP;
+    @Property(key = "onlineshop", defaultValue = "0")
+    public static int ONLINESHOP;
     @Property(key = "skills", defaultValue = "0")
     public static int SKILLS;
     @Property(key = "start", defaultValue = "0")

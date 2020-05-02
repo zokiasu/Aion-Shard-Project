@@ -50,7 +50,7 @@ public class cmd_onlineshop extends PlayerCommand {
     private int nbitem = 0;
 
     public cmd_onlineshop() {
-        super("shop");
+        super("onlineshop");
     }
 
     @Override
@@ -95,6 +95,6 @@ public class cmd_onlineshop extends PlayerCommand {
 
     @Override
     public void onFail(Player player, String message) {
-        PacketSendUtility.sendMessage(player, "syntax: .shop");
+        PacketSendUtility.sendMessage(player, "syntax: .onlineshop");
     }
 }
