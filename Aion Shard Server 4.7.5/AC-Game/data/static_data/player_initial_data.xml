@@ -4,7 +4,7 @@
     <elyos_spawn_location map_id="110010000" heading="119" x="1313.3353" y="1512.2223" z="568.26025"/>
     <player_data class="WARRIOR">
         <items>
-            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="188052726" count="1"/> <!-- Récompense horaire -->	
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
@@ -16,7 +16,7 @@
     </player_data>
     <player_data class="MAGE">
         <items>
-            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="188052726" count="1"/> <!-- Récompense horaire -->	
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
@@ -28,7 +28,7 @@
     </player_data>
     <player_data class="PRIEST">
         <items>
-            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="188052726" count="1"/> <!-- Récompense horaire -->	
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
@@ -40,7 +40,7 @@
     </player_data>
     <player_data class="SCOUT">
         <items>
-            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="188052726" count="1"/> <!-- Récompense horaire -->	
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
@@ -52,7 +52,7 @@
     </player_data>
     <player_data class="ENGINEER">
         <items>
-            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="188052726" count="1"/> <!-- Récompense horaire -->	
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->
@@ -64,7 +64,7 @@
     </player_data>
     <player_data class="ARTIST">
         <items>
-            <item id="188052083" count="1"/> <!-- Récompense horaire -->	
+            <item id="188052726" count="1"/> <!-- Récompense horaire -->	
             <item id="162002002" count="100"/> <!-- Sérum de récupération -->
             <item id="164002116" count="100"/> <!-- Parchemin de course -->
             <item id="164002117" count="100"/> <!-- Parchemin de courage -->

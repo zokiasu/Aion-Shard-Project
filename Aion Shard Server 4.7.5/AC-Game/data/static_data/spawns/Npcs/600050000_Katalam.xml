@@ -7544,10 +7544,10 @@
 		<spawn respawn_time="295" npc_id="206345">
 			<spot h="57" z="140.576" y="2793.4766" x="320.1453"/>
 		</spawn>
-	    <!-- Victria -->
+	    <!-- Victria
 		<spawn respawn_time="295" npc_id="832736">
 			<spot h="30" x="302.4" y="2683.24" z="143.3164"/>
-		</spawn>
+		</spawn> -->
 	    <!-- Hamdir -->
 		<spawn respawn_time="295" npc_id="206347">
 			<spot h="16" x="373.55" y="279.20" z="275.18"/>

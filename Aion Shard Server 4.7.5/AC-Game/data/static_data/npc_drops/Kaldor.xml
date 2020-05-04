@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops>
 
+	<!-- Anoha -->
+		<npc_drop npc_id="855263">
+			<drop_group name="KINAH" use_category="false">
+				<drop item_id="182400001" chance="100.0" min_amount="1000000" max_amount="10000000" no_reduce="false" eachmember="true"/>
+			</drop_group>
+			<drop_group name="POWER_SHARDS">
+				<drop item_id="169000010" chance="50.0" min_amount="100" max_amount="1000"/>
+			</drop_group>
+			<drop_group name="STIGMA_SHARDS">
+				<drop item_id="141000001" chance="50.0" min_amount="100" max_amount="1000"/>
+			</drop_group>
+			<drop_group name="MANASTONE">
+				<drop item_id="188052199" chance="30.0" min_amount="1" max_amount="1"/> <!-- Manastone 60 Green or Blue -->
+				<drop item_id="188052297" chance="70.0" min_amount="1" max_amount="1"/> <!-- Manastone 50 to 70 Green -->
+			</drop_group>
+			<drop_group name="DIVINE_STONE">
+				<drop item_id="188051738" chance="50.0" min_amount="1" max_amount="1"/>
+				<drop item_id="188052183" chance="50.0" min_amount="1" max_amount="1"/>
+			</drop_group>
+		</npc_drop>
+
 	<!-- DEBUT MONSTRE NOMMÉ -->
 		<npc_drop npc_id="234299">
 			<drop_group name="KINAH" use_category="false">
