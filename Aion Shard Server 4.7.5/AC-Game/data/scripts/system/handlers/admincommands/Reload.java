@@ -128,7 +128,7 @@ public class Reload extends AdminCommand {
 				// if (data != null && data.getPortals() != null)
 				// newTemplates.addAll(data.getPortals());
 				// }
-				DataManager.PORTAL_DATA.setPortals(newTemplates);
+				//DataManager.PORTAL_DATA.setPortals(newTemplates);
 			} catch (Exception e) {
 				PacketSendUtility.sendMessage(admin, "Portal reload failed!");
 				log.error("Portal reload failed!", e);
