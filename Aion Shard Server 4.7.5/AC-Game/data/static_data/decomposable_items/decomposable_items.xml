@@ -28786,6 +28786,27 @@
                 <item id="140000319" name="Whirling Strike I" player_class="GLADIATOR"/>
                 <item id="140000329" name="Sure Strike I" player_class="GLADIATOR"/>
                 <item id="140000331" name="Draining Sword I" player_class="GLADIATOR"/>
+                <item id="140000008" name="Improved Stamina I" player_class="GLADIATOR"/>
+                <item id="140000009" name="Crippling Cut I" player_class="GLADIATOR"/>
+                <item id="140000011" name="Ankle Snare I" player_class="GLADIATOR"/>
+                <item id="140000012" name="Lockdown I" player_class="GLADIATOR"/>
+                <item id="140000014" name="Howl I" player_class="GLADIATOR"/>
+                <item id="140000016" name="Unwavering Devotion I" player_class="GLADIATOR"/>
+                <item id="140000018" name="Siegebreaker I" player_class="GLADIATOR"/>
+                <item id="140000020" name="Earthquake Wave I" player_class="GLADIATOR"/>
+                <item id="140000023" name="Slaughter I" player_class="GLADIATOR"/>
+                <item id="140000168" name="Vengeful Strike I" player_class="GLADIATOR"/>
+                <item id="140000188" name="Advanced Dual-Wielding I" player_class="GLADIATOR"/>
+                <item id="140000189" name="Draining Blow I" player_class="GLADIATOR"/>
+                <item id="140000191" name="Piercing Rupture I" player_class="GLADIATOR"/>
+                <item id="140000215" name="Severe Weakening Blow I" player_class="GLADIATOR"/>
+                <item id="140000217" name="Dauntless Spirit I" player_class="GLADIATOR"/>
+                <item id="140000394" name="Second Wind I" player_class="GLADIATOR"/>
+                <item id="140000498" name="Absorbing Fury I" player_class="GLADIATOR"/>
+                <item id="140000539" name="Spin Block I" player_class="GLADIATOR"/>
+                <item id="140000540" name="Exhausting Wave I (Revival Wave I)" player_class="GLADIATOR"/>
+                <item id="140000691" name="Fettertwine I" player_class="GLADIATOR"/>
+                <item id="140000705" name="Magical Defense I" player_class="GLADIATOR"/>
 
                 <item id="140000232" name="Prayer of Resilience I" player_class="TEMPLAR"/>
                 <item id="140000233" name="Prayer of Victory I" player_class="TEMPLAR"/>
@@ -28797,6 +28818,26 @@
                 <item id="140000347" name="Punishing Wave I" player_class="TEMPLAR"/>
                 <item id="140000354" name="Empyrean Providence I" player_class="TEMPLAR"/>
                 <item id="140000357" name="Shieldburst I" player_class="TEMPLAR"/>
+                <item id="140000016" name="Unwavering Devotion I" player_class="TEMPLAR"/>
+                <item id="140000018" name="Siegebreaker I" player_class="TEMPLAR"/>
+                <item id="140000026" name="Holy Shield I" player_class="TEMPLAR"/>
+                <item id="140000027" name="Divine Fury I" player_class="TEMPLAR"/>
+                <item id="140000028" name="Doom Lure I" player_class="TEMPLAR"/>
+                <item id="140000029" name="Provokin Roar I" player_class="TEMPLAR"/>
+                <item id="140000030" name="Punishment I" player_class="TEMPLAR"/>
+                <item id="140000034" name="Break Power I" player_class="TEMPLAR"/>
+                <item id="140000036" name="Bodyguard I" player_class="TEMPLAR"/>
+                <item id="140000041" name="Power of Restoration I" player_class="TEMPLAR"/>
+                <item id="140000044" name="Terrible Howl I" player_class="TEMPLAR"/>
+                <item id="140000192" name="Aether Armor I" player_class="TEMPLAR"/>
+                <item id="140000194" name="Punishment of Darkness I" player_class="TEMPLAR"/>
+                <item id="140000229" name="Incite Rage I" player_class="TEMPLAR"/>
+                <item id="140000365" name="Barricade of Steel I" player_class="TEMPLAR"/>
+                <item id="140000500" name="Inquisitor's Blow I" player_class="TEMPLAR"/>
+                <item id="140000562" name="Stubborn Spirit I" player_class="TEMPLAR"/>
+                <item id="140000563" name="Illusion Chains I" player_class="TEMPLAR"/>
+                <item id="140000693" name="Punishing Thrust I" player_class="TEMPLAR"/>
+                <item id="140000706" name="Restoration Sacrifice I" player_class="TEMPLAR"/>
 
                 <item id="140000256" name="Beastly Scar I" player_class="ASSASSIN"/>
                 <item id="140000257" name="Agonizing Slash I" player_class="ASSASSIN"/>
@@ -28808,6 +28849,26 @@
                 <item id="140000400" name="Sensory Boost I" player_class="ASSASSIN"/>
                 <item id="140000410" name="Signet Silence I" player_class="ASSASSIN"/>
                 <item id="140000411" name="Quickening Doom I" player_class="ASSASSIN"/>
+                <item id="140000076" name="Sigil Strike I" player_class="ASSASSIN"/>
+                <item id="140000077" name="Flurry I" player_class="ASSASSIN"/>
+                <item id="140000078" name="Aethertwisting I" player_class="ASSASSIN"/>
+                <item id="140000080" name="Ambush I" player_class="ASSASSIN"/>
+                <item id="140000081" name="Apply Deadly Poison I" player_class="ASSASSIN"/>
+                <item id="140000084" name="Rune Knife I" player_class="ASSASSIN"/>
+                <item id="140000087" name="Eye of Wrath I" player_class="ASSASSIN"/>
+                <item id="140000088" name="Blinding Burst I" player_class="ASSASSIN"/>
+                <item id="140000092" name="Throw Shuriken I" player_class="ASSASSIN"/>
+                <item id="140000198" name="Shadow Walk I" player_class="ASSASSIN"/>
+                <item id="140000200" name="Rune Swipe I" player_class="ASSASSIN"/>
+                <item id="140000213" name="Deadly Abandon I" player_class="ASSASSIN"/>
+                <item id="140000252" name="Rune Burst I" player_class="ASSASSIN"/>
+                <item id="140000253" name="Oath of Accuracy I" player_class="ASSASSIN"/>
+                <item id="140000356" name="Venomous Strike I" player_class="ASSASSIN"/>
+                <item id="140000503" name="Flash of Speed I" player_class="ASSASSIN"/>
+                <item id="140000606" name="Shadowfall I" player_class="ASSASSIN"/>
+                <item id="140000608" name="Slayer Form I" player_class="ASSASSIN"/>
+                <item id="140000695" name="Break Away I" player_class="ASSASSIN"/>
+                <item id="140000696" name="Searching Strike I" player_class="ASSASSIN"/>
 
                 <item id="140000244" name="Gale Arrow I" player_class="RANGER"/>
                 <item id="140000245" name="Speed of the Wind I" player_class="RANGER"/>
@@ -28819,6 +28880,26 @@
                 <item id="140000368" name="Sharpen Arrows I" player_class="RANGER"/>
                 <item id="140000381" name="Lightning Arrows I" player_class="RANGER"/>
                 <item id="140000382" name="Agonizing Arrows I" player_class="RANGER"/>
+                <item id="140000047" name="Arrow Deluge I" player_class="RANGER"/>
+                <item id="140000048" name="Sleep Arrow I" player_class="RANGER"/>
+                <item id="140000049" name="Retreating Slash I" player_class="RANGER"/>
+                <item id="140000051" name="Silence Arrow I" player_class="RANGER"/>
+                <item id="140000053" name="Snare Trap I" player_class="RANGER"/>
+                <item id="140000057" name="Trap of Clairvoyance I" player_class="RANGER"/>
+                <item id="140000060" name="Breath of Nature I" player_class="RANGER"/>
+                <item id="140000063" name="Sniper Stance I" player_class="RANGER"/>
+                <item id="140000069" name="Focused Shots I" player_class="RANGER"/>
+                <item id="140000074" name="Nature's Resolve I" player_class="RANGER"/>
+                <item id="140000195" name="Bestial Fury I" player_class="RANGER"/>
+                <item id="140000197" name="Deadly Arrow I" player_class="RANGER"/>
+                <item id="140000239" name="Bow of Blessing I" player_class="RANGER"/>
+                <item id="140000241" name="Trap Slowing I" player_class="RANGER"/>
+                <item id="140000421" name="Call Gryphu I" player_class="RANGER"/>
+                <item id="140000502" name="Keen Cleverness I" player_class="RANGER"/>
+                <item id="140000584" name="Skybound Trap I" player_class="RANGER"/>
+                <item id="140000585" name="Misery Shot I" player_class="RANGER"/>
+                <item id="140000694" name="Dilation Arrow I" player_class="RANGER"/>
+                <item id="140000702" name="Feint I" player_class="RANGER"/>
 
                 <item id="140000290" name="Illusion Storm I" player_class="SORCERER"/>
                 <item id="140000291" name="Illusion I" player_class="SORCERER"/>
@@ -28830,6 +28911,24 @@
                 <item id="140000467" name="Arcane Thunderbolt I" player_class="SORCERER"/>
                 <item id="140000475" name="Wintry Armor I" player_class="SORCERER"/>
                 <item id="140000476" name="Glacial Shard I" player_class="SORCERER"/>
+                <item id="140000855" name="Wake Up I" player_class="SORCERER"/>
+                <item id="140000692" name="Somnolence I" player_class="SORCERER"/>
+                <item id="140000670" name="Storm Strike I" player_class="SORCERER"/>
+                <item id="140000669" name="Absolute Zero I" player_class="SORCERER"/>
+                <item id="140000508" name="Summon Whirlwind I" player_class="SORCERER"/>
+                <item id="140000390" name="Exchange Vitality I" player_class="SORCERER"/>
+                <item id="140000287" name="Wind Cut Down I" player_class="SORCERER"/>
+                <item id="140000209" name="Lava Tempest I" player_class="SORCERER"/>
+                <item id="140000207" name="Ice Harpoon I" player_class="SORCERER"/>
+                <item id="140000144" name="Barrier of Severance I" player_class="SORCERER"/>
+                <item id="140000142" name="Boon of Quickness I" player_class="SORCERER"/>
+                <item id="140000139" name="Vaizel's Wisdom I" player_class="SORCERER"/>
+                <item id="140000136" name="Fire Burst I" player_class="SORCERER"/>
+                <item id="140000135" name="Zikel's Wisdom I" player_class="SORCERER"/>
+                <item id="140000134" name="Curse of Weakness I" player_class="SORCERER"/>
+                <item id="140000133" name="Ice Sheet I" player_class="SORCERER"/>
+                <item id="140000131" name="Lumiel's Wisdom I" player_class="SORCERER"/>
+                <item id="140000130" name="Curse of Roots I" player_class="SORCERER"/>
 
                 <item id="140000301" name="Summon Cyclone Servant I" player_class="SPIRIT_MASTER"/>
                 <item id="140000302" name="Armor Spirit I" player_class="SPIRIT_MASTER"/>
@@ -28841,6 +28940,26 @@
                 <item id="140000488" name="Hand of Torpor I" player_class="SPIRIT_MASTER"/>
                 <item id="140000493" name="Spirit Hypnosis I" player_class="SPIRIT_MASTER"/>
                 <item id="140000496" name="Infernal Bligh I" player_class="SPIRIT_MASTER"/>
+                <item id="140000703" name="Earthen Call I" player_class="SPIRIT_MASTER"/>
+                <item id="140000701" name="Command: Bodyguard  I" player_class="SPIRIT_MASTER"/>
+                <item id="140000687" name="Sympathetic Mind  I" player_class="SPIRIT_MASTER"/>
+                <item id="140000686" name="Soul Torrent  I" player_class="SPIRIT_MASTER"/>
+                <item id="140000509" name="Transference  I" player_class="SPIRIT_MASTER"/>
+                <item id="140000423" name="Withrering Gloom  I" player_class="SPIRIT_MASTER"/>
+                <item id="140000297" name="Blessing of Fire  I" player_class="SPIRIT_MASTER"/>
+                <item id="140000214" name="Cloaking Word I" player_class="SPIRIT_MASTER"/>
+                <item id="140000212" name="Spirit Explosion I" player_class="SPIRIT_MASTER"/>
+                <item id="140000210" name="Cyclone of Wrath I" player_class="SPIRIT_MASTER"/>
+                <item id="140000167" name="Spirit Substitution I" player_class="SPIRIT_MASTER"/>
+                <item id="140000163" name="Spirit Recovery I" player_class="SPIRIT_MASTER"/>
+                <item id="140000159" name="Fear Shriek I" player_class="SPIRIT_MASTER"/>
+                <item id="140000156" name="Spirit Wall of Protection I" player_class="SPIRIT_MASTER"/>
+                <item id="140000155" name="Weaken Spirit I" player_class="SPIRIT_MASTER"/>
+                <item id="140000152" name="Sigil of Silence I" player_class="SPIRIT_MASTER"/>
+                <item id="140000151" name="Ignite Aether I" player_class="SPIRIT_MASTER"/>
+                <item id="140000149" name="Enmity Swap I" player_class="SPIRIT_MASTER"/>
+                <item id="140000148" name="Body Root I" player_class="SPIRIT_MASTER"/>
+                <item id="140000147" name="Absorb Vitality I" player_class="SPIRIT_MASTER"/>
 
                 <item id="140000266" name="Splendor of Rebirth I" player_class="CLERIC"/>
                 <item id="140000267" name="Shatter Memory I" player_class="CLERIC"/>
@@ -28852,6 +28971,24 @@
                 <item id="140000427" name="Enfeebling Burst I" player_class="CLERIC"/>
                 <item id="140000442" name="Benevolence I" player_class="CLERIC"/>
                 <item id="140000443" name="Call Lightning I" player_class="CLERIC"/>
+                <item id="140000709" name="Power Sprint I" player_class="CLERIC"/>
+                <item id="140000699" name="Retribution Lightning I" player_class="CLERIC"/>
+                <item id="140000633" name="Sacrificial Power I" player_class="CLERIC"/>
+                <item id="140000632" name="Saving Grace I" player_class="CLERIC"/>
+                <item id="140000504" name="Noble Grace I" player_class="CLERIC"/>
+                <item id="140000336" name="Punishing Earth I" player_class="CLERIC"/>
+                <item id="140000263" name="Earth's Wrath I" player_class="CLERIC"/>
+                <item id="140000203" name="Marchutan's Splendor I" player_class="CLERIC"/>
+                <item id="140000201" name="Stability I" player_class="CLERIC"/>
+                <item id="140000110" name="Sympathetic Heal I" player_class="CLERIC"/>
+                <item id="140000108" name="Splendor of Purification I" player_class="CLERIC"/>
+                <item id="140000106" name="Splendor of Recovery I" player_class="CLERIC"/>
+                <item id="140000104" name="Sage's Wisdom I" player_class="CLERIC"/>
+                <item id="140000102" name="Reverse Condition I" player_class="CLERIC"/>
+                <item id="140000101" name="Festering Wound I" player_class="CLERIC"/>
+                <item id="140000100" name="Flash of Recovery I" player_class="CLERIC"/>
+                <item id="140000099" name="Blinding Light I" player_class="CLERIC"/>
+                <item id="140000098" name="Grace of Empyrean Lord I" player_class="CLERIC"/>
 
                 <item id="140000279" name="Stamina Restoration I" player_class="CHANTER"/>
                 <item id="140000280" name="Blessing of Wind I" player_class="CHANTER"/>
@@ -28863,6 +29000,25 @@
                 <item id="140000451" name="Healing Burst I" player_class="CHANTER"/>
                 <item id="140000459" name="Elemental Screen I" player_class="CHANTER"/>
                 <item id="140000497" name="Numbing Blow I" player_class="CHANTER"/>
+                <item id="140000854" name="Acceleration Cheer I" player_class="CHANTER"/>
+                <item id="140000700" name="Leaping Flash I" player_class="CHANTER"/>
+                <item id="140000655" name="Annnihilation I (Burst I)" player_class="CHANTER"/>
+                <item id="140000654" name="Rise I" player_class="CHANTER"/>
+                <item id="140000505" name="Soul Lock I" player_class="CHANTER"/>
+                <item id="140000484" name="Hit Mantra I" player_class="CHANTER"/>
+                <item id="140000278" name="Splash Swing I" player_class="CHANTER"/>
+                <item id="140000274" name="Protective Ward I" player_class="CHANTER"/>
+                <item id="140000206" name="Curtain of Aether I" player_class="CHANTER"/>
+                <item id="140000204" name="Recovery Spell I" player_class="CHANTER"/>
+                <item id="140000127" name="Soul Crush I" player_class="CHANTER"/>
+                <item id="140000125" name="Enhancement Mantra I" player_class="CHANTER"/>
+                <item id="140000123" name="Word of Inspiration I" player_class="CHANTER"/>
+                <item id="140000119" name="Word of Life I" player_class="CHANTER"/>
+                <item id="140000117" name="Binding Word I" player_class="CHANTER"/>
+                <item id="140000116" name="Word of Protection I" player_class="CHANTER"/>
+                <item id="140000115" name="Promise of Aether I" player_class="CHANTER"/>
+                <item id="140000113" name="Healing Conduit I" player_class="CHANTER"/>
+                <item id="140000112" name="Rage Spell I" player_class="CHANTER"/>
 
                 <item id="140001040" name="Particle Whip I" player_class="RIDER"/>
                 <item id="140001047" name="Stability Thrusters I" player_class="RIDER"/>
@@ -28874,6 +29030,16 @@
                 <item id="140001085" name="Trauma Plate Trigger I" player_class="RIDER"/>
                 <item id="140001065" name="Meteor Strike I" player_class="RIDER"/>
                 <item id="140001090" name="Kinetic Bulwark I" player_class="RIDER"/>
+                <item id="140001039" name="Aether Recharge I" player_class="RIDER"/>
+                <item id="140001038" name="Leeching Steel I" player_class="RIDER"/>
+                <item id="140001036" name="Gattling Gun I" player_class="RIDER"/>
+                <item id="140001034" name="Aimbot Assist I" player_class="RIDER"/>
+                <item id="140001029" name="Steel Storm I" player_class="RIDER"/>
+                <item id="140001024" name="Recharge I" player_class="RIDER"/>
+                <item id="140001018" name="Riplash I" player_class="RIDER"/>
+                <item id="140001011" name="Drillbore I" player_class="RIDER"/>
+                <item id="140001003" name="Life Support Trigger I" player_class="RIDER"/>
+                <item id="140001002" name="Nullification Trigger I" player_class="RIDER"/>
 
                 <item id="140000913" name="Juggernaut Cannon I" player_class="GUNNER"/>
                 <item id="140000960" name="Steady Fire I" player_class="GUNNER"/>
@@ -28886,6 +29052,16 @@
                 <item id="140001091" name="Paralysis Cannon I" player_class="GUNNER"/>
                 <item id="140000951" name="Shellshock I" player_class="GUNNER"/>
                 <item id="140000982" name="Dazzling Fire I" player_class="GUNNER"/>
+                <item id="140000986" name="Survival Instinct I" player_class="GUNNER"/>
+                <item id="140000981" name="Missile Guide I" player_class="GUNNER"/>
+                <item id="140000974" name="Quieting Gale I" player_class="GUNNER"/>
+                <item id="140000967" name="Stable Stance I" player_class="GUNNER"/>
+                <item id="140000955" name="Power Grab I" player_class="GUNNER"/>
+                <item id="140000943" name="Nature's Favor I" player_class="GUNNER"/>
+                <item id="140000935" name="Frozen Blitz I" player_class="GUNNER"/>
+                <item id="140000929" name="Blazing Bombardment I" player_class="GUNNER"/>
+                <item id="140000927" name="Stopping Power I" player_class="GUNNER"/>
+                <item id="140000920" name="Sighting I" player_class="GUNNER"/>
 
                 <item id="140000860" name="Exultation I" player_class="BARD"/>
                 <item id="140000861" name="Impassion I" player_class="BARD"/>
@@ -28897,6 +29073,15 @@
                 <item id="140000879" name="Soothing Hymn I" player_class="BARD"/>
                 <item id="140000864" name="Chorus of Blessing I" player_class="BARD"/>
                 <item id="140000874" name="Treble Cleave I" player_class="BARD"/>
+                <item id="140000906" name="Ode to Friendship I" player_class="BARD"/>
+                <item id="140000898" name="Cherubim Call I" player_class="BARD"/>
+                <item id="140000891" name="Hymn of Rejuvenation I" player_class="BARD"/>
+                <item id="140000878" name="Half-Stop I" player_class="BARD"/>
+                <item id="140000869" name="Stinging Note I" player_class="BARD"/>
+                <item id="140000863" name="Composer's Bar I" player_class="BARD"/>
+                <item id="140000862" name="Myt.4: Winter I" player_class="BARD"/>
+                <item id="140000859" name="Freestyle I" player_class="BARD"/>
+                <item id="140000858" name="Myt.1: Spring I" player_class="BARD"/>
             </items>
         </decomposable>
     </decomposable_items>
