@@ -120,7 +120,7 @@ public class GMService {
             
             Iterator<Player> iter = World.getInstance().getPlayersIterator();
             while (iter.hasNext()) {
-                PacketSendUtility.sendBrightYellowMessageOnCenter(iter.next(), "Information : " + String.format(adminTag, player.getName()) + LanguageHandler.translate(CustomMessageId.ANNOUNCE_GM_CONNECTION));
+                PacketSendUtility.sendBrightYellowMessageOnCenter(iter.next(), "Information : " + adminTag + LanguageHandler.translate(CustomMessageId.ANNOUNCE_GM_CONNECTION));
             }
         }
     }
@@ -179,7 +179,7 @@ public class GMService {
 
         Iterator<Player> iter = World.getInstance().getPlayersIterator();
         while (iter.hasNext()) {
-            PacketSendUtility.sendBrightYellowMessageOnCenter(iter.next(), "Information : " + String.format(adminTag, player.getName()) + LanguageHandler.translate(CustomMessageId.ANNOUNCE_GM_DECONNECTION));
+            PacketSendUtility.sendBrightYellowMessageOnCenter(iter.next(), "Information : " + adminTag + LanguageHandler.translate(CustomMessageId.ANNOUNCE_GM_DECONNECTION));
         }
     }
 
