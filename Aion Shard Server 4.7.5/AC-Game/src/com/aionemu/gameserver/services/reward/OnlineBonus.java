@@ -1,6 +1,7 @@
 package com.aionemu.gameserver.services.reward;
 
 import com.aionemu.gameserver.configs.main.MembershipConfig;
+import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.services.abyss.AbyssPointsService;
 import com.aionemu.gameserver.services.item.ItemService;
@@ -37,7 +38,29 @@ public class OnlineBonus {
                             if (object.getInventory().isFull()) {
                                 log.warn("[OnlineBonus] Player " + object.getName() + " tried to receive item with full inventory.");
                             } else {
-                                ItemService.addItem(object, MembershipConfig.ONLINE_BONUS_ITEM, MembershipConfig.ONLINE_BONUS_COUNT);
+                                switch (object.getCommonData().getPlayerClass()) {
+                                    case GLADIATOR:
+                                    case TEMPLAR:
+                                    case RANGER:
+                                    case ASSASSIN:
+                                    case CHANTER:
+                                        ItemService.addItem(object, (object.getCommonData().getRace() == Race.ELYOS ? 160010289 : 160010290), 1); //Vit Atk Phys
+                                        break;
+                                    case SORCERER:
+                                    case SPIRIT_MASTER:
+                                    case CLERIC:
+                                        ItemService.addItem(object, (object.getCommonData().getRace() == Race.ELYOS ? 160010291 : 160010292), 1); //Vit Inc Magic
+                                        break;
+                                    case GUNNER:
+                                    case BARD:
+                                    case RIDER:
+                                        ItemService.addItem(object, (object.getCommonData().getRace() == Race.ELYOS ? 160010293 : 160010294), 1); //Vit Atk Magic
+                                        break;
+                                    default:
+                                        ItemService.addItem(object, (object.getCommonData().getRace() == Race.ELYOS ? 188052726 : 188052726), 1); //Sac de bonbon par défaut
+                                        break;
+                                }
+                                //ItemService.addItem(object, MembershipConfig.ONLINE_BONUS_ITEM, MembershipConfig.ONLINE_BONUS_COUNT);
                                 if(MembershipConfig.ONLINE_BONUS_ABYSS_ENABLE){
                                     AbyssPointsService.addAp(object, MembershipConfig.ONLINE_BONUS_AP);
                                     AbyssPointsService.addGp(object, MembershipConfig.ONLINE_BONUS_GP);
