@@ -96,8 +96,8 @@ public class PlayerRestrictions extends AbstractRestrictions {
         }
         
         // if target is in neutral zone, you cannot hit them
-        if (/*!skill.getSkillTemplate().hasHealEffect() ||*/ !skill.getSkillTemplate().hasRandomMoveEffect()
-        /*|| skill.getSkillTemplate().getSubType() != SkillSubType.BUFF*/ || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
+        /*if (!skill.getSkillTemplate().hasHealEffect() || !skill.getSkillTemplate().hasRandomMoveEffect()
+        || skill.getSkillTemplate().getSubType() != SkillSubType.BUFF || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
         || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMON || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMONHOMING) {
 
             if (target instanceof Player && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
@@ -109,7 +109,7 @@ public class PlayerRestrictions extends AbstractRestrictions {
                 }
             }
 
-        }
+        }*/
 
         return true;
     }
@@ -137,7 +137,7 @@ public class PlayerRestrictions extends AbstractRestrictions {
         if (!checkFly(player, target)) {
             return false;
         }
-        
+
         if (player.isCasting()) {
             player.getController().cancelCurrentSkill();
             return false;
