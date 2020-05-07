@@ -92,7 +92,7 @@ public class PlayerSkillEntry extends SkillEntry {
             }
         }
         if (currentXp > requiredExp) {
-            if (CraftConfig.UNABLE_CRAFT_SKILLS_UNRESTRICTED_LEVELUP == true) {
+            if (CraftConfig.UNABLE_CRAFT_SKILLS_UNRESTRICTED_LEVELUP) {
                 float skillUpRatio = (currentXp / (0.23f * (skillLevel + 17.2f) * (skillLevel + 17.2f)));
                 int skillUp = skillLevel + (int) skillUpRatio;
 
