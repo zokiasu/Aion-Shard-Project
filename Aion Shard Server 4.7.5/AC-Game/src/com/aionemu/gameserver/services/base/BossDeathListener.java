@@ -66,16 +66,20 @@ public class BossDeathListener extends OnDieEventCallbackBase {
 
 		if (winner instanceof Creature) {
 			Creature kill = (Creature) winner;
-			if (kill.getRace().isPlayerRace())
+			if (kill.getRace().isPlayerRace()) {
 				base.setRace(kill.getRace());
-		}
-		else if (winner instanceof TemporaryPlayerTeam) {
+				race = kill.getRace();
+			}
+		} else if (winner instanceof TemporaryPlayerTeam) {
 			TemporaryPlayerTeam team = (TemporaryPlayerTeam) winner;
-			if (team.getRace().isPlayerRace())
+			if (team.getRace().isPlayerRace()) {
 				base.setRace(team.getRace());
-		}
-		else
+				race = team.getRace();
+			}
+		} else {
 			base.setRace(Race.NPC);
+			race = Race.NPC;
+		}
 
 		BaseService.getInstance().capture(base.getId(), base.getRace());
 		log.info("Legat kill ! BOSS: " + boss + " in BaseId: " + base.getBaseLocation().getId() + " killed by RACE: " + race);
