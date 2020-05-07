@@ -95,7 +95,7 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
 
-        if(!player.isInsideZoneType(ZoneType.PVP) && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
+        if(!player.isInsideZoneType(ZoneType.PVP) && target instanceof Player && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
             List<ZoneInstance> zones = target.getPosition().getMapRegion().getZones((Player) target);
             for (ZoneInstance zone : zones) {
                 if (!zone.isPvpAllowed()) {
