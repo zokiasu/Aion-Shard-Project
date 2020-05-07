@@ -1,8 +1,20 @@
+/**
+ * This file is part of Aion-Lightning <aion-lightning.org>.
+ *
+ *  Aion-Lightning is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  Aion-Lightning is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details. *
+ *  You should have received a copy of the GNU General Public License
+ *  along with Aion-Lightning.
+ *  If not, see <http://www.gnu.org/licenses/>.
+ */
 package com.aionemu.gameserver.model.team2.common.legacy;
-
-import java.util.Collection;
-
-import javolution.util.FastList;
 
 import com.aionemu.gameserver.model.actions.PlayerMode;
 import com.aionemu.gameserver.model.drop.DropItem;
@@ -11,6 +23,9 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.item.ItemQuality;
 import com.aionemu.gameserver.services.drop.DropDistributionService;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
+import javolution.util.FastList;
+
+import java.util.Collection;
 
 /**
  * @author ATracer, xTz
@@ -24,6 +39,7 @@ public class LootGroupRules {
     private int heroic_item_above;
     private int fabled_item_above;
     private int ethernal_item_above;
+    private int mythic_item_above;
     private int misc;
     private int nrMisc;
     private int nrRoundRobin;
@@ -37,10 +53,10 @@ public class LootGroupRules {
         heroic_item_above = 2;
         fabled_item_above = 2;
         ethernal_item_above = 2;
+        mythic_item_above = 2;
     }
 
-    public LootGroupRules(LootRuleType lootRule, LootDistribution autodistribution, int commonItemAbove,
-                          int superiorItemAbove, int heroicItemAbove, int fabledItemAbove, int ethernalItemAbove, int misc) {
+    public LootGroupRules(LootRuleType lootRule, LootDistribution autodistribution, int commonItemAbove, int superiorItemAbove, int heroicItemAbove, int fabledItemAbove, int ethernalItemAbove, int mythicItemAbove, int misc) {
         super();
         this.lootRule = lootRule;
         this.autodistribution = autodistribution;
@@ -50,6 +66,8 @@ public class LootGroupRules {
         heroic_item_above = heroicItemAbove;
         fabled_item_above = fabledItemAbove;
         ethernal_item_above = ethernalItemAbove;
+        mythic_item_above = mythicItemAbove;
+
     }
 
     /**
@@ -66,8 +84,12 @@ public class LootGroupRules {
                 return heroic_item_above != 0;
             case UNIQUE: // Yellow
                 return fabled_item_above != 0;
-            case MYTHIC: // Orange
+            case EPIC: // Orange
                 return ethernal_item_above != 0;
+            case MYTHIC: // Purple
+                return mythic_item_above != 0;
+            default:
+                break;
         }
         return false;
     }
@@ -127,6 +149,13 @@ public class LootGroupRules {
      */
     public int getEthernalItemAbove() {
         return ethernal_item_above;
+    }
+
+    /**
+     * @return the mythic_item_above
+     */
+    public int getMythicItemAbove() {
+        return mythic_item_above;
     }
 
     /**

@@ -104,6 +104,20 @@ public class PlayerRestrictions extends AbstractRestrictions {
             }
         }
 
+        if(skill.checkNonTargetAOE()) {
+            List<Creature> creature = skill.getEffectedList();
+            for (Creature crea : creature) {
+                if(crea instanceof Player && !crea.isInsideZoneType(ZoneType.PVP)) {
+                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
+                    for (ZoneInstance zone : zones) {
+                        if (!zone.isPvpAllowed()) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+
         // if target is in neutral zone, you cannot hit them
         /*if (!skill.getSkillTemplate().hasHealEffect() || !skill.getSkillTemplate().hasRandomMoveEffect()
         || skill.getSkillTemplate().getSubType() != SkillSubType.BUFF || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
@@ -129,7 +143,7 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
 
-        if (target != null && target instanceof Player) {
+        if (target instanceof Player) {
             Player playerTarget = (Player) target;
             if (playerTarget.isUsingFlyTeleport() || playerTarget.isInPlayerMode(PlayerMode.WINDSTREAM)) {
                 return false;
@@ -338,6 +352,10 @@ public class PlayerRestrictions extends AbstractRestrictions {
         }
 
         if (!(target instanceof Creature)) {
+            return false;
+        }
+
+        if(target instanceof Player && ((Creature) target).getRace() == player.getRace()) {
             return false;
         }
 
