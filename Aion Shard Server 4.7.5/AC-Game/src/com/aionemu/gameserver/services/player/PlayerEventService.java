@@ -40,7 +40,45 @@ public class PlayerEventService {
                     if (player.getInventory().isFull()) {
                         log.warn("[EventReward] player " + player.getName() + " tried to receive item with full inventory.");
                     } else {
-                        ItemService.addItem(player, (player.getRace() == Race.ELYOS ? EventsConfig.EVENT_ITEM_ELYOS : EventsConfig.EVENT_ITEM_ASMO), EventsConfig.EVENT_ITEM_COUNT * rate);
+                        switch (player.getCommonData().getPlayerClass()) {
+                            case GLADIATOR: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010289 : 160010290), 1); //Vit Atk Phys
+                            }
+                            case TEMPLAR: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010289 : 160010290), 1); //Vit Atk Phys
+                            }
+                            case RANGER: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010289 : 160010290), 1); //Vit Atk Phys
+                            }
+                            case ASSASSIN: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010289 : 160010290), 1); //Vit Atk Phys
+                            }
+                            case SORCERER: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010291 : 160010292), 1); //Vit Inc Magic
+                            }
+                            case SPIRIT_MASTER: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010291 : 160010292), 1); //Vit Inc Magic
+                            }
+                            case CLERIC: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010291 : 160010292), 1); //Vit Inc Magic
+                            }
+                            case CHANTER: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010289 : 160010290), 1); //Vit Atk Phys
+                            }
+                            case GUNNER: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010293 : 160010294), 1); //Vit Atk Magic
+                            }
+                            case BARD: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010293 : 160010294), 1); //Vit Atk Magic
+                            }
+                            case RIDER: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 160010293 : 160010294), 1); //Vit Atk Magic
+                            }
+                            default: {
+                                ItemService.addItem(player, (player.getCommonData().getRace() == Race.ELYOS ? 188052726 : 188052726), 1); //Sac de bonbon par défaut
+                            }
+                        }
+                        //ItemService.addItem(player, (player.getRace() == Race.ELYOS ? EventsConfig.EVENT_ITEM_ELYOS : EventsConfig.EVENT_ITEM_ASMO), EventsConfig.EVENT_ITEM_COUNT * rate);
                     }
                 } catch (Exception ex) {
                     log.error("Exception during event rewarding of player " + player.getName(), ex);
