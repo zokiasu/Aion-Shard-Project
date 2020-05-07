@@ -94,7 +94,16 @@ public class PlayerRestrictions extends AbstractRestrictions {
         if (player.getBattleGround() != null && !player.getBattleGround().running && target instanceof Player && ((Player) target).getCommonData().getRace() != player.getCommonData().getRace()) {
             return false;
         }
-        
+
+        if(!player.isInsideZoneType(ZoneType.PVP) && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
+            List<ZoneInstance> zones = target.getPosition().getMapRegion().getZones((Player) target);
+            for (ZoneInstance zone : zones) {
+                if (!zone.isPvpAllowed()) {
+                    return false;
+                }
+            }
+        }
+
         // if target is in neutral zone, you cannot hit them
         /*if (!skill.getSkillTemplate().hasHealEffect() || !skill.getSkillTemplate().hasRandomMoveEffect()
         || skill.getSkillTemplate().getSubType() != SkillSubType.BUFF || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
