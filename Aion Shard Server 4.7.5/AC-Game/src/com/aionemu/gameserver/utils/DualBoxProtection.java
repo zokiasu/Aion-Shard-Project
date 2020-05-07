@@ -25,29 +25,25 @@ import com.aionemu.gameserver.network.aion.AionConnection;
  * @author LOBILLO
  */
 
-public class DualBoxProtection
-{
+public class DualBoxProtection {
 	static int count = 0;
 	
-	public static void checkConnection(Player player)
-	{
+	public static void checkConnection(Player player) {
 		count = 0;
-		for (Player p : World.getInstance().getAllPlayers())
-		{
+		for (Player p : World.getInstance().getAllPlayers()) {
 			if (p.getClientConnection().getIP().equals(player.getClientConnection().getIP()))
 			{
 				count++;
 			}
-		}
-		
-		if (count > DualBoxConfig.DUALBOX_ALLOWED_CHARS && !isInWhiteList(player.getClientConnection().getIP()))
-		{
-			player.getClientConnection().close(new SM_QUIT_RESPONSE(), true);
+
+			if (count > DualBoxConfig.DUALBOX_ALLOWED_CHARS && !isInWhiteList(player.getClientConnection().getIP())) {
+				player.getClientConnection().close(new SM_QUIT_RESPONSE(), true);
+				count = 0;
+			}
 		}
 	}
 	
-	private static boolean isInWhiteList(String address)
-	{
+	private static boolean isInWhiteList(String address) {
 		String[] list = DualBoxConfig.DUALBOX_WHITELIST.split(";");
 		for (String ip : list)
 		{

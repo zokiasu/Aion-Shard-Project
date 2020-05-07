@@ -7,7 +7,7 @@ public class DualBoxConfig {
 	/**
 	* Active DualBox Restriction
 	*/
-	@Property(key = "gameserver.dualbox.active", defaultValue = "false")
+	@Property(key = "gameserver.dualbox.active", defaultValue = "true")
 	public static boolean	DUALBOX_PROTECTION;
 	
 	/**

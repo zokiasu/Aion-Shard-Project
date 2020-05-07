@@ -11,6 +11,9 @@ import com.aionemu.gameserver.world.knownlist.Visitor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static com.aionemu.gameserver.configs.main.DualBoxConfig.DUALBOX_PROTECTION;
+import static com.aionemu.gameserver.utils.DualBoxProtection.*;
+
 /**
  * @author Eloann
  * @reworked Kill3r
@@ -27,6 +30,9 @@ public class OnlineBonus {
                     @Override
                     public void visit(Player object) {
                         int time = MembershipConfig.ONLINE_BONUS_TIME;
+                        if(DUALBOX_PROTECTION) {
+                            checkConnection(object);
+                        }
                         try {
                             if (object.getInventory().isFull()) {
                                 log.warn("[OnlineBonus] Player " + object.getName() + " tried to receive item with full inventory.");

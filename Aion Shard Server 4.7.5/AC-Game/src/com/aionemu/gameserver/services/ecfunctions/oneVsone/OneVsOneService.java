@@ -14,6 +14,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 
+import static com.aionemu.gameserver.utils.DualBoxProtection.*;
+
 /**
  * @author Kill3r
  */
