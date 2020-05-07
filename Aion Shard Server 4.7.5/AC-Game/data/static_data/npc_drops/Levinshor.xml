@@ -11,18 +11,18 @@
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_60" race="PC_ALL">
             <!-- Manastone 60 -->
-            <drop item_id="167000551" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
-            <drop item_id="167000552" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
-            <drop item_id="167000553" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
-            <drop item_id="167000554" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
-            <drop item_id="167000555" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
-            <drop item_id="167000556" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
-            <drop item_id="167000557" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
-            <drop item_id="167000558" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
-            <drop item_id="167000559" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
-            <drop item_id="167000560" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
-            <drop item_id="167000561" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
-            <drop item_id="167000563" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
+            <drop item_id="167000551" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
+            <drop item_id="167000552" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
+            <drop item_id="167000553" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
+            <drop item_id="167000554" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
+            <drop item_id="167000555" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
+            <drop item_id="167000556" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
+            <drop item_id="167000557" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
+            <drop item_id="167000558" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
+            <drop item_id="167000559" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
+            <drop item_id="167000560" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
+            <drop item_id="167000561" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
+            <drop item_id="167000563" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_70" race="PC_ALL">
             <!-- Manastone 70 -->
@@ -217,18 +217,18 @@
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_60" race="PC_ALL">
             <!-- Manastone 60 -->
-            <drop item_id="167000551" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
-            <drop item_id="167000552" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
-            <drop item_id="167000553" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
-            <drop item_id="167000554" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
-            <drop item_id="167000555" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
-            <drop item_id="167000556" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
-            <drop item_id="167000557" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
-            <drop item_id="167000558" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
-            <drop item_id="167000559" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
-            <drop item_id="167000560" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
-            <drop item_id="167000561" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
-            <drop item_id="167000563" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
+            <drop item_id="167000551" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
+            <drop item_id="167000552" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
+            <drop item_id="167000553" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
+            <drop item_id="167000554" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
+            <drop item_id="167000555" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
+            <drop item_id="167000556" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
+            <drop item_id="167000557" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
+            <drop item_id="167000558" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
+            <drop item_id="167000559" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
+            <drop item_id="167000560" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
+            <drop item_id="167000561" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
+            <drop item_id="167000563" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_70" race="PC_ALL">
             <!-- Manastone 70 -->
@@ -423,18 +423,18 @@
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_60" race="PC_ALL">
             <!-- Manastone 60 -->
-            <drop item_id="167000551" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
-            <drop item_id="167000552" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
-            <drop item_id="167000553" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
-            <drop item_id="167000554" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
-            <drop item_id="167000555" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
-            <drop item_id="167000556" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
-            <drop item_id="167000557" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
-            <drop item_id="167000558" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
-            <drop item_id="167000559" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
-            <drop item_id="167000560" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
-            <drop item_id="167000561" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
-            <drop item_id="167000563" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
+            <drop item_id="167000551" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
+            <drop item_id="167000552" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
+            <drop item_id="167000553" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
+            <drop item_id="167000554" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
+            <drop item_id="167000555" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
+            <drop item_id="167000556" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
+            <drop item_id="167000557" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
+            <drop item_id="167000558" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
+            <drop item_id="167000559" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
+            <drop item_id="167000560" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
+            <drop item_id="167000561" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
+            <drop item_id="167000563" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_70" race="PC_ALL">
             <!-- Manastone 70 -->
@@ -629,18 +629,18 @@
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_60" race="PC_ALL">
             <!-- Manastone 60 -->
-            <drop item_id="167000551" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
-            <drop item_id="167000552" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
-            <drop item_id="167000553" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
-            <drop item_id="167000554" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
-            <drop item_id="167000555" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
-            <drop item_id="167000556" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
-            <drop item_id="167000557" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
-            <drop item_id="167000558" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
-            <drop item_id="167000559" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
-            <drop item_id="167000560" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
-            <drop item_id="167000561" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
-            <drop item_id="167000563" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
+            <drop item_id="167000551" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
+            <drop item_id="167000552" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
+            <drop item_id="167000553" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
+            <drop item_id="167000554" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
+            <drop item_id="167000555" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
+            <drop item_id="167000556" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
+            <drop item_id="167000557" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
+            <drop item_id="167000558" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
+            <drop item_id="167000559" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
+            <drop item_id="167000560" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
+            <drop item_id="167000561" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
+            <drop item_id="167000563" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_70" race="PC_ALL">
             <!-- Manastone 70 -->
@@ -835,18 +835,18 @@
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_60" race="PC_ALL">
             <!-- Manastone 60 -->
-            <drop item_id="167000551" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
-            <drop item_id="167000552" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
-            <drop item_id="167000553" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
-            <drop item_id="167000554" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
-            <drop item_id="167000555" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
-            <drop item_id="167000556" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
-            <drop item_id="167000557" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
-            <drop item_id="167000558" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
-            <drop item_id="167000559" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
-            <drop item_id="167000560" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
-            <drop item_id="167000561" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
-            <drop item_id="167000563" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
+            <drop item_id="167000551" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
+            <drop item_id="167000552" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
+            <drop item_id="167000553" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
+            <drop item_id="167000554" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
+            <drop item_id="167000555" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
+            <drop item_id="167000556" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
+            <drop item_id="167000557" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
+            <drop item_id="167000558" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
+            <drop item_id="167000559" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
+            <drop item_id="167000560" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
+            <drop item_id="167000561" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
+            <drop item_id="167000563" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_70" race="PC_ALL">
             <!-- Manastone 70 -->
@@ -1041,18 +1041,18 @@
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_60" race="PC_ALL">
             <!-- Manastone 60 -->
-            <drop item_id="167000551" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
-            <drop item_id="167000552" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
-            <drop item_id="167000553" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
-            <drop item_id="167000554" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
-            <drop item_id="167000555" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
-            <drop item_id="167000556" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
-            <drop item_id="167000557" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
-            <drop item_id="167000558" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
-            <drop item_id="167000559" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
-            <drop item_id="167000560" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
-            <drop item_id="167000561" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
-            <drop item_id="167000563" chance="100.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
+            <drop item_id="167000551" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
+            <drop item_id="167000552" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
+            <drop item_id="167000553" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Accuracy 27 -->
+            <drop item_id="167000554" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Evasion 17 -->
+            <drop item_id="167000555" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magic Boost 27 -->
+            <drop item_id="167000556" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Parry 27 -->
+            <drop item_id="167000557" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Block 27 -->
+            <drop item_id="167000558" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Crit Strike 17 -->
+            <drop item_id="167000559" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Flight Time 7 -->
+            <drop item_id="167000560" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Magical Accuracy 14 -->
+            <drop item_id="167000561" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Resist Magic 14 -->
+            <drop item_id="167000563" chance="25.0" min_amount="1" max_amount="5" no_reduce="false" eachmember="false"/> <!-- Healing Boost 3 -->
         </drop_group>
         <drop_group use_category="true" name="MANASTONE_70" race="PC_ALL">
             <!-- Manastone 70 -->

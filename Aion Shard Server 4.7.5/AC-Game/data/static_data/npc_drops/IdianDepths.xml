@@ -50,7 +50,7 @@
     <!-- Slavir the Ancient -->
     <npc_drop npc_id="230998">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="50.0" min_amount="1" max_amount="10"/>
@@ -88,7 +88,7 @@
     <!-- Roaring Kamara -->
     <npc_drop npc_id="231196">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="50.0" min_amount="1" max_amount="10"/>
@@ -135,7 +135,7 @@
     <!-- Bloodcrazed Grigol -->
     <npc_drop npc_id="231000">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="50.0" min_amount="1" max_amount="10"/>
@@ -183,7 +183,7 @@
     <!-- Queen Serusia -->
     <npc_drop npc_id="231003">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="50.0" min_amount="1" max_amount="10"/>
@@ -231,7 +231,7 @@
     <!-- Début Mob Farm -->
         <npc_drop npc_id="231059">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -370,7 +370,7 @@
         </npc_drop>
         <npc_drop npc_id="231060">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -509,7 +509,7 @@
         </npc_drop>
         <npc_drop npc_id="231061">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -648,7 +648,7 @@
         </npc_drop>
         <npc_drop npc_id="231062">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -787,7 +787,7 @@
         </npc_drop>
         <npc_drop npc_id="231064">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -926,7 +926,7 @@
         </npc_drop>
         <npc_drop npc_id="231065">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1065,7 +1065,7 @@
         </npc_drop>
         <npc_drop npc_id="230859">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1204,7 +1204,7 @@
         </npc_drop>
         <npc_drop npc_id="230860">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1343,7 +1343,7 @@
         </npc_drop>
         <npc_drop npc_id="230861">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1482,7 +1482,7 @@
         </npc_drop>
         <npc_drop npc_id="230863">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1621,7 +1621,7 @@
         </npc_drop>
         <npc_drop npc_id="230864">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1760,7 +1760,7 @@
         </npc_drop>
         <npc_drop npc_id="230865">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -1899,7 +1899,7 @@
         </npc_drop>
         <npc_drop npc_id="230866">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2038,7 +2038,7 @@
         </npc_drop>
         <npc_drop npc_id="230867">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2177,7 +2177,7 @@
         </npc_drop>
         <npc_drop npc_id="230868">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2316,7 +2316,7 @@
         </npc_drop>
         <npc_drop npc_id="230869">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2455,7 +2455,7 @@
         </npc_drop>
         <npc_drop npc_id="230870">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2594,7 +2594,7 @@
         </npc_drop>
         <npc_drop npc_id="230871">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2733,7 +2733,7 @@
         </npc_drop>
         <npc_drop npc_id="230872">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -2872,7 +2872,7 @@
         </npc_drop>
         <npc_drop npc_id="230874">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3011,7 +3011,7 @@
         </npc_drop>
         <npc_drop npc_id="230875">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3150,7 +3150,7 @@
         </npc_drop>
         <npc_drop npc_id="230876">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3289,7 +3289,7 @@
         </npc_drop>
         <npc_drop npc_id="230877">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3428,7 +3428,7 @@
         </npc_drop>
         <npc_drop npc_id="230878">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3567,7 +3567,7 @@
         </npc_drop>
         <npc_drop npc_id="230879">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3706,7 +3706,7 @@
         </npc_drop>
         <npc_drop npc_id="230880">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3845,7 +3845,7 @@
         </npc_drop>
         <npc_drop npc_id="230881">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -3984,7 +3984,7 @@
         </npc_drop>
         <npc_drop npc_id="230888">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4123,7 +4123,7 @@
         </npc_drop>
         <npc_drop npc_id="230892">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4262,7 +4262,7 @@
         </npc_drop>
         <npc_drop npc_id="230893">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4401,7 +4401,7 @@
         </npc_drop>
         <npc_drop npc_id="230894">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4540,7 +4540,7 @@
         </npc_drop>
         <npc_drop npc_id="230896">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4679,7 +4679,7 @@
         </npc_drop>
         <npc_drop npc_id="230900">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4818,7 +4818,7 @@
         </npc_drop>
         <npc_drop npc_id="230901">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -4957,7 +4957,7 @@
         </npc_drop>
         <npc_drop npc_id="230933">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5096,7 +5096,7 @@
         </npc_drop>
         <npc_drop npc_id="230946">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5235,7 +5235,7 @@
         </npc_drop>
         <npc_drop npc_id="230948">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5374,7 +5374,7 @@
         </npc_drop>
         <npc_drop npc_id="230949">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5513,7 +5513,7 @@
         </npc_drop>
         <npc_drop npc_id="230950">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5652,7 +5652,7 @@
         </npc_drop>
         <npc_drop npc_id="230972">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5791,7 +5791,7 @@
         </npc_drop>
         <npc_drop npc_id="230988">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -5930,7 +5930,7 @@
         </npc_drop>
         <npc_drop npc_id="230993">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -6069,7 +6069,7 @@
         </npc_drop>
         <npc_drop npc_id="230996">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -6208,7 +6208,7 @@
         </npc_drop>
         <npc_drop npc_id="283905">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -6347,7 +6347,7 @@
         </npc_drop>
         <npc_drop npc_id="283906">
             <drop_group name="KINAH">
-                <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+                <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
             </drop_group>
             <drop_group name="ANCIENT_COIN">
                 <drop item_id="186000237" chance="10.0" min_amount="1" max_amount="10"/>
@@ -6488,7 +6488,7 @@
     <!-- Elite -->
     <npc_drop npc_id="231196">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -6729,7 +6729,7 @@
     </npc_drop>
     <npc_drop npc_id="233302">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -6970,7 +6970,7 @@
     </npc_drop>
     <npc_drop npc_id="233303">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -7212,7 +7212,7 @@
     </npc_drop>
     <npc_drop npc_id="233304">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -7454,7 +7454,7 @@
     </npc_drop>
     <npc_drop npc_id="233305">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -7696,7 +7696,7 @@
     </npc_drop>
     <npc_drop npc_id="233306">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -7938,7 +7938,7 @@
     </npc_drop>
     <npc_drop npc_id="233040">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -8426,7 +8426,7 @@
     </npc_drop>
     <npc_drop npc_id="230898">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -8683,7 +8683,7 @@
     </npc_drop>
     <npc_drop npc_id="230920">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -8940,7 +8940,7 @@
     </npc_drop>
     <npc_drop npc_id="230929">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -9197,7 +9197,7 @@
     </npc_drop>
     <npc_drop npc_id="230925">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -9454,7 +9454,7 @@
     </npc_drop>
     <npc_drop npc_id="230928">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -9711,7 +9711,7 @@
     </npc_drop>
     <npc_drop npc_id="230924">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -9968,7 +9968,7 @@
     </npc_drop>
     <npc_drop npc_id="230899">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -10225,7 +10225,7 @@
     </npc_drop>
     <npc_drop npc_id="233308">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -10482,7 +10482,7 @@
     </npc_drop>
     <npc_drop npc_id="231197">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -10739,7 +10739,7 @@
     </npc_drop>
     <npc_drop npc_id="230912">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -10996,7 +10996,7 @@
     </npc_drop>
     <npc_drop npc_id="230911">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
@@ -11253,7 +11253,7 @@
     </npc_drop>
     <npc_drop npc_id="233304">
         <drop_group name="KINAH">
-            <drop item_id="182400001" chance="75.0" min_amount="1000" max_amount="150000"/>
+            <drop item_id="182400001" chance="50.0" min_amount="1000" max_amount="150000"/>
         </drop_group>
         <drop_group name="ANCIENT_COIN">
             <drop item_id="186000237" chance="25.0" min_amount="1" max_amount="10"/>
