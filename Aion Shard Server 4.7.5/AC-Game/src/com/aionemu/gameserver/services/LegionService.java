@@ -1952,10 +1952,10 @@ public class LegionService {
             } else if (!LegionConfig.LEGION_WAREHOUSE) {
                 // Legion Warehouse not enabled
                 return false;
-            } else if (whUser != playerId && legWh.getWhUser() != 0) {
+            } /*else if (whUser != playerId && legWh.getWhUser() != 0) {
                 PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1300280));
                 return false;
-            }
+            }*/
             legWh.setWhUser(player.getObjectId());
             return true;
         }

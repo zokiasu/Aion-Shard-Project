@@ -182,10 +182,27 @@ public class AturamSkyFortressInstance extends GeneralInstanceHandler {
 
     @Override
     public void onEnterInstance(Player player) {
-        final QuestState qs = player.getQuestStateList().getQuestState(player.getRace().equals(Race.ELYOS) ? 18302 : 28302);
+        doors.get(2).setOpen(true);
+        doors.get(17).setOpen(true);
+        doors.get(26).setOpen(true);
+        doors.get(68).setOpen(true);
+        doors.get(85).setOpen(true);
+        doors.get(90).setOpen(true);
+        doors.get(103).setOpen(true);
+        doors.get(128).setOpen(true);
+        doors.get(138).setOpen(true);
+        doors.get(174).setOpen(true);
+        doors.get(175).setOpen(true);
+        doors.get(177).setOpen(true);
+        doors.get(178).setOpen(true);
+        doors.get(230).setOpen(true);
+        doors.get(234).setOpen(true);
+        doors.get(307).setOpen(true);
+        doors.get(308).setOpen(true);
+        /*final QuestState qs = player.getQuestStateList().getQuestState(player.getRace().equals(Race.ELYOS) ? 18302 : 28302);
         if (qs != null && qs.getStatus() == QuestStatus.COMPLETE) {
             doors.get(26).setOpen(true);
-        }
+        }*/
     }
 
     @Override
