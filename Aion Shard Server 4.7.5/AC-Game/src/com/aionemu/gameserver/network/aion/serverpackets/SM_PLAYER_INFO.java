@@ -100,7 +100,7 @@ public class SM_PLAYER_INFO extends AionServerPacket {
         writeD(player.getTransformModel().getType().getId());
         if (player.isInFFA() || activePlayer.isInFFA() || player.isInPkMode() || activePlayer.isInPkMode()){
             writeC(0x00);
-        }else{
+        } else {
             writeC(enemy ? 0x00 : 0x26);
         }
 

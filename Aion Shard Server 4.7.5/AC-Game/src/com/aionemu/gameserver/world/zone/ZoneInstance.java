@@ -153,8 +153,7 @@ public class ZoneInstance implements Comparable<ZoneInstance> {
     }
 
     public boolean isPvpAllowed() {
-        if (template.getZoneTemplate().getZoneType() != ZoneClassName.PVP
-                || World.getInstance().getWorldMap(mapId).hasOverridenOption(ZoneAttributes.PVP_ENABLED)) {
+        if (template.getZoneTemplate().getZoneType() != ZoneClassName.PVP) {
             return World.getInstance().getWorldMap(mapId).isPvpAllowed();
         }
         return (template.getZoneTemplate().getFlags() & ZoneAttributes.PVP_ENABLED.getId()) != 0;
