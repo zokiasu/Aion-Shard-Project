@@ -368,7 +368,9 @@ public class Base<BL extends BaseLocation> {
 		for (Npc npc : getSpawned()) {
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
-			npc.getController().scheduleRespawn().cancel(true);
+			if(npc.isSpawned()) {
+				npc.getController().scheduleRespawn().cancel(true);
+			}
 		}
 		getSpawned().clear();
 

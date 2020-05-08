@@ -1297,6 +1297,11 @@
 				<!-- Irigani Recon Veteran Sentry -->
 				<spawn npc_id="232556" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1561.8403" y="910.6345" z="146.05962" h="90"/>
+					<spot x="1617.6953" y="889.2584" z="157.36423" h="40" />
+					<spot x="1604.4329" y="872.81354" z="150.3424" h="65" />
+					<spot x="1604.8323" y="851.289" z="147.26517" h="71" />
+					<spot x="1583.559" y="844.66907" z="144.41776" h="9" />
+					<spot x="1570.6371" y="875.457" z="147.69287" h="8" />
 				</spawn>
 				<!-- Irigani Recon Veteran Supervisor -->
 				<spawn npc_id="232557" respawn_time="120" handler="GUARD_VILLAGE">
