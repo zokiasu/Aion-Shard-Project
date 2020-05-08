@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
     <spawn_map map_id="300200000">
+        <!-- General Good Merchant Elyos -->
+        <spawn npc_id="801539" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="218.36842" y="291.1565" z="142.42577" h="90" entity_id="0"/>
+        </spawn>
+        <!-- General Good Merchant Asmo -->
+        <spawn npc_id="801489" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="231.62553" y="290.48148" z="142.42577" h="90" entity_id="0"/>
+        </spawn>
         <!-- Essencetapping Asmo -->
         <spawn npc_id="204096" respawn_time="295" difficult_id="0" custom="true">
             <spot x="151.0137" y="81.01374" z="144.00992" h="91" entity_id="0"/>

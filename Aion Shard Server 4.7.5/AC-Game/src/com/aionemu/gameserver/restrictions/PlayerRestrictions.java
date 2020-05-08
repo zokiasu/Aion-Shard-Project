@@ -44,11 +44,11 @@ public class PlayerRestrictions extends AbstractRestrictions {
                 List<ZoneInstance> zones1 = player.getPosition().getMapRegion().getZones(player);
                 List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
                 for (ZoneInstance zone : zones1) {
-                    PacketSendUtility.sendMessage(player, "Check zone player");
+                    //PacketSendUtility.sendMessage(player, "Check zone player");
                     for (ZoneInstance zone2 : zones) {
-                        PacketSendUtility.sendMessage(player, "Check zone crea");
+                        //PacketSendUtility.sendMessage(player, "Check zone crea");
                         if ((zone2.isPvpAllowed() && !zone.isPvpAllowed()) || (!zone2.isPvpAllowed() && zone.isPvpAllowed())) {
-                            PacketSendUtility.sendMessage(player, "Crea or player is in zone safe");
+                            //PacketSendUtility.sendMessage(player, "Crea or player is in zone safe");
                             return false;
                         }
                     }

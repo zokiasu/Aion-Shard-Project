@@ -64,14 +64,12 @@ public abstract class Rates {
      */
     public static Rates getRatesFor(byte membership) {
         switch (membership) {
-            case 0:
-                return new RegularRates();
             case 1:
                 return new PremiumRates();
             case 2:
                 return new VipRates();
             default:
-                return new VipRates();
+                return new RegularRates();
         }
     }
 }

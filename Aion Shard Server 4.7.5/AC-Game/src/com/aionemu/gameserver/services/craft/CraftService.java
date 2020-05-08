@@ -46,7 +46,10 @@ public class CraftService {
         }
 
         int xpReward = (int) ((0.008 * (recipetemplate.getSkillpoint() + 100) * (recipetemplate.getSkillpoint() + 100) + 60));
+        PacketSendUtility.sendMessage(player, "xpReward : " + xpReward);
         xpReward = xpReward + (xpReward * bonus / 100); // bonus
+        PacketSendUtility.sendMessage(player, "bonus : " + bonus);
+        PacketSendUtility.sendMessage(player, "xpReward with bonus : " + xpReward);
         int productItemId = critCount > 0 ? recipetemplate.getComboProduct(critCount) : recipetemplate.getProductid();
 
         ItemService.addItem(player, productItemId, recipetemplate.getQuantity(), new ItemUpdatePredicate() {
@@ -72,7 +75,6 @@ public class CraftService {
         // Check Expert and Master Crafting
         int skillId = recipetemplate.getSkillid();
         if ((skillId == 40001) || (skillId == 40002) || (skillId == 40003) || (skillId == 40004) || (skillId == 40007) || (skillId == 40008) || (skillId == 40010)) {
-
             if ((player.getSkillList().getSkillLevel(skillId) >= 500) && (recipetemplate.getSkillpoint() < 500)) {
                 PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_DONT_GET_COMBINE_EXP_GRAND_MASTER);
             } else if ((player.getSkillList().getSkillLevel(skillId) >= 400) && (recipetemplate.getSkillpoint() < 400)) {
@@ -129,8 +131,7 @@ public class CraftService {
      * @param craftType
      * @return
      */
-    private static boolean checkCraft(Player player, RecipeTemplate recipeTemplate, int skillId, VisibleObject target,
-                                      ItemTemplate itemTemplate, int craftType) {
+    private static boolean checkCraft(Player player, RecipeTemplate recipeTemplate, int skillId, VisibleObject target, ItemTemplate itemTemplate, int craftType) {
 
         if (recipeTemplate == null) {
             return false;
