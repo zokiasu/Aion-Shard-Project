@@ -132,7 +132,7 @@ public class Base<BL extends BaseLocation> {
 					spawnBoss();
 				}
 			}
-		}, Rnd.get(5, 15) * 60000); // Boss spawn between 30 min and 4 hours delay
+		}, Rnd.get(5, 15) * 60000); // Boss spawn between 5 min and 15 min delay
 	}
 
 	protected void spawnBoss() {
@@ -261,7 +261,7 @@ public class Base<BL extends BaseLocation> {
 				}
 			}
 
-		}, 15000); // Guard Village 2 min spawn delay
+		}, 10000); // Guard Village 10 sec spawn delay
 	}
 
 	protected void spawnGuardVillage() {
@@ -346,7 +346,6 @@ public class Base<BL extends BaseLocation> {
     public boolean isOnlyBalaur(int id) {
         switch (id) {
             case 90:
-                return true;
             case 91:
                 return true;
             default:
@@ -369,6 +368,7 @@ public class Base<BL extends BaseLocation> {
 		for (Npc npc : getSpawned()) {
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
+			npc.getController().scheduleRespawn().cancel(true);
 		}
 		getSpawned().clear();
 

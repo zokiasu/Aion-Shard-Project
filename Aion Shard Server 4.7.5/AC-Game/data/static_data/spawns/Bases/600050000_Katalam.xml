@@ -67,22 +67,22 @@
 				<!-- End Base Spawns -->
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Warrior of the 71st Search Party -->
-				<spawn npc_id="232540" handler="GUARD_VILLAGE">
+				<spawn npc_id="232540" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="343.0786" y="802.8053" z="211.92532" h="66" walker_id="600050000_71_SUB_WARRIOR"/>
 					<spot x="341.57086" y="805.5557" z="212.2917" h="66"/>
 					<spot x="349.01355" y="809.7841" z="212.375" h="75"/>
 					<spot x="354.48248" y="795.07996" z="213.48651" h="115"/>
 				</spawn>
 				<!-- Searcher of the 71st Search Party -->
-				<spawn npc_id="232541" handler="GUARD_VILLAGE">
+				<spawn npc_id="232541" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="346.04062" y="798.0702" z="212.49814" h="83"/>
 				</spawn>
 				<!-- Soldier of the 71st Search Party -->
-				<spawn npc_id="232542" handler="GUARD_VILLAGE">
+				<spawn npc_id="232542" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="360.58167" y="804.8558" z="214.76555" h="70"/>
 				</spawn>
 				<!-- Messenger of the 71st Search Party -->
-				<spawn npc_id="233213" handler="GUARD_VILLAGE">
+				<spawn npc_id="233213" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="310.20142" y="777.4769" z="211.60068" h="75"/>
 					<spot x="310.9674" y="799.4344" z="209.45872" h="63"/>
 					<spot x="327.16528" y="815.43646" z="214.45247" h="66"/>
@@ -154,22 +154,22 @@
 				<!-- End Base Spawns -->
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Warrior of the 71st Scout Troop -->
-				<spawn npc_id="232479" handler="GUARD_VILLAGE">
+				<spawn npc_id="232479" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="343.0786" y="802.8053" z="211.92532" h="66" walker_id="600050000_71_SUB_WARRIOR"/>
 					<spot x="341.57086" y="805.5557" z="212.2917" h="66"/>
 					<spot x="349.01355" y="809.7841" z="212.375" h="75"/>
 					<spot x="354.48248" y="795.07996" z="213.48651" h="115"/>
 				</spawn>
 				<!-- Searcher of the 71st Scout Troop -->
-				<spawn npc_id="232480" handler="GUARD_VILLAGE">
+				<spawn npc_id="232480" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="346.04062" y="798.0702" z="212.49814" h="83"/>
 				</spawn>
 				<!-- Soldier of the 71st Scout Troop -->
-				<spawn npc_id="232481" handler="GUARD_VILLAGE">
+				<spawn npc_id="232481" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="360.58167" y="804.8558" z="214.76555" h="70"/>
 				</spawn>
 				<!-- Liaison of the 71st Scout Troop -->
-				<spawn npc_id="233194" handler="GUARD_VILLAGE">
+				<spawn npc_id="233194" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="310.20142" y="777.4769" z="211.60068" h="75"/>
 					<spot x="310.9674" y="799.4344" z="209.45872" h="63"/>
 					<spot x="327.16528" y="815.43646" z="214.45247" h="66"/>
@@ -291,22 +291,22 @@
                 </spawn>               
                 <!-- Sub Camp Asmodian Base Spawns -->
                 <!-- Spiralroot Recon Combatant -->
-                <spawn npc_id="232543" handler="GUARD_VILLAGE">
+                <spawn npc_id="232543" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="100.0275" y="2076.6719" z="199.375"/>
                     <spot x="107.77772" y="2080.443" z="199.2777"/>
                     <spot x="112.57596" y="2074.2969" z="199.089" h="7"/>
                     <spot x="120.98116" y="2069.4023" z="199.48706"/>
                 </spawn>
                 <!-- Spiralroot Recon Sentry -->
-                <spawn npc_id="232544" handler="GUARD_VILLAGE">
+                <spawn npc_id="232544" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="103.96162" y="2070.2344" z="199.375" h="15"/>
                 </spawn>
                 <!-- Spiralroot Recon Supervisor -->
-                <spawn npc_id="232545" handler="GUARD_VILLAGE">
+                <spawn npc_id="232545" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="117.35558" y="2086.8823" z="198.24583" h="7"/>
                 </spawn>
                 <!-- Spiralroot Recon Messenger -->
-                <spawn npc_id="233214" handler="GUARD_VILLAGE">
+                <spawn npc_id="233214" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="129.18507" y="2073.3103" z="198.15361"/>
                     <spot x="129.37373" y="2097.1792" z="196.10527" h="5"/>
                 </spawn>
@@ -378,22 +378,22 @@
                 </spawn>
                 <!-- Sub Camp Elyos Base Spawns -->
                 <!-- Spiralroot Pioneers Combatant -->
-                <spawn npc_id="233195" handler="GUARD_VILLAGE">
+                <spawn npc_id="233195" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="100.0275" y="2076.6719" z="199.375"/>
                     <spot x="107.77772" y="2080.443" z="199.2777"/>
                     <spot x="112.57596" y="2074.2969" z="199.089" h="7"/>
                     <spot x="120.98116" y="2069.4023" z="199.48706"/>
                 </spawn>
                 <!-- Spiralroot Pioneers Sentry -->
-                <spawn npc_id="232482" handler="GUARD_VILLAGE">
+                <spawn npc_id="232482" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="103.96162" y="2070.2344" z="199.375" h="15"/>
                 </spawn>
                 <!-- Spiralroot Pioneers Supervisor -->
-                <spawn npc_id="232483" handler="GUARD_VILLAGE">
+                <spawn npc_id="232483" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="117.35558" y="2086.8823" z="198.24583" h="7"/>
                 </spawn>
                 <!-- Spiralroot Scout Envoy -->
-                <spawn npc_id="232484" handler="GUARD_VILLAGE">
+                <spawn npc_id="232484" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="129.18507" y="2073.3103" z="198.15361"/>
                     <spot x="129.37373" y="2097.1792" z="196.10527" h="5"/>
                 </spawn>
@@ -517,7 +517,7 @@
 				</spawn>
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Foothold Recon Combatant -->
-				<spawn npc_id="232546" handler="GUARD_VILLAGE">
+				<spawn npc_id="232546" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1011.1494" y="498.11725" z="195.84383" h="90"/>
 					<spot x="1022.4934" y="523.7677" z="196.25" h="90"/>
 					<spot x="1023.922" y="500.4382" z="196.95311" h="105"/>
@@ -529,12 +529,12 @@
 					<spot x="1004.42896" y="433.18265" z="177.84566" h="103"/>
 				</spawn>
 				<!-- Foothold Recon Sentry -->
-				<spawn npc_id="232547" handler="GUARD_VILLAGE">
+				<spawn npc_id="232547" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1022.1872" y="499.2202" z="196.84967" h="105"/>
 					<spot x="1037.2382" y="518.9691" z="196.8183" h="90"/>
 				</spawn>
 				<!-- Foothold Recon Supervisor -->
-				<spawn npc_id="232548" handler="GUARD_VILLAGE">
+				<spawn npc_id="232548" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1017.8306" y="518.7763" z="196.25" h="90"/>
 					<spot x="1030.3247" y="525.18726" z="196.25" h="90"/>
 				</spawn>
@@ -621,7 +621,7 @@
 
 				<!-- Sub Camp Elyos Spawns -->
 					<!-- Liaison of the 73rd Scout Troop -->
-					<spawn npc_id="233196" handler="GUARD_VILLAGE">
+					<spawn npc_id="233196" respawn_time="120" handler="GUARD_VILLAGE">
 						<spot x="1011.1494" y="498.11725" z="195.84383" h="90"/>
 						<spot x="1022.4934" y="523.7677" z="196.25" h="90"/>
 						<spot x="1023.922" y="500.4382" z="196.95311" h="105"/>
@@ -633,12 +633,12 @@
 						<spot x="1004.42896" y="433.18265" z="177.84566" h="103"/>
 					</spawn>
 					<!-- Warrior of the 73rd Scout Troop -->
-					<spawn npc_id="232485" handler="GUARD_VILLAGE">
+					<spawn npc_id="232485" respawn_time="120" handler="GUARD_VILLAGE">
 						<spot x="1011.0626" y="510.69418" z="198.38754" h="90"/>
 						<spot x="1036.8915" y="503.31747" z="197.94678" h="75"/>
 					</spawn>
 					<!-- Searcher of the 73rd Scout Troop -->
-					<spawn npc_id="232486" handler="GUARD_VILLAGE">
+					<spawn npc_id="232486" respawn_time="120" handler="GUARD_VILLAGE">
 						<spot x="1037.2382" y="518.9691" z="196.79376" h="90"/>
 					</spawn>
 				<!-- End Sub Camp Elyos Spawns -->
@@ -775,7 +775,7 @@
                 </spawn>                
                 <!-- Sub Camp Asmodian Spawns -->
                 <!-- Ruins Recon Combatant -->
-                <spawn npc_id="232549" handler="GUARD_VILLAGE">
+                <spawn npc_id="232549" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="976.01434" y="2571.2605" z="182.92122" h="30"/>
 					<spot x="982.35614" y="2545.5938" z="183.125" h="20"/>
 					<spot x="983.44183" y="2564.92" z="182.92216" h="20"/>
@@ -788,12 +788,12 @@
 					<spot x="970.39514" y="2588.401" z="181.5255" h="19"/>
                 </spawn>
                 <!-- Ruins Recon Sentry -->
-                <spawn npc_id="232550" handler="GUARD_VILLAGE">
+                <spawn npc_id="232550" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="971.3205" y="2563.199" z="183.125" h="20"/>
                     <spot x="991.63055" y="2558.409" z="183.09944"/>
                 </spawn>
                 <!-- Ruins Recon Supervisor -->
-                <spawn npc_id="232551" handler="GUARD_VILLAGE">
+                <spawn npc_id="232551" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="976.24023" y="2555.3665" z="183.15503" h="7"/>
                     <spot x="987.5947" y="2544.7031" z="183.125" h="13"/>
                 </spawn>
@@ -880,7 +880,7 @@
                 </spawn>
                 <!-- Sub Camp Elyos Spawns -->
                 <!-- Ruins Pioneers Combatant -->
-                <spawn npc_id="233197" handler="GUARD_VILLAGE">
+                <spawn npc_id="233197" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="976.01434" y="2571.2605" z="182.92122" h="30"/>
                     <spot x="982.35614" y="2545.5938" z="183.125" h="20"/>
                     <spot x="983.44183" y="2564.92" z="182.92216" h="20"/>
@@ -893,12 +893,12 @@
                     <spot x="970.39514" y="2588.401" z="181.5255" h="19"/>
                 </spawn>
                 <!-- Ruins Pioneers Sentry -->
-                <spawn npc_id="232489" handler="GUARD_VILLAGE">
+                <spawn npc_id="232489" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="971.3205" y="2563.199" z="183.125" h="20"/>
                     <spot x="991.63055" y="2558.409" z="183.09944"/>
                 </spawn>
                 <!-- Ruins Pioneers Supervisor -->
-                <spawn npc_id="232490" handler="GUARD_VILLAGE">
+                <spawn npc_id="232490" respawn_time="120" handler="GUARD_VILLAGE">
                     <spot x="976.24023" y="2555.3665" z="183.15503" h="7"/>
                     <spot x="987.5947" y="2544.7031" z="183.125" h="13"/>
                 </spawn>
@@ -1035,7 +1035,7 @@
 				</spawn>
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Cliffside Recon Combatant -->
-				<spawn npc_id="232552" handler="GUARD_VILLAGE">
+				<spawn npc_id="232552" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1492.2437" y="1381.0753" z="122.05099" h="75"/>
 					<spot x="1492.8361" y="1417.7233" z="122.04631" h="27"/>
 					<spot x="1507.2916" y="1401.5226" z="123.97495" h="30"/>
@@ -1043,11 +1043,11 @@
 					<spot x="1512.2249" y="1416.7275" z="124.34375" h="30"/>
 				</spawn>
 				<!-- Cliffside Recon Sentry -->
-				<spawn npc_id="232553" handler="GUARD_VILLAGE">
+				<spawn npc_id="232553" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1500.9385" y="1406.4891" z="123.99735" h="30"/>
 				</spawn>
 				<!-- Cliffside Recon Supervisor -->
-				<spawn npc_id="232554" handler="GUARD_VILLAGE">
+				<spawn npc_id="232554" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1487.8317" y="1397.2452" z="122.32369" h="60"/>
 				</spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
@@ -1135,7 +1135,7 @@
 				</spawn>
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Cliffside Pioneers Combatant -->
-				<spawn npc_id="232491" handler="GUARD_VILLAGE">
+				<spawn npc_id="232491" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1492.2437" y="1381.0753" z="122.05099" h="75"/>
 					<spot x="1492.8361" y="1417.7233" z="122.04631" h="27"/>
 					<spot x="1507.2916" y="1401.5226" z="123.97495" h="30"/>
@@ -1143,10 +1143,10 @@
 					<spot x="1512.2249" y="1416.7275" z="124.34375" h="30"/>
 				</spawn>
 				<!-- Cliffside Pioneers Sentry -->
-				<spawn npc_id="232492" handler="GUARD_VILLAGE">
+				<spawn npc_id="232492" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1500.9385" y="1406.4891" z="121.899506" h="30"/>
 				</spawn>
-				<spawn npc_id="233198" handler="GUARD_VILLAGE">
+				<spawn npc_id="233198" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1492.1932" y="1433.361" z="121.4163" h="2" />
 					<spot x="1492.7883" y="1451.0946" z="123.57402" h="119" />
 					<spot x="1520.3234" y="1435.1108" z="126.822044" h="53" />
@@ -1155,7 +1155,7 @@
 					<spot x="1519.2484" y="1460.5686" z="130.18341" h="112" />
 				</spawn>
 				<!-- Cliffside Pioneers Supervisor -->
-				<spawn npc_id="232493" handler="GUARD_VILLAGE">
+				<spawn npc_id="232493" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1487.8317" y="1397.2452" z="122.32369" h="60"/>
 				</spawn>
 				<!-- End Sub Camp Elyos Spawns -->			
@@ -1286,7 +1286,7 @@
 				</spawn>
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Irigani Recon Veteran Combatant -->
-				<spawn npc_id="232555" handler="GUARD_VILLAGE">
+				<spawn npc_id="232555" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1556.8933" y="889.0984" z="147.04353" h="107"/>
 					<spot x="1565.6057" y="896.47394" z="146.0" h="105"/>
 					<spot x="1565.9304" y="923.08295" z="146.375" h="105"/>
@@ -1295,15 +1295,15 @@
 					<spot x="1575.9421" y="910.54236" z="145.74638" h="93"/>
 				</spawn>
 				<!-- Irigani Recon Veteran Sentry -->
-				<spawn npc_id="232556" handler="GUARD_VILLAGE">
+				<spawn npc_id="232556" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1561.8403" y="910.6345" z="146.05962" h="90"/>
 				</spawn>
 				<!-- Irigani Recon Veteran Supervisor -->
-				<spawn npc_id="232557" handler="GUARD_VILLAGE">
+				<spawn npc_id="232557" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1564.479" y="920.86163" z="146.34506" h="105"/>
 				</spawn>
 				<!-- Irigani Recon Veteran Gunslinger -->
-				<spawn npc_id="232558" handler="GUARD_VILLAGE">
+				<spawn npc_id="232558" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1552.8518" y="898.2531" z="147.91168" h="105"/>
 					<spot x="1577.729" y="925.4977" z="146.375" h="90"/>
 					<spot x="1581.863" y="899.11395" z="146.48288" h="105"/>
@@ -1395,7 +1395,7 @@
 				</spawn>
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Irigani Pioneers Veteran Combatant -->
-				<spawn npc_id="232494" handler="GUARD_VILLAGE">
+				<spawn npc_id="232494" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1556.8933" y="889.0984" z="147.04353" h="107"/>
 					<spot x="1565.6057" y="896.47394" z="146.0" h="105"/>
 					<spot x="1565.9304" y="923.08295" z="146.375" h="105"/>
@@ -1404,20 +1404,20 @@
 					<spot x="1575.9421" y="910.54236" z="145.74638" h="93"/>
 				</spawn>
 				<!-- Irigani Pioneers Veteran Sentry -->
-				<spawn npc_id="232495" handler="GUARD_VILLAGE">
+				<spawn npc_id="232495" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1561.8403" y="910.6345" z="146.05962" h="90"/>
 				</spawn>
 				<!-- Irigani Pioneers Veteran Supervisor -->
-				<spawn npc_id="232496" handler="GUARD_VILLAGE">
+				<spawn npc_id="232496" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1564.479" y="920.86163" z="146.34506" h="105"/>
 				</spawn>
 				<!-- Irigani Pioneers Veteran Gunslinger -->
-				<spawn npc_id="232497" handler="GUARD_VILLAGE">
+				<spawn npc_id="232497" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1552.8518" y="898.2531" z="147.91168" h="105"/>
 					<spot x="1577.729" y="925.4977" z="146.375" h="90"/>
 					<spot x="1581.863" y="899.11395" z="146.48288" h="105"/>
 				</spawn>
-				<spawn npc_id="233199" handler="GUARD_VILLAGE">
+				<spawn npc_id="233199" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1617.6953" y="889.2584" z="157.36423" h="40" />
 					<spot x="1604.4329" y="872.81354" z="150.3424" h="65" />
 					<spot x="1604.8323" y="851.289" z="147.26517" h="71" />
@@ -1563,7 +1563,7 @@
 				<!-- End Sub Camp Vanguard Spawns -->
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Redoubt Recon Veteran Combatant -->
-				<spawn npc_id="232559" handler="GUARD_VILLAGE">
+				<spawn npc_id="232559" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1695.5802" y="2380.3704" z="171.50308" h="105"/>
 					<spot x="1702.1525" y="2394.2856" z="171.78691" h="93"/>
 					<spot x="1705.852" y="2375.1304" z="171.625" h="105"/>
@@ -1573,15 +1573,15 @@
 					<spot x="1723.4515" y="2373.4058" z="169.49142" h="105"/>
 				</spawn>
 				<!-- Redoubt Recon Veteran Sentry -->
-				<spawn npc_id="232560" handler="GUARD_VILLAGE">
+				<spawn npc_id="232560" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1713.6613" y="2390.045" z="172.23163"/>
 				</spawn>
 				<!-- Redoubt Recon Supervisor -->
-				<spawn npc_id="232561" handler="GUARD_VILLAGE">
+				<spawn npc_id="232561" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1698.3912" y="2388.0713" z="171.375" h="105"/>
 				</spawn>
 				<!-- Redoubt Recon Veteran Gunslinger -->
-				<spawn npc_id="232562" handler="GUARD_VILLAGE">
+				<spawn npc_id="232562" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1712.1635" y="2365.4348" z="170.09848"/>
 					<spot x="1726.0591" y="2386.2244" z="172.0524" h="113"/>
 					<spot x="1727.6771" y="2388.8901" z="172.69353" h="105"/>
@@ -1674,7 +1674,7 @@
 				</spawn>
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Redoubt Pioneers Veteran Combatant -->
-				<spawn npc_id="233200" handler="GUARD_VILLAGE">
+				<spawn npc_id="233200" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1695.5802" y="2380.3704" z="171.50308" h="105"/>
 					<spot x="1702.1525" y="2394.2856" z="171.78691" h="93"/>
 					<spot x="1705.852" y="2375.1304" z="171.625" h="105"/>
@@ -1688,15 +1688,15 @@
 					<spot x="1693.5223" y="2291.5503" z="164.72398" h="38"/>
 				</spawn>
 				<!-- Redoubt Pioneers Veteran Sentry -->
-				<spawn npc_id="232498" handler="GUARD_VILLAGE">
+				<spawn npc_id="232498" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1713.6613" y="2390.045" z="172.23163"/>
 				</spawn>
 				<!-- Redoubt Pioneers Supervisor -->
-				<spawn npc_id="232500" handler="GUARD_VILLAGE">
+				<spawn npc_id="232500" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1698.3912" y="2388.0713" z="171.375" h="105"/>
 				</spawn>
 				<!-- Redoubt Pioneers Veteran Gunslinger -->
-				<spawn npc_id="232501" handler="GUARD_VILLAGE">
+				<spawn npc_id="232501" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1712.1635" y="2365.4348" z="170.09848"/>
 					<spot x="1726.0591" y="2386.2244" z="172.0524" h="113"/>
 					<spot x="1727.6771" y="2388.8901" z="172.69353" h="105"/>
@@ -1822,18 +1822,18 @@
                 </spawn>
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Windswept Recon Combatant -->
-				<spawn npc_id="232563" handler="GUARD_VILLAGE">
+				<spawn npc_id="232563" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1773.554" y="1300.0575" z="230.35071" h="30"/>
 					<spot x="1779.4597" y="1291.3112" z="231.25" h="15"/>
 					<spot x="1783.9137" y="1287.1433" z="231.25" h="15"/>
 					<spot x="1793.271" y="1302.5981" z="230.46262" h="15"/>
 				</spawn>
 				<!-- Windswept Recon Sentry -->
-				<spawn npc_id="232564" handler="GUARD_VILLAGE">
+				<spawn npc_id="232564" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1792.0803" y="1291.0574" z="231.25502" h="10"/>
 				</spawn>
 				<!-- Windswept Recon Supervisor -->
-				<spawn npc_id="232565" handler="GUARD_VILLAGE">
+				<spawn npc_id="232565" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1783.9985" y="1299.3798" z="230.95253" h="27"/>
 				</spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
@@ -1905,13 +1905,13 @@
                 </spawn>
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Windswept Pioneers Combatant -->
-				<spawn npc_id="232502" handler="GUARD_VILLAGE">
+				<spawn npc_id="232502" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1773.554" y="1300.0575" z="230.35071" h="30"/>
 					<spot x="1779.4597" y="1291.3112" z="231.25" h="15"/>
 					<spot x="1783.9137" y="1287.1433" z="231.25" h="15"/>
 					<spot x="1793.271" y="1302.5981" z="230.46262" h="15"/>
 				</spawn>
-				<spawn npc_id="233201" handler="GUARD_VILLAGE">
+				<spawn npc_id="233201" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1810.3358" y="1306.8518" z="234.60495" h="23" />
 					<spot x="1764.471" y="1320.8622" z="233.39447" h="2" />
 					<spot x="1773.3955" y="1333.124" z="230.79413" h="0" />
@@ -1920,11 +1920,11 @@
 					<spot x="1796.6252" y="1348.0697" z="233.49658" h="80" />
 				</spawn>
 				<!-- Windswept Pioneers Sentry -->
-				<spawn npc_id="232503" handler="GUARD_VILLAGE">
+				<spawn npc_id="232503" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1792.0803" y="1291.0574" z="231.25502" h="10"/>
 				</spawn>
 				<!-- Windswept Pioneers Supervisor -->
-				<spawn npc_id="232504" handler="GUARD_VILLAGE">
+				<spawn npc_id="232504" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1783.9985" y="1299.3798" z="230.95253" h="27"/>
 				</spawn>
 				<!-- End Sub Camp Elyos Spawns -->
@@ -2033,18 +2033,18 @@
 				</spawn>
 				<!-- Sub Camp Asmodian Spawns -->
 				<!-- Pass Recon Combatant -->
-				<spawn npc_id="232566" handler="GUARD_VILLAGE">
+				<spawn npc_id="232566" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2481.2375" y="1955.4767" z="311.45255" h="60"/>
 					<spot x="2488.274" y="1937.1406" z="310.875" h="75"/>
 					<spot x="2495.681" y="1948.202" z="310.875" h="60"/>
 					<spot x="2497.0605" y="1937.6244" z="310.875" h="72"/>
 				</spawn>
 				<!-- Pass Recon Sentry -->
-				<spawn npc_id="232567" handler="GUARD_VILLAGE">
+				<spawn npc_id="232567" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2483.782" y="1946.5554" z="310.8886" h="90"/>
 				</spawn>
 				<!-- Pass Recon Supervisor -->
-				<spawn npc_id="232568" handler="GUARD_VILLAGE">
+				<spawn npc_id="232568" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2489.5505" y="1956.1956" z="310.8872" h="53"/>
 				</spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
@@ -2127,13 +2127,13 @@
 				<!-- Eend Garrison Spawn -->
 				<!-- Sub Camp Elyos Spawns -->
 				<!-- Warrior of the 79th Scout Troop -->
-				<spawn npc_id="232505" handler="GUARD_VILLAGE">
+				<spawn npc_id="232505" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2481.2375" y="1955.4767" z="311.44006" h="60"/>
 					<spot x="2488.274" y="1937.1406" z="310.875" h="75"/>
 					<spot x="2495.681" y="1948.202" z="310.875" h="60"/>
 					<spot x="2497.0605" y="1937.6244" z="310.875" h="71"/>
 				</spawn>
-				<spawn npc_id="233202" handler="GUARD_VILLAGE">
+				<spawn npc_id="233202" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2473.4617" y="1929.9337" z="310.71222" h="53"/>
 					<spot x="2454.3481" y="1965.3969" z="317.29584" h="103"/>
 					<spot x="2482.024" y="1971.1077" z="316.6609" h="72"/>
@@ -2142,11 +2142,11 @@
 					<spot x="2468.8135" y="1911.2877" z="309.125" h="65"/>
 				</spawn>
 				<!-- Searcher of the 79th Scout Troop -->
-				<spawn npc_id="232506" handler="GUARD_VILLAGE">
+				<spawn npc_id="232506" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2483.782" y="1946.5554" z="310.87878" h="90"/>
 				</spawn>
 				<!-- Soldier of the 79th Scout Troop -->
-				<spawn npc_id="232507" handler="GUARD_VILLAGE">
+				<spawn npc_id="232507" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2489.5505" y="1956.1956" z="310.8872" h="53"/>
 				</spawn>
 				<!-- End Sub Camp Elyos Spawns -->
