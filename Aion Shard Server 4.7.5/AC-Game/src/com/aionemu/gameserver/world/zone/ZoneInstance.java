@@ -160,19 +160,21 @@ public class ZoneInstance implements Comparable<ZoneInstance> {
     }
 
     public boolean isSameRaceDuelsAllowed() {
-        if (template.getZoneTemplate().getZoneType() != ZoneClassName.DUEL
+        /*if (template.getZoneTemplate().getZoneType() != ZoneClassName.DUEL
                 || World.getInstance().getWorldMap(mapId).hasOverridenOption(ZoneAttributes.DUEL_SAME_RACE_ENABLED)) {
             return World.getInstance().getWorldMap(mapId).isSameRaceDuelsAllowed();
         }
-        return (template.getZoneTemplate().getFlags() & ZoneAttributes.DUEL_SAME_RACE_ENABLED.getId()) != 0;
+        return (template.getZoneTemplate().getFlags() & ZoneAttributes.DUEL_SAME_RACE_ENABLED.getId()) != 0;*/
+        return true;
     }
 
     public boolean isOtherRaceDuelsAllowed() {
-        if (template.getZoneTemplate().getZoneType() != ZoneClassName.DUEL
+        /*if (template.getZoneTemplate().getZoneType() != ZoneClassName.DUEL
                 || World.getInstance().getWorldMap(mapId).hasOverridenOption(ZoneAttributes.DUEL_OTHER_RACE_ENABLED)) {
             return World.getInstance().getWorldMap(mapId).isOtherRaceDuelsAllowed();
         }
-        return (template.getZoneTemplate().getFlags() & ZoneAttributes.DUEL_OTHER_RACE_ENABLED.getId()) != 0;
+        return (template.getZoneTemplate().getFlags() & ZoneAttributes.DUEL_OTHER_RACE_ENABLED.getId()) != 0;*/
+        return true;
     }
 
     public int getTownId() {
