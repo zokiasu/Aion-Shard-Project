@@ -171,10 +171,6 @@
 				<drop item_id="188052199" chance="1.0" min_amount="1" max_amount="1"/> <!-- Manastone 60 Green or Blue -->
 				<drop item_id="188052297" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 50 to 70 Green -->
 			</drop_group>
-			<drop_group name="DIVINE_STONE">
-				<drop item_id="188051738" chance="0.5" min_amount="1" max_amount="1"/>
-				<drop item_id="188052183" chance="1.0" min_amount="1" max_amount="1"/>
-			</drop_group>
 			<drop_group name="ESSENCE">
 				<drop item_id="152012559" chance="100.0" min_amount="1" max_amount="10"/>
 				<drop item_id="152012560" chance="100.0" min_amount="1" max_amount="10"/>
@@ -373,10 +369,6 @@
 			<drop_group name="MANASTONE">
 				<drop item_id="188052199" chance="1.0" min_amount="1" max_amount="1"/> <!-- Manastone 60 Green or Blue -->
 				<drop item_id="188052297" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 50 to 70 Green -->
-			</drop_group>
-			<drop_group name="DIVINE_STONE">
-				<drop item_id="188051738" chance="0.5" min_amount="1" max_amount="1"/>
-				<drop item_id="188052183" chance="1.0" min_amount="1" max_amount="1"/>
 			</drop_group>
 			<drop_group name="ESSENCE">
 				<drop item_id="152012559" chance="100.0" min_amount="1" max_amount="10"/>
@@ -577,10 +569,6 @@
 				<drop item_id="188052199" chance="1.0" min_amount="1" max_amount="1"/> <!-- Manastone 60 Green or Blue -->
 				<drop item_id="188052297" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 50 to 70 Green -->
 			</drop_group>
-			<drop_group name="DIVINE_STONE">
-				<drop item_id="188051738" chance="0.5" min_amount="1" max_amount="1"/>
-				<drop item_id="188052183" chance="1.0" min_amount="1" max_amount="1"/>
-			</drop_group>
 			<drop_group name="ESSENCE">
 				<drop item_id="152012559" chance="100.0" min_amount="1" max_amount="10"/>
 				<drop item_id="152012560" chance="100.0" min_amount="1" max_amount="10"/>
@@ -779,10 +767,6 @@
 			<drop_group name="MANASTONE">
 				<drop item_id="188052199" chance="1.0" min_amount="1" max_amount="1"/> <!-- Manastone 60 Green or Blue -->
 				<drop item_id="188052297" chance="10.0" min_amount="1" max_amount="1"/> <!-- Manastone 50 to 70 Green -->
-			</drop_group>
-			<drop_group name="DIVINE_STONE">
-				<drop item_id="188051738" chance="0.5" min_amount="1" max_amount="1"/>
-				<drop item_id="188052183" chance="1.0" min_amount="1" max_amount="1"/>
 			</drop_group>
 			<drop_group name="ESSENCE">
 				<drop item_id="152012559" chance="100.0" min_amount="1" max_amount="10"/>

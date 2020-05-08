@@ -4,9 +4,6 @@
 		<spawn npc_id="230818">
 			<spot x="480.28464" y="361.25085" z="182.2329" h="29"/>
 		</spawn>
-		<spawn npc_id="831990">
-			<spot x="653.0327" y="180.32335" z="195.66525"/>
-		</spawn>
 		<spawn npc_id="230786">
 			<spot x="651.36" y="299.74" z="200.38713" walker_id="idvritra_base_npcpathidvritra_base_design_4.2"/>
 			<spot x="628.05" y="299.89" z="200.38713" walker_id="idvritra_base_npcpathidvritra_base_design_4.1"/>

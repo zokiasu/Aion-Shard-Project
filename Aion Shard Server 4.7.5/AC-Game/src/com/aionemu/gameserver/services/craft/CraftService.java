@@ -38,6 +38,9 @@ public class CraftService {
      * @param critCount
      */
     public static void finishCrafting(final Player player, RecipeTemplate recipetemplate, int critCount, int bonus) {
+        if(bonus == 0) {
+            bonus = (int) ((0.008 * (recipetemplate.getSkillpoint() + 100) * (recipetemplate.getSkillpoint() + 100) + 60));
+        }
         if (recipetemplate.getMaxProductionCount() != null) {
             player.getRecipeList().deleteRecipe(player, recipetemplate.getId());
             if (critCount == 0) {
@@ -45,11 +48,11 @@ public class CraftService {
             }
         }
 
-        int xpReward = (int) ((0.008 * (recipetemplate.getSkillpoint() + 100) * (recipetemplate.getSkillpoint() + 100) + 60)) + 100;
-        PacketSendUtility.sendMessage(player, "xpReward : " + xpReward);
+        int xpReward = (int) ((0.008 * (recipetemplate.getSkillpoint() + 100) * (recipetemplate.getSkillpoint() + 100) + 60));
+        //PacketSendUtility.sendMessage(player, "xpReward : " + xpReward);
         xpReward = xpReward + (xpReward * bonus / 100); // bonus
-        PacketSendUtility.sendMessage(player, "bonus : " + bonus);
-        PacketSendUtility.sendMessage(player, "xpReward with bonus : " + xpReward);
+        //PacketSendUtility.sendMessage(player, "bonus : " + bonus);
+        //PacketSendUtility.sendMessage(player, "xpReward with bonus : " + xpReward);
         int productItemId = critCount > 0 ? recipetemplate.getComboProduct(critCount) : recipetemplate.getProductid();
 
         ItemService.addItem(player, productItemId, recipetemplate.getQuantity(), new ItemUpdatePredicate() {
