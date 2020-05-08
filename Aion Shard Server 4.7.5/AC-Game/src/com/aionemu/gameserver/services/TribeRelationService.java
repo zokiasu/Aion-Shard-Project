@@ -14,8 +14,7 @@ import com.aionemu.gameserver.model.templates.tribe.Tribe;
  */
 public class TribeRelationService {
 
-    public static boolean isAggressive(Creature creature1, Creature creature2) 
-    {
+    public static boolean isAggressive(Creature creature1, Creature creature2) {
     	Tribe tribe1 = DataManager.TRIBE_RELATIONS_DATA.getTribeData(creature1.getTribe());
     	Tribe tribe2 = DataManager.TRIBE_RELATIONS_DATA.getTribeData(creature2.getTribe());
     	
@@ -28,6 +27,8 @@ public class TribeRelationService {
 	                    case GENERAL:
 	                    case GUARD_DRAGON:
 	                        return true;
+                        default:
+                            break;
 	                }
 	                break;
 	            case GUARD:
@@ -37,6 +38,8 @@ public class TribeRelationService {
 	                    case GENERAL_DARK:
 	                    case GUARD_DRAGON:
 	                        return true;
+                        default:
+                            break;
 	
 	                }
 	                break;
@@ -49,9 +52,13 @@ public class TribeRelationService {
 	                    case GENERAL_DARK:
 	                    case GENERAL:
 	                        return true;
+                        default:
+                            break;
 	
 	                }
 	                break;
+                default:
+                    break;
 	        }
     	}        
         return DataManager.TRIBE_RELATIONS_DATA.isAggressiveRelation(creature1.getTribe(), creature2.getTribe());
@@ -71,6 +78,8 @@ public class TribeRelationService {
                     case PC_DARK:
                     case GUARD_DARK:
                         return true;
+                    default:
+                        break;
                 }
                 break;
             case GENERAL:
@@ -78,6 +87,8 @@ public class TribeRelationService {
                     case PC:
                     case GUARD:
                         return true;
+                    default:
+                        break;
 
                 }
                 break;
@@ -85,12 +96,16 @@ public class TribeRelationService {
                 switch (creature2.getBaseTribe()) {
                     case PC:
                         return true;
+                    default:
+                        break;
 
                 }
             case FIELD_OBJECT_DARK:
                 switch (creature2.getBaseTribe()) {
                     case PC_DARK:
                         return true;
+                    default:
+                        break;
 
                 }
                 break;   
@@ -98,15 +113,21 @@ public class TribeRelationService {
                 switch (creature2.getBaseTribe()) {
                     case PC_DARK:
                         return true;
+                    default:
+                        break;
                 }
                 break;
             case GUARD:
                 switch (creature2.getBaseTribe()) {
                     case PC:
                         return true;
+                    default:
+                        break;
 
                 }
-                break;                
+                break;
+            default:
+                break;
         }
         return DataManager.TRIBE_RELATIONS_DATA.isFriendlyRelation(creature1.getTribe(), creature2.getTribe());
     }
@@ -130,8 +151,7 @@ public class TribeRelationService {
         return DataManager.TRIBE_RELATIONS_DATA.isSupportRelation(creature1.getTribe(), creature2.getTribe());
     }
 
-    public static boolean isInvulnerable(Creature creature1, Creature creature2) 
-    {
+    public static boolean isInvulnerable(Creature creature1, Creature creature2) {
         switch (creature1.getTribe()) {
         	case IDFORTRESS_VRITRA:
                 switch (creature2.getBaseTribe()) {
@@ -143,6 +163,8 @@ public class TribeRelationService {
 	                			return true;
 	                		}
 	                	}
+                    default:
+                        break;
 		        }            	
 	        	break;
             case IDFORTRESS_SWITCH_LIGHT:
@@ -150,6 +172,8 @@ public class TribeRelationService {
                 switch (creature2.getBaseTribe()) {
 	                case PC_DARK:
 	                    return true;
+                    default:
+                        break;
                 }            	
             	break;
             case IDFORTRESS_SWITCH_DARK:
@@ -157,11 +181,15 @@ public class TribeRelationService {
                 switch (creature2.getBaseTribe()) {
 	                case PC:
 	                    return true;
+                    default:
+                        break;
 	            }            	
+                break;
+            default:
                 break;
         }
 		return false;
-    }    
+    }
     
     public static boolean isNone(Creature creature1, Creature creature2) {
         if (DataManager.TRIBE_RELATIONS_DATA.isAggressiveRelation(creature1.getTribe(), creature2.getTribe())
@@ -178,6 +206,8 @@ public class TribeRelationService {
                 switch (creature2.getBaseTribe()) {
                     case PC_DARK:
                         return true;
+                    default:
+                        break;
                 }
                 break;
             case GENERAL_DARK:
@@ -185,8 +215,11 @@ public class TribeRelationService {
                 switch (creature2.getBaseTribe()) {
                     case PC:
                         return true;
-
+                    default:
+                        break;
                 }
+                break;
+            default:
                 break;
         }
         return DataManager.TRIBE_RELATIONS_DATA.isNoneRelation(creature1.getTribe(), creature2.getTribe());
@@ -206,7 +239,11 @@ public class TribeRelationService {
                     case PC_DARK:
                     case PC:
                         return true;
+                    default:
+                        break;
                 }
+                break;
+            default:
                 break;
         }
         return DataManager.TRIBE_RELATIONS_DATA.isHostileRelation(creature1.getTribe(), creature2.getTribe());

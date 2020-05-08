@@ -152,8 +152,9 @@ public class TribeRelationsData {
         if (tribe1 == null || tribe2 == null) {
             return false;
         }
-        return tribe1.getNeutral().contains(tribe2.getBase()) || tribe1.getNeutral().contains(tribeName2)
-                || tribe2.getNeutral().contains(tribe1.getBase()) || tribe2.getNeutral().contains(tribeName1);
+        /*return tribe1.getNeutral().contains(tribe2.getBase()) || tribe1.getNeutral().contains(tribeName2)
+                || tribe2.getNeutral().contains(tribe1.getBase()) || tribe2.getNeutral().contains(tribeName1);*/
+        return tribe1.getNeutral().contains(tribeName2) || tribe2.isBasic() && tribe1.getNeutral().contains(tribe2.getBase());
     }
 
     /**
@@ -167,8 +168,9 @@ public class TribeRelationsData {
         if (tribe1 == null || tribe2 == null) {
             return false;
         }
-        return tribe1.getNone().contains(tribe2.getBase()) || tribe1.getNone().contains(tribeName2)
-                || tribe2.getNone().contains(tribe1.getBase()) || tribe2.getNone().contains(tribeName1);
+        /*return tribe1.getNone().contains(tribe2.getBase()) || tribe1.getNone().contains(tribeName2)
+                || tribe2.getNone().contains(tribe1.getBase()) || tribe2.getNone().contains(tribeName1);*/
+        return tribe1.getNone().contains(tribeName2) || tribe2.isBasic() && tribe1.getNone().contains(tribe2.getBase());
     }
 
     /**
@@ -182,8 +184,9 @@ public class TribeRelationsData {
         if (tribe1 == null || tribe2 == null) {
             return false;
         }
-        return tribe1.getHostile().contains(tribe2.getBase()) || tribe1.getHostile().contains(tribeName2)
-                || tribe2.getHostile().contains(tribe1.getBase()) || tribe2.getHostile().contains(tribeName1);
+        /*return tribe1.getHostile().contains(tribe2.getBase()) || tribe1.getHostile().contains(tribeName2)
+                || tribe2.getHostile().contains(tribe1.getBase()) || tribe2.getHostile().contains(tribeName1);*/
+        return tribe1.getHostile().contains(tribeName2) || tribe2.isBasic() && tribe1.getHostile().contains(tribe2.getBase());
     }
 
     /**

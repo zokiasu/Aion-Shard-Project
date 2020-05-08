@@ -123,8 +123,8 @@ public class CM_EMOTION extends AionClientPacket {
 
         // check for stance
         if (player.getController().isUnderStance()) {
-            if (emotionType == EmotionType.SIT || emotionType == EmotionType.JUMP || emotionType == EmotionType.NEUTRALMODE || emotionType == EmotionType.NEUTRALMODE2
-                    || emotionType == EmotionType.ATTACKMODE || emotionType == EmotionType.ATTACKMODE2) {
+            if (emotionType == EmotionType.SIT || emotionType == EmotionType.JUMP || emotionType == EmotionType.NEUTRALMODE
+                    || emotionType == EmotionType.NEUTRALMODE2 || emotionType == EmotionType.ATTACKMODE || emotionType == EmotionType.ATTACKMODE2) {
                 player.getController().stopStance();
                 //return; // because you cannot jump or sit etc while under stance..
             }
