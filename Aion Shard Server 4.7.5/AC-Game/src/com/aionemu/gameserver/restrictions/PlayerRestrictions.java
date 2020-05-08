@@ -36,6 +36,31 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
 
+        if(skill.checkNonTargetAOE()) {
+            PacketSendUtility.sendMessage(player, "Skill is a NonTargetAOE");
+            List<Creature> creature = skill.getEffectedList();
+            for (Creature crea : creature) {
+                PacketSendUtility.sendMessage(player, "Crea name is" + crea.getName());
+                if(crea instanceof Player && !crea.isInsideZoneType(ZoneType.PVP)) {
+                    PacketSendUtility.sendMessage(player, "Crea is Player & Not in PvP Zone");
+                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
+                    for (ZoneInstance zone : zones) {
+                        if (!zone.isPvpAllowed()) {
+                            return false;
+                        }
+                    }
+                } else if (crea instanceof Player) {
+                    PacketSendUtility.sendMessage(player, "Crea is Player");
+                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
+                    for (ZoneInstance zone : zones) {
+                        if (!zone.isPvpAllowed()) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+
         // dont allow to use skills in Fly Teleport state
         if (target instanceof Player && ((Player) target).isProtectionActive()) {
             return false;
