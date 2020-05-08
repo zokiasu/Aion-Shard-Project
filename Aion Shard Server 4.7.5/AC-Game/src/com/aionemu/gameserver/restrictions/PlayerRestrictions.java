@@ -108,6 +108,22 @@ public class PlayerRestrictions extends AbstractRestrictions {
             List<Creature> creature = skill.getEffectedList();
             for (Creature crea : creature) {
                 if(crea instanceof Player && !crea.isInsideZoneType(ZoneType.PVP)) {
+                    PacketSendUtility.sendMessage(player, "Crea is Player & Not in PvP Zone");
+                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
+                    for (ZoneInstance zone : zones) {
+                        if (!zone.isPvpAllowed()) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+
+        if(skill.checkNonTargetAOE()) {
+            List<Creature> creature = skill.getEffectedList();
+            for (Creature crea : creature) {
+                if(crea instanceof Player) {
+                    PacketSendUtility.sendMessage(player, "Crea is Player");
                     List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
                     for (ZoneInstance zone : zones) {
                         if (!zone.isPvpAllowed()) {
