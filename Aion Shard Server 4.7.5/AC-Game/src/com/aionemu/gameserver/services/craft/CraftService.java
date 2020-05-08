@@ -45,7 +45,7 @@ public class CraftService {
             }
         }
 
-        int xpReward = (int) ((0.008 * (recipetemplate.getSkillpoint() + 100) * (recipetemplate.getSkillpoint() + 100) + 60));
+        int xpReward = (int) ((0.008 * (recipetemplate.getSkillpoint() + 100) * (recipetemplate.getSkillpoint() + 100) + 60)) + 100;
         PacketSendUtility.sendMessage(player, "xpReward : " + xpReward);
         xpReward = xpReward + (xpReward * bonus / 100); // bonus
         PacketSendUtility.sendMessage(player, "bonus : " + bonus);
