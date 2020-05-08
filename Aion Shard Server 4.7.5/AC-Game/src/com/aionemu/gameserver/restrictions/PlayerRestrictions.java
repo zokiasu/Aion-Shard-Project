@@ -45,8 +45,7 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
 
-        if (((Creature) target).getLifeStats().isAlreadyDead() && !skill.getSkillTemplate().hasResurrectEffect()
-                && !skill.checkNonTargetAOE()) {
+        if (((Creature) target).getLifeStats().isAlreadyDead() && !skill.getSkillTemplate().hasResurrectEffect() && !skill.checkNonTargetAOE()) {
             PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_SKILL_TARGET_IS_NOT_VALID);
             return false;
         }
@@ -83,72 +82,6 @@ public class PlayerRestrictions extends AbstractRestrictions {
             PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_CANNOT_USE_ITEM_DURING_PATH_FLYING(new DescriptionId(2800123)));
             return false;
         }
-
-        if(player.isInFFA() && skill.getSkillTemplate().getSkillId() == 50046){ // escape skill
-            return false;
-        }
-
-        if(player.isInDuelArena() && skill.getSkillTemplate().getSkillId() == 50046){ //escape skill
-            return false;
-        }
-        if (player.getBattleGround() != null && !player.getBattleGround().running && target instanceof Player && ((Player) target).getCommonData().getRace() != player.getCommonData().getRace()) {
-            return false;
-        }
-
-        if(!player.isInsideZoneType(ZoneType.PVP) && target instanceof Player && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
-            List<ZoneInstance> zones = target.getPosition().getMapRegion().getZones((Player) target);
-            for (ZoneInstance zone : zones) {
-                if (!zone.isPvpAllowed()) {
-                    return false;
-                }
-            }
-        }
-
-        if(skill.checkNonTargetAOE()) {
-            List<Creature> creature = skill.getEffectedList();
-            for (Creature crea : creature) {
-                if(crea instanceof Player && !crea.isInsideZoneType(ZoneType.PVP)) {
-                    PacketSendUtility.sendMessage(player, "Crea is Player & Not in PvP Zone");
-                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
-                    for (ZoneInstance zone : zones) {
-                        if (!zone.isPvpAllowed()) {
-                            return false;
-                        }
-                    }
-                }
-            }
-        }
-
-        if(skill.checkNonTargetAOE()) {
-            List<Creature> creature = skill.getEffectedList();
-            for (Creature crea : creature) {
-                if(crea instanceof Player) {
-                    PacketSendUtility.sendMessage(player, "Crea is Player");
-                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
-                    for (ZoneInstance zone : zones) {
-                        if (!zone.isPvpAllowed()) {
-                            return false;
-                        }
-                    }
-                }
-            }
-        }
-
-        // if target is in neutral zone, you cannot hit them
-        /*if (!skill.getSkillTemplate().hasHealEffect() || !skill.getSkillTemplate().hasRandomMoveEffect()
-        || skill.getSkillTemplate().getSubType() != SkillSubType.BUFF || skill.getSkillTemplate().getSubType() != SkillSubType.CHANT
-        || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMON || skill.getSkillTemplate().getSubType() != SkillSubType.SUMMONHOMING) {
-
-            if (target instanceof Player && ((Player) target).isInsideZoneType(ZoneType.PVP)) {
-                List<ZoneInstance> zones = target.getPosition().getMapRegion().getZones((Player) target);
-                for (ZoneInstance zone : zones) {
-                    if (!zone.isPvpAllowed()) {
-                        return false;
-                    }
-                }
-            }
-
-        }*/
 
         return true;
     }
