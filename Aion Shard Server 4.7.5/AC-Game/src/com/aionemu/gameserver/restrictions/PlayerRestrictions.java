@@ -36,21 +36,33 @@ public class PlayerRestrictions extends AbstractRestrictions {
             return false;
         }
 
-        if(skill.checkNonTargetAOE()) {
-            PacketSendUtility.sendMessage(player, "Skill is a NonTargetAOE");
-            List<Creature> creature = skill.getEffectedList();
-            for (Creature crea : creature) {
-                PacketSendUtility.sendMessage(player, "Crea name is" + crea.getName());
-                if(crea instanceof Player && !crea.isInsideZoneType(ZoneType.PVP)) {
-                    PacketSendUtility.sendMessage(player, "Crea is Player & Not in PvP Zone");
-                    List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
-                    for (ZoneInstance zone : zones) {
-                        if (!zone.isPvpAllowed()) {
+        List<Creature> creature2 = skill.getEffectedList();
+        for (Creature crea : creature2) {
+            //PacketSendUtility.sendMessage(player, "Crea name is" + crea.getName());
+            if (crea instanceof Player && crea.getRace() != player.getRace()) {
+                //PacketSendUtility.sendMessage(player, "Crea is Player");
+                List<ZoneInstance> zones1 = player.getPosition().getMapRegion().getZones(player);
+                List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
+                for (ZoneInstance zone : zones1) {
+                    PacketSendUtility.sendMessage(player, "Check zone player");
+                    for (ZoneInstance zone2 : zones) {
+                        PacketSendUtility.sendMessage(player, "Check zone crea");
+                        if ((zone2.isPvpAllowed() && !zone.isPvpAllowed()) || (!zone2.isPvpAllowed() && zone.isPvpAllowed())) {
+                            PacketSendUtility.sendMessage(player, "Crea or player is in zone safe");
                             return false;
                         }
                     }
-                } else if (crea instanceof Player) {
-                    PacketSendUtility.sendMessage(player, "Crea is Player");
+                }
+            }
+        }
+
+        if(skill.checkNonTargetAOE()) {
+            //PacketSendUtility.sendMessage(player, "Skill is a NonTargetAOE");
+            List<Creature> creature = skill.getEffectedList();
+            for (Creature crea : creature) {
+                //PacketSendUtility.sendMessage(player, "Crea name is" + crea.getName());
+                if (crea instanceof Player) {
+                    //PacketSendUtility.sendMessage(player, "Crea is Player");
                     List<ZoneInstance> zones = crea.getPosition().getMapRegion().getZones(crea);
                     for (ZoneInstance zone : zones) {
                         if (!zone.isPvpAllowed()) {
