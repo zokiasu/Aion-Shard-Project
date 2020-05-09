@@ -30,6 +30,8 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.MapRegion;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Source
@@ -37,6 +39,8 @@ import com.aionemu.gameserver.world.knownlist.Visitor;
  * M.O.G. Devs Team
  */
 public class Base<BL extends BaseLocation> {
+
+	private static final Logger log = LoggerFactory.getLogger(Base.class);
 
 	private Future<?> startAssault, stopAssault;
 	private final BL baseLocation;
@@ -367,6 +371,15 @@ public class Base<BL extends BaseLocation> {
 
 		for (Npc npc : getSpawned()) {
 
+			try {
+				if(!npc.isSpawned()) {
+					log.error("Base " + this.getId() + " npc " + npc.getName());
+				}
+			} catch (Exception e) {
+				log.error("Test non fonctionnel");
+			}
+
+			npc.getSpawn().setRespawnTime(0);
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
 		}
