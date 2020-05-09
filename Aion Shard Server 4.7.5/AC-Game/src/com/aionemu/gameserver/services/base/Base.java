@@ -23,6 +23,7 @@ import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
 import com.aionemu.gameserver.model.templates.spawns.basespawns.BaseSpawnTemplate;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.BaseService;
+import com.aionemu.gameserver.services.ShieldService;
 import com.aionemu.gameserver.spawnengine.SpawnEngine;
 import com.aionemu.gameserver.spawnengine.SpawnHandlerType;
 import com.aionemu.gameserver.utils.PacketSendUtility;
@@ -30,6 +31,8 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.MapRegion;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author Source
@@ -37,6 +40,8 @@ import com.aionemu.gameserver.world.knownlist.Visitor;
  * M.O.G. Devs Team
  */
 public class Base<BL extends BaseLocation> {
+
+	Logger log = LoggerFactory.getLogger(Base.class);
 
 	private Future<?> startAssault, stopAssault;
 	private final BL baseLocation;
@@ -366,11 +371,15 @@ public class Base<BL extends BaseLocation> {
 		setFlag(null);
 
 		for (Npc npc : getSpawned()) {
+			try {
+				if (npc.getRace() == Race.ASMODIANS || npc.getRace() == Race.ELYOS) {
+					npc.getController().scheduleRespawn().cancel(true);
+				}
+			} catch (Exception E){
+				log.info("Base " + this.getBaseLocation().getId() + " fail scheduleRespawn");
+			}
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
-			if(npc.getRace() == Race.ASMODIANS || npc.getRace() == Race.ELYOS) {
-				npc.getController().scheduleRespawn().cancel(true);
-			}
 		}
 		getSpawned().clear();
 
