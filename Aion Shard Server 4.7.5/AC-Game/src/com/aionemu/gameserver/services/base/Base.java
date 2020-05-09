@@ -1,3 +1,19 @@
+/**
+ * This file is part of Aion-Lightning <aion-lightning.org>.
+ *
+ *  Aion-Lightning is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  Aion-Lightning is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details. *
+ *  You should have received a copy of the GNU General Public License
+ *  along with Aion-Lightning.
+ *  If not, see <http://www.gnu.org/licenses/>.
+ */
 package com.aionemu.gameserver.services.base;
 
 import java.util.ArrayList;
@@ -206,59 +222,61 @@ public class Base<BL extends BaseLocation> {
 	}
 
 	public boolean isOnlyBalaur(int id) {
-		return switch (id) {
-//Stonereach Outpost
-			case 90 -> true;
-//Flamecrest Outpost
-			case 91 -> true;
-//Rattlefrost Outpost
-			case 134 -> true;
-//Sliversleet Outpost
-			case 135 -> true;
-//Coldforge Outpost
-			case 136 -> true;
-//Shimmerfrost Outpost
-			case 137 -> true;
-//Icehowl Outpost
-			case 138 -> true;
-//Chillhaunt Outpost
-			case 139 -> true;
-//Wildersage Artifact Outpost
-			case 140 -> true;
-//Dauntless Artifact Outpost
-			case 141 -> true;
-//Anchorbrak Artifact Outpost
-			case 142 -> true;
-//Brokenblade Artifact Outpost
-			case 143 -> true;
-//Sootguzzle Outpost
-			case 144 -> true;
-//Flameruin Outpost
-			case 145 -> true;
-//Stokebellow Outpost
-			case 146 -> true;
-//Blazerack Outpost
-			case 147 -> true;
-//Smoldergeist Outpost
-			case 148 -> true;
-//Moltenspike Outpost
-			case 149 -> true;
-			default -> false;
-		};
+		switch (id) {
+			case 90: //Stonereach Outpost
+				return true;
+			case 91: //Flamecrest Outpost
+				return true;
+			case 134: //Rattlefrost Outpost
+				return true;
+			case 135: //Sliversleet Outpost
+				return true;
+			case 136: //Coldforge Outpost
+				return true;
+			case 137: //Shimmerfrost Outpost
+				return true;
+			case 138: //Icehowl Outpost
+				return true;
+			case 139: //Chillhaunt Outpost
+				return true;
+			case 140: //Wildersage Artifact Outpost
+				return true;
+			case 141: //Dauntless Artifact Outpost
+				return true;
+			case 142: //Anchorbrak Artifact Outpost
+				return true;
+			case 143: //Brokenblade Artifact Outpost
+				return true;
+			case 144: //Sootguzzle Outpost
+				return true;
+			case 145: //Flameruin Outpost
+				return true;
+			case 146: //Stokebellow Outpost
+				return true;
+			case 147: //Blazerack Outpost
+				return true;
+			case 148: //Smoldergeist Outpost
+				return true;
+			case 149: //Moltenspike Outpost
+				return true;
+			default:
+				return false;
+		}
 	}
 
 	public boolean isNoFlag(int id) {
-		return switch (id) {
-//Wildersage Artifact Outpost
-			case 140 -> true;
-//Dauntless Artifact Outpost
-			case 141 -> true;
-//Anchorbrak Artifact Outpost
-			case 142 -> true;
-//Brokenblade Artifact Outpost
-			case 143 -> true;
-			default -> false;
-		};
+		switch (id) {
+			case 140: //Wildersage Artifact Outpost
+				return true;
+			case 141: //Dauntless Artifact Outpost
+				return true;
+			case 142: //Anchorbrak Artifact Outpost
+				return true;
+			case 143: //Brokenblade Artifact Outpost
+				return true;
+			default:
+				return false;
+		}
 	}
 
 	public boolean isAttacked() {
