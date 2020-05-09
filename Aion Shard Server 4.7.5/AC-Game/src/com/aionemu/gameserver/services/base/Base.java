@@ -368,7 +368,7 @@ public class Base<BL extends BaseLocation> {
 		for (Npc npc : getSpawned()) {
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
-			if(this.getRace() == Race.ELYOS || this.getRace() == Race.ASMODIANS) {
+			if(getRace() == Race.ELYOS || getRace() == Race.ASMODIANS) {
 				npc.getController().scheduleRespawn().cancel(true);
 			}
 		}
