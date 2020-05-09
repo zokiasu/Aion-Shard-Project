@@ -1631,7 +1631,7 @@
         <support>PREY</support>
     </tribe>
     <tribe name="PROTECTGUARD_DARK" base="GUARD_DARK">
-        <aggro>PC LDF4_ADVANCE_LGUARD LDF4_ADVANCE_DRGUARD</aggro>
+        <aggro>PC LDF4_ADVANCE_LGUARD LDF4_ADVANCE_DRGUARD PROTECTGUARD_LIGHT</aggro>
 		<friend>MONSTER</friend>
 		<support>PC_DARK LDF4_ADVANCE_DGUARD</support>
     </tribe>

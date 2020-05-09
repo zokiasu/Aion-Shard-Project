@@ -136,7 +136,7 @@ public class Base<BL extends BaseLocation> {
 					spawnBoss();
 				}
 			}
-		}, Rnd.get(5, 15) * 60000); // Boss spawn between 5 min and 15 min delay
+		}, Rnd.get(5, 10) * 60000); // Boss spawn between 5 min and 10 min delay
 	}
 
 	protected void spawnBoss() {
@@ -367,28 +367,31 @@ public class Base<BL extends BaseLocation> {
 	}
 
 	protected void despawn() {
+		log.warn("Call despawn");
 		setFlag(null);
 
 		for (Npc npc : getSpawned()) {
-
-			try {
-				if(!npc.isSpawned()) {
-					log.error("Base " + this.getId() + " npc " + npc.getName());
+			if(getRace() == Race.ASMODIANS || getRace() == Race.ELYOS) {
+				try {
+					if (!npc.isSpawned()) {
+						log.error("Base " + this.getId() + " npc " + npc.getName());
+					}
+				} catch (Exception e) {
+					log.error("Test non fonctionnel");
 				}
-			} catch (Exception e) {
-				log.error("Test non fonctionnel");
 			}
 
 			npc.getSpawn().setRespawnTime(0);
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
 		}
-		getSpawned().clear();
+		//getSpawned().clear();
 
 		despawnAttackers();
 		if (startAssault != null) {
 			startAssault.cancel(true);
 		}
+
 		if (stopAssault != null) {
 			stopAssault.cancel(true);
 		}

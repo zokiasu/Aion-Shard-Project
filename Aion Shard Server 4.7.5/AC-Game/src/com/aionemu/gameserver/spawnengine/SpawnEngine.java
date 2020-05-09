@@ -130,7 +130,6 @@ public class SpawnEngine {
      * @param z
      * @param heading
      * @param respawnTime
-     * @param permanent
      * @return SpawnTemplate
      */
     public static SpawnTemplate addNewSpawn(int worldId, int npcId, float x, float y, float z, byte heading, int respawnTime) {
