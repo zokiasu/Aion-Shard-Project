@@ -2,9 +2,10 @@ package com.aionemu.gameserver.services.base;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+import javolution.util.FastList;
 
 import com.aionemu.commons.callbacks.EnhancedObject;
 import com.aionemu.commons.utils.Rnd;
@@ -15,44 +16,31 @@ import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.TaskId;
 import com.aionemu.gameserver.model.base.BaseLocation;
 import com.aionemu.gameserver.model.gameobjects.Npc;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.npc.NpcTemplate;
 import com.aionemu.gameserver.model.templates.npc.NpcTemplateType;
 import com.aionemu.gameserver.model.templates.spawns.SpawnGroup2;
 import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
 import com.aionemu.gameserver.model.templates.spawns.basespawns.BaseSpawnTemplate;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.BaseService;
-import com.aionemu.gameserver.services.ShieldService;
 import com.aionemu.gameserver.spawnengine.SpawnEngine;
 import com.aionemu.gameserver.spawnengine.SpawnHandlerType;
-import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.MapRegion;
 import com.aionemu.gameserver.world.World;
-import com.aionemu.gameserver.world.knownlist.Visitor;
-import javolution.util.FastList;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * @author Source
- * @author Dision
- * M.O.G. Devs Team
  */
 public class Base<BL extends BaseLocation> {
 
-	Logger log = LoggerFactory.getLogger(Base.class);
-
 	private Future<?> startAssault, stopAssault;
 	private final BL baseLocation;
-	private List<Race> list = new ArrayList<Race>();
+	private List<Race> list = new ArrayList<>();
 	private final BossDeathListener bossDeathListener = new BossDeathListener(this);
-	private List<Npc> attackers = new ArrayList<Npc>();
-	private List<Npc> spawned = new CopyOnWriteArrayList<Npc>();
+	private List<Npc> attackers = new ArrayList<>();
 	private final AtomicBoolean finished = new AtomicBoolean();
 	private boolean started;
-	private Npc boss, guard, guard_village, guard_rivar, guard_krall, guard_werewolf, portal, flag;
+	private Npc boss, flag;
 
 	public Base(BL baseLocation) {
 		list.add(Race.ASMODIANS);
@@ -63,19 +51,19 @@ public class Base<BL extends BaseLocation> {
 
 	public final void start() {
 
-		boolean start = false;
+		boolean doubleStart = false;
 
 		synchronized (this) {
 			if (started) {
-				start = true;
+				doubleStart = true;
 			} else {
-		  started = true;
+				started = true;
 			}
 		}
-		if (start) {
-			return;
+
+		if (!doubleStart) {
+			spawn();
 		}
-		spawn();
 	}
 
 	public final void stop() {
@@ -107,8 +95,9 @@ public class Base<BL extends BaseLocation> {
 						NpcTemplate npcTemplate = npc.getObjectTemplate();
 						if (npcTemplate.getNpcTemplateType().equals(NpcTemplateType.FLAG)) {
 							setFlag(npc);
+							MapRegion mr = npc.getPosition().getMapRegion();
+							mr.activate();
 						}
-						getSpawned().add(npc);
 					}
 				}
 			}
@@ -116,8 +105,6 @@ public class Base<BL extends BaseLocation> {
 
 		delayedAssault();
 		delayedSpawn(getRace());
-		delayedSpawnTwo(getRace());
-		delayedSpawnThri(getRace());
 	}
 
 	private void delayedAssault() {
@@ -131,14 +118,13 @@ public class Base<BL extends BaseLocation> {
 
 	private void delayedSpawn(final Race race) {
 		ThreadPoolManager.getInstance().schedule(new Runnable() {
-
 			@Override
 			public void run() {
 				if (getRace().equals(race) && getBoss() == null) {
 					spawnBoss();
 				}
 			}
-		}, Rnd.get(5, 15) * 60000); // Boss spawn between 5 min and 15 min delay
+		}, Rnd.get(5, 15) * 60000); // Boss spawn between 30 min and 4 hours delay on retail
 	}
 
 	protected void spawnBoss() {
@@ -150,7 +136,6 @@ public class Base<BL extends BaseLocation> {
 						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
 						setBoss(npc);
 						addBossListeners();
-						getSpawned().add(npc);
 					}
 				}
 			}
@@ -158,157 +143,30 @@ public class Base<BL extends BaseLocation> {
 	}
 
 	protected void chooseAttackersRace() {
-        AtomicBoolean next = new AtomicBoolean(Math.random() < 0.5);
-        for (Race race : list) {
-        	if (race == null) {
-                throw new NullPointerException("Base:" + race + " race is null chooseAttackersRace!");
-            } else if (!race.equals(getRace())) {
-                if (next.compareAndSet(true, false)) {
-                    continue;
-                }
-                
-                spawnAttackers(race);
-                break;
-            }
-        }
-    }
+		AtomicBoolean next = new AtomicBoolean(Math.random() < 0.5);
+		for (Race race : list) {
+			if (race == null) {
+				throw new NullPointerException("Base:" + race + " race is null chooseAttackersRace!");
+			} else if (!race.equals(getRace())) {
+				if (next.compareAndSet(true, false)) {
+					continue;
+				}
 
-	private void delayedSpawnTwo(final Race race) {
-		ThreadPoolManager.getInstance().schedule(new Runnable() {
-			@Override
-			public void run() {
-				if (getRace().equals(race) && getGuard() == null) {
-					spawnGuard();
-				}
-				if (getRace().equals(race) && getGuardRivar() == null) {
-					spawnGuardRivar();
-				}
-				if (getRace().equals(race) && getGuardKrall() == null) {
-					spawnGuardKrall();
-				}
-				if (getRace().equals(race) && getGuardWerewolf() == null) {
-					spawnGuardWerewolf();
-				}
-				if (getRace().equals(race) && getPortal() == null) {
-					spawnPortal();
-				}
-			}
-
-		}, 15000); // Guard 1 min spawn delay
-	}
-
-	protected void spawnGuard() {
-		for (SpawnGroup2 group : getBaseSpawns()) {
-			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
-				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
-				if (template.getBaseRace().equals(getRace())) {
-					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.GUARD)) {
-						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
-						setGuard(npc);
-						getSpawned().add(npc);
-					}
-				}
-			}
-		}
-	}
-
-	protected void spawnGuardRivar() {
-		for (SpawnGroup2 group : getBaseSpawns()) {
-			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
-				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
-				if (template.getBaseRace().equals(getRace())) {
-					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.GUARD_RIVAR)) {
-						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
-						setGuardRivar(npc);
-						getSpawned().add(npc);
-					}
-				}
-			}
-		}
-	}
-
-	protected void spawnGuardKrall() {
-		for (SpawnGroup2 group : getBaseSpawns()) {
-			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
-				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
-				if (template.getBaseRace().equals(getRace())) {
-					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.GUARD_KRALL)) {
-						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
-						setGuardKrall(npc);
-						getSpawned().add(npc);
-					}
-				}
-			}
-		}
-	}
-
-	protected void spawnGuardWerewolf() {
-		for (SpawnGroup2 group : getBaseSpawns()) {
-			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
-				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
-				if (template.getBaseRace().equals(getRace())) {
-					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.GUARD_WEREWOLF)) {
-						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
-						setGuardWerewolf(npc);
-						getSpawned().add(npc);
-					}
-				}
-			}
-		}
-	}
-
-	private void delayedSpawnThri(final Race race) {
-		ThreadPoolManager.getInstance().schedule(new Runnable() {
-			@Override
-			public void run() {
-				if (getRace().equals(race) && getGuardVillage() == null) {
-					spawnGuardVillage();
-				}
-			}
-
-		}, 10000); // Guard Village 10 sec spawn delay
-	}
-
-	protected void spawnGuardVillage() {
-		for (SpawnGroup2 group : getBaseSpawns()) {
-			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
-				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
-				if (template.getBaseRace().equals(getRace())) {
-					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.GUARD_VILLAGE)) {
-						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
-						setGuardVillage(npc);
-						getSpawned().add(npc);
-					}
-				}
-			}
-		}
-	}
-
-	protected void spawnPortal() {
-		for (SpawnGroup2 group : getBaseSpawns()) {
-			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
-				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
-				if (template.getBaseRace().equals(getRace())) {
-					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.PORTAL)) {
-						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
-						setPortal(npc);
-						getSpawned().add(npc);
-					}
-				}
+				spawnAttackers(race);
+				break;
 			}
 		}
 	}
 
 	public void spawnAttackers(Race race) {
-		if (getFlag() == null) {
+		if (getFlag() == null && !isNoFlag(getId())) {
 			throw new NullPointerException("Base:" + getId() + " flag is null!");
-		}
-		else if (!getFlag().getPosition().getMapRegion().isMapRegionActive()) {
+		} else if (!getFlag().getPosition().getMapRegion().isMapRegionActive()) {
 			// 20% chance to capture base in not active region by invaders assault
-			if (Math.random() < 0.2) {
+			Race CurrentRace = getFlag().getRace();
+			if (Math.random() < 0.2 && !race.equals(CurrentRace)) {
 				BaseService.getInstance().capture(getId(), race);
-			}
-			else {
+			} else {
 				// Next attack
 				delayedAssault();
 			}
@@ -316,7 +174,7 @@ public class Base<BL extends BaseLocation> {
 		}
 
 		if (!isAttacked()) {
-			getAttackers().clear();
+			despawnAttackers();
 
 			for (SpawnGroup2 group : getBaseSpawns()) {
 				for (SpawnTemplate spawn : group.getSpawnTemplates()) {
@@ -330,33 +188,78 @@ public class Base<BL extends BaseLocation> {
 				}
 			}
 
-			// Since patch 4.7 in kaldor are siege important bases that only have balaur attackers
-            // for back occupying.
-            if (getAttackers().isEmpty() && !isOnlyBalaur(getId())) {
-                throw new NullPointerException("No attackers was found for base:" + getId());
-            } else {
-                stopAssault = ThreadPoolManager.getInstance().schedule(new Runnable() {
-                    @Override
-                    public void run() {
-                        despawnAttackers();
+			// Since patch 4.7 in kaldor are siege important bases that only have balaur attackers for back occupying.
+			if (getAttackers().isEmpty() && !isOnlyBalaur(getId())) {
+				throw new NullPointerException("No attackers was found for base:" + getId());
+			} else {
+				stopAssault = ThreadPoolManager.getInstance().schedule(new Runnable() {
+					@Override
+					public void run() {
+						despawnAttackers();
 
-                        // Next attack
-                        delayedAssault();
-                    }
-                }, 5 * 60000); // After 5 min attackers despawned
-            }
-        }
-    }
-		
-    public boolean isOnlyBalaur(int id) {
-        switch (id) {
-            case 90:
-            case 91:
-                return true;
-            default:
-                return false;
-        }
-    }
+						// Next attack
+						delayedAssault();
+					}
+				}, 5 * 60000); // After 5 min attackers despawned
+			}
+		}
+	}
+
+	public boolean isOnlyBalaur(int id) {
+		return switch (id) {
+//Stonereach Outpost
+			case 90 -> true;
+//Flamecrest Outpost
+			case 91 -> true;
+//Rattlefrost Outpost
+			case 134 -> true;
+//Sliversleet Outpost
+			case 135 -> true;
+//Coldforge Outpost
+			case 136 -> true;
+//Shimmerfrost Outpost
+			case 137 -> true;
+//Icehowl Outpost
+			case 138 -> true;
+//Chillhaunt Outpost
+			case 139 -> true;
+//Wildersage Artifact Outpost
+			case 140 -> true;
+//Dauntless Artifact Outpost
+			case 141 -> true;
+//Anchorbrak Artifact Outpost
+			case 142 -> true;
+//Brokenblade Artifact Outpost
+			case 143 -> true;
+//Sootguzzle Outpost
+			case 144 -> true;
+//Flameruin Outpost
+			case 145 -> true;
+//Stokebellow Outpost
+			case 146 -> true;
+//Blazerack Outpost
+			case 147 -> true;
+//Smoldergeist Outpost
+			case 148 -> true;
+//Moltenspike Outpost
+			case 149 -> true;
+			default -> false;
+		};
+	}
+
+	public boolean isNoFlag(int id) {
+		return switch (id) {
+//Wildersage Artifact Outpost
+			case 140 -> true;
+//Dauntless Artifact Outpost
+			case 141 -> true;
+//Anchorbrak Artifact Outpost
+			case 142 -> true;
+//Brokenblade Artifact Outpost
+			case 143 -> true;
+			default -> false;
+		};
+	}
 
 	public boolean isAttacked() {
 		for (Npc attacker : getAttackers()) {
@@ -370,41 +273,32 @@ public class Base<BL extends BaseLocation> {
 	protected void despawn() {
 		setFlag(null);
 
-		/*for (Npc npc : getSpawned()) {
-			if (npc.getRace() == Race.ASMODIANS || npc.getRace() == Race.ELYOS) {
-				npc.getController().scheduleRespawn().cancel(true);
-			}
-			npc.getController().cancelTask(TaskId.RESPAWN);
-			npc.getController().onDelete();
-			getSpawned().get(npc.getNpcId());
-		}
-		getSpawned().clear();*/
-
 		FastList<Npc> spawned = World.getInstance().getBaseSpawns(getId());
 		if (spawned != null) {
 			for (Npc npc : spawned) {
-				if(!npc.isSpawned()) {
-					log.error("La base " + getId() + " a le npc " + npc.getName() + " qui n'est pas spawn");
-				}
-				npc.getSpawn().setRespawnTime(0);
 				npc.getController().onDelete();
 			}
 		}
 
-		despawnAttackers();
 		if (startAssault != null) {
 			startAssault.cancel(true);
 		}
 
 		if (stopAssault != null) {
 			stopAssault.cancel(true);
+			despawnAttackers();
 		}
 	}
 
 	protected void despawnAttackers() {
+		NpcController controller;
 		for (Npc attacker : getAttackers()) {
-			attacker.getController().cancelTask(TaskId.RESPAWN);
-			attacker.getController().onDelete();
+			controller = attacker.getController();
+			if (null != controller)//despawn fix
+			{
+				controller.cancelTask(TaskId.RESPAWN);
+				controller.onDelete();
+			}
 		}
 		getAttackers().clear();
 	}
@@ -421,10 +315,6 @@ public class Base<BL extends BaseLocation> {
 		eo.removeCallback(getBossListener());
 	}
 
-	/**
-	 * @return
-	 * @return
-	 */
 	public Npc getFlag() {
 		return flag;
 	}
@@ -439,54 +329,6 @@ public class Base<BL extends BaseLocation> {
 
 	public void setBoss(Npc boss) {
 		this.boss = boss;
-	}
-
-	public Npc getGuard() {
-		return guard;
-	}
-
-	public void setGuard(Npc guard) {
-		this.guard = guard;
-	}
-
-	public Npc getGuardRivar() {
-		return guard_rivar;
-	}
-
-	public void setGuardRivar(Npc guard_rivar) {
-		this.guard_rivar = guard_rivar;
-	}
-
-	public Npc getGuardKrall() {
-		return guard_krall;
-	}
-
-	public void setGuardKrall(Npc guard_krall) {
-		this.guard_krall = guard_krall;
-	}
-
-	public Npc getGuardWerewolf() {
-		return guard_werewolf;
-	}
-
-	public void setGuardWerewolf(Npc guard_werewolf) {
-		this.guard_werewolf = guard_werewolf;
-	}
-
-	public Npc getGuardVillage() {
-		return guard_village;
-	}
-
-	public void setGuardVillage(Npc guard_village) {
-		this.guard_village = guard_village;
-	}
-
-	public Npc getPortal() {
-		return portal;
-	}
-
-	public void setPortal(Npc portal) {
-		this.portal = portal;
 	}
 
 	public BossDeathListener getBossListener() {
@@ -516,10 +358,4 @@ public class Base<BL extends BaseLocation> {
 	public List<Npc> getAttackers() {
 		return attackers;
 	}
-
-	public List<Npc> getSpawned() {
-		return spawned;
-	}
-
 }
-
