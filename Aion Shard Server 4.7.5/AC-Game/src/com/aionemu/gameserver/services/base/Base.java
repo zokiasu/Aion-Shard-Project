@@ -31,6 +31,7 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
 import com.aionemu.gameserver.world.MapRegion;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.knownlist.Visitor;
+import javolution.util.FastList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -216,7 +217,6 @@ public class Base<BL extends BaseLocation> {
 			for (SpawnTemplate spawn : group.getSpawnTemplates()) {
 				final BaseSpawnTemplate template = (BaseSpawnTemplate) spawn;
 				if (template.getBaseRace().equals(getRace())) {
-
 					if (template.getHandlerType() != null && template.getHandlerType().equals(SpawnHandlerType.GUARD_RIVAR)) {
 						Npc npc = (Npc) SpawnEngine.spawnObject(template, 1);
 						setGuardRivar(npc);
@@ -370,23 +370,28 @@ public class Base<BL extends BaseLocation> {
 	protected void despawn() {
 		setFlag(null);
 
-		for (Npc npc : getSpawned()) {
-			try {
-				if (npc.getRace() == Race.ASMODIANS || npc.getRace() == Race.ELYOS) {
-					npc.getController().scheduleRespawn().cancel(true);
-				}
-			} catch (Exception E){
-				log.info("Base " + this.getBaseLocation().getId() + " fail scheduleRespawn");
+		/*for (Npc npc : getSpawned()) {
+			if (npc.getRace() == Race.ASMODIANS || npc.getRace() == Race.ELYOS) {
+				npc.getController().scheduleRespawn().cancel(true);
 			}
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
+			getSpawned().get(npc.getNpcId());
 		}
-		getSpawned().clear();
+		getSpawned().clear();*/
+
+		FastList<Npc> spawned = World.getInstance().getBaseSpawns(getId());
+		if (spawned != null) {
+			for (Npc npc : spawned) {
+				npc.getController().onDelete();
+			}
+		}
 
 		despawnAttackers();
 		if (startAssault != null) {
 			startAssault.cancel(true);
 		}
+
 		if (stopAssault != null) {
 			stopAssault.cancel(true);
 		}
