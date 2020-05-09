@@ -88,7 +88,7 @@
     <!-- Fin boss intermédiaire -->
 
     <npc_drop npc_id="233716">
-        <drop_group name="KEY">
+        <drop_group use_category="true" name="KEY">
             <drop item_id="185000066" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="185000067" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="185000068" chance="100.0" min_amount="1" max_amount="1"/>
@@ -96,30 +96,30 @@
     </npc_drop>
 
     <npc_drop npc_id="233718">
-        <drop_group name="KEY">
+        <drop_group use_category="true" name="KEY">
             <drop item_id="185000069" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="KEY">
+        <drop_group use_category="true" name="KEY">
             <drop item_id="185000070" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="TEMPERING_SOLUTION">
+        <drop_group use_category="true" name="TEMPERING_SOLUTION">
             <drop item_id="166030005" chance="0.1" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233719">
-        <drop_group name="KEY">
+        <drop_group use_category="true" name="KEY">
             <drop item_id="185000069" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="KEY">
+        <drop_group use_category="true" name="KEY">
             <drop item_id="185000070" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="TEMPERING_SOLUTION">
+        <drop_group use_category="true" name="TEMPERING_SOLUTION">
             <drop item_id="166030005" chance="0.1" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
 
     <npc_drop npc_id="702296">
-        <drop_group name="ANCIENT_RELIC">
+        <drop_group use_category="true" name="ANCIENT_RELIC">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000052" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000053" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
@@ -137,7 +137,7 @@
             <drop item_id="186000065" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000066" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="ANCIENT_RELIC">
+        <drop_group use_category="true" name="ANCIENT_RELIC">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000052" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000053" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
@@ -155,20 +155,20 @@
             <drop item_id="186000065" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000066" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="COMPO">
+        <drop_group use_category="true" name="COMPO">
             <drop item_id="162000121" chance="100.0" min_amount="5" max_amount="10" no_reduce="false" eachmember="true"/>
             <drop item_id="162000124" chance="100.0" min_amount="5" max_amount="10" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="COMPO">
+        <drop_group use_category="true" name="COMPO">
             <drop item_id="160001338" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
             <drop item_id="160001339" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE">
             <drop item_id="188052199" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="702297">
-        <drop_group name="ANCIENT_RELIC">
+        <drop_group use_category="true" name="ANCIENT_RELIC">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000052" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000053" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
@@ -186,7 +186,7 @@
             <drop item_id="186000065" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000066" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="ANCIENT_RELIC">
+        <drop_group use_category="true" name="ANCIENT_RELIC">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000052" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000053" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
@@ -204,20 +204,20 @@
             <drop item_id="186000065" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000066" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="COMPO">
+        <drop_group use_category="true" name="COMPO">
             <drop item_id="162000121" chance="100.0" min_amount="5" max_amount="10" no_reduce="false" eachmember="true"/>
             <drop item_id="162000124" chance="100.0" min_amount="5" max_amount="10" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="COMPO">
+        <drop_group use_category="true" name="COMPO">
             <drop item_id="160001338" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
             <drop item_id="160001339" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE">
             <drop item_id="188052199" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="702298">
-        <drop_group name="ANCIENT_RELIC">
+        <drop_group use_category="true" name="ANCIENT_RELIC">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000052" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000053" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
@@ -235,7 +235,7 @@
             <drop item_id="186000065" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000066" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="ANCIENT_RELIC">
+        <drop_group use_category="true" name="ANCIENT_RELIC">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000052" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000053" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
@@ -253,28 +253,28 @@
             <drop item_id="186000065" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
             <drop item_id="186000066" chance="100.0" min_amount="1"  max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="COMPO">
+        <drop_group use_category="true" name="COMPO">
             <drop item_id="162000121" chance="100.0" min_amount="5" max_amount="10" no_reduce="false" eachmember="true"/>
             <drop item_id="162000124" chance="100.0" min_amount="5" max_amount="10" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="COMPO">
+        <drop_group use_category="true" name="COMPO">
             <drop item_id="160001338" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
             <drop item_id="160001339" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE">
             <drop item_id="188052199" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
 
     <!-- Coffre caché -->
     <npc_drop npc_id="702299">
-        <drop_group name="MEDAL">
+        <drop_group use_category="true" name="MEDAL">
             <drop item_id="186000242" chance="100.0" min_amount="1" max_amount="2" no_reduce="false" eachmember="true"/>
         </drop_group>
-        <drop_group name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE">
             <drop item_id="188051424" chance="50.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="MAJOR_ANCIENT">
+        <drop_group use_category="true" name="MAJOR_ANCIENT">
             <drop item_id="186000051" chance="100.0" min_amount="1" max_amount="2" no_reduce="false" eachmember="true"/>
             <drop item_id="186000055" chance="100.0" min_amount="1" max_amount="2" no_reduce="false" eachmember="true"/>
         </drop_group>

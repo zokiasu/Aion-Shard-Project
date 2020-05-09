@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc_drops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_drops.xsd">
-    <npc_drop npc_id="832929"> <!-- Imperial Chest -->
-		<drop_group name="MEDAL" use_category="true" race="PC_ALL">
+    <!-- Imperial Chest -->
+    <npc_drop npc_id="832929">
+		<drop_group use_category="true" name="MEDAL" race="PC_ALL">
             <drop item_id="186000242" chance="70" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000236" chance="70" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000238" chance="80" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000237" chance="80" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="RELIC" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="RELIC" race="PC_ALL">
             <drop item_id="186000057" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="SKIN" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="SKIN" race="PC_ALL">
             <drop item_id="110000022" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="110101797" chance="35" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
 	</npc_drop>
-    <npc_drop npc_id="832930"> <!-- Big Imperial Chest -->
-		<drop_group name="MEDAL" use_category="true" race="PC_ALL">
+    <!-- Big Imperial Chest -->
+    <npc_drop npc_id="832930">
+		<drop_group use_category="true" name="MEDAL" race="PC_ALL">
             <drop item_id="186000242" chance="70" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000236" chance="70" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000238" chance="80" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000237" chance="80" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="RELIC" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="RELIC" race="PC_ALL">
             <drop item_id="186000057" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000055" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000051" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="SKIN" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="SKIN" race="PC_ALL">
             <drop item_id="110900870" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="125045522" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="110000022" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="110101797" chance="35" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="CRAFT" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="CRAFT" race="PC_ALL">
             <drop item_id="166030005" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="GODSTONE" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="GODSTONE" race="PC_ALL">
             <drop item_id="188053614" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="MOUNT" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="MOUNT" race="PC_ALL">
             <drop item_id="190100150" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="WINGS" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="WINGS" race="PC_ALL">
             <drop item_id="187060170" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="187060166" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="BELTS" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="BELTS" race="PC_ALL">
             <drop item_id="123001471" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="123001472" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="WEAPONS" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="WEAPONS" race="PC_ALL">
             <drop item_id="101901015" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="101701259" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="101501244" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
@@ -69,7 +71,7 @@
             <drop item_id="100001580" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="100101218" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="ARMOR" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="ARMOR" race="PC_ALL">
             <drop item_id="110101669" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="114101548" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="112101454" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
@@ -97,45 +99,46 @@
             <drop item_id="112501432" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
 	</npc_drop>
-    <npc_drop npc_id="832931"> <!-- Emperor's Premium Treasure Box -->
-		<drop_group name="MEDAL" use_category="true" race="PC_ALL">
+    <!-- Emperor's Premium Treasure Box -->
+    <npc_drop npc_id="832931">
+		<drop_group use_category="true" name="MEDAL" race="PC_ALL">
             <drop item_id="186000242" chance="70" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000236" chance="70" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000238" chance="80" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000237" chance="80" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="MANASTONES" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="MANASTONES" race="PC_ALL">
             <drop item_id="188052646" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="RELIC" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="RELIC" race="PC_ALL">
             <drop item_id="186000057" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000055" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
             <drop item_id="186000051" chance="85" min_amount="1" max_amount="2" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="SKIN" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="SKIN" race="PC_ALL">
             <drop item_id="110900870" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="125045522" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="110000022" chance="45" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="110101797" chance="35" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="CRAFT" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="CRAFT" race="PC_ALL">
             <drop item_id="166030005" chance="22" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="GODSTONE" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="GODSTONE" race="PC_ALL">
             <drop item_id="188053614" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="MOUNT" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="MOUNT" race="PC_ALL">
             <drop item_id="190100150" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="WINGS" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="WINGS" race="PC_ALL">
             <drop item_id="187060170" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="187060166" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="BELTS" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="BELTS" race="PC_ALL">
             <drop item_id="123001471" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="123001472" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="WEAPONS" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="WEAPONS" race="PC_ALL">
             <drop item_id="101901015" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="101701259" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="101501244" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
@@ -154,7 +157,7 @@
             <drop item_id="100001580" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="100101218" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
 		</drop_group>
-		<drop_group name="ARMOR" use_category="true" race="PC_ALL">
+		<drop_group use_category="true" name="ARMOR" race="PC_ALL">
             <drop item_id="110101669" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="114101548" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />
             <drop item_id="112101454" chance="32" min_amount="1" max_amount="1" no_reduce="true" eachmember="true"  />

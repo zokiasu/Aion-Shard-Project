@@ -1240,14 +1240,14 @@
     <!-- FIN MOB FARM -->
     <!-- Debut -->
     <npc_drop npc_id="233934">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -1440,14 +1440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233936">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -1640,14 +1640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233920">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -1840,14 +1840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233918">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -2040,14 +2040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233931">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -2240,14 +2240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233933">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -2440,14 +2440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233935">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -2640,14 +2640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233919">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -2840,14 +2840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233929">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -3040,14 +3040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233939">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -3240,14 +3240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233902">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -3440,14 +3440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233907">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -3640,14 +3640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233908">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -3840,14 +3840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233950">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -4040,14 +4040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233940">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -4240,14 +4240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233941">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -4440,14 +4440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233944">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -4640,14 +4640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233948">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -4840,14 +4840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233949">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -5040,14 +5040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234717">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -5240,14 +5240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234714">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -5440,14 +5440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234713">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -5640,14 +5640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234715">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -5840,14 +5840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234711">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -6040,14 +6040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234716">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -6240,14 +6240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234712">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -6440,14 +6440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234719">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -6640,14 +6640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234160">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -6840,14 +6840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234919">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -7040,14 +7040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234920">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -7240,14 +7240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234935">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -7440,14 +7440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234933">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -7640,14 +7640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234939">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -7840,14 +7840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234936">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -8040,14 +8040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234934">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -8240,14 +8240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234930">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -8440,14 +8440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234932">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -8640,14 +8640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234931">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -8840,14 +8840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233951">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -9040,14 +9040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233945">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -9240,14 +9240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233946">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -9440,14 +9440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233947">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -9640,14 +9640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233952">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -9840,14 +9840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234692">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -10040,14 +10040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234313">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -10240,14 +10240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234312">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -10440,14 +10440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234942">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -10640,14 +10640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234941">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -10840,14 +10840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233900">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -11040,14 +11040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234704">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -11240,14 +11240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234706">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -11440,14 +11440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234707">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -11640,14 +11640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234705">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -11840,14 +11840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233927">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -12040,14 +12040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233925">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -12240,14 +12240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233937">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -12440,14 +12440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233938">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -12640,14 +12640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233924">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -12840,14 +12840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233922">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -13040,14 +13040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233921">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -13240,14 +13240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233923">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -13440,14 +13440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233925">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -13640,14 +13640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233926">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -13840,14 +13840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233928">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -14040,14 +14040,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233903">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -14240,14 +14240,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233904">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -14440,14 +14440,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234714">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -14640,14 +14640,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234716">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -14840,14 +14840,14 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234711">
-        <drop_group use_category="true" name="KINAH">
+        <drop_group use_category="true" name="KINAH" race="PC_ALL">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="SHARDS">
+        <drop_group use_category="true" name="SHARDS" race="PC_ALL">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group use_category="true" name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE" race="PC_ALL">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- MP 95 -->
@@ -15043,86 +15043,86 @@
     <!-- Debut Agent Fight -->
     <npc_drop npc_id="235064">
         <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="COMPOSITE" race="PC_ALL">
             <drop item_id="188052199" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 60 Blue -->
@@ -15147,86 +15147,86 @@
     </npc_drop>
     <npc_drop npc_id="235065">
         <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ARMOR_COMMON" race="PC_ALL">
-            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="114101694" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110301807" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110601620" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113301776" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112301684" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111301745" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110551137" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114501724" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113601566" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111601583" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114601573" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112601565" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113501714" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112101598" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111101648" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="111501696" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="114301813" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="113101660" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="110101834" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="112501635" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_COMMON" race="PC_ALL">
-            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="102001217" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100101302" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100601398" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100901329" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100201474" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="102101023" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101301234" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101701339" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100001703" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="100501288" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101801189" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101501325" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="101901100" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ACCESSORY_RARE" race="PC_ALL">
-            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="187100018" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="187100017" chance="100" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="COMPOSITE" race="PC_ALL">
             <drop item_id="188052199" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 60 Blue -->
@@ -15267,21 +15267,21 @@
             <drop item_id="166030005" chance="0.05" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="ACCESSORY_LEGEND" race="PC_ALL">
-            <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
-            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
-            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WRIGHT_TOKEN" race="ELYOS">
             <drop item_id="186000132" chance="25.0" min_amount="1" max_amount="1" eachmember="false"/> <!-- монета ремесслеников-->
@@ -15335,18 +15335,18 @@
             <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
-            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
-            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WRIGHT_TOKEN" race="ELYOS">
             <drop item_id="186000132" chance="25.0" min_amount="1" max_amount="1" eachmember="false"/> <!-- монета ремесслеников-->
@@ -15400,18 +15400,18 @@
             <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
-            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
-            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WRIGHT_TOKEN" race="ELYOS">
             <drop item_id="186000132" chance="25.0" min_amount="1" max_amount="1" eachmember="false"/> <!-- монета ремесслеников-->
@@ -15465,18 +15465,18 @@
             <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
-            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
-            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WRIGHT_TOKEN" race="ELYOS">
             <drop item_id="186000132" chance="25.0" min_amount="1" max_amount="1" eachmember="false"/> <!-- монета ремесслеников-->
@@ -15530,18 +15530,18 @@
             <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
-            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
-            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WRIGHT_TOKEN" race="ELYOS">
             <drop item_id="186000132" chance="25.0" min_amount="1" max_amount="1" eachmember="false"/> <!-- монета ремесслеников-->
@@ -15595,18 +15595,18 @@
             <drop item_id="188053339" chance="10.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="false" />
         </drop_group>
         <drop_group use_category="true" name="WEAPON_RARE" race="PC_ALL">
-            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012635" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012634" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012637" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012636" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012633" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WEAPON_UNIQUE" race="PC_ALL">
-            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
-            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false" />
+            <drop item_id="152012641" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012640" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012643" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012642" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+            <drop item_id="152012639" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
         </drop_group>
         <drop_group use_category="true" name="WRIGHT_TOKEN" race="ELYOS">
             <drop item_id="186000132" chance="25.0" min_amount="1" max_amount="1" eachmember="false"/> <!-- монета ремесслеников-->

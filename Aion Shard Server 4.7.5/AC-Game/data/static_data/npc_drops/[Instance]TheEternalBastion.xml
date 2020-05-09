@@ -2,7 +2,7 @@
 <npc_drops>
     <!-- Chest Rank S -->
     <npc_drop npc_id="701913">
-        <drop_group name="BASTION_MYTHIQUE">
+        <drop_group use_category="true" name="BASTION_MYTHIQUE">
             <!-- Armes -->
             <drop item_id="100001585" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="100101223" chance="100.0" min_amount="1" max_amount="1"/>
@@ -75,7 +75,7 @@
             <drop item_id="113601445" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="114601452" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="BASTION_MYTHIQUE">
+        <drop_group use_category="true" name="BASTION_MYTHIQUE">
             <!-- Armes -->
             <drop item_id="100001585" chance="1.0" min_amount="1" max_amount="1"/>
             <drop item_id="100101223" chance="1.0" min_amount="1" max_amount="1"/>
@@ -148,7 +148,7 @@
             <drop item_id="113601445" chance="1.0" min_amount="1" max_amount="1"/>
             <drop item_id="114601452" chance="1.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="BASTION_ETERNEL_ARME">
+        <drop_group use_category="true" name="BASTION_ETERNEL_ARME">
             <!-- Armes -->
             <drop item_id="100001584" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="100101222" chance="100.0" min_amount="1" max_amount="1"/>
@@ -164,7 +164,7 @@
             <drop item_id="102001094" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="102100846" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="BASTION_ETERNEL_ARMURE">
+        <drop_group use_category="true" name="BASTION_ETERNEL_ARMURE">
             <!-- Bouclier -->
             <drop item_id="115001630" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="115001632" chance="100.0" min_amount="1" max_amount="1"/>
@@ -223,31 +223,31 @@
             <drop item_id="113601444" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="114601451" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="BLESSED_AUGMENT">
+        <drop_group use_category="true" name="BLESSED_AUGMENT">
             <drop item_id="168310019" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="PASHID_CLAW_BUNDLE">
+        <drop_group use_category="true" name="PASHID_CLAW_BUNDLE">
             <drop item_id="188052832" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="MAJOR_RELIC_BOX">
+        <drop_group use_category="true" name="MAJOR_RELIC_BOX">
             <drop item_id="188052607" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
     <!-- Chest Rank A -->
     <npc_drop npc_id="701914">
-        <drop_group name="BASTION_ETERNEL_ARME">
+        <drop_group use_category="true" name="BASTION_ETERNEL_ARME">
             <!-- Armes -->
             <drop item_id="100001584" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="100101222" chance="100.0" min_amount="1" max_amount="1"/>
@@ -263,7 +263,7 @@
             <drop item_id="102001094" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="102100846" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="BASTION_ETERNEL_ARMURE">
+        <drop_group use_category="true" name="BASTION_ETERNEL_ARMURE">
             <!-- Bouclier -->
             <drop item_id="115001630" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="115001632" chance="100.0" min_amount="1" max_amount="1"/>
@@ -322,25 +322,25 @@
             <drop item_id="113601444" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="114601451" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="PASHID_CLAW_BUNDLE">
+        <drop_group use_category="true" name="PASHID_CLAW_BUNDLE">
             <drop item_id="188052832" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="MAJOR_RELIC_BOX">
+        <drop_group use_category="true" name="MAJOR_RELIC_BOX">
             <drop item_id="188052607" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
     <!-- Chest Rank B -->
     <npc_drop npc_id="701915">
-        <drop_group name="BASTION_ETERNEL_ARMURE">
+        <drop_group use_category="true" name="BASTION_ETERNEL_ARMURE">
             <!-- Bouclier -->
             <drop item_id="115001630" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="115001632" chance="100.0" min_amount="1" max_amount="1"/>
@@ -399,53 +399,53 @@
             <drop item_id="113601444" chance="100.0" min_amount="1" max_amount="1"/>
             <drop item_id="114601451" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="MAJOR_RELIC_BOX">
+        <drop_group use_category="true" name="MAJOR_RELIC_BOX">
             <drop item_id="188052607" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
     <!-- Chest Rank C -->
     <npc_drop npc_id="701916">
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="MAJOR_RELIC_BOX">
+        <drop_group use_category="true" name="MAJOR_RELIC_BOX">
             <drop item_id="188052607" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
     <!-- Chest Rank D -->
     <npc_drop npc_id="701917">
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="100.0" min_amount="1" max_amount="1"/>
         </drop_group>
-        <drop_group name="MAJOR_RELIC_BOX">
+        <drop_group use_category="true" name="MAJOR_RELIC_BOX">
             <drop item_id="188052607" chance="100.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="true"/>
         </drop_group>
     </npc_drop>
 
     <npc_drop npc_id="230753">
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="25.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="230757">
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="25.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="831328">
-        <drop_group name="DEFENDER_SUPPLY_BOX">
+        <drop_group use_category="true" name="DEFENDER_SUPPLY_BOX">
             <drop item_id="188052599" chance="10.0" min_amount="1" max_amount="1"/>
         </drop_group>
     </npc_drop>

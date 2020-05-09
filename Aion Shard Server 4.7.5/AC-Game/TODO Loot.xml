@@ -7,19 +7,19 @@
 
 <!-- WORLDLOOT NOMMÉ -->
 <npc_drop npc_id="0">
-	<drop_group name="KINAH">
+	<drop_group use_category="true" name="KINAH">
 		<drop item_id="182400001" chance="10.0" min_amount="1000" max_amount="30000"/>
 	</drop_group>
-	<drop_group name="SHARDS">
+	<drop_group use_category="true" name="SHARDS">
 		<drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
 		<drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
 	</drop_group>
-	<drop_group name="MANASTONE">
+	<drop_group use_category="true" name="MANASTONE">
 		<drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
 		<drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
 		<drop item_id="188051756" chance="5.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
 	</drop_group>
-	<drop_group name="ESSENCE">
+	<drop_group use_category="true" name="ESSENCE">
 		<drop item_id="152012559" chance="7.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012560" chance="7.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012561" chance="7.0" min_amount="1" max_amount="10"/>
@@ -40,11 +40,11 @@
 		<drop item_id="152012576" chance="7.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012577" chance="7.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX">
+	<drop_group use_category="true" name="FLUX">
 		<drop item_id="188051172" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="188051173" chance="5.0" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="CRAFT_65">
+	<drop_group use_category="true" name="CRAFT_65">
 		<drop item_id="152012594" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012595" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012596" chance="3.0" min_amount="1" max_amount="10"/>
@@ -98,26 +98,26 @@
 		<drop item_id="152029315" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152029316" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="SHOP">
+	<drop_group use_category="true" name="SHOP">
 		<drop item_id="182400001" chance="0.001" min_amount="1" max_amount="1"/>
 	</drop_group>
 </npc_drop>
 
 <!-- WORLDLOOT Classic Balaur BUFF -->
 <npc_drop npc_id="0">
-	<drop_group name="KINAH">
+	<drop_group use_category="true" name="KINAH">
 		<drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
 	</drop_group>
-	<drop_group name="SHARDS">
+	<drop_group use_category="true" name="SHARDS">
 		<drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000"/>
 		<drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000"/>
 	</drop_group>
-	<drop_group name="MANASTONE">
+	<drop_group use_category="true" name="MANASTONE">
 		<drop item_id="188052199" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
 		<drop item_id="188052201" chance="0.1" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
 		<drop item_id="188051756" chance="5.0" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
 	</drop_group>
-	<drop_group name="ESSENCE">
+	<drop_group use_category="true" name="ESSENCE">
 		<drop item_id="152012559" chance="7.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012560" chance="7.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012561" chance="7.0" min_amount="1" max_amount="10"/>
@@ -138,7 +138,7 @@
 		<drop item_id="152012576" chance="7.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012577" chance="7.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX_65">
+	<drop_group use_category="true" name="FLUX_65">
 		<drop item_id="152011106" chance="5.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152011103" chance="5.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152011100" chance="5.0" min_amount="1" max_amount="10"/>
@@ -149,7 +149,7 @@
 		<drop item_id="152011105" chance="5.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152011102" chance="5.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX_60">
+	<drop_group use_category="true" name="FLUX_60">
 		<drop item_id="152011083" chance="5.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152011087" chance="5.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152011091" chance="5.0" min_amount="1" max_amount="10"/>
@@ -163,7 +163,7 @@
 		<drop item_id="152011084" chance="5.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152011088" chance="5.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="CRAFT_65">
+	<drop_group use_category="true" name="CRAFT_65">
 		<drop item_id="152012594" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012595" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012596" chance="3.0" min_amount="1" max_amount="10"/>
@@ -217,7 +217,7 @@
 		<drop item_id="152029315" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152029316" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="CRAFT_BALAUR">
+	<drop_group use_category="true" name="CRAFT_BALAUR">
 		<drop item_id="152014025" chance="10.0" min_amount="1" max_amount="1"/>
 		<drop item_id="152014024" chance="10.0" min_amount="1" max_amount="1"/>
 		<drop item_id="152014023" chance="10.0" min_amount="1" max_amount="1"/>
@@ -248,7 +248,7 @@
 		<drop item_id="186000097" chance="10.0" min_amount="1" max_amount="1"/>
 		<drop item_id="186000235" chance="10.0" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="ELEMENTAL_STONE">
+	<drop_group use_category="true" name="ELEMENTAL_STONE">
 		<drop item_id="152010327" chance="10.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152010326" chance="10.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152010325" chance="10.0" min_amount="1" max_amount="10"/>
@@ -259,19 +259,19 @@
 
 <!-- WORLDLOOT Classic Balaur NON BUFF -->
 <npc_drop npc_id="0">
-	<drop_group name="KINAH">
+	<drop_group use_category="true" name="KINAH">
 		<drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000"/>
 	</drop_group>
-	<drop_group name="SHARDS">
+	<drop_group use_category="true" name="SHARDS">
 		<drop item_id="169000010" chance="1.3" min_amount="100" max_amount="1000"/>
 		<drop item_id="141000001" chance="1.3" min_amount="100" max_amount="1000"/>
 	</drop_group>
-	<drop_group name="MANASTONE">
+	<drop_group use_category="true" name="MANASTONE">
 		<drop item_id="188052199" chance="0.005" min_amount="1" max_amount="1"/> <!-- Manastone 60 Blue -->
 		<drop item_id="188052201" chance="0.001" min_amount="1" max_amount="1"/> <!-- Manastone 70 Blue -->
 		<drop item_id="188051756" chance="0.5" min_amount="1" max_amount="1"/> <!-- Manastone 60/70 Green or White -->
 	</drop_group>
-	<drop_group name="ESSENCE">
+	<drop_group use_category="true" name="ESSENCE">
 		<drop item_id="152012559" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012560" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012561" chance="3.0" min_amount="1" max_amount="10"/>
@@ -292,7 +292,7 @@
 		<drop item_id="152012576" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012577" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX_65">
+	<drop_group use_category="true" name="FLUX_65">
 		<drop item_id="152011106" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011103" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011100" chance="1.5" min_amount="1" max_amount="10"/>
@@ -303,7 +303,7 @@
 		<drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX_60">
+	<drop_group use_category="true" name="FLUX_60">
 		<drop item_id="152011083" chance="1.7" min_amount="1" max_amount="10"/>
 		<drop item_id="152011087" chance="1.7" min_amount="1" max_amount="10"/>
 		<drop item_id="152011091" chance="1.7" min_amount="1" max_amount="10"/>
@@ -317,7 +317,7 @@
 		<drop item_id="152011084" chance="1.7" min_amount="1" max_amount="10"/>
 		<drop item_id="152011088" chance="1.7" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="CRAFT_65">
+	<drop_group use_category="true" name="CRAFT_65">
 		<drop item_id="152012594" chance="1.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012595" chance="1.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012596" chance="1.0" min_amount="1" max_amount="10"/>
@@ -371,7 +371,7 @@
 		<drop item_id="152029315" chance="1.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152029316" chance="1.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="CRAFT_BALAUR">
+	<drop_group use_category="true" name="CRAFT_BALAUR">
 		<drop item_id="152014025" chance="1.5" min_amount="1" max_amount="1"/>
 		<drop item_id="152014024" chance="1.5" min_amount="1" max_amount="1"/>
 		<drop item_id="152014023" chance="1.5" min_amount="1" max_amount="1"/>
@@ -402,7 +402,7 @@
 		<drop item_id="186000097" chance="1.5" min_amount="1" max_amount="1"/>
 		<drop item_id="186000235" chance="1.5" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="ELEMENTAL_STONE">
+	<drop_group use_category="true" name="ELEMENTAL_STONE">
 		<drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010326" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010325" chance="1.5" min_amount="1" max_amount="10"/>
@@ -421,20 +421,20 @@
 
 <!-- WORLDLOOT Idian Depth -->
 <npc_drop npc_id="0">
-	<drop_group name="KINAH">
+	<drop_group use_category="true" name="KINAH">
 		<drop item_id="182400001" chance="5.0" min_amount="1000" max_amount="30000"/>
 	</drop_group>
-	<drop_group name="ANCIENT_COIN">
+	<drop_group use_category="true" name="ANCIENT_COIN">
 		<drop item_id="186000237" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="ENIGMATIC_ORE">
+	<drop_group use_category="true" name="ENIGMATIC_ORE">
 		<drop item_id="152012579" chance="3.0" min_amount="1" max_amount="3"/>
 	</drop_group>
-	<drop_group name="SHARDS">
+	<drop_group use_category="true" name="SHARDS">
 		<drop item_id="169000010" chance="7.0" min_amount="100" max_amount="1000"/>
 		<drop item_id="141000001" chance="7.0" min_amount="100" max_amount="1000"/>
 	</drop_group>
-	<drop_group name="MANASTONE_BLUE_70">
+	<drop_group use_category="true" name="MANASTONE_BLUE_70">
 		<drop item_id="167000715" chance="3.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000716" chance="3.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000717" chance="3.0" min_amount="1" max_amount="1"/>
@@ -479,7 +479,7 @@
 		<drop item_id="167000756" chance="3.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000757" chance="3.0" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="MANASTONE_GREEN_70">
+	<drop_group use_category="true" name="MANASTONE_GREEN_70">
 		<drop item_id="167000564" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000565" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000566" chance="5.0" min_amount="1" max_amount="1"/>
@@ -494,7 +494,7 @@
 		<drop item_id="167000575" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000576" chance="5.0" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="ANCIENT_MANASTONE">
+	<drop_group use_category="true" name="ANCIENT_MANASTONE">
 		<!-- Ancient Manastone Green -->
 		<drop item_id="167020041" chance="1.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167020042" chance="1.0" min_amount="1" max_amount="1"/>
@@ -555,7 +555,7 @@
 		<drop item_id="167020082" chance="0.3" min_amount="1" max_amount="1"/>
 		<drop item_id="167020083" chance="0.3" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="ESSENCE">
+	<drop_group use_category="true" name="ESSENCE">
 		<drop item_id="152012559" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012560" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012561" chance="3.0" min_amount="1" max_amount="10"/>
@@ -576,7 +576,7 @@
 		<drop item_id="152012576" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012577" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX_65">
+	<drop_group use_category="true" name="FLUX_65">
 		<drop item_id="152011106" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011103" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011100" chance="1.5" min_amount="1" max_amount="10"/>
@@ -587,7 +587,7 @@
 		<drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="ELEMENTAL_STONE">
+	<drop_group use_category="true" name="ELEMENTAL_STONE">
 		<drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010326" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010325" chance="1.5" min_amount="1" max_amount="10"/>
@@ -598,20 +598,20 @@
 
 <!-- WORLDLOOT ELITE Idian Depth -->
 <npc_drop npc_id="0">
-	<drop_group name="KINAH">
+	<drop_group use_category="true" name="KINAH">
 		<drop item_id="182400001" chance="5.0" min_amount="1000" max_amount="30000"/>
 	</drop_group>
-	<drop_group name="ANCIENT_COIN">
+	<drop_group use_category="true" name="ANCIENT_COIN">
 		<drop item_id="186000237" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="ENIGMATIC_ORE">
+	<drop_group use_category="true" name="ENIGMATIC_ORE">
 		<drop item_id="152012579" chance="3.0" min_amount="1" max_amount="3"/>
 	</drop_group>
-	<drop_group name="SHARDS">
+	<drop_group use_category="true" name="SHARDS">
 		<drop item_id="169000010" chance="7.0" min_amount="100" max_amount="1000"/>
 		<drop item_id="141000001" chance="7.0" min_amount="100" max_amount="1000"/>
 	</drop_group>
-	<drop_group name="MANASTONE_BLUE_70">
+	<drop_group use_category="true" name="MANASTONE_BLUE_70">
 		<drop item_id="167000715" chance="3.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000716" chance="3.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000717" chance="3.0" min_amount="1" max_amount="1"/>
@@ -656,7 +656,7 @@
 		<drop item_id="167000756" chance="3.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000757" chance="3.0" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="MANASTONE_GREEN_70">
+	<drop_group use_category="true" name="MANASTONE_GREEN_70">
 		<drop item_id="167000564" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000565" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000566" chance="5.0" min_amount="1" max_amount="1"/>
@@ -671,7 +671,7 @@
 		<drop item_id="167000575" chance="5.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167000576" chance="5.0" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="ANCIENT_MANASTONE">
+	<drop_group use_category="true" name="ANCIENT_MANASTONE">
 		<!-- Ancient Manastone Green -->
 		<drop item_id="167020041" chance="1.0" min_amount="1" max_amount="1"/>
 		<drop item_id="167020042" chance="1.0" min_amount="1" max_amount="1"/>
@@ -732,7 +732,7 @@
 		<drop item_id="167020082" chance="0.3" min_amount="1" max_amount="1"/>
 		<drop item_id="167020083" chance="0.3" min_amount="1" max_amount="1"/>
 	</drop_group>
-	<drop_group name="ESSENCE">
+	<drop_group use_category="true" name="ESSENCE">
 		<drop item_id="152012559" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012560" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012561" chance="3.0" min_amount="1" max_amount="10"/>
@@ -753,7 +753,7 @@
 		<drop item_id="152012576" chance="3.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012577" chance="3.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="FLUX_65">
+	<drop_group use_category="true" name="FLUX_65">
 		<drop item_id="152011106" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011103" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011100" chance="1.5" min_amount="1" max_amount="10"/>
@@ -764,14 +764,14 @@
 		<drop item_id="152011105" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152011102" chance="1.5" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="ELEMENTAL_STONE">
+	<drop_group use_category="true" name="ELEMENTAL_STONE">
 		<drop item_id="152010327" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010326" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010325" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010319" chance="1.5" min_amount="1" max_amount="10"/>
 		<drop item_id="152010317" chance="1.5" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="CRAFT_65">
+	<drop_group use_category="true" name="CRAFT_65">
 		<drop item_id="152012594" chance="1.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012595" chance="1.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152012596" chance="1.0" min_amount="1" max_amount="10"/>
@@ -825,7 +825,7 @@
 		<drop item_id="152029315" chance="1.0" min_amount="1" max_amount="10"/>
 		<drop item_id="152029316" chance="1.0" min_amount="1" max_amount="10"/>
 	</drop_group>
-	<drop_group name="CRAFT_BALAUR">
+	<drop_group use_category="true" name="CRAFT_BALAUR">
 		<drop item_id="152014025" chance="1.5" min_amount="1" max_amount="1"/>
 		<drop item_id="152014024" chance="1.5" min_amount="1" max_amount="1"/>
 		<drop item_id="152014023" chance="1.5" min_amount="1" max_amount="1"/>

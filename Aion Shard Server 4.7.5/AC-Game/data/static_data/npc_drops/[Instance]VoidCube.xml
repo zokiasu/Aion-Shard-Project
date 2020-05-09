@@ -2,7 +2,7 @@
 <npc_drops>
     <!-- Intelligence Supply Box (Idldf5_Fortress_Re_TreasureBox_A) -->
     <npc_drop npc_id="701936">
-        <drop_group name="" use_category="false">
+        <drop_group use_category="true" race="PC_ALL" name="">
             <drop item_id="164000314" chance="20.0" min_amount="1" max_amount="1"/> <!-- Devastation Bomb -->
         </drop_group>
     </npc_drop>

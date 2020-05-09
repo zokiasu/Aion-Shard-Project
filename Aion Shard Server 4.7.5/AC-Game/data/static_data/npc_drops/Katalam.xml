@@ -2,14 +2,14 @@
 <npc_drops>
     <!-- DEBUT MOB FARM -->
         <npc_drop npc_id="0">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="10.0" min_amount="25000" max_amount="25600"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="50.0" min_amount="10" max_amount="100"/>
             <drop item_id="141000001" chance="50.0" min_amount="10" max_amount="100"/>
         </drop_group>
-        <drop_group name="MANASTONE">
+        <drop_group use_category="true" name="MANASTONE">
             <!-- Manastone 60 -->
             <drop item_id="167000551" chance="5.0" min_amount="1" max_amount="5"/> <!-- HP 95 -->
             <drop item_id="167000552" chance="5.0" min_amount="1" max_amount="5"/> <!-- MP 95 -->
@@ -146,7 +146,7 @@
             <drop item_id="167000743" chance="0.01" min_amount="1" max_amount="1"/> <!-- Magical Accuracy 16 / Crit Strike 9 -->
             <drop item_id="167000744" chance="0.01" min_amount="1" max_amount="1"/> <!-- Magical Accuracy 16 / Resist Magic 8 -->
         </drop_group>
-        <drop_group name="ESSENCE">
+        <drop_group use_category="true" name="ESSENCE">
         <drop item_id="152012559" chance="100.0" min_amount="1" max_amount="10"/>
         <drop item_id="152012560" chance="100.0" min_amount="1" max_amount="10"/>
         <drop item_id="152012561" chance="100.0" min_amount="1" max_amount="10"/>
@@ -167,10 +167,10 @@
         <drop item_id="152012576" chance="100.0" min_amount="1" max_amount="10"/>
         <drop item_id="152012577" chance="100.0" min_amount="1" max_amount="10"/>
     </drop_group>
-        <drop_group name="FLUX">
+        <drop_group use_category="true" name="FLUX">
             <drop item_id="188052202" chance="100.0" min_amount="1" max_amount="10"/>
         </drop_group>
-        <drop_group name="CRAFT_65">
+        <drop_group use_category="true" name="CRAFT_65">
             <drop item_id="152012594" chance="100.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012595" chance="100.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012596" chance="100.0" min_amount="1" max_amount="10"/>
@@ -224,7 +224,7 @@
             <drop item_id="152029315" chance="100.0" min_amount="1" max_amount="10"/>
             <drop item_id="152029316" chance="100.0" min_amount="1" max_amount="10"/>
         </drop_group>
-        <drop_group name="CRAFT_65">
+        <drop_group use_category="true" name="CRAFT_65">
             <drop item_id="152012594" chance="10.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012595" chance="10.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012596" chance="10.0" min_amount="1" max_amount="10"/>
@@ -278,7 +278,7 @@
             <drop item_id="152029315" chance="10.0" min_amount="1" max_amount="10"/>
             <drop item_id="152029316" chance="10.0" min_amount="1" max_amount="10"/>
         </drop_group>
-        <drop_group name="CRAFT_65">
+        <drop_group use_category="true" name="CRAFT_65">
             <drop item_id="152012594" chance="10.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012595" chance="10.0" min_amount="1" max_amount="10"/>
             <drop item_id="152012596" chance="10.0" min_amount="1" max_amount="10"/>
