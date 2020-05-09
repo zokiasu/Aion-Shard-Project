@@ -803,6 +803,14 @@
 				<spawn npc_id="232581" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="2937.6785" y="626.1562" z="291.875" h="75"/>
 				</spawn>
+                <spawn npc_id="233225" respawn_time="120" handler="GUARD_VILLAGE">
+                    <spot x="2892.4673" y="621.3728" z="289.9708" h="77"/>
+                    <spot x="2917.9795" y="599.3681" z="288.16464" h="72"/>
+                    <spot x="2887.456" y="581.49445" z="283.81558" h="60"/>
+                    <spot x="2904.5566" y="565.5811" z="284.2848" h="13"/>
+                    <spot x="2932.7712" y="554.81573" z="285.04755" h="84"/>
+                    <spot x="2923.689" y="576.07214" z="286.31076" h="63"/>
+                </spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
 			</simple_race>
 			<simple_race race="ASMODIANS">
@@ -1777,6 +1785,14 @@
 					<spot x="1453.2161" y="2323.3003" z="174.81451" h="83"/>
 					<spot x="1434.5588" y="2311.229" z="171.6776" h="97"/>
 				</spawn>
+                <!-- Stonewatch Recon Messenger -->
+                <spawn npc_id="233229" respawn_time="120" handler="GUARD_VILLAGE">
+                    <spot x="1435.7352" y="2282.748" z="170.68442" h="88"/>
+                    <spot x="1470.491" y="2276.5051" z="163.4706" h="76"/>
+                    <spot x="1408.7296" y="2248.8276" z="171.80283" h="45"/>
+                    <spot x="1395.8123" y="2276.7695" z="168.58864" h="89"/>
+                    <spot x="1355.0117" y="2256.1768" z="178.54858" h="10"/>
+                </spawn>
 				<!-- End Sub Camp Asmodian Spawns -->
 			</simple_race>
 			<simple_race race="ASMODIANS">
@@ -1887,6 +1903,14 @@
 				<spawn npc_id="232533" respawn_time="120" handler="GUARD_VILLAGE">
 					<spot x="1453.2161" y="2323.3003" z="174.81451" h="83"/>
 					<spot x="1434.5588" y="2311.229" z="172.21301" h="97"/>
+				</spawn>
+				<!-- Stonewatch Scout Envoy -->
+				<spawn npc_id="233210" respawn_time="120" handler="GUARD_VILLAGE">
+					<spot x="1435.7352" y="2282.748" z="170.68442" h="88"/>
+					<spot x="1470.491" y="2276.5051" z="163.4706" h="76"/>
+					<spot x="1408.7296" y="2248.8276" z="171.80283" h="45"/>
+					<spot x="1395.8123" y="2276.7695" z="168.58864" h="89"/>
+					<spot x="1355.0117" y="2256.1768" z="178.54858" h="10"/>
 				</spawn>
 				<!-- End Sub Camp Elyos Spawns -->
 			</simple_race>
