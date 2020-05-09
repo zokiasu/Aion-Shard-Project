@@ -1240,10 +1240,10 @@
     <!-- FIN MOB FARM -->
     <!-- Debut -->
     <npc_drop npc_id="233934">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -1440,10 +1440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233936">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -1640,10 +1640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233920">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -1840,10 +1840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233918">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -2040,10 +2040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233931">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -2240,10 +2240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233933">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -2440,10 +2440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233935">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -2640,10 +2640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233919">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -2840,10 +2840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233929">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -3040,10 +3040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233939">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -3240,10 +3240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233902">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -3440,10 +3440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233907">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -3640,10 +3640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233908">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -3840,10 +3840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233950">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -4040,10 +4040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233940">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -4240,10 +4240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233941">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -4440,10 +4440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233944">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -4640,10 +4640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233948">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -4840,10 +4840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233949">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -5040,10 +5040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234717">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -5240,10 +5240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234714">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -5440,10 +5440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234713">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -5640,10 +5640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234715">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -5840,10 +5840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234711">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -6040,10 +6040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234716">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -6240,10 +6240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234712">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -6440,10 +6440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234719">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -6640,10 +6640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234160">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -6840,10 +6840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234919">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -7040,10 +7040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234920">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -7240,10 +7240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234935">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -7440,10 +7440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234933">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -7640,10 +7640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234939">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -7840,10 +7840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234936">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -8040,10 +8040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234934">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -8240,10 +8240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234930">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -8440,10 +8440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234932">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -8640,10 +8640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234931">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -8840,10 +8840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233951">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -9040,10 +9040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233945">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -9240,10 +9240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233946">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -9440,10 +9440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233947">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -9640,10 +9640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233952">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -9840,10 +9840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234692">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -10040,10 +10040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234313">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -10240,10 +10240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234312">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -10440,10 +10440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234942">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -10640,10 +10640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234941">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -10840,10 +10840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233900">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -11040,10 +11040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234704">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -11240,10 +11240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234706">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -11440,10 +11440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234707">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -11640,10 +11640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234705">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -11840,10 +11840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233927">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -12040,10 +12040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233925">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -12240,10 +12240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233937">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -12440,10 +12440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233938">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -12640,10 +12640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233924">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -12840,10 +12840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233922">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -13040,10 +13040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233921">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -13240,10 +13240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233923">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -13440,10 +13440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233925">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -13640,10 +13640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233926">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -13840,10 +13840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233928">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -14040,10 +14040,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233903">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -14240,10 +14240,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="233904">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -14440,10 +14440,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234714">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -14640,10 +14640,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234716">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -14840,10 +14840,10 @@
         </drop_group>
     </npc_drop>
     <npc_drop npc_id="234711">
-        <drop_group name="KINAH">
+        <drop_group use_category="true" name="KINAH">
             <drop item_id="182400001" chance="1.0" min_amount="1000" max_amount="30000" no_reduce="false" eachmember="false"/>
         </drop_group>
-        <drop_group name="SHARDS">
+        <drop_group use_category="true" name="SHARDS">
             <drop item_id="169000010" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
             <drop item_id="141000001" chance="5.0" min_amount="100" max_amount="1000" no_reduce="false" eachmember="false"/>
         </drop_group>
@@ -15127,7 +15127,7 @@
         <drop_group use_category="true" name="COMPOSITE" race="PC_ALL">
             <drop item_id="188052199" chance="10.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/> <!-- Manastone 60 Blue -->
         </drop_group>
-        <drop_group name="DENKU_TOKEN">
+        <drop_group use_category="true" name="DENKU_TOKEN">
             <drop item_id="169405288" chance="15.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
             <drop item_id="169405290" chance="15.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
             <drop item_id="169405287" chance="15.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>

@@ -5982,6 +5982,9 @@
 	<tradelist_template npc_id="802584">
 		<tradelist id="2289"/>
 	</tradelist_template>
+	<tradelist_template npc_id="802585">
+		<tradelist id="2398"/>
+	</tradelist_template>
 	<tradelist_template npc_id="802587">
 		<tradelist id="2295"/>
 	</tradelist_template>
