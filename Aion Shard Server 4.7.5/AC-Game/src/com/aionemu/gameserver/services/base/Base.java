@@ -372,20 +372,16 @@ public class Base<BL extends BaseLocation> {
 
 		for (Npc npc : getSpawned()) {
 			if(getRace() == Race.ASMODIANS || getRace() == Race.ELYOS) {
-				try {
-					if (!npc.isSpawned()) {
-						log.error("Base " + this.getId() + " npc " + npc.getName());
-					}
-				} catch (Exception e) {
-					log.error("Test non fonctionnel");
+				if (npc.getRace() == getRace() || getRace() == Race.NPC) {
+					log.error("Base " + this.getId() + " npc " + npc.getName());
+					npc.getSpawn().setRespawnTime(0);
 				}
 			}
 
-			npc.getSpawn().setRespawnTime(0);
 			npc.getController().cancelTask(TaskId.RESPAWN);
 			npc.getController().onDelete();
 		}
-		//getSpawned().clear();
+		getSpawned().clear();
 
 		despawnAttackers();
 		if (startAssault != null) {
