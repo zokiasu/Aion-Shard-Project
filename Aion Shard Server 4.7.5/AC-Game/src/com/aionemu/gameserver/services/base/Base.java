@@ -383,6 +383,10 @@ public class Base<BL extends BaseLocation> {
 		FastList<Npc> spawned = World.getInstance().getBaseSpawns(getId());
 		if (spawned != null) {
 			for (Npc npc : spawned) {
+				if(!npc.isSpawned()) {
+					log.error("La base " + getId() + " a le npc " + npc.getName() + " qui n'est pas spawn");
+				}
+				npc.getSpawn().setRespawnTime(0);
 				npc.getController().onDelete();
 			}
 		}
