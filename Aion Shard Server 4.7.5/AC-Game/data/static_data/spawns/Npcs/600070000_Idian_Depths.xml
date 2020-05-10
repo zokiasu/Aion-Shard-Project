@@ -877,7 +877,7 @@
         </spawn>
         <!-- Ruanan the Spiteful -->
         <spawn npc_id="233303" respawn_time="295">
-            <spot x="210.35043" y="1137.4215" z="537.54492" h="10"/>
+            <spot x="210.35043" y="1137.4215" z="533.7573" h="10"/>
         </spawn>
         <!-- Rumela -->
         <spawn npc_id="801948" respawn_time="295">

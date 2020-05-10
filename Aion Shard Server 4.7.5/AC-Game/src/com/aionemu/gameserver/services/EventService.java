@@ -85,8 +85,7 @@ public class EventService {
         map2.clear();
     }
 
-    void StartOrMaintainQuests(Player player, ListIterator<Integer> questList,
-                               TIntObjectHashMap<List<EventTemplate>> templateMap, boolean start) {
+    void StartOrMaintainQuests(Player player, ListIterator<Integer> questList, TIntObjectHashMap<List<EventTemplate>> templateMap, boolean start) {
         while (questList.hasNext()) {
             int questId = questList.next();
             QuestState qs = player.getQuestStateList().getQuestState(questId);

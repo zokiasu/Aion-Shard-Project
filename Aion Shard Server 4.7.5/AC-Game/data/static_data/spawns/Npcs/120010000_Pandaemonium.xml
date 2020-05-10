@@ -687,8 +687,9 @@
             <spot h="110" x="1173.9226" y="1599.4865" z="214.03577"/>
         </spawn>
         <!-- Gullinkambi -->
-        <spawn npc_id="204074" respawn_time="295">
-            <spot h="53" x="1383.052" y="1528.701" z="209.81026"/>
+        <spawn npc_id="204074" respawn_time="295" difficult_id="0" custom="true">
+            <spot x="1356.1531" y="1475.7289" z="209.81087" h="53" entity_id="0"/>
+            <spot x="1298.6669" y="1501.683" z="209.81087" h="113" entity_id="0"/>
         </spawn>
         <!-- Gundrun -->
         <spawn npc_id="204093" respawn_time="295">

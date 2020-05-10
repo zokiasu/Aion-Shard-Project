@@ -164,8 +164,7 @@ public class GeoMap extends Node {
         return results.getClosestCollision().getContactPoint().z;
     }
 
-    public Vector3f getClosestCollision(float x, float y, float z, float targetX, float targetY, float targetZ, boolean changeDirection,
-                                        boolean fly, int instanceId, byte intentions) {
+    public Vector3f getClosestCollision(float x, float y, float z, float targetX, float targetY, float targetZ, boolean changeDirection, boolean fly, int instanceId, byte intentions) {
         float zChecked1 = 0;
         float zChecked2 = 0;
         if (!fly && changeDirection) {
@@ -232,8 +231,7 @@ public class GeoMap extends Node {
         return contactPoint;
     }
 
-    public CollisionResults getCollisions(float x, float y, float z, float targetX, float targetY, float targetZ, boolean changeDirection,
-                                          boolean fly, int instanceId, byte intentions) {
+    public CollisionResults getCollisions(float x, float y, float z, float targetX, float targetY, float targetZ, boolean changeDirection, boolean fly, int instanceId, byte intentions) {
         if (!fly && changeDirection) {
             z = getZ(x, y, z + 2, instanceId);
         }

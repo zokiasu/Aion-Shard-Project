@@ -59,7 +59,11 @@ public class cmd_drop extends PlayerCommand {
         for (DropGroup dropGroup : npcDrop.getDropGroup()) {
             PacketSendUtility.sendMessage(player, "DropGroup: " + dropGroup.getGroupName());
             for (Drop drop : dropGroup.getDrop()) {
-                PacketSendUtility.sendMessage(player, "[item:" + drop.getItemId() + "]");// + " Rate: " + drop.getChance());
+                if(player.isGM()) {
+                    PacketSendUtility.sendMessage(player, "[item:" + drop.getItemId() + "]" + " Rate: " + drop.getChance());
+                } else {
+                    PacketSendUtility.sendMessage(player, "[item:" + drop.getItemId() + "]");// + " Rate: " + drop.getChance());
+                }
                 count++;
             }
         }
