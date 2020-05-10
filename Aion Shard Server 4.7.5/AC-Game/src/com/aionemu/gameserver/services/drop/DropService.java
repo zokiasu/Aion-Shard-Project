@@ -305,7 +305,7 @@ public class DropService {
         }
 
         if (requestedItem == null) {
-            log.warn("Null requested index item: " + itemIndex + " npcId" + npcId + " player: " + player.getObjectId());
+            log.warn("Null requested index item: " + itemIndex + " npcId " + npcId + " player: " + player.getObjectId());
             return;
         }
 
