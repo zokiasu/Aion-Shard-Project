@@ -371,9 +371,9 @@ public class Base<BL extends BaseLocation> {
 		setFlag(null);
 
 		for (Npc npc : getSpawned()) {
-			if(getRace() == Race.ASMODIANS || getRace() == Race.ELYOS) {
-				if (npc.getRace() == getRace() || getRace() == Race.NPC) {
-					//log.error("Base " + this.getId() + " npc " + npc.getName());
+			if(baseLocation.getRace() == Race.ASMODIANS || baseLocation.getRace() == Race.ELYOS) {
+				if (npc.getRace() == baseLocation.getRace()) {
+					log.error("Base " + this.getId() + " npc " + npc.getName());
 					npc.getSpawn().setRespawnTime(0);
 				}
 			}
