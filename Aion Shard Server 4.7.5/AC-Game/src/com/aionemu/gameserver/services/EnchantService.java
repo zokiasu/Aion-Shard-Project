@@ -342,12 +342,9 @@ public class EnchantService {
                 break;
             case 5: // EPIC
                 number = Rnd.get(1, 3);
-                level = Rnd.get(1, 5);
+                level = Rnd.get(3, 5);
                 break;
             case 6: // MYTHIC
-                number = Rnd.get(1, 5);
-                level = Rnd.get(4, 5);
-                break;
             case 7: // MYTHIC
                 number = Rnd.get(1, 5);
                 level = Rnd.get(4, 5);
