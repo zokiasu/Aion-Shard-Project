@@ -7,6 +7,9 @@ public class StarterPackConfig {
     /**
      * Starter Pack
      */
+    @Property(key = "gameserver.starter.pack.enabled", defaultValue = "false")
+    public static boolean STARTER_ENABLED;
+
     @Property(key = "gameserver.starter.gladiator.pack", defaultValue = "141000001")
     public static String STARTER_GLADIATOR;
 

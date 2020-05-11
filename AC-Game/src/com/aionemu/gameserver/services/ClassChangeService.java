@@ -1,32 +1,21 @@
 package com.aionemu.gameserver.services;
 
-import com.aionemu.commons.database.dao.DAOManager;
 import com.aionemu.gameserver.configs.main.CustomConfig;
 import com.aionemu.gameserver.configs.main.GSConfig;
 import com.aionemu.gameserver.configs.main.MembershipConfig;
-import com.aionemu.gameserver.dao.InventoryDAO;
 import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.Item;
-import com.aionemu.gameserver.model.gameobjects.Npc;
-import com.aionemu.gameserver.model.gameobjects.PersistentState;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.items.ItemId;
 import com.aionemu.gameserver.model.templates.item.ItemTemplate;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.aionemu.gameserver.services.StigmaService;
-import com.aionemu.gameserver.services.SkillLearnService;
-import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_QUEST_ACTION;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
-import com.aionemu.gameserver.services.item.ItemPacketService;
 import com.aionemu.gameserver.services.item.ItemService;
-import com.aionemu.gameserver.services.item.ItemSocketService;
-import com.aionemu.gameserver.services.trade.PricesService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
-import com.aionemu.gameserver.services.CubeExpandService;
 
 import static com.aionemu.gameserver.configs.main.StarterPackConfig.*;
 
@@ -99,7 +88,6 @@ public class ClassChangeService {
     public static void changeClassToSelection(final Player player, final int dialogId) {
         Race playerRace = player.getRace();
         if (CustomConfig.ENABLE_SIMPLE_2NDCLASS) {
-            CubeExpandService.expand(player, true);
             if (playerRace == Race.ELYOS) {
                 completeQuest(player, 1929);
                 switch (dialogId) {
@@ -212,7 +200,11 @@ public class ClassChangeService {
             player.getController().upgradePlayer();
             PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 0, 0));
             SkillLearnService.addMissingSkills(player);
-            StarterPack(player);
+
+            if(STARTER_ENABLED) {
+                CubeExpandService.expand(player, true);
+                StarterPack(player);
+            }
         }
     }
 
