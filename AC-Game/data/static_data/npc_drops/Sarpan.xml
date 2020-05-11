@@ -236,8 +236,34 @@
 			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
 		</drop_group>
 	</npc_drop>
+	<npc_drop npc_id="218074">
+		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
+			<drop item_id="186000133" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
+		</drop_group>
+		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
+			<drop item_id="186000132" chance="100.0" min_amount="5" max_amount="5" no_reduce="false" eachmember="true"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Jotun Sculptor -->
+	<npc_drop npc_id="218072">
+		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
+			<drop item_id="186000133" chance="50.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="true"/>
+		</drop_group>
+		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
+			<drop item_id="186000132" chance="50.0" min_amount="1" max_amount="3" no_reduce="false" eachmember="true"/>
+		</drop_group>
+	</npc_drop>
 	<!-- Komad Worker -->
 	<npc_drop npc_id="218060">
+		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
+			<drop item_id="186000133" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+		</drop_group>
+		<drop_group use_category="true" name="SPECIAL" race="ELYOS">
+			<drop item_id="186000132" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
+		</drop_group>
+	</npc_drop>
+	<!-- Noble Orkanimum -->
+	<npc_drop npc_id="218062">
 		<drop_group use_category="true" name="SPECIAL" race="ASMODIANS">
 			<drop item_id="186000133" chance="5.0" min_amount="1" max_amount="1" no_reduce="false" eachmember="false"/>
 		</drop_group>

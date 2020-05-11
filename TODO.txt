@@ -1,4 +1,4 @@
-GiGatR00n Emulator Reworking Proccess. / Reworked by Jasonguns, Swasun
+GiGatR00n Emulator Reworking Proccess. / Reworked by Jasonguns, Swasun, Zokiasu
 ~Current Version 4.7.5~
 --------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------
@@ -28,11 +28,7 @@ THANKS FOR YOUR CAREFULLY READING!
 
 - Need to check the server start. Some troubles with the memory. Just can be seing with more players.
 
-- Supplements  are not working.
-
-- When you disconnect and are grouped, at the last second you can see the other player disconnected.
-
-- Sometimes, a dead mob stay standing.
+- Sometimes, a dead mob stay standing (Same thing for player).
 
 - Sometimes the fly time generation animation is bugging (but not the actual value).
 
@@ -42,9 +38,9 @@ THANKS FOR YOUR CAREFULLY READING!
 
 - Some geodata bugs (without giving the whole list).
 
-- When you learn a new skill, the notification doesn't appear all the times.
+- AI Npc in the world don't work, the npc does not bypass the objects, wall, etc...
 
-- No game music after the first quest "Prologue", because it's stopped by the movie, and it's not playing after
+- When you learn a new skill, the notification doesn't appear all the times.
 
 - Manastone remover price (I guess we have to guess the algorithm, all the public code I found so far have hardcoded values)
 
@@ -53,6 +49,8 @@ THANKS FOR YOUR CAREFULLY READING!
 - Some campaing quest icons dont show up in the map. Even on the npcs when you are near them.
 
 - Need to check the influence ratio because is not counting right.
+
+- Need to check teleport skill (Blind Leap), when we beam in, the Z-position's too high...
 
 ///////////////////////////////////////////////////////////////
 
@@ -68,8 +66,6 @@ the state of these fortresses (95% Done by GiGatR00n - left some testing)
 
 - Need to check 4.5 + instances (IronWall Warfront, Engulfed Ophidan Bridge)
 
-- Need to Add Drops for Beritra Invasion Raid (100% Done by GiGatR00n)
-
 - Need to check all core side for some inconsistent data
 
 - Need to recheck all the instances and their AIs
@@ -80,7 +76,7 @@ the state of these fortresses (95% Done by GiGatR00n - left some testing)
 
 - Stamp need to be check.
 
-- Arcade Token system need to be check.
+- Arcade Token system need to be check.(98% work)
 
 - Kaldor base flags (When you port to Kaldor you just see 2 flags instead of 4. Seems that can only show 1 flag per base)
 

@@ -367,7 +367,7 @@ public class Base<BL extends BaseLocation> {
 	}
 
 	protected void despawn() {
-		//log.warn("Call despawn");
+		log.warn("Call despawn");
 		setFlag(null);
 
 		for (Npc npc : getSpawned()) {
