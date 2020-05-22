@@ -237,8 +237,7 @@ public class WalkManager {
                         int nextY = Rnd.nextInt(walkRange * 2) - walkRange;
                         if (GeoDataConfig.GEO_ENABLE && GeoDataConfig.GEO_NPC_MOVE) {
                             byte flags = (byte) (CollisionIntention.PHYSICAL.getId() | CollisionIntention.DOOR.getId() | CollisionIntention.WALK.getId());
-                            Vector3f loc = GeoService.getInstance().getClosestCollision(owner, owner.getX() + nextX,
-                                    owner.getY() + nextY, owner.getZ(), true, flags);
+                            Vector3f loc = GeoService.getInstance().getClosestCollision(owner, owner.getX() + nextX, owner.getY() + nextY, owner.getZ(), true, flags);
                             owner.getMoveController().moveToPoint(loc.x, loc.y, loc.z);
                         } else {
                             owner.getMoveController().moveToPoint(owner.getX() + nextX, owner.getY() + nextY, owner.getZ());
